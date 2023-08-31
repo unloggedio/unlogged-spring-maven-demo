@@ -1,16 +1,16 @@
-package io.unlogged.unloggedDemo.service;
+package unlogged.unloggedDemo.service;
 
-import io.unlogged.unloggedDemo.models.CustomerProfile;
-import io.unlogged.unloggedDemo.models.CustomerProfileRequest;
-import io.unlogged.unloggedDemo.models.CustomerScoreCard;
-import io.unlogged.unloggedDemo.storage.CustomerProfileStore;
+import unlogged.unloggedDemo.models.CustomerProfile;
+import unlogged.unloggedDemo.models.CustomerProfileRequest;
+import unlogged.unloggedDemo.models.CustomerScoreCard;
+import unlogged.unloggedDemo.storage.CustomerProfileStore;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static io.unlogged.unloggedDemo.constants.ScoreConstants.PREMIUM_CUT_OFF;
-import static io.unlogged.unloggedDemo.constants.ScoreConstants.SCORE_PER_REFERRAL;
-import static io.unlogged.unloggedDemo.utils.ReferralUtils.generateReferralCode;
+import static unlogged.unloggedDemo.constants.ScoreConstants.PREMIUM_CUT_OFF;
+import static unlogged.unloggedDemo.constants.ScoreConstants.SCORE_PER_REFERRAL;
+import static unlogged.unloggedDemo.utils.ReferralUtils.generateReferralCode;
 
 public class CustomerService {
     private CustomerProfileStore customerProfileStore = new CustomerProfileStore();

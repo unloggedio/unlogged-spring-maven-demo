@@ -1,4 +1,4 @@
-package io.unlogged.unloggedDemo;
+package unlogged.unloggedDemo;
 
 import io.unlogged.Unlogged;
 import org.springframework.boot.SpringApplication;

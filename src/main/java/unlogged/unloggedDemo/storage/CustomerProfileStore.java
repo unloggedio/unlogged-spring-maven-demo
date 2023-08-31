@@ -1,7 +1,7 @@
-package io.unlogged.unloggedDemo.storage;
+package unlogged.unloggedDemo.storage;
 
-import io.unlogged.unloggedDemo.models.CustomerProfile;
-import io.unlogged.unloggedDemo.models.CustomerProfileRequest;
+import unlogged.unloggedDemo.models.CustomerProfile;
+import unlogged.unloggedDemo.models.CustomerProfileRequest;
 
 import java.util.TreeMap;
 

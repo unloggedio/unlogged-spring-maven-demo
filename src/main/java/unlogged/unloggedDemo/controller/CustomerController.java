@@ -1,14 +1,12 @@
-package io.unlogged.unloggedDemo.controller;
+package unlogged.unloggedDemo.controller;
 
-import io.unlogged.unloggedDemo.models.CustomerProfile;
-import io.unlogged.unloggedDemo.models.CustomerProfileRequest;
-import io.unlogged.unloggedDemo.models.CustomerScoreCard;
-import io.unlogged.unloggedDemo.service.CustomerService;
+import unlogged.unloggedDemo.models.CustomerProfile;
+import unlogged.unloggedDemo.models.CustomerProfileRequest;
+import unlogged.unloggedDemo.models.CustomerScoreCard;
+import unlogged.unloggedDemo.service.CustomerService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.ArrayList;
 
 @RestController
 @RequestMapping("/customer")

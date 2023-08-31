@@ -1,4 +1,4 @@
-package io.unlogged.unloggedDemo.models;
+package unlogged.unloggedDemo.models;
 
 import java.util.Date;
 

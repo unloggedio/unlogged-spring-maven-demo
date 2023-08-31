@@ -1,4 +1,4 @@
-package io.unlogged.unloggedDemo;
+package unlogged.unloggedDemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

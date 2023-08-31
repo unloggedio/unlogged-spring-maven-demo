@@ -1,4 +1,4 @@
-package io.unlogged.unloggedDemo.constants;
+package unlogged.unloggedDemo.constants;
 
 public class ReferralConstants {
     public static final int REFERRAL_LEFT_LIMIT = 97;

@@ -1,4 +1,4 @@
-package io.unlogged.unloggedDemo.constants;
+package unlogged.unloggedDemo.constants;
 
 public class ScoreConstants {
     public static final int PREMIUM_CUT_OFF = 18;
