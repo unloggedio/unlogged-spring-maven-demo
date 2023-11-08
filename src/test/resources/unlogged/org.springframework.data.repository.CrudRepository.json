@@ -1,0 +1,7 @@
+{
+  "classname" : "org.springframework.data.repository.CrudRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.springframework.data.repository.CrudRepository#save#(Ljava/lang/Object;)Ljava/lang/Object;" : [ ]
+  }
+}

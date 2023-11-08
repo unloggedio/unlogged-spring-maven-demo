@@ -47,7 +47,10 @@ To install unlogged's dependencies if needed.
 
    `mvn clean`
 
-   
+**Additional requirements :**
+- You will need an instance of mysql running locally. Create a database with the same name as the one in ```Application.properties``` to get started.
+- Make sure you also have redis installed and running.
+
    Start your project in **Debug mode** from intelliJ idea and enjoy.
 
 

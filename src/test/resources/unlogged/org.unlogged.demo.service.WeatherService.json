@@ -1,0 +1,7 @@
+{
+  "classname" : "org.unlogged.demo.service.WeatherService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ ]
+  }
+}
