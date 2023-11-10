@@ -1,6 +1,6 @@
 # Springboot Mega Application
 
-This application tries to use everything.
+This application tries to use every spring 3rd party integration available
 
 This project meant to be a playground for testing Unlogged SDK and Plugin.
 
