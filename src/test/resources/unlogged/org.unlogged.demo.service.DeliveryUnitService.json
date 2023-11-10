@@ -33,13 +33,13 @@
       "sessionIdentifier" : -1956915022,
       "probSerializedValue" : "W3siaWQiOiJCTFIwMDEiLCJ1bml0TmFtZSI6IkJsb3JlVW5pdmVyc2l0eTAwMSIsImF2YWlsYWJsZSI6dHJ1ZSwibG9jYXRpb24iOiJiYW5nYWxvcmUifSx7ImlkIjoiQkxSMDAyIiwidW5pdE5hbWUiOiJZZXNod2FudGhwdXJhMDAxIiwiYXZhaWxhYmxlIjpmYWxzZSwibG9jYXRpb24iOiJiYW5nYWxvcmUifSx7ImlkIjoiQkxSMDAzIiwidW5pdE5hbWUiOiJSYWphcmFqZXNod2FyaTAwMSIsImF2YWlsYWJsZSI6dHJ1ZSwibG9jYXRpb24iOiJiYW5nYWxvcmUifSx7ImlkIjoiQkxSMDA0IiwidW5pdE5hbWUiOiJWaWpheW5hZ2FyMDAxIiwiYXZhaWxhYmxlIjpmYWxzZSwibG9jYXRpb24iOiJiYW5nYWxvcmUifV0=",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "getAllDeliveryUnits",
         "signature" : "()Ljava/util/List;",
         "className" : "org.unlogged.demo.service.DeliveryUnitService",
         "methodHash" : 462341776
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }

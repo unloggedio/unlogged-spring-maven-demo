@@ -1,16 +1,19 @@
-# Unlogged Demo
+# Springboot Mega Application
 
-This is a springboot project meant to be a playground for unlogged.
+This application tries to use everything.
+
+This project meant to be a playground for testing Unlogged SDK and Plugin.
+
 The dependencies are already setup for this project, you can clone this repository and get started.
 
-To install unlogged's dependencies if needed.
+Add unlogged-sdk dependency
 1. Add unlogged-sdk to ```pom.xml```.
    The dependency :
    ```agsl
    <dependency>
    <artifactId>unlogged-sdk</artifactId>
    <groupId>video.bug</groupId>
-   <version>0.0.26</version>
+   <version><--LATEST VERSION --></version>
    </dependency>
    ```
    For certain maven projects the following might be needed (JDK 9+)
@@ -23,7 +26,7 @@ To install unlogged's dependencies if needed.
                <annotationProcessorPath>
                   <artifactId>unlogged-sdk</artifactId>
                   <groupId>video.bug</groupId>
-                  <version>0.0.26</version>
+                  <version><--LATEST VERSION --></version>
                </annotationProcessorPath>
          </annotationProcessorPaths>
       </configuration>

@@ -26,7 +26,7 @@ public class StudentController {
 
 
     @RequestMapping("{id}")
-    public Optional<Student> getById(String id) {
+    public Optional<Student> getById(@PathVariable("id") String id) {
         return studentService.getStudent(id);
     }
 
@@ -35,8 +35,8 @@ public class StudentController {
         return studentService.createStudent(student);
     }
 
-    @PostMapping
-    public boolean updateStudent(Student student) {
+    @PostMapping(path = "{id}")
+    public boolean updateStudent(@PathVariable("id") String id, Student student) {
         return studentService.updateStudent(student);
     }
 
