@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.service.CustomerService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 27, 28 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":10,\"customername\":\"John doe\",\"dateofbirth\":\"1998-9-25\",\"email\":\"john.doe@gmail.com\",\"contactnumber\":\"9825672456\",\"address\":\"304 Alanis Parkway, Boylemouth, Virginia\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\",\"7Ffb8QoG4gLG\"]}",
+          "id" : "7ea1c773-1ee8-4809-9f96-ea7b8ade394f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6d458eb1-cd3f-49ec-baba-d9ca280086d8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "24ea2fd4-80b4-44bd-8092-796675b48d17",
+      "name" : "usrc",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "10" ],
+      "returnValue" : "{\"customerid\":10,\"customername\":\"John doe\",\"dateofbirth\":\"1998-9-25\",\"email\":\"john.doe@gmail.com\",\"contactnumber\":\"9825672456\",\"address\":\"304 Alanis Parkway, Boylemouth, Virginia\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\",\"7Ffb8QoG4gLG\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1699514324616,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1827183657,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjoxMCwiY3VzdG9tZXJuYW1lIjoiSm9obiBkb2UiLCJkYXRlb2ZiaXJ0aCI6IjE5OTgtOS0yNSIsImVtYWlsIjoiam9obi5kb2VAZ21haWwuY29tIiwiY29udGFjdG51bWJlciI6Ijk4MjU2NzI0NTYiLCJhZGRyZXNzIjoiMzA0IEFsYW5pcyBQYXJrd2F5LCBCb3lsZW1vdXRoLCBWaXJnaW5pYSIsInJlZmVycmFsY29kZXMiOlsiVnRZeHE4bTBPcDBNIiwiTHlKTXFFQ05yM3ZuIiwiNjUwd20zYUt5T3d4IiwiOExKSUx3NWhmdVBIIiwiak1HT0VodjhoT01VIiwiN0ZmYjhRb0c0Z0xHIl19",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : -1143008288
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

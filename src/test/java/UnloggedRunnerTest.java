@@ -2,25 +2,18 @@ import io.unlogged.runner.UnloggedTestRunner;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.PropertiesPropertySource;
 import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
+import org.springframework.test.context.TestPropertySource;
 
 import java.io.IOException;
 
 @RunWith(UnloggedTestRunner.class)
-@ComponentScan("org.unlogged.demo")                  // update the package name here
+@ComponentScan("org.unlogged.demo")
 @EnableAutoConfiguration
-//@PropertySource(
-//        value = {"config/application.yml", "config/application-dev.yml"},       // update the config files you want to use
-//        factory = UnloggedRunnerTest.YamlPropertySourceFactory.class)           // this is for supporting yml files
-//@EnableConfigurationProperties({ApplicationProperties.class})
-// specify your test application properties
-@TestConfiguration
+@TestPropertySource({"classpath:application.properties"})
 public class UnloggedRunnerTest {
 
     public static class YamlPropertySourceFactory implements PropertySourceFactory {
