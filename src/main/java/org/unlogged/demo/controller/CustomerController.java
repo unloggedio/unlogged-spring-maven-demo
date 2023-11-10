@@ -1,6 +1,7 @@
 package org.unlogged.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.CustomerScoreCard;
@@ -23,6 +24,7 @@ public class CustomerController {
     }
 
     @RequestMapping("/create")
+    @PostMapping
     private CustomerProfile saveCustomerProfile(@RequestParam CustomerProfileRequest saveRequest) {
         return customerService.saveNewCustomer(saveRequest);
     }

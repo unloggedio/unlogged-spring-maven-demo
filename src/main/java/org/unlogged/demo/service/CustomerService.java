@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import org.unlogged.demo.constants.ScoreConstants;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.models.CustomerProfile;
-import org.unlogged.demo.storage.CustomerProfileStore;
+import org.unlogged.demo.repository.CustomerProfileRepository;
 import org.unlogged.demo.utils.ScoreUtils;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.CustomerScoreCard;
@@ -18,13 +18,13 @@ import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
 @Service
 public class CustomerService {
     @Autowired
-    private CustomerProfileStore customerProfileStore;
+    private CustomerProfileRepository customerProfileRepository;
 
     @Autowired
     private CustomerProfileRepo repo;
 
     public CustomerProfile fetchCustomerProfile(long id) {
-        CustomerProfile profile = customerProfileStore.fetchCustomerProfile(id);
+        CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(id);
         return profile;
     }
 
@@ -37,13 +37,13 @@ public class CustomerService {
     }
 
     public CustomerProfile removeCustomer(long customerID) {
-        return customerProfileStore.removeCustomer(customerID);
+        return customerProfileRepository.removeCustomer(customerID);
     }
 
     public CustomerProfile generateReferralForCustomer(long customerID) {
-        CustomerProfile profile = customerProfileStore.fetchCustomerProfile(customerID);
+        CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(customerID);
         profile.getReferralcodes().add(generateReferralCode());
-        customerProfileStore.save(profile);
+        customerProfileRepository.save(profile);
         return profile;
     }
 
@@ -57,7 +57,7 @@ public class CustomerService {
     }
 
     public CustomerScoreCard isCustomerEligibleForPremium(long customerID) {
-        CustomerProfile profile = customerProfileStore.fetchCustomerProfile(customerID);
+        CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(customerID);
         int score = 0, bonus = 0;
         boolean isEligible = false;
         if (profile.getAddress().contains("Ohio") ||
@@ -76,7 +76,7 @@ public class CustomerService {
 
     public List<CustomerProfile> filterEligbleCustomers(List<CustomerProfile> customers, boolean asiaFlow) {
         List<CustomerProfile> eligibleCustomers = new ArrayList<>();
-        eligibleCustomers = customerProfileStore.getAsianCustomers();
+        eligibleCustomers = customerProfileRepository.getAsianCustomers();
         if (asiaFlow) {
             for (CustomerProfile customer : customers) {
                 int bonus = 0;

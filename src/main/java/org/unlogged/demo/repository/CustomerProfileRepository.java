@@ -1,4 +1,4 @@
-package org.unlogged.demo.storage;
+package org.unlogged.demo.repository;
 
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 @Service
-public class CustomerProfileStore {
+public class CustomerProfileRepository {
 
     private final TreeMap<Long, CustomerProfile> profileTreeMap = new TreeMap<>();
     int c = 1;
