@@ -18,28 +18,28 @@ public class CustomerController {
     private CustomerService customerService;
 
     @RequestMapping("/get")
-    private CustomerProfile getCustomerProfile(@RequestParam long customerID) {
+    public CustomerProfile getCustomerProfile(@RequestParam long customerID) {
         CustomerProfile e = customerService.fetchCustomerProfile(customerID);
         return e;
     }
 
     @RequestMapping("/create")
     @PostMapping
-    private CustomerProfile saveCustomerProfile(@RequestParam CustomerProfileRequest saveRequest) {
+    public CustomerProfile saveCustomerProfile(@RequestParam CustomerProfileRequest saveRequest) {
         return customerService.saveNewCustomer(saveRequest);
     }
 
     @RequestMapping("/remove")
-    private CustomerProfile removeCustomerProfile(@RequestParam long customerID) {
+    public CustomerProfile removeCustomerProfile(@RequestParam long customerID) {
         return customerService.removeCustomer(customerID);
     }
 
     @RequestMapping("/generateReferral")
-    private CustomerProfile generateNeReferralCode(@RequestParam long customerID) {
+    public CustomerProfile generateNeReferralCode(@RequestParam long customerID) {
         return customerService.generateReferralForCustomer(customerID);
     }
 
-    private CustomerScoreCard isCustomerEligibleForLoyaltyProgram(@RequestParam long customerID) {
+    public CustomerScoreCard isCustomerEligibleForLoyaltyProgram(@RequestParam long customerID) {
         return customerService.isCustomerEligibleForPremium(customerID);
     }
 
