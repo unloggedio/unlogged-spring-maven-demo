@@ -1,0 +1,85 @@
+{
+  "classname" : "org.unlogged.demo.controller.CustomerController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.CustomerController#getCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 22, 23 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "f798b529-39e7-42b9-9757-f18837ba83bc",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2865ea79-8ce4-4b95-baf7-684a91e743e2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "1d23f828-9c97-4828-8af2-fb9e5b491c00",
+      "name" : "test-1",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "short-kt",
+        "hostMachineName" : "short-kt",
+        "timestamp" : 1700132845942,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 127710806,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "24424e28-3d26-441b-9a47-39be7993d6ce" ],
+      "method" : {
+        "name" : "getCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 1442596880
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 22, 23 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "939db28e-6a74-4f1e-ae32-2896d7fcdc49",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "cf3608c7-1f6b-4b35-83ce-1327ec1dc43d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ab66191c-9e3a-495a-bdf2-7f35731041a4",
+      "name" : "test-2",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "2" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "short-kt",
+        "hostMachineName" : "short-kt",
+        "timestamp" : 1700132865765,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1739099498,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "24424e28-3d26-441b-9a47-39be7993d6ce" ],
+      "method" : {
+        "name" : "getCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 1442596880
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
