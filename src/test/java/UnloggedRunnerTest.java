@@ -12,8 +12,6 @@ import java.io.IOException;
 
 @RunWith(UnloggedTestRunner.class)
 @ComponentScan("org.unlogged.demo")
-@EnableAutoConfiguration
-@TestPropertySource({"classpath:application.properties"})
 public class UnloggedRunnerTest {
 
     public static class YamlPropertySourceFactory implements PropertySourceFactory {
