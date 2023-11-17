@@ -3,8 +3,8 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
-      "id" : "24424e28-3d26-441b-9a47-39be7993d6ce",
-      "name" : "mock",
+      "id" : "9987a951-0b80-4d19-acaa-958a62a6d2e2",
+      "name" : "mock-1",
       "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
       "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
       "fieldName" : "customerService",
@@ -17,7 +17,28 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "value" : "{\n  \"customerid\" : 0,\n  \"customername\" : \"mock-1\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"string\",\n  \"referralcodes\" : [ \"string\" ]\n}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    }, {
+      "id" : "b44fdaf0-f4ed-4ae8-8089-26821dbf0d5c",
+      "name" : "mock-2",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"customerid\" : 0,\n  \"customername\" : \"mock-2\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"string\",\n  \"referralcodes\" : [ \"string\" ]\n}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
