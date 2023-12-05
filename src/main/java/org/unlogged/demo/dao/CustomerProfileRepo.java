@@ -7,4 +7,7 @@ import org.unlogged.demo.models.CustomerProfile;
 public interface CustomerProfileRepo extends JpaRepository<CustomerProfile, Long> {
     @Query(value = "SELECT * FROM customerprofile u WHERE u.customerid = :customerid", nativeQuery = true)
     public CustomerProfile getByCustomerId(long customerid);
+
+    @Query(value = "SELECT MAX(customerid) FROM customerprofile",nativeQuery = true)
+    public long getLastId();
 }

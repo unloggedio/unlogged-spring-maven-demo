@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.models.CustomerProfile;
+import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.redis.DeliveryUnit;
 import org.unlogged.demo.models.weather.WeatherInfo;
 import org.unlogged.demo.utils.LocationUtils;
@@ -51,8 +52,11 @@ public class DeliveryService {
         return customerProfileRepo.findAll();
     }
 
-    public CustomerProfile addNewCustomer(CustomerProfile customerProfile) {
-        customerProfileRepo.save(customerProfile);
-        return customerProfile;
+    public CustomerProfile addNewCustomer(CustomerProfileRequest customerProfileRequest) {
+        long lastId = customerProfileRepo.getLastId();
+        return customerProfileRepo.save(new CustomerProfile(lastId + 1, customerProfileRequest.getCustomerName(),
+                customerProfileRequest.getDateOfBirth(), customerProfileRequest.getEmail(),
+                customerProfileRequest.getPrimaryNumber(), customerProfileRequest.getAddress(),
+                customerProfileRequest.getCodes()));
     }
 }

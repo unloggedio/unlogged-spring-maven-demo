@@ -31,9 +31,7 @@ public class CustomerService {
     public CustomerProfile saveNewCustomer(CustomerProfileRequest saveRequest) {
         List<String> codes = generateReferralCodes();
         saveRequest.setCodes(codes);
-        CustomerProfile profile = new CustomerProfile(10, saveRequest.getCustomerName(),
-                saveRequest.getDateOfBirth(), saveRequest.getEmail(), saveRequest.getPrimaryNumber(), saveRequest.getAddress(), saveRequest.getCodes());
-        return repo.save(profile);
+        return customerProfileRepository.save(saveRequest);
     }
 
     public CustomerProfile removeCustomer(long customerID) {

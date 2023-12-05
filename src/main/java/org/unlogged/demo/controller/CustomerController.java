@@ -19,8 +19,7 @@ public class CustomerController {
 
     @RequestMapping("/get")
     private CustomerProfile getCustomerProfile(@RequestParam long customerID) {
-        CustomerProfile e = customerService.fetchCustomerProfile(customerID);
-        return e;
+        return customerService.fetchCustomerProfile(customerID);
     }
 
     @RequestMapping("/create")
