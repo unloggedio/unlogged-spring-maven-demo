@@ -18,15 +18,15 @@ public class CustomerController {
     private CustomerService customerService;
 
     @RequestMapping("/get")
-    public CustomerProfile getCustomerProfile(@RequestParam long customerID) {
-        CustomerProfile e = customerService.fetchCustomerProfile(customerID);
-        return e;
+    public CustomerProfile getCustomerProfile(@RequestParam long customerID){
+        return customerService.fetchCustomerProfile(customerID);
     }
 
     @RequestMapping("/create")
     @PostMapping
     public CustomerProfile saveCustomerProfile(@RequestParam CustomerProfileRequest saveRequest) {
-        return customerService.saveNewCustomer(saveRequest);
+        CustomerProfile customer = customerService.saveNewCustomer(saveRequest);
+        return customer;
     }
 
     @RequestMapping("/remove")
@@ -41,6 +41,11 @@ public class CustomerController {
 
     public CustomerScoreCard isCustomerEligibleForLoyaltyProgram(@RequestParam long customerID) {
         return customerService.isCustomerEligibleForPremium(customerID);
+    }
+
+    public float gen_sum (float a, float b) {
+        float val = a + b;
+        return val;
     }
 
 }
