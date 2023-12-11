@@ -1,13 +1,13 @@
 package org.unlogged.demo.controller;
 
+import com.google.protobuf.ByteString;
 import com.google.protobuf.Message;
 import com.google.protobuf.MessageOrBuilder;
 import com.google.protobuf.Struct;
 import com.google.protobuf.util.JsonFormat;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.unlogged.demo.protos.generated.AddressBook;
-import org.unlogged.demo.protos.generated.Person;
+import org.unlogged.demo.protos.generated.*;
 
 import java.io.IOException;
 
@@ -65,5 +65,20 @@ public class ProtoController {
     private String toJson(MessageOrBuilder messageOrBuilder) throws IOException {
         return JsonFormat.printer().print(messageOrBuilder);
     }
+
+    @RequestMapping("/entity")
+    public Entity fetchEntity() {
+        Entity entity = Entity.newBuilder().setEntityId("ID-01")
+                .setEntityType("Type-01")
+                .setDir("/d1")
+//                .putProperties("location", EntityProperty.newBuilder()
+//                        .setBoolValue(true)
+//                        .setDoubleValue(12.0)
+//                        .build())
+                .build();
+        return entity;
+    }
+
+
 
 }

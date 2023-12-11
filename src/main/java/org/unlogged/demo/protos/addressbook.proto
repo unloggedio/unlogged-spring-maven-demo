@@ -1,6 +1,6 @@
 syntax = "proto2";
 
-package tutorial;
+package protobuf.demo;
 
 option java_multiple_files = true;
 option java_package = "org.unlogged.demo.protos.generated";
