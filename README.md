@@ -1,6 +1,6 @@
-# Springboot Mega Application
+# Springboot Mega Application (Maven)
 
-This application tries to use every spring 3rd party integration available
+This application tries to use every spring 3rd party integration available with a maven spring project as it's base.
 
 This project meant to be a playground for testing Unlogged SDK and Plugin.
 
