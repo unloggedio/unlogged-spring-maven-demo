@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.unlogged</groupId>
-    <artifactId>unlogged-demo-maven</artifactId>
+    <artifactId>unlogged-spring-maven-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>unlogged-demo-maven</name>
+    <name>unlogged-spring-maven-demo</name>
     <description>Demo project for Spring Boot maven</description>
     <properties>
         <java.version>17</java.version>
