@@ -1,0 +1,85 @@
+{
+  "classname" : "org.unlogged.demo.utils.LocationUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.utils.LocationUtils#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 5, 6 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Cambodia\"",
+          "id" : "8874271b-c9f1-4f03-98d9-f06ac2f1c2d3",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "84b5926b-28e8-43fb-be77-7bcb4c9132be",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "412b2486-ebd0-481d-b8f3-f3fe62034ff6",
+      "name" : "Parse case - Cambodia",
+      "description" : "should pass",
+      "methodArguments" : [ "\"Laos, Cambodia\"" ],
+      "returnValue" : "\"Cambodia\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703582795671,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1307304956,
+      "probSerializedValue" : "IkNhbWJvZGlhIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.LocationUtils",
+        "methodHash" : -1737006814
+      }
+    }, {
+      "lineNumbers" : [ 5, 6 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Cambodia\"",
+          "id" : "81993ec7-cfcb-4e90-a2a2-78a47b930cb4",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bf6e4eb3-aadf-4219-b173-6db30a1a8333",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "b559c1c0-83b9-477a-b09a-d7ff5b25ad67",
+      "name" : "No parse case - Cambodia",
+      "description" : "should pass",
+      "methodArguments" : [ "\"Cambodia\"" ],
+      "returnValue" : "\"Cambodia\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703582822089,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1966408042,
+      "probSerializedValue" : "IkNhbWJvZGlhIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.LocationUtils",
+        "methodHash" : -1737006814
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

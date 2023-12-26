@@ -1,6 +1,47 @@
 {
   "classname" : "org.unlogged.demo.service.FutureService",
-  "storedCandidateMap" : { },
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "lineNumbers" : [ 18 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "ed199e36-27d5-4313-aa0c-358edf497446",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6b971e0c-5a1f-4a5d-ab91-fade23ee95f4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "522a28fa-4228-401d-895f-0f5c2edf19ad",
+      "name" : "string optional case",
+      "description" : "should pass",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"string\"",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703581885208,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1653710846,
+      "probSerializedValue" : "InN0cmluZyI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "doSomethingOptional",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional;",
+        "className" : "org.unlogged.demo.service.FutureService",
+        "methodHash" : 591176212
+      }
+    } ]
+  },
   "declaredMockMap" : {
     "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
       "id" : "737f11ba-f132-4d64-b9ba-23c857f16e9b",
