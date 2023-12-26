@@ -2,6 +2,84 @@
   "classname" : "org.unlogged.demo.service.CustomerService",
   "storedCandidateMap" : {
     "org.unlogged.demo.service.CustomerService#filterEligbleCustomers#(Ljava/util/List;Z)Ljava/util/List;" : [ {
+      "lineNumbers" : [ 78, 79, 82, 84, 117, 118, 119, 121, 124, 127, 128, 131, 133 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "[]",
+          "id" : "2a44287d-aa88-43ab-952c-6eb82d2c70a4",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "963b73f0-54ce-49bc-80bf-74e9a4abb7c8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7d191cba-0b21-4857-bcba-c9af992096dd",
+      "name" : "International - not eligible case",
+      "description" : "should pass",
+      "methodArguments" : [ "[{\"customerid\":12,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]", "0" ],
+      "returnValue" : "[]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703581127054,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 785129949,
+      "probSerializedValue" : "W10=",
+      "mockIds" : [ "df86aa02-d4f9-48d1-aa06-02e34d6d38d9" ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterEligbleCustomers",
+        "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : 1928096714
+      }
+    }, {
+      "lineNumbers" : [ 78, 79, 82, 84, 117, 118, 119, 121, 124, 125, 127, 128, 129, 131, 133 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "[{\"customerid\":1,\"customername\":\"John doe\",\"dateofbirth\":\"1998-9-25\",\"email\":\"john.doe@gmail.com\",\"contactnumber\":\"9825672456\",\"address\":\"304 Alanis Parkway, Boylemouth, Virginia\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\",\"7Ffb8QoG4gLG\"]}]",
+          "id" : "34d17935-3229-49ef-a0a0-a5afa91ea4c1",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "017ebab7-e1e7-4401-9307-0615fb314f91",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f59678e3-4bc0-4519-8877-f21602b7ce98",
+      "name" : "International flow - eligible",
+      "description" : "should pass",
+      "methodArguments" : [ "[{\"customerid\":11,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]", "0" ],
+      "returnValue" : "[{\"customerid\":1,\"customername\":\"John doe\",\"dateofbirth\":\"1998-9-25\",\"email\":\"john.doe@gmail.com\",\"contactnumber\":\"9825672456\",\"address\":\"304 Alanis Parkway, Boylemouth, Virginia\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\",\"7Ffb8QoG4gLG\"]}]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703581039640,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1059895775,
+      "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MSwiY3VzdG9tZXJuYW1lIjoiSm9obiBkb2UiLCJkYXRlb2ZiaXJ0aCI6IjE5OTgtOS0yNSIsImVtYWlsIjoiam9obi5kb2VAZ21haWwuY29tIiwiY29udGFjdG51bWJlciI6Ijk4MjU2NzI0NTYiLCJhZGRyZXNzIjoiMzA0IEFsYW5pcyBQYXJrd2F5LCBCb3lsZW1vdXRoLCBWaXJnaW5pYSIsInJlZmVycmFsY29kZXMiOlsiVnRZeHE4bTBPcDBNIiwiTHlKTXFFQ05yM3ZuIiwiNjUwd20zYUt5T3d4IiwiOExKSUx3NWhmdVBIIiwiak1HT0VodjhoT01VIiwiN0ZmYjhRb0c0Z0xHIl19XQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterEligbleCustomers",
+        "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : 1928096714
+      }
+    }, {
       "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 107, 109, 110, 113, 131 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -38,7 +116,7 @@
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
-        "methodHash" : -1451434435
+        "methodHash" : 1928096714
       }
     }, {
       "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 91, 92, 94, 97, 109, 110, 111, 113, 102, 131 ],
@@ -77,7 +155,7 @@
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
-        "methodHash" : 0
+        "methodHash" : 1928096714
       }
     } ],
     "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {

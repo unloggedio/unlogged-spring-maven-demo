@@ -268,6 +268,24 @@
         "methodExitType" : "NORMAL"
       } ]
     } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#getInternationalCustomers#()Ljava/util/List;" : [ {
+      "id" : "df86aa02-d4f9-48d1-aa06-02e34d6d38d9",
+      "name" : "cr1 - international customers mocked",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "getInternationalCustomers",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
     "org.unlogged.demo.repository.CustomerProfileRepository#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "id" : "dac1f43c-e764-4805-b969-765929a4c064",
       "name" : "cr - save profile ref",

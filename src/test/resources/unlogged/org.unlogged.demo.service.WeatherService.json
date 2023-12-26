@@ -1,0 +1,28 @@
+{
+  "classname" : "org.unlogged.demo.service.WeatherService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "id" : "f04c29a5-2f7c-4727-ace9-65fc6a12a51e",
+      "name" : "ds - get mocked weather info",
+      "fieldTypeName" : "org.unlogged.demo.service.WeatherService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "weatherService",
+      "methodName" : "getWeatherForAddress",
+      "whenParameter" : [ {
+        "name" : "address",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"location\": {\"name\": \"string\", \"region\": \"string\", \"country\": \"string\", \"lat\": 0, \"lon\": 0, \"tz_id\": \"string\", \"localtime_epoch\": 0, \"localtime\": \"string\"}, \"current\": {\"temp_c\": 0, \"temp_f\": 0, \"is_day\": 0, \"condition\": {}, \"wind_mph\": 0, \"wind_kph\": 0, \"wind_degree\": 0, \"wind_dir\": \"string\", \"pressure_mb\": 0, \"pressure_in\": 0, \"precip_mm\": 0, \"precip_in\": 0, \"humidity\": 0, \"cloud\": 0, \"feelslike_c\": 0, \"feelslike_f\": 0, \"vis_km\": 0, \"vis_miles\": 0, \"uv\": 0, \"gust_mph\": 0, \"gust_kph\": 0}}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.weather.WeatherInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

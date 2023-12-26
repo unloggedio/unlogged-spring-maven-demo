@@ -1,0 +1,24 @@
+{
+  "classname" : "org.springframework.data.repository.ListCrudRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.springframework.data.repository.ListCrudRepository#findAll#()Ljava/util/List;" : [ {
+      "id" : "477eed96-c31f-4873-bff0-8bfff329ba0b",
+      "name" : "cr d - all profiles mocked",
+      "fieldTypeName" : "org.springframework.data.repository.ListCrudRepository",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

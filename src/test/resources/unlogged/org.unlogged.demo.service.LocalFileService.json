@@ -1,0 +1,32 @@
+{
+  "classname" : "org.unlogged.demo.service.LocalFileService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.LocalFileService#writeReport#(ZLorg/unlogged/demo/models/CustomerProfile;)Z" : [ {
+      "id" : "4b401dec-4cfd-4741-9e4f-37a21264c77c",
+      "name" : "lfs - default write mocked",
+      "fieldTypeName" : "org.unlogged.demo.service.LocalFileService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "localFileService",
+      "methodName" : "writeReport",
+      "whenParameter" : [ {
+        "name" : "canDeliver",
+        "type" : "ANY_OF_TYPE",
+        "value" : "boolean"
+      }, {
+        "name" : "customerProfile",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.CustomerProfile"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

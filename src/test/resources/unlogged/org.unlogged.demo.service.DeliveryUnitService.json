@@ -1,0 +1,52 @@
+{
+  "classname" : "org.unlogged.demo.service.DeliveryUnitService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;" : [ ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;" : [ {
+      "id" : "41e3c89c-0f1a-4a89-bd77-f2bb106bf5fc",
+      "name" : "dus - available units",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAvailableUnitsForLocation",
+      "whenParameter" : [ {
+        "name" : "deliveryUnits",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+      }, {
+        "name" : "location",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\": \"string\", \"unitName\": \"string\", \"available\": true, \"location\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;" : [ {
+      "id" : "5de72720-75d1-48f7-8fd6-ba24429ee432",
+      "name" : "dus - all units",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAllDeliveryUnits",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\": \"string\", \"unitName\": \"string\", \"available\": true, \"location\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

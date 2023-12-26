@@ -78,6 +78,8 @@ public class CustomerService {
         List<CustomerProfile> eligibleCustomers = new ArrayList<>();
         if (asiaFlow) {
             customers = customerProfileRepository.getAsianCustomers();
+        } else {
+            customers = customerProfileRepository.getInternationalCustomers();
         }
         if (asiaFlow) {
             for (CustomerProfile customer : customers) {
