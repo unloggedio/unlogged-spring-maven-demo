@@ -1,5 +1,8 @@
 package org.unlogged.demo.models;
 
+import lombok.Data;
+
+@Data
 public class CustomerScoreCard {
 
     private CustomerProfile customerProfile;
@@ -12,29 +15,5 @@ public class CustomerScoreCard {
         this.score = score;
         this.isEligible = isEligible;
 //        this.dateGenerated = new Date();
-    }
-
-    public CustomerProfile getCustomerProfile() {
-        return customerProfile;
-    }
-
-    public void setCustomerProfile(CustomerProfile customerProfile) {
-        this.customerProfile = customerProfile;
-    }
-
-    public int getScore() {
-        return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    public boolean isEligible() {
-        return isEligible;
-    }
-
-    public void setEligible(boolean eligible) {
-        isEligible = eligible;
     }
 }
