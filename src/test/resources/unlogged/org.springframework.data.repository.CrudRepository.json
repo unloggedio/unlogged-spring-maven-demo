@@ -1,0 +1,28 @@
+{
+  "classname" : "org.springframework.data.repository.CrudRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.springframework.data.repository.CrudRepository#save#(Ljava/lang/Object;)Ljava/lang/Object;" : [ {
+      "id" : "a26748e0-50b1-4b4e-81c4-4efe75ebf3e7",
+      "name" : "cr - save customer profile",
+      "fieldTypeName" : "org.springframework.data.repository.CrudRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "repo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : "entity",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.CustomerProfile"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

@@ -76,7 +76,9 @@ public class CustomerService {
 
     public List<CustomerProfile> filterEligbleCustomers(List<CustomerProfile> customers, boolean asiaFlow) {
         List<CustomerProfile> eligibleCustomers = new ArrayList<>();
-        eligibleCustomers = customerProfileRepository.getAsianCustomers();
+        if (asiaFlow) {
+            customers = customerProfileRepository.getAsianCustomers();
+        }
         if (asiaFlow) {
             for (CustomerProfile customer : customers) {
                 int bonus = 0;

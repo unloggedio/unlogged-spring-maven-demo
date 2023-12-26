@@ -1,0 +1,28 @@
+{
+  "classname" : "java.util.TreeMap",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "java.util.TreeMap#get#(Ljava/lang/Object;)Ljava/lang/Object;" : [ {
+      "id" : "ccb05a27-9329-4d92-aef5-829acb250665",
+      "name" : "cpr1 - get mock profile",
+      "fieldTypeName" : "java.util.TreeMap",
+      "sourceClassName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "fieldName" : "profileTreeMap",
+      "methodName" : "get",
+      "whenParameter" : [ {
+        "name" : "key",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

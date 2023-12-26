@@ -106,8 +106,4 @@ public class CustomerProfileRepository {
                 "4678251601", "Hella, Iceland", referralCodes);
         return customerProfiles;
     }
-
-    public void throwSomeException() {
-        String a = "a".split(" ")[12];
-    }
 }

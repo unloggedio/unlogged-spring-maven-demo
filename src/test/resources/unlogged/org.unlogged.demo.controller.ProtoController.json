@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.controller.ProtoController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/protos/generated/AddressBook;" : [ {
+      "lineNumbers" : [ 42, 43, 44, 45 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+          "id" : "5191b6cc-6f25-4600-8a2c-b981f13db29e",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2944a6ee-cf29-497a-9869-a14251912645",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "31eaed49-a11c-497f-8fcb-a8ddd36aad15",
+      "name" : "get default address book",
+      "description" : "should pass",
+      "methodArguments" : [ ],
+      "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+      "returnValueClassname" : "org.unlogged.demo.protos.generated.AddressBook",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703579022799,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -230218422,
+      "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAddressbook",
+        "signature" : "()Lorg/unlogged/demo/protos/generated/AddressBook;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 753748090
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

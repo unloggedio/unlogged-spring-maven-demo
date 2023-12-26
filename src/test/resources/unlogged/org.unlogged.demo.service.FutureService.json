@@ -1,0 +1,28 @@
+{
+  "classname" : "org.unlogged.demo.service.FutureService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "737f11ba-f132-4d64-b9ba-23c857f16e9b",
+      "name" : "fc - string optional response",
+      "fieldTypeName" : "org.unlogged.demo.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomethingOptional",
+      "whenParameter" : [ {
+        "name" : "optional",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"string\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<java.lang.String>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "classname" : "org.unlogged.demo.service.StudentService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "id" : "0c1e9eb7-5781-46cc-8509-a5f7f377cf86",
+      "name" : "ss - update student",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "updateStudent",
+      "whenParameter" : [ {
+        "name" : "student",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "a92a9f27-f765-4aca-b968-ac72123c2252",
+      "name" : "ss - get default student",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "getStudent",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\": \"string\", \"name\": \"string\", \"gender\": \"MALE\", \"grade\": 0}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "id" : "59fd7f96-5de6-4899-b956-7eebeb1565ff",
+      "name" : "ss - delete student",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "deleteStudent",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List;" : [ {
+      "id" : "6a9930cf-3be7-4422-b999-625bee212f59",
+      "name" : "ss - default student list",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\n  \"id\" : \"string\",\n  \"name\" : \"string\",\n  \"gender\" : \"MALE\",\n  \"grade\" : 0\n}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Collection<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "id" : "1f524592-0193-4c76-9e17-cd43b32d93db",
+      "name" : "ss - create student",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "createStudent",
+      "whenParameter" : [ {
+        "name" : "student",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

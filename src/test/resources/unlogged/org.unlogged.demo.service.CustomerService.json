@@ -1,53 +1,435 @@
 {
   "classname" : "org.unlogged.demo.service.CustomerService",
   "storedCandidateMap" : {
-    "org.unlogged.demo.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
-      "lineNumbers" : [ 60, 61, 62, 63, 66, 70, 71, 74 ],
+    "org.unlogged.demo.service.CustomerService#filterEligbleCustomers#(Ljava/util/List;Z)Ljava/util/List;" : [ {
+      "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 107, 109, 110, 113, 131 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "4",
-          "id" : "0b2ed829-2f5a-409f-8f22-43de34112d6a",
+          "expectedValue" : "[]",
+          "id" : "c4ebc3a8-947f-45d8-891e-7575b4ef7584",
           "assertionType" : "EQUAL",
-          "key" : "/score"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"Ohio\"",
-          "id" : "5c114b2a-43d8-4c68-9037-b70fa3a59cb7",
-          "assertionType" : "EQUAL",
-          "key" : "/customerProfile/address"
+          "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "c7b8a74b-b3ed-4f2b-97ed-fe95626feeda",
+        "id" : "9c6e533c-6687-4d03-b8ad-9fbc31a28688",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "d299ed6c-3fcc-493d-ad3a-f46391ca0e0b",
-      "name" : "test isCustomerEligibleForPremium returns expected value when",
-      "description" : "assert that the response value matches expected value",
-      "methodArguments" : [ "0" ],
-      "returnValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"Ohio\",\"referralcodes\":[\"string\"]},\"score\":4,\"isEligible\":false}",
-      "returnValueClassname" : "org.unlogged.demo.models.CustomerScoreCard",
+      "candidateId" : "6a99c8e5-5ac6-481b-b0f6-cb0467452588",
+      "name" : "asia flow - non eligible",
+      "description" : "should pass",
+      "methodArguments" : [ "[{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]", "1" ],
+      "returnValue" : "[]",
+      "returnValueClassname" : "java.util.ArrayList",
       "metadata" : {
-        "recordedBy" : "artpar",
-        "hostMachineName" : "artpar",
-        "timestamp" : 1699430855809,
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703580704105,
         "candidateStatus" : "PASSING"
       },
-      "sessionIdentifier" : -1181128734,
-      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoiT2hpbyIsInJlZmVycmFsY29kZXMiOlsic3RyaW5nIl19LCJzY29yZSI6NCwiaXNFbGlnaWJsZSI6ZmFsc2V9",
-      "mockIds" : [ "df4e0194-d722-48be-b2d5-51c97f9af24e" ],
+      "sessionIdentifier" : -1909132349,
+      "probSerializedValue" : "W10=",
+      "mockIds" : [ "07559b06-dbe6-4dbd-a85f-cc5e605f3b73" ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterEligbleCustomers",
+        "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : -1451434435
+      }
+    }, {
+      "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 91, 92, 94, 97, 109, 110, 111, 113, 102, 131 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "[{\"customerid\":3,\"customername\":\"aman\",\"dateofbirth\":\"20-2-1996\",\"email\":\"aman876@gmail.com\",\"contactnumber\":\"9527861967\",\"address\":\"Gujarat, India\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\"]}]",
+          "id" : "091de0b8-fd44-4bed-89ab-ae5b6c2ed0ab",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "4ff34a45-fa22-49a2-be2e-57dd1d994982",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c8ab4a49-aaf6-49ad-a472-1593410cf163",
+      "name" : "Asia flow - eligible",
+      "description" : "should pass",
+      "methodArguments" : [ "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]", "1" ],
+      "returnValue" : "[{\"customerid\":3,\"customername\":\"aman\",\"dateofbirth\":\"20-2-1996\",\"email\":\"aman876@gmail.com\",\"contactnumber\":\"9527861967\",\"address\":\"Gujarat, India\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\"]}]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703580598627,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -134157859,
+      "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MywiY3VzdG9tZXJuYW1lIjoiYW1hbiIsImRhdGVvZmJpcnRoIjoiMjAtMi0xOTk2IiwiZW1haWwiOiJhbWFuODc2QGdtYWlsLmNvbSIsImNvbnRhY3RudW1iZXIiOiI5NTI3ODYxOTY3IiwiYWRkcmVzcyI6Ikd1amFyYXQsIEluZGlhIiwicmVmZXJyYWxjb2RlcyI6WyJWdFl4cThtME9wME0iLCJMeUpNcUVDTnIzdm4iLCI2NTB3bTNhS3lPd3giLCI4TEpJTHc1aGZ1UEgiLCJqTUdPRWh2OGhPTVUiXX1d",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterEligbleCustomers",
+        "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 32, 33, 34, 35, 36 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "cc0d1912-84e0-41ed-b8d8-9e6a6f418d27",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ce189a4e-2845-4117-9379-7dcfc5e7f1a8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0ebbfe49-c4cc-4fde-bc52-bb28131805e0",
+      "name" : "Save default customer profile",
+      "description" : "should pass",
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703579927597,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -394181719,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "a26748e0-50b1-4b4e-81c4-4efe75ebf3e7" ],
+      "exception" : false,
+      "method" : {
+        "name" : "saveNewCustomer",
+        "signature" : "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "c87eab73-6d7c-4c1d-9126-f32e79f627af",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "cc589d88-7786-4894-90ca-7f1bb6580d4e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "1935d9aa-2559-4395-800e-0312aab67526",
+      "name" : "Remove Customer profile",
+      "description" : "should pass",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703579981209,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -291893058,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "f07fd213-3dbd-49dd-b81e-1eae6f43c764" ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : 1853009988
+      }
+    } ],
+    "org.unlogged.demo.service.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 44, 45, 46, 47 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SIZE",
+          "expectedValue" : "2",
+          "id" : "83cf4144-aa38-4e2f-a149-a562f7e2106e",
+          "assertionType" : "EQUAL",
+          "key" : "/referralcodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "83ba865d-7bb1-4c27-b11c-c71b1ad25bb6",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ceab9394-28dd-4ef5-9d90-b88f76669429",
+      "name" : "Generate and add referral code to default customer",
+      "description" : "Size of codes should be 2",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\",\"hzqbhjyykh\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703580068173,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1167926984,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyIsImh6cWJoanl5a2giXX0=",
+      "mockIds" : [ "dac1f43c-e764-4805-b969-765929a4c064", "a56f90c6-4eb9-48da-a8a0-f0d6e2fd0f9e" ],
+      "exception" : false,
+      "method" : {
+        "name" : "generateReferralForCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : -878386236
+      }
+    } ],
+    "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 27, 28 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "da66da25-34db-4d60-93a2-720985b98422",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d2cd59f4-cbeb-4050-829e-6184c8a18bd6",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "67a89961-7b21-46a6-9d36-aed23eff0b3d",
+      "name" : "Fetch default customer",
+      "description" : "should pass",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703579853288,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 407949802,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "a56f90c6-4eb9-48da-a8a0-f0d6e2fd0f9e" ],
+      "exception" : false,
+      "method" : {
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : 845208909
+      }
+    } ],
+    "org.unlogged.demo.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
+      "lineNumbers" : [ 60, 61, 62, 63, 64, 65, 68, 70, 71, 74 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "7b8e0ec0-7669-41fe-abf0-f10c5babcf98",
+          "assertionType" : "EQUAL",
+          "key" : "/isEligible"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "9e7a5df6-7403-4947-8c9c-7e3d67b090de",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0e1643df-a73f-4d0f-8d19-3e7d6f969631",
+      "name" : "Not eligible for premium case",
+      "description" : "should not be eligible",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},\"score\":3,\"isEligible\":false}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerScoreCard",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703580169744,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1445715982,
+      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInNjb3JlIjozLCJpc0VsaWdpYmxlIjpmYWxzZX0=",
+      "mockIds" : [ "a56f90c6-4eb9-48da-a8a0-f0d6e2fd0f9e" ],
+      "exception" : false,
       "method" : {
         "name" : "isCustomerEligibleForPremium",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerScoreCard;",
         "className" : "org.unlogged.demo.service.CustomerService",
-        "methodHash" : -538349156
+        "methodHash" : -2054062351
+      }
+    }, {
+      "lineNumbers" : [ 60, 61, 62, 63, 64, 65, 68, 70, 71, 74 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "ebd1d0e9-45f3-4a39-8461-df5b5317b8e6",
+          "assertionType" : "EQUAL",
+          "key" : "/isEligible"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a47bbe16-b594-416a-97da-c29e24e8465a",
+        "assertionType" : "ALLOF",
+        "key" : null
       },
-      "exception" : false
+      "candidateId" : "1930d59a-35e2-4eea-aac9-a5fdee6c8bf7",
+      "name" : "should be eligible case",
+      "description" : "should be eligible",
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\",\"string\",\"string\",\"string\",\"string\"]},\"score\":15,\"isEligible\":false}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerScoreCard",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703580377057,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1640161629,
+      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciLCJzdHJpbmciLCJzdHJpbmciLCJzdHJpbmciLCJzdHJpbmciXX0sInNjb3JlIjoxNSwiaXNFbGlnaWJsZSI6ZmFsc2V9",
+      "mockIds" : [ "6536bcda-c910-4313-b7a4-254d0a0302f3" ],
+      "exception" : false,
+      "method" : {
+        "name" : "isCustomerEligibleForPremium",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerScoreCard;",
+        "className" : "org.unlogged.demo.service.CustomerService",
+        "methodHash" : -2054062351
+      }
     } ]
   },
-  "declaredMockMap" : { }
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "cf87ae24-a734-4b87-9302-71b4e40e3bfa",
+      "name" : "cs - save customer 0 mock",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "saveNewCustomer",
+      "whenParameter" : [ {
+        "name" : "saveRequest",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.CustomerProfileRequest"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "4afb5b6f-4229-45dd-b383-a071fce7b9b2",
+      "name" : "cs - remove customer 0",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : "customerID",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "077b0593-8e95-4132-a552-ad171ba1633c",
+      "name" : "cs - generate code for customer 0",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "generateReferralForCustomer",
+      "whenParameter" : [ {
+        "name" : "customerID",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"customerid\" : 0,\n  \"customername\" : \"string\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"string\",\n  \"referralcodes\" : [ \"code-1\", \"code-2\" ]\n}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "9f0cdb81-0b43-40cd-9db6-157ae17a44fb",
+      "name" : "cs - customer 0 mock",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
+      "id" : "38710293-7956-4ce0-8144-615e24946868",
+      "name" : "cs - customer 0 should be eligible",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "isCustomerEligibleForPremium",
+      "whenParameter" : [ {
+        "name" : "customerID",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"customerProfile\" : {\n    \"customerid\" : 0,\n    \"customername\" : \"string\",\n    \"dateofbirth\" : \"string\",\n    \"email\" : \"string\",\n    \"contactnumber\" : \"string\",\n    \"address\" : \"string\",\n    \"referralcodes\" : [ \"string\" ]\n  },\n  \"score\" : 50,\n  \"isEligible\" : true\n}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerScoreCard"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
 }
