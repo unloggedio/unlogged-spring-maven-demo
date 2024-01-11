@@ -6,6 +6,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +25,7 @@ public class AuthenticationController {
     private final AuthenticationManager authenticationManager;
 
     private JwtUtil jwtUtil;
+
     public AuthenticationController(AuthenticationManager authenticationManager, JwtUtil jwtUtil) {
         this.authenticationManager = authenticationManager;
         this.jwtUtil = jwtUtil;
@@ -31,23 +33,36 @@ public class AuthenticationController {
     }
 
     @ResponseBody
-    @RequestMapping(value = "/login",method = RequestMethod.POST)
-    public ResponseEntity login(@RequestBody LoginRequest loginRequest)  {
+    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    public ResponseEntity login(@RequestBody LoginRequest loginRequest) {
 
         try {
             Authentication authentication =
                     authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword()));
             String email = authentication.getName();
-            User user = new User(email,"");
+            User user = new User(email, "");
             String token = jwtUtil.createToken(user);
-            LoginResponse loginResponse = new LoginResponse(email,token);
+            LoginResponse loginResponse = new LoginResponse(email, token);
+
+            System.out.println("After login auth");
+            Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+            if (auth == null) {
+                System.out.println("Auth is null post login");
+            } else {
+                System.out.println("Auth is not null post login");
+            }
+
             return ResponseEntity.ok(loginResponse);
-        }catch (BadCredentialsException e){
-            ErrorResponse errorResponse = new ErrorResponse(HttpStatus.BAD_REQUEST,"Invalid username or password");
+        } catch (BadCredentialsException e) {
+            ErrorResponse errorResponse = new ErrorResponse(HttpStatus.BAD_REQUEST, "Invalid username or password");
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
-        }catch (Exception e){
+        } catch (Exception e) {
             ErrorResponse errorResponse = new ErrorResponse(HttpStatus.BAD_REQUEST, e.getMessage());
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(errorResponse);
         }
+    }
+
+    public Authentication getAuth() {
+        return SecurityContextHolder.getContext().getAuthentication();
     }
 }
