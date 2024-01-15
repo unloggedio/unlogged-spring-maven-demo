@@ -1,0 +1,39 @@
+version: '2'
+
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: unlogged_demo
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+
+  redis:
+    image: redis:latest
+    restart: always
+    environment:
+      REDIS_MASTER_HOST: redis
+    ports:
+      - "6379:6379"
+
+  demo-app:
+    build:
+      context: ../app
+    volumes:
+      - ../app/:/usr/src/app/
+      - ../../../../.unlogged/:/root/.unlogged/
+    ports:
+      - "8080:8080"
+      - "12100:12100"
+    depends_on:
+      - mysql
+      - redis
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged_demo
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root_password
+      SPRING_REDIS_HOST: redis
+      SPRING_REDIS_PORT: 6379
+
