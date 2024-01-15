@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# macOS Finder thumbnail files
+.DS_Store

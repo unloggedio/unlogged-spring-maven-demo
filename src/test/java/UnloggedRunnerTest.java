@@ -1,4 +1,5 @@
-import io.unlogged.runner.UnloggedTestRunner;
+import java.io.IOException;
+
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,7 +9,7 @@ import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
 import org.springframework.test.context.TestPropertySource;
 
-import java.io.IOException;
+import io.unlogged.runner.UnloggedTestRunner;
 
 @RunWith(UnloggedTestRunner.class)
 @ComponentScan("org.unlogged.demo")
