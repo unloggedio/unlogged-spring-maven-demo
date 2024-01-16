@@ -22,8 +22,7 @@ services:
     build:
       context: ../app
     volumes:
-      - ../app/:/usr/src/app/
-      - ../../../../.unlogged/:/root/.unlogged/
+      - /Users/kt/.unlogged/:/root/.unlogged/
     ports:
       - "8080:8080"
       - "12100:12100"
