@@ -1,0 +1,24 @@
+{
+  "classname" : "org.unlogged.demo.dao.CustomerProfileRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List;" : [ {
+      "id" : "26c639c1-8325-4e91-bff1-dc2ac393032e",
+      "name" : "mock response customerProfileRepo.findAll",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[ {\n  \"customerid\" : \"200\",\n  \"customername\" : \"string\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"string\",\n  \"referralcodes\" : [ \"string\" ]\n} ]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}
