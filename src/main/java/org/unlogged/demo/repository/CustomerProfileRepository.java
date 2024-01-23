@@ -3,6 +3,7 @@ package org.unlogged.demo.repository;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
+import org.unlogged.demo.models.CustomerScoreCard;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +17,12 @@ public class CustomerProfileRepository {
 
     public CustomerProfile fetchCustomerProfile(long customerID) {
         return this.profileTreeMap.get(customerID);
+    }
+
+    public CustomerScoreCard fetchCustomerScoreCard (long customerId){
+        CustomerProfile customerProfile = fetchCustomerProfile(customerId);
+        CustomerScoreCard customerScoreCard = new CustomerScoreCard(customerProfile, 10, false);
+        return customerScoreCard;
     }
 
     public CustomerProfile save(CustomerProfileRequest saveRequest) {
