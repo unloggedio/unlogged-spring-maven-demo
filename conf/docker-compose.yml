@@ -35,4 +35,5 @@ services:
       SPRING_DATASOURCE_PASSWORD: root_password
       SPRING_REDIS_HOST: redis
       SPRING_REDIS_PORT: 6379
+      SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
 
