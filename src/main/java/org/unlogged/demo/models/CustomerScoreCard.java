@@ -1,17 +1,22 @@
 package org.unlogged.demo.models;
 
+import java.sql.Timestamp;
+import java.util.Date;
+
 public class CustomerScoreCard {
 
     private CustomerProfile customerProfile;
     private int score;
     private boolean isEligible;
-//    private Date dateGenerated;
+    private Timestamp valTime;
+    private Date valDate;
 
     public CustomerScoreCard(CustomerProfile customerProfile, int score, boolean isEligible) {
         this.customerProfile = customerProfile;
         this.score = score;
         this.isEligible = isEligible;
-//        this.dateGenerated = new Date();
+        this.valTime = new Timestamp(0);
+        this.valDate = new Date(0);
     }
 
     public CustomerProfile getCustomerProfile() {

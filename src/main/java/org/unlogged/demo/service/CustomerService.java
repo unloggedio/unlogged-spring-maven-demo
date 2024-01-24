@@ -28,6 +28,11 @@ public class CustomerService {
         return profile;
     }
 
+    public CustomerScoreCard getCustomerScoreCard (long customerId){
+        CustomerScoreCard customerScoreCard = customerProfileRepository.fetchCustomerScoreCard(customerId);
+        return customerScoreCard;
+    }
+
     public CustomerProfile saveNewCustomer(CustomerProfileRequest saveRequest) {
         List<String> codes = generateReferralCodes();
         saveRequest.setCodes(codes);
