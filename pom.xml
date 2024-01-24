@@ -126,6 +126,11 @@
             <artifactId>protobuf-java-util</artifactId>
             <version>3.25.0</version>
         </dependency>
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>1</version>
+		</dependency>
 
     </dependencies>
 
