@@ -34,3 +34,6 @@ build/
 
 # macOS Finder thumbnail files
 .DS_Store
+
+# venv files 
+conf/venv 
