@@ -1,22 +1,26 @@
-version: '2'
+version: '3'
 
 services:
   mysql:
     image: mysql:latest
     restart: always
+    networks: 
+      - unlogged_network
     environment:
       MYSQL_DATABASE: unlogged_demo
       MYSQL_ROOT_PASSWORD: root_password
-    ports:
-      - "3306:3306"
+    # ports:
+    #   - "3306:3306"
 
   redis:
     image: redis:latest
     restart: always
+    networks: 
+      - unlogged_network
     environment:
       REDIS_MASTER_HOST: redis
-    ports:
-      - "6379:6379"
+    # ports:
+    #   - "6379:6379"
 
   demo-app:
     build:
@@ -29,11 +33,20 @@ services:
     depends_on:
       - mysql
       - redis
+    networks: 
+      - unlogged_network
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged_demo
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root_password
       SPRING_REDIS_HOST: redis
       SPRING_REDIS_PORT: 6379
+      SPRING_JPA_HIBERNATE_DDL_AUTO: create
+      SPRING_JPA_SHOW_SQL: true
       SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
+      SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL: true
+      SPRING_LIQUIBASE_CHANGE_LOG: classpath:db/changelog/db.changelog-master.xml
 
+networks:
+  unlogged_network:
+    driver: bridge 
