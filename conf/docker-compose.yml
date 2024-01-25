@@ -9,8 +9,6 @@ services:
     environment:
       MYSQL_DATABASE: unlogged_demo
       MYSQL_ROOT_PASSWORD: root_password
-    # ports:
-    #   - "3306:3306"
 
   redis:
     image: redis:latest
@@ -19,8 +17,6 @@ services:
       - unlogged_network
     environment:
       REDIS_MASTER_HOST: redis
-    # ports:
-    #   - "6379:6379"
 
   demo-app:
     build:
