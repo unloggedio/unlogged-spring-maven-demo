@@ -22,7 +22,7 @@ services:
     build:
       context: ../app
     volumes:
-      - /Users/kt/.unlogged/:/root/.unlogged/
+      - /Users/testerfresher/.unlogged/:/root/.unlogged/
     ports:
       - "8080:8080"
       - "12100:12100"
@@ -30,9 +30,9 @@ services:
       - mysql
       - redis
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged_demo
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged
       SPRING_DATASOURCE_USERNAME: root
-      SPRING_DATASOURCE_PASSWORD: root_password
+      SPRING_DATASOURCE_PASSWORD: root
       SPRING_REDIS_HOST: redis
       SPRING_REDIS_PORT: 6379
       SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
