@@ -1,8 +1,0 @@
-{
-  "classname" : "org.unlogged.demo.dao.CustomerProfileRepo",
-  "storedCandidateMap" : { },
-  "declaredMockMap" : {
-    "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()J" : [ ],
-    "org.unlogged.demo.dao.CustomerProfileRepo#save#(Ljava/lang/Object;)Ljava/lang/Object;" : [ ]
-  }
-}
