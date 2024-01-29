@@ -1,0 +1,13 @@
+# git files
+.git 
+.gitignore 
+
+# IntelliJ IDEA files 
+.idea 
+.run 
+
+# deployment configuration 
+conf
+
+# java binary 
+target
