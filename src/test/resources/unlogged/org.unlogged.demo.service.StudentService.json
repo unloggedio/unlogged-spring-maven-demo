@@ -1,0 +1,24 @@
+{
+  "classname" : "org.unlogged.demo.service.StudentService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List;" : [ {
+      "id" : "f8d3e21b-0da7-4e26-970e-cdd7b0260513",
+      "name" : "mock response studentService.findAll",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Collection<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}
