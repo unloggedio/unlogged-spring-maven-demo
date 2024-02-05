@@ -2,24 +2,20 @@
   "classname" : "org.unlogged.demo.dao.CustomerProfileRepo",
   "storedCandidateMap" : { },
   "declaredMockMap" : {
-    "org.unlogged.demo.dao.CustomerProfileRepo#save#(Ljava/lang/Object;)Ljava/lang/Object;" : [ {
-      "id" : "ba456518-156e-4b4f-828a-1ce14211fb54",
-      "name" : "mock response repo.save",
+    "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List;" : [ {
+      "id" : "245ce3e2-5113-47e8-8d32-53d2fc025899",
+      "name" : "mock response customerProfileRepo.findAll",
       "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
-      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
-      "fieldName" : "repo",
-      "methodName" : "save",
-      "whenParameter" : [ {
-        "name" : "entity",
-        "type" : "ANY_OF_TYPE",
-        "value" : "org.unlogged.demo.models.CustomerProfile"
-      } ],
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "value" : "[{\"customerid\": \"0\", \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}]",
           "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.models.CustomerProfile"
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
         },
         "methodExitType" : "NORMAL"
       } ]
