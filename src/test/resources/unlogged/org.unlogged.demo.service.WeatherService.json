@@ -1,0 +1,85 @@
+{
+  "classname" : "org.unlogged.demo.service.WeatherService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 17 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"London\"",
+          "id" : "713be2e7-eb3d-40b2-83fe-ac4de7567da0",
+          "assertionType" : "NOT_EQUAL",
+          "key" : "/location/name"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bec514bc-d368-43d5-9c62-c4b0819b5d6c",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "380de931-7347-403a-aaae-90d50a43127d",
+      "name" : "test-fail",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "\"london\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"London\",\"region\":\"City of London, Greater London\",\"country\":\"United Kingdom\",\"lat\":51.52,\"lon\":-0.11,\"tz_id\":\"Europe/London\",\"localtime_epoch\":1707127387,\"localtime\":\"2024-02-05 10:03\"},\"current\":{\"temp_c\":10.0,\"temp_f\":50.0,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":18.6,\"wind_kph\":29.9,\"wind_degree\":250,\"wind_dir\":\"WSW\",\"pressure_mb\":1021.0,\"pressure_in\":30.15,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":71,\"cloud\":75,\"feelslike_c\":7.2,\"feelslike_f\":45.0,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":3.0,\"gust_mph\":23.0,\"gust_kph\":37.1}}",
+      "returnValueClassname" : "org.unlogged.demo.models.weather.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 186211576435,
+        "candidateStatus" : "FAILING"
+      },
+      "sessionIdentifier" : 2017872276,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiTG9uZG9uIiwicmVnaW9uIjoiQ2l0eSBvZiBMb25kb24sIEdyZWF0ZXIgTG9uZG9uIiwiY291bnRyeSI6IlVuaXRlZCBLaW5nZG9tIiwibGF0Ijo1MS41MiwibG9uIjotMC4xMSwidHpfaWQiOiJFdXJvcGUvTG9uZG9uIiwibG9jYWx0aW1lX2Vwb2NoIjoxNzA3MTI3Mzg3LCJsb2NhbHRpbWUiOiIyMDI0LTAyLTA1IDEwOjAzIn0sImN1cnJlbnQiOnsidGVtcF9jIjoxMC4wLCJ0ZW1wX2YiOjUwLjAsImlzX2RheSI6MSwiY29uZGl0aW9uIjp7InRleHQiOiJQYXJ0bHkgY2xvdWR5IiwiaWNvbiI6Ii8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmciLCJjb2RlIjoxMDAzfSwid2luZF9tcGgiOjE4LjYsIndpbmRfa3BoIjoyOS45LCJ3aW5kX2RlZ3JlZSI6MjUwLCJ3aW5kX2RpciI6IldTVyIsInByZXNzdXJlX21iIjoxMDIxLjAsInByZXNzdXJlX2luIjozMC4xNSwicHJlY2lwX21tIjowLjAsInByZWNpcF9pbiI6MC4wLCJodW1pZGl0eSI6NzEsImNsb3VkIjo3NSwiZmVlbHNsaWtlX2MiOjcuMiwiZmVlbHNsaWtlX2YiOjQ1LjAsInZpc19rbSI6MTAuMCwidmlzX21pbGVzIjo2LjAsInV2IjozLjAsImd1c3RfbXBoIjoyMy4wLCJndXN0X2twaCI6MzcuMX19",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherForAddress",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : -639457472
+      }
+    }, {
+      "lineNumbers" : [ 17 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1707127408,\"localtime\":\"2024-02-05 4:03\"},\"current\":{\"temp_c\":12.1,\"temp_f\":53.8,\"is_day\":0,\"condition\":{\"text\":\"Overcast\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/122.png\",\"code\":1009},\"wind_mph\":13.6,\"wind_kph\":22.0,\"wind_degree\":330,\"wind_dir\":\"NNW\",\"pressure_mb\":1013.0,\"pressure_in\":29.92,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":84,\"cloud\":100,\"feelslike_c\":9.4,\"feelslike_f\":48.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":28.3,\"gust_kph\":45.5}}",
+          "id" : "96f7303f-3500-4f0f-84f8-ffa47cd27788",
+          "assertionType" : "NOT_NULL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "97878589-1de3-4a16-8b67-4339b373dc7e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fe4f4897-ef98-4f22-bd6f-b92c669e3812",
+      "name" : "test-pass",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1707127408,\"localtime\":\"2024-02-05 4:03\"},\"current\":{\"temp_c\":12.1,\"temp_f\":53.8,\"is_day\":0,\"condition\":{\"text\":\"Overcast\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/122.png\",\"code\":1009},\"wind_mph\":13.6,\"wind_kph\":22.0,\"wind_degree\":330,\"wind_dir\":\"NNW\",\"pressure_mb\":1013.0,\"pressure_in\":29.92,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":84,\"cloud\":100,\"feelslike_c\":9.4,\"feelslike_f\":48.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":28.3,\"gust_kph\":45.5}}",
+      "returnValueClassname" : "org.unlogged.demo.models.weather.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 151051119600,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1804983046,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiU3RyaW5nIFByYWlyaWUiLCJyZWdpb24iOiJUZXhhcyIsImNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EiLCJsYXQiOjI5Ljg5LCJsb24iOi05Ny4zNSwidHpfaWQiOiJBbWVyaWNhL0NoaWNhZ28iLCJsb2NhbHRpbWVfZXBvY2giOjE3MDcxMjc0MDgsImxvY2FsdGltZSI6IjIwMjQtMDItMDUgNDowMyJ9LCJjdXJyZW50Ijp7InRlbXBfYyI6MTIuMSwidGVtcF9mIjo1My44LCJpc19kYXkiOjAsImNvbmRpdGlvbiI6eyJ0ZXh0IjoiT3ZlcmNhc3QiLCJpY29uIjoiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9uaWdodC8xMjIucG5nIiwiY29kZSI6MTAwOX0sIndpbmRfbXBoIjoxMy42LCJ3aW5kX2twaCI6MjIuMCwid2luZF9kZWdyZWUiOjMzMCwid2luZF9kaXIiOiJOTlciLCJwcmVzc3VyZV9tYiI6MTAxMy4wLCJwcmVzc3VyZV9pbiI6MjkuOTIsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjg0LCJjbG91ZCI6MTAwLCJmZWVsc2xpa2VfYyI6OS40LCJmZWVsc2xpa2VfZiI6NDguOSwidmlzX2ttIjoxNi4wLCJ2aXNfbWlsZXMiOjkuMCwidXYiOjEuMCwiZ3VzdF9tcGgiOjI4LjMsImd1c3Rfa3BoIjo0NS41fX0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherForAddress",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : -639457472
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
