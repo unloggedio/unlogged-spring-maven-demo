@@ -19,6 +19,7 @@ services:
       REDIS_MASTER_HOST: redis
 
   demo-app:
+    container_name: target-repo
     build:
       context: ../
     volumes:
