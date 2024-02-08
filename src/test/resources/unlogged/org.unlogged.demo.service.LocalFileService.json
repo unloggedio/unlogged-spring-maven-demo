@@ -33,13 +33,13 @@
       "sessionIdentifier" : 514147228,
       "probSerializedValue" : "",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "writeReport",
         "signature" : "(ZLorg/unlogged/demo/models/CustomerProfile;)Z",
         "className" : "org.unlogged.demo.service.LocalFileService",
         "methodHash" : -534912295
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : {

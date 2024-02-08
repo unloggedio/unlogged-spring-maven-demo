@@ -33,13 +33,13 @@
       "sessionIdentifier" : -230218422,
       "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "getAddressbook",
         "signature" : "()Lorg/unlogged/demo/protos/generated/AddressBook;",
         "className" : "org.unlogged.demo.controller.ProtoController",
         "methodHash" : 753748090
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }

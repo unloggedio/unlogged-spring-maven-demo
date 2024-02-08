@@ -33,13 +33,13 @@
       "sessionIdentifier" : 785129949,
       "probSerializedValue" : "W10=",
       "mockIds" : [ "df86aa02-d4f9-48d1-aa06-02e34d6d38d9" ],
-      "exception" : false,
       "method" : {
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 1928096714
-      }
+      },
+      "exception" : false
     }, {
       "lineNumbers" : [ 78, 79, 82, 84, 117, 118, 119, 121, 124, 125, 127, 128, 129, 131, 133 ],
       "testAssertions" : {
@@ -72,13 +72,13 @@
       "sessionIdentifier" : 1059895775,
       "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MSwiY3VzdG9tZXJuYW1lIjoiSm9obiBkb2UiLCJkYXRlb2ZiaXJ0aCI6IjE5OTgtOS0yNSIsImVtYWlsIjoiam9obi5kb2VAZ21haWwuY29tIiwiY29udGFjdG51bWJlciI6Ijk4MjU2NzI0NTYiLCJhZGRyZXNzIjoiMzA0IEFsYW5pcyBQYXJrd2F5LCBCb3lsZW1vdXRoLCBWaXJnaW5pYSIsInJlZmVycmFsY29kZXMiOlsiVnRZeHE4bTBPcDBNIiwiTHlKTXFFQ05yM3ZuIiwiNjUwd20zYUt5T3d4IiwiOExKSUx3NWhmdVBIIiwiak1HT0VodjhoT01VIiwiN0ZmYjhRb0c0Z0xHIl19XQ==",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 1928096714
-      }
+      },
+      "exception" : false
     }, {
       "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 107, 109, 110, 113, 131 ],
       "testAssertions" : {
@@ -111,13 +111,13 @@
       "sessionIdentifier" : -1909132349,
       "probSerializedValue" : "W10=",
       "mockIds" : [ "07559b06-dbe6-4dbd-a85f-cc5e605f3b73" ],
-      "exception" : false,
       "method" : {
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 1928096714
-      }
+      },
+      "exception" : false
     }, {
       "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 91, 92, 94, 97, 109, 110, 111, 113, 102, 131 ],
       "testAssertions" : {
@@ -150,13 +150,13 @@
       "sessionIdentifier" : -134157859,
       "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MywiY3VzdG9tZXJuYW1lIjoiYW1hbiIsImRhdGVvZmJpcnRoIjoiMjAtMi0xOTk2IiwiZW1haWwiOiJhbWFuODc2QGdtYWlsLmNvbSIsImNvbnRhY3RudW1iZXIiOiI5NTI3ODYxOTY3IiwiYWRkcmVzcyI6Ikd1amFyYXQsIEluZGlhIiwicmVmZXJyYWxjb2RlcyI6WyJWdFl4cThtME9wME0iLCJMeUpNcUVDTnIzdm4iLCI2NTB3bTNhS3lPd3giLCI4TEpJTHc1aGZ1UEgiLCJqTUdPRWh2OGhPTVUiXX1d",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 1928096714
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 32, 33, 34, 35, 36 ],
@@ -190,13 +190,13 @@
       "sessionIdentifier" : -394181719,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "a26748e0-50b1-4b4e-81c4-4efe75ebf3e7" ],
-      "exception" : false,
       "method" : {
         "name" : "saveNewCustomer",
         "signature" : "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 0
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 40 ],
@@ -230,13 +230,13 @@
       "sessionIdentifier" : -291893058,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "f07fd213-3dbd-49dd-b81e-1eae6f43c764" ],
-      "exception" : false,
       "method" : {
         "name" : "removeCustomer",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 1853009988
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.service.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 44, 45, 46, 47 ],
@@ -270,13 +270,13 @@
       "sessionIdentifier" : -1167926984,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyIsImh6cWJoanl5a2giXX0=",
       "mockIds" : [ "dac1f43c-e764-4805-b969-765929a4c064", "a56f90c6-4eb9-48da-a8a0-f0d6e2fd0f9e" ],
-      "exception" : false,
       "method" : {
         "name" : "generateReferralForCustomer",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : -878386236
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 27, 28 ],
@@ -310,13 +310,13 @@
       "sessionIdentifier" : 407949802,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "a56f90c6-4eb9-48da-a8a0-f0d6e2fd0f9e" ],
-      "exception" : false,
       "method" : {
         "name" : "fetchCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : 845208909
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
       "lineNumbers" : [ 60, 61, 62, 63, 64, 65, 68, 70, 71, 74 ],
@@ -350,13 +350,13 @@
       "sessionIdentifier" : 1445715982,
       "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInNjb3JlIjozLCJpc0VsaWdpYmxlIjpmYWxzZX0=",
       "mockIds" : [ "a56f90c6-4eb9-48da-a8a0-f0d6e2fd0f9e" ],
-      "exception" : false,
       "method" : {
         "name" : "isCustomerEligibleForPremium",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerScoreCard;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : -2054062351
-      }
+      },
+      "exception" : false
     }, {
       "lineNumbers" : [ 60, 61, 62, 63, 64, 65, 68, 70, 71, 74 ],
       "testAssertions" : {
@@ -389,13 +389,13 @@
       "sessionIdentifier" : -1640161629,
       "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciLCJzdHJpbmciLCJzdHJpbmciLCJzdHJpbmciLCJzdHJpbmciXX0sInNjb3JlIjoxNSwiaXNFbGlnaWJsZSI6ZmFsc2V9",
       "mockIds" : [ "6536bcda-c910-4313-b7a4-254d0a0302f3" ],
-      "exception" : false,
       "method" : {
         "name" : "isCustomerEligibleForPremium",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerScoreCard;",
         "className" : "org.unlogged.demo.service.CustomerService",
         "methodHash" : -2054062351
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : {

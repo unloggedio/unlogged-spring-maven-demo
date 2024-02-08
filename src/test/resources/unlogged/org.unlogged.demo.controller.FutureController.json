@@ -33,13 +33,13 @@
       "sessionIdentifier" : -283565333,
       "probSerializedValue" : "InN0cmluZyI=",
       "mockIds" : [ "737f11ba-f132-4d64-b9ba-23c857f16e9b" ],
-      "exception" : false,
       "method" : {
         "name" : "getFutureResultOptional",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.controller.FutureController",
         "methodHash" : -1498505688
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }

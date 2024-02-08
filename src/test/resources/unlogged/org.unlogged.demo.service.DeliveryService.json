@@ -33,13 +33,13 @@
       "sessionIdentifier" : -1571614956,
       "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInJlcXVlc3RXcml0dGVuIjp0cnVlLCJjYW5EZWxpdmVyIjp0cnVlLCJ3ZWF0aGVySW5mbyI6eyJsb2NhdGlvbiI6eyJuYW1lIjoic3RyaW5nIiwicmVnaW9uIjoic3RyaW5nIiwiY291bnRyeSI6InN0cmluZyIsImxhdCI6MC4wLCJsb24iOjAuMCwidHpfaWQiOiJzdHJpbmciLCJsb2NhbHRpbWVfZXBvY2giOjAsImxvY2FsdGltZSI6InN0cmluZyJ9LCJjdXJyZW50Ijp7InRlbXBfYyI6MC4wLCJ0ZW1wX2YiOjAuMCwiaXNfZGF5IjowLCJjb25kaXRpb24iOnsidGV4dCI6bnVsbCwiaWNvbiI6bnVsbCwiY29kZSI6MH0sIndpbmRfbXBoIjowLjAsIndpbmRfa3BoIjowLjAsIndpbmRfZGVncmVlIjowLCJ3aW5kX2RpciI6InN0cmluZyIsInByZXNzdXJlX21iIjowLjAsInByZXNzdXJlX2luIjowLjAsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjAsImNsb3VkIjowLCJmZWVsc2xpa2VfYyI6MC4wLCJmZWVsc2xpa2VfZiI6MC4wLCJ2aXNfa20iOjAuMCwidmlzX21pbGVzIjowLjAsInV2IjowLjAsImd1c3RfbXBoIjowLjAsImd1c3Rfa3BoIjowLjB9fX0=",
       "mockIds" : [ "5de72720-75d1-48f7-8fd6-ba24429ee432", "4b401dec-4cfd-4741-9e4f-37a21264c77c", "f04c29a5-2f7c-4727-ace9-65fc6a12a51e", "41e3c89c-0f1a-4a89-bd77-f2bb106bf5fc", "4b3c5803-d688-4c04-a1f4-b5e8b2760835" ],
-      "exception" : false,
       "method" : {
         "name" : "canDeliverToCustomer",
         "signature" : "(J)Lorg/unlogged/demo/models/DeliveryCheckResponse;",
         "className" : "org.unlogged.demo.service.DeliveryService",
         "methodHash" : 0
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.service.DeliveryService#getAllCustomers#()Ljava/util/List;" : [ {
       "lineNumbers" : [ 78 ],
@@ -73,13 +73,13 @@
       "sessionIdentifier" : -2017655777,
       "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX1d",
       "mockIds" : [ "477eed96-c31f-4873-bff0-8bfff329ba0b" ],
-      "exception" : false,
       "method" : {
         "name" : "getAllCustomers",
         "signature" : "()Ljava/util/List;",
         "className" : "org.unlogged.demo.service.DeliveryService",
         "methodHash" : 552168092
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }

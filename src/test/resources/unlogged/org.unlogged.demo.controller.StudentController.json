@@ -33,13 +33,13 @@
       "sessionIdentifier" : -264764287,
       "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJuYW1lIjoic3RyaW5nIiwiZ2VuZGVyIjoiTUFMRSIsImdyYWRlIjowfV0=",
       "mockIds" : [ "6a9930cf-3be7-4422-b999-625bee212f59" ],
-      "exception" : false,
       "method" : {
         "name" : "getAllStudents",
         "signature" : "()Ljava/util/Collection;",
         "className" : "org.unlogged.demo.controller.StudentController",
         "methodHash" : 1983134265
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.StudentController#getById#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
       "lineNumbers" : [ 30 ],
@@ -73,13 +73,13 @@
       "sessionIdentifier" : 276338891,
       "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmciLCJnZW5kZXIiOiJNQUxFIiwiZ3JhZGUiOjB9",
       "mockIds" : [ "a92a9f27-f765-4aca-b968-ac72123c2252" ],
-      "exception" : false,
       "method" : {
         "name" : "getById",
         "signature" : "(Ljava/lang/String;)Ljava/util/Optional;",
         "className" : "org.unlogged.demo.controller.StudentController",
         "methodHash" : -1382304313
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.StudentController#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
       "lineNumbers" : [ 35 ],
@@ -113,13 +113,13 @@
       "sessionIdentifier" : 456450152,
       "probSerializedValue" : "",
       "mockIds" : [ "1f524592-0193-4c76-9e17-cd43b32d93db" ],
-      "exception" : false,
       "method" : {
         "name" : "createStudent",
         "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
         "className" : "org.unlogged.demo.controller.StudentController",
         "methodHash" : -657663158
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.StudentController#updateStudent#(Ljava/lang/String;Lorg/unlogged/demo/models/Student;)Z" : [ {
       "lineNumbers" : [ 40 ],
@@ -153,13 +153,13 @@
       "sessionIdentifier" : -69716350,
       "probSerializedValue" : "",
       "mockIds" : [ "0c1e9eb7-5781-46cc-8509-a5f7f377cf86" ],
-      "exception" : false,
       "method" : {
         "name" : "updateStudent",
         "signature" : "(Ljava/lang/String;Lorg/unlogged/demo/models/Student;)Z",
         "className" : "org.unlogged.demo.controller.StudentController",
         "methodHash" : -2081891490
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.StudentController#deleteStudent#(Ljava/lang/String;)Z" : [ {
       "lineNumbers" : [ 45 ],
@@ -193,13 +193,13 @@
       "sessionIdentifier" : -610235950,
       "probSerializedValue" : "",
       "mockIds" : [ "59fd7f96-5de6-4899-b956-7eebeb1565ff" ],
-      "exception" : false,
       "method" : {
         "name" : "deleteStudent",
         "signature" : "(Ljava/lang/String;)Z",
         "className" : "org.unlogged.demo.controller.StudentController",
         "methodHash" : 586626156
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }

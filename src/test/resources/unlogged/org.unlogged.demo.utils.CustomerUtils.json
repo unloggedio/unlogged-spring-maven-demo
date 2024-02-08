@@ -33,13 +33,13 @@
       "sessionIdentifier" : -711973703,
       "probSerializedValue" : "IkJhbmdhbG9yZSI=",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "getLocationFromAddress",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.utils.CustomerUtils",
         "methodHash" : -1737006814
-      }
+      },
+      "exception" : false
     }, {
       "lineNumbers" : [ 6, 7 ],
       "testAssertions" : {
@@ -72,13 +72,13 @@
       "sessionIdentifier" : 1759825223,
       "probSerializedValue" : "IkJhbmdhbG9yZSI=",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "getLocationFromAddress",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.utils.CustomerUtils",
         "methodHash" : -1737006814
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }

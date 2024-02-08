@@ -33,13 +33,13 @@
       "sessionIdentifier" : 1653710846,
       "probSerializedValue" : "InN0cmluZyI=",
       "mockIds" : [ ],
-      "exception" : false,
       "method" : {
         "name" : "doSomethingOptional",
         "signature" : "(Ljava/lang/String;)Ljava/util/Optional;",
         "className" : "org.unlogged.demo.service.FutureService",
         "methodHash" : 591176212
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : {

@@ -33,13 +33,13 @@
       "sessionIdentifier" : 542951060,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "cf87ae24-a734-4b87-9302-71b4e40e3bfa" ],
-      "exception" : false,
       "method" : {
         "name" : "saveCustomerProfile",
         "signature" : "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.controller.CustomerController",
         "methodHash" : -916697858
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.CustomerController#generateNeReferralCode#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 39 ],
@@ -73,13 +73,13 @@
       "sessionIdentifier" : 453595400,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbImNvZGUtMSIsImNvZGUtMiJdfQ==",
       "mockIds" : [ "077b0593-8e95-4132-a552-ad171ba1633c" ],
-      "exception" : false,
       "method" : {
         "name" : "generateNeReferralCode",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.controller.CustomerController",
         "methodHash" : -732548036
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.CustomerController#isCustomerEligibleForLoyaltyProgram#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
       "lineNumbers" : [ 43 ],
@@ -113,13 +113,13 @@
       "sessionIdentifier" : 1276962101,
       "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInNjb3JlIjo1MCwiaXNFbGlnaWJsZSI6dHJ1ZX0=",
       "mockIds" : [ "38710293-7956-4ce0-8144-615e24946868" ],
-      "exception" : false,
       "method" : {
         "name" : "isCustomerEligibleForLoyaltyProgram",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerScoreCard;",
         "className" : "org.unlogged.demo.controller.CustomerController",
         "methodHash" : -2119348806
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.CustomerController#getCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 22, 23 ],
@@ -153,13 +153,13 @@
       "sessionIdentifier" : 575125164,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "9f0cdb81-0b43-40cd-9db6-157ae17a44fb" ],
-      "exception" : false,
       "method" : {
         "name" : "getCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.controller.CustomerController",
         "methodHash" : 1335237380
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.controller.CustomerController#removeCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 34 ],
@@ -193,13 +193,13 @@
       "sessionIdentifier" : 278379461,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "4afb5b6f-4229-45dd-b383-a071fce7b9b2" ],
-      "exception" : false,
       "method" : {
         "name" : "removeCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.controller.CustomerController",
         "methodHash" : 851606882
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }
