@@ -44,13 +44,8 @@ public class AuthenticationController {
             String token = jwtUtil.createToken(user);
             LoginResponse loginResponse = new LoginResponse(email, token);
 
-            System.out.println("After login auth");
             Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-            if (auth == null) {
-                System.out.println("Auth is null post login");
-            } else {
-                System.out.println("Auth is not null post login");
-            }
+            System.out.println("auth = " + auth);
 
             return ResponseEntity.ok(loginResponse);
         } catch (BadCredentialsException e) {
