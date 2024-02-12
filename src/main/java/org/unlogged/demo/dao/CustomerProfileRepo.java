@@ -9,5 +9,5 @@ public interface CustomerProfileRepo extends JpaRepository<CustomerProfile, Long
     public CustomerProfile getByCustomerId(long customerid);
 
     @Query(value = "SELECT MAX(customerid) FROM customerprofile",nativeQuery = true)
-    public long getLastId();
+    public Long getLastId();
 }
