@@ -80,7 +80,10 @@ public class DeliveryService {
     }
 
     public CustomerProfile addNewCustomer(CustomerProfileRequest customerProfileRequest) {
-        long lastId = customerProfileRepo.getLastId();
+        Long lastId = customerProfileRepo.getLastId();
+        if (lastId == null) {
+            lastId = -1l;
+        }
         return customerProfileRepo.save(new CustomerProfile(lastId + 1, customerProfileRequest.getCustomerName(),
                 customerProfileRequest.getDateOfBirth(), customerProfileRequest.getEmail(),
                 customerProfileRequest.getPrimaryNumber(), customerProfileRequest.getAddress(),
