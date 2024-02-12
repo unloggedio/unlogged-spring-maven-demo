@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.controller.CustomerController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.CustomerController#getCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 22 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "e4ddce9e-b408-4d3e-82e6-0c1c977febfd",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e22744bd-1f59-4fe6-8605-cc775d985cbb",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "84d51014-09d2-443e-8956-3df57bb3623e",
+      "name" : "get default customer unit - pass",
+      "description" : "",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 558244239487,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1663835693,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "49468e9a-9780-4dcc-ad5c-361251b6d1cb" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 1943159505
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
