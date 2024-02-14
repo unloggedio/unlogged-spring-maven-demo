@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.controller.InternalClassController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.InternalClassController#returnChar#(C)C" : [ {
+      "lineNumbers" : [ 74 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "97",
+          "id" : "ec44a82c-bbe0-4cba-85b6-db4a38c8ef1f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "beaf87c0-7bb0-4552-b3cb-04308a3021e2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0cd12f81-82fd-401f-a0f3-fbe6dbc0a198",
+      "name" : "Handling characters case - a",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "97" ],
+      "returnValue" : "97",
+      "returnValueClassname" : "C",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3543995626474,
+        "candidateStatus" : "FAILING"
+      },
+      "sessionIdentifier" : 801869716,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "returnChar",
+        "signature" : "(C)C",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 672948653
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
