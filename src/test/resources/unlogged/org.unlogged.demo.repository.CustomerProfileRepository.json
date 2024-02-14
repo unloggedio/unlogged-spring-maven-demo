@@ -23,6 +23,28 @@
         },
         "methodExitType" : "NORMAL"
       } ]
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "c6b0e3be-b61c-4fcc-a1ff-82cfe0746777",
+      "name" : "customer - 0 - case 590",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : "customerID",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"customerid\" : \"123\",\n  \"customername\" : \"string123\",\n  \"dateofbirth\" : \"string123\",\n  \"email\" : \"123\",\n  \"contactnumber\" : \"123\",\n  \"address\" : \"123\",\n  \"referralcodes\" : [ \"123\" ]\n}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
     } ]
   }
 }
