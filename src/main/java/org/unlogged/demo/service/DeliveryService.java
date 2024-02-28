@@ -3,6 +3,7 @@ package org.unlogged.demo.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.InvalidDataAccessResourceUsageException;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.dao.DeliveryRequestRepo;
 import org.unlogged.demo.models.CustomerProfile;
@@ -13,7 +14,6 @@ import org.unlogged.demo.models.redis.DeliveryUnit;
 import org.unlogged.demo.models.weather.WeatherInfo;
 import org.unlogged.demo.utils.LocationUtils;
 
-import javax.transaction.Transactional;
 import java.util.Date;
 import java.util.List;
 
