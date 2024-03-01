@@ -32,7 +32,7 @@
         <dependency>
             <artifactId>unlogged-sdk</artifactId>
             <groupId>video.bug</groupId>
-            <version>0.1.54-hibernate-pre2x</version>
+            <version>0.1.59</version>
         </dependency>
         <dependency>
             <groupId>com.rometools</groupId>
