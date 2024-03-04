@@ -1,5 +1,7 @@
 package org.unlogged.demo.controller;
 
+import io.unlogged.UnloggedClass;
+import io.unlogged.UnloggedMethod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.unlogged.demo.models.CustomerProfile;
@@ -12,12 +14,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/customer")
+@UnloggedClass(counter="4")
 public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
 
     @RequestMapping("/get")
+    @UnloggedMethod(counter="8")
     private CustomerProfile getCustomerProfile(@RequestParam long customerID) {
         return customerService.fetchCustomerProfile(customerID);
     }
