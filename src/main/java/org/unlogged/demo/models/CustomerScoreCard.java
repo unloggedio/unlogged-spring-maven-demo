@@ -11,6 +11,9 @@ public class CustomerScoreCard {
     private Timestamp valTime;
     private Date valDate;
 
+    public CustomerScoreCard() {
+    }
+
     public CustomerScoreCard(CustomerProfile customerProfile, int score, boolean isEligible) {
         this.customerProfile = customerProfile;
         this.score = score;

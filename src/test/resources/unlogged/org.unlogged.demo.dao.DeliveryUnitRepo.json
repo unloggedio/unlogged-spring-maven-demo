@@ -1,0 +1,29 @@
+{
+  "classname" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.dao.DeliveryUnitRepo#save#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;" : [ {
+      "id" : "02209cc3-6e06-49ab-8887-2889f0979761",
+      "name" : "mock response for call to deliveryUnitRepo.save(deliveryUnit)",
+      "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "fieldName" : "deliveryUnitRepo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.redis.DeliveryUnit"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "211332846",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.redis.DeliveryUnit"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#save#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;"
+    } ]
+  }
+}
