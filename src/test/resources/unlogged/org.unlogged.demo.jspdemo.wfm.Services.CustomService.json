@@ -1,9 +1,50 @@
 {
   "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
-  "storedCandidateMap" : { },
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 9 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Some Value1",
+          "id" : "1ca2296a-3d6a-4eec-bbb5-468dac64df13",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bdfa10da-5450-438c-9bd3-f757c0a55d1f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "791452e5-540b-4b28-a593-f07f202e5054",
+      "name" : "saved on 2024-03-04 16:15",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Some Value1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5269678052839,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -235357388,
+      "probSerializedValue" : "IlNvbWUgVmFsdWUxIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getValue",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
+        "methodHash" : 0
+      }
+    } ]
+  },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
-      "id" : "97a679c0-81fb-4235-9aba-2e0bcce26db3",
+      "id" : "e822381b-e609-4bb9-b5c0-00301ba9831c",
       "name" : "mock response for call to customService.getValue()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",

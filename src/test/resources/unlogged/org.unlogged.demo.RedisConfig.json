@@ -1,0 +1,206 @@
+{
+  "classname" : "org.unlogged.demo.RedisConfig",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.RedisConfig#redisOperations#()Lorg/springframework/data/redis/core/ReactiveRedisTemplate;" : [ {
+      "lineNumbers" : [ 53, 55, 56, 58, 60 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "941557161",
+          "id" : "6c6fcd3c-fb39-468f-90c2-49ad59041d74",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e5ef6493-2a66-4b83-9665-eb63997b7fbd",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "a5cc7228-6dd0-42b5-8d23-84c2cc77f448",
+      "name" : "saved on 2024-03-04 15:39",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "941557161",
+      "returnValueClassname" : "org.springframework.data.redis.core.ReactiveRedisTemplate",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3412139614079,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -2110179794,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "redisOperations",
+        "signature" : "()Lorg/springframework/data/redis/core/ReactiveRedisTemplate;",
+        "className" : "org.unlogged.demo.RedisConfig",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.RedisConfig#redisTemplate#()Lorg/springframework/data/redis/core/RedisTemplate;" : [ {
+      "lineNumbers" : [ 33, 34, 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2007194415",
+          "id" : "3c8b7f38-b82c-47e0-8521-b754131c4c03",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "754b1a7e-f1b7-4fe2-9798-270e2fa0bfd1",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "dc759f4a-7b69-413a-b965-c6dde27bdd41",
+      "name" : "saved on 2024-03-04 15:39",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "2007194415",
+      "returnValueClassname" : "org.springframework.data.redis.core.RedisTemplate",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3412497630483,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1943265413,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "redisTemplate",
+        "signature" : "()Lorg/springframework/data/redis/core/RedisTemplate;",
+        "className" : "org.unlogged.demo.RedisConfig",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.RedisConfig#reactiveRedisConnectionFactory#()Lorg/springframework/data/redis/connection/lettuce/LettuceConnectionFactory;" : [ {
+      "lineNumbers" : [ 48 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1641289051",
+          "id" : "4a2c4a7c-119a-4344-9823-c0a113972816",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "efa3b160-a266-4ad1-b7d6-8d2a280c6389",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "15b7f3d4-d085-49e8-8866-15823bed4e9a",
+      "name" : "saved on 2024-03-04 15:39",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1641289051",
+      "returnValueClassname" : "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3411941688035,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -319799149,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "reactiveRedisConnectionFactory",
+        "signature" : "()Lorg/springframework/data/redis/connection/lettuce/LettuceConnectionFactory;",
+        "className" : "org.unlogged.demo.RedisConfig",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.RedisConfig#redisStringTemplate#()Lorg/springframework/data/redis/core/StringRedisTemplate;" : [ {
+      "lineNumbers" : [ 40, 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "509557834",
+          "id" : "c656d651-6147-4b9a-9ddc-97388e9fe761",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e38b7eaa-46ed-4a3e-a545-e191bb9eb623",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "76e20aa6-166c-4f42-a676-87e6285bf0dc",
+      "name" : "saved on 2024-03-04 15:39",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "509557834",
+      "returnValueClassname" : "org.springframework.data.redis.core.StringRedisTemplate",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3412927427903,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1912887578,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "redisStringTemplate",
+        "signature" : "()Lorg/springframework/data/redis/core/StringRedisTemplate;",
+        "className" : "org.unlogged.demo.RedisConfig",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.RedisConfig#jedisConnectionFactory#()Lorg/springframework/data/redis/connection/jedis/JedisConnectionFactory;" : [ {
+      "lineNumbers" : [ 25, 26, 27, 28 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1389994320",
+          "id" : "ce8962cf-d9fb-4891-9393-fbdf71a6646c",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "b70e98f3-f5a8-4101-81c2-24dabee7199b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "b7d9259d-518b-4164-8244-481d1ed67c78",
+      "name" : "saved on 2024-03-04 15:39",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1389994320",
+      "returnValueClassname" : "org.springframework.data.redis.connection.jedis.JedisConnectionFactory",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3412511755592,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1997555567,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "jedisConnectionFactory",
+        "signature" : "()Lorg/springframework/data/redis/connection/jedis/JedisConnectionFactory;",
+        "className" : "org.unlogged.demo.RedisConfig",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

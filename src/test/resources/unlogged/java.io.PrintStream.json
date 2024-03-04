@@ -3,8 +3,8 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "java.io.PrintStream#println#(Ljava/lang/String;)V" : [ {
-      "id" : "c6244a56-8cab-45c8-88f4-8058cc9e0e17",
-      "name" : "mock response for call to System.out.println(res.getId())",
+      "id" : "80c72e04-6cb2-4938-942c-c25c5b44f320",
+      "name" : "mock response for call to System.out.println(\"E\")",
       "fieldTypeName" : "java.io.PrintStream",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
       "fieldName" : "System.out",
@@ -26,7 +26,7 @@
       "methodHashKey" : "java.io.PrintStream#println#(Ljava/lang/String;)V"
     } ],
     "java.io.PrintStream#println#(I)V" : [ {
-      "id" : "779d2aea-f3b7-43a0-9ed3-00354a4538a2",
+      "id" : "cf3a0bb1-3252-480e-a730-8232af681353",
       "name" : "mock response for call to System.out.println(res.getId())",
       "fieldTypeName" : "java.io.PrintStream",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
