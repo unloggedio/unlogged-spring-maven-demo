@@ -59,7 +59,7 @@ Add unlogged-sdk dependency
 4. Hitting endpoints
 - Generate a auth token:
 ```shell
-   curl -X POST http://localhost:8080/auth/login \ 
+  curl -X POST http://localhost:8080/auth/login \ 
   -H 'Content-Type: application/json' \
   -d '{
   "email": "amg@amg.com",
