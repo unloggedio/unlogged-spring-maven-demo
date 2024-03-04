@@ -1,0 +1,193 @@
+{
+  "classname" : "org.unlogged.demo.service.DeliveryUnitService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/List;Ljava/lang/String;)Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 19, 20, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "c3f09250-e17e-413a-8e9e-3d6dd3436432",
+            "assertionType" : "EQUAL",
+            "key" : "/0/id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "55807d62-b0cd-420c-9dda-abf7b7d45a87",
+            "assertionType" : "EQUAL",
+            "key" : "/0/unitName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "5af11380-e7e4-435b-83b1-260a228899cf",
+            "assertionType" : "EQUAL",
+            "key" : "/0/available"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "2ca5866c-a7f4-4d09-a8fe-c095427c5656",
+            "assertionType" : "EQUAL",
+            "key" : "/0/location"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "15eb5e68-fbab-4a5a-a5aa-ba4228338d1b",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "98a41ed4-52a0-499a-8575-65d4c638c81d",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "9db7ac47-4709-464e-860e-20ed07a90bc8",
+      "name" : "saved on 2024-03-04 17:36",
+      "description" : null,
+      "methodArguments" : [ "[{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}]", "\"string\"" ],
+      "returnValue" : "[{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}]",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10481642860140,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 360798175,
+      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJ1bml0TmFtZSI6InN0cmluZyIsImF2YWlsYWJsZSI6dHJ1ZSwibG9jYXRpb24iOiJzdHJpbmcifV0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAvailableUnitsForLocation",
+        "signature" : "(Ljava/util/List;Ljava/lang/String;)Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#addNewDeliveryUnit#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 26, 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "dd9e3b4d-fef5-4fe9-87c8-c443ac9b52ae",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "d5ac4ce3-4531-4eb0-b92b-848a160fa3d2",
+      "name" : "saved on 2024-03-04 17:36",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}" ],
+      "returnValue" : "173907703",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10494716251325,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1065069165,
+      "probSerializedValue" : "",
+      "mockIds" : [ "cab1cef9-d8d2-423b-8a10-97c856b76634" ],
+      "exception" : true,
+      "method" : {
+        "name" : "addNewDeliveryUnit",
+        "signature" : "(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getDeliveryUnit#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 31 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "bf9f913a-5077-4d41-a1f6-45ed546e7164",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "3161fed9-8771-4e93-a551-00bd708f095c",
+      "name" : "saved on 2024-03-04 17:37",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "1501087640",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10503337933055,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1030028500,
+      "probSerializedValue" : "",
+      "mockIds" : [ "30cb9bce-cba5-400b-805a-37d8387dc586" ],
+      "exception" : true,
+      "method" : {
+        "name" : "getDeliveryUnit",
+        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#clearAllUnits#()Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "97adb236-2f22-49e5-a7b5-88e08f7cb24b",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "b229e2dd-c883-49ad-b6c8-9d5d175f65f2",
+      "name" : "saved on 2024-03-04 17:37",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "660413158",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10520741791264,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1130587872,
+      "probSerializedValue" : "",
+      "mockIds" : [ "f7f80406-e26c-4513-920f-21cad2e8de60" ],
+      "exception" : true,
+      "method" : {
+        "name" : "clearAllUnits",
+        "signature" : "()Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;" : [ {
+      "id" : "79f2417a-2e17-4de1-bafa-df3bfbe353ed",
+      "name" : "mock response for call to deliveryUnitService.getAllDeliveryUnits()",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAllDeliveryUnits",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1887418772",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;"
+    } ]
+  }
+}

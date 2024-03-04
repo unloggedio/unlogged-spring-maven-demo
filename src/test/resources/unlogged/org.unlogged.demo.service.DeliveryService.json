@@ -1,0 +1,257 @@
+{
+  "classname" : "org.unlogged.demo.service.DeliveryService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.DeliveryService#initiateDelivery#(J)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 42, 54, 59, 60, 61, 63, 64, 74, 5, 6, 7, 35, 36, 37, 17, 21, 23, 24, 5, 6, 7, 35, 36, 37, 17, 21, 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "51570ee1-a712-48da-88b4-aa06baf369ff",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "1524f2da-c0fa-43df-a944-6b6022fbb94c",
+      "name" : "saved on 2024-03-04 17:35",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "1887418772",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10428105547297,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 777612177,
+      "probSerializedValue" : "",
+      "mockIds" : [ "bee42989-d032-409e-aa18-76c0593afed1", "1a9c5f8f-917d-400a-af43-10af4c123c77", "79f2417a-2e17-4de1-bafa-df3bfbe353ed" ],
+      "exception" : true,
+      "method" : {
+        "name" : "initiateDelivery",
+        "signature" : "(J)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.DeliveryService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryService#canDeliverToCustomer#(J)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 59, 60, 61, 63, 64, 74, 5, 6, 7, 35, 36, 37, 17, 21, 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "3abd29b8-bce6-4cec-a8ed-643d38a9a0bd",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "e137f264-b19b-4284-bb81-97edc270e226",
+      "name" : "saved on 2024-03-04 17:36",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "1887418772",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10428105572673,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1279805930,
+      "probSerializedValue" : "",
+      "mockIds" : [ "29ee151d-89c8-47ab-ab39-bfe48cd60782", "2e5ae38c-0843-40e7-b171-a11e35b5309f", "3587d115-5a10-4d62-afd1-b6297e32d47c" ],
+      "exception" : true,
+      "method" : {
+        "name" : "canDeliverToCustomer",
+        "signature" : "(J)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.DeliveryService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryService#getAllCustomers#()Ljava/util/List;" : [ {
+      "lineNumbers" : [ 79 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "7a5593e0-7393-4f3c-b920-be039ded452e",
+            "assertionType" : "EQUAL",
+            "key" : "/0/customerid"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "51d5bc6b-1680-42c4-94c4-c550906b5315",
+            "assertionType" : "EQUAL",
+            "key" : "/0/customername"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "a34d68c4-1614-4c07-a0da-2ff906915995",
+            "assertionType" : "EQUAL",
+            "key" : "/0/dateofbirth"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "5370091a-fb72-4004-85a1-fa246dfe5362",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "85499ad9-c1b6-4c3f-b116-16d6948d9b28",
+            "assertionType" : "EQUAL",
+            "key" : "/0/contactnumber"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "834069fe-6f09-4087-b787-305c775c22d6",
+            "assertionType" : "EQUAL",
+            "key" : "/0/address"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "string",
+              "id" : "b5f6cac8-f9e0-4f32-b614-e911f5c6b2c7",
+              "assertionType" : "EQUAL",
+              "key" : "/0/referralcodes/0"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "076860d2-0038-42e9-bd9b-54f5ff1beb4d",
+            "assertionType" : "ALLOF",
+            "key" : "/0/referralcodes"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3e2c4994-cf8a-4990-8a1b-01a644cbdbab",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "12377305-8193-410c-b9fa-394524307657",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "ed102cbe-a99b-4c00-b09b-f3aa7afad658",
+      "name" : "saved on 2024-03-04 17:36",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10456793876766,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1607668819,
+      "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX1d",
+      "mockIds" : [ "21c42ea5-8a3d-4ae7-920e-83015de375c0" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAllCustomers",
+        "signature" : "()Ljava/util/List;",
+        "className" : "org.unlogged.demo.service.DeliveryService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryService#addNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 83, 84, 87, 88, 89, 90 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "4dc0a8a1-e7e7-4aa0-88dd-6ac347892eae",
+          "assertionType" : "EQUAL",
+          "key" : "/customerid"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "90aecca8-fdc9-4b48-ae9a-1abe5ac1d7ac",
+          "assertionType" : "EQUAL",
+          "key" : "/customername"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "a4130ae0-5d43-4393-8779-77ec10887233",
+          "assertionType" : "EQUAL",
+          "key" : "/dateofbirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "0b01925a-27c9-446f-8d00-92210a485bc4",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "cf490a03-040c-4a8d-99aa-e7376334d170",
+          "assertionType" : "EQUAL",
+          "key" : "/contactnumber"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "c833feed-1cb7-4af9-9c30-7c01cb5889c6",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "8f63ae4b-e803-4ead-bada-d929003e5b32",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "247cf886-6710-4d3c-b9ee-ef6be8da7c92",
+          "assertionType" : "ALLOF",
+          "key" : "/referralcodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "381687bb-fe86-4f22-ba0d-ad366d013b25",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "11649f42-7e64-41fb-8d11-62e881eb7cd5",
+      "name" : "saved on 2024-03-04 17:36",
+      "description" : null,
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
+      "returnValue" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10466462169333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1588006236,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjoxLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "c7cc68db-fbe1-46be-b14c-a5576f430819", "4285f875-2f79-453c-a248-75e3ac44d2bb" ],
+      "exception" : false,
+      "method" : {
+        "name" : "addNewCustomer",
+        "signature" : "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.service.DeliveryService",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

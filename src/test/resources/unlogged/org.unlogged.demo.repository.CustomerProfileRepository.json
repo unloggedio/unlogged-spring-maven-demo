@@ -723,7 +723,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"obfkqqjalq\",\"zhwhbyfqgy\",\"rwtqynklxm\",\"ymimmixqjj\",\"fjsywttzkv\"]}",
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lpnndnuhhp\",\"nbpfukrska\",\"xiptqhjwln\",\"rmcvoqqqnc\",\"bwsauaggte\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -768,7 +768,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"obfkqqjalq\",\"zhwhbyfqgy\",\"rwtqynklxm\",\"ymimmixqjj\",\"fjsywttzkv\",\"flxxdcdowp\",\"sjnyapadwt\"]}",
+          "value" : "null",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -821,6 +821,48 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerScoreCard#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
+      "id" : "24a5020d-bfe0-469a-b309-6759c79a2488",
+      "name" : "mock response for call to customerProfileRepository.fetchCustomerScoreCard(customerId)",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "fetchCustomerScoreCard",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerProfile\":null,\"score\":10,\"isEligible\":false,\"valTime\":\"Jan 1, 1970 05:30:00 am\",\"valDate\":\"Jan 1, 1970 05:30:00 am\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerScoreCard"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerScoreCard#(J)Lorg/unlogged/demo/models/CustomerScoreCard;"
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#getAsianCustomers#()Ljava/util/List;" : [ {
+      "id" : "336f388e-0a96-40cb-99a2-4cb42ecd1afa",
+      "name" : "mock response for call to customerProfileRepository.getAsianCustomers()",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "getAsianCustomers",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\":3,\"customername\":\"aman\",\"dateofbirth\":\"20-2-1996\",\"email\":\"aman876@gmail.com\",\"contactnumber\":\"9527861967\",\"address\":\"Gujarat, India\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\"]},{\"customerid\":4,\"customername\":\"toro\",\"dateofbirth\":\"14-4-1993\",\"email\":\"toro.nani@gmail.com\",\"contactnumber\":\"5670926480\",\"address\":\"Kyoto, Japan\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\",\"7Ffb8QoG4gLG\"]},{\"customerid\":5,\"customername\":\"ashok\",\"dateofbirth\":\"14-4-1993\",\"email\":\"ashok.shah@gmail.com\",\"contactnumber\":\"5670926480\",\"address\":\"Kathmandu, Nepal\",\"referralcodes\":[\"VtYxq8m0Op0M\",\"LyJMqECNr3vn\",\"650wm3aKyOwx\",\"8LJILw5hfuPH\",\"jMGOEhv8hOMU\",\"7Ffb8QoG4gLG\"]}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#getAsianCustomers#()Ljava/util/List;"
     } ]
   }
 }

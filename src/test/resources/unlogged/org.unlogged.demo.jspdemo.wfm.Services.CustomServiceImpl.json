@@ -1,43 +1,43 @@
 {
-  "classname" : "org.unlogged.demo.utils.ReferralUtils",
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomServiceImpl",
   "storedCandidateMap" : {
-    "org.unlogged.demo.utils.ReferralUtils#generateReferralCode#()Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 10, 11, 12, 13, 14, 15 ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomServiceImpl#getValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 9 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "zfpvjqzpll",
-          "id" : "e7292033-b486-480d-ac87-46bbcd76c9b6",
+          "expectedValue" : "Some Value1",
+          "id" : "db020992-5cff-412f-b8a3-2de1b7fbe6e0",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "30303241-47fd-4d9a-90bb-b1266fcf7f9a",
+        "id" : "d0ef1297-a647-4790-be4a-fb1fecc3b74e",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "3350769d-1d0d-4251-bb8c-f947b13e3d9e",
-      "name" : "saved on 2024-03-04 17:41",
+      "candidateId" : "4b3ad47d-3278-45ac-b5bd-61030ca30ed7",
+      "name" : "saved on 2024-03-04 16:58",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "\"zfpvjqzpll\"",
+      "returnValue" : "\"Some Value1\"",
       "returnValueClassname" : "java.lang.String",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10356694257567,
+        "timestamp" : 8661897319237,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -1086022632,
-      "probSerializedValue" : "InpmcHZqcXpwbGwi",
+      "sessionIdentifier" : 637383680,
+      "probSerializedValue" : "IlNvbWUgVmFsdWUxIg==",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
-        "name" : "generateReferralCode",
+        "name" : "getValue",
         "signature" : "()Ljava/lang/String;",
-        "className" : "org.unlogged.demo.utils.ReferralUtils",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomServiceImpl",
         "methodHash" : 0
       }
     } ]

@@ -1,6 +1,364 @@
 {
   "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
-  "storedCandidateMap" : { },
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#fetchCustomerProfile#(J)V" : [ {
+      "lineNumbers" : [ 18, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "fdf0216a-3e60-4d63-b5c4-581184fe9a63",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f8233c17-f6f5-4e20-86ae-882947514c07",
+      "name" : "saved on 2024-03-04 16:56",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8521989607024,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -695564281,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "5c589204-cd0b-4ac9-9eb9-5f02dae53b54" ],
+      "exception" : false,
+      "method" : {
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 22, 23, 24, 26, 27, 28, 32, 33, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2",
+          "id" : "7ead61e7-b1bc-43b7-a43d-1fd51a74e386",
+          "assertionType" : "EQUAL",
+          "key" : "/customerId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "23fe0a3d-40f5-4263-97f2-5d8974874fcf",
+          "assertionType" : "EQUAL",
+          "key" : "/customerName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Mar 4, 2024 16:56:15 pm",
+          "id" : "e281e7c2-61af-4f4f-95a7-9e944d3a314b",
+          "assertionType" : "EQUAL",
+          "key" : "/dateOfBirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "362b9fd7-fa7b-4384-9065-18e813022618",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "afff4559-0956-4d27-a1ad-f0cfcfacdd55",
+            "assertionType" : "EQUAL",
+            "key" : "/contactNumbers/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "174e0a28-4ced-4eda-8329-198e7cdb8dd7",
+          "assertionType" : "ALLOF",
+          "key" : "/contactNumbers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "91b82dc2-62b4-49dc-b220-0d3c029b2f1a",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "asqxewzrvg",
+            "id" : "20a55e1e-efaf-43db-9f11-b3e37f3c2ff1",
+            "assertionType" : "EQUAL",
+            "key" : "/referralCodes/0"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "qxyesuchdb",
+            "id" : "91e0d53c-f72b-4600-a392-eaa6b7c977f8",
+            "assertionType" : "EQUAL",
+            "key" : "/referralCodes/1"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "flqupowqlv",
+            "id" : "757e09a1-ffd9-43e0-a2e2-927fd5a13cc1",
+            "assertionType" : "EQUAL",
+            "key" : "/referralCodes/2"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "fxkqxkmxui",
+            "id" : "741dd865-c3c2-4896-a42e-088c5a30a3f8",
+            "assertionType" : "EQUAL",
+            "key" : "/referralCodes/3"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "btaevakgsu",
+            "id" : "27b43069-07a1-4a34-b6dc-6008f6dfcff2",
+            "assertionType" : "EQUAL",
+            "key" : "/referralCodes/4"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "69bce530-31c0-4c26-bc78-ca4eb01e307a",
+          "assertionType" : "ALLOF",
+          "key" : "/referralCodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "42c40710-ae55-4d8f-89c0-32bec97f2e2d",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "d1299d17-568c-481e-8825-b7775214f3c0",
+      "name" : "saved on 2024-03-04 16:56",
+      "description" : null,
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"Mar 4, 2024 16:56:15 pm\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":null}" ],
+      "returnValue" : "{\"customerId\":2,\"customerName\":\"string\",\"dateOfBirth\":\"Mar 4, 2024 16:56:15 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":[\"asqxewzrvg\",\"qxyesuchdb\",\"flqupowqlv\",\"fxkqxkmxui\",\"btaevakgsu\"]}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8532797125171,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -965507193,
+      "probSerializedValue" : "eyJjdXN0b21lcklkIjoyLCJjdXN0b21lck5hbWUiOiJzdHJpbmciLCJkYXRlT2ZCaXJ0aCI6Ik1hciA0LCAyMDI0IDE2OjU2OjE1IHBtIiwiZW1haWwiOiJzdHJpbmciLCJjb250YWN0TnVtYmVycyI6WyJzdHJpbmciXSwiYWRkcmVzcyI6InN0cmluZyIsInJlZmVycmFsQ29kZXMiOlsiYXNxeGV3enJ2ZyIsInF4eWVzdWNoZGIiLCJmbHF1cG93cWx2IiwiZnhrcXhrbXh1aSIsImJ0YWV2YWtnc3UiXX0=",
+      "mockIds" : [ "0be670aa-cd84-4ac3-9817-27efaf711e1d" ],
+      "exception" : false,
+      "method" : {
+        "name" : "saveNewCustomer",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#removeCustomer#(J)V" : [ {
+      "lineNumbers" : [ 28, 37, 38, 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "94bcd003-4173-4799-8f7d-9fb54eab70d3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "57d557d7-cc0c-409f-9ba6-a1f95ed3c96a",
+      "name" : "saved on 2024-03-04 16:56",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8546088274435,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -88061857,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "90f56967-c884-458f-87b7-54f781a87b04" ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomer",
+        "signature" : "(J)V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#addNewContact#(JLjava/lang/String;)Ljava/lang/NullPointerException;" : [ {
+      "lineNumbers" : [ 32, 33, 35, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "\"Cannot invoke \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getContactNumbers()\\\" because \\\"profile\\\" is null\"",
+        "id" : "13d7c5fc-5ed1-460d-9d4e-6362d68d29e7",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "d0d56147-5f57-498d-bbac-d029472e2fd5",
+      "name" : "saved on 2024-03-04 16:56",
+      "description" : null,
+      "methodArguments" : [ "0", "\"string\"" ],
+      "returnValue" : "{\"cause\":null,\"stackTrace\":[{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"addNewContact\",\"fileName\":\"CustomerService.java\",\"lineNumber\":33,\"nativeMethod\":false,\"className\":\"org.unlogged.demo.jspdemo.wfm.Services.CustomerService\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke0\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"nativeMethod\":true,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":77,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.DelegatingMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"Method.java\",\"lineNumber\":568,\"nativeMethod\":false,\"className\":\"java.lang.reflect.Method\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommandRaw\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":393,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommand\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":463,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"serve\",\"fileName\":\"AgentCommandServer.java\",\"lineNumber\":69,\"nativeMethod\":false,\"className\":\"io.unlogged.command.AgentCommandServer\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"execute\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":945,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$HTTPSession\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"run\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":192,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$ClientHandler\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"run\",\"fileName\":\"Thread.java\",\"lineNumber\":833,\"nativeMethod\":false,\"className\":\"java.lang.Thread\"}],\"message\":\"Cannot invoke \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getContactNumbers()\\\" because \\\"profile\\\" is null\",\"suppressed\":[],\"localizedMessage\":\"Cannot invoke \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getContactNumbers()\\\" because \\\"profile\\\" is null\"}",
+      "returnValueClassname" : "java.lang.NullPointerException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8557037507873,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1544388748,
+      "probSerializedValue" : "eyJjYXVzZSI6bnVsbCwic3RhY2tUcmFjZSI6W3siY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImFkZE5ld0NvbnRhY3QiLCJmaWxlTmFtZSI6IkN1c3RvbWVyU2VydmljZS5qYXZhIiwibGluZU51bWJlciI6MzMsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Im9yZy51bmxvZ2dlZC5kZW1vLmpzcGRlbW8ud2ZtLlNlcnZpY2VzLkN1c3RvbWVyU2VydmljZSJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuNyIsIm1ldGhvZE5hbWUiOiJpbnZva2UwIiwiZmlsZU5hbWUiOiJOYXRpdmVNZXRob2RBY2Nlc3NvckltcGwuamF2YSIsImxpbmVOdW1iZXIiOi0yLCJuYXRpdmVNZXRob2QiOnRydWUsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0Lk5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuNyIsIm1ldGhvZE5hbWUiOiJpbnZva2UiLCJmaWxlTmFtZSI6Ik5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NzcsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0Lk5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuNyIsIm1ldGhvZE5hbWUiOiJpbnZva2UiLCJmaWxlTmFtZSI6IkRlbGVnYXRpbmdNZXRob2RBY2Nlc3NvckltcGwuamF2YSIsImxpbmVOdW1iZXIiOjQzLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJqZGsuaW50ZXJuYWwucmVmbGVjdC5EZWxlZ2F0aW5nTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiTWV0aG9kLmphdmEiLCJsaW5lTnVtYmVyIjo1NjgsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImphdmEubGFuZy5yZWZsZWN0Lk1ldGhvZCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImV4ZWN1dGVDb21tYW5kUmF3IiwiZmlsZU5hbWUiOiJBZ2VudENvbW1hbmRFeGVjdXRvckltcGwuamF2YSIsImxpbmVOdW1iZXIiOjM5MywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiaW8udW5sb2dnZWQuQWdlbnRDb21tYW5kRXhlY3V0b3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiZXhlY3V0ZUNvbW1hbmQiLCJmaWxlTmFtZSI6IkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NDYzLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5BZ2VudENvbW1hbmRFeGVjdXRvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJzZXJ2ZSIsImZpbGVOYW1lIjoiQWdlbnRDb21tYW5kU2VydmVyLmphdmEiLCJsaW5lTnVtYmVyIjo2OSwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiaW8udW5sb2dnZWQuY29tbWFuZC5BZ2VudENvbW1hbmRTZXJ2ZXIifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJleGVjdXRlIiwiZmlsZU5hbWUiOiJOYW5vSFRUUEQuamF2YSIsImxpbmVOdW1iZXIiOjk0NSwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiZmkuaWtpLmVsb25lbi5OYW5vSFRUUEQkSFRUUFNlc3Npb24ifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJydW4iLCJmaWxlTmFtZSI6Ik5hbm9IVFRQRC5qYXZhIiwibGluZU51bWJlciI6MTkyLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRCRDbGllbnRIYW5kbGVyIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiVGhyZWFkLmphdmEiLCJsaW5lTnVtYmVyIjo4MzMsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImphdmEubGFuZy5UaHJlYWQifV0sIm1lc3NhZ2UiOiJDYW5ub3QgaW52b2tlIFwib3JnLnVubG9nZ2VkLmRlbW8uanNwZGVtby53Zm0uTW9kZWxzLkVudGl0aWVzLkN1c3RvbWVyUHJvZmlsZS5nZXRDb250YWN0TnVtYmVycygpXCIgYmVjYXVzZSBcInByb2ZpbGVcIiBpcyBudWxsIiwic3VwcHJlc3NlZCI6W10sImxvY2FsaXplZE1lc3NhZ2UiOiJDYW5ub3QgaW52b2tlIFwib3JnLnVubG9nZ2VkLmRlbW8uanNwZGVtby53Zm0uTW9kZWxzLkVudGl0aWVzLkN1c3RvbWVyUHJvZmlsZS5nZXRDb250YWN0TnVtYmVycygpXCIgYmVjYXVzZSBcInByb2ZpbGVcIiBpcyBudWxsIn0=",
+      "mockIds" : [ "45fc2928-4eb0-45a4-8d73-9d2aa8001dbf" ],
+      "exception" : true,
+      "method" : {
+        "name" : "addNewContact",
+        "signature" : "(JLjava/lang/String;)Ljava/lang/NullPointerException;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#generateReferralForCustomer#(J)Ljava/lang/NullPointerException;" : [ {
+      "lineNumbers" : [ 39, 40, 42, 21, 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "\"Cannot invoke \\\"java.util.List.add(Object)\\\" because the return value of \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getReferralCodes()\\\" is null\"",
+        "id" : "1f74ff0e-fde3-4dda-9901-6a40ea0b9107",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "e3104c8a-2d9e-4cd8-90cd-a420f4ab46ad",
+      "name" : "saved on 2024-03-04 16:57",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"cause\":null,\"stackTrace\":[{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"generateReferralForCustomer\",\"fileName\":\"CustomerService.java\",\"lineNumber\":40,\"nativeMethod\":false,\"className\":\"org.unlogged.demo.jspdemo.wfm.Services.CustomerService\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke0\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"nativeMethod\":true,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":77,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.DelegatingMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"Method.java\",\"lineNumber\":568,\"nativeMethod\":false,\"className\":\"java.lang.reflect.Method\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommandRaw\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":393,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommand\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":463,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"serve\",\"fileName\":\"AgentCommandServer.java\",\"lineNumber\":69,\"nativeMethod\":false,\"className\":\"io.unlogged.command.AgentCommandServer\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"execute\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":945,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$HTTPSession\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"run\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":192,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$ClientHandler\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"run\",\"fileName\":\"Thread.java\",\"lineNumber\":833,\"nativeMethod\":false,\"className\":\"java.lang.Thread\"}],\"message\":\"Cannot invoke \\\"java.util.List.add(Object)\\\" because the return value of \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getReferralCodes()\\\" is null\",\"suppressed\":[],\"localizedMessage\":\"Cannot invoke \\\"java.util.List.add(Object)\\\" because the return value of \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getReferralCodes()\\\" is null\"}",
+      "returnValueClassname" : "java.lang.NullPointerException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8581610777465,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1256499678,
+      "probSerializedValue" : "eyJjYXVzZSI6bnVsbCwic3RhY2tUcmFjZSI6W3siY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImdlbmVyYXRlUmVmZXJyYWxGb3JDdXN0b21lciIsImZpbGVOYW1lIjoiQ3VzdG9tZXJTZXJ2aWNlLmphdmEiLCJsaW5lTnVtYmVyIjo0MCwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoib3JnLnVubG9nZ2VkLmRlbW8uanNwZGVtby53Zm0uU2VydmljZXMuQ3VzdG9tZXJTZXJ2aWNlIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZTAiLCJmaWxlTmFtZSI6Ik5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6LTIsIm5hdGl2ZU1ldGhvZCI6dHJ1ZSwiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo3NywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiRGVsZWdhdGluZ01ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NDMsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0LkRlbGVnYXRpbmdNZXRob2RBY2Nlc3NvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIxNy4wLjciLCJtZXRob2ROYW1lIjoiaW52b2tlIiwiZmlsZU5hbWUiOiJNZXRob2QuamF2YSIsImxpbmVOdW1iZXIiOjU2OCwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kIn0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiZXhlY3V0ZUNvbW1hbmRSYXciLCJmaWxlTmFtZSI6IkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbC5qYXZhIiwibGluZU51bWJlciI6MzkzLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5BZ2VudENvbW1hbmRFeGVjdXRvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJleGVjdXRlQ29tbWFuZCIsImZpbGVOYW1lIjoiQWdlbnRDb21tYW5kRXhlY3V0b3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo0NjMsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImlvLnVubG9nZ2VkLkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InNlcnZlIiwiZmlsZU5hbWUiOiJBZ2VudENvbW1hbmRTZXJ2ZXIuamF2YSIsImxpbmVOdW1iZXIiOjY5LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5jb21tYW5kLkFnZW50Q29tbWFuZFNlcnZlciJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImV4ZWN1dGUiLCJmaWxlTmFtZSI6Ik5hbm9IVFRQRC5qYXZhIiwibGluZU51bWJlciI6OTQ1LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRCRIVFRQU2Vzc2lvbiJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiTmFub0hUVFBELmphdmEiLCJsaW5lTnVtYmVyIjoxOTIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImZpLmlraS5lbG9uZW4uTmFub0hUVFBEJENsaWVudEhhbmRsZXIifSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIxNy4wLjciLCJtZXRob2ROYW1lIjoicnVuIiwiZmlsZU5hbWUiOiJUaHJlYWQuamF2YSIsImxpbmVOdW1iZXIiOjgzMywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamF2YS5sYW5nLlRocmVhZCJ9XSwibWVzc2FnZSI6IkNhbm5vdCBpbnZva2UgXCJqYXZhLnV0aWwuTGlzdC5hZGQoT2JqZWN0KVwiIGJlY2F1c2UgdGhlIHJldHVybiB2YWx1ZSBvZiBcIm9yZy51bmxvZ2dlZC5kZW1vLmpzcGRlbW8ud2ZtLk1vZGVscy5FbnRpdGllcy5DdXN0b21lclByb2ZpbGUuZ2V0UmVmZXJyYWxDb2RlcygpXCIgaXMgbnVsbCIsInN1cHByZXNzZWQiOltdLCJsb2NhbGl6ZWRNZXNzYWdlIjoiQ2Fubm90IGludm9rZSBcImphdmEudXRpbC5MaXN0LmFkZChPYmplY3QpXCIgYmVjYXVzZSB0aGUgcmV0dXJuIHZhbHVlIG9mIFwib3JnLnVubG9nZ2VkLmRlbW8uanNwZGVtby53Zm0uTW9kZWxzLkVudGl0aWVzLkN1c3RvbWVyUHJvZmlsZS5nZXRSZWZlcnJhbENvZGVzKClcIiBpcyBudWxsIn0=",
+      "mockIds" : [ "7428ba5a-728c-4d2a-9bc4-7ebdf72e9cb2" ],
+      "exception" : true,
+      "method" : {
+        "name" : "generateReferralForCustomer",
+        "signature" : "(J)Ljava/lang/NullPointerException;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#generateReferralCodes#()Ljava/util/List;" : [ {
+      "lineNumbers" : [ 46, 47, 48, 49, 51, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "asqxewzrvg",
+          "id" : "c777b64f-c22b-43be-9915-5d65b54aa947",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "qxyesuchdb",
+          "id" : "6e05273c-c77d-4d6e-aeba-1fa5f1015a5a",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "flqupowqlv",
+          "id" : "409bffda-e3bb-413b-bbb7-e2fb3d561bd6",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "fxkqxkmxui",
+          "id" : "35f8a942-5d28-4676-a561-0a1df9829e27",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "btaevakgsu",
+          "id" : "be7abfff-1007-46cf-943e-c4d52a47c9b0",
+          "assertionType" : "EQUAL",
+          "key" : "/4"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ef88a8ec-6eab-46b3-8672-50d040a4cf9f",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "bb147feb-bbb2-4111-9f37-141547c17a58",
+      "name" : "saved on 2024-03-04 16:57",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"asqxewzrvg\",\"qxyesuchdb\",\"flqupowqlv\",\"fxkqxkmxui\",\"btaevakgsu\"]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8532797364055,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1472964515,
+      "probSerializedValue" : "WyJhc3F4ZXd6cnZnIiwicXh5ZXN1Y2hkYiIsImZscXVwb3dxbHYiLCJmeGtxeGtteHVpIiwiYnRhZXZha2dzdSJd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "generateReferralCodes",
+        "signature" : "()Ljava/util/List;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#isCustomerEligibleForPremium#(J)Ljava/lang/NullPointerException;" : [ {
+      "lineNumbers" : [ 55, 56, 57, 58, 69, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "\"Cannot invoke \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getAddress()\\\" because \\\"profile\\\" is null\"",
+        "id" : "62590d1b-5242-4f15-86de-9dc8757fe394",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "f8ff5131-6c19-431a-9ce9-fdb123a20de6",
+      "name" : "saved on 2024-03-04 16:57",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"cause\":null,\"stackTrace\":[{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"isCustomerEligibleForPremium\",\"fileName\":\"CustomerService.java\",\"lineNumber\":58,\"nativeMethod\":false,\"className\":\"org.unlogged.demo.jspdemo.wfm.Services.CustomerService\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke0\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"nativeMethod\":true,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":77,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.DelegatingMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"Method.java\",\"lineNumber\":568,\"nativeMethod\":false,\"className\":\"java.lang.reflect.Method\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommandRaw\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":393,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommand\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":463,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"serve\",\"fileName\":\"AgentCommandServer.java\",\"lineNumber\":69,\"nativeMethod\":false,\"className\":\"io.unlogged.command.AgentCommandServer\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"execute\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":945,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$HTTPSession\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"run\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":192,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$ClientHandler\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"run\",\"fileName\":\"Thread.java\",\"lineNumber\":833,\"nativeMethod\":false,\"className\":\"java.lang.Thread\"}],\"message\":\"Cannot invoke \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getAddress()\\\" because \\\"profile\\\" is null\",\"suppressed\":[],\"localizedMessage\":\"Cannot invoke \\\"org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile.getAddress()\\\" because \\\"profile\\\" is null\"}",
+      "returnValueClassname" : "java.lang.NullPointerException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8622769753305,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1489291097,
+      "probSerializedValue" : "eyJjYXVzZSI6bnVsbCwic3RhY2tUcmFjZSI6W3siY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImlzQ3VzdG9tZXJFbGlnaWJsZUZvclByZW1pdW0iLCJmaWxlTmFtZSI6IkN1c3RvbWVyU2VydmljZS5qYXZhIiwibGluZU51bWJlciI6NTgsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Im9yZy51bmxvZ2dlZC5kZW1vLmpzcGRlbW8ud2ZtLlNlcnZpY2VzLkN1c3RvbWVyU2VydmljZSJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuNyIsIm1ldGhvZE5hbWUiOiJpbnZva2UwIiwiZmlsZU5hbWUiOiJOYXRpdmVNZXRob2RBY2Nlc3NvckltcGwuamF2YSIsImxpbmVOdW1iZXIiOi0yLCJuYXRpdmVNZXRob2QiOnRydWUsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0Lk5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuNyIsIm1ldGhvZE5hbWUiOiJpbnZva2UiLCJmaWxlTmFtZSI6Ik5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NzcsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0Lk5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuNyIsIm1ldGhvZE5hbWUiOiJpbnZva2UiLCJmaWxlTmFtZSI6IkRlbGVnYXRpbmdNZXRob2RBY2Nlc3NvckltcGwuamF2YSIsImxpbmVOdW1iZXIiOjQzLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJqZGsuaW50ZXJuYWwucmVmbGVjdC5EZWxlZ2F0aW5nTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiTWV0aG9kLmphdmEiLCJsaW5lTnVtYmVyIjo1NjgsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImphdmEubGFuZy5yZWZsZWN0Lk1ldGhvZCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImV4ZWN1dGVDb21tYW5kUmF3IiwiZmlsZU5hbWUiOiJBZ2VudENvbW1hbmRFeGVjdXRvckltcGwuamF2YSIsImxpbmVOdW1iZXIiOjM5MywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiaW8udW5sb2dnZWQuQWdlbnRDb21tYW5kRXhlY3V0b3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiZXhlY3V0ZUNvbW1hbmQiLCJmaWxlTmFtZSI6IkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NDYzLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5BZ2VudENvbW1hbmRFeGVjdXRvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJzZXJ2ZSIsImZpbGVOYW1lIjoiQWdlbnRDb21tYW5kU2VydmVyLmphdmEiLCJsaW5lTnVtYmVyIjo2OSwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiaW8udW5sb2dnZWQuY29tbWFuZC5BZ2VudENvbW1hbmRTZXJ2ZXIifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJleGVjdXRlIiwiZmlsZU5hbWUiOiJOYW5vSFRUUEQuamF2YSIsImxpbmVOdW1iZXIiOjk0NSwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiZmkuaWtpLmVsb25lbi5OYW5vSFRUUEQkSFRUUFNlc3Npb24ifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJydW4iLCJmaWxlTmFtZSI6Ik5hbm9IVFRQRC5qYXZhIiwibGluZU51bWJlciI6MTkyLCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRCRDbGllbnRIYW5kbGVyIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiVGhyZWFkLmphdmEiLCJsaW5lTnVtYmVyIjo4MzMsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImphdmEubGFuZy5UaHJlYWQifV0sIm1lc3NhZ2UiOiJDYW5ub3QgaW52b2tlIFwib3JnLnVubG9nZ2VkLmRlbW8uanNwZGVtby53Zm0uTW9kZWxzLkVudGl0aWVzLkN1c3RvbWVyUHJvZmlsZS5nZXRBZGRyZXNzKClcIiBiZWNhdXNlIFwicHJvZmlsZVwiIGlzIG51bGwiLCJzdXBwcmVzc2VkIjpbXSwibG9jYWxpemVkTWVzc2FnZSI6IkNhbm5vdCBpbnZva2UgXCJvcmcudW5sb2dnZWQuZGVtby5qc3BkZW1vLndmbS5Nb2RlbHMuRW50aXRpZXMuQ3VzdG9tZXJQcm9maWxlLmdldEFkZHJlc3MoKVwiIGJlY2F1c2UgXCJwcm9maWxlXCIgaXMgbnVsbCJ9",
+      "mockIds" : [ "3a117e15-61bd-44d9-a40b-d825c06f05da" ],
+      "exception" : true,
+      "method" : {
+        "name" : "isCustomerEligibleForPremium",
+        "signature" : "(J)Ljava/lang/NullPointerException;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      }
+    } ]
+  },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
       "id" : "a11160ee-438c-4a9b-be9c-d97b71c70428",

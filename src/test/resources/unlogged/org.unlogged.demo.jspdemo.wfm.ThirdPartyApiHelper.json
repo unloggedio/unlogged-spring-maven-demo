@@ -1,0 +1,183 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1709551859,\"localtime\":\"2024-03-04 5:30\"},\"current\":{\"temp_c\":19.4,\"temp_f\":66.9,\"is_day\":0,\"condition\":{\"text\":\"Mist\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/143.png\",\"code\":1030},\"wind_mph\":5.6,\"wind_kph\":9.0,\"wind_degree\":180,\"wind_dir\":\"S\",\"pressure_mb\":1011.0,\"pressure_in\":29.85,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":93,\"cloud\":100,\"feelslike_c\":19.4,\"feelslike_f\":66.9,\"vis_km\":9.7,\"vis_miles\":6.0,\"uv\":1.0,\"gust_mph\":16.0,\"gust_kph\":25.8}}",
+          "id" : "3038de13-7f0b-4404-bb70-fe3ce04922ff",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d4b30bec-6419-46ce-af24-08538470b5f8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "36dd1a98-b55b-4710-b5fa-9097ce9e07d1",
+      "name" : "saved on 2024-03-04 17:02",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"String Prairie\\\",\\\"region\\\":\\\"Texas\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":29.89,\\\"lon\\\":-97.35,\\\"tz_id\\\":\\\"America/Chicago\\\",\\\"localtime_epoch\\\":1709551859,\\\"localtime\\\":\\\"2024-03-04 5:30\\\"},\\\"current\\\":{\\\"temp_c\\\":19.4,\\\"temp_f\\\":66.9,\\\"is_day\\\":0,\\\"condition\\\":{\\\"text\\\":\\\"Mist\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/night/143.png\\\",\\\"code\\\":1030},\\\"wind_mph\\\":5.6,\\\"wind_kph\\\":9.0,\\\"wind_degree\\\":180,\\\"wind_dir\\\":\\\"S\\\",\\\"pressure_mb\\\":1011.0,\\\"pressure_in\\\":29.85,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":93,\\\"cloud\\\":100,\\\"feelslike_c\\\":19.4,\\\"feelslike_f\\\":66.9,\\\"vis_km\\\":9.7,\\\"vis_miles\\\":6.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":16.0,\\\"gust_kph\\\":25.8}}\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8894269924766,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1813414932,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiU3RyaW5nIFByYWlyaWVcIixcInJlZ2lvblwiOlwiVGV4YXNcIixcImNvdW50cnlcIjpcIlVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYVwiLFwibGF0XCI6MjkuODksXCJsb25cIjotOTcuMzUsXCJ0el9pZFwiOlwiQW1lcmljYS9DaGljYWdvXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzA5NTUxODU5LFwibG9jYWx0aW1lXCI6XCIyMDI0LTAzLTA0IDU6MzBcIn0sXCJjdXJyZW50XCI6e1widGVtcF9jXCI6MTkuNCxcInRlbXBfZlwiOjY2LjksXCJpc19kYXlcIjowLFwiY29uZGl0aW9uXCI6e1widGV4dFwiOlwiTWlzdFwiLFwiaWNvblwiOlwiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9uaWdodC8xNDMucG5nXCIsXCJjb2RlXCI6MTAzMH0sXCJ3aW5kX21waFwiOjUuNixcIndpbmRfa3BoXCI6OS4wLFwid2luZF9kZWdyZWVcIjoxODAsXCJ3aW5kX2RpclwiOlwiU1wiLFwicHJlc3N1cmVfbWJcIjoxMDExLjAsXCJwcmVzc3VyZV9pblwiOjI5Ljg1LFwicHJlY2lwX21tXCI6MC4wLFwicHJlY2lwX2luXCI6MC4wLFwiaHVtaWRpdHlcIjo5MyxcImNsb3VkXCI6MTAwLFwiZmVlbHNsaWtlX2NcIjoxOS40LFwiZmVlbHNsaWtlX2ZcIjo2Ni45LFwidmlzX2ttXCI6OS43LFwidmlzX21pbGVzXCI6Ni4wLFwidXZcIjoxLjAsXCJndXN0X21waFwiOjE2LjAsXCJndXN0X2twaFwiOjI1Ljh9fSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#convert#(Ljava/lang/String;)V" : [ {
+      "lineNumbers" : [ 35, 36, 39, 41, 42, 44 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c7a7123d-d14b-41bb-b0a0-e60f37489705",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "69140ec5-2e5a-4442-8b78-47d6e0b44175",
+      "name" : "saved on 2024-03-04 17:02",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8905715322921,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 244001562,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "c686a8fc-9ece-4694-9692-5ddce1f74929" ],
+      "exception" : false,
+      "method" : {
+        "name" : "convert",
+        "signature" : "(Ljava/lang/String;)V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#filter#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 49, 50, 51, 52, 53 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "dad72882-1311-43ad-96c8-6ce23e205291",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bf889957-eb54-42f4-9047-824d0241153b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "42359e8b-6667-4995-a755-48fa946b6abb",
+      "name" : "saved on 2024-03-04 17:02",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"\\\"string\\\"\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8919177126497,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1803025732,
+      "probSerializedValue" : "Ilwic3RyaW5nXCIi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filter",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getObject#(Ljava/lang/String;)Lcom/google/gson/JsonElement;" : [ {
+      "lineNumbers" : [ 58, 59, 60, 61 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "82981572",
+          "id" : "8857434e-e1cb-4881-905e-88191ac7e0b4",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7907255f-971c-4b83-9421-6bfb2574a6f5",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c93b33a6-f2ed-4816-9136-0b21214f4d66",
+      "name" : "saved on 2024-03-04 17:03",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "82981572",
+      "returnValueClassname" : "com.google.gson.JsonElement",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8931332272904,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 421309380,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getObject",
+        "signature" : "(Ljava/lang/String;)Lcom/google/gson/JsonElement;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "c7f28146-ec8e-4a24-a034-bc7dd73db2e9",
+      "name" : "mock response for call to helper.getWeatherinfo(location)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "fieldName" : "helper",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"String Prairie\\\",\\\"region\\\":\\\"Texas\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":29.89,\\\"lon\\\":-97.35,\\\"tz_id\\\":\\\"America/Chicago\\\",\\\"localtime_epoch\\\":1709551859,\\\"localtime\\\":\\\"2024-03-04 5:30\\\"},\\\"current\\\":{\\\"temp_c\\\":19.4,\\\"temp_f\\\":66.9,\\\"is_day\\\":0,\\\"condition\\\":{\\\"text\\\":\\\"Mist\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/night/143.png\\\",\\\"code\\\":1030},\\\"wind_mph\\\":5.6,\\\"wind_kph\\\":9.0,\\\"wind_degree\\\":180,\\\"wind_dir\\\":\\\"S\\\",\\\"pressure_mb\\\":1011.0,\\\"pressure_in\\\":29.85,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":93,\\\"cloud\\\":100,\\\"feelslike_c\\\":19.4,\\\"feelslike_f\\\":66.9,\\\"vis_km\\\":9.7,\\\"vis_miles\\\":6.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":16.0,\\\"gust_kph\\\":25.8}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
+}

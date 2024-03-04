@@ -1,0 +1,400 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController#getMonoUser#(Ljava/lang/String;)Lreactor/core/publisher/Mono;" : [ {
+      "lineNumbers" : [ 22, 20, 22 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "b2b35c6c-88bd-476e-861b-8e2f460e1fba",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "a247ffc3-9721-41d5-a657-bdd1c0102a67",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "5af92182-7dc6-4da5-aff4-8cc89b9e615a",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "0e38286c-6b14-40f5-87bb-3513d2488048",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "9df8d495-02f1-401e-b559-2f1c82081ffa",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "5ecff7d7-fe9f-4256-b8a6-c3827bea7efc",
+      "name" : "saved on 2024-03-04 16:53",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+      "returnValueClassname" : "reactor.core.publisher.Mono",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8370061720672,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -2003854071,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
+      "mockIds" : [ "6483b8c7-d653-467c-a1c8-21fb0878d3d9" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getMonoUser",
+        "signature" : "(Ljava/lang/String;)Lreactor/core/publisher/Mono;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 26, 20, 22 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "26d49e6f-aee4-41a1-bb1e-74c24c74c30d",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "b490bc61-7d60-4193-b287-df5ef758b1e9",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "68bddc0f-4d83-49cf-a854-9134872547a2",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "47accd9d-c86d-49fd-b173-74994302a5eb",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "b24a2823-7ed8-4c33-9dda-69f9cd065ea3",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "ad329db7-e049-460b-a161-4e8561b71c77",
+      "name" : "saved on 2024-03-04 16:53",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8380272272084,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -2069041662,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
+      "mockIds" : [ "3de896cc-12ac-43e3-b035-f015c6e31cf0" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUser",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController#respUser#()Lorg/springframework/http/ResponseEntity;" : [ {
+      "lineNumbers" : [ 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3898ce70-3614-42a8-8842-bfb3e0f9669a",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "c35d5bcb-ec08-437f-baf4-7b4363ae8bfb",
+            "assertionType" : "EQUAL",
+            "key" : "/body/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "5425fc1a-b390-47c6-99cf-66f498f990d0",
+            "assertionType" : "EQUAL",
+            "key" : "/body/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "013804b6-6f7f-4dc2-80fe-3ece2511d55d",
+            "assertionType" : "EQUAL",
+            "key" : "/body/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "ea845904-b4ba-4fc0-a8e8-161afde82589",
+            "assertionType" : "EQUAL",
+            "key" : "/body/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "a49cd52a-df25-4fd6-bd30-64bd8ce4af22",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "OK",
+          "id" : "e5e92b4c-b576-4b27-af57-b3df57f4b971",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "6182d25e-390f-4140-b2d9-c90cd9b56501",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "dd68d9e6-cba5-4ae7-ba60-155c9c2bc2aa",
+      "name" : "saved on 2024-03-04 16:54",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"user_id\":0,\"username\":null,\"password\":null,\"email\":null},\"status\":\"OK\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8403254429777,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -113218999,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6bnVsbCwicGFzc3dvcmQiOm51bGwsImVtYWlsIjpudWxsfSwic3RhdHVzIjoiT0sifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "respUser",
+        "signature" : "()Lorg/springframework/http/ResponseEntity;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController#response#()Lorg/springframework/http/ResponseEntity;" : [ {
+      "lineNumbers" : [ 34 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7be0b3a1-4b5e-4ace-b048-b16ed7c770e1",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "0b02509c-cfbb-46ba-9fb7-e3bcb05427d4",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "OK",
+          "id" : "b3a3af0a-033b-4c8b-8bea-671ab54653cc",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "120b54d7-49eb-4d5a-94f4-08aa8c682f36",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f379a889-af18-4d88-9ae8-e8e3b955e735",
+      "name" : "saved on 2024-03-04 16:54",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"headers\":{},\"body\":{},\"status\":\"OK\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8415279167667,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 512023576,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6e30sInN0YXR1cyI6Ik9LIn0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "response",
+        "signature" : "()Lorg/springframework/http/ResponseEntity;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController#listOfUsers#()Ljava/util/ArrayList;" : [ {
+      "lineNumbers" : [ 38, 39, 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "d496a060-a1f9-4de8-8b28-6746229e7288",
+            "assertionType" : "EQUAL",
+            "key" : "/0/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "fa4115ec-7bd7-4bc7-99d9-28be06265d90",
+            "assertionType" : "EQUAL",
+            "key" : "/0/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "11640c24-4f5e-49b0-b9ba-c8af6be41d1e",
+            "assertionType" : "EQUAL",
+            "key" : "/0/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "055c9dca-9b3d-4920-accd-71c61dd35494",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "ccfdef89-fcf8-44dc-927a-aa590ba9bf37",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "d324e99e-efc8-49a4-be3c-dd3a78f7dd13",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "c39498f3-140f-4dee-a487-f7606fd9590d",
+      "name" : "saved on 2024-03-04 16:54",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"user_id\":0,\"username\":null,\"password\":null,\"email\":null}]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8428221015772,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1030920620,
+      "probSerializedValue" : "W3sidXNlcl9pZCI6MCwidXNlcm5hbWUiOm51bGwsInBhc3N3b3JkIjpudWxsLCJlbWFpbCI6bnVsbH1d",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "listOfUsers",
+        "signature" : "()Ljava/util/ArrayList;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController#mapOfUsers#()Ljava/util/TreeMap;" : [ {
+      "lineNumbers" : [ 44, 45, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "4a4624cb-317e-47a8-bf6e-58991768d913",
+            "assertionType" : "EQUAL",
+            "key" : "/1/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "973355ad-0a8e-4d89-9015-72817b245328",
+            "assertionType" : "EQUAL",
+            "key" : "/1/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "8e6745b5-d712-421c-900a-b3e07be78078",
+            "assertionType" : "EQUAL",
+            "key" : "/1/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "d2214279-b9de-4865-b7ba-54bcee849922",
+            "assertionType" : "EQUAL",
+            "key" : "/1/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "53034491-7273-4873-9599-dc6c787347f4",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "c00324dd-2857-4689-a86e-0c3080f441ca",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "ee2507dd-4373-4353-a9ea-4f7286ea7f8b",
+      "name" : "saved on 2024-03-04 16:54",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"1\":{\"user_id\":0,\"username\":null,\"password\":null,\"email\":null}}",
+      "returnValueClassname" : "java.util.TreeMap",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8442713036281,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -529502843,
+      "probSerializedValue" : "eyIxIjp7InVzZXJfaWQiOjAsInVzZXJuYW1lIjpudWxsLCJwYXNzd29yZCI6bnVsbCwiZW1haWwiOm51bGx9fQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "mapOfUsers",
+        "signature" : "()Ljava/util/TreeMap;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

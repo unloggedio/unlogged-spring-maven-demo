@@ -1,0 +1,204 @@
+{
+  "classname" : "org.unlogged.demo.service.ReactiveStudentService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.ReactiveStudentService#getStudent#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "ad0d391a-3e81-490d-a85f-ff04d78641bb",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "c6cb5ad0-c064-426a-96e7-cbb3f8e515ee",
+      "name" : "saved on 2024-03-04 17:38",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "706282045",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10572691010492,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 811503583,
+      "probSerializedValue" : "",
+      "mockIds" : [ "2a0fc751-29b3-4ce6-b7b0-eb84791bb8e5" ],
+      "exception" : true,
+      "method" : {
+        "name" : "getStudent",
+        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#findAll#()Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 24, 25, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "bb2dfe15-e2b7-4f69-b7df-180de6b6e2e4",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "1e96415c-1f84-4d65-a58a-4f1af496ea6e",
+      "name" : "saved on 2024-03-04 17:38",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "150141601",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10583210732414,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2019329477,
+      "probSerializedValue" : "",
+      "mockIds" : [ "ba1e4446-4c2b-4aa8-8387-2dd3a2426471" ],
+      "exception" : true,
+      "method" : {
+        "name" : "findAll",
+        "signature" : "()Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 33, 34 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "0554a927-b79f-4280-bd79-b4b2ab475f63",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "ad7287ec-4aae-4e16-a245-d0cbda1b6177",
+      "name" : "saved on 2024-03-04 17:38",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
+      "returnValue" : "927965864",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10596404519393,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1064791840,
+      "probSerializedValue" : "",
+      "mockIds" : [ "4f3f66c8-12c6-49e8-ad58-921ba49b20dc" ],
+      "exception" : true,
+      "method" : {
+        "name" : "updateStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#updateAllStudent#(Ljava/util/Collection;)Lorg/springframework/dao/InvalidDataAccessApiUsageException;" : [ {
+      "lineNumbers" : [ 38, 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "20b95eec-4df3-4d41-87d2-f21b0f89a937",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "a074c147-49dd-4f0c-aff5-42357390181c",
+      "name" : "saved on 2024-03-04 17:38",
+      "description" : null,
+      "methodArguments" : [ "null" ],
+      "returnValue" : "1946116249",
+      "returnValueClassname" : "org.springframework.dao.InvalidDataAccessApiUsageException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10612067477200,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1856332535,
+      "probSerializedValue" : "",
+      "mockIds" : [ "9617d7ae-5684-41d7-aea0-e94372161aed" ],
+      "exception" : true,
+      "method" : {
+        "name" : "updateAllStudent",
+        "signature" : "(Ljava/util/Collection;)Lorg/springframework/dao/InvalidDataAccessApiUsageException;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 43, 44 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "b32d037b-31a1-48f6-8cee-1953d875c0d9",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "53aef2d2-17b7-48c7-b044-41b51342f98f",
+      "name" : "saved on 2024-03-04 17:39",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
+      "returnValue" : "551778468",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10648518263373,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 51141991,
+      "probSerializedValue" : "",
+      "mockIds" : [ "2379865b-21de-4726-a911-89d2bf3ce614" ],
+      "exception" : true,
+      "method" : {
+        "name" : "createStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#deleteStudent#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
+      "lineNumbers" : [ 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "705aa212-9c06-44ee-bb91-74825fc90621",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "c3eeaa00-dc41-429d-b5b5-24eece8a93ef",
+      "name" : "saved on 2024-03-04 17:39",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "655014121",
+      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10659138635548,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -584321662,
+      "probSerializedValue" : "",
+      "mockIds" : [ "5c8297c9-f5b9-4dcd-a07f-751d42e94165" ],
+      "exception" : true,
+      "method" : {
+        "name" : "deleteStudent",
+        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

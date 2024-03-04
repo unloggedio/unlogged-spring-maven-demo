@@ -1,0 +1,117 @@
+{
+  "classname" : "org.unlogged.demo.repository.StudentRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "2a0fc751-29b3-4ce6-b7b0-eb84791bb8e5",
+      "name" : "mock response for call to studentRepository.findById(id)",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1562204687",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional;"
+    } ],
+    "org.unlogged.demo.repository.StudentRepository#findAll#()Ljava/lang/Iterable;" : [ {
+      "id" : "ba1e4446-4c2b-4aa8-8387-2dd3a2426471",
+      "name" : "mock response for call to studentRepository.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "634219749",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Iterable"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findAll#()Ljava/lang/Iterable;"
+    } ],
+    "org.unlogged.demo.repository.StudentRepository#save#(Lorg/unlogged/demo/models/Student;)Lorg/unlogged/demo/models/Student;" : [ {
+      "id" : "4f3f66c8-12c6-49e8-ad58-921ba49b20dc",
+      "name" : "mock response for call to studentRepository.save(student)",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "871064183",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.Student"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#save#(Lorg/unlogged/demo/models/Student;)Lorg/unlogged/demo/models/Student;"
+    } ],
+    "org.unlogged.demo.repository.StudentRepository#saveAll#(Ljava/lang/Iterable;)Ljava/lang/Iterable;" : [ {
+      "id" : "9617d7ae-5684-41d7-aea0-e94372161aed",
+      "name" : "mock response for call to studentRepository.saveAll(student)",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "saveAll",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.Iterable"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1502679999",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Iterable"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#saveAll#(Ljava/lang/Iterable;)Ljava/lang/Iterable;"
+    } ],
+    "org.unlogged.demo.repository.StudentRepository#deleteById#(Ljava/lang/String;)V" : [ {
+      "id" : "5c8297c9-f5b9-4dcd-a07f-751d42e94165",
+      "name" : "mock response for call to studentRepository.deleteById(id)",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "deleteById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "678441745",
+          "returnValueType" : "REAL",
+          "className" : "V"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#deleteById#(Ljava/lang/String;)V"
+    } ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator#calculateDiscount#(D)D" : [ {
+      "lineNumbers" : [ 6 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "20d6a2db-5446-4f59-b6d4-f2dedd39283b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c4e55ee2-69e0-4b8b-8991-82047d6f6b92",
+      "name" : "saved on 2024-03-04 16:58",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "D",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8675315767114,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1515587939,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "calculateDiscount",
+        "signature" : "(D)D",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

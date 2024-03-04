@@ -1,0 +1,90 @@
+{
+  "classname" : "org.unlogged.demo.dao.CustomerProfileRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.dao.CustomerProfileRepo#getByCustomerId#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "1a9c5f8f-917d-400a-af43-10af4c123c77",
+      "name" : "mock response for call to customerProfileRepo.getByCustomerId(customerId)",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "getByCustomerId",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#getByCustomerId#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List;" : [ {
+      "id" : "21c42ea5-8a3d-4ae7-920e-83015de375c0",
+      "name" : "mock response for call to customerProfileRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List;"
+    } ],
+    "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "4285f875-2f79-453c-a248-75e3ac44d2bb",
+      "name" : "mock response for call to customerProfileRepo.save(new CustomerProfile(lastId + 1, customerProfileRequest.getCustomerName(),\n                customerProfileRequest.getDateOfBirth(), customerProfileRequest.getEmail(),\n                customerProfileRequest.getPrimaryNumber(), customerProfileRequest.getAddress(),\n                customerProfileRequest.getCodes()))",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.CustomerProfile"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()Ljava/lang/Long;" : [ {
+      "id" : "c7cc68db-fbe1-46be-b14c-a5576f430819",
+      "name" : "mock response for call to customerProfileRepo.getLastId()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "getLastId",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "0",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Long"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()Ljava/lang/Long;"
+    } ]
+  }
+}

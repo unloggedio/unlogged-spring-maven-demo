@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.utils.ScoreUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.utils.ScoreUtils#CalculateScoreForCenosCustomer#(Lorg/unlogged/demo/models/CustomerProfile;I)I" : [ {
+      "lineNumbers" : [ 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "d0930ac4-ffd4-45a4-a489-1bf5a2183dcb",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "aa780636-2415-48a0-9f12-6ef9330c2a39",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fce9c57b-1e4b-4466-9c38-6194f3e4b1da",
+      "name" : "saved on 2024-03-04 17:42",
+      "description" : null,
+      "methodArguments" : [ "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}", "1" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 10802230959814,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 932814579,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "CalculateScoreForCenosCustomer",
+        "signature" : "(Lorg/unlogged/demo/models/CustomerProfile;I)I",
+        "className" : "org.unlogged.demo.utils.ScoreUtils",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

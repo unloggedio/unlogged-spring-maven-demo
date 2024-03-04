@@ -1,0 +1,79 @@
+{
+  "classname" : "org.unlogged.demo.security.config.JwtAuthorizationFilter",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.config.JwtAuthorizationFilter#doFilterInternal#(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V" : [ {
+      "lineNumbers" : [ 36, 38, 39, 40, 41 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d0cf09b8-c3e3-4963-b2b4-82e4fc3a6408",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8eba97bf-e747-4304-a286-0034ed979402",
+      "name" : "saved on 2024-03-04 17:05",
+      "description" : null,
+      "methodArguments" : [ "{}", "{}", "{}" ],
+      "returnValue" : "0",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 9088419294439,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1351686103,
+      "probSerializedValue" : "",
+      "mockIds" : [ "6b7f16dd-ed22-4f19-82c7-4d1a9fd244f5" ],
+      "exception" : false,
+      "method" : {
+        "name" : "doFilterInternal",
+        "signature" : "(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljakarta/servlet/FilterChain;)V",
+        "className" : "org.unlogged.demo.security.config.JwtAuthorizationFilter",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.config.JwtAuthorizationFilter#getCurrentAuthentication#()Lorg/springframework/security/core/Authentication;" : [ {
+      "lineNumbers" : [ 61 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "56866439",
+          "id" : "83b42092-43a3-41dc-88f6-c02bfe8a8c1f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "9187bb8e-d35d-4be1-9fa5-322e17d37501",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0f6bc562-8895-424d-b47f-a42b220722a6",
+      "name" : "saved on 2024-03-04 17:05",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "56866439",
+      "returnValueClassname" : "org.springframework.security.core.Authentication",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 9099517957486,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -302639714,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getCurrentAuthentication",
+        "signature" : "()Lorg/springframework/security/core/Authentication;",
+        "className" : "org.unlogged.demo.security.config.JwtAuthorizationFilter",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

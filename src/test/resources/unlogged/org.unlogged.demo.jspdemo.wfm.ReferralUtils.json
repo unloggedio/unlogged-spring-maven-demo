@@ -1,43 +1,43 @@
 {
-  "classname" : "org.unlogged.demo.utils.ReferralUtils",
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ReferralUtils",
   "storedCandidateMap" : {
-    "org.unlogged.demo.utils.ReferralUtils#generateReferralCode#()Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 10, 11, 12, 13, 14, 15 ],
+    "org.unlogged.demo.jspdemo.wfm.ReferralUtils#generateReferralCode#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "zfpvjqzpll",
-          "id" : "e7292033-b486-480d-ac87-46bbcd76c9b6",
+          "expectedValue" : "aryyjmofkj",
+          "id" : "04b10b87-d784-40f4-8c80-13d785f2d256",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "30303241-47fd-4d9a-90bb-b1266fcf7f9a",
+        "id" : "8c507784-1393-4e2d-8e32-7cc65a12b9ab",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "3350769d-1d0d-4251-bb8c-f947b13e3d9e",
-      "name" : "saved on 2024-03-04 17:41",
+      "candidateId" : "82dc2d5b-ceaf-44a8-8adc-b15258461985",
+      "name" : "saved on 2024-03-04 17:01",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "\"zfpvjqzpll\"",
+      "returnValue" : "\"aryyjmofkj\"",
       "returnValueClassname" : "java.lang.String",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10356694257567,
+        "timestamp" : 8859028553434,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -1086022632,
-      "probSerializedValue" : "InpmcHZqcXpwbGwi",
+      "sessionIdentifier" : -1121623152,
+      "probSerializedValue" : "ImFyeXlqbW9ma2oi",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
         "name" : "generateReferralCode",
         "signature" : "()Ljava/lang/String;",
-        "className" : "org.unlogged.demo.utils.ReferralUtils",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ReferralUtils",
         "methodHash" : 0
       }
     } ]

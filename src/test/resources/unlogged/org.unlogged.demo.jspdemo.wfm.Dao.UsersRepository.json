@@ -6,7 +6,7 @@
       "id" : "e00eee5d-4027-4547-a77b-172c4857fccd",
       "name" : "mock response for call to usersRepository.getUserByUsername(username)",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
-      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
       "fieldName" : "usersRepository",
       "methodName" : "getUserByUsername",
       "whenParameter" : [ {
@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"}",
+          "value" : "null",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
         },
@@ -36,7 +36,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "[{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"}]",
+          "value" : "[{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"},{\"user_id\":99,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}]",
           "returnValueType" : "REAL",
           "className" : "java.util.List"
         },
@@ -59,7 +59,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "1099236901",
+          "value" : "{\"user_id\":99,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
         },

@@ -1,0 +1,231 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#fetchCustomerProfile#(J)V" : [ {
+      "lineNumbers" : [ 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "685d5010-25c6-41f6-b97a-1fb82a6b6b10",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "257c7b89-61d6-40c0-8b19-ca5da667d923",
+      "name" : "saved on 2024-03-04 16:55",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8468712444060,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1835739960,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#save#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 32, 33 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "10fbfb17-1d16-4ed1-93c6-b6ad40499fd6",
+          "assertionType" : "EQUAL",
+          "key" : "/customerId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "5fadfe46-c34c-4bdc-9385-7d789d505583",
+          "assertionType" : "EQUAL",
+          "key" : "/customerName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Mar 4, 2024 16:55:22 pm",
+          "id" : "79cdf831-2256-4467-8480-7e2496b990e7",
+          "assertionType" : "EQUAL",
+          "key" : "/dateOfBirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "975e3dce-5628-4386-acc6-22f3a74fb478",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "2f55c8ae-cff5-4451-906b-70f3589a0de7",
+            "assertionType" : "EQUAL",
+            "key" : "/contactNumbers/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3f8fbffb-7e39-4ac3-a2bb-2677bb2d739a",
+          "assertionType" : "ALLOF",
+          "key" : "/contactNumbers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "5882f338-6aad-4268-a5d0-184da51f7709",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "ca23a711-9916-43e6-be9d-e2bf341707d0",
+          "assertionType" : "EQUAL",
+          "key" : "/referralCodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "d3932f58-ae6f-48e2-bca7-3a0878d38d74",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "2e035096-c8e5-4286-a0ed-efeccc655700",
+      "name" : "saved on 2024-03-04 16:55",
+      "description" : null,
+      "methodArguments" : [ "{\"customerId\":1,\"customerName\":\"string\",\"dateOfBirth\":\"Mar 4, 2024 16:55:22 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":null}" ],
+      "returnValue" : "{\"customerId\":1,\"customerName\":\"string\",\"dateOfBirth\":\"Mar 4, 2024 16:55:22 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":null}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8479957469839,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1897729102,
+      "probSerializedValue" : "eyJjdXN0b21lcklkIjoxLCJjdXN0b21lck5hbWUiOiJzdHJpbmciLCJkYXRlT2ZCaXJ0aCI6Ik1hciA0LCAyMDI0IDE2OjU1OjIyIHBtIiwiZW1haWwiOiJzdHJpbmciLCJjb250YWN0TnVtYmVycyI6WyJzdHJpbmciXSwiYWRkcmVzcyI6InN0cmluZyIsInJlZmVycmFsQ29kZXMiOm51bGx9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "save",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#removeCustomer#(J)V" : [ {
+      "lineNumbers" : [ 37, 38, 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "709f966b-d484-4be4-b742-32f9c562bc58",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fd617179-c9fe-406a-8513-2e82a3847565",
+      "name" : "saved on 2024-03-04 16:55",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 8497738447003,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -879968189,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomer",
+        "signature" : "(J)V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#fetchCustomerProfile#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "5c589204-cd0b-4ac9-9eb9-5f02dae53b54",
+      "name" : "mock response for call to customerProfileDao.fetchCustomerProfile(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "fieldName" : "customerProfileDao",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#fetchCustomerProfile#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#save#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "0be670aa-cd84-4ac3-9817-27efaf711e1d",
+      "name" : "mock response for call to customerProfileDao.save(saveRequest)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "fieldName" : "customerProfileDao",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfileRequest"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerId\":2,\"customerName\":\"string\",\"dateOfBirth\":\"Mar 4, 2024 16:56:15 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":[\"asqxewzrvg\",\"qxyesuchdb\",\"flqupowqlv\",\"fxkqxkmxui\",\"btaevakgsu\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#save#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#removeCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "90f56967-c884-458f-87b7-54f781a87b04",
+      "name" : "mock response for call to customerProfileDao.removeCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "fieldName" : "customerProfileDao",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.CustomerProfileDao#removeCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ]
+  }
+}

@@ -81,5 +81,29 @@
       }
     } ]
   },
-  "declaredMockMap" : { }
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "id" : "bee42989-d032-409e-aa18-76c0593afed1",
+      "name" : "mock response for call to weatherService.getWeatherForAddress(location)",
+      "fieldTypeName" : "org.unlogged.demo.service.WeatherService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "weatherService",
+      "methodName" : "getWeatherForAddress",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"location\":{\"name\":\"The String\",\"region\":\"Idaho\",\"country\":\"United States of America\",\"lat\":43.58,\"lon\":-111.09,\"tz_id\":\"America/Boise\",\"localtime_epoch\":1709553946,\"localtime\":\"2024-03-04 5:05\"},\"current\":{\"temp_c\":-8.9,\"temp_f\":16.0,\"is_day\":0,\"condition\":{\"text\":\"Overcast\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/122.png\",\"code\":1009},\"wind_mph\":10.5,\"wind_kph\":16.9,\"wind_degree\":180,\"wind_dir\":\"S\",\"pressure_mb\":1009.0,\"pressure_in\":29.78,\"precip_mm\":0.02,\"precip_in\":0.0,\"humidity\":73,\"cloud\":100,\"feelslike_c\":-12.8,\"feelslike_f\":8.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":15.0,\"gust_kph\":24.1}}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.weather.WeatherInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;"
+    } ]
+  }
 }
