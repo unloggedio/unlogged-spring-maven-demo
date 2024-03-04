@@ -69,4 +69,8 @@ public class InternalClassController {
     public void setSessionFactory(SessionFactory sessionFactory) {
         this.sessionFactory = sessionFactory;
     }
+
+    public char returnChar(char c) {
+        return c;
+    }
 }
