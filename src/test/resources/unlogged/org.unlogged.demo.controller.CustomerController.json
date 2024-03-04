@@ -40,6 +40,472 @@
         "className" : "org.unlogged.demo.controller.CustomerController",
         "methodHash" : 0
       }
+    } ],
+    "org.unlogged.demo.controller.CustomerController#getCustomerProfile#(J)V" : [ {
+      "lineNumbers" : [ 22, 27, 28, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "baae65b1-b0d3-4799-9f99-e9c2762d971c",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "d84a77e7-ba81-4236-8414-04a1157ee1fc",
+      "name" : "saved on 2024-03-04 12:51",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165358205968140,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 878788272,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "8b4b668d-10c8-4f56-9f92-55290de9c5ab" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getCustomerProfile",
+        "signature" : "(J)V",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.CustomerController#saveCustomerProfile#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 28, 37, 38, 39, 29, 30, 31, 35, 36, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "370f3985-7aa9-4845-8d5e-9d6773dce005",
+          "assertionType" : "EQUAL",
+          "key" : "/customerid"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "1c2afd15-09e4-4fdb-b346-6d360ce2ce9b",
+          "assertionType" : "EQUAL",
+          "key" : "/customername"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "6976abca-d1ef-4f8c-bbff-6b0acfbedc0b",
+          "assertionType" : "EQUAL",
+          "key" : "/dateofbirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "3d89de2d-75fb-4bf8-8fa7-acb4dd211317",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "3911594f-b4c1-4304-b041-d567050ab00e",
+          "assertionType" : "EQUAL",
+          "key" : "/contactnumber"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "77de2d37-6773-43a3-a771-1b37e6d7ae9b",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "lunkdprxhv",
+            "id" : "c332a27b-1d98-48e6-90fb-49394c50ede3",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/0"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "mchbkrdvth",
+            "id" : "6d985db8-1d2f-4a29-952e-d5fe98fd3d6d",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/1"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "wlyneximhm",
+            "id" : "b07dff94-5a0f-47d2-a34f-b8421a49a132",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/2"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "gjvdwcjegn",
+            "id" : "abd68fc7-396c-439c-ad4c-b0975ed78818",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/3"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "wtovhwhcnc",
+            "id" : "0ba66ed9-602d-4a0a-9632-7bb83c7c812c",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/4"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f73e2388-783c-4fea-bbcf-43ccc86d8064",
+          "assertionType" : "ALLOF",
+          "key" : "/referralcodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "30886bcf-ac24-451f-9fb2-ce52c5ea4705",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "0d0ff3b6-a233-446a-bac5-8666610eec1a",
+      "name" : "saved on 2024-03-04 12:52",
+      "description" : null,
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
+      "returnValue" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lunkdprxhv\",\"mchbkrdvth\",\"wlyneximhm\",\"gjvdwcjegn\",\"wtovhwhcnc\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165373277674497,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1645672365,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjoxLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbImx1bmtkcHJ4aHYiLCJtY2hia3JkdnRoIiwid2x5bmV4aW1obSIsImdqdmR3Y2plZ24iLCJ3dG92aHdoY25jIl19",
+      "mockIds" : [ "d098b43f-ea07-4079-8e26-a70845f55716" ],
+      "exception" : false,
+      "method" : {
+        "name" : "saveCustomerProfile",
+        "signature" : "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.CustomerController#generateNeReferralCode#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 38, 47, 48, 49, 50, 10, 11, 12, 13, 14, 15, 19, 35, 36 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "4aaa2823-5d51-4db0-8d65-3784b5c3d7ae",
+          "assertionType" : "EQUAL",
+          "key" : "/customerid"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "16a89d74-e326-4ae8-b4aa-a323d7bd9585",
+          "assertionType" : "EQUAL",
+          "key" : "/customername"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "4de37cd9-b427-4b4f-b1e6-68ef32971d04",
+          "assertionType" : "EQUAL",
+          "key" : "/dateofbirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "8794b874-5479-408a-9606-4732d0fdf677",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "e4ab208b-6a44-4378-b040-da8542642724",
+          "assertionType" : "EQUAL",
+          "key" : "/contactnumber"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "6276a9aa-6c03-427f-8c77-263572202d4f",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "lunkdprxhv",
+            "id" : "7addd394-aa94-4e5d-bedd-b50fb6a4223e",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/0"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "mchbkrdvth",
+            "id" : "a3fb8c60-b5d3-4bda-9882-a9dfbdb6a6bf",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/1"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "wlyneximhm",
+            "id" : "f285beab-5116-4369-a0b8-51fda178d930",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/2"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "gjvdwcjegn",
+            "id" : "e2d8d0d5-a3ab-43fb-be9b-7be7b357fb13",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/3"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "wtovhwhcnc",
+            "id" : "9f87df42-9ea2-4829-9b9a-a500322c9960",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/4"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "vggkgwzcob",
+            "id" : "eb992316-f906-4fd1-b84d-9326f4e80797",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/5"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "0c8fd74c-04ad-4921-b6c2-c39c80c4b5e9",
+          "assertionType" : "ALLOF",
+          "key" : "/referralcodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "6e4cfa15-25c1-4fc1-9e69-61abb5e8df0f",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f22f02cc-c9a1-4c96-82a6-70dd8056af54",
+      "name" : "saved on 2024-03-04 12:52",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lunkdprxhv\",\"mchbkrdvth\",\"wlyneximhm\",\"gjvdwcjegn\",\"wtovhwhcnc\",\"vggkgwzcob\"]}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165397783336628,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 897731450,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjoxLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbImx1bmtkcHJ4aHYiLCJtY2hia3JkdnRoIiwid2x5bmV4aW1obSIsImdqdmR3Y2plZ24iLCJ3dG92aHdoY25jIiwidmdna2d3emNvYiJdfQ==",
+      "mockIds" : [ "288cb936-1fa6-48d3-bcaa-f24ec9aad374" ],
+      "exception" : false,
+      "method" : {
+        "name" : "generateNeReferralCode",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.CustomerController#isCustomerEligibleForLoyaltyProgram#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
+      "lineNumbers" : [ 42, 63, 64, 65, 66, 67, 68, 71, 73, 74, 75, 77, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "b9d7875e-6ec1-46b5-8ee3-50f50fb39176",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/customerid"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "22f11e6a-0eca-463c-836e-ffed34614121",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/customername"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "fd55c1a6-aeb9-4f6e-88cc-0e2e39960afa",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/dateofbirth"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "d725d6f6-1f96-4dca-bd86-ab8dd3c535fc",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/email"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "e50662cf-ef72-44cd-977f-1fb2762e2c82",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/contactnumber"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "7c2c2707-ffc4-4c22-a063-94c04be8eda1",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/address"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "lunkdprxhv",
+              "id" : "0b5cd1f5-f468-4cd8-91f7-4ea336ac1d5d",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/referralcodes/0"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "mchbkrdvth",
+              "id" : "6782b646-40a5-4ef4-a41a-7d115933f1fa",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/referralcodes/1"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "wlyneximhm",
+              "id" : "6aa38e73-ba32-4515-92d8-70b0d389442e",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/referralcodes/2"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "gjvdwcjegn",
+              "id" : "4632e344-d325-45de-a79d-902184debdfe",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/referralcodes/3"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "wtovhwhcnc",
+              "id" : "8ad334d6-099d-46d2-8d50-00008cd7c977",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/referralcodes/4"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "vggkgwzcob",
+              "id" : "1dd86d44-d6c7-4941-8427-d76978217e88",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/referralcodes/5"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "1942cb80-1cc5-462b-8a2b-ee4d50ff1e7a",
+            "assertionType" : "ALLOF",
+            "key" : "/customerProfile/referralcodes"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "033c0bba-f29c-4e06-97ce-5e5a93531348",
+          "assertionType" : "ALLOF",
+          "key" : "/customerProfile"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "18",
+          "id" : "22673ae2-0ebc-42cc-bff2-19f8a726bc71",
+          "assertionType" : "EQUAL",
+          "key" : "/score"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c8890cdc-d480-4814-964e-a478c4e45fc6",
+          "assertionType" : "EQUAL",
+          "key" : "/isEligible"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Jan 1, 1970 05:30:00 am",
+          "id" : "0ddd64f6-9784-4043-959d-95c6b8fe866f",
+          "assertionType" : "EQUAL",
+          "key" : "/valTime"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Jan 1, 1970 05:30:00 am",
+          "id" : "9669ab4c-4ab9-4be0-b5cf-731999fd3cc0",
+          "assertionType" : "EQUAL",
+          "key" : "/valDate"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "6f7079e5-f53f-499a-8984-910d5430e9ea",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "cc66c1bc-47e9-4c8f-b271-5fccde9efe16",
+      "name" : "saved on 2024-03-04 12:53",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerProfile\":{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lunkdprxhv\",\"mchbkrdvth\",\"wlyneximhm\",\"gjvdwcjegn\",\"wtovhwhcnc\",\"vggkgwzcob\"]},\"score\":18,\"isEligible\":true,\"valTime\":\"Jan 1, 1970 05:30:00 am\",\"valDate\":\"Jan 1, 1970 05:30:00 am\"}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerScoreCard",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165417525050921,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -511189446,
+      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MSwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJsdW5rZHByeGh2IiwibWNoYmtyZHZ0aCIsIndseW5leGltaG0iLCJnanZkd2NqZWduIiwid3Rvdmh3aGNuYyIsInZnZ2tnd3pjb2IiXX0sInNjb3JlIjoxOCwiaXNFbGlnaWJsZSI6dHJ1ZSwidmFsVGltZSI6IkphbiAxLCAxOTcwIDA1OjMwOjAwIGFtIiwidmFsRGF0ZSI6IkphbiAxLCAxOTcwIDA1OjMwOjAwIGFtIn0=",
+      "mockIds" : [ "b6944d27-bf0b-48e2-a66c-496233f435b6" ],
+      "exception" : false,
+      "method" : {
+        "name" : "isCustomerEligibleForLoyaltyProgram",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerScoreCard;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.CustomerController#removeCustomerProfile#(J)V" : [ {
+      "lineNumbers" : [ 33, 43, 40, 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d12b8c7b-7f3f-4e3e-9580-ab209b6e04c4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "2af8f7da-813c-4073-8071-a0c451f0d9f6",
+      "name" : "saved on 2024-03-04 12:54",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165476600850584,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -359609710,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "ec66043f-b333-401f-ac0f-3785639406a6" ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomerProfile",
+        "signature" : "(J)V",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 0
+      }
     } ]
   },
   "declaredMockMap" : { }

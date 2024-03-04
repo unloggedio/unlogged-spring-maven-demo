@@ -145,6 +145,120 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    }, {
+      "id" : "8b4b668d-10c8-4f56-9f92-55290de9c5ab",
+      "name" : "mock response for call to customerService.fetchCustomerProfile(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "d098b43f-ea07-4079-8e26-a70845f55716",
+      "name" : "mock response for call to customerService.saveNewCustomer(saveRequest)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "saveNewCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.CustomerProfileRequest"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lunkdprxhv\",\"mchbkrdvth\",\"wlyneximhm\",\"gjvdwcjegn\",\"wtovhwhcnc\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.service.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "288cb936-1fa6-48d3-bcaa-f24ec9aad374",
+      "name" : "mock response for call to customerService.generateReferralForCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "generateReferralForCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lunkdprxhv\",\"mchbkrdvth\",\"wlyneximhm\",\"gjvdwcjegn\",\"wtovhwhcnc\",\"vggkgwzcob\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/models/CustomerScoreCard;" : [ {
+      "id" : "b6944d27-bf0b-48e2-a66c-496233f435b6",
+      "name" : "mock response for call to customerService.isCustomerEligibleForPremium(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "isCustomerEligibleForPremium",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerProfile\":{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"lunkdprxhv\",\"mchbkrdvth\",\"wlyneximhm\",\"gjvdwcjegn\",\"wtovhwhcnc\",\"vggkgwzcob\"]},\"score\":18,\"isEligible\":true,\"valTime\":\"Jan 1, 1970 05:30:00 am\",\"valDate\":\"Jan 1, 1970 05:30:00 am\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerScoreCard"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/models/CustomerScoreCard;"
+    } ],
+    "org.unlogged.demo.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "ec66043f-b333-401f-ac0f-3785639406a6",
+      "name" : "mock response for call to customerService.removeCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;"
     } ]
   }
 }

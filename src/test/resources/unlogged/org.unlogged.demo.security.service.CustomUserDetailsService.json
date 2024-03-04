@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.security.service.CustomUserDetailsService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.service.CustomUserDetailsService#loadUserByUsername#(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;" : [ {
+      "lineNumbers" : [ 21, 22, 23, 25, 26, 27, 28, 29, 30, 12, 13, 14, 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2143476414",
+          "id" : "8cc8fe63-dc52-40f1-99e5-06aa82eea6ef",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1018e1f1-0712-4a15-b4df-0882abd1f948",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "800c2390-3150-4c84-bbb8-4c3aa4353d33",
+      "name" : "saved on 2024-03-04 12:56",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "2143476414",
+      "returnValueClassname" : "org.springframework.security.core.userdetails.UserDetails",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165623261635511,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 973244259,
+      "probSerializedValue" : "",
+      "mockIds" : [ "c07e3d0d-c2fe-4fe1-bc0b-b30fdd5213a3" ],
+      "exception" : false,
+      "method" : {
+        "name" : "loadUserByUsername",
+        "signature" : "(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;",
+        "className" : "org.unlogged.demo.security.service.CustomUserDetailsService",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

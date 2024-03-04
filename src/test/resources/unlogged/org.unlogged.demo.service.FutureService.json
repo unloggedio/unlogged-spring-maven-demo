@@ -1,0 +1,48 @@
+{
+  "classname" : "org.unlogged.demo.service.FutureService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture;" : [ {
+      "id" : "8c19b812-f95b-43c3-a919-1a7e9ef3ece6",
+      "name" : "mock response for call to futureService.doSomething()",
+      "fieldTypeName" : "org.unlogged.demo.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomething",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1367671553",
+          "returnValueType" : "REAL",
+          "className" : "java.util.concurrent.CompletableFuture"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture;"
+    } ],
+    "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "2026e37f-3901-4010-9f47-4a9e92d39f4f",
+      "name" : "mock response for call to futureService.doSomethingOptional(s1)",
+      "fieldTypeName" : "org.unlogged.demo.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomethingOptional",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"string\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;"
+    } ]
+  }
+}

@@ -8,18 +8,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "97",
-          "id" : "ec44a82c-bbe0-4cba-85b6-db4a38c8ef1f",
+          "id" : "a717684e-a518-4d2e-a364-9abf60e28030",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "beaf87c0-7bb0-4552-b3cb-04308a3021e2",
+        "id" : "1e25a6ca-4845-4bbb-99f4-9b1e16113203",
         "assertionType" : "ALLOF",
         "key" : null
       },
       "candidateId" : "0cd12f81-82fd-401f-a0f3-fbe6dbc0a198",
-      "name" : "Handling characters case - a",
+      "name" : "saved on 2024-03-04 12:49",
       "description" : "assert that the response value matches expected value",
       "methodArguments" : [ "97" ],
       "returnValue" : "97",
@@ -27,8 +27,8 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 3543995626474,
-        "candidateStatus" : "FAILING"
+        "timestamp" : 165200040904971,
+        "candidateStatus" : "NA"
       },
       "sessionIdentifier" : 801869716,
       "probSerializedValue" : "",
@@ -37,6 +37,187 @@
       "method" : {
         "name" : "returnChar",
         "signature" : "(C)C",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#getTimeObjects#()Ljava/util/ArrayList;" : [ {
+      "lineNumbers" : [ 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2024-03-04T12:47:50.844+05:30",
+          "id" : "c79115c7-5a83-44fd-8346-efa7c397d01a",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Sspi$TimeStamp(auto-allocated@0x600009aabcb0 (8 bytes)) {\n  int dwLower@0x0=0x0000\n  int dwUpper@0x4=0x0000\n}",
+          "id" : "1d2e7135-ec67-4159-9177-6c6ded75616d",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2024-03-04T07:17:50.999Z",
+          "id" : "cbbc3030-024a-4be7-8b59-6c265468631e",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2024-03-04T07:17:51.000277Z",
+          "id" : "edee7390-ffb0-42b0-b4aa-65999e2d0884",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "285c03db-f326-4fdb-adda-a37a9ab18f1d",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "9cde9448-0d41-4c9d-a081-74429ff038f8",
+      "name" : "saved on 2024-03-04 12:48",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"2024-03-04T12:47:50.844+05:30\",\"Sspi$TimeStamp(auto-allocated@0x600009aabcb0 (8 bytes)) {\\n  int dwLower@0x0=0x0000\\n  int dwUpper@0x4=0x0000\\n}\",\"2024-03-04T07:17:50.999Z\",\"2024-03-04T07:17:51.000277Z\"]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165120557870325,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1277310836,
+      "probSerializedValue" : "WyIyMDI0LTAzLTA0VDEyOjQ3OjUwLjg0NCswNTozMCIsIlNzcGkkVGltZVN0YW1wKGF1dG8tYWxsb2NhdGVkQDB4NjAwMDA5YWFiY2IwICg4IGJ5dGVzKSkge1xuICBpbnQgZHdMb3dlckAweDA9MHgwMDAwXG4gIGludCBkd1VwcGVyQDB4ND0weDAwMDBcbn0iLCIyMDI0LTAzLTA0VDA3OjE3OjUwLjk5OVoiLCIyMDI0LTAzLTA0VDA3OjE3OjUxLjAwMDI3N1oiXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getTimeObjects",
+        "signature" : "()Ljava/util/ArrayList;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#getMapValue#()Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 55 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "key4",
+          "id" : "ab6d57fa-bd3e-467c-b792-3e021defbf3d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "004fcf38-6762-4c76-be4c-fb257eaea2e2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e94c2af5-8f20-4fe4-a1dd-25fc557e694b",
+      "name" : "saved on 2024-03-04 12:48",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"key4\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165137952979338,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2102954668,
+      "probSerializedValue" : "ImtleTQi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getMapValue",
+        "signature" : "()Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#filterList#(Ljava/util/List;)Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 59 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "525c9544-3e2a-48bf-b3b2-7ed35272575d",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "76f2c61a-ed53-441f-a7ed-4082cbaa113d",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "b87f142c-bc6a-4d50-b653-b1a8fd10ce33",
+      "name" : "saved on 2024-03-04 12:48",
+      "description" : null,
+      "methodArguments" : [ "[\"string\"]" ],
+      "returnValue" : "[\"string\"]",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165155732494233,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 186075327,
+      "probSerializedValue" : "WyJzdHJpbmciXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterList",
+        "signature" : "(Ljava/util/List;)Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#configureMapper#(Lcom/fasterxml/jackson/databind/ObjectMapper;)Lcom/fasterxml/jackson/databind/ObjectMapper;" : [ {
+      "lineNumbers" : [ 63, 64 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1578756053",
+          "id" : "7e95c9fa-74af-4233-813a-e20fc7ea37bf",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2d25265e-8af4-4904-8ade-7ad65418b6b3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "926b3b2b-c303-460b-9986-a625e846f408",
+      "name" : "saved on 2024-03-04 12:48",
+      "description" : null,
+      "methodArguments" : [ "1578756053" ],
+      "returnValue" : "1578756053",
+      "returnValueClassname" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 165177839413907,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -110724205,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "configureMapper",
+        "signature" : "(Lcom/fasterxml/jackson/databind/ObjectMapper;)Lcom/fasterxml/jackson/databind/ObjectMapper;",
         "className" : "org.unlogged.demo.controller.InternalClassController",
         "methodHash" : 0
       }
