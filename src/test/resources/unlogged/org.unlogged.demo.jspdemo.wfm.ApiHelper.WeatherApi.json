@@ -1,0 +1,29 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "247e0fe4-d02b-4ee9-b157-1e87fae0f3c5",
+      "name" : "mock response for call to weatherApi.getWeatherinfo(\"London\")",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+      "fieldName" : "weatherApi",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1709550217,\\\"localtime\\\":\\\"2024-03-04 16:33\\\"},\\\"current\\\":{\\\"temp_c\\\":32.0,\\\"temp_f\\\":89.6,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":13.2,\\\"wind_kph\\\":21.2,\\\"wind_degree\\\":279,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":13,\\\"cloud\\\":0,\\\"feelslike_c\\\":29.8,\\\"feelslike_f\\\":85.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":15.2,\\\"gust_kph\\\":24.4}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
+}

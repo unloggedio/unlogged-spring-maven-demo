@@ -4,7 +4,7 @@
   "declaredMockMap" : {
     "java.io.PrintStream#println#(Ljava/lang/String;)V" : [ {
       "id" : "80c72e04-6cb2-4938-942c-c25c5b44f320",
-      "name" : "mock response for call to System.out.println(\"E\")",
+      "name" : "mock response for call to System.out.println(res.getId())",
       "fieldTypeName" : "java.io.PrintStream",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
       "fieldName" : "System.out",

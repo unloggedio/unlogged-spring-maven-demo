@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"location\":{\"name\":\"Bangalore\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.98,\"lon\":77.58,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1709547999,\"localtime\":\"2024-03-04 15:56\"},\"current\":{\"temp_c\":33.0,\"temp_f\":91.4,\"is_day\":1,\"condition\":{\"text\":\"Sunny\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/113.png\",\"code\":1000},\"wind_mph\":5.6,\"wind_kph\":9.0,\"wind_degree\":220,\"wind_dir\":\"SW\",\"pressure_mb\":1013.0,\"pressure_in\":29.91,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":23,\"cloud\":0,\"feelslike_c\":30.9,\"feelslike_f\":87.5,\"vis_km\":8.0,\"vis_miles\":4.0,\"uv\":8.0,\"gust_mph\":6.4,\"gust_kph\":10.4}}",
+          "value" : "{\"location\":{\"name\":\"Bangalore\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.98,\"lon\":77.58,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1709550248,\"localtime\":\"2024-03-04 16:34\"},\"current\":{\"temp_c\":33.0,\"temp_f\":91.4,\"is_day\":1,\"condition\":{\"text\":\"Sunny\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/113.png\",\"code\":1000},\"wind_mph\":2.2,\"wind_kph\":3.6,\"wind_degree\":116,\"wind_dir\":\"ESE\",\"pressure_mb\":1013.0,\"pressure_in\":29.91,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":21,\"cloud\":0,\"feelslike_c\":30.9,\"feelslike_f\":87.5,\"vis_km\":8.0,\"vis_miles\":4.0,\"uv\":8.0,\"gust_mph\":5.9,\"gust_kph\":9.5}}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherInfo"
         },
