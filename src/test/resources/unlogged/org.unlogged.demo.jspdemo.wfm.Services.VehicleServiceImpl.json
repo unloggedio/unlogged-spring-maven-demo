@@ -25,7 +25,7 @@
       },
       "sessionIdentifier" : 1580656277,
       "probSerializedValue" : "",
-      "mockIds" : [ "b812aadf-931c-4b57-9153-862b519ccdd7" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "getUserProfile",

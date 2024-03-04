@@ -25,7 +25,7 @@
       },
       "sessionIdentifier" : -48391609,
       "probSerializedValue" : "",
-      "mockIds" : [ "d4122a51-4c04-43be-a082-eb0a95236585" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "getStudent",
@@ -58,7 +58,7 @@
       },
       "sessionIdentifier" : 1490517350,
       "probSerializedValue" : "",
-      "mockIds" : [ "7f2b38bd-0051-4f7d-8465-16e87a9cac3c" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "findAll",
@@ -91,7 +91,7 @@
       },
       "sessionIdentifier" : -668008606,
       "probSerializedValue" : "",
-      "mockIds" : [ "883979e9-65b1-4ad7-98d5-ef572db5e75e" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "updateStudent",
@@ -124,7 +124,7 @@
       },
       "sessionIdentifier" : 986400709,
       "probSerializedValue" : "",
-      "mockIds" : [ "91204089-85df-4cb6-8a61-32d2c068719a" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "updateAllStudent",
@@ -157,7 +157,7 @@
       },
       "sessionIdentifier" : 912763108,
       "probSerializedValue" : "",
-      "mockIds" : [ "45617927-39d4-418d-a6fc-849c8c2011d4" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "createStudent",
@@ -190,7 +190,7 @@
       },
       "sessionIdentifier" : 1373987964,
       "probSerializedValue" : "",
-      "mockIds" : [ "6678f915-c05b-47e2-b98d-5b3e02369f7e" ],
+      "mockIds" : [ ],
       "exception" : true,
       "method" : {
         "name" : "deleteStudent",

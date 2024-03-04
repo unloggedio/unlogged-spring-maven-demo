@@ -53,7 +53,7 @@
       },
       "sessionIdentifier" : -2003854071,
       "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
-      "mockIds" : [ "6483b8c7-d653-467c-a1c8-21fb0878d3d9" ],
+      "mockIds" : [ ],
       "exception" : false,
       "method" : {
         "name" : "getMonoUser",
@@ -114,7 +114,7 @@
       },
       "sessionIdentifier" : -2069041662,
       "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
-      "mockIds" : [ "3de896cc-12ac-43e3-b035-f015c6e31cf0" ],
+      "mockIds" : [ ],
       "exception" : false,
       "method" : {
         "name" : "getUser",

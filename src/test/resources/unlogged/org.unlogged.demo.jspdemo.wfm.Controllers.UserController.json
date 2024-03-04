@@ -53,7 +53,7 @@
       },
       "sessionIdentifier" : -1050104637,
       "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
-      "mockIds" : [ "613fa9ea-88dd-4287-8b2a-c94b517923c8" ],
+      "mockIds" : [ ],
       "exception" : false,
       "method" : {
         "name" : "testFetchUser",
@@ -269,7 +269,7 @@
       },
       "sessionIdentifier" : -1681205633,
       "probSerializedValue" : "eyJpZCI6MCwieCI6MCwibmFtZSI6ImYifQ==",
-      "mockIds" : [ "3d99d804-a96e-4208-806a-25e0948d29d4", "94bd1068-b0d4-4acb-97ab-6fccf724fc66" ],
+      "mockIds" : [ ],
       "exception" : false,
       "method" : {
         "name" : "getTestPojo",
