@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.testX#e#()I" : [ {
+      "lineNumbers" : [ 248, 249, 239 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4",
+          "id" : "d510029e-d01c-47be-a8f3-69568fefb3ac",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "be84b528-1708-47d5-bcc1-058084c37cd7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fee294a9-6aa5-4f9d-9e2b-88314081355b",
+      "name" : "saved on 2024-03-04 12:12",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "4",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 163116904768401,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1145615239,
+      "probSerializedValue" : "",
+      "mockIds" : [ "f5142529-9117-4452-846f-86efba6d28f5" ],
+      "exception" : false,
+      "method" : {
+        "name" : "e",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

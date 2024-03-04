@@ -38,7 +38,7 @@
         "name" : "getCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.controller.CustomerController",
-        "methodHash" : 1943159505
+        "methodHash" : 0
       }
     } ]
   },

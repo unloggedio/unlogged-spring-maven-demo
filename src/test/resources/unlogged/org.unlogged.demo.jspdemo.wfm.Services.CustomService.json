@@ -1,0 +1,25 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
+      "id" : "97a679c0-81fb-4235-9aba-2e0bcce26db3",
+      "name" : "mock response for call to customService.getValue()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "customService",
+      "methodName" : "getValue",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"Some Value1\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;"
+    } ]
+  }
+}

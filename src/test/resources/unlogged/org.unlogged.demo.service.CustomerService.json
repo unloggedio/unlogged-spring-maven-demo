@@ -78,7 +78,7 @@
         "name" : "fetchCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.service.CustomerService",
-        "methodHash" : 845208909
+        "methodHash" : 0
       }
     } ],
     "org.unlogged.demo.service.CustomerService#filterEligbleCustomers#(Ljava/util/List;Z)Ljava/util/List;" : [ {
@@ -118,7 +118,7 @@
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
         "className" : "org.unlogged.demo.service.CustomerService",
-        "methodHash" : -980134402
+        "methodHash" : 0
       }
     } ]
   },
@@ -143,7 +143,8 @@
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
         "methodExitType" : "NORMAL"
-      } ]
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;"
     } ]
   }
 }

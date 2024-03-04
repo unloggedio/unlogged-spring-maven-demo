@@ -38,7 +38,7 @@
         "name" : "returnChar",
         "signature" : "(C)C",
         "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 672948653
+        "methodHash" : 0
       }
     } ]
   },
