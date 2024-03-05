@@ -1,0 +1,126 @@
+{
+  "classname" : "org.unlogged.demo.security.config.SecurityConfig",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.config.SecurityConfig#authenticationManager#(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;Lorg/springframework/security/crypto/password/NoOpPasswordEncoder;)Lorg/springframework/security/authentication/AuthenticationManager;" : [ {
+      "lineNumbers" : [ 30, 31, 32 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "262923256",
+          "id" : "22335cbd-9d99-4d17-8d80-e0968d5a97cb",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7a0cb354-56ff-4209-97eb-02a5782647fc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "92862635-fc2a-48a4-a56a-06385a787af8",
+      "name" : "saved on 2024-03-05 12:35",
+      "description" : null,
+      "methodArguments" : [ "573032493", "1011914207" ],
+      "returnValue" : "262923256",
+      "returnValueClassname" : "org.springframework.security.authentication.AuthenticationManager",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25261176457274,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1687908161,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "authenticationManager",
+        "signature" : "(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;Lorg/springframework/security/crypto/password/NoOpPasswordEncoder;)Lorg/springframework/security/authentication/AuthenticationManager;",
+        "className" : "org.unlogged.demo.security.config.SecurityConfig",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.config.SecurityConfig#securityFilterChain#(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;" : [ {
+      "lineNumbers" : [ 38, 39, 40, 44, 46, 47 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1179461042",
+          "id" : "79e0a4a7-d4d8-4eaf-a804-11648db3a3c6",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6b15d2a1-ce09-4056-bfc4-ef572b377dfa",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "896b4b8d-38b7-48c3-8f10-134199e8d7c1",
+      "name" : "saved on 2024-03-05 12:35",
+      "description" : null,
+      "methodArguments" : [ "1031820912" ],
+      "returnValue" : "1179461042",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25261238457236,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1466570250,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "securityFilterChain",
+        "signature" : "(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;",
+        "className" : "org.unlogged.demo.security.config.SecurityConfig",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.config.SecurityConfig#passwordEncoder#()Lorg/springframework/security/crypto/password/NoOpPasswordEncoder;" : [ {
+      "lineNumbers" : [ 54 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1011914207",
+          "id" : "c9428b85-d6ae-4eb5-a4af-02bb4c08f08d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "31ece681-78b5-4cec-b1f9-9ed52833015b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "a5bbb30e-8bd5-406f-a171-0b7fd7bf71d2",
+      "name" : "saved on 2024-03-05 12:35",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1011914207",
+      "returnValueClassname" : "org.springframework.security.crypto.password.PasswordEncoder",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25261104189214,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1435712565,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "passwordEncoder",
+        "signature" : "()Lorg/springframework/security/crypto/password/NoOpPasswordEncoder;",
+        "className" : "org.unlogged.demo.security.config.SecurityConfig",
+        "methodHash" : -1869090631
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

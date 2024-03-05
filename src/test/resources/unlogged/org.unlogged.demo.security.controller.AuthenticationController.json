@@ -1,0 +1,74 @@
+{
+  "classname" : "org.unlogged.demo.security.controller.AuthenticationController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.controller.AuthenticationController#login#(Lorg/unlogged/demo/security/model/request/LoginRequest;)Lorg/springframework/http/ResponseEntity;" : [ {
+      "lineNumbers" : [ 40, 41, 47, 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "2d31d035-99f3-40fd-befc-ca23e58efd86",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "BAD_REQUEST",
+            "id" : "2c8de90d-536d-4493-8cb6-20d4d6dfb8a0",
+            "assertionType" : "EQUAL",
+            "key" : "/body/httpStatus"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "Invalid username or password",
+            "id" : "198c2ff1-d33f-45a2-a879-8ca97b5d5aad",
+            "assertionType" : "EQUAL",
+            "key" : "/body/message"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "a979a0d1-8464-4f54-9d7c-0ceb6ed97cdc",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "BAD_REQUEST",
+          "id" : "c79847c1-93e0-4705-a63c-9b56c779174a",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "3660bbee-c792-42b9-a5bb-d00ef73b3acc",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "6be5712c-e027-45a8-83a1-75b04fa5dee8",
+      "name" : "login saved on 2024-03-05 12:35",
+      "description" : null,
+      "methodArguments" : [ "{\"email\":\"string\",\"password\":\"string\"}" ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"httpStatus\":\"BAD_REQUEST\",\"message\":\"Invalid username or password\"},\"status\":\"BAD_REQUEST\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27101266221459,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1108334148,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJodHRwU3RhdHVzIjoiQkFEX1JFUVVFU1QiLCJtZXNzYWdlIjoiSW52YWxpZCB1c2VybmFtZSBvciBwYXNzd29yZCJ9LCJzdGF0dXMiOiJCQURfUkVRVUVTVCJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "login",
+        "signature" : "(Lorg/unlogged/demo/security/model/request/LoginRequest;)Lorg/springframework/http/ResponseEntity;",
+        "className" : "org.unlogged.demo.security.controller.AuthenticationController",
+        "methodHash" : -1086727183
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

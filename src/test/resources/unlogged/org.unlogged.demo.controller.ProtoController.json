@@ -1,0 +1,278 @@
+{
+  "classname" : "org.unlogged.demo.controller.ProtoController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/protos/generated/AddressBook;" : [ {
+      "lineNumbers" : [ 42, 43, 44, 45, 535, 536, 539, 540, 541, 545, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 300, 301, 304, 309, 310, 311, 312, 313, 87, 88, 89, 91, 92, 1197, 1204, 1205, 1524, 1525, 1526, 1527, 1528, 226, 233, 234, 233, 234, 1204, 1205 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "62abdcce-130e-427d-9617-aff371247e86",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedHashCode"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "-1",
+          "id" : "710377ea-8939-485a-ad3a-f80f515e5f3b",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedSize"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "e27407f2-5cc3-4d44-b005-3feaff10e55f",
+            "assertionType" : "ALLOF",
+            "key" : "/unknownFields/fields"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "444c9c0e-9ed5-4f44-b202-b72e13274f73",
+          "assertionType" : "ALLOF",
+          "key" : "/unknownFields"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "289386a8-3fa5-45f0-b0fe-0c6dfe18b55d",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedHashCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "-1",
+              "id" : "db14bf26-82e8-4866-9fc1-2a35162e8f80",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedSize"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "a02f3db1-d09c-4cca-a919-b6bf18824768",
+                "assertionType" : "ALLOF",
+                "key" : "/people_/0/unknownFields/fields"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "6df57388-7ce4-4a4a-91d1-04a01ce32a49",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/unknownFields"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "77a99396-ee68-4077-8c5f-3f12e6d490e9",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/bitField0_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "Amg",
+              "id" : "974b8bee-4974-4323-8a97-b8ef786cd446",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/name_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "af1b83a5-3fe5-45a9-a5f3-7afdf3a927e3",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/id_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "",
+              "id" : "b89c4601-e280-4569-80a6-30313141ac93",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/email_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "6527e7bd-d57d-4b7b-8189-3e7c561052cd",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/phones_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "591d8d94-e156-4e07-85c2-3ded7259e18c",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedIsInitialized"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "3d32cc55-4f4a-4f48-9f03-2dd5e7c41b92",
+            "assertionType" : "ALLOF",
+            "key" : "/people_/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "453b7fe8-14e7-4026-8ceb-dcafdb92f771",
+          "assertionType" : "ALLOF",
+          "key" : "/people_"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "2731a061-1852-4564-984a-f9a31852b92c",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedIsInitialized"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ed884262-d650-4e9c-8613-ec3bb678f64e",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "a4b8361a-1403-4e7d-9dca-38bc4e095596",
+      "name" : "saved on 2024-03-05 12:09",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+      "returnValueClassname" : "org.unlogged.demo.protos.generated.AddressBook",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25507374304834,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 300631736,
+      "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAddressbook",
+        "signature" : "()Lorg/unlogged/demo/protos/generated/AddressBook;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ProtoController#convertFromJson#()Lcom/google/protobuf/Message;" : [ {
+      "lineNumbers" : [ 51, 52, 53 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "384700855",
+          "id" : "2f3d128e-d925-483e-9b34-ae55e5467902",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8a9b70a9-e070-44c5-9ebf-e0387e4ca05f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "39b2b722-7d3e-4a1f-afb7-ec3f60d96775",
+      "name" : "saved on 2024-03-05 12:09",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "384700855",
+      "returnValueClassname" : "com.google.protobuf.Struct",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25520558069056,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1170251286,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "convertFromJson",
+        "signature" : "()Lcom/google/protobuf/Message;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ProtoController#convertAddressBook#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 60, 61, 1197, 1204, 1205, 1524, 1525, 1526, 1527, 1528, 226, 233, 234, 569, 570, 571, 572, 576, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 233, 234, 1204, 1205 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\n  \"people\": [{\n    \"name\": \"Amg\"\n  }]\n}",
+          "id" : "393c1a55-626c-4842-b753-5332e69080f2",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "065ab0d5-5ea6-47b3-ab95-643e131fc5f1",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "dc4008e5-318c-46c9-a530-b9a1d63f595d",
+      "name" : "saved on 2024-03-05 12:09",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25532562904260,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -487778060,
+      "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "convertAddressBook",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ProtoController#toJson#(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 66 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\n  \"people\": [{\n    \"name\": \"Amg\"\n  }]\n}",
+          "id" : "dc8d12a8-d017-4bfa-b81f-e2c6aa3657bd",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d453376e-4909-419e-8297-4330e6f4cf59",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "4cd856ae-723c-4344-909c-38d7539099d4",
+      "name" : "saved on 2024-03-05 12:09",
+      "description" : null,
+      "methodArguments" : [ "{\"builderParent\":null,\"meAsParent\":null,\"isClean\":false,\"unknownFieldsOrBuilder\":{\"fields\":{}},\"bitField0_\":1,\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"peopleBuilder_\":null}" ],
+      "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25532563732992,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -204456799,
+      "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "toJson",
+        "signature" : "(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 2113503672
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

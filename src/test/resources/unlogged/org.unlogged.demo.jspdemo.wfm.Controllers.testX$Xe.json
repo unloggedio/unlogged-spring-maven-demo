@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Controllers.testX$Xe#getY#()I" : [ {
-      "id" : "f5142529-9117-4452-846f-86efba6d28f5",
+      "id" : "36b150a5-4620-48b0-a2e4-1eed74dc4547",
       "name" : "mock response for call to xe.getY()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX$Xe",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
@@ -15,7 +15,7 @@
           "declaredMocks" : [ ],
           "value" : "4",
           "returnValueType" : "REAL",
-          "className" : "I"
+          "className" : "int"
         },
         "methodExitType" : "NORMAL"
       } ],

@@ -1,6 +1,39 @@
 {
   "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
   "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.testX#serviceMethod#()V" : [ {
+      "lineNumbers" : [ 244, 245 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "314cabbf-995f-4538-852f-8b5c944a1ccc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "2d71ca2b-5adb-40dd-ac05-b3576cce4fc2",
+      "name" : "saved on 2024-03-05 12:24",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26433732634864,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 392493314,
+      "probSerializedValue" : "",
+      "mockIds" : [ "b1e4dff1-6e85-4dce-9494-259a7c49dacf" ],
+      "exception" : false,
+      "method" : {
+        "name" : "serviceMethod",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+        "methodHash" : 0
+      }
+    } ],
     "org.unlogged.demo.jspdemo.wfm.Controllers.testX#e#()I" : [ {
       "lineNumbers" : [ 248, 249, 239 ],
       "testAssertions" : {
@@ -8,18 +41,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "4",
-          "id" : "d510029e-d01c-47be-a8f3-69568fefb3ac",
+          "id" : "f8ba1c60-3f88-4894-a490-cdc41d5255e2",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "be84b528-1708-47d5-bcc1-058084c37cd7",
+        "id" : "876ded76-93fd-48e3-844f-a36d243441a4",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "fee294a9-6aa5-4f9d-9e2b-88314081355b",
-      "name" : "saved on 2024-03-04 12:12",
+      "candidateId" : "de99faba-af8f-4cf7-85a6-b68e6a75039d",
+      "name" : "saved on 2024-03-05 12:24",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "4",
@@ -27,18 +60,18 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 163116904768401,
+        "timestamp" : 26443948672470,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1145615239,
+      "sessionIdentifier" : -2105068016,
       "probSerializedValue" : "",
-      "mockIds" : [ "f5142529-9117-4452-846f-86efba6d28f5" ],
+      "mockIds" : [ "36b150a5-4620-48b0-a2e4-1eed74dc4547" ],
       "exception" : false,
       "method" : {
         "name" : "e",
         "signature" : "()I",
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
-        "methodHash" : 0
+        "methodHash" : 1662035525
       }
     } ]
   },

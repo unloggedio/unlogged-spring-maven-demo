@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.Customer",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.Customer#postConstructorMethod#()V" : [ {
+      "lineNumbers" : [ 26, 28, 29, 12, 13, 14 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "98f2feb6-06ab-424e-8ac7-6e57a2779905",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fb673ac4-03db-4227-9ae9-e1b623b72eee",
+      "name" : "saved on 2024-03-05 12:47",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27784816606532,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -491524891,
+      "probSerializedValue" : "",
+      "mockIds" : [ "060a8328-8fbc-42c2-9f78-531ff3eb33d8" ],
+      "exception" : false,
+      "method" : {
+        "name" : "postConstructorMethod",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.Customer",
+        "methodHash" : 337320872
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

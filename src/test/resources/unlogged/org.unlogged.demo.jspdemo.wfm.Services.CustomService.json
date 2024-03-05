@@ -1,19 +1,60 @@
 {
   "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
-  "storedCandidateMap" : { },
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 9 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Some Value1",
+          "id" : "513169e1-47a1-4d88-a04a-7d08623c970a",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d573ffbc-8a1c-44c3-bc32-81d1f4f75cbe",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "63c42578-9021-4b44-b404-c578bbcfbedc",
+      "name" : "getValue saved on 2024-03-05 12:28",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Some Value1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26405949416005,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -775118011,
+      "probSerializedValue" : "IlNvbWUgVmFsdWUxIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getValue",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
+        "methodHash" : 0
+      }
+    } ]
+  },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
-      "id" : "97a679c0-81fb-4235-9aba-2e0bcce26db3",
-      "name" : "mock response for call to customService.getValue()",
+      "id" : "b1e4dff1-6e85-4dce-9494-259a7c49dacf",
+      "name" : "mock response for call to service.getValue()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
-      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
-      "fieldName" : "customService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+      "fieldName" : "service",
       "methodName" : "getValue",
       "whenParameter" : [ ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "\"Some Value1\"",
+          "value" : "null",
           "returnValueType" : "REAL",
           "className" : "java.lang.String"
         },

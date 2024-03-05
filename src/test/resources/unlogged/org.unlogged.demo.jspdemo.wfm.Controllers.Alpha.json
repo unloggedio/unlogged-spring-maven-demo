@@ -1,0 +1,66 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha#getY#()I" : [ {
+      "lineNumbers" : [ 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4",
+          "id" : "6a459c4c-dfd8-4727-97aa-1fd9e3c9bc80",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a17462c4-78ea-4232-9d90-e92b3f5bcd4e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "812b3cfe-3606-43d4-9641-d6daa8dba6d8",
+      "name" : "saved on 2024-03-05 12:13",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "4",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25774162678051,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2084738330,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getY",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha#getY#()I" : [ {
+      "id" : "eb96d670-30e7-4de5-8e52-d9d7aa1ced94",
+      "name" : "mock response for call to alpha.getY()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.Beta",
+      "fieldName" : "alpha",
+      "methodName" : "getY",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "4",
+          "returnValueType" : "REAL",
+          "className" : "int"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha#getY#()I"
+    } ]
+  }
+}

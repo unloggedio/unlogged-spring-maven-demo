@@ -1,0 +1,274 @@
+{
+  "classname" : "org.unlogged.demo.service.DeliveryUnitService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/List<org/unlogged/demo/models/redis/DeliveryUnit>;Ljava/lang/String;)Ljava/util/List<org/unlogged/demo/models/redis/DeliveryUnit>;" : [ {
+      "lineNumbers" : [ 19, 20, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "fec146b2-5e33-4432-835b-e2edc23b55b3",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "ad336f11-6aa1-4d4c-ab8f-2ba7e407242c",
+      "name" : "saved on 2024-03-05 12:41",
+      "description" : null,
+      "methodArguments" : [ "[]", "\"string\"" ],
+      "returnValue" : "[]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27410790250370,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1156948655,
+      "probSerializedValue" : "W10=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAvailableUnitsForLocation",
+        "signature" : "(Ljava/util/List<org/unlogged/demo/models/redis/DeliveryUnit>;Ljava/lang/String;)Ljava/util/List<org/unlogged/demo/models/redis/DeliveryUnit>;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#addNewDeliveryUnit#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;" : [ {
+      "lineNumbers" : [ 26, 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "0adf7e37-46fd-4356-a174-c178caf9abb0",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "ffff4037-1f0d-42bb-90d5-3eee7d5759e8",
+          "assertionType" : "EQUAL",
+          "key" : "/unitName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "82ae8b4c-46a2-47ab-90ab-d884afd5c9e5",
+          "assertionType" : "EQUAL",
+          "key" : "/available"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "fa88a00e-dc4e-498d-bee1-6ab5d1cf4877",
+          "assertionType" : "EQUAL",
+          "key" : "/location"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "4038c3d1-5655-4539-a729-7b338995105a",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "a58e7bfa-ed40-4c74-bc5f-f91c27e0c637",
+      "name" : "saved on 2024-03-05 12:41",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}" ],
+      "returnValue" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}",
+      "returnValueClassname" : "org.unlogged.demo.models.redis.DeliveryUnit",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27464105620472,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -453177957,
+      "probSerializedValue" : "eyJpZCI6InN0cmluZyIsInVuaXROYW1lIjoic3RyaW5nIiwiYXZhaWxhYmxlIjp0cnVlLCJsb2NhdGlvbiI6InN0cmluZyJ9",
+      "mockIds" : [ "8fb88d43-0fa4-4518-988c-74baf92ebae1" ],
+      "exception" : false,
+      "method" : {
+        "name" : "addNewDeliveryUnit",
+        "signature" : "(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getDeliveryUnit#(Ljava/lang/String;)Lorg/unlogged/demo/models/redis/DeliveryUnit;" : [ {
+      "lineNumbers" : [ 31 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "0a259a09-e191-4276-89b4-03483c120088",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "f14fb856-afc6-4f3b-b40e-65c3bc66d04d",
+          "assertionType" : "EQUAL",
+          "key" : "/unitName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f79b474c-fe12-4914-b97b-92c3c5603c0d",
+          "assertionType" : "EQUAL",
+          "key" : "/available"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "9f963a6a-9e2a-435a-a85a-d70b842ccea3",
+          "assertionType" : "EQUAL",
+          "key" : "/location"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "01fd18ef-4dda-4150-ab7a-3bc2aa3a79e6",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "135ab1bd-20ed-4a25-b269-fe0a293d4f58",
+      "name" : "saved on 2024-03-05 12:42",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27474484668927,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1397163734,
+      "probSerializedValue" : "eyJpZCI6InN0cmluZyIsInVuaXROYW1lIjoic3RyaW5nIiwiYXZhaWxhYmxlIjp0cnVlLCJsb2NhdGlvbiI6InN0cmluZyJ9",
+      "mockIds" : [ "afe41b06-0bfa-4ec8-b14d-82be49568d14" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getDeliveryUnit",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/redis/DeliveryUnit;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List<org/unlogged/demo/models/redis/DeliveryUnit>;" : [ {
+      "lineNumbers" : [ 35, 36, 37 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "b42a0b04-ce25-4c95-9ae0-cf11e2e8509b",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "19676d7c-6249-46c2-9483-23e144c511c4",
+      "name" : "saved on 2024-03-05 12:42",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27410782359282,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2007366298,
+      "probSerializedValue" : "W10=",
+      "mockIds" : [ "e888c98b-dd97-49ba-806e-aef206f8d05f" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAllDeliveryUnits",
+        "signature" : "()Ljava/util/List<org/unlogged/demo/models/redis/DeliveryUnit>;",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#clearAllUnits#()V" : [ {
+      "lineNumbers" : [ 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c7f82b25-3a6a-49c2-adb7-952cdc5ef824",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e7ab7fe7-3246-45ba-9ac3-ad1de8437e63",
+      "name" : "saved on 2024-03-05 12:42",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27501261296338,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -610290216,
+      "probSerializedValue" : "",
+      "mockIds" : [ "6628b5f6-8b10-4706-8788-e3e630b50a23" ],
+      "exception" : false,
+      "method" : {
+        "name" : "clearAllUnits",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.service.DeliveryUnitService",
+        "methodHash" : -1821192525
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/ArrayList;Ljava/lang/String;)Ljava/util/List;" : [ {
+      "id" : "f802fbef-6175-49b4-9194-f9943dd8ab7d",
+      "name" : "mock response for call to deliveryUnitService.getAvailableUnitsForLocation(\n                deliveryUnitService.getAllDeliveryUnits(), location)",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAvailableUnitsForLocation",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.util.ArrayList"
+      }, {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/ArrayList;Ljava/lang/String;)Ljava/util/List;"
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;" : [ {
+      "id" : "66626792-7c1e-473a-8a09-9b43d3901fd2",
+      "name" : "mock response for call to deliveryUnitService.getAllDeliveryUnits()",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAllDeliveryUnits",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;"
+    } ]
+  }
+}

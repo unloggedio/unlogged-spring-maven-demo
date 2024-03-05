@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.utils.LocationUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.utils.LocationUtils#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 5, 6, 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "ce8bdc97-6bb1-4cf3-b055-4cd9811a38f9",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ca065973-cd4c-4236-b63d-ddb8e45e74cb",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "74a52390-0126-49ff-a055-c3e4d8e810ea",
+      "name" : "saved on 2024-03-05 12:46",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"string\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27387176322944,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -934864756,
+      "probSerializedValue" : "InN0cmluZyI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.LocationUtils",
+        "methodHash" : 40623741
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

@@ -1,0 +1,25 @@
+{
+  "classname" : "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory#getReactiveConnection#()Lorg/springframework/data/redis/connection/ReactiveRedisConnection;" : [ {
+      "id" : "a0ef525c-d37e-48ac-9903-1ac9cc28efc5",
+      "name" : "mock response for call to factory.getReactiveConnection()",
+      "fieldTypeName" : "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory",
+      "sourceClassName" : "org.unlogged.demo.components.StudentLoad",
+      "fieldName" : "factory",
+      "methodName" : "getReactiveConnection",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "736734672",
+          "returnValueType" : "REAL",
+          "className" : "org.springframework.data.redis.connection.ReactiveRedisConnection"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory#getReactiveConnection#()Lorg/springframework/data/redis/connection/ReactiveRedisConnection;"
+    } ]
+  }
+}

@@ -1,6 +1,220 @@
 {
   "classname" : "org.unlogged.demo.controller.InternalClassController",
   "storedCandidateMap" : {
+    "org.unlogged.demo.controller.InternalClassController#getTimeObjects#()Ljava/util/List<java/lang/String>;" : [ {
+      "lineNumbers" : [ 33, 34, 35, 36, 37, 38, 39, 40, 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2024-03-05T12:07:55.050+05:30",
+          "id" : "14d7e91e-a2ec-47dd-adfe-8b190621ccc1",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Sspi$TimeStamp(auto-allocated@0x60000a340910 (8 bytes)) {\n  int dwLower@0x0=0x0000\n  int dwUpper@0x4=0x0000\n}",
+          "id" : "1567263b-c78b-457d-b9f4-0bf7906edbf5",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2024-03-05T06:37:55.373Z",
+          "id" : "d6793fb6-9e86-4cb0-b3f6-b04e07f6eb73",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2024-03-05T06:37:55.374262Z",
+          "id" : "1b6bd85c-26c2-466e-b4b0-0cd9a9f386a3",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "475db0e0-4321-46aa-af4c-c0db8bebeb2a",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "3bddd664-40dd-4cc4-909c-005538f6689a",
+      "name" : "saved on 2024-03-05 12:08",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"2024-03-05T12:07:55.050+05:30\",\"Sspi$TimeStamp(auto-allocated@0x60000a340910 (8 bytes)) {\\n  int dwLower@0x0=0x0000\\n  int dwUpper@0x4=0x0000\\n}\",\"2024-03-05T06:37:55.373Z\",\"2024-03-05T06:37:55.374262Z\"]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25431217701122,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1172328513,
+      "probSerializedValue" : "WyIyMDI0LTAzLTA1VDEyOjA3OjU1LjA1MCswNTozMCIsIlNzcGkkVGltZVN0YW1wKGF1dG8tYWxsb2NhdGVkQDB4NjAwMDBhMzQwOTEwICg4IGJ5dGVzKSkge1xuICBpbnQgZHdMb3dlckAweDA9MHgwMDAwXG4gIGludCBkd1VwcGVyQDB4ND0weDAwMDBcbn0iLCIyMDI0LTAzLTA1VDA2OjM3OjU1LjM3M1oiLCIyMDI0LTAzLTA1VDA2OjM3OjU1LjM3NDI2MloiXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getTimeObjects",
+        "signature" : "()Ljava/util/List<java/lang/String>;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#getMapValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 55 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "key4",
+          "id" : "d9754d84-e59a-47e1-afa5-81b7b4d795db",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "db506709-dc75-495f-b616-b3b5f77fe0d4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "826a29b3-3feb-40e7-8745-58d2107ee035",
+      "name" : "saved on 2024-03-05 12:08",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"key4\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25443249171698,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -2122249684,
+      "probSerializedValue" : "ImtleTQi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getMapValue",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#filterList#(Ljava/util/List<java/lang/String>;)Ljava/util/List<java/lang/String>;" : [ {
+      "lineNumbers" : [ 59 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "5b61c042-3f3e-4183-9d42-c541bdc53b81",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "81f7c190-62be-4a35-89bd-046f92c129b3",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "16aca77c-f8ed-4f20-a565-31f9d1e36596",
+      "name" : "saved on 2024-03-05 12:08",
+      "description" : null,
+      "methodArguments" : [ "[\"string\"]" ],
+      "returnValue" : "[\"string\"]",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25453302029103,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -434073178,
+      "probSerializedValue" : "WyJzdHJpbmciXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterList",
+        "signature" : "(Ljava/util/List<java/lang/String>;)Ljava/util/List<java/lang/String>;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#configureMapper#(Lcom/fasterxml/jackson/databind/ObjectMapper;)Lcom/fasterxml/jackson/databind/ObjectMapper;" : [ {
+      "lineNumbers" : [ 63, 64 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "829930422",
+          "id" : "8d5395ef-cd30-46ad-9a5a-88430cef1b70",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3e208c66-e001-4cfa-868e-ab95ca6d096e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8ccd92d9-c1ac-46cf-aed6-3ceac4899bd0",
+      "name" : "saved on 2024-03-05 12:08",
+      "description" : null,
+      "methodArguments" : [ "829930422" ],
+      "returnValue" : "829930422",
+      "returnValueClassname" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25465656526835,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1318956931,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "configureMapper",
+        "signature" : "(Lcom/fasterxml/jackson/databind/ObjectMapper;)Lcom/fasterxml/jackson/databind/ObjectMapper;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#setSessionFactory#(Lorg/hibernate/SessionFactory;)V" : [ {
+      "lineNumbers" : [ 70, 71 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "cea31009-d2d9-4828-a705-aa7ad0ad3903",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f7f95735-bed0-4d77-a333-2913d4fe6846",
+      "name" : "saved on 2024-03-05 12:08",
+      "description" : null,
+      "methodArguments" : [ "{}" ],
+      "returnValue" : "0",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25478807844607,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1616446735,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "setSessionFactory",
+        "signature" : "(Lorg/hibernate/SessionFactory;)V",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
     "org.unlogged.demo.controller.InternalClassController#returnChar#(C)C" : [ {
       "lineNumbers" : [ 74 ],
       "testAssertions" : {
@@ -8,29 +222,29 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "97",
-          "id" : "ec44a82c-bbe0-4cba-85b6-db4a38c8ef1f",
+          "id" : "19d36951-a9c1-4b15-a111-6ec76a072381",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "beaf87c0-7bb0-4552-b3cb-04308a3021e2",
+        "id" : "95946882-2744-42e6-a5fa-f5a0e4eb6317",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "0cd12f81-82fd-401f-a0f3-fbe6dbc0a198",
-      "name" : "Handling characters case - a",
-      "description" : "assert that the response value matches expected value",
+      "candidateId" : "7b6974d6-2bbd-45be-8f54-37189a8a14cb",
+      "name" : "saved on 2024-03-05 12:09",
+      "description" : null,
       "methodArguments" : [ "97" ],
       "returnValue" : "97",
       "returnValueClassname" : "C",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 3543995626474,
-        "candidateStatus" : "FAILING"
+        "timestamp" : 25492457209177,
+        "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 801869716,
+      "sessionIdentifier" : 894927463,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -38,7 +252,7 @@
         "name" : "returnChar",
         "signature" : "(C)C",
         "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 0
+        "methodHash" : 672948653
       }
     } ]
   },

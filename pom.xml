@@ -32,7 +32,7 @@
         <dependency>
             <artifactId>unlogged-sdk</artifactId>
             <groupId>video.bug</groupId>
-            <version>0.2.99</version>
+            <version>0.2.5</version>
         </dependency>
         <dependency>
             <groupId>com.rometools</groupId>
@@ -48,7 +48,6 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>3.8.0</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>

@@ -1,0 +1,86 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController#gcdOfTwoNumbers#(II)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/MessageDto;" : [ {
+      "lineNumbers" : [ 18, 19, 22, 24, 25, 26, 29, 31, 32, 35, 37, 14, 15, 16, 17, 18, 20, 25, 26 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "17",
+          "id" : "10b02f0b-877b-4219-a02d-d72bb5da9c81",
+          "assertionType" : "EQUAL",
+          "key" : "/gcd"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"location\":{\"name\":\"Pune\",\"region\":\"Maharashtra\",\"country\":\"India\",\"lat\":18.53,\"lon\":73.87,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1709621096,\"localtime\":\"2024-03-05 12:14\"},\"current\":{\"temp_c\":30.4,\"temp_f\":86.7,\"is_day\":1,\"condition\":{\"text\":\"Sunny\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/113.png\",\"code\":1000},\"wind_mph\":7.6,\"wind_kph\":12.2,\"wind_degree\":134,\"wind_dir\":\"SE\",\"pressure_mb\":1014.0,\"pressure_in\":29.94,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":17,\"cloud\":0,\"feelslike_c\":28.1,\"feelslike_f\":82.7,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":8.0,\"gust_mph\":8.7,\"gust_kph\":14.1}}",
+          "id" : "b4f5c13d-2a0c-4311-860f-a5bb93bd8b38",
+          "assertionType" : "EQUAL",
+          "key" : "/weather"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "5db57896-af76-4896-a954-84ef1a3bc844",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "0eae8c6d-94fa-4f9c-b7d9-2a252e040d2e",
+      "name" : "saved on 2024-03-05 12:16",
+      "description" : null,
+      "methodArguments" : [ "12", "24" ],
+      "returnValue" : "{\"gcd\":17,\"weather\":\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1709621096,\\\"localtime\\\":\\\"2024-03-05 12:14\\\"},\\\"current\\\":{\\\"temp_c\\\":30.4,\\\"temp_f\\\":86.7,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":7.6,\\\"wind_kph\\\":12.2,\\\"wind_degree\\\":134,\\\"wind_dir\\\":\\\"SE\\\",\\\"pressure_mb\\\":1014.0,\\\"pressure_in\\\":29.94,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":17,\\\"cloud\\\":0,\\\"feelslike_c\\\":28.1,\\\"feelslike_f\\\":82.7,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":8.7,\\\"gust_kph\\\":14.1}}\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.MessageDto",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25931515614443,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1032006728,
+      "probSerializedValue" : "eyJnY2QiOjE3LCJ3ZWF0aGVyIjoie1wibG9jYXRpb25cIjp7XCJuYW1lXCI6XCJQdW5lXCIsXCJyZWdpb25cIjpcIk1haGFyYXNodHJhXCIsXCJjb3VudHJ5XCI6XCJJbmRpYVwiLFwibGF0XCI6MTguNTMsXCJsb25cIjo3My44NyxcInR6X2lkXCI6XCJBc2lhL0tvbGthdGFcIixcImxvY2FsdGltZV9lcG9jaFwiOjE3MDk2MjEwOTYsXCJsb2NhbHRpbWVcIjpcIjIwMjQtMDMtMDUgMTI6MTRcIn0sXCJjdXJyZW50XCI6e1widGVtcF9jXCI6MzAuNCxcInRlbXBfZlwiOjg2LjcsXCJpc19kYXlcIjoxLFwiY29uZGl0aW9uXCI6e1widGV4dFwiOlwiU3VubnlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExMy5wbmdcIixcImNvZGVcIjoxMDAwfSxcIndpbmRfbXBoXCI6Ny42LFwid2luZF9rcGhcIjoxMi4yLFwid2luZF9kZWdyZWVcIjoxMzQsXCJ3aW5kX2RpclwiOlwiU0VcIixcInByZXNzdXJlX21iXCI6MTAxNC4wLFwicHJlc3N1cmVfaW5cIjoyOS45NCxcInByZWNpcF9tbVwiOjAuMCxcInByZWNpcF9pblwiOjAuMCxcImh1bWlkaXR5XCI6MTcsXCJjbG91ZFwiOjAsXCJmZWVsc2xpa2VfY1wiOjI4LjEsXCJmZWVsc2xpa2VfZlwiOjgyLjcsXCJ2aXNfa21cIjoxMC4wLFwidmlzX21pbGVzXCI6Ni4wLFwidXZcIjo4LjAsXCJndXN0X21waFwiOjguNyxcImd1c3Rfa3BoXCI6MTQuMX19In0=",
+      "mockIds" : [ "88ff21a6-0b01-4206-acb3-e9f2631a5660" ],
+      "exception" : false,
+      "method" : {
+        "name" : "gcdOfTwoNumbers",
+        "signature" : "(II)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/MessageDto;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController#getNull#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 41 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "5cdcefad-413c-47d8-8609-2e330828c6e8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "72203c6a-0490-499a-977d-0719191c2cb4",
+      "name" : "saved on 2024-03-05 12:16",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25945149066602,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 767311022,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getNull",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+        "methodHash" : 610448640
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

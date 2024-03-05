@@ -1,0 +1,29 @@
+{
+  "classname" : "io.jsonwebtoken.JwtParser",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "io.jsonwebtoken.JwtParser#parseClaimsJws#(Ljava/lang/String;)Lio/jsonwebtoken/Jws;" : [ {
+      "id" : "52cd61d7-64b8-4069-ac98-f03fd72ab531",
+      "name" : "mock response for call to jwtParser.parseClaimsJws(token)",
+      "fieldTypeName" : "io.jsonwebtoken.JwtParser",
+      "sourceClassName" : "org.unlogged.demo.security.util.JwtUtil",
+      "fieldName" : "jwtParser",
+      "methodName" : "parseClaimsJws",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "2036024451",
+          "returnValueType" : "REAL",
+          "className" : "io.jsonwebtoken.Jws<io.jsonwebtoken.Claims>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "io.jsonwebtoken.JwtParser#parseClaimsJws#(Ljava/lang/String;)Lio/jsonwebtoken/Jws;"
+    } ]
+  }
+}

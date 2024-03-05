@@ -1,0 +1,267 @@
+{
+  "classname" : "org.unlogged.demo.security.util.JwtUtil",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdHJpbmciLCJmaXJzdE5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImV4cCI6MTkyNTYyMjM4M30.7alX0rQqEy_6pOMlFVfPMOtOeElJMGV2DpZzAa5KZJ0",
+          "id" : "1327c12b-b176-45f4-85cf-37fe0e1dfb41",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f692e7c9-a263-45a5-a35b-b2ae7a411c01",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0bb294e9-bd87-4ad3-86c9-be96b6d6b842",
+      "name" : "saved on 2024-03-05 12:36",
+      "description" : null,
+      "methodArguments" : [ "{\"email\":\"string\",\"password\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\"}" ],
+      "returnValue" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdHJpbmciLCJmaXJzdE5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImV4cCI6MTkyNTYyMjM4M30.7alX0rQqEy_6pOMlFVfPMOtOeElJMGV2DpZzAa5KZJ0\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27139641192274,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 999246912,
+      "probSerializedValue" : "ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SnpkV0lpT2lKemRISnBibWNpTENKbWFYSnpkRTVoYldVaU9pSnpkSEpwYm1jaUxDSnNZWE4wVG1GdFpTSTZJbk4wY21sdVp5SXNJbVY0Y0NJNk1Ua3lOVFl5TWpNNE0zMC43YWxYMHJRcUV5XzZwT01sRlZmUE1PdE9lRWxKTUdWMkRwWnpBYTVLWkowIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "createToken",
+        "signature" : "(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.util.JwtUtil#parseJwtClaims#(Ljava/lang/String;)Lio/jsonwebtoken/Claims;" : [ {
+      "lineNumbers" : [ 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "20d9ddf3-c19f-4a39-90a8-bc1e4a5d41f9",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "35668837-2071-4441-a9e6-e5b17ee4503d",
+      "name" : "saved on 2024-03-05 12:36",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"error\": \"failed to serialize object\", \"message\":\"Invalid type definition for type `io.jsonwebtoken.MalformedJwtException`: Failed to construct BeanSerializer for [simple type, class io.jsonwebtoken.MalformedJwtException]: (java.lang.IllegalArgumentException) Failed to call `setAccess()` on Field 'detailMessage' (of class `java.lang.Throwable`) due to `java.lang.reflect.InaccessibleObjectException`, problem: Unable to make field private java.lang.String java.lang.Throwable.detailMessage accessible: module java.base does not \"opens java.lang\" to unnamed module @3b084709\"}",
+      "returnValueClassname" : "io.jsonwebtoken.MalformedJwtException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27149850799021,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 60793463,
+      "probSerializedValue" : "eyJlcnJvciI6ICJmYWlsZWQgdG8gc2VyaWFsaXplIG9iamVjdCIsICJtZXNzYWdlIjoiSW52YWxpZCB0eXBlIGRlZmluaXRpb24gZm9yIHR5cGUgYGlvLmpzb253ZWJ0b2tlbi5NYWxmb3JtZWRKd3RFeGNlcHRpb25gOiBGYWlsZWQgdG8gY29uc3RydWN0IEJlYW5TZXJpYWxpemVyIGZvciBbc2ltcGxlIHR5cGUsIGNsYXNzIGlvLmpzb253ZWJ0b2tlbi5NYWxmb3JtZWRKd3RFeGNlcHRpb25dOiAoamF2YS5sYW5nLklsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbikgRmFpbGVkIHRvIGNhbGwgYHNldEFjY2VzcygpYCBvbiBGaWVsZCAnZGV0YWlsTWVzc2FnZScgKG9mIGNsYXNzIGBqYXZhLmxhbmcuVGhyb3dhYmxlYCkgZHVlIHRvIGBqYXZhLmxhbmcucmVmbGVjdC5JbmFjY2Vzc2libGVPYmplY3RFeGNlcHRpb25gLCBwcm9ibGVtOiBVbmFibGUgdG8gbWFrZSBmaWVsZCBwcml2YXRlIGphdmEubGFuZy5TdHJpbmcgamF2YS5sYW5nLlRocm93YWJsZS5kZXRhaWxNZXNzYWdlIGFjY2Vzc2libGU6IG1vZHVsZSBqYXZhLmJhc2UgZG9lcyBub3QgIm9wZW5zIGphdmEubGFuZyIgdG8gdW5uYW1lZCBtb2R1bGUgQDNiMDg0NzA5In0=",
+      "mockIds" : [ "52cd61d7-64b8-4069-ac98-f03fd72ab531" ],
+      "exception" : true,
+      "method" : {
+        "name" : "parseJwtClaims",
+        "signature" : "(Ljava/lang/String;)Lio/jsonwebtoken/Claims;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "d0b858fc-f257-4725-b147-cfd675139604",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "36655aca-eac2-4575-af02-4105e0f55158",
+      "name" : "saved on 2024-03-05 12:37",
+      "description" : null,
+      "methodArguments" : [ "\"string.a.b\"" ],
+      "returnValue" : "2036024451",
+      "returnValueClassname" : "io.jsonwebtoken.MalformedJwtException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27171980697560,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1393832803,
+      "probSerializedValue" : "",
+      "mockIds" : [ "52cd61d7-64b8-4069-ac98-f03fd72ab531" ],
+      "exception" : true,
+      "method" : {
+        "name" : "parseJwtClaims",
+        "signature" : "(Ljava/lang/String;)Lio/jsonwebtoken/Claims;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.util.JwtUtil#resolveClaims#(Ljakarta/servlet/http/HttpServletRequest;)Lio/jsonwebtoken/Claims;" : [ {
+      "lineNumbers" : [ 47, 48, 51 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2c21a981-df0e-4ed5-91a9-df1a33519e5d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "06d6a3ab-41c6-4a1a-9060-81d527817ca7",
+      "name" : "saved on 2024-03-05 12:37",
+      "description" : null,
+      "methodArguments" : [ "{}" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27182842595790,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1445750378,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "resolveClaims",
+        "signature" : "(Ljakarta/servlet/http/HttpServletRequest;)Lio/jsonwebtoken/Claims;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.util.JwtUtil#validateClaims#(Lio/jsonwebtoken/Claims;)Z" : [ {
+      "lineNumbers" : [ 72, 73, 74 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "\"Cannot invoke \\\"java.util.Date.after(java.util.Date)\\\" because the return value of \\\"io.jsonwebtoken.Claims.getExpiration()\\\" is null\"",
+        "id" : "3b0a6e0c-01b2-4445-9f90-923850e24515",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "23e07599-1ab4-44b2-8f4e-db2e1dfb9695",
+      "name" : "saved on 2024-03-05 12:37",
+      "description" : null,
+      "methodArguments" : [ "{\"error\": \"failed to serialize object\", \"message\":\"Cannot invoke \"java.lang.Boolean.booleanValue()\" because the return value of \"io.unlogged.mocking.MockHandler.intercept(Object[], Object, java.lang.reflect.Method, Object)\" is null\"}" ],
+      "returnValue" : "{\"cause\":null,\"stackTrace\":[{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"validateClaims\",\"fileName\":\"JwtUtil.java\",\"lineNumber\":72,\"nativeMethod\":false,\"className\":\"org.unlogged.demo.security.util.JwtUtil\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke0\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"nativeMethod\":true,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":77,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.DelegatingMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"invoke\",\"fileName\":\"Method.java\",\"lineNumber\":568,\"nativeMethod\":false,\"className\":\"java.lang.reflect.Method\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommandRaw\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":386,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommand\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":456,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"serve\",\"fileName\":\"AgentCommandServer.java\",\"lineNumber\":69,\"nativeMethod\":false,\"className\":\"io.unlogged.command.AgentCommandServer\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"execute\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":945,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$HTTPSession\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"run\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":192,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$ClientHandler\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.7\",\"methodName\":\"run\",\"fileName\":\"Thread.java\",\"lineNumber\":833,\"nativeMethod\":false,\"className\":\"java.lang.Thread\"}],\"message\":\"Cannot invoke \\\"java.util.Date.after(java.util.Date)\\\" because the return value of \\\"io.jsonwebtoken.Claims.getExpiration()\\\" is null\",\"suppressed\":[],\"localizedMessage\":\"Cannot invoke \\\"java.util.Date.after(java.util.Date)\\\" because the return value of \\\"io.jsonwebtoken.Claims.getExpiration()\\\" is null\"}",
+      "returnValueClassname" : "java.lang.Exception",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27215477322960,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -462386395,
+      "probSerializedValue" : "eyJjYXVzZSI6bnVsbCwic3RhY2tUcmFjZSI6W3siY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InZhbGlkYXRlQ2xhaW1zIiwiZmlsZU5hbWUiOiJKd3RVdGlsLmphdmEiLCJsaW5lTnVtYmVyIjo3MiwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoib3JnLnVubG9nZ2VkLmRlbW8uc2VjdXJpdHkudXRpbC5Kd3RVdGlsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZTAiLCJmaWxlTmFtZSI6Ik5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6LTIsIm5hdGl2ZU1ldGhvZCI6dHJ1ZSwiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo3NywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC43IiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiRGVsZWdhdGluZ01ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NDMsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0LkRlbGVnYXRpbmdNZXRob2RBY2Nlc3NvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIxNy4wLjciLCJtZXRob2ROYW1lIjoiaW52b2tlIiwiZmlsZU5hbWUiOiJNZXRob2QuamF2YSIsImxpbmVOdW1iZXIiOjU2OCwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kIn0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiZXhlY3V0ZUNvbW1hbmRSYXciLCJmaWxlTmFtZSI6IkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbC5qYXZhIiwibGluZU51bWJlciI6Mzg2LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5BZ2VudENvbW1hbmRFeGVjdXRvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJleGVjdXRlQ29tbWFuZCIsImZpbGVOYW1lIjoiQWdlbnRDb21tYW5kRXhlY3V0b3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo0NTYsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImlvLnVubG9nZ2VkLkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InNlcnZlIiwiZmlsZU5hbWUiOiJBZ2VudENvbW1hbmRTZXJ2ZXIuamF2YSIsImxpbmVOdW1iZXIiOjY5LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5jb21tYW5kLkFnZW50Q29tbWFuZFNlcnZlciJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImV4ZWN1dGUiLCJmaWxlTmFtZSI6Ik5hbm9IVFRQRC5qYXZhIiwibGluZU51bWJlciI6OTQ1LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRCRIVFRQU2Vzc2lvbiJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiTmFub0hUVFBELmphdmEiLCJsaW5lTnVtYmVyIjoxOTIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImZpLmlraS5lbG9uZW4uTmFub0hUVFBEJENsaWVudEhhbmRsZXIifSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIxNy4wLjciLCJtZXRob2ROYW1lIjoicnVuIiwiZmlsZU5hbWUiOiJUaHJlYWQuamF2YSIsImxpbmVOdW1iZXIiOjgzMywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamF2YS5sYW5nLlRocmVhZCJ9XSwibWVzc2FnZSI6IkNhbm5vdCBpbnZva2UgXCJqYXZhLnV0aWwuRGF0ZS5hZnRlcihqYXZhLnV0aWwuRGF0ZSlcIiBiZWNhdXNlIHRoZSByZXR1cm4gdmFsdWUgb2YgXCJpby5qc29ud2VidG9rZW4uQ2xhaW1zLmdldEV4cGlyYXRpb24oKVwiIGlzIG51bGwiLCJzdXBwcmVzc2VkIjpbXSwibG9jYWxpemVkTWVzc2FnZSI6IkNhbm5vdCBpbnZva2UgXCJqYXZhLnV0aWwuRGF0ZS5hZnRlcihqYXZhLnV0aWwuRGF0ZSlcIiBiZWNhdXNlIHRoZSByZXR1cm4gdmFsdWUgb2YgXCJpby5qc29ud2VidG9rZW4uQ2xhaW1zLmdldEV4cGlyYXRpb24oKVwiIGlzIG51bGwifQ==",
+      "mockIds" : [ ],
+      "exception" : true,
+      "method" : {
+        "name" : "validateClaims",
+        "signature" : "(Lio/jsonwebtoken/Claims;)Z",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.util.JwtUtil#getEmail#(Lio/jsonwebtoken/Claims;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 79 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0acb44cb-12fa-4b96-901d-b9824952d9e2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c9da6ec5-b7e6-452e-b825-0f640b58f753",
+      "name" : "saved on 2024-03-05 12:38",
+      "description" : null,
+      "methodArguments" : [ "{\"error\": \"failed to serialize object\", \"message\":\"Cannot invoke \"java.lang.Boolean.booleanValue()\" because the return value of \"io.unlogged.mocking.MockHandler.intercept(Object[], Object, java.lang.reflect.Method, Object)\" is null\"}" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27229222224042,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -706697319,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getEmail",
+        "signature" : "(Lio/jsonwebtoken/Claims;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.security.util.JwtUtil#getRoles#(Lio/jsonwebtoken/Claims;)Ljava/util/List<java/lang/String>;" : [ {
+      "lineNumbers" : [ 83 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3f9959d7-16a1-41da-bdfc-aa81f788b9e6",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c6f0ad3b-d562-4cd2-a7cf-1443cc8fc0dd",
+      "name" : "saved on 2024-03-05 12:38",
+      "description" : null,
+      "methodArguments" : [ "{\"error\": \"failed to serialize object\", \"message\":\"Cannot invoke \"java.lang.Boolean.booleanValue()\" because the return value of \"io.unlogged.mocking.MockHandler.intercept(Object[], Object, java.lang.reflect.Method, Object)\" is null\"}" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27239819903410,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1118586879,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getRoles",
+        "signature" : "(Lio/jsonwebtoken/Claims;)Ljava/util/List<java/lang/String>;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : 647569978
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.security.util.JwtUtil#resolveToken#(Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;" : [ {
+      "id" : "a97ce3bb-ca66-43a8-aebc-60a823f7825c",
+      "name" : "mock response for call to jwtUtil.resolveToken(request)",
+      "fieldTypeName" : "org.unlogged.demo.security.util.JwtUtil",
+      "sourceClassName" : "org.unlogged.demo.security.config.JwtAuthorizationFilter",
+      "fieldName" : "jwtUtil",
+      "methodName" : "resolveToken",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "jakarta.servlet.http.HttpServletRequest"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.security.util.JwtUtil#resolveToken#(Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;"
+    } ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl#getUserProfile#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 21, 23 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "c6d1580a-f95a-47b2-8aa3-5ac12992bf46",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "c888c2c6-6264-4601-8b65-73854ff54408",
+      "name" : "saved on 2024-03-05 12:30",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "1371505974",
+      "returnValueClassname" : "org.springframework.dao.IncorrectResultSizeDataAccessException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26750652043697,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -113291448,
+      "probSerializedValue" : "",
+      "mockIds" : [ "6ba27e2f-db42-4cb5-846c-0c2481a214fc" ],
+      "exception" : true,
+      "method" : {
+        "name" : "getUserProfile",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
+        "methodHash" : 1921448855
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

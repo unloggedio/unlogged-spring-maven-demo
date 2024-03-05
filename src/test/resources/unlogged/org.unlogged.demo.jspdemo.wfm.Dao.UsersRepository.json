@@ -1,0 +1,71 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#getUserByUsername#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "id" : "6ba27e2f-db42-4cb5-846c-0c2481a214fc",
+      "name" : "mock response for call to usersRepository.getUserByUsername(username)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
+      "fieldName" : "usersRepository",
+      "methodName" : "getUserByUsername",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1371505974",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#getUserByUsername#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#save#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "id" : "dc797d5d-fbba-4d68-869c-fcc62b7aa3d1",
+      "name" : "mock response for call to usersRepository.save(user)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "fieldName" : "usersRepository",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1657043849",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#save#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#findAll#()Ljava/util/List;" : [ {
+      "id" : "bc5ccd55-b5a4-4aba-917e-dc9ff7f76f45",
+      "name" : "mock response for call to usersRepository.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "fieldName" : "usersRepository",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"},{\"user_id\":99,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.jspdemo.wfm.Models.Entities.User>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#findAll#()Ljava/util/List;"
+    } ]
+  }
+}
