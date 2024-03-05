@@ -56,4 +56,18 @@ Add unlogged-sdk dependency
 
    Start your project in **Debug mode** from intelliJ idea and enjoy.
 
-
+4. Hitting endpoints
+- Generate a auth token:
+```shell
+  curl -X POST http://localhost:8080/auth/login \ 
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "amg@amg.com",
+  "password": PASSWORD_FROM_DOCKER_ENV
+  }'
+```
+- Use the token generated token above for hitting all other endpoints
+```shell
+curl -H "Authorization: Bearer AUTH_TOKEN_GENERATED_ABOVE"\
+ "http://localhost:8080/customer/get?customerID=0"
+```
