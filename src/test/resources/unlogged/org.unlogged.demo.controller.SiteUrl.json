@@ -1,0 +1,86 @@
+{
+  "classname" : "org.unlogged.demo.controller.SiteUrl",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.SiteUrl#getUrl#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 14, 15, 16, 17 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "https://localhost:8080",
+          "id" : "ead38ddf-c8b6-4fbe-8606-f76a51f63868",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "feca5506-f293-469f-b902-6176c312c124",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9a4dd9bf-e97b-4e86-8995-e9644b3ad9d4",
+      "name" : "saved on 2024-03-05 13:57",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"https://localhost:8080\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 31176056345637,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 53325062,
+      "probSerializedValue" : "Imh0dHBzOi8vbG9jYWxob3N0OjgwODAi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUrl",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.SiteUrl",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.SiteUrl#getAbsoluteUrl#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 21, 14, 15, 16, 17 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "https://localhost:8080string",
+          "id" : "4e56a052-ca61-4695-a1e8-624ed92f6a2f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "59b2ef4a-dada-4348-9f4a-0b38648d7ba1",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f042c380-15d4-4af9-baa4-1f56ebeb57e8",
+      "name" : "saved on 2024-03-05 13:57",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"https://localhost:8080string\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 31189074103001,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1525272164,
+      "probSerializedValue" : "Imh0dHBzOi8vbG9jYWxob3N0OjgwODBzdHJpbmci",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAbsoluteUrl",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.SiteUrl",
+        "methodHash" : 2066274258
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

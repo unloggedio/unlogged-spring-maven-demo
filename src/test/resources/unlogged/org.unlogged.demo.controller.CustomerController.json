@@ -339,6 +339,38 @@
     "org.unlogged.demo.controller.CustomerController#removeCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 33, 43, 40, 41, 42 ],
       "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8b75b77d-2aa4-4838-854a-d9f85a237693",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "d172e241-520c-41e2-8ce4-fdcb4bf6eb39",
+      "name" : "saved on 2024-03-05 13:57",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 31157052153970,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 273980378,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "5a790a56-1905-4123-b707-9771eb59f642" ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.controller.CustomerController",
+        "methodHash" : 851606882
+      }
+    }, {
+      "lineNumbers" : [ 33, 43, 40, 41, 42 ],
+      "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
@@ -450,7 +482,7 @@
         "name" : "removeCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
         "className" : "org.unlogged.demo.controller.CustomerController",
-        "methodHash" : 851606882
+        "methodHash" : 0
       }
     } ]
   },

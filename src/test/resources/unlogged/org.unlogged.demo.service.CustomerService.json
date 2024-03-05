@@ -787,7 +787,7 @@
         "name" : "filterEligbleCustomers",
         "signature" : "(Ljava/util/List<org/unlogged/demo/models/CustomerProfile>;Z)Ljava/util/List<org/unlogged/demo/models/CustomerProfile>;",
         "className" : "org.unlogged.demo.service.CustomerService",
-        "methodHash" : -980134402
+        "methodHash" : 0
       }
     }, {
       "lineNumbers" : [ 81, 82, 83, 84, 85, 86, 87, 108, 110, 111, 114, 132, 47, 49, 50, 51, 52, 53, 54, 56, 59, 61, 62, 63, 64, 65, 66, 67, 69, 72, 74, 75, 76, 77, 78, 79, 80, 82, 85, 87, 7 ],
@@ -1113,9 +1113,9 @@
   "declaredMockMap" : {
     "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "id" : "5dc8559f-e069-45b4-8b90-e6b1aa9b5162",
-      "name" : "mock response for call to customerService.saveNewCustomer(saveRequest)",
+      "name" : "mock response for call to customerService.saveNewCustomer(customerProfileRequest)",
       "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "sourceClassName" : "org.unlogged.demo.controller.perfAnalysis",
       "fieldName" : "customerService",
       "methodName" : "saveNewCustomer",
       "whenParameter" : [ {
@@ -1126,7 +1126,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"tjngommunc\",\"wzwwwciakl\",\"uhfneqytzb\",\"tbszjhnlzs\",\"zxjgybgyba\"]}",
+          "value" : "{\"customerid\":4,\"customername\":\"name-10\",\"dateofbirth\":\"dob-10\",\"email\":\"email-10\",\"contactnumber\":\"primaryNumber-10\",\"address\":\"address-10\",\"referralcodes\":[\"hlmecziytg\",\"ypvmkwzgii\",\"qflagodhxk\",\"lbrstnunkp\",\"odeshoynqh\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -1136,9 +1136,9 @@
     } ],
     "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
       "id" : "e5398c60-3c08-42d0-8f34-d3dc120aa15d",
-      "name" : "mock response for call to customerService.fetchCustomerProfile(customerID)",
+      "name" : "mock response for call to customerService.fetchCustomerProfile(i)",
       "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.controller.CustomerController",
+      "sourceClassName" : "org.unlogged.demo.controller.perfAnalysis",
       "fieldName" : "customerService",
       "methodName" : "fetchCustomerProfile",
       "whenParameter" : [ {
@@ -1149,7 +1149,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "null",
+          "value" : "{\"customerid\":4,\"customername\":\"name-10\",\"dateofbirth\":\"dob-10\",\"email\":\"email-10\",\"contactnumber\":\"primaryNumber-10\",\"address\":\"address-10\",\"referralcodes\":[\"hlmecziytg\",\"ypvmkwzgii\",\"qflagodhxk\",\"lbrstnunkp\",\"odeshoynqh\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -1218,7 +1218,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"tjngommunc\",\"wzwwwciakl\",\"uhfneqytzb\",\"tbszjhnlzs\",\"zxjgybgyba\"]}",
+          "value" : "null",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },

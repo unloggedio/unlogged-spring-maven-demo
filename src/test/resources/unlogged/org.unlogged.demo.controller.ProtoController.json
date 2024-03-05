@@ -2,20 +2,20 @@
   "classname" : "org.unlogged.demo.controller.ProtoController",
   "storedCandidateMap" : {
     "org.unlogged.demo.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/protos/generated/AddressBook;" : [ {
-      "lineNumbers" : [ 42, 43, 44, 45, 535, 536, 539, 540, 541, 545, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 300, 301, 304, 309, 310, 311, 312, 313, 87, 88, 89, 91, 92, 1197, 1204, 1205, 1524, 1525, 1526, 1527, 1528, 226, 233, 234, 233, 234, 1204, 1205 ],
+      "lineNumbers" : [ 42, 43, 44, 45, 300, 301, 304, 87, 88, 89, 91, 92, 309, 310, 311, 312, 313, 1197, 1204, 1205, 535, 536, 539, 540, 541, 545, 1524, 1525, 1526, 1527, 1528, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 226, 233, 234, 233, 234, 1204, 1205 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "0",
-          "id" : "62abdcce-130e-427d-9617-aff371247e86",
+          "id" : "0a562c34-2f51-40fa-96ad-b563ba84f0cb",
           "assertionType" : "EQUAL",
           "key" : "/memoizedHashCode"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "-1",
-          "id" : "710377ea-8939-485a-ad3a-f80f515e5f3b",
+          "id" : "4468caa3-6694-44e6-a6cd-cc58107c533d",
           "assertionType" : "EQUAL",
           "key" : "/memoizedSize"
         }, {
@@ -23,13 +23,13 @@
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "true",
-            "id" : "e27407f2-5cc3-4d44-b005-3feaff10e55f",
+            "id" : "6bfb7a32-5cbb-45d4-a2c7-19a9d9b79695",
             "assertionType" : "ALLOF",
             "key" : "/unknownFields/fields"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "444c9c0e-9ed5-4f44-b202-b72e13274f73",
+          "id" : "4d6e4368-6735-4a2d-9a1c-8cf3ada29378",
           "assertionType" : "ALLOF",
           "key" : "/unknownFields"
         }, {
@@ -38,14 +38,14 @@
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "0",
-              "id" : "289386a8-3fa5-45f0-b0fe-0c6dfe18b55d",
+              "id" : "0950fd7a-dd64-4a48-89be-3234ebeb2bcf",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/memoizedHashCode"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "-1",
-              "id" : "db14bf26-82e8-4866-9fc1-2a35162e8f80",
+              "id" : "e888780c-de2e-486e-bc5b-90bb44d2fc18",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/memoizedSize"
             }, {
@@ -53,85 +53,85 @@
                 "subAssertions" : [ ],
                 "expression" : "SELF",
                 "expectedValue" : "true",
-                "id" : "a02f3db1-d09c-4cca-a919-b6bf18824768",
+                "id" : "29e643f3-b126-43c3-90f4-b6118ffdb04e",
                 "assertionType" : "ALLOF",
                 "key" : "/people_/0/unknownFields/fields"
               } ],
               "expression" : "SELF",
               "expectedValue" : "true",
-              "id" : "6df57388-7ce4-4a4a-91d1-04a01ce32a49",
+              "id" : "bfeb8cfa-9308-44a0-9279-e98a0fa04c8d",
               "assertionType" : "ALLOF",
               "key" : "/people_/0/unknownFields"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "1",
-              "id" : "77a99396-ee68-4077-8c5f-3f12e6d490e9",
+              "id" : "f7bc6147-7806-4398-9d17-ecd197daddbb",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/bitField0_"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "Amg",
-              "id" : "974b8bee-4974-4323-8a97-b8ef786cd446",
+              "id" : "dcb71cc4-b4c9-456d-876c-50657aeae6b1",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/name_"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "0",
-              "id" : "af1b83a5-3fe5-45a9-a5f3-7afdf3a927e3",
+              "id" : "440870f1-58ae-4ad3-a800-d8857a8d74b5",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/id_"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "",
-              "id" : "b89c4601-e280-4569-80a6-30313141ac93",
+              "id" : "cb0b3d59-fa98-4359-90a6-13eeb1123b00",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/email_"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "true",
-              "id" : "6527e7bd-d57d-4b7b-8189-3e7c561052cd",
+              "id" : "7be457c0-394a-45e1-b86d-aa645a1c4107",
               "assertionType" : "ALLOF",
               "key" : "/people_/0/phones_"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "1",
-              "id" : "591d8d94-e156-4e07-85c2-3ded7259e18c",
+              "id" : "b87effbf-b501-42aa-90cc-1c0ee59cbc07",
               "assertionType" : "EQUAL",
               "key" : "/people_/0/memoizedIsInitialized"
             } ],
             "expression" : "SELF",
             "expectedValue" : "true",
-            "id" : "3d32cc55-4f4a-4f48-9f03-2dd5e7c41b92",
+            "id" : "cbdd28f3-dedc-485c-ad8b-209dd93b2044",
             "assertionType" : "ALLOF",
             "key" : "/people_/0"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "453b7fe8-14e7-4026-8ceb-dcafdb92f771",
+          "id" : "be5c57af-b964-4789-b002-d0307a9fd639",
           "assertionType" : "ALLOF",
           "key" : "/people_"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "1",
-          "id" : "2731a061-1852-4564-984a-f9a31852b92c",
+          "id" : "6e69200e-96dc-458e-ac8a-4cc662778f04",
           "assertionType" : "EQUAL",
           "key" : "/memoizedIsInitialized"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "ed884262-d650-4e9c-8613-ec3bb678f64e",
+        "id" : "fbde77a5-933e-466b-a38c-bdfd91530376",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
       "candidateId" : "a4b8361a-1403-4e7d-9dca-38bc4e095596",
-      "name" : "saved on 2024-03-05 12:09",
+      "name" : "getAddressbook saved on 2024-03-05 13:58",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
@@ -139,7 +139,7 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 25507374304834,
+        "timestamp" : 31210111363341,
         "candidateStatus" : "NA"
       },
       "sessionIdentifier" : 300631736,
@@ -194,24 +194,24 @@
       }
     } ],
     "org.unlogged.demo.controller.ProtoController#convertAddressBook#()Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 60, 61, 1197, 1204, 1205, 1524, 1525, 1526, 1527, 1528, 226, 233, 234, 569, 570, 571, 572, 576, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 233, 234, 1204, 1205 ],
+      "lineNumbers" : [ 60, 61, 1197, 1204, 1205, 1524, 1525, 1526, 1527, 1528, 569, 570, 571, 572, 576, 1274, 1275, 1278, 1283, 1284, 1285, 1286, 1287, 1012, 1013, 1014, 1016, 1017, 226, 233, 234, 233, 234, 1204, 1205 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "{\n  \"people\": [{\n    \"name\": \"Amg\"\n  }]\n}",
-          "id" : "393c1a55-626c-4842-b753-5332e69080f2",
+          "id" : "141d9492-c6d0-4b6a-9520-36a5a259a28a",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "065ab0d5-5ea6-47b3-ab95-643e131fc5f1",
+        "id" : "244434f6-16b0-477d-a49b-4e783fb5da1f",
         "assertionType" : "ALLOF",
         "key" : null
       },
       "candidateId" : "dc4008e5-318c-46c9-a530-b9a1d63f595d",
-      "name" : "saved on 2024-03-05 12:09",
+      "name" : "convertAddressBook saved on 2024-03-05 14:03",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
@@ -219,7 +219,7 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 25532562904260,
+        "timestamp" : 31497073097650,
         "candidateStatus" : "NA"
       },
       "sessionIdentifier" : -487778060,
@@ -270,7 +270,7 @@
         "name" : "toJson",
         "signature" : "(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.controller.ProtoController",
-        "methodHash" : 2113503672
+        "methodHash" : 0
       }
     } ]
   },
