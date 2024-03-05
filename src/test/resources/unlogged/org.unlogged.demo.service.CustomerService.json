@@ -1225,6 +1225,52 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg.unlogged.demo.models.CustomerProfileRequest;)Lorg.unlogged.demo.models.CustomerProfile;" : [ {
+      "id" : "9425fcb1-d19f-436e-b883-0ff5c07a2a37",
+      "name" : "mock response for call to customerService.saveNewCustomer(customerProfileRequest)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.perfAnalysis",
+      "fieldName" : "customerService",
+      "methodName" : "saveNewCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.CustomerProfileRequest"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":27,\"customername\":\"name-50\",\"dateofbirth\":\"dob-50\",\"email\":\"email-50\",\"contactnumber\":\"primaryNumber-50\",\"address\":\"address-50\",\"referralcodes\":[\"ocmuugrkfy\",\"pokozruzqd\",\"itwpgtbxls\",\"lwhnhzlqqx\",\"woaifrjsmv\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#saveNewCustomer#(Lorg.unlogged.demo.models.CustomerProfileRequest;)Lorg.unlogged.demo.models.CustomerProfile;"
+    } ],
+    "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg.unlogged.demo.models.CustomerProfile;" : [ {
+      "id" : "d7bf633b-a056-4b9d-aeef-f599267477c5",
+      "name" : "mock response for call to customerService.fetchCustomerProfile(i)",
+      "fieldTypeName" : "org.unlogged.demo.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.controller.perfAnalysis",
+      "fieldName" : "customerService",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":28,\"customername\":\"name-50\",\"dateofbirth\":\"dob-50\",\"email\":\"email-50\",\"contactnumber\":\"primaryNumber-50\",\"address\":\"address-50\",\"referralcodes\":[\"gswcvptqua\",\"wptzcafnmy\",\"srbbswuckb\",\"tpjrvznkgo\",\"rxeieohhan\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.CustomerService#fetchCustomerProfile#(J)Lorg.unlogged.demo.models.CustomerProfile;"
     } ]
   }
 }
