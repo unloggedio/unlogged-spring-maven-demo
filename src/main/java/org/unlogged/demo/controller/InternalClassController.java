@@ -1,7 +1,6 @@
 package org.unlogged.demo.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.jna.platform.win32.Sspi;
 import lombok.Getter;
 import org.hibernate.SessionFactory;
 import org.joda.time.DateTime;
@@ -33,8 +32,6 @@ public class InternalClassController {
         List<String> timestamps = new ArrayList<>();
         DateTime jodaDateTime = new DateTime();
         timestamps.add(jodaDateTime.toString());
-        Sspi.TimeStamp sspiTimeStamp = new Sspi.TimeStamp();
-        timestamps.add(sspiTimeStamp.toString());
         Instant instant = new Instant();
         timestamps.add(instant.toString());
         java.time.Instant timeInstant = java.time.Instant.now();
