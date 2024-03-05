@@ -74,8 +74,13 @@ public class perfAnalysis {
     }
 
     @RequestMapping("/cpuintensive")
-    public int cpu(@RequestParam int value) {
-        return count_prime_calc(value);
+    public String cpu(@RequestParam int value) {
+		long timestamp_1 = System.currentTimeMillis();
+        int prime_count =  count_prime_calc(value);
+		long timestamp_2 = System.currentTimeMillis();
+		long time_calculate = timestamp_2 - timestamp_1;
+		String response = "count of prime = " + prime_count + ".\n time_calculate = " + time_calculate;
+		return response;
     }
 
     @RequestMapping("/memoryintensive")
