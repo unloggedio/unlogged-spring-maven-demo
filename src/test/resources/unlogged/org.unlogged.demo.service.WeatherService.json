@@ -305,6 +305,38 @@
       }
     } ],
     "org.unlogged.demo.service.WeatherService#convertToObject#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 21, 23, 25, 26 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "679e1347-0ee5-4764-b858-376f4eaf45d3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f9e6d653-953d-4acc-b1ad-87365d2c04ff",
+      "name" : "saved on 2024-03-05 15:20",
+      "description" : null,
+      "methodArguments" : [ "\"\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 36171580094147,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1156597717,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "convertToObject",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : -102197771
+      }
+    }, {
       "lineNumbers" : [ 21, 23, 24 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -576,6 +608,45 @@
       }
     } ],
     "org.unlogged.demo.service.WeatherService#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 31, 32, 33, 34, 35, 37, 42, 43 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"error\":{\"code\":1003,\"message\":\"Parameter q is missing.\"}}",
+          "id" : "c06fb025-e264-497b-9492-9b1bce1f5e1a",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "83b4147f-eca8-4d02-aebf-4bb09f95440b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ccab0c94-7ab9-46f8-935a-7928da86bf62",
+      "name" : "saved on 2024-03-05 15:20",
+      "description" : null,
+      "methodArguments" : [ "\"\"" ],
+      "returnValue" : "\"{\\\"error\\\":{\\\"code\\\":1003,\\\"message\\\":\\\"Parameter q is missing.\\\"}}\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 36153163254299,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 524255901,
+      "probSerializedValue" : "IntcImVycm9yXCI6e1wiY29kZVwiOjEwMDMsXCJtZXNzYWdlXCI6XCJQYXJhbWV0ZXIgcSBpcyBtaXNzaW5nLlwifX0i",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : 0
+      }
+    }, {
       "lineNumbers" : [ 31, 32, 33, 34, 35, 37, 37, 42, 43 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -691,7 +762,46 @@
         "name" : "getLocationFromAddress",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.service.WeatherService",
-        "methodHash" : -1671154719
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 47, 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "",
+          "id" : "e7ae6e81-95b1-45f9-989e-41e3ed34e130",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "29091236-beb5-4450-b3b5-88f8e908e771",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ca2ddd90-f1a7-44f5-9578-2f4fa9573c52",
+      "name" : "saved on 2024-03-05 15:20",
+      "description" : null,
+      "methodArguments" : [ "\"\"" ],
+      "returnValue" : "\"\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 36140062312102,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 724819964,
+      "probSerializedValue" : "IiI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : 0
       }
     } ]
   },

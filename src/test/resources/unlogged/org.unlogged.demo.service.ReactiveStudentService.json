@@ -77,6 +77,38 @@
     "org.unlogged.demo.service.ReactiveStudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
       "lineNumbers" : [ 33, 34 ],
       "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "afb9f86d-3d0c-4b24-851f-866991cb4b00",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "4d6471a4-f7bb-4263-9653-24c978f3dfe1",
+      "name" : "saved on 2024-03-05 15:19",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"test-1\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
+      "returnValue" : "38960627",
+      "returnValueClassname" : "org.springframework.core.convert.ConversionFailedException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 36093915068830,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1704695681,
+      "probSerializedValue" : "",
+      "mockIds" : [ "849ef559-f9db-4db8-8713-839aa24d08cb" ],
+      "exception" : true,
+      "method" : {
+        "name" : "updateStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 1002670904
+      }
+    }, {
+      "lineNumbers" : [ 33, 34 ],
+      "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
@@ -189,6 +221,45 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "null",
+          "id" : "111679da-d133-4abb-8084-26983d30204c",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3c99070e-bbb3-4b83-ad82-673956907233",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "bf3698bd-558d-4974-9bb7-cfd763281b20",
+      "name" : "saved on 2024-03-05 15:18",
+      "description" : null,
+      "methodArguments" : [ "\"noid\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 36047452154657,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1922827818,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "ed2caac9-c730-4fac-9c63-fb9ba4f947cc" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getStudent",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
           "id" : "c00fe4b5-8d8c-49ba-8cf8-766a4d4fedc3",
           "assertionType" : "EQUAL",
           "key" : "/"
@@ -259,7 +330,7 @@
         "name" : "deleteStudent",
         "signature" : "(Ljava/lang/String;)Z",
         "className" : "org.unlogged.demo.service.ReactiveStudentService",
-        "methodHash" : -1106784300
+        "methodHash" : 0
       }
     } ]
   },
