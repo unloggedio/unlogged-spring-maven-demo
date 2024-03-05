@@ -29,11 +29,11 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <artifactId>unlogged-sdk</artifactId>
-            <groupId>video.bug</groupId>
-            <version>0.2.8</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <artifactId>unlogged-sdk</artifactId>-->
+<!--            <groupId>video.bug</groupId>-->
+<!--            <version>0.2.8</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>com.rometools</groupId>
             <artifactId>rome</artifactId>
