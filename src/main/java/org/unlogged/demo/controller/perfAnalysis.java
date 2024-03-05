@@ -15,17 +15,19 @@ import java.util.LinkedList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/perf_analysis")
+@RequestMapping("/perf")
 public class perfAnalysis {
 
+	// TODO: return values in JSON
+	// TODO: add explanation
     private int count_prime_calc(long value) {
         // This is O(n^2) implementation for calculating the prime numbers from 1 to value
         // This uses brute force to calculate it, and is CPU intensive single-threaded operation
 
         int count = 0;
-        for (long i=0;i<=value;i++) {
+        for (long i=2;i<=value;i++) {
             Boolean isPrime = true;
-            for (long j=2;j<=value-1;j++) {
+            for (long j=2;j<=i-1;j++) {
                 if (i%j == 0) {
                     isPrime = false;
                 }
@@ -39,7 +41,7 @@ public class perfAnalysis {
     }
 
     private List<Long> sum_natural(int count) {
-        // TODO: add explanation
+        
 
         long timestamp_1 = System.currentTimeMillis();
 
@@ -66,21 +68,18 @@ public class perfAnalysis {
     @Autowired
     private CustomerService customerService;
 
-    private int customer_count;
-
     @RequestMapping("/ping")
     public String ping() {
         return "server up!";
     }
 
-    @RequestMapping("/cpu_intensive")
-    public int cpu_intensive(@RequestParam long value) {
+    @RequestMapping("/cpuintensive")
+    public int cpu(@RequestParam int value) {
         return count_prime_calc(value);
     }
 
-    @RequestMapping("/memory_intensive")
-    public String memory_intensive(@RequestParam int count) {
-        // TODO: split it in two parts (write values and read values)
+    @RequestMapping("/memoryintensive")
+    public String memoryIntensive(@RequestParam int count) {
 
         List<Long> val = sum_natural(count);
         long time_write = val.get(0);
@@ -91,52 +90,56 @@ public class perfAnalysis {
         return value;
     }
 
-    @RequestMapping("/database_write_intensive")
-    public String database_write_intensive(@RequestParam int customer_count) {
-        this.customer_count = customer_count;
-        for (int i=0;i<=customer_count-1;i++){
+    @RequestMapping("/databaseintensive")
+    public String databaseintensive(@RequestParam int count) {
 
-            String customerName = "name-" + customer_count;
-            String customerDOB = "dob-" + customer_count;
-            String customerEMail = "email-" + customer_count;
-            String customerPrimaryNumber = "primaryNumber-" + customer_count;
-            String customerAddress = "address-" + customer_count;
+		long timestamp_1 = System.currentTimeMillis();
+        for (int i=0;i<=count-1;i++){
+
+            String customerName = "name-" + count;
+            String customerDOB = "dob-" + count;
+            String customerEMail = "email-" + count;
+            String customerPrimaryNumber = "primaryNumber-" + count;
+            String customerAddress = "address-" + count;
             CustomerProfileRequest customerProfileRequest = new CustomerProfileRequest(
                     customerName,
                     customerDOB,
                     customerEMail,
                     customerPrimaryNumber,
                     customerAddress);
-            customerService.saveNewCustomer(customerProfileRequest);
+			customerService.saveNewCustomer(customerProfileRequest);
         }
-
-        String response_string = customer_count + "customer added successfully";
-        return response_string;
-    }
-
-    @RequestMapping("/database_read_intensive")
-    public String database_read_intensive() {
+		long timestamp_2 = System.currentTimeMillis();
 
         StringBuilder customerData = new StringBuilder();
-        for (int i=0;i<=this.customer_count;i++) {
+        for (int i=1;i<=count;i++) {
             CustomerProfile customerProfile = customerService.fetchCustomerProfile(i);
             customerData.append(customerProfile.toString()).append("\n");
         }
+		long timestamp_3 = System.currentTimeMillis();
 
-        return customerData.toString();
+		long time_write = timestamp_2 - timestamp_1;
+		long time_read = timestamp_3 - timestamp_2;
+        String response_string = count + " customers write and read done.\n time_write = " + time_write + "\n time_read = " + time_read + 
+		". \n customer_data = " + customerData.toString();
+        return response_string;
     }
 
-    @RequestMapping("/network_read_intensive")
-    public String network_read_intensive() {
-
+    @RequestMapping("/networkintensive")
+    public String networkintensive(@RequestParam int count) {
+		
+		long timestamp_1 = System.currentTimeMillis();
         StringBuilder weatherData = new StringBuilder();
-        for (int i=0;i<=50;i++) {
+        for (int i=0;i<=count-1;i++) {
             WeatherService weatherService = new WeatherService();
             WeatherInfo weatherInfo = weatherService.getWeatherForAddress("Bengaluru");
             weatherData.append(weatherInfo.toString()).append("\n");
         }
+		long timestamp_2 = System.currentTimeMillis();
 
-        return weatherData.toString();
+		long time_write = timestamp_2 - timestamp_1;
+		String response = count + "request completed.\n time_write = " + time_write + ".\n weather_data = " + weatherData.toString();
+        return response;
     }
 
 }
