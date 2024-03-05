@@ -198,6 +198,255 @@
         "className" : "org.unlogged.demo.service.StudentService",
         "methodHash" : 0
       }
+    } ],
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/ArrayList;" : [ {
+      "lineNumbers" : [ 24, 25, 26, 27, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "58691c57-29a0-438c-9a65-7e243172f131",
+            "assertionType" : "EQUAL",
+            "key" : "/0/id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "66cc2fdc-c2c2-48d2-9074-a7ef8635a69f",
+            "assertionType" : "EQUAL",
+            "key" : "/0/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "MALE",
+            "id" : "eb5b7188-c498-4204-b8e7-cba33a43ad4b",
+            "assertionType" : "EQUAL",
+            "key" : "/0/gender"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "6ca982d3-dd2e-49bd-8b78-dad990fa711a",
+            "assertionType" : "EQUAL",
+            "key" : "/0/grade"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c598bf9f-bc4f-4fb1-9d89-795c826c4938",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ecc24fe9-96c2-4a29-9cb7-7791cb295ca8",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "358b540f-c922-4bb0-8ae3-e4ab87acd955",
+      "name" : "saved on 2024-03-05 10:36",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 19818186920783,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -435547769,
+      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJuYW1lIjoic3RyaW5nIiwiZ2VuZGVyIjoiTUFMRSIsImdyYWRlIjowfV0=",
+      "mockIds" : [ "4b64a3c0-b92d-477c-977a-a7f54455f9e5" ],
+      "exception" : false,
+      "method" : {
+        "name" : "findAll",
+        "signature" : "()Ljava/util/ArrayList;",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "55accd9e-3b41-43ee-a90b-67624fffc279",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "126a294c-26cc-4c7a-8c53-310e3138c6c7",
+          "assertionType" : "EQUAL",
+          "key" : "/name"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "MALE",
+          "id" : "b817d6c0-9b17-4acb-aed7-cb44496c6296",
+          "assertionType" : "EQUAL",
+          "key" : "/gender"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "3d32bbc1-79ae-4a31-8987-7aedcc7f1ca6",
+          "assertionType" : "EQUAL",
+          "key" : "/grade"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "c97e548d-626d-439f-ab26-2053cf12cadc",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "15cdc748-fbb8-4e7e-b3b5-91efb31d6aa2",
+      "name" : "saved on 2024-03-05 10:37",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 19971609162237,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1072508036,
+      "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmciLCJnZW5kZXIiOiJNQUxFIiwiZ3JhZGUiOjB9",
+      "mockIds" : [ "638a9654-c423-4b98-b8b8-9f369388a7bb" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getStudent",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional;",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "lineNumbers" : [ 33, 34 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "07a0deb2-30bf-4e9b-83c1-eb9d837b0eca",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ef981e33-3eea-4dc5-b67d-a608466ece26",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "cb162a6d-0917-47c9-b21d-1b1c213f894e",
+      "name" : "saved on 2024-03-05 10:37",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 19990059488616,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 541379078,
+      "probSerializedValue" : "",
+      "mockIds" : [ "ba3fd0eb-8447-465d-8c55-35d4cec2e73e" ],
+      "exception" : false,
+      "method" : {
+        "name" : "updateStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "lineNumbers" : [ 43, 44 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f8a87e81-76c7-4455-91af-e1ab0cc9104d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "26698ca6-378e-4f70-bf60-8624f672bac2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "23bea61b-06cd-4657-bb41-878fac46a375",
+      "name" : "saved on 2024-03-05 10:37",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 19812543797453,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1492225018,
+      "probSerializedValue" : "",
+      "mockIds" : [ "518e095d-5f18-4557-b77f-0dc246ed598e" ],
+      "exception" : false,
+      "method" : {
+        "name" : "createStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "lineNumbers" : [ 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "050b84b6-6c17-47e3-9f20-0186eda2257b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "64ed19ec-e0d2-4ea2-9a4c-5302af3441a4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fb7a06ba-90cd-44ec-80e5-cbcd94b1e35a",
+      "name" : "saved on 2024-03-05 10:37",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 20015327364379,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 656642739,
+      "probSerializedValue" : "",
+      "mockIds" : [ "21e95474-f61e-4ada-9d2c-5fa8025de006" ],
+      "exception" : false,
+      "method" : {
+        "name" : "deleteStudent",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
     } ]
   },
   "declaredMockMap" : { }

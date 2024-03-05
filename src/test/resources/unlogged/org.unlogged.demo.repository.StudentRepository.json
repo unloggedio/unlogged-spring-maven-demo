@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "1562204687",
+          "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
           "returnValueType" : "REAL",
           "className" : "java.util.Optional"
         },
@@ -36,7 +36,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "634219749",
+          "value" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
           "returnValueType" : "REAL",
           "className" : "java.lang.Iterable"
         },
@@ -59,7 +59,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "871064183",
+          "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.Student"
         },
@@ -105,7 +105,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "678441745",
+          "value" : "0",
           "returnValueType" : "REAL",
           "className" : "V"
         },

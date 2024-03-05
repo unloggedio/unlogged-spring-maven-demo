@@ -846,7 +846,7 @@
       "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerScoreCard#(J)Lorg/unlogged/demo/models/CustomerScoreCard;"
     } ],
     "org.unlogged.demo.repository.CustomerProfileRepository#getAsianCustomers#()Ljava/util/List;" : [ {
-      "id" : "336f388e-0a96-40cb-99a2-4cb42ecd1afa",
+      "id" : "cb029564-be16-43f8-9d79-60a6e299f671",
       "name" : "mock response for call to customerProfileRepository.getAsianCustomers()",
       "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
       "sourceClassName" : "org.unlogged.demo.service.CustomerService",
