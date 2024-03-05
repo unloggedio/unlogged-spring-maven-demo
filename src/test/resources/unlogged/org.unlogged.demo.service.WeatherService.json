@@ -334,7 +334,7 @@
         "name" : "convertToObject",
         "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
         "className" : "org.unlogged.demo.service.WeatherService",
-        "methodHash" : -102197771
+        "methodHash" : 0
       }
     }, {
       "lineNumbers" : [ 21, 23, 24 ],
@@ -828,6 +828,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;"
+    } ],
+    "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava.lang.String;)Lorg.unlogged.demo.models.weather.WeatherInfo;" : [ {
+      "id" : "1ff5e94a-c8ce-44a5-a25e-2c55e3598059",
+      "name" : "mock response for call to weatherService.getWeatherForAddress(location)",
+      "fieldTypeName" : "org.unlogged.demo.service.WeatherService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "weatherService",
+      "methodName" : "getWeatherForAddress",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1709637057,\"localtime\":\"2024-03-05 5:10\"},\"current\":{\"temp_c\":19.9,\"temp_f\":67.8,\"is_day\":0,\"condition\":{\"text\":\"Mist\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/143.png\",\"code\":1030},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":170,\"wind_dir\":\"S\",\"pressure_mb\":1009.0,\"pressure_in\":29.8,\"precip_mm\":0.04,\"precip_in\":0.0,\"humidity\":100,\"cloud\":50,\"feelslike_c\":19.9,\"feelslike_f\":67.8,\"vis_km\":6.4,\"vis_miles\":3.0,\"uv\":1.0,\"gust_mph\":11.1,\"gust_kph\":17.8}}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.weather.WeatherInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava.lang.String;)Lorg.unlogged.demo.models.weather.WeatherInfo;"
     } ]
   }
 }

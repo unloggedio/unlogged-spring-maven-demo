@@ -219,7 +219,7 @@
         "name" : "clearAllUnits",
         "signature" : "()V",
         "className" : "org.unlogged.demo.service.DeliveryUnitService",
-        "methodHash" : -1821192525
+        "methodHash" : 0
       }
     } ]
   },
@@ -269,6 +269,52 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;"
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava.util.List<Lorg.unlogged.demo.models.redis.DeliveryUnit;>;" : [ {
+      "id" : "68c55d8d-3568-4280-bfdf-51f11209f7c3",
+      "name" : "mock response for call to deliveryUnitService.getAllDeliveryUnits()",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAllDeliveryUnits",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava.util.List<Lorg.unlogged.demo.models.redis.DeliveryUnit;>;"
+    } ],
+    "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava.util.List<Lorg.unlogged.demo.models.redis.DeliveryUnit;>;Ljava.lang.String;)Ljava.util.List<Lorg.unlogged.demo.models.redis.DeliveryUnit;>;" : [ {
+      "id" : "1bdb6c2e-917b-4650-aaa2-21a5cef627aa",
+      "name" : "mock response for call to deliveryUnitService.getAvailableUnitsForLocation(\n                deliveryUnitService.getAllDeliveryUnits(), location)",
+      "fieldTypeName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAvailableUnitsForLocation",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.util.ArrayList"
+      }, {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava.util.List<Lorg.unlogged.demo.models.redis.DeliveryUnit;>;Ljava.lang.String;)Ljava.util.List<Lorg.unlogged.demo.models.redis.DeliveryUnit;>;"
     } ]
   }
 }
