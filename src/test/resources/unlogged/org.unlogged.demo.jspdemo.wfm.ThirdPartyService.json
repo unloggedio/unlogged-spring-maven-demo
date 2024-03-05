@@ -269,14 +269,14 @@
         "name" : "getWeatherFor",
         "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;",
         "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
-        "methodHash" : 1164978035
+        "methodHash" : 0
       }
     } ]
   },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;" : [ {
       "id" : "2b1ba017-481d-4052-ba2e-a657083701a8",
-      "name" : "mock response for call to thirdPartyService.getWeatherFor(\"Bangalore\")",
+      "name" : "mock response for call to thirdPartyService.getWeatherFor(location)",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
       "fieldName" : "thirdPartyService",
@@ -289,7 +289,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"location\":{\"name\":\"Bangalore\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.98,\"lon\":77.58,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1709621137,\"localtime\":\"2024-03-05 12:15\"},\"current\":{\"temp_c\":31.0,\"temp_f\":87.8,\"is_day\":1,\"condition\":{\"text\":\"Sunny\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/113.png\",\"code\":1000},\"wind_mph\":6.9,\"wind_kph\":11.2,\"wind_degree\":90,\"wind_dir\":\"E\",\"pressure_mb\":1018.0,\"pressure_in\":30.06,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":31,\"cloud\":0,\"feelslike_c\":28.8,\"feelslike_f\":83.8,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":8.0,\"gust_mph\":11.3,\"gust_kph\":18.2}}",
+          "value" : "{\"location\":{\"name\":\"Madras\",\"region\":\"Tamil Nadu\",\"country\":\"India\",\"lat\":13.08,\"lon\":80.28,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1709630307,\"localtime\":\"2024-03-05 14:48\"},\"current\":{\"temp_c\":31.0,\"temp_f\":87.8,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":9.4,\"wind_kph\":15.1,\"wind_degree\":130,\"wind_dir\":\"SE\",\"pressure_mb\":1010.0,\"pressure_in\":29.83,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":63,\"cloud\":25,\"feelslike_c\":34.5,\"feelslike_f\":94.1,\"vis_km\":6.0,\"vis_miles\":3.0,\"uv\":7.0,\"gust_mph\":12.1,\"gust_kph\":19.5}}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherInfo"
         },

@@ -78,9 +78,33 @@
         "name" : "getAbsoluteUrl",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.controller.SiteUrl",
-        "methodHash" : 2066274258
+        "methodHash" : 0
       }
     } ]
   },
-  "declaredMockMap" : { }
+  "declaredMockMap" : {
+    "org.unlogged.demo.controller.SiteUrl#getAbsoluteUrl#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "aca5459c-6435-4e9d-9d61-962d9bc5778f",
+      "name" : "mock response for call to siteUrl.getAbsoluteUrl(blogPath)",
+      "fieldTypeName" : "org.unlogged.demo.controller.SiteUrl",
+      "sourceClassName" : "org.unlogged.demo.controller.AtomViewImpl",
+      "fieldName" : "siteUrl",
+      "methodName" : "getAbsoluteUrl",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"https://localhost:8080string\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.controller.SiteUrl#getAbsoluteUrl#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
 }

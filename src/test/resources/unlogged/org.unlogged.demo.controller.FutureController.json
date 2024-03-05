@@ -47,6 +47,45 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "61415cc1-7877-4f2e-959e-606b7f46528b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e2da53f2-b5a6-4c50-869a-a59cf47292dc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5a0e20b0-2d43-416f-a66f-44b58ff70fde",
+      "name" : "saved on 2024-03-05 15:01",
+      "description" : null,
+      "methodArguments" : [ "\"null\"" ],
+      "returnValue" : "\"null\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 34978297041352,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2045155260,
+      "probSerializedValue" : "Im51bGwi",
+      "mockIds" : [ "a44ca601-8570-4204-8df4-4be05cc23874" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getFutureResultOptional",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.FutureController",
+        "methodHash" : -1498505688
+      }
+    }, {
+      "lineNumbers" : [ 21, 22, 18 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
           "expectedValue" : "string",
           "id" : "777b1565-c90b-4bd3-8d44-075fdb8e587d",
           "assertionType" : "EQUAL",

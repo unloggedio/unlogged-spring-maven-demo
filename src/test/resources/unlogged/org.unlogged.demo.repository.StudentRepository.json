@@ -112,6 +112,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#deleteById#(Ljava/lang/String;)V"
+    } ],
+    "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;" : [ {
+      "id" : "ed2caac9-c730-4fac-9c63-fb9ba4f947cc",
+      "name" : "mock response for call to studentRepository.findById(id)",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;"
     } ]
   }
 }

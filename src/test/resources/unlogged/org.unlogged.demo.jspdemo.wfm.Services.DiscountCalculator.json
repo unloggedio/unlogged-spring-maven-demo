@@ -31,6 +31,45 @@
         "name" : "calculateDiscount",
         "signature" : "(D)D",
         "className" : "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 6 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4.6412408909820068E18",
+          "id" : "ecba4d24-a348-4b47-b249-4a78ef1a4d08",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "360df64d-c20b-4839-a0a3-2341d9a5d886",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8f84b11f-b3b4-42db-b922-6f72f2956873",
+      "name" : "saved on 2024-03-05 14:40",
+      "description" : null,
+      "methodArguments" : [ "4656510908468559872" ],
+      "returnValue" : "4641240890982006784",
+      "returnValueClassname" : "D",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33735315896270,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1034771420,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "calculateDiscount",
+        "signature" : "(D)D",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator",
         "methodHash" : -1546914513
       }
     } ]

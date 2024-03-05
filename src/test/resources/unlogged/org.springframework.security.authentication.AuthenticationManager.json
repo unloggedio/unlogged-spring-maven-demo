@@ -24,6 +24,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.springframework.security.authentication.AuthenticationManager#authenticate#(Lorg/springframework/security/authentication/UsernamePasswordAuthenticationToken;)Lorg/springframework/security/core/Authentication;"
+    } ],
+    "org.springframework.security.authentication.AuthenticationManager#authenticate#(Lorg/springframework/security/core/Authentication;)Lorg/springframework/security/core/Authentication;" : [ {
+      "id" : "be7992dc-f1f2-455e-bc05-d67e9320ee23",
+      "name" : "mock response for call to authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword()))",
+      "fieldTypeName" : "org.springframework.security.authentication.AuthenticationManager",
+      "sourceClassName" : "org.unlogged.demo.security.controller.AuthenticationController",
+      "fieldName" : "authenticationManager",
+      "methodName" : "authenticate",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.springframework.security.authentication.UsernamePasswordAuthenticationToken"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "1662451089",
+          "returnValueType" : "REAL",
+          "className" : "org.springframework.security.core.Authentication"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.springframework.security.authentication.AuthenticationManager#authenticate#(Lorg/springframework/security/core/Authentication;)Lorg/springframework/security/core/Authentication;"
     } ]
   }
 }

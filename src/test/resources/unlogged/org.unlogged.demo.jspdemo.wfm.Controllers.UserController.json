@@ -489,6 +489,45 @@
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
         "methodHash" : 0
       }
+    }, {
+      "lineNumbers" : [ 110, 111 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "OBJECTb_8",
+          "id" : "eb4f23ef-7bf9-4b48-9c0f-8c00334514d7",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d9c7c539-5eba-4912-bfce-8408d25adc1f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "51d3d3ba-7942-435e-8ad2-a881707556cf",
+      "name" : "saved on 2024-03-05 14:47",
+      "description" : null,
+      "methodArguments" : [ "8" ],
+      "returnValue" : "\"OBJECTb_8\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 34179675026699,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1423611685,
+      "probSerializedValue" : "Ik9CSkVDVGJfOCI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "methodIntTest",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+        "methodHash" : -2023104839
+      }
     } ],
     "org.unlogged.demo.jspdemo.wfm.Controllers.UserController#testEE#()V" : [ {
       "lineNumbers" : [ 115, 116 ],
@@ -1038,6 +1077,123 @@
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
         "methodHash" : 0
       }
+    }, {
+      "lineNumbers" : [ 151, 158, 159 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "LTE5GTE3",
+          "id" : "33097689-786d-4650-b1fb-7a70625e9e2e",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "dafe5856-1e78-44fa-923f-5c5709336ba3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c7eb9f12-b909-43d7-b0bb-17e1bfa162f3",
+      "name" : "saved on 2024-03-05 14:42",
+      "description" : null,
+      "methodArguments" : [ "4" ],
+      "returnValue" : "\"LTE5GTE3\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33842964668629,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -233265462,
+      "probSerializedValue" : "IkxURTVHVEUzIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getE",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 151, 152, 155 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "LT8GT5",
+          "id" : "0e381a6e-0058-4aaa-9df2-bce6fe38a0ca",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "9da65974-e001-4104-b62a-3c1952d2ea77",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7a14a068-33d4-48f9-87d4-d7d82fa71a84",
+      "name" : "saved on 2024-03-05 14:42",
+      "description" : null,
+      "methodArguments" : [ "6" ],
+      "returnValue" : "\"LT8GT5\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33862915372350,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1035336118,
+      "probSerializedValue" : "IkxUOEdUNSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getE",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 151, 152, 153 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "GTE8",
+          "id" : "e841296f-5859-4611-becd-375db9764c38",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "17331539-4f1f-4520-991c-79d4ef5f2d91",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "bce6a13b-cbd5-42c3-b91e-4059c5ec1f66",
+      "name" : "saved on 2024-03-05 14:42",
+      "description" : null,
+      "methodArguments" : [ "9" ],
+      "returnValue" : "\"GTE8\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33888029493143,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -751223329,
+      "probSerializedValue" : "IkdURTgi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getE",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+        "methodHash" : 0
+      }
     } ],
     "org.unlogged.demo.jspdemo.wfm.Controllers.UserController#getSomeString#()Ljava/lang/String;" : [ {
       "lineNumbers" : [ 167, 168, 169 ],
@@ -1478,7 +1634,7 @@
         "name" : "getbool",
         "signature" : "(Z)Z",
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
-        "methodHash" : -1407176061
+        "methodHash" : 0
       }
     } ]
   },

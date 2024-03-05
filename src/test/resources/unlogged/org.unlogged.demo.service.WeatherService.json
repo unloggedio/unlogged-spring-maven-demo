@@ -2,6 +2,38 @@
   "classname" : "org.unlogged.demo.service.WeatherService",
   "storedCandidateMap" : {
     "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 17, 21, 23, 25, 26 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3c948d1c-e5f8-4195-83c7-690cc81b6649",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "07d00f34-3fc1-424d-99f7-39be26e4384c",
+      "name" : "saved on 2024-03-05 14:39",
+      "description" : null,
+      "methodArguments" : [ "\"wakanda\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33660881173116,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1043555726,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherForAddress",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : 0
+      }
+    }, {
       "lineNumbers" : [ 17, 17, 21, 23, 24 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -614,6 +646,45 @@
       },
       "sessionIdentifier" : 726834159,
       "probSerializedValue" : "InN0cmluZyI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 47, 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Texas1",
+          "id" : "946fb703-c6dd-4281-9882-b8699117f34a",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "b82fa658-5c5b-4c25-bcea-9e6ae306b0c7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "bdb85ef6-0eab-41ec-b930-ed7b42a1e470",
+      "name" : "saved on 2024-03-05 14:39",
+      "description" : null,
+      "methodArguments" : [ "\"string, Texas1\"" ],
+      "returnValue" : "\"Texas1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33696971118501,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -583883455,
+      "probSerializedValue" : "IlRleGFzMSI=",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {

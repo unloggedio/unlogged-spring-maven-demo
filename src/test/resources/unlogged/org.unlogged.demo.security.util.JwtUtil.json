@@ -235,7 +235,7 @@
         "name" : "getRoles",
         "signature" : "(Lio/jsonwebtoken/Claims;)Ljava/util/List<java/lang/String>;",
         "className" : "org.unlogged.demo.security.util.JwtUtil",
-        "methodHash" : 647569978
+        "methodHash" : 0
       }
     } ]
   },
@@ -262,6 +262,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.security.util.JwtUtil#resolveToken#(Ljakarta/servlet/http/HttpServletRequest;)Ljava/lang/String;"
+    } ],
+    "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;" : [ {
+      "id" : "57a7a785-6efb-42f3-8576-e9f23af2b9e3",
+      "name" : "mock response for call to jwtUtil.createToken(user)",
+      "fieldTypeName" : "org.unlogged.demo.security.util.JwtUtil",
+      "sourceClassName" : "org.unlogged.demo.security.controller.AuthenticationController",
+      "fieldName" : "jwtUtil",
+      "methodName" : "createToken",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.security.model.User"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWdAZ21haWwuY29tIiwiZXhwIjoxOTI1NjMxMzkxfQ.SHAMZxn1ISBudF2G2s115iC54HDCp-GFRhpreGc6BeQ\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;"
     } ]
   }
 }

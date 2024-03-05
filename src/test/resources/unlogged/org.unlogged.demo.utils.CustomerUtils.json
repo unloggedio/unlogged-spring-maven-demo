@@ -38,6 +38,45 @@
         "name" : "getLocationFromAddress",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.utils.CustomerUtils",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 6, 7, 8 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Zimbabwe",
+          "id" : "34e615c9-5a28-40b8-99a2-82101433e35f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "55c5616e-f847-41a3-9f2e-780f6ecaa210",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7326b038-91b9-496f-8f52-dd506c6192a4",
+      "name" : "saved on 2024-03-05 14:31",
+      "description" : null,
+      "methodArguments" : [ "\"string, Zimbabwe\"" ],
+      "returnValue" : "\"Zimbabwe\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33193544909793,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1401324582,
+      "probSerializedValue" : "IlppbWJhYndlIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.CustomerUtils",
         "methodHash" : 40623741
       }
     } ]

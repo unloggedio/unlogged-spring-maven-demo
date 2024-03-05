@@ -124,6 +124,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;"
+    } ],
+    "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional<java/lang/String>;" : [ {
+      "id" : "a44ca601-8570-4204-8df4-4be05cc23874",
+      "name" : "mock response for call to futureService.doSomethingOptional(s1)",
+      "fieldTypeName" : "org.unlogged.demo.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomethingOptional",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"null\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<java.lang.String>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional<java/lang/String>;"
     } ]
   }
 }

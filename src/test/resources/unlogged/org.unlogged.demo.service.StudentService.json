@@ -7,6 +7,45 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "3b55be49-6a13-4898-aad2-5ab532c9099b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8f85b571-4f97-4597-b3d0-aea7af657641",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8cf89947-6d88-440f-96d7-483f2df76e1c",
+      "name" : "saved on 2024-03-05 15:02",
+      "description" : null,
+      "methodArguments" : [ "\"a\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 35043450237872,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -519739231,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "ed2caac9-c730-4fac-9c63-fb9ba4f947cc" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getStudent",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : -1869805239
+      }
+    }, {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
           "expectedValue" : "string",
           "id" : "2f26099f-7620-4723-9ff1-8ec5c6214c99",
           "assertionType" : "EQUAL",
@@ -280,7 +319,7 @@
         "name" : "deleteStudent",
         "signature" : "(Ljava/lang/String;)Z",
         "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : -1106784300
+        "methodHash" : 0
       }
     } ]
   },
@@ -395,6 +434,48 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z"
+    } ],
+    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;" : [ {
+      "id" : "8d462804-79e4-40bf-bca6-07c37cc21051",
+      "name" : "mock response for call to studentService.getStudent(id)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "getStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;"
+    } ],
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<org/unlogged/demo/models/Student>;" : [ {
+      "id" : "b7c06d80-4ca1-44cc-a9af-ac041a201a0a",
+      "name" : "mock response for call to studentService.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<org/unlogged/demo/models/Student>;"
     } ]
   }
 }

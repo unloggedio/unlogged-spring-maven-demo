@@ -38,6 +38,45 @@
         "name" : "getLocationFromAddress",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.utils.LocationUtils",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 5, 6, 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "Texas",
+          "id" : "e7fa1487-f097-447c-afa3-3003e3b6f8af",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "185bdb30-7080-4227-8e41-9510b7f6053d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "b5b28189-3d4c-440e-964b-7f326bdeb150",
+      "name" : "saved on 2024-03-05 14:30",
+      "description" : null,
+      "methodArguments" : [ "\"string, Texas\"" ],
+      "returnValue" : "\"Texas\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33151687810379,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1873431629,
+      "probSerializedValue" : "IlRleGFzIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.LocationUtils",
         "methodHash" : 40623741
       }
     } ]

@@ -292,6 +292,297 @@
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
         "methodHash" : 0
       }
+    }, {
+      "lineNumbers" : [ 21, 22, 12, 13, 9, 10, 11, 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1274d17f-c0d0-4d46-8b72-44d3932021d2",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "Madras",
+              "id" : "6c4755ea-8095-402e-8eb9-ae9dbe717a5f",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/name"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "Tamil Nadu",
+              "id" : "93473a45-7f56-4635-8d44-a7612f20a1da",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/region"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "India",
+              "id" : "cfaf23ec-9c32-47e8-8d73-75afbdde35ac",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/country"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "13.08",
+              "id" : "98e2997c-bb33-4633-85fb-45b3e3514e92",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/lat"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "80.28",
+              "id" : "ae85f6b4-02a2-4977-a359-693871037e57",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/lon"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "Asia/Kolkata",
+              "id" : "2b39c7e6-982c-4d07-82f0-d3eab73c223f",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/tz_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1709630307",
+              "id" : "c218d6db-a9fe-4990-8713-f8e6327dc3d9",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/localtime_epoch"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2024-03-05 14:48",
+              "id" : "025d5564-38ba-4da6-8fe1-66b2d18d1475",
+              "assertionType" : "EQUAL",
+              "key" : "/body/location/localtime"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "9afc5c81-975a-4d68-bf62-bbab6aee5cca",
+            "assertionType" : "ALLOF",
+            "key" : "/body/location"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "31.0",
+              "id" : "c74065ed-f6e3-4415-94a8-6ba5cfddcdf1",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/temp_c"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "87.8",
+              "id" : "d3db60b6-6d76-4b54-a728-ce8cf754cd0f",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/temp_f"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "7c47ca67-5112-4295-be8f-5cfec71b0359",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/is_day"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "Partly cloudy",
+                "id" : "b36b29aa-0ae7-4958-86d3-9d109dfb36d2",
+                "assertionType" : "EQUAL",
+                "key" : "/body/current/condition/text"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "//cdn.weatherapi.com/weather/64x64/day/116.png",
+                "id" : "decfbe4c-d322-4298-adea-2427ff25c600",
+                "assertionType" : "EQUAL",
+                "key" : "/body/current/condition/icon"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1003",
+                "id" : "6d59b2da-f7ed-460b-92ce-3f9f1da46cce",
+                "assertionType" : "EQUAL",
+                "key" : "/body/current/condition/code"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "2e3101a9-2398-4884-9d6a-39eec8afe2ff",
+              "assertionType" : "ALLOF",
+              "key" : "/body/current/condition"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9.4",
+              "id" : "dec54693-f93f-4ef2-92c0-a2cf12fb9bfc",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/wind_mph"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "15.1",
+              "id" : "d0776228-9a1a-43d5-b826-ac2a1b0af79d",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/wind_kph"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "130",
+              "id" : "2aecd74a-432f-4d30-ab85-435fdc2cdd6a",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/wind_degree"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "SE",
+              "id" : "5c117bdb-fdc4-4302-a9a1-14b6e590f1d9",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/wind_dir"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1010.0",
+              "id" : "4f9693ff-4b2c-43f3-85bd-6f3bdba19fbd",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/pressure_mb"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "29.83",
+              "id" : "9a7285ed-0bb1-4887-9de2-488a90cda1eb",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/pressure_in"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0.0",
+              "id" : "fef5ddd1-c3f2-4469-805b-da159c766b42",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/precip_mm"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0.0",
+              "id" : "0e4cf44a-3f97-44b8-b0e5-1c25b536e6d8",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/precip_in"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "63",
+              "id" : "e9923334-1789-4360-a1e1-7775616d0f8a",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/humidity"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "25",
+              "id" : "46d3c1e9-7a01-45d2-9165-c650574e6c6d",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/cloud"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "34.5",
+              "id" : "ed0070a2-fa6c-4880-a7c5-8b6774cdaa97",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/feelslike_c"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "94.1",
+              "id" : "489d8015-1517-4638-83ea-6e2861460953",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/feelslike_f"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "6.0",
+              "id" : "42fb4e2b-7951-4b62-baa8-fcd7d4778578",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/vis_km"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3.0",
+              "id" : "89202786-f1c0-4e6d-ab1f-9b9492ecdba8",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/vis_miles"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "7.0",
+              "id" : "e6b76829-4200-4413-a5ab-33170923c1a6",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/uv"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "12.1",
+              "id" : "4c19539d-1789-4eae-9db1-ca0ddbf75e2e",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/gust_mph"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "19.5",
+              "id" : "c6e21f03-0843-4680-8ea6-2ce2f435948d",
+              "assertionType" : "EQUAL",
+              "key" : "/body/current/gust_kph"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "3c6decc5-4f78-4ed3-9b98-d1a965ebb612",
+            "assertionType" : "ALLOF",
+            "key" : "/body/current"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1ec188e1-81ff-49dd-83f2-8123c7ca1567",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "OK",
+          "id" : "24cb73f6-d07b-47a1-b40a-16650b12d894",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "d478af90-b5c6-4612-ac3a-366c6c4fc67c",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "86340cfa-a537-45a6-a0b4-67f4bfa295fb",
+      "name" : "saved on 2024-03-05 14:49",
+      "description" : null,
+      "methodArguments" : [ "\"madras\"" ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"location\":{\"name\":\"Madras\",\"region\":\"Tamil Nadu\",\"country\":\"India\",\"lat\":13.08,\"lon\":80.28,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1709630307,\"localtime\":\"2024-03-05 14:48\"},\"current\":{\"temp_c\":31.0,\"temp_f\":87.8,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":9.4,\"wind_kph\":15.1,\"wind_degree\":130,\"wind_dir\":\"SE\",\"pressure_mb\":1010.0,\"pressure_in\":29.83,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":63,\"cloud\":25,\"feelslike_c\":34.5,\"feelslike_f\":94.1,\"vis_km\":6.0,\"vis_miles\":3.0,\"uv\":7.0,\"gust_mph\":12.1,\"gust_kph\":19.5}},\"status\":\"OK\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 34311438174512,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2008718288,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJsb2NhdGlvbiI6eyJuYW1lIjoiTWFkcmFzIiwicmVnaW9uIjoiVGFtaWwgTmFkdSIsImNvdW50cnkiOiJJbmRpYSIsImxhdCI6MTMuMDgsImxvbiI6ODAuMjgsInR6X2lkIjoiQXNpYS9Lb2xrYXRhIiwibG9jYWx0aW1lX2Vwb2NoIjoxNzA5NjMwMzA3LCJsb2NhbHRpbWUiOiIyMDI0LTAzLTA1IDE0OjQ4In0sImN1cnJlbnQiOnsidGVtcF9jIjozMS4wLCJ0ZW1wX2YiOjg3LjgsImlzX2RheSI6MSwiY29uZGl0aW9uIjp7InRleHQiOiJQYXJ0bHkgY2xvdWR5IiwiaWNvbiI6Ii8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmciLCJjb2RlIjoxMDAzfSwid2luZF9tcGgiOjkuNCwid2luZF9rcGgiOjE1LjEsIndpbmRfZGVncmVlIjoxMzAsIndpbmRfZGlyIjoiU0UiLCJwcmVzc3VyZV9tYiI6MTAxMC4wLCJwcmVzc3VyZV9pbiI6MjkuODMsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjYzLCJjbG91ZCI6MjUsImZlZWxzbGlrZV9jIjozNC41LCJmZWVsc2xpa2VfZiI6OTQuMSwidmlzX2ttIjo2LjAsInZpc19taWxlcyI6My4wLCJ1diI6Ny4wLCJndXN0X21waCI6MTIuMSwiZ3VzdF9rcGgiOjE5LjV9fSwic3RhdHVzIjoiT0sifQ==",
+      "mockIds" : [ "2b1ba017-481d-4052-ba2e-a657083701a8" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getResponse",
+        "signature" : "(Ljava/lang/String;)Lorg/springframework/http/ResponseEntity<org/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo>;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
+        "methodHash" : 46632816
+      }
     } ],
     "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController#getWeatherForBangalore#()Lorg/springframework/http/ResponseEntity<org/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo>;" : [ {
       "lineNumbers" : [ 28, 12, 13, 17, 18, 19, 20, 21, 23, 28, 29, 9, 10, 11 ],
@@ -582,7 +873,7 @@
         "name" : "getWeatherForBangalore",
         "signature" : "()Lorg/springframework/http/ResponseEntity<org/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo>;",
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
-        "methodHash" : 722394101
+        "methodHash" : 0
       }
     } ]
   },
