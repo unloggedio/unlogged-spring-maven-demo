@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.springframework.security.authentication.AuthenticationManager#authenticate#(Lorg/springframework/security/authentication/UsernamePasswordAuthenticationToken;)Lorg/springframework/security/core/Authentication;" : [ {
-      "id" : "d2b8a2ef-1aa7-4387-9f0d-31d995d74aac",
+      "id" : "48e6fad2-e158-42b9-9a43-c7bb3e5b8ecf",
       "name" : "mock response for call to authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword()))",
       "fieldTypeName" : "org.springframework.security.authentication.AuthenticationManager",
       "sourceClassName" : "org.unlogged.demo.security.controller.AuthenticationController",
@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "816980119",
+          "value" : "1359103112",
           "returnValueType" : "REAL",
           "className" : "org.springframework.security.core.Authentication"
         },

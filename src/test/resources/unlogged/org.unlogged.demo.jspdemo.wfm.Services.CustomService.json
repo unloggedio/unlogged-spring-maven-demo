@@ -8,18 +8,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "Some Value1",
-          "id" : "1ca2296a-3d6a-4eec-bbb5-468dac64df13",
+          "id" : "513169e1-47a1-4d88-a04a-7d08623c970a",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "bdfa10da-5450-438c-9bd3-f757c0a55d1f",
+        "id" : "d573ffbc-8a1c-44c3-bc32-81d1f4f75cbe",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "791452e5-540b-4b28-a593-f07f202e5054",
-      "name" : "saved on 2024-03-04 16:15",
+      "candidateId" : "63c42578-9021-4b44-b404-c578bbcfbedc",
+      "name" : "getValue saved on 2024-03-05 12:28",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "\"Some Value1\"",
@@ -27,10 +27,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5269678052839,
+        "timestamp" : 26405949416005,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -235357388,
+      "sessionIdentifier" : -775118011,
       "probSerializedValue" : "IlNvbWUgVmFsdWUxIg==",
       "mockIds" : [ ],
       "exception" : false,
@@ -44,17 +44,17 @@
   },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
-      "id" : "e822381b-e609-4bb9-b5c0-00301ba9831c",
-      "name" : "mock response for call to customService.getValue()",
+      "id" : "b1e4dff1-6e85-4dce-9494-259a7c49dacf",
+      "name" : "mock response for call to service.getValue()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
-      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
-      "fieldName" : "customService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+      "fieldName" : "service",
       "methodName" : "getValue",
       "whenParameter" : [ ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "\"Some Value1\"",
+          "value" : "null",
           "returnValueType" : "REAL",
           "className" : "java.lang.String"
         },

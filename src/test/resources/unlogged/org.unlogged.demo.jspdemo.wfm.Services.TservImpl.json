@@ -8,18 +8,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "10",
-          "id" : "f95c053b-f777-4426-b9a4-5cb8a64dfd83",
+          "id" : "0bf76841-7bfd-41f7-9309-0294a36b572b",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "c407d1d5-1084-4d6a-9138-abd7b9b19344",
+        "id" : "09ab642e-5a9a-44db-ba90-60f57f247eac",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "47e6c5d1-b8a4-41ba-a5a3-1b10528e936d",
-      "name" : "saved on 2024-03-04 16:59",
+      "candidateId" : "b416f240-6287-4ad4-a4e5-4ab704c74fe0",
+      "name" : "saved on 2024-03-05 12:28",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "10",
@@ -27,10 +27,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 8688019446705,
+        "timestamp" : 26669692995833,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -73352826,
+      "sessionIdentifier" : 740296610,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -38,7 +38,7 @@
         "name" : "doSomething",
         "signature" : "()I",
         "className" : "org.unlogged.demo.jspdemo.wfm.Services.TservImpl",
-        "methodHash" : 0
+        "methodHash" : -1636134488
       }
     } ]
   },

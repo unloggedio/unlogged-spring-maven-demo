@@ -8,39 +8,39 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "string",
-          "id" : "53902d80-ea97-444e-8aa5-396066c9bdfb",
+          "id" : "4b0f96d9-50d1-4d58-bc6c-d1f4ef71542f",
           "assertionType" : "EQUAL",
           "key" : "/email"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "oMIYSqNZMrH5iun",
-          "id" : "a4900da0-35f3-4326-b0aa-ecd852d53950",
+          "id" : "f724ed1d-9a37-4c2e-b1aa-294b92f83e89",
           "assertionType" : "EQUAL",
           "key" : "/password"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "User firstname",
-          "id" : "dd077f80-7f87-4c16-8932-4de4056a94c6",
+          "id" : "475702e7-563e-4816-b724-8418584e683e",
           "assertionType" : "EQUAL",
           "key" : "/firstName"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "User lastname",
-          "id" : "89a4187b-d8ff-42d8-a32a-946acbeedcca",
+          "id" : "8890e2f3-518d-4376-bfbb-587fe8bfd828",
           "assertionType" : "EQUAL",
           "key" : "/lastName"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "74e1c9fe-d164-4b7a-a62e-8bb7ca1a98b4",
+        "id" : "e45c8c97-d2f4-48b4-8acc-bae5cf59d419",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "a33ebb6d-5b52-42ea-8ab5-97720bc97918",
-      "name" : "saved on 2024-03-04 17:06",
+      "candidateId" : "62b1f680-d06a-482c-afef-b6438c2b22f4",
+      "name" : "saved on 2024-03-05 12:36",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "{\"email\":\"string\",\"password\":\"oMIYSqNZMrH5iun\",\"firstName\":\"User firstname\",\"lastName\":\"User lastname\"}",
@@ -48,10 +48,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 9153178267207,
+        "timestamp" : 27101301317130,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -1798879098,
+      "sessionIdentifier" : 1185046172,
       "probSerializedValue" : "eyJlbWFpbCI6InN0cmluZyIsInBhc3N3b3JkIjoib01JWVNxTlpNckg1aXVuIiwiZmlyc3ROYW1lIjoiVXNlciBmaXJzdG5hbWUiLCJsYXN0TmFtZSI6IlVzZXIgbGFzdG5hbWUifQ==",
       "mockIds" : [ ],
       "exception" : false,
@@ -65,7 +65,7 @@
   },
   "declaredMockMap" : {
     "org.unlogged.demo.security.repository.UserRepository#findUserByEmail#(Ljava/lang/String;)Lorg/unlogged/demo/security/model/User;" : [ {
-      "id" : "6e750e30-19ab-48eb-8080-abef9036d08a",
+      "id" : "b3635685-351c-449f-bb32-617cfa0af40e",
       "name" : "mock response for call to userRepository.findUserByEmail(email)",
       "fieldTypeName" : "org.unlogged.demo.security.repository.UserRepository",
       "sourceClassName" : "org.unlogged.demo.security.service.CustomUserDetailsService",

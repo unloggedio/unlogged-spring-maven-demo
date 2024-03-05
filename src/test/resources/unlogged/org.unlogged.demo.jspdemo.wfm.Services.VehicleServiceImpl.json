@@ -1,37 +1,37 @@
 {
   "classname" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
   "storedCandidateMap" : {
-    "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl#getUserProfile#(Ljava/lang/String;)Ljava/lang/NullPointerException;" : [ {
-      "lineNumbers" : [ 21, 22, 23 ],
+    "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl#getUserProfile#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 21, 23 ],
       "testAssertions" : {
         "subAssertions" : [ ],
         "expression" : "SELF",
         "expectedValue" : "",
-        "id" : "37294244-fc1d-4a59-9fd6-284eeabb283e",
+        "id" : "c6d1580a-f95a-47b2-8aa3-5ac12992bf46",
         "assertionType" : "EQUAL",
         "key" : "/message"
       },
-      "candidateId" : "f2933b27-3228-427e-9317-c2be2a5114a5",
-      "name" : "saved on 2024-03-04 17:01",
+      "candidateId" : "c888c2c6-6264-4601-8b65-73854ff54408",
+      "name" : "saved on 2024-03-05 12:30",
       "description" : null,
-      "methodArguments" : [ "\"amg\"" ],
-      "returnValue" : "1882075236",
-      "returnValueClassname" : "java.lang.NullPointerException",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "1371505974",
+      "returnValueClassname" : "org.springframework.dao.IncorrectResultSizeDataAccessException",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 8839060647890,
+        "timestamp" : 26750652043697,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1580656277,
+      "sessionIdentifier" : -113291448,
       "probSerializedValue" : "",
-      "mockIds" : [ ],
+      "mockIds" : [ "6ba27e2f-db42-4cb5-846c-0c2481a214fc" ],
       "exception" : true,
       "method" : {
         "name" : "getUserProfile",
-        "signature" : "(Ljava/lang/String;)Ljava/lang/NullPointerException;",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
         "className" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
-        "methodHash" : 0
+        "methodHash" : 1921448855
       }
     } ]
   },

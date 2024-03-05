@@ -2,50 +2,8 @@
   "classname" : "org.unlogged.demo.repository.StudentRepository",
   "storedCandidateMap" : { },
   "declaredMockMap" : {
-    "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
-      "id" : "2a0fc751-29b3-4ce6-b7b0-eb84791bb8e5",
-      "name" : "mock response for call to studentRepository.findById(id)",
-      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
-      "sourceClassName" : "org.unlogged.demo.service.StudentService",
-      "fieldName" : "studentRepository",
-      "methodName" : "findById",
-      "whenParameter" : [ {
-        "name" : null,
-        "type" : "ANY_OF_TYPE",
-        "value" : "java.lang.String"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
-          "returnValueType" : "REAL",
-          "className" : "java.util.Optional"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional;"
-    } ],
-    "org.unlogged.demo.repository.StudentRepository#findAll#()Ljava/lang/Iterable;" : [ {
-      "id" : "ba1e4446-4c2b-4aa8-8387-2dd3a2426471",
-      "name" : "mock response for call to studentRepository.findAll()",
-      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
-      "sourceClassName" : "org.unlogged.demo.service.StudentService",
-      "fieldName" : "studentRepository",
-      "methodName" : "findAll",
-      "whenParameter" : [ ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
-          "returnValueType" : "REAL",
-          "className" : "java.lang.Iterable"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findAll#()Ljava/lang/Iterable;"
-    } ],
     "org.unlogged.demo.repository.StudentRepository#save#(Lorg/unlogged/demo/models/Student;)Lorg/unlogged/demo/models/Student;" : [ {
-      "id" : "4f3f66c8-12c6-49e8-ad58-921ba49b20dc",
+      "id" : "849ef559-f9db-4db8-8713-839aa24d08cb",
       "name" : "mock response for call to studentRepository.save(student)",
       "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
       "sourceClassName" : "org.unlogged.demo.service.StudentService",
@@ -68,7 +26,7 @@
       "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#save#(Lorg/unlogged/demo/models/Student;)Lorg/unlogged/demo/models/Student;"
     } ],
     "org.unlogged.demo.repository.StudentRepository#saveAll#(Ljava/lang/Iterable;)Ljava/lang/Iterable;" : [ {
-      "id" : "9617d7ae-5684-41d7-aea0-e94372161aed",
+      "id" : "01b5a417-7f92-43b9-b5be-3de601bd9c71",
       "name" : "mock response for call to studentRepository.saveAll(student)",
       "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
       "sourceClassName" : "org.unlogged.demo.service.StudentService",
@@ -82,16 +40,58 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "1502679999",
+          "value" : "1879436969",
           "returnValueType" : "REAL",
-          "className" : "java.lang.Iterable"
+          "className" : "java.lang.Iterable<S>"
         },
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#saveAll#(Ljava/lang/Iterable;)Ljava/lang/Iterable;"
     } ],
+    "org.unlogged.demo.repository.StudentRepository#findAll#()Ljava/lang/Iterable;" : [ {
+      "id" : "e59b88f9-63cd-4f75-9063-c0f19a4485b3",
+      "name" : "mock response for call to studentRepository.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Iterable<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findAll#()Ljava/lang/Iterable;"
+    } ],
+    "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "15563f3f-ce91-4418-8219-49ebd0af5160",
+      "name" : "mock response for call to studentRepository.findById(id)",
+      "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
+      "sourceClassName" : "org.unlogged.demo.service.StudentService",
+      "fieldName" : "studentRepository",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.StudentRepository#findById#(Ljava/lang/String;)Ljava/util/Optional;"
+    } ],
     "org.unlogged.demo.repository.StudentRepository#deleteById#(Ljava/lang/String;)V" : [ {
-      "id" : "5c8297c9-f5b9-4dcd-a07f-751d42e94165",
+      "id" : "d43e7356-a52e-4e5e-a2f0-dd4508cfcac7",
       "name" : "mock response for call to studentRepository.deleteById(id)",
       "fieldTypeName" : "org.unlogged.demo.repository.StudentRepository",
       "sourceClassName" : "org.unlogged.demo.service.StudentService",
@@ -107,7 +107,7 @@
           "declaredMocks" : [ ],
           "value" : "0",
           "returnValueType" : "REAL",
-          "className" : "V"
+          "className" : "void"
         },
         "methodExitType" : "NORMAL"
       } ],

@@ -1,312 +1,46 @@
 {
   "classname" : "org.unlogged.demo.service.StudentService",
   "storedCandidateMap" : {
-    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 20 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "0723170b-cbbd-4b63-bb9a-a9c4c973b6d5",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "8503050a-b161-45ea-bffc-67186c0731d7",
-      "name" : "saved on 2024-03-04 17:40",
-      "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "1562204687",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10674842941027,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : -48391609,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : true,
-      "method" : {
-        "name" : "getStudent",
-        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#findAll#()Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 24, 25, 29 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "bc89fb45-f978-406d-b0bc-28e4b5f89f03",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "82625114-c86e-4875-9701-1b2a32ce2c32",
-      "name" : "saved on 2024-03-04 17:40",
-      "description" : null,
-      "methodArguments" : [ ],
-      "returnValue" : "634219749",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10688666992828,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 1490517350,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : true,
-      "method" : {
-        "name" : "findAll",
-        "signature" : "()Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 33, 34 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "0e91d6e8-3696-4ad9-a6b7-700dd80d279b",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "0b3ae846-7d7b-4219-b9ac-96cbd97f85ac",
-      "name" : "saved on 2024-03-04 17:40",
-      "description" : null,
-      "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
-      "returnValue" : "1245028973",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10699723597803,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : -668008606,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : true,
-      "method" : {
-        "name" : "updateStudent",
-        "signature" : "(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#updateAllStudent#(Ljava/util/Collection;)Lorg/springframework/dao/InvalidDataAccessApiUsageException;" : [ {
-      "lineNumbers" : [ 38, 39 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "585c1a64-23dc-42b7-b2a6-ad4e5f0ae6eb",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "aabd1978-8387-453f-9666-babe4bfbd07c",
-      "name" : "saved on 2024-03-04 17:40",
-      "description" : null,
-      "methodArguments" : [ "null" ],
-      "returnValue" : "1502679999",
-      "returnValueClassname" : "org.springframework.dao.InvalidDataAccessApiUsageException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10712139186024,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 986400709,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : true,
-      "method" : {
-        "name" : "updateAllStudent",
-        "signature" : "(Ljava/util/Collection;)Lorg/springframework/dao/InvalidDataAccessApiUsageException;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 43, 44 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "2bc2c6d9-20cd-4dc9-acfa-baeedfd39ec1",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "2d5cd341-3a44-4665-aa38-4e1540ce7a5d",
-      "name" : "saved on 2024-03-04 17:40",
-      "description" : null,
-      "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
-      "returnValue" : "871064183",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10726617259165,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 912763108,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : true,
-      "method" : {
-        "name" : "createStudent",
-        "signature" : "(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 48, 49 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "3bf83f04-fb6c-41af-af07-a16ebfafa313",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "68121182-647e-497c-b9fd-a9538a564bfa",
-      "name" : "saved on 2024-03-04 17:41",
-      "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "678441745",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10736682588794,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 1373987964,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : true,
-      "method" : {
-        "name" : "deleteStudent",
-        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/ArrayList;" : [ {
-      "lineNumbers" : [ 24, 25, 26, 27, 29 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "string",
-            "id" : "58691c57-29a0-438c-9a65-7e243172f131",
-            "assertionType" : "EQUAL",
-            "key" : "/0/id"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "string",
-            "id" : "66cc2fdc-c2c2-48d2-9074-a7ef8635a69f",
-            "assertionType" : "EQUAL",
-            "key" : "/0/name"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "MALE",
-            "id" : "eb5b7188-c498-4204-b8e7-cba33a43ad4b",
-            "assertionType" : "EQUAL",
-            "key" : "/0/gender"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "0",
-            "id" : "6ca982d3-dd2e-49bd-8b78-dad990fa711a",
-            "assertionType" : "EQUAL",
-            "key" : "/0/grade"
-          } ],
-          "expression" : "SELF",
-          "expectedValue" : "true",
-          "id" : "c598bf9f-bc4f-4fb1-9d89-795c826c4938",
-          "assertionType" : "ALLOF",
-          "key" : "/0"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : "true",
-        "id" : "ecc24fe9-96c2-4a29-9cb7-7791cb295ca8",
-        "assertionType" : "ALLOF",
-        "key" : "/"
-      },
-      "candidateId" : "358b540f-c922-4bb0-8ae3-e4ab87acd955",
-      "name" : "saved on 2024-03-05 10:36",
-      "description" : null,
-      "methodArguments" : [ ],
-      "returnValue" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
-      "returnValueClassname" : "java.util.ArrayList",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 19818186920783,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : -435547769,
-      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJuYW1lIjoic3RyaW5nIiwiZ2VuZGVyIjoiTUFMRSIsImdyYWRlIjowfV0=",
-      "mockIds" : [ "4b64a3c0-b92d-477c-977a-a7f54455f9e5" ],
-      "exception" : false,
-      "method" : {
-        "name" : "findAll",
-        "signature" : "()Ljava/util/ArrayList;",
-        "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;" : [ {
       "lineNumbers" : [ 20 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "string",
-          "id" : "55accd9e-3b41-43ee-a90b-67624fffc279",
+          "id" : "2f26099f-7620-4723-9ff1-8ec5c6214c99",
           "assertionType" : "EQUAL",
           "key" : "/id"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "string",
-          "id" : "126a294c-26cc-4c7a-8c53-310e3138c6c7",
+          "id" : "fc5c6488-1485-4821-b010-3524bb7cf747",
           "assertionType" : "EQUAL",
           "key" : "/name"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "MALE",
-          "id" : "b817d6c0-9b17-4acb-aed7-cb44496c6296",
+          "id" : "11560f5a-c97d-45f4-95f8-7d70109070e5",
           "assertionType" : "EQUAL",
           "key" : "/gender"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "0",
-          "id" : "3d32bbc1-79ae-4a31-8987-7aedcc7f1ca6",
+          "id" : "bcec4413-5de0-42ea-b099-2d1848784695",
           "assertionType" : "EQUAL",
           "key" : "/grade"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "c97e548d-626d-439f-ab26-2053cf12cadc",
+        "id" : "62fbd470-6c4e-4d38-a859-0a93953c312c",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "15cdc748-fbb8-4e7e-b3b5-91efb31d6aa2",
-      "name" : "saved on 2024-03-05 10:37",
+      "candidateId" : "d476f6c3-0f2a-42b8-bfce-a318b86ef3c3",
+      "name" : "saved on 2024-03-05 12:44",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
@@ -314,16 +48,84 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 19971609162237,
+        "timestamp" : 25724278032693,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -1072508036,
+      "sessionIdentifier" : -120725566,
       "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmciLCJnZW5kZXIiOiJNQUxFIiwiZ3JhZGUiOjB9",
-      "mockIds" : [ "638a9654-c423-4b98-b8b8-9f369388a7bb" ],
+      "mockIds" : [ "15563f3f-ce91-4418-8219-49ebd0af5160" ],
       "exception" : false,
       "method" : {
         "name" : "getStudent",
-        "signature" : "(Ljava/lang/String;)Ljava/util/Optional;",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<org/unlogged/demo/models/Student>;" : [ {
+      "lineNumbers" : [ 24, 25, 26, 27, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "507511b4-a0e5-4962-b842-c57d52ecec69",
+            "assertionType" : "EQUAL",
+            "key" : "/0/id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "8e85a172-3841-4780-972a-cd0a62e852c0",
+            "assertionType" : "EQUAL",
+            "key" : "/0/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "MALE",
+            "id" : "2838cc61-6bcc-46ae-a093-4035b42f5bae",
+            "assertionType" : "EQUAL",
+            "key" : "/0/gender"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "d137c356-33d7-49d1-88d8-a444c2162115",
+            "assertionType" : "EQUAL",
+            "key" : "/0/grade"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "445dba43-6cf9-4b2c-bb39-de7e79c60f35",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "7a31572b-9738-4729-9a63-ac24ad657a48",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "45912a62-ce5d-42ce-a883-b5b7bcb2d35b",
+      "name" : "saved on 2024-03-05 12:45",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25712493005902,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -817954598,
+      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJuYW1lIjoic3RyaW5nIiwiZ2VuZGVyIjoiTUFMRSIsImdyYWRlIjowfV0=",
+      "mockIds" : [ "e59b88f9-63cd-4f75-9063-c0f19a4485b3" ],
+      "exception" : false,
+      "method" : {
+        "name" : "findAll",
+        "signature" : "()Ljava/util/List<org/unlogged/demo/models/Student>;",
         "className" : "org.unlogged.demo.service.StudentService",
         "methodHash" : 0
       }
@@ -335,18 +137,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "07a0deb2-30bf-4e9b-83c1-eb9d837b0eca",
+          "id" : "28d10f39-3fba-4ad1-ba9d-7b5fafd2bdae",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "ef981e33-3eea-4dc5-b67d-a608466ece26",
+        "id" : "6c9ec2cf-e229-45cf-beb6-66d33118fdf1",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "cb162a6d-0917-47c9-b21d-1b1c213f894e",
-      "name" : "saved on 2024-03-05 10:37",
+      "candidateId" : "d9682c16-60b6-4447-8c1e-b4ea3cc8732e",
+      "name" : "saved on 2024-03-05 12:45",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
       "returnValue" : "1",
@@ -354,16 +156,49 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 19990059488616,
+        "timestamp" : 25746008704668,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 541379078,
+      "sessionIdentifier" : 427672963,
       "probSerializedValue" : "",
-      "mockIds" : [ "ba3fd0eb-8447-465d-8c55-35d4cec2e73e" ],
+      "mockIds" : [ "849ef559-f9db-4db8-8713-839aa24d08cb" ],
       "exception" : false,
       "method" : {
         "name" : "updateStudent",
         "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
+        "className" : "org.unlogged.demo.service.StudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.StudentService#updateAllStudent#(Ljava/util/Collection<org/unlogged/demo/models/Student>;)Z" : [ {
+      "lineNumbers" : [ 38, 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "",
+        "id" : "eddd7192-156c-4a59-8e2c-7a1584c43dac",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "6461c56b-f3b4-45d7-baac-a83dd8e32ed6",
+      "name" : "saved on 2024-03-05 12:45",
+      "description" : null,
+      "methodArguments" : [ "null" ],
+      "returnValue" : "1879436969",
+      "returnValueClassname" : "org.springframework.dao.InvalidDataAccessApiUsageException",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27690373640226,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 346771752,
+      "probSerializedValue" : "",
+      "mockIds" : [ "01b5a417-7f92-43b9-b5be-3de601bd9c71" ],
+      "exception" : true,
+      "method" : {
+        "name" : "updateAllStudent",
+        "signature" : "(Ljava/util/Collection<org/unlogged/demo/models/Student>;)Z",
         "className" : "org.unlogged.demo.service.StudentService",
         "methodHash" : 0
       }
@@ -375,18 +210,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "f8a87e81-76c7-4455-91af-e1ab0cc9104d",
+          "id" : "86325cbe-c7f3-4f19-9117-c5043598a280",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "26698ca6-378e-4f70-bf60-8624f672bac2",
+        "id" : "76bbd4e2-754f-4d25-9b81-b4f19b91a38c",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "23bea61b-06cd-4657-bb41-878fac46a375",
-      "name" : "saved on 2024-03-05 10:37",
+      "candidateId" : "aad5f4ae-b98b-4a1a-a007-059f5e6d08d5",
+      "name" : "saved on 2024-03-05 12:45",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
       "returnValue" : "1",
@@ -394,12 +229,12 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 19812543797453,
+        "timestamp" : 27660390196223,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1492225018,
+      "sessionIdentifier" : -2024105718,
       "probSerializedValue" : "",
-      "mockIds" : [ "518e095d-5f18-4557-b77f-0dc246ed598e" ],
+      "mockIds" : [ "849ef559-f9db-4db8-8713-839aa24d08cb" ],
       "exception" : false,
       "method" : {
         "name" : "createStudent",
@@ -415,18 +250,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "050b84b6-6c17-47e3-9f20-0186eda2257b",
+          "id" : "8475c8cf-3efc-40f3-9b7f-2a669d3c9f9b",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "64ed19ec-e0d2-4ea2-9a4c-5302af3441a4",
+        "id" : "9850951d-41d8-43d1-82a3-faf9872d4adb",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "fb7a06ba-90cd-44ec-80e5-cbcd94b1e35a",
-      "name" : "saved on 2024-03-05 10:37",
+      "candidateId" : "46a4454f-dc89-4666-8458-8c002b240764",
+      "name" : "saved on 2024-03-05 12:45",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "1",
@@ -434,20 +269,132 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 20015327364379,
+        "timestamp" : 25759391479157,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 656642739,
+      "sessionIdentifier" : 1168116499,
       "probSerializedValue" : "",
-      "mockIds" : [ "21e95474-f61e-4ada-9d2c-5fa8025de006" ],
+      "mockIds" : [ "d43e7356-a52e-4e5e-a2f0-dd4508cfcac7" ],
       "exception" : false,
       "method" : {
         "name" : "deleteStudent",
         "signature" : "(Ljava/lang/String;)Z",
         "className" : "org.unlogged.demo.service.StudentService",
-        "methodHash" : 0
+        "methodHash" : -1106784300
       }
     } ]
   },
-  "declaredMockMap" : { }
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "id" : "45b49a96-3ee2-4d85-9b7c-e17cbd04b4db",
+      "name" : "mock response for call to studentService.createStudent(student)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "createStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z"
+    } ],
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List;" : [ {
+      "id" : "67833aeb-30ed-40df-affb-c68a459efc16",
+      "name" : "mock response for call to studentService.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List;"
+    } ],
+    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "3a6cb1c9-5f29-4839-8399-a500fbe56274",
+      "name" : "mock response for call to studentService.getStudent(id)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "getStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;"
+    } ],
+    "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "id" : "90268075-e1ee-44c8-bc39-dd6ffb52b8f3",
+      "name" : "mock response for call to studentService.updateStudent(student)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "updateStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z"
+    } ],
+    "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "id" : "db9c626f-586a-4878-a41f-6c8f7f92a0ad",
+      "name" : "mock response for call to studentService.deleteStudent(id)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "deleteStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z"
+    } ]
+  }
 }

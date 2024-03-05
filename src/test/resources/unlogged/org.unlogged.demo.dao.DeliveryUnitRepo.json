@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.dao.DeliveryUnitRepo#save#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;" : [ {
-      "id" : "cab1cef9-d8d2-423b-8a10-97c856b76634",
+      "id" : "8fb88d43-0fa4-4518-988c-74baf92ebae1",
       "name" : "mock response for call to deliveryUnitRepo.save(deliveryUnit)",
       "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "173907703",
+          "value" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.redis.DeliveryUnit"
         },
@@ -26,7 +26,7 @@
       "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#save#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;"
     } ],
     "org.unlogged.demo.dao.DeliveryUnitRepo#findById#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
-      "id" : "30cb9bce-cba5-400b-805a-37d8387dc586",
+      "id" : "afe41b06-0bfa-4ec8-b14d-82be49568d14",
       "name" : "mock response for call to deliveryUnitRepo.findById(Id)",
       "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
@@ -40,16 +40,35 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "1501087640",
+          "value" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}",
           "returnValueType" : "REAL",
-          "className" : "java.util.Optional"
+          "className" : "java.util.Optional<org.unlogged.demo.models.redis.DeliveryUnit>"
         },
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#findById#(Ljava/lang/String;)Ljava/util/Optional;"
     } ],
+    "org.unlogged.demo.dao.DeliveryUnitRepo#findAll#()Ljava/lang/Iterable;" : [ {
+      "id" : "e888c98b-dd97-49ba-806e-aef206f8d05f",
+      "name" : "mock response for call to deliveryUnitRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "fieldName" : "deliveryUnitRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Iterable<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#findAll#()Ljava/lang/Iterable;"
+    } ],
     "org.unlogged.demo.dao.DeliveryUnitRepo#deleteAll#()V" : [ {
-      "id" : "f7f80406-e26c-4513-920f-21cad2e8de60",
+      "id" : "6628b5f6-8b10-4706-8788-e3e630b50a23",
       "name" : "mock response for call to deliveryUnitRepo.deleteAll()",
       "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
@@ -59,9 +78,9 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "660413158",
+          "value" : "0",
           "returnValueType" : "REAL",
-          "className" : "V"
+          "className" : "void"
         },
         "methodExitType" : "NORMAL"
       } ],

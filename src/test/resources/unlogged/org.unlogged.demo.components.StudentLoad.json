@@ -1,37 +1,37 @@
 {
   "classname" : "org.unlogged.demo.components.StudentLoad",
   "storedCandidateMap" : {
-    "org.unlogged.demo.components.StudentLoad#loadData#()Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 28, 35 ],
+    "org.unlogged.demo.components.StudentLoad#loadData#()V" : [ {
+      "lineNumbers" : [ 28, 29, 30, 31, 32, 33, 34, 35 ],
       "testAssertions" : {
         "subAssertions" : [ ],
         "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "437b8834-695b-4605-b0e9-74d6fb4b1f30",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
+        "expectedValue" : null,
+        "id" : "5ada9d1c-57c3-49c4-927c-dba878409ae8",
+        "assertionType" : "ALLOF",
+        "key" : null
       },
-      "candidateId" : "b2a26553-7953-45dc-8ecd-002bf3bbd26c",
-      "name" : "saved on 2024-03-04 18:48",
+      "candidateId" : "b2add90a-ecc6-4a85-8d24-fa17fa22f5ce",
+      "name" : "saved on 2024-03-05 12:05",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "121325418",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "returnValue" : "0",
+      "returnValueClassname" : null,
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 14760926394044,
+        "timestamp" : 25260118413602,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -20990037,
+      "sessionIdentifier" : -1339298725,
       "probSerializedValue" : "",
-      "mockIds" : [ "c9a256d9-d625-4c6f-bdcb-73ee8a55f602" ],
-      "exception" : true,
+      "mockIds" : [ "cb5d35b7-56fd-46db-83d4-66779789c98d", "477c8439-c8a0-443a-9ee2-3fc7cb8e33f2", "a0ef525c-d37e-48ac-9903-1ac9cc28efc5" ],
+      "exception" : false,
       "method" : {
         "name" : "loadData",
-        "signature" : "()Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "signature" : "()V",
         "className" : "org.unlogged.demo.components.StudentLoad",
-        "methodHash" : 0
+        "methodHash" : 1115224716
       }
     } ]
   },

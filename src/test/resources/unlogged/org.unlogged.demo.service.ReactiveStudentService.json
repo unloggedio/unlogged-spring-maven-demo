@@ -1,202 +1,265 @@
 {
   "classname" : "org.unlogged.demo.service.ReactiveStudentService",
   "storedCandidateMap" : {
-    "org.unlogged.demo.service.ReactiveStudentService#getStudent#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 20 ],
+    "org.unlogged.demo.service.ReactiveStudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "lineNumbers" : [ 43, 44 ],
       "testAssertions" : {
-        "subAssertions" : [ ],
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "733e4953-fc71-4c50-a631-273bf554b330",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
         "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "ad0d391a-3e81-490d-a85f-ff04d78641bb",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
+        "expectedValue" : null,
+        "id" : "54f18de5-d09b-4ab3-bdf1-61c71dcc5a03",
+        "assertionType" : "ALLOF",
+        "key" : null
       },
-      "candidateId" : "c6cb5ad0-c064-426a-96e7-cbb3f8e515ee",
-      "name" : "saved on 2024-03-04 17:38",
-      "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "706282045",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10572691010492,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 811503583,
-      "probSerializedValue" : "",
-      "mockIds" : [ "2a0fc751-29b3-4ce6-b7b0-eb84791bb8e5" ],
-      "exception" : true,
-      "method" : {
-        "name" : "getStudent",
-        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.ReactiveStudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.ReactiveStudentService#findAll#()Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 24, 25, 29 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "bb2dfe15-e2b7-4f69-b7df-180de6b6e2e4",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "1e96415c-1f84-4d65-a58a-4f1af496ea6e",
-      "name" : "saved on 2024-03-04 17:38",
-      "description" : null,
-      "methodArguments" : [ ],
-      "returnValue" : "150141601",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 10583210732414,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 2019329477,
-      "probSerializedValue" : "",
-      "mockIds" : [ "ba1e4446-4c2b-4aa8-8387-2dd3a2426471" ],
-      "exception" : true,
-      "method" : {
-        "name" : "findAll",
-        "signature" : "()Lorg/springframework/data/redis/RedisConnectionFailureException;",
-        "className" : "org.unlogged.demo.service.ReactiveStudentService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.service.ReactiveStudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 33, 34 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "0554a927-b79f-4280-bd79-b4b2ab475f63",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
-      },
-      "candidateId" : "ad7287ec-4aae-4e16-a245-d0cbda1b6177",
-      "name" : "saved on 2024-03-04 17:38",
+      "candidateId" : "c0e7d59a-f9e5-43b0-b46c-6c3718e76183",
+      "name" : "saved on 2024-03-05 12:43",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
-      "returnValue" : "927965864",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10596404519393,
+        "timestamp" : 27558907972235,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1064791840,
+      "sessionIdentifier" : -398584825,
       "probSerializedValue" : "",
-      "mockIds" : [ "4f3f66c8-12c6-49e8-ad58-921ba49b20dc" ],
-      "exception" : true,
+      "mockIds" : [ "849ef559-f9db-4db8-8713-839aa24d08cb" ],
+      "exception" : false,
       "method" : {
-        "name" : "updateStudent",
-        "signature" : "(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "name" : "createStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
         "className" : "org.unlogged.demo.service.ReactiveStudentService",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.service.ReactiveStudentService#updateAllStudent#(Ljava/util/Collection;)Lorg/springframework/dao/InvalidDataAccessApiUsageException;" : [ {
+    "org.unlogged.demo.service.ReactiveStudentService#updateAllStudent#(Ljava/util/Collection<org/unlogged/demo/models/Student>;)Z" : [ {
       "lineNumbers" : [ 38, 39 ],
       "testAssertions" : {
         "subAssertions" : [ ],
         "expression" : "SELF",
         "expectedValue" : "",
-        "id" : "20b95eec-4df3-4d41-87d2-f21b0f89a937",
+        "id" : "74163940-e8b1-4eb8-b9d6-4db9ed2d94d4",
         "assertionType" : "EQUAL",
         "key" : "/message"
       },
-      "candidateId" : "a074c147-49dd-4f0c-aff5-42357390181c",
-      "name" : "saved on 2024-03-04 17:38",
+      "candidateId" : "1c390a8f-fab0-481b-8dc1-e8a041f28067",
+      "name" : "saved on 2024-03-05 12:43",
       "description" : null,
       "methodArguments" : [ "null" ],
-      "returnValue" : "1946116249",
+      "returnValue" : "1226771799",
       "returnValueClassname" : "org.springframework.dao.InvalidDataAccessApiUsageException",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10612067477200,
+        "timestamp" : 27575926674698,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1856332535,
+      "sessionIdentifier" : -1090035869,
       "probSerializedValue" : "",
-      "mockIds" : [ "9617d7ae-5684-41d7-aea0-e94372161aed" ],
+      "mockIds" : [ "01b5a417-7f92-43b9-b5be-3de601bd9c71" ],
       "exception" : true,
       "method" : {
         "name" : "updateAllStudent",
-        "signature" : "(Ljava/util/Collection;)Lorg/springframework/dao/InvalidDataAccessApiUsageException;",
+        "signature" : "(Ljava/util/Collection<org/unlogged/demo/models/Student>;)Z",
         "className" : "org.unlogged.demo.service.ReactiveStudentService",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.service.ReactiveStudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 43, 44 ],
+    "org.unlogged.demo.service.ReactiveStudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "lineNumbers" : [ 33, 34 ],
       "testAssertions" : {
-        "subAssertions" : [ ],
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7da0044f-b595-4314-a6ea-60599cc24d06",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
         "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "b32d037b-31a1-48f6-8cee-1953d875c0d9",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
+        "expectedValue" : null,
+        "id" : "c6c84611-2686-44c8-afea-c9df186007a4",
+        "assertionType" : "ALLOF",
+        "key" : null
       },
-      "candidateId" : "53aef2d2-17b7-48c7-b044-41b51342f98f",
-      "name" : "saved on 2024-03-04 17:39",
+      "candidateId" : "90c592f2-bf81-489b-98cd-1b2b468b15ec",
+      "name" : "saved on 2024-03-05 12:43",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}" ],
-      "returnValue" : "551778468",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10648518263373,
+        "timestamp" : 27585484893556,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 51141991,
+      "sessionIdentifier" : -30984376,
       "probSerializedValue" : "",
-      "mockIds" : [ "2379865b-21de-4726-a911-89d2bf3ce614" ],
-      "exception" : true,
+      "mockIds" : [ "849ef559-f9db-4db8-8713-839aa24d08cb" ],
+      "exception" : false,
       "method" : {
-        "name" : "createStudent",
-        "signature" : "(Lorg/unlogged/demo/models/Student;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "name" : "updateStudent",
+        "signature" : "(Lorg/unlogged/demo/models/Student;)Z",
         "className" : "org.unlogged.demo.service.ReactiveStudentService",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.service.ReactiveStudentService#deleteStudent#(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;" : [ {
-      "lineNumbers" : [ 48, 49 ],
+    "org.unlogged.demo.service.ReactiveStudentService#findAll#()Ljava/util/List<org/unlogged/demo/models/Student>;" : [ {
+      "lineNumbers" : [ 24, 25, 26, 27, 29 ],
       "testAssertions" : {
-        "subAssertions" : [ ],
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "51bd97b5-6e14-4f98-aed4-ee5c95450a67",
+            "assertionType" : "EQUAL",
+            "key" : "/0/id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "string",
+            "id" : "baf633a6-dca1-4dcd-8682-92f8c3b61e25",
+            "assertionType" : "EQUAL",
+            "key" : "/0/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "MALE",
+            "id" : "6a390b85-9b45-4b8c-ac49-dfaa73f240f0",
+            "assertionType" : "EQUAL",
+            "key" : "/0/gender"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "0",
+            "id" : "54389a21-7abb-40f5-bcc3-7b470d234c55",
+            "assertionType" : "EQUAL",
+            "key" : "/0/grade"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "0ad3bdd8-cd52-4910-8f59-24fe61404358",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
         "expression" : "SELF",
-        "expectedValue" : "",
-        "id" : "705aa212-9c06-44ee-bb91-74825fc90621",
-        "assertionType" : "EQUAL",
-        "key" : "/message"
+        "expectedValue" : "true",
+        "id" : "91f56881-ce45-49ef-bdbc-c5780ba913ee",
+        "assertionType" : "ALLOF",
+        "key" : "/"
       },
-      "candidateId" : "c3eeaa00-dc41-429d-b5b5-24eece8a93ef",
-      "name" : "saved on 2024-03-04 17:39",
+      "candidateId" : "6da12e68-f673-4a3f-8319-f4e1959c77c2",
+      "name" : "saved on 2024-03-05 12:44",
       "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "655014121",
-      "returnValueClassname" : "org.springframework.data.redis.RedisConnectionFailureException",
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+      "returnValueClassname" : "java.util.ArrayList",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10659138635548,
+        "timestamp" : 27597903534952,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -584321662,
-      "probSerializedValue" : "",
-      "mockIds" : [ "5c8297c9-f5b9-4dcd-a07f-751d42e94165" ],
-      "exception" : true,
+      "sessionIdentifier" : 898236801,
+      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJuYW1lIjoic3RyaW5nIiwiZ2VuZGVyIjoiTUFMRSIsImdyYWRlIjowfV0=",
+      "mockIds" : [ "e59b88f9-63cd-4f75-9063-c0f19a4485b3" ],
+      "exception" : false,
       "method" : {
-        "name" : "deleteStudent",
-        "signature" : "(Ljava/lang/String;)Lorg/springframework/data/redis/RedisConnectionFailureException;",
+        "name" : "findAll",
+        "signature" : "()Ljava/util/List<org/unlogged/demo/models/Student>;",
         "className" : "org.unlogged.demo.service.ReactiveStudentService",
         "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;" : [ {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "c00fe4b5-8d8c-49ba-8cf8-766a4d4fedc3",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6100acb5-1c47-4b4a-ad92-08ce7c846f4d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8407db48-ed43-4fa0-a2a2-04b8d04a4c72",
+      "name" : "saved on 2024-03-05 12:44",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27553510308269,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1273479407,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "15563f3f-ce91-4418-8219-49ebd0af5160" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getStudent",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional<org/unlogged/demo/models/Student>;",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.service.ReactiveStudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "lineNumbers" : [ 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3a7f0223-2add-4132-a982-1396cb37a7ab",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0441e27d-81ec-4f90-a10a-81f4c4be51d4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "6b8bd21c-8c68-4c22-9958-15539414f84c",
+      "name" : "saved on 2024-03-05 12:44",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 27615294111027,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -853379363,
+      "probSerializedValue" : "",
+      "mockIds" : [ "d43e7356-a52e-4e5e-a2f0-dd4508cfcac7" ],
+      "exception" : false,
+      "method" : {
+        "name" : "deleteStudent",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.service.ReactiveStudentService",
+        "methodHash" : -1106784300
       }
     } ]
   },

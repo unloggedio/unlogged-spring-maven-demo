@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "io.jsonwebtoken.JwtParser#parseClaimsJws#(Ljava/lang/String;)Lio/jsonwebtoken/Jws;" : [ {
-      "id" : "7bde3247-d71a-4aec-bc28-3e3af2d9ade9",
+      "id" : "52cd61d7-64b8-4069-ac98-f03fd72ab531",
       "name" : "mock response for call to jwtParser.parseClaimsJws(token)",
       "fieldTypeName" : "io.jsonwebtoken.JwtParser",
       "sourceClassName" : "org.unlogged.demo.security.util.JwtUtil",
@@ -17,9 +17,9 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "\"{\\\"error\\\": \\\"failed to serialize object\\\", \\\"message\\\":\\\"Invalid type definition for type `io.jsonwebtoken.MalformedJwtException`: Failed to construct BeanSerializer for [simple type, class io.jsonwebtoken.MalformedJwtException]: (java.lang.IllegalArgumentException) Failed to call `setAccess()` on Field 'detailMessage' (of class `java.lang.Throwable`) due to `java.lang.reflect.InaccessibleObjectException`, problem: Unable to make field private java.lang.String java.lang.Throwable.detailMessage accessible: module java.base does not \\\"opens java.lang\\\" to unnamed module @22a67b4\\\"}\"",
+          "value" : "2036024451",
           "returnValueType" : "REAL",
-          "className" : "io.jsonwebtoken.Jws"
+          "className" : "io.jsonwebtoken.Jws<io.jsonwebtoken.Claims>"
         },
         "methodExitType" : "NORMAL"
       } ],

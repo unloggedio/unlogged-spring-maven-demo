@@ -7,38 +7,38 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "1389439460",
-          "id" : "382a33d5-bafa-4b59-9e14-0efe0eb86d25",
+          "expectedValue" : "1300104215",
+          "id" : "300746e2-25d9-431d-a5ce-398e069f9812",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "d7b2fd00-3e9e-492d-a4eb-90081aa55830",
+        "id" : "34c49c3c-dc4f-4fab-97b3-1166be4e1040",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "7d997587-70a2-4c64-9484-680ecdbae415",
-      "name" : "saved on 2024-03-04 17:07",
+      "candidateId" : "f5d68932-ab66-4c90-af6b-a1f8a1feb63f",
+      "name" : "saved on 2024-03-05 12:36",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "1389439460",
+      "returnValue" : "1300104215",
       "returnValueClassname" : "org.springframework.security.core.userdetails.UserDetails",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 9175151442331,
+        "timestamp" : 27101301252182,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -588652813,
+      "sessionIdentifier" : -1532415173,
       "probSerializedValue" : "",
-      "mockIds" : [ "6e750e30-19ab-48eb-8080-abef9036d08a" ],
+      "mockIds" : [ "b3635685-351c-449f-bb32-617cfa0af40e" ],
       "exception" : false,
       "method" : {
         "name" : "loadUserByUsername",
         "signature" : "(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;",
         "className" : "org.unlogged.demo.security.service.CustomUserDetailsService",
-        "methodHash" : 0
+        "methodHash" : 1015567679
       }
     } ]
   },

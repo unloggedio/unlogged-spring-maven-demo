@@ -8,18 +8,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "8da74fa3-d972-46a5-a58d-6a5eea895845",
+          "id" : "255c6761-bce9-47da-b942-4c3328cc733a",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "6d43636a-6487-4da7-b65f-2ef925d757f8",
+        "id" : "927fcfe6-dfa4-4255-b4fd-6045cf4e9510",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "aff91286-3b7b-44a6-a74f-073d4e1ae4a4",
-      "name" : "saved on 2024-03-04 17:38",
+      "candidateId" : "0db0f0a2-5a58-4608-aeab-e1742e11a79d",
+      "name" : "saved on 2024-03-05 12:43",
       "description" : null,
       "methodArguments" : [ "1", "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}" ],
       "returnValue" : "1",
@@ -27,10 +27,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10560170677767,
+        "timestamp" : 27532862333219,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1783006677,
+      "sessionIdentifier" : 2071661934,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -38,7 +38,7 @@
         "name" : "writeReport",
         "signature" : "(ZLorg/unlogged/demo/models/CustomerProfile;)Z",
         "className" : "org.unlogged.demo.service.LocalFileService",
-        "methodHash" : 0
+        "methodHash" : -534912295
       }
     } ]
   },

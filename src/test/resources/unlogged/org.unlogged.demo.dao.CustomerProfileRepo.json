@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.dao.CustomerProfileRepo#getByCustomerId#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
-      "id" : "1a9c5f8f-917d-400a-af43-10af4c123c77",
+      "id" : "df1b7f0a-1515-4092-b8e8-817ce75c3566",
       "name" : "mock response for call to customerProfileRepo.getByCustomerId(customerId)",
       "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
@@ -26,7 +26,7 @@
       "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#getByCustomerId#(J)Lorg/unlogged/demo/models/CustomerProfile;"
     } ],
     "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List;" : [ {
-      "id" : "21c42ea5-8a3d-4ae7-920e-83015de375c0",
+      "id" : "64e25fb8-7f04-40dd-841a-8ba154e89ff7",
       "name" : "mock response for call to customerProfileRepo.findAll()",
       "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
@@ -36,16 +36,35 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]",
+          "value" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":2,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":3,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":4,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":5,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":6,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":7,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":8,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":9,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":10,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":11,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":12,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":13,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":14,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":15,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":16,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":17,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":18,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":19,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":20,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":21,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":22,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":23,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":24,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":25,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":26,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":27,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":28,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":29,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":30,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":31,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":32,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":33,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":34,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":35,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":36,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":37,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":38,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":39,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},{\"customerid\":40,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]",
           "returnValueType" : "REAL",
-          "className" : "java.util.List"
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
         },
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List;"
     } ],
+    "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()Ljava/lang/Long;" : [ {
+      "id" : "7fd12dc6-4eec-497c-ae21-aa66abaf85e0",
+      "name" : "mock response for call to customerProfileRepo.getLastId()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "getLastId",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "40",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Long"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()Ljava/lang/Long;"
+    } ],
     "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
-      "id" : "4285f875-2f79-453c-a248-75e3ac44d2bb",
+      "id" : "c6ed96d8-4cec-4e1c-883f-6a265d2607bf",
       "name" : "mock response for call to customerProfileRepo.save(new CustomerProfile(lastId + 1, customerProfileRequest.getCustomerName(),\n                customerProfileRequest.getDateOfBirth(), customerProfileRequest.getEmail(),\n                customerProfileRequest.getPrimaryNumber(), customerProfileRequest.getAddress(),\n                customerProfileRequest.getCodes()))",
       "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
@@ -59,32 +78,13 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "value" : "{\"customerid\":41,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;"
-    } ],
-    "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()Ljava/lang/Long;" : [ {
-      "id" : "c7cc68db-fbe1-46be-b14c-a5576f430819",
-      "name" : "mock response for call to customerProfileRepo.getLastId()",
-      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
-      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
-      "fieldName" : "customerProfileRepo",
-      "methodName" : "getLastId",
-      "whenParameter" : [ ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "0",
-          "returnValueType" : "REAL",
-          "className" : "java.lang.Long"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#getLastId#()Ljava/lang/Long;"
     } ]
   }
 }

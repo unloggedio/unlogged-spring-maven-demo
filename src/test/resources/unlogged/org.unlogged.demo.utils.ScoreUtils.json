@@ -8,18 +8,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "1",
-          "id" : "d0930ac4-ffd4-45a4-a489-1bf5a2183dcb",
+          "id" : "709ccbfc-e0ce-4fe1-99b7-6597ae35abce",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "aa780636-2415-48a0-9f12-6ef9330c2a39",
+        "id" : "518c7f0e-f9b7-42ca-8595-046d87a90674",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "fce9c57b-1e4b-4466-9c38-6194f3e4b1da",
-      "name" : "saved on 2024-03-04 17:42",
+      "candidateId" : "edf88f4a-6530-479a-bb4f-f4794357f267",
+      "name" : "saved on 2024-03-05 12:47",
       "description" : null,
       "methodArguments" : [ "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}", "1" ],
       "returnValue" : "1",
@@ -27,10 +27,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 10802230959814,
+        "timestamp" : 27367531886089,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 932814579,
+      "sessionIdentifier" : -728849798,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -38,7 +38,7 @@
         "name" : "CalculateScoreForCenosCustomer",
         "signature" : "(Lorg/unlogged/demo/models/CustomerProfile;I)I",
         "className" : "org.unlogged.demo.utils.ScoreUtils",
-        "methodHash" : 0
+        "methodHash" : -2137473785
       }
     } ]
   },
