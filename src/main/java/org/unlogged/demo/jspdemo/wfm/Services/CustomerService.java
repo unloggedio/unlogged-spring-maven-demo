@@ -24,6 +24,10 @@ public class CustomerService {
         return customerProfileDao.save(saveRequest);
     }
 
+    public List<CustomerProfile> getAllCustomers() {
+        return customerProfileDao.fetchAll();
+    }
+
     public CustomerProfile removeCustomer(long customerID) {
         return customerProfileDao.removeCustomer(customerID);
     }
