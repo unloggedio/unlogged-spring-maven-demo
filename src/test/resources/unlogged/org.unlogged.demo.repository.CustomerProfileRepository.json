@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"qsqckxihui\",\"nblqhigwnu\",\"cdbmfpdlhp\",\"sigmkxrewg\",\"mbkjzwgxyp\"]}",
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"romuujgmfj\",\"wqynydsrlp\",\"muqdddpyaq\",\"hmehtpuxev\",\"mocrrptxky\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -40,7 +40,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"qsqckxihui\",\"nblqhigwnu\",\"cdbmfpdlhp\",\"sigmkxrewg\",\"mbkjzwgxyp\",\"wygpnxmskn\"]}",
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"romuujgmfj\",\"wqynydsrlp\",\"muqdddpyaq\",\"hmehtpuxev\",\"mocrrptxky\",\"eizpiowaah\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -63,7 +63,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerProfile\":{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"qsqckxihui\",\"nblqhigwnu\",\"cdbmfpdlhp\",\"sigmkxrewg\",\"mbkjzwgxyp\"]},\"score\":10,\"isEligible\":false,\"valTime\":\"Jan 1, 1970 05:30:00 am\",\"valDate\":\"Jan 1, 1970 05:30:00 am\"}",
+          "value" : "{\"customerProfile\":{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"romuujgmfj\",\"wqynydsrlp\",\"muqdddpyaq\",\"hmehtpuxev\",\"mocrrptxky\"]},\"score\":10,\"isEligible\":false,\"valTime\":\"Jan 1, 1970 05:30:00 am\",\"valDate\":\"Jan 1, 1970 05:30:00 am\"}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerScoreCard"
         },
@@ -86,7 +86,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"qsqckxihui\",\"nblqhigwnu\",\"cdbmfpdlhp\",\"sigmkxrewg\",\"mbkjzwgxyp\",\"wygpnxmskn\"]}",
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"romuujgmfj\",\"wqynydsrlp\",\"muqdddpyaq\",\"hmehtpuxev\",\"mocrrptxky\",\"eizpiowaah\"]}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.CustomerProfile"
         },
@@ -112,6 +112,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#getAsianCustomers#()Ljava.util.List<Lorg.unlogged.demo.models.CustomerProfile;>;"
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#removeCustomer#(J)Lorg.unlogged.demo.models.CustomerProfile;" : [ {
+      "id" : "273b3643-3574-4ae6-9e9b-862bf5e11e51",
+      "name" : "mock response for call to customerProfileRepository.removeCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":1,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"romuujgmfj\",\"wqynydsrlp\",\"muqdddpyaq\",\"hmehtpuxev\",\"mocrrptxky\",\"eizpiowaah\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#removeCustomer#(J)Lorg.unlogged.demo.models.CustomerProfile;"
     } ]
   }
 }
