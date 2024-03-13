@@ -5,10 +5,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.CustomerScoreCard;
+import org.unlogged.demo.models.CustomerScoreCardMap;
 import org.unlogged.demo.service.CustomerService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/customer")
@@ -42,4 +45,11 @@ public class CustomerController {
         return customerService.isCustomerEligibleForPremium(customerID);
     }
 
+    public CustomerProfile getDummyProfile(CustomerProfile customerProfile) {
+        return customerService.getBackProfile(customerProfile);
+    }
+
+    public List<CustomerScoreCardMap> getScoreMaps() {
+        return customerService.getDummyScoreMaps();
+    }
 }

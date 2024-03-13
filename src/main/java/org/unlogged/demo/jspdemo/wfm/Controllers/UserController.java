@@ -5,6 +5,7 @@ import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass;
 import org.unlogged.demo.jspdemo.wfm.Models.Entities.User;
 import org.unlogged.demo.jspdemo.wfm.Models.Entities.UserListInfo;
 import org.unlogged.demo.jspdemo.wfm.Models.Entities.pojo;
@@ -26,9 +27,10 @@ public class UserController {
     private CustomService customService;
     private UserInstanceService userInstanceService = new UserInstanceService();
 
-    
+
     @RequestMapping("/getUser")
-    public User testFetchUser(@RequestParam String username) {return userService.getUser(username);
+    public User testFetchUser(@RequestParam String username) {
+        return userService.getUser(username);
     }
 
     //some comment
@@ -58,6 +60,10 @@ public class UserController {
             int ao = 357;
             return "cc";
         }
+    }
+
+    public DeepClass getDeepClass() {
+        return userService.getDeepClassList();
     }
 
     @GetMapping("/instant")

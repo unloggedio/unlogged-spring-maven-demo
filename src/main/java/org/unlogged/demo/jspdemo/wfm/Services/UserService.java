@@ -4,9 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository;
+import org.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass;
 import org.unlogged.demo.jspdemo.wfm.Models.Entities.User;
 import org.unlogged.demo.jspdemo.wfm.Models.Entities.UserListInfo;
 
+import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -15,15 +17,14 @@ public class UserService {
 
     @Autowired
     UsersRepository usersRepository;
-    public User getUser(String username)
-    {
-        User u =  usersRepository.getUserByUsername(username);
+
+    public User getUser(String username) {
+        User u = usersRepository.getUserByUsername(username);
         //some comment
         return u;
     }
 
-    public void addUser(User user)
-    {
+    public void addUser(User user) {
         usersRepository.save(user);
     }
 
@@ -42,11 +43,16 @@ public class UserService {
     }
 
     public UserListInfo getULO() {
-        return new UserListInfo(0,usersRepository.findAll());
+        return new UserListInfo(0, usersRepository.findAll());
     }
 
     public int getNumber() {
         return 14;
+    }
+
+    public DeepClass getDeepClassList() {
+        List<User> usersList = Arrays.asList(new User(), new User(1, "a", "a", "a"));
+        return new DeepClass(usersList);
     }
 }
 

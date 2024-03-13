@@ -1,6 +1,9 @@
 package org.unlogged.demo.jspdemo.wfm.Models.Entities;
 
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import java.util.Arrays;
 import java.util.List;
 
 public class DeepClass {
@@ -8,9 +11,18 @@ public class DeepClass {
     float f = 12.0f;
     double d = 24.0;
     String e = "e";
-    private List<DeepClass> listOfPojos;
+    private List<DeepNode> listOfPojos;
     private User user;
     private List<User> users;
+
+    public DeepClass(List<User> users) {
+        this.users = users;
+        this.user = users.get(0);
+
+        this.listOfPojos = users.stream().map(e -> {
+            return new DeepNode(this, e);
+        }).toList();
+    }
 
     public boolean getE() {
         return true;
@@ -18,11 +30,14 @@ public class DeepClass {
 
     @Override
     public String toString() {
-        return "pojoF{" +
+        return "DeepClass{" +
                 "x=" + x +
                 ", f=" + f +
                 ", d=" + d +
                 ", e='" + e + '\'' +
+                ", listOfPojos=" + listOfPojos +
+                ", user=" + user +
+                ", users=" + users +
                 '}';
     }
 }

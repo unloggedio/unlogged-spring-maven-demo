@@ -90,8 +90,8 @@ public class InternalClassController {
         ModelMapper mm = new ModelMapper();
         mm.addConverter(myConverter);
         ItemData dd = new ItemData();
-        dd.setName("fido");
-        dd.setMass(70);
+        dd.setName("dodo");
+        dd.setMass(64);
         ItemInfo di = mm.map(dd, ItemInfo.class);
         return di;
     }

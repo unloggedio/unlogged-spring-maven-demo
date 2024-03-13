@@ -2,15 +2,18 @@ package org.unlogged.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.unlogged.demo.Customer;
 import org.unlogged.demo.constants.ScoreConstants;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.models.CustomerProfile;
+import org.unlogged.demo.models.CustomerScoreCardMap;
 import org.unlogged.demo.repository.CustomerProfileRepository;
 import org.unlogged.demo.utils.ScoreUtils;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.CustomerScoreCard;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
@@ -28,7 +31,7 @@ public class CustomerService {
         return profile;
     }
 
-    public CustomerScoreCard getCustomerScoreCard (long customerId){
+    public CustomerScoreCard getCustomerScoreCard(long customerId) {
         CustomerScoreCard customerScoreCard = customerProfileRepository.fetchCustomerScoreCard(customerId);
         return customerScoreCard;
     }
@@ -130,5 +133,30 @@ public class CustomerService {
             }
         }
         return eligibleCustomers;
+    }
+
+    public CustomerProfile getBackProfile(CustomerProfile customerProfile) {
+        return customerProfile;
+    }
+
+    public List<CustomerScoreCardMap> getDummyScoreMaps() {
+        CustomerProfile c = new CustomerProfile();
+        CustomerProfile c1 = new CustomerProfile(1, "1", "1", "1", "1", "1", new ArrayList<>());
+        CustomerScoreCard customerScoreCard = new CustomerScoreCard(c, 0, false);
+        CustomerScoreCard customerScoreCard1 = new CustomerScoreCard(c1, 100, true);
+
+        List<CustomerScoreCard> scoreCards = Arrays.asList(customerScoreCard, customerScoreCard1);
+        CustomerScoreCardMap map1 = new CustomerScoreCardMap(scoreCards);
+
+        CustomerProfile c2 = new CustomerProfile();
+        CustomerProfile c3 = new CustomerProfile(2, "2", "2", "2", "2", "2", new ArrayList<>());
+        CustomerScoreCard customerScoreCard2 = new CustomerScoreCard(c, 44, false);
+        CustomerScoreCard customerScoreCard3 = new CustomerScoreCard(c1, 56, true);
+
+
+        List<CustomerScoreCard> scoreCards2 = Arrays.asList(customerScoreCard2, customerScoreCard3);
+        CustomerScoreCardMap map2 = new CustomerScoreCardMap(scoreCards2);
+
+        return Arrays.asList(map1, map2);
     }
 }

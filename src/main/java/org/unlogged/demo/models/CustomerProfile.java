@@ -5,7 +5,9 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+
 @Entity
 @Table(name = "customerprofile")
 public class CustomerProfile {
@@ -17,6 +19,9 @@ public class CustomerProfile {
     private String contactnumber;
     private String address;
     private List<String> referralcodes;
+
+    private Date createdDate = new Date();
+    private Date updatedDate = new Date();
 
     public CustomerProfile() {
     }
@@ -87,16 +92,34 @@ public class CustomerProfile {
         this.referralcodes = referralcodes;
     }
 
+    public Date getCreatedDate() {
+        return createdDate;
+    }
+
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
+    }
+
+    public Date getUpdatedDate() {
+        return updatedDate;
+    }
+
+    public void setUpdatedDate(Date updatedDate) {
+        this.updatedDate = updatedDate;
+    }
+
     @Override
     public String toString() {
         return "CustomerProfile{" +
-                "customerId=" + customerid +
-                ", customerName='" + customername + '\'' +
-                ", dateOfBirth=" + dateofbirth +
+                "customerid=" + customerid +
+                ", customername='" + customername + '\'' +
+                ", dateofbirth='" + dateofbirth + '\'' +
                 ", email='" + email + '\'' +
-                ", contactNumbers=" + contactnumber +
+                ", contactnumber='" + contactnumber + '\'' +
                 ", address='" + address + '\'' +
-                ", referralCodes=" + referralcodes +
+                ", referralcodes=" + referralcodes +
+                ", createdDate=" + createdDate +
+                ", updatedDate=" + updatedDate +
                 '}';
     }
 }
