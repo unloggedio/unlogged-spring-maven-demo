@@ -19,7 +19,7 @@
         "key" : null
       },
       "candidateId" : "f1b2772c-0279-44be-b399-5dcbd3b73f26",
-      "name" : "getDeepClass saved on 2024-03-13 15:18",
+      "name" : "Issue 684",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "2147366202",

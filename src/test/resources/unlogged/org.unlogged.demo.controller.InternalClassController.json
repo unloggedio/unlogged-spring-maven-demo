@@ -26,10 +26,10 @@
         "key" : "/"
       },
       "candidateId" : "c4de47d9-3e56-4102-8be9-6d7e496bb56e",
-      "name" : "cmm saved on 2024-03-13 15:17",
+      "name" : "Issue 655",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "{\"name\":\"dodo\",\"large\":false}",
+      "returnValue" : "{\"name\":\"dodo\",\"large\":true}",
       "returnValueClassname" : "org.unlogged.demo.models.ItemInfo",
       "metadata" : {
         "recordedBy" : "testerfresher",
