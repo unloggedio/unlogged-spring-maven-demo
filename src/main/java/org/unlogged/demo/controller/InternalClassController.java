@@ -5,6 +5,11 @@ import lombok.Getter;
 import org.hibernate.SessionFactory;
 import org.joda.time.DateTime;
 import org.joda.time.Instant;
+import org.modelmapper.Converter;
+import org.modelmapper.ModelMapper;
+import org.modelmapper.spi.MappingContext;
+import org.unlogged.demo.models.ItemData;
+import org.unlogged.demo.models.ItemInfo;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -69,5 +74,25 @@ public class InternalClassController {
 
     public char returnChar(char c) {
         return c;
+    }
+
+    Converter<ItemData, ItemInfo> myConverter = new Converter<ItemData, ItemInfo>() {
+        public ItemInfo convert(MappingContext<ItemData, ItemInfo> context) {
+            ItemData s = context.getSource();
+            ItemInfo d = context.getDestination();
+            d.setName(s.getName());
+            d.setLarge(s.getMass() > 25);
+            return d;
+        }
+    };
+
+    public ItemInfo cmm() {
+        ModelMapper mm = new ModelMapper();
+        mm.addConverter(myConverter);
+        ItemData dd = new ItemData();
+        dd.setName("fido");
+        dd.setMass(70);
+        ItemInfo di = mm.map(dd, ItemInfo.class);
+        return di;
     }
 }

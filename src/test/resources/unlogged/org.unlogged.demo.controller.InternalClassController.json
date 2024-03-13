@@ -252,7 +252,54 @@
         "name" : "returnChar",
         "signature" : "(C)C",
         "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 672948653
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#cmm#()Lorg.unlogged.demo.models.ItemInfo;" : [ {
+      "lineNumbers" : [ 90, 92, 93, 94, 95, 96 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"fido\"",
+          "id" : "34958009-de9d-4713-8e58-6fef06c58fd2",
+          "assertionType" : "EQUAL",
+          "key" : "/name"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "895a212a-4c3c-4fcb-ac84-a65bd21b0338",
+          "assertionType" : "EQUAL",
+          "key" : "/large"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "57c648cd-c511-477d-aae3-94a623028fef",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "85e43e94-4f80-428f-9491-818c1e9f862d",
+      "name" : "Issue - 655 - Custom converter for model mapper",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"name\":\"fido\",\"large\":false}",
+      "returnValueClassname" : "org.unlogged.demo.models.ItemInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 12950081478549,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -129261129,
+      "probSerializedValue" : "eyJuYW1lIjoiZmlkbyIsImxhcmdlIjpmYWxzZX0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "cmm",
+        "signature" : "()Lorg.unlogged.demo.models.ItemInfo;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : -1523015169
       }
     } ]
   },
