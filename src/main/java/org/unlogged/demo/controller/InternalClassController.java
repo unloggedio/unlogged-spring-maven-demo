@@ -11,10 +11,7 @@ import org.modelmapper.spi.MappingContext;
 import org.unlogged.demo.models.ItemData;
 import org.unlogged.demo.models.ItemInfo;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class InternalClassController {
@@ -94,5 +91,9 @@ public class InternalClassController {
         dd.setMass(64);
         ItemInfo di = mm.map(dd, ItemInfo.class);
         return di;
+    }
+
+    public <T> List<T> getListFromArray(T[] ips) {
+        return Arrays.asList(ips);
     }
 }
