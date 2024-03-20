@@ -1,0 +1,51 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;" : [ {
+      "id" : "78249381-939d-45ec-ad1c-09875be4296b",
+      "name" : "mock response for call to thirdPartyService.getWeatherFor(location)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
+      "fieldName" : "thirdPartyService",
+      "methodName" : "getWeatherFor",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"location\":{\"name\":\"The String\",\"region\":\"Idaho\",\"country\":\"United States of America\",\"lat\":43.58,\"lon\":-111.09,\"tz_id\":\"America/Boise\",\"localtime_epoch\":1710916814,\"localtime\":\"2024-03-20 0:40\"},\"current\":{\"temp_c\":-1.1,\"temp_f\":30.0,\"is_day\":0,\"condition\":{\"text\":\"Clear\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/113.png\",\"code\":1000},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":330,\"wind_dir\":\"NNW\",\"pressure_mb\":1019.0,\"pressure_in\":30.08,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":78,\"cloud\":0,\"feelslike_c\":-2.9,\"feelslike_f\":26.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":6.6,\"gust_kph\":10.6}}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;"
+    }, {
+      "id" : "5b18c078-8895-49c9-943d-bda8707ad7f4",
+      "name" : "mock response for call to thirdPartyService.getWeatherFor(\"Bangalore\")",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
+      "fieldName" : "thirdPartyService",
+      "methodName" : "getWeatherFor",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"Bangalore\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"location\":{\"name\":\"The String\",\"region\":\"Idaho\",\"country\":\"United States of America\",\"lat\":43.58,\"lon\":-111.09,\"tz_id\":\"America/Boise\",\"localtime_epoch\":1710916814,\"localtime\":\"2024-03-20 0:40\"},\"current\":{\"temp_c\":-1.1,\"temp_f\":30.0,\"is_day\":0,\"condition\":{\"text\":\"Clear\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/113.png\",\"code\":1000},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":330,\"wind_dir\":\"NNW\",\"pressure_mb\":1019.0,\"pressure_in\":30.08,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":78,\"cloud\":0,\"feelslike_c\":-2.9,\"feelslike_f\":26.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":6.6,\"gust_kph\":10.6}}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;"
+    } ]
+  }
+}

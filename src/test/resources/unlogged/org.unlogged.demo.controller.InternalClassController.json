@@ -45,7 +45,254 @@
         "name" : "cmm",
         "signature" : "()Lorg.unlogged.demo.models.ItemInfo;",
         "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 1013538306
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#getTimeObjects#()Ljava/util/List<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 34, 35, 36, 37, 38, 39, 40, 41 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2024-03-20T11:48:35.443+05:30\"",
+          "id" : "96c836d9-9b06-42b9-99df-3cb5a65d2f57",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2024-03-20T06:18:35.466Z\"",
+          "id" : "14c570a5-2ed5-44e5-a4f9-0183c67ef7b8",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2024-03-20T06:18:35.467034Z\"",
+          "id" : "cf74cfca-9905-4b29-8ed0-ee6cec63fa59",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "8f0b463e-f7ff-4c08-9e64-489b2c48962d",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "3178b42c-bc7a-456c-814c-48e91e53b341",
+      "name" : "getTimeObjects saved on 2024-03-20 11:48",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"2024-03-20T11:48:35.443+05:30\",\"2024-03-20T06:18:35.466Z\",\"2024-03-20T06:18:35.467034Z\"]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5242095079774,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -370869772,
+      "probSerializedValue" : "WyIyMDI0LTAzLTIwVDExOjQ4OjM1LjQ0MyswNTozMCIsIjIwMjQtMDMtMjBUMDY6MTg6MzUuNDY2WiIsIjIwMjQtMDMtMjBUMDY6MTg6MzUuNDY3MDM0WiJd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getTimeObjects",
+        "signature" : "()Ljava/util/List<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#getMapValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 54 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"key4\"",
+          "id" : "dbccf4b7-3767-43bd-b8c1-2bd12920ba96",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1e97906c-894c-417b-ac3e-045b2b33c35e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5216f423-b623-4cf1-a55b-488ad9f6f961",
+      "name" : "getMapValue saved on 2024-03-20 11:49",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"key4\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5263282772581,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 79160309,
+      "probSerializedValue" : "ImtleTQi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getMapValue",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#filterList#(Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 58 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "466801ee-56f0-48c4-b3cf-24907e5cfeb4",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ea2d24b4-8eec-42b8-b2c9-5e5d310c7192",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "8a1e098a-81fa-4e60-9533-9946c323f4d0",
+      "name" : "filterList saved on 2024-03-20 11:49",
+      "description" : null,
+      "methodArguments" : [ "[\"string\"]" ],
+      "returnValue" : "[\"string\"]",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5277816636076,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -351282118,
+      "probSerializedValue" : "WyJzdHJpbmciXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterList",
+        "signature" : "(Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#configureMapper#(Lcom/fasterxml/jackson/databind/ObjectMapper;)Lcom/fasterxml/jackson/databind/ObjectMapper;" : [ {
+      "lineNumbers" : [ 62, 63 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1018740727",
+          "id" : "b8d1ca78-0ad2-4873-be1a-03bacad4ea8b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "55ce363c-f08e-4154-9cef-767226a791db",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7eda313e-050c-4ff8-bb92-b97d27db068e",
+      "name" : "configureMapper saved on 2024-03-20 11:49",
+      "description" : null,
+      "methodArguments" : [ "1018740727" ],
+      "returnValue" : "1018740727",
+      "returnValueClassname" : "com.fasterxml.jackson.databind.ObjectMapper",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5309979039051,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1894981105,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "configureMapper",
+        "signature" : "(Lcom/fasterxml/jackson/databind/ObjectMapper;)Lcom/fasterxml/jackson/databind/ObjectMapper;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#setSessionFactory#(Lorg/hibernate/SessionFactory;)V" : [ {
+      "lineNumbers" : [ 69, 70 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2b631681-9417-4095-b130-68a8f1c783b8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "3285c0e2-e101-40fa-bc2e-1aa8679fc4f1",
+      "name" : "setSessionFactory saved on 2024-03-20 11:50",
+      "description" : null,
+      "methodArguments" : [ "{}" ],
+      "returnValue" : "0",
+      "returnValueClassname" : null,
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5329192254726,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 618500184,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "setSessionFactory",
+        "signature" : "(Lorg/hibernate/SessionFactory;)V",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#returnChar#(C)C" : [ {
+      "lineNumbers" : [ 73 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "97",
+          "id" : "266f3025-9e1e-45ae-a74f-0bec531965de",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bd8106c0-0bb5-4f84-b67b-145a95b9cecc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "14fbe368-7586-4e06-a20c-f4192840ad2f",
+      "name" : "returnChar saved on 2024-03-20 11:50",
+      "description" : null,
+      "methodArguments" : [ "97" ],
+      "returnValue" : "97",
+      "returnValueClassname" : "C",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 5344631133547,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1773656227,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "returnChar",
+        "signature" : "(C)C",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 672948653
       }
     } ]
   },

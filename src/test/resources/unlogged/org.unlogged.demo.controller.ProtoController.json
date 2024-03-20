@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.controller.ProtoController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ProtoController#toJson#(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 66 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+          "id" : "4e9c39f4-fbe9-4050-b43e-3b5cf7f73a72",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "4c931076-7ee7-4f55-ba38-e7733164c510",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e4664666-f518-4d69-9f27-24dcf135fd3e",
+      "name" : "toJson saved on 2024-03-20 12:02",
+      "description" : null,
+      "methodArguments" : [ "{\"builderParent\":null,\"meAsParent\":null,\"isClean\":false,\"unknownFieldsOrBuilder\":{\"fields\":{}},\"bitField0_\":1,\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"peopleBuilder_\":null}" ],
+      "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 6044368846976,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -972306826,
+      "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "toJson",
+        "signature" : "(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 2113503672
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

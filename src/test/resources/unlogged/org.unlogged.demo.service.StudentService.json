@@ -1,0 +1,117 @@
+{
+  "classname" : "org.unlogged.demo.service.StudentService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "id" : "bce7f432-7623-44dc-b885-83f4c8c565c0",
+      "name" : "mock response for call to studentService.createStudent(student)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "createStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z"
+    } ],
+    "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/Student;>;" : [ {
+      "id" : "80a0f248-f4a2-444b-a897-822188f013c8",
+      "name" : "mock response for call to studentService.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/Student;>;"
+    } ],
+    "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/Student;>;" : [ {
+      "id" : "af2aa465-6ca1-4965-a952-6f14514060e6",
+      "name" : "mock response for call to studentService.getStudent(id)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "getStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/Student;>;"
+    } ],
+    "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
+      "id" : "6476db6d-797d-4606-ab74-d4b6360b9513",
+      "name" : "mock response for call to studentService.updateStudent(student)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "updateStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z"
+    } ],
+    "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "id" : "1dd49347-e124-4903-805a-bf70ba85775b",
+      "name" : "mock response for call to studentService.deleteStudent(id)",
+      "fieldTypeName" : "org.unlogged.demo.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "deleteStudent",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z"
+    } ]
+  }
+}

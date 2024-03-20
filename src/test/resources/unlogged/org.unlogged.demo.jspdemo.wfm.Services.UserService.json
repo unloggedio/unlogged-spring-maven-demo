@@ -20,6 +20,98 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#many#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "395bf462-fa80-46cf-80fa-bb6f642f3599",
+      "name" : "mock response for call to userService.many(\"b\", \"b\", \"c\", \"d\")",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "many",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"b\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"b\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"c\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"d\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"some1\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#many#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getAllUsers#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "id" : "4cbe9070-b9fa-40a3-91ca-882f2ffb5aa4",
+      "name" : "mock response for call to userService.getAllUsers()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getAllUsers",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"},{\"user_id\":99,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.jspdemo.wfm.Models.Entities.User>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getAllUsers#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getULO#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/UserListInfo;" : [ {
+      "id" : "34c09a44-c37a-424a-b3ec-9f9a8160d9f3",
+      "name" : "mock response for call to userService.getULO()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getULO",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":0,\"users\":[{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"},{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"},{\"user_id\":99,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.UserListInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getULO#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/UserListInfo;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getNumber#()I" : [ {
+      "id" : "a532c05d-8fe1-445f-98f5-0acc45730fdc",
+      "name" : "mock response for call to userService.getNumber()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getNumber",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "14",
+          "returnValueType" : "REAL",
+          "className" : "int"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getNumber#()I"
     } ]
   }
 }
