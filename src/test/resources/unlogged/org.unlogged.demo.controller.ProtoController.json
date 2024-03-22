@@ -1,6 +1,198 @@
 {
   "classname" : "org.unlogged.demo.controller.ProtoController",
   "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/protos/generated/AddressBook;" : [ {
+      "lineNumbers" : [ 42, 43, 44, 45, 535, 536, 539, 540, 541, 545, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 1197, 1204, 1205, 226, 233, 234, 300, 301, 304, 309, 310, 311, 312, 313, 87, 88, 89, 91, 92, 1524, 1525, 1526, 1527, 1528, 233, 234, 1204, 1205 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "12bfe6dd-c73f-46fa-8f6b-9a251115e8cf",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedHashCode"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "-1",
+          "id" : "2465aac4-cebe-47e1-9088-08d1de38c834",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedSize"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "d5939aa6-6cf1-4ed0-800f-028ade8c37e5",
+            "assertionType" : "ALLOF",
+            "key" : "/unknownFields/fields"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3a19e857-95ec-47fd-a065-b01d91d68fe8",
+          "assertionType" : "ALLOF",
+          "key" : "/unknownFields"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "d25ee0f9-1084-4023-84cf-1d0568299b82",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedHashCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "-1",
+              "id" : "2a5eb5a8-0462-442e-b59c-448c3b5d58ee",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedSize"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "05bbd32d-8561-466e-870d-67781a369815",
+                "assertionType" : "ALLOF",
+                "key" : "/people_/0/unknownFields/fields"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "f7bdcedd-f130-4ec7-a281-53fe770f9f6a",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/unknownFields"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "2f3a6b33-b952-4d45-9f30-15bfa4dabb76",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/bitField0_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Amg\"",
+              "id" : "48e83a13-4e92-4a28-97a0-905754a52767",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/name_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "ffe5f161-ae7c-4f28-89cf-805efd5490d1",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/id_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"\"",
+              "id" : "ee09435a-37ef-4b92-bd44-224ee23f03b1",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/email_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "369daafa-8965-48c5-b0f9-72415de89e7c",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/phones_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "3d7677d2-bc50-4f48-8ab7-446d6220aad9",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedIsInitialized"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "28414b3c-dc35-4571-a322-4a428f05bc35",
+            "assertionType" : "ALLOF",
+            "key" : "/people_/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "4f1c5e9b-22af-400c-81e4-af3a74eb433d",
+          "assertionType" : "ALLOF",
+          "key" : "/people_"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "c087fbcd-35f6-499d-940c-f7e43374dd10",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedIsInitialized"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "a52cfb99-6b23-47c8-ab6e-3ae593a2675f",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "88fa7f25-f882-4625-9cf8-3ccf90af4fb7",
+      "name" : "getAddressbook saved on 2024-03-21 11:47",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+      "returnValueClassname" : "org.unlogged.demo.protos.generated.AddressBook",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 32437160405502,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1871387735,
+      "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAddressbook",
+        "signature" : "()Lorg/unlogged/demo/protos/generated/AddressBook;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ProtoController#convertAddressBook#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 60, 61, 1524, 1525, 1526, 1527, 1528, 569, 570, 571, 572, 576, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 1197, 1204, 1205, 226, 233, 234, 233, 234, 1204, 1205 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+          "id" : "1b3c6964-f571-4e7a-9e32-94e255919aeb",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "4a409416-fa25-4249-a49d-01c8c0d6720b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "bcb9b8be-8136-4556-a6be-2d2f6c360874",
+      "name" : "convertAddressBook saved on 2024-03-21 11:47",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 32453061269965,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1906507855,
+      "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "convertAddressBook",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 0
+      }
+    } ],
     "org.unlogged.demo.controller.ProtoController#toJson#(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;" : [ {
       "lineNumbers" : [ 66 ],
       "testAssertions" : {
@@ -8,18 +200,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
-          "id" : "4e9c39f4-fbe9-4050-b43e-3b5cf7f73a72",
+          "id" : "2a57054f-7473-4131-bcfc-dcba501bc513",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "4c931076-7ee7-4f55-ba38-e7733164c510",
+        "id" : "a4922ee3-de70-406f-9402-5a96ee89cab9",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "e4664666-f518-4d69-9f27-24dcf135fd3e",
-      "name" : "toJson saved on 2024-03-20 12:02",
+      "candidateId" : "3a9ae06c-3eca-48b4-b000-3f5ea68b3d39",
+      "name" : "toJson saved on 2024-03-21 11:47",
       "description" : null,
       "methodArguments" : [ "{\"builderParent\":null,\"meAsParent\":null,\"isClean\":false,\"unknownFieldsOrBuilder\":{\"fields\":{}},\"bitField0_\":1,\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"peopleBuilder_\":null}" ],
       "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
@@ -27,10 +219,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 6044368846976,
+        "timestamp" : 32453062886241,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -972306826,
+      "sessionIdentifier" : 993529328,
       "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
       "mockIds" : [ ],
       "exception" : false,

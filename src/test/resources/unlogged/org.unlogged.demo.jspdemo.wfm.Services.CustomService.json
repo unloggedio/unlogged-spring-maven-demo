@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Services.CustomService#getValue#()Ljava/lang/String;" : [ {
-      "id" : "d0a74eaf-7190-43b4-9ade-2dd33802b85f",
+      "id" : "ecf15eea-38e1-41cc-b39b-fbfd41775362",
       "name" : "mock response for call to customService.getValue()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",

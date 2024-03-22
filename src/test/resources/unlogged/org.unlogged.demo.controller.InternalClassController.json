@@ -1,98 +1,51 @@
 {
   "classname" : "org.unlogged.demo.controller.InternalClassController",
   "storedCandidateMap" : {
-    "org.unlogged.demo.controller.InternalClassController#cmm#()Lorg.unlogged.demo.models.ItemInfo;" : [ {
-      "lineNumbers" : [ 90, 92, 93, 94, 95, 96 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"dodo\"",
-          "id" : "c46a0739-0eb0-4f78-b1b4-99590ad7d0d6",
-          "assertionType" : "EQUAL",
-          "key" : "/name"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "false",
-          "id" : "4e4bfc07-3508-4b59-9681-e72efe881d81",
-          "assertionType" : "EQUAL",
-          "key" : "/large"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : "true",
-        "id" : "a88fedc8-aef8-4273-bd2c-34fd7a4d2ee7",
-        "assertionType" : "ALLOF",
-        "key" : "/"
-      },
-      "candidateId" : "c4de47d9-3e56-4102-8be9-6d7e496bb56e",
-      "name" : "Issue 655",
-      "description" : null,
-      "methodArguments" : [ ],
-      "returnValue" : "{\"name\":\"dodo\",\"large\":true}",
-      "returnValueClassname" : "org.unlogged.demo.models.ItemInfo",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 17827338051220,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 224986945,
-      "probSerializedValue" : "eyJuYW1lIjoiZG9kbyIsImxhcmdlIjpmYWxzZX0=",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "cmm",
-        "signature" : "()Lorg.unlogged.demo.models.ItemInfo;",
-        "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 0
-      }
-    } ],
     "org.unlogged.demo.controller.InternalClassController#getTimeObjects#()Ljava/util/List<Ljava/lang/String;>;" : [ {
       "lineNumbers" : [ 34, 35, 36, 37, 38, 39, 40, 41 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-03-20T11:48:35.443+05:30\"",
-          "id" : "96c836d9-9b06-42b9-99df-3cb5a65d2f57",
+          "expectedValue" : "\"2024-03-21T11:43:42.136+05:30\"",
+          "id" : "8c4f64e4-f922-4b89-a19e-049c816ce95d",
           "assertionType" : "EQUAL",
           "key" : "/0"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-03-20T06:18:35.466Z\"",
-          "id" : "14c570a5-2ed5-44e5-a4f9-0183c67ef7b8",
+          "expectedValue" : "\"2024-03-21T06:13:42.156Z\"",
+          "id" : "3c5152aa-ac10-4490-b30a-1cc6d0e91db6",
           "assertionType" : "EQUAL",
           "key" : "/1"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-03-20T06:18:35.467034Z\"",
-          "id" : "cf74cfca-9905-4b29-8ed0-ee6cec63fa59",
+          "expectedValue" : "\"2024-03-21T06:13:42.156680Z\"",
+          "id" : "6ebc3e3a-8402-46cf-a9b7-9d3224bff76a",
           "assertionType" : "EQUAL",
           "key" : "/2"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "8f0b463e-f7ff-4c08-9e64-489b2c48962d",
+        "id" : "f0938c83-e992-45c7-8d44-c9e64c701cbc",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "3178b42c-bc7a-456c-814c-48e91e53b341",
-      "name" : "getTimeObjects saved on 2024-03-20 11:48",
+      "candidateId" : "a5dce33d-2c41-48cd-a6eb-1b192526e373",
+      "name" : "getTimeObjects saved on 2024-03-21 11:43",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "[\"2024-03-20T11:48:35.443+05:30\",\"2024-03-20T06:18:35.466Z\",\"2024-03-20T06:18:35.467034Z\"]",
+      "returnValue" : "[\"2024-03-21T11:43:42.136+05:30\",\"2024-03-21T06:13:42.156Z\",\"2024-03-21T06:13:42.156680Z\"]",
       "returnValueClassname" : "java.util.ArrayList",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5242095079774,
+        "timestamp" : 32227250234155,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -370869772,
-      "probSerializedValue" : "WyIyMDI0LTAzLTIwVDExOjQ4OjM1LjQ0MyswNTozMCIsIjIwMjQtMDMtMjBUMDY6MTg6MzUuNDY2WiIsIjIwMjQtMDMtMjBUMDY6MTg6MzUuNDY3MDM0WiJd",
+      "sessionIdentifier" : -71810664,
+      "probSerializedValue" : "WyIyMDI0LTAzLTIxVDExOjQzOjQyLjEzNiswNTozMCIsIjIwMjQtMDMtMjFUMDY6MTM6NDIuMTU2WiIsIjIwMjQtMDMtMjFUMDY6MTM6NDIuMTU2NjgwWiJd",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
@@ -109,18 +62,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"key4\"",
-          "id" : "dbccf4b7-3767-43bd-b8c1-2bd12920ba96",
+          "id" : "bfb7376c-0db5-4fa5-8fb3-efe16b8fda7b",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "1e97906c-894c-417b-ac3e-045b2b33c35e",
+        "id" : "e2e37fbf-7447-451e-aba8-e7d2b6c60f11",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "5216f423-b623-4cf1-a55b-488ad9f6f961",
-      "name" : "getMapValue saved on 2024-03-20 11:49",
+      "candidateId" : "e7f69093-0bc3-4d20-92fc-bdd7d8a50728",
+      "name" : "getMapValue saved on 2024-03-21 11:44",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "\"key4\"",
@@ -128,10 +81,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5263282772581,
+        "timestamp" : 32240467817397,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 79160309,
+      "sessionIdentifier" : -1293516711,
       "probSerializedValue" : "ImtleTQi",
       "mockIds" : [ ],
       "exception" : false,
@@ -149,18 +102,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"string\"",
-          "id" : "466801ee-56f0-48c4-b3cf-24907e5cfeb4",
+          "id" : "591b0a87-4230-4e7d-9392-c1adb03c3f0c",
           "assertionType" : "EQUAL",
           "key" : "/0"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "ea2d24b4-8eec-42b8-b2c9-5e5d310c7192",
+        "id" : "939aa454-6d63-4b0d-a853-aa562cf7a304",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "8a1e098a-81fa-4e60-9533-9946c323f4d0",
-      "name" : "filterList saved on 2024-03-20 11:49",
+      "candidateId" : "87a97e25-70ba-4723-8949-f1b2d596f118",
+      "name" : "filterList saved on 2024-03-21 11:44",
       "description" : null,
       "methodArguments" : [ "[\"string\"]" ],
       "returnValue" : "[\"string\"]",
@@ -168,10 +121,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5277816636076,
+        "timestamp" : 32254914896232,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -351282118,
+      "sessionIdentifier" : 1383753006,
       "probSerializedValue" : "WyJzdHJpbmciXQ==",
       "mockIds" : [ ],
       "exception" : false,
@@ -188,30 +141,30 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "1018740727",
-          "id" : "b8d1ca78-0ad2-4873-be1a-03bacad4ea8b",
+          "expectedValue" : "1210071024",
+          "id" : "4dd95b07-a7bd-4538-ba05-6371178b39ca",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "55ce363c-f08e-4154-9cef-767226a791db",
+        "id" : "478bcf52-56e4-43b5-91af-1f88bb4db59b",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "7eda313e-050c-4ff8-bb92-b97d27db068e",
-      "name" : "configureMapper saved on 2024-03-20 11:49",
+      "candidateId" : "4798dc8c-2d31-4f0c-a2c2-ded0107c030e",
+      "name" : "configureMapper saved on 2024-03-21 11:44",
       "description" : null,
-      "methodArguments" : [ "1018740727" ],
-      "returnValue" : "1018740727",
+      "methodArguments" : [ "1210071024" ],
+      "returnValue" : "1210071024",
       "returnValueClassname" : "com.fasterxml.jackson.databind.ObjectMapper",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5309979039051,
+        "timestamp" : 32271038640202,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1894981105,
+      "sessionIdentifier" : 514090346,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -222,77 +175,37 @@
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.controller.InternalClassController#setSessionFactory#(Lorg/hibernate/SessionFactory;)V" : [ {
-      "lineNumbers" : [ 69, 70 ],
+    "org.unlogged.demo.controller.InternalClassController#cmm#()Lorg/unlogged/demo/models/ItemInfo;" : [ {
+      "lineNumbers" : [ 87, 88, 89, 90, 91, 92, 93 ],
       "testAssertions" : {
         "subAssertions" : [ ],
         "expression" : "SELF",
-        "expectedValue" : null,
-        "id" : "2b631681-9417-4095-b130-68a8f1c783b8",
-        "assertionType" : "ALLOF",
-        "key" : null
+        "expectedValue" : "",
+        "id" : "0685d6ec-3747-4d67-bc47-a7b33db17698",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
       },
-      "candidateId" : "3285c0e2-e101-40fa-bc2e-1aa8679fc4f1",
-      "name" : "setSessionFactory saved on 2024-03-20 11:50",
+      "candidateId" : "89adbc13-6323-4bca-b6bd-649020fe85d7",
+      "name" : "cmm saved on 2024-03-21 11:45",
       "description" : null,
-      "methodArguments" : [ "{}" ],
-      "returnValue" : "0",
-      "returnValueClassname" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"error\": \"failed to serialize object\", \"message\":\"Invalid type definition for type `org.modelmapper.MappingException`: Failed to construct BeanSerializer for [simple type, class org.modelmapper.MappingException]: (java.lang.IllegalArgumentException) Failed to call `setAccess()` on Field 'detailMessage' (of class `java.lang.Throwable`) due to `java.lang.reflect.InaccessibleObjectException`, problem: Unable to make field private java.lang.String java.lang.Throwable.detailMessage accessible: module java.base does not \"opens java.lang\" to unnamed module @1efed156\"}",
+      "returnValueClassname" : "org.modelmapper.MappingException",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5329192254726,
+        "timestamp" : 32297256137822,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 618500184,
-      "probSerializedValue" : "",
+      "sessionIdentifier" : -1636724636,
+      "probSerializedValue" : "eyJlcnJvciI6ICJmYWlsZWQgdG8gc2VyaWFsaXplIG9iamVjdCIsICJtZXNzYWdlIjoiSW52YWxpZCB0eXBlIGRlZmluaXRpb24gZm9yIHR5cGUgYG9yZy5tb2RlbG1hcHBlci5NYXBwaW5nRXhjZXB0aW9uYDogRmFpbGVkIHRvIGNvbnN0cnVjdCBCZWFuU2VyaWFsaXplciBmb3IgW3NpbXBsZSB0eXBlLCBjbGFzcyBvcmcubW9kZWxtYXBwZXIuTWFwcGluZ0V4Y2VwdGlvbl06IChqYXZhLmxhbmcuSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKSBGYWlsZWQgdG8gY2FsbCBgc2V0QWNjZXNzKClgIG9uIEZpZWxkICdkZXRhaWxNZXNzYWdlJyAob2YgY2xhc3MgYGphdmEubGFuZy5UaHJvd2FibGVgKSBkdWUgdG8gYGphdmEubGFuZy5yZWZsZWN0LkluYWNjZXNzaWJsZU9iamVjdEV4Y2VwdGlvbmAsIHByb2JsZW06IFVuYWJsZSB0byBtYWtlIGZpZWxkIHByaXZhdGUgamF2YS5sYW5nLlN0cmluZyBqYXZhLmxhbmcuVGhyb3dhYmxlLmRldGFpbE1lc3NhZ2UgYWNjZXNzaWJsZTogbW9kdWxlIGphdmEuYmFzZSBkb2VzIG5vdCAib3BlbnMgamF2YS5sYW5nIiB0byB1bm5hbWVkIG1vZHVsZSBAMWVmZWQxNTYifQ==",
       "mockIds" : [ ],
-      "exception" : false,
+      "exception" : true,
       "method" : {
-        "name" : "setSessionFactory",
-        "signature" : "(Lorg/hibernate/SessionFactory;)V",
+        "name" : "cmm",
+        "signature" : "()Lorg/unlogged/demo/models/ItemInfo;",
         "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.controller.InternalClassController#returnChar#(C)C" : [ {
-      "lineNumbers" : [ 73 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "97",
-          "id" : "266f3025-9e1e-45ae-a74f-0bec531965de",
-          "assertionType" : "EQUAL",
-          "key" : "/"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : null,
-        "id" : "bd8106c0-0bb5-4f84-b67b-145a95b9cecc",
-        "assertionType" : "ALLOF",
-        "key" : null
-      },
-      "candidateId" : "14fbe368-7586-4e06-a20c-f4192840ad2f",
-      "name" : "returnChar saved on 2024-03-20 11:50",
-      "description" : null,
-      "methodArguments" : [ "97" ],
-      "returnValue" : "97",
-      "returnValueClassname" : "C",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 5344631133547,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 1773656227,
-      "probSerializedValue" : "",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "returnChar",
-        "signature" : "(C)C",
-        "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : 672948653
+        "methodHash" : -469942238
       }
     } ]
   },

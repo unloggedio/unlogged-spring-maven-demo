@@ -2,27 +2,8 @@
   "classname" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
   "storedCandidateMap" : { },
   "declaredMockMap" : {
-    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass;" : [ {
-      "id" : "69b166a2-99ea-4d2b-bbf8-a073d8281fca",
-      "name" : "mock response for call to userService.getDeepClassList()",
-      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
-      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
-      "fieldName" : "userService",
-      "methodName" : "getDeepClassList",
-      "whenParameter" : [ ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "2147366202",
-          "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass;"
-    } ],
     "org.unlogged.demo.jspdemo.wfm.Services.UserService#many#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" : [ {
-      "id" : "395bf462-fa80-46cf-80fa-bb6f642f3599",
+      "id" : "0c2f87cf-6d51-4af8-aa7c-fce9fa1da6aa",
       "name" : "mock response for call to userService.many(\"b\", \"b\", \"c\", \"d\")",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
@@ -57,7 +38,7 @@
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#many#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
     } ],
     "org.unlogged.demo.jspdemo.wfm.Services.UserService#getAllUsers#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
-      "id" : "4cbe9070-b9fa-40a3-91ca-882f2ffb5aa4",
+      "id" : "e46daf39-23fa-4c0f-b724-8a2d6459bb6b",
       "name" : "mock response for call to userService.getAllUsers()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
@@ -76,7 +57,7 @@
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getAllUsers#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;"
     } ],
     "org.unlogged.demo.jspdemo.wfm.Services.UserService#getULO#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/UserListInfo;" : [ {
-      "id" : "34c09a44-c37a-424a-b3ec-9f9a8160d9f3",
+      "id" : "a6fba285-058d-44f0-a279-07aad320b962",
       "name" : "mock response for call to userService.getULO()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
@@ -95,7 +76,7 @@
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getULO#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/UserListInfo;"
     } ],
     "org.unlogged.demo.jspdemo.wfm.Services.UserService#getNumber#()I" : [ {
-      "id" : "a532c05d-8fe1-445f-98f5-0acc45730fdc",
+      "id" : "82d6e98b-2d12-4034-a4a7-e06fa752e672",
       "name" : "mock response for call to userService.getNumber()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
@@ -112,6 +93,29 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getNumber#()I"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "id" : "3419fc9a-c9d2-4826-8e47-325373b22ae2",
+      "name" : "mock response for call to userService.getUser(\"admin\")",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getUser",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"admin\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"user_id\":1,\"username\":\"admin\",\"password\":\"admin\",\"email\":\"admin@gmail.com\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;"
     } ]
   }
 }

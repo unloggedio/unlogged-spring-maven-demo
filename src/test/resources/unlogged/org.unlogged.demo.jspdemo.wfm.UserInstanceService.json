@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.UserInstanceService#saveUser#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;" : [ {
-      "id" : "b26bab21-cfc5-416b-aaf8-afced58dbaa9",
+      "id" : "e779e372-b0bc-4af1-9546-39d3cf5e7ffb",
       "name" : "mock response for call to userInstanceService.saveUser(username, password, email)",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",

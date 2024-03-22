@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
-      "id" : "b3ad86d9-8326-4fcc-b648-8cfe645b9075",
+      "id" : "b85b523c-03ed-4cb7-ba41-f27701360e6f",
       "name" : "mock response for call to weatherApi.getWeatherinfo(\"London\")",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1710916778,\\\"localtime\\\":\\\"2024-03-20 12:09\\\"},\\\"current\\\":{\\\"temp_c\\\":33.4,\\\"temp_f\\\":92.1,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":11.4,\\\"wind_kph\\\":18.4,\\\"wind_degree\\\":55,\\\"wind_dir\\\":\\\"NE\\\",\\\"pressure_mb\\\":1013.0,\\\"pressure_in\\\":29.92,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":9,\\\"cloud\\\":0,\\\"feelslike_c\\\":31.3,\\\"feelslike_f\\\":88.3,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":13.1,\\\"gust_kph\\\":21.1}}\"",
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1711002111,\\\"localtime\\\":\\\"2024-03-21 11:51\\\"},\\\"current\\\":{\\\"temp_c\\\":32.8,\\\"temp_f\\\":91.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":11.2,\\\"wind_kph\\\":18.0,\\\"wind_degree\\\":120,\\\"wind_dir\\\":\\\"ESE\\\",\\\"pressure_mb\\\":1013.0,\\\"pressure_in\\\":29.91,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":15,\\\"cloud\\\":9,\\\"feelslike_c\\\":30.6,\\\"feelslike_f\\\":87.1,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":12.9,\\\"gust_kph\\\":20.7}}\"",
           "returnValueType" : "REAL",
           "className" : "java.lang.String"
         },

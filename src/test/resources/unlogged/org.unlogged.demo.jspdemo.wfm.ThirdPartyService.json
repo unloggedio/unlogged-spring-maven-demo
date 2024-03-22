@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;" : [ {
-      "id" : "78249381-939d-45ec-ad1c-09875be4296b",
+      "id" : "98afa613-0ad8-4268-97df-44ca1fd5e936",
       "name" : "mock response for call to thirdPartyService.getWeatherFor(location)",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
@@ -17,7 +17,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"location\":{\"name\":\"The String\",\"region\":\"Idaho\",\"country\":\"United States of America\",\"lat\":43.58,\"lon\":-111.09,\"tz_id\":\"America/Boise\",\"localtime_epoch\":1710916814,\"localtime\":\"2024-03-20 0:40\"},\"current\":{\"temp_c\":-1.1,\"temp_f\":30.0,\"is_day\":0,\"condition\":{\"text\":\"Clear\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/113.png\",\"code\":1000},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":330,\"wind_dir\":\"NNW\",\"pressure_mb\":1019.0,\"pressure_in\":30.08,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":78,\"cloud\":0,\"feelslike_c\":-2.9,\"feelslike_f\":26.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":6.6,\"gust_kph\":10.6}}",
+          "value" : "{\"location\":{\"name\":\"The String\",\"region\":\"Idaho\",\"country\":\"United States of America\",\"lat\":43.58,\"lon\":-111.09,\"tz_id\":\"America/Boise\",\"localtime_epoch\":1711002134,\"localtime\":\"2024-03-21 0:22\"},\"current\":{\"temp_c\":1.1,\"temp_f\":34.0,\"is_day\":0,\"condition\":{\"text\":\"Clear\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/113.png\",\"code\":1000},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":200,\"wind_dir\":\"SSW\",\"pressure_mb\":1015.0,\"pressure_in\":29.98,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":61,\"cloud\":0,\"feelslike_c\":-1.5,\"feelslike_f\":29.2,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":10.8,\"gust_kph\":17.4}}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherInfo"
         },
@@ -25,7 +25,7 @@
       } ],
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService#getWeatherFor#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/ApiHelper/WeatherInfo;"
     }, {
-      "id" : "5b18c078-8895-49c9-943d-bda8707ad7f4",
+      "id" : "0cfcd5f1-f14b-45b0-aa90-ebc40bcdde4b",
       "name" : "mock response for call to thirdPartyService.getWeatherFor(\"Bangalore\")",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.ThirdPartyController",
@@ -39,7 +39,7 @@
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"location\":{\"name\":\"The String\",\"region\":\"Idaho\",\"country\":\"United States of America\",\"lat\":43.58,\"lon\":-111.09,\"tz_id\":\"America/Boise\",\"localtime_epoch\":1710916814,\"localtime\":\"2024-03-20 0:40\"},\"current\":{\"temp_c\":-1.1,\"temp_f\":30.0,\"is_day\":0,\"condition\":{\"text\":\"Clear\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/113.png\",\"code\":1000},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":330,\"wind_dir\":\"NNW\",\"pressure_mb\":1019.0,\"pressure_in\":30.08,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":78,\"cloud\":0,\"feelslike_c\":-2.9,\"feelslike_f\":26.9,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":6.6,\"gust_kph\":10.6}}",
+          "value" : "{\"location\":{\"name\":\"Bangalore\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.98,\"lon\":77.58,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1711002150,\"localtime\":\"2024-03-21 11:52\"},\"current\":{\"temp_c\":28.0,\"temp_f\":82.4,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":8.1,\"wind_kph\":13.0,\"wind_degree\":110,\"wind_dir\":\"ESE\",\"pressure_mb\":1018.0,\"pressure_in\":30.06,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":37,\"cloud\":25,\"feelslike_c\":27.7,\"feelslike_f\":81.8,\"vis_km\":10.0,\"vis_miles\":6.0,\"uv\":7.0,\"gust_mph\":12.3,\"gust_kph\":19.9}}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherInfo"
         },

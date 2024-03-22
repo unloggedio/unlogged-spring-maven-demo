@@ -8,18 +8,18 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "4",
-          "id" : "e214aa64-2f84-464b-b285-8fd377b2fa31",
+          "id" : "d4f8398f-131f-4b86-9567-998d1b927f52",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "6fc99a4f-a0d2-4d54-a526-e3ee4de7ced1",
+        "id" : "e478e79f-c916-415a-986b-74c52fe780da",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "6b61eb29-4fbc-415c-80d6-3f698d752065",
-      "name" : "getY saved on 2024-03-20 12:05",
+      "candidateId" : "7d6355aa-55a5-4b55-914c-5a28f1eda890",
+      "name" : "getY saved on 2024-03-21 11:49",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "4",
@@ -27,10 +27,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 6228650374319,
+        "timestamp" : 32593893207465,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1506122421,
+      "sessionIdentifier" : 498950513,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -44,7 +44,7 @@
   },
   "declaredMockMap" : {
     "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha#getY#()I" : [ {
-      "id" : "4915aa26-3a03-4d71-9fd5-569a5fd68a5b",
+      "id" : "f523a989-33ce-428b-aab7-0440ba7c0f80",
       "name" : "mock response for call to alpha.getY()",
       "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha",
       "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.Beta",

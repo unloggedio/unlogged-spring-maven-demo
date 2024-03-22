@@ -3,21 +3,21 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
-      "id" : "11c04987-2abe-4d03-bdd8-82d15f7e96db",
-      "name" : "mock response for call to weatherService.getWeatherForAddress(location)",
+      "id" : "9f4dd4c9-a5f3-42c2-a29f-a57a0f8a67ad",
+      "name" : "mock response for call to weatherService.getWeatherForAddress",
       "fieldTypeName" : "org.unlogged.demo.service.WeatherService",
       "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
       "fieldName" : "weatherService",
       "methodName" : "getWeatherForAddress",
       "whenParameter" : [ {
-        "name" : null,
-        "type" : "EQUAL",
-        "value" : "\"string\""
+        "name" : "address",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
       } ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1710914496,\"localtime\":\"2024-03-20 1:01\"},\"current\":{\"temp_c\":10.0,\"temp_f\":50.0,\"is_day\":0,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/116.png\",\"code\":1003},\"wind_mph\":6.9,\"wind_kph\":11.2,\"wind_degree\":190,\"wind_dir\":\"S\",\"pressure_mb\":1020.0,\"pressure_in\":30.13,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":77,\"cloud\":50,\"feelslike_c\":8.9,\"feelslike_f\":48.0,\"vis_km\":16.0,\"vis_miles\":9.0,\"uv\":1.0,\"gust_mph\":10.7,\"gust_kph\":17.3}}",
+          "value" : "{\"location\": {\"name\": \"string\", \"region\": \"string\", \"country\": \"string\", \"lat\": \"0\", \"lon\": \"0\", \"tz_id\": \"string\", \"localtime_epoch\": \"0\", \"localtime\": \"string\"}, \"current\": {\"temp_c\": \"0\", \"temp_f\": \"0\", \"is_day\": \"0\", \"condition\": {\"text\": \"string\", \"icon\": \"string\", \"code\": \"0\"}, \"wind_mph\": \"0\", \"wind_kph\": \"0\", \"wind_degree\": \"0\", \"wind_dir\": \"string\", \"pressure_mb\": \"0\", \"pressure_in\": \"0\", \"precip_mm\": \"0\", \"precip_in\": \"0\", \"humidity\": \"0\", \"cloud\": \"0\", \"feelslike_c\": \"0\", \"feelslike_f\": \"0\", \"vis_km\": \"0\", \"vis_miles\": \"0\", \"uv\": \"0\", \"gust_mph\": \"0\", \"gust_kph\": \"0\"}}",
           "returnValueType" : "REAL",
           "className" : "org.unlogged.demo.models.weather.WeatherInfo"
         },

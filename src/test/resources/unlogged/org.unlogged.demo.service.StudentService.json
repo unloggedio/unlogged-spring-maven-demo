@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
-      "id" : "bce7f432-7623-44dc-b885-83f4c8c565c0",
+      "id" : "d8b2f276-5ce3-4a99-b4b2-5b65e4480e37",
       "name" : "mock response for call to studentService.createStudent(student)",
       "fieldTypeName" : "org.unlogged.demo.service.StudentService",
       "sourceClassName" : "org.unlogged.demo.controller.StudentController",
@@ -26,7 +26,7 @@
       "methodHashKey" : "org.unlogged.demo.service.StudentService#createStudent#(Lorg/unlogged/demo/models/Student;)Z"
     } ],
     "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/Student;>;" : [ {
-      "id" : "80a0f248-f4a2-444b-a897-822188f013c8",
+      "id" : "07f748f6-c269-45ac-9ad0-299e72c45548",
       "name" : "mock response for call to studentService.findAll()",
       "fieldTypeName" : "org.unlogged.demo.service.StudentService",
       "sourceClassName" : "org.unlogged.demo.controller.StudentController",
@@ -45,7 +45,7 @@
       "methodHashKey" : "org.unlogged.demo.service.StudentService#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/Student;>;"
     } ],
     "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/Student;>;" : [ {
-      "id" : "af2aa465-6ca1-4965-a952-6f14514060e6",
+      "id" : "e43a762d-896f-46bf-96c3-0c5a0a856254",
       "name" : "mock response for call to studentService.getStudent(id)",
       "fieldTypeName" : "org.unlogged.demo.service.StudentService",
       "sourceClassName" : "org.unlogged.demo.controller.StudentController",
@@ -68,7 +68,7 @@
       "methodHashKey" : "org.unlogged.demo.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/Student;>;"
     } ],
     "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z" : [ {
-      "id" : "6476db6d-797d-4606-ab74-d4b6360b9513",
+      "id" : "1a387a01-87e9-44a7-b652-79f7617c393a",
       "name" : "mock response for call to studentService.updateStudent(student)",
       "fieldTypeName" : "org.unlogged.demo.service.StudentService",
       "sourceClassName" : "org.unlogged.demo.controller.StudentController",
@@ -91,7 +91,7 @@
       "methodHashKey" : "org.unlogged.demo.service.StudentService#updateStudent#(Lorg/unlogged/demo/models/Student;)Z"
     } ],
     "org.unlogged.demo.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
-      "id" : "1dd49347-e124-4903-805a-bf70ba85775b",
+      "id" : "e0fccd19-97ce-4724-bdbb-b145eaad4f52",
       "name" : "mock response for call to studentService.deleteStudent(id)",
       "fieldTypeName" : "org.unlogged.demo.service.StudentService",
       "sourceClassName" : "org.unlogged.demo.controller.StudentController",
