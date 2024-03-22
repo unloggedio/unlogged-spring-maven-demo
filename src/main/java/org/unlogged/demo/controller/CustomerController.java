@@ -52,4 +52,9 @@ public class CustomerController {
     public List<CustomerScoreCardMap> getScoreMaps() {
         return customerService.getDummyScoreMaps();
     }
+
+    @RequestMapping("ping")
+    public String pingCs() {
+        return "ping";
+    }
 }

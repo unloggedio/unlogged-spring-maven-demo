@@ -37,7 +37,6 @@ public class DeliveryService {
     @Autowired
     private DeliveryRequestRepo deliveryRequestRepo;
 
-    @Transactional
     public boolean initiateDelivery(long customerId) {
         DeliveryCheckResponse deliveryCheckResponse = canDeliverToCustomer(customerId);
         long lastId;
