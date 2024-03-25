@@ -1,0 +1,172 @@
+{
+	"info": {
+		"_postman_id": "2399cd46-1a52-40a6-ba18-f7a3e6a8580b",
+		"name": "unlogged-spring-maven-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "12097370-2399cd46-1a52-40a6-ba18-f7a3e6a8580b"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "35e92b7c-e937-4a7e-aecb-ddcb2e336d3b",
+						"exec": [
+							"const {email, token } = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"token\",token)"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"id": "cf941a42-85f9-40ff-8778-fe403cb03b4f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"connection": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\" : \"amg@amg.com\",\n    \"password\" : \"oMIYSqNZMrH5iun\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/auth/login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "69d16114-3dca-4479-9081-75986b6b2550",
+					"name": "Login-Example",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\" : \"amg@amg.com\",\n    \"password\" : \"oMIYSqNZMrH5iun\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/auth/login",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Expires",
+							"value": "0"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 22 Mar 2024 09:54:03 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"email\": \"amg@amg.com\",\n    \"token\": \"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWdAYW1nLmNvbSIsImV4cCI6MTkyNzEwMTI0M30.VJwOqbKBHNcwF278-wFQcQbrqR_xKMYApm_mktMFKMg\"\n}"
+				}
+			]
+		},
+		{
+			"name": "CustomerController/ping",
+			"id": "d1aaf45f-33cb-4f64-95a1-551a2824af30",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {
+					"connection": true
+				}
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/customer/ping",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"customer",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
