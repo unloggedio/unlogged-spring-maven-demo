@@ -1,0 +1,28 @@
+name: Run and API test Unlogged-spring-maven-demo
+
+on:
+  push:
+
+jobs:
+  build-and-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Install Postman CLI
+        run: |
+          curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+
+      - name: Login to Postman CLI
+        run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
+
+      - name: Start unlogged-spring-maven-demo
+        run: docker compose -f conf/docker-compose.yml up -d
+
+      - name: Run API tests
+        run: |
+            postman collection run "${{ github.workspace }}/postman/collections/unlogged-spring-maven-demo.json" -e "12097370-7d3380ab-b229-4dfa-8264-0c2d35d7d74b" --integration-id "160537-${{ github.run_id }}"
