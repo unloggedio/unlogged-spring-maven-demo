@@ -1,6 +1,7 @@
 package org.unlogged.demo.jspdemo.wfm.ApiHelper;
 
 import org.springframework.stereotype.Service;
+import org.unlogged.demo.KindOfAUtilClass;
 
 import java.io.IOException;
 import java.net.URI;
@@ -25,4 +26,24 @@ public class WeatherApi {
         }
         return response.body();
     }
+
+    public void timeTake(float multiplier) throws InterruptedException {
+
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (1 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (2 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (5 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (10 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (20 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (50 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (100 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (200 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (500 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (1000 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (2000 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (5000 * multiplier));
+        KindOfAUtilClass.thisMethodTakesTimeToCompleteBasedOnParameter((long) (10000 * multiplier));
+
+
+    }
+
 }
