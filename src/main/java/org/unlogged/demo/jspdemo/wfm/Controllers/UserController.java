@@ -42,6 +42,11 @@ public class UserController {
         return ResponseEntity.ok(userInstanceService.saveUser(username, password, email));
     }
 
+    public ResponseEntity<List<User>> sus() {
+        return ResponseEntity.ok(new ArrayList<>(
+                Arrays.asList(new User(123, "!", "a", "c"))));
+    }
+
     @RequestMapping("/fetchById")
     public ResponseEntity saveUser(@RequestParam int id) {
         return ResponseEntity.ok("aaa");
