@@ -39,12 +39,6 @@ public class UiTestEntryClass {
     @Autowired
     private ThirdPartyService thirdPartyService;
 
-    //TC1 - Test to ensure mocks are created for the mockable calls in this method
-    private User mockTC1() {
-        String randomString = tc1MockService.getAString();
-        return tc1MockService.getUser();
-    }
-
     //TC2 - Test to ensure crud and influence of mocks along with saving mocks.
     private TC2Response mockTestCRUD() throws Exception {
         CustomerProfile profile = customerProfileRepo.getByCustomerId(1);
