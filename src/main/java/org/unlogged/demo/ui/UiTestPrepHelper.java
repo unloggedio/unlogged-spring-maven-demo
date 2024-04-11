@@ -30,8 +30,4 @@ public class UiTestPrepHelper {
                 new ArrayList<>(Arrays.asList("a", "b", "c", "d", "e", "f")));
         customerProfileRepo.save(profile);
     }
-
-    private List<CustomerProfile> getAll() {
-        return customerProfileRepo.findAll();
-    }
 }
