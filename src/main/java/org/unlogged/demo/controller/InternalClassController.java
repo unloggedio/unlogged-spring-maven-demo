@@ -8,13 +8,17 @@ import org.joda.time.Instant;
 import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;
-import org.unlogged.demo.models.ItemData;
-import org.unlogged.demo.models.ItemInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.unlogged.demo.models.*;
+import org.unlogged.demo.service.DeepService;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class InternalClassController {
+
+    @Autowired
+    private DeepService deepService;
 
     class Xe {
         @Getter
@@ -95,5 +99,9 @@ public class InternalClassController {
 
     public <T> List<T> getListFromArray(T[] ips) {
         return Arrays.asList(ips);
+    }
+
+    public L1Object getL1Object() {
+        return deepService.getDeepReference();
     }
 }
