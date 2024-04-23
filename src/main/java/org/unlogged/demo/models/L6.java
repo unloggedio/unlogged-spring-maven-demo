@@ -7,10 +7,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class L4Object {
-    private String l4Name;
-    private int l4Id;
-    private float fv = 1.2f;
-    private double dv = 2.3d;
-    private L5 l5;
+public class L6 {
+    private String l6name;
+    private int l6Id;
+    private L7 l7;
 }

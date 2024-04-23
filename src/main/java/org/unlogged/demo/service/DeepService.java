@@ -7,9 +7,18 @@ import org.unlogged.demo.models.*;
 public class DeepService {
 
     public L1Object getDeepReference() {
+
+        L10 l10 = new L10("10l-name", 1011);
+        L9 l9 = new L9(911, "9l-name", l10);
+        L8 l8 = new L8("8l-name", 811, l9);
+        L7 l7 = new L7("7l-name", 711, l8);
+        L6 l6 = new L6("6l-name", 611, l7);
+        L5 l5 = new L5("5l-name", 511, l6);
+
         L4Object l4 = new L4Object();
         l4.setL4Id(411);
         l4.setL4Name("4l-name");
+        l4.setL5(l5);
 
         L3Object l3Object = new L3Object();
         l3Object.setL4Object(l4);
