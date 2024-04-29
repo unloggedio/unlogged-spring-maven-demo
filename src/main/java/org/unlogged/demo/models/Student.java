@@ -21,7 +21,16 @@ public class Student implements Serializable {
     }
 
     public enum Gender {
-        MALE, FEMALE
+        MALE, FEMALE;
+
+        public static Gender getFromString(String value) {
+            for (Gender gender1 : Gender.values()) {
+                if (gender1.toString().toLowerCase().equals(value.toLowerCase())) {
+                    return gender1;
+                }
+            }
+            return null;
+        }
     }
 
     private String id;
