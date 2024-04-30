@@ -112,6 +112,25 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getNumber#()I"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;" : [ {
+      "id" : "80e6cff7-d5df-4466-9161-9cf713aa6cce",
+      "name" : "mock response for call to userService.getDeepClassList()",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userService",
+      "methodName" : "getDeepClassList",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;"
     } ]
   }
 }

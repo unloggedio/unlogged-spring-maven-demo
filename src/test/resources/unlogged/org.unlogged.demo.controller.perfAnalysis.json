@@ -47,36 +47,36 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "1",
-          "id" : "b375a260-c044-441a-b635-659ea0c3d316",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "0",
+          "id" : "2f3992f4-c0e0-4fba-8145-1d85fef52c34",
+          "assertionType" : "GREATER_THAN_OR_EQUAL",
           "key" : "/0"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "1",
-          "id" : "acbeab3b-8f62-4f81-8c65-7594d047dcb1",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "0",
+          "id" : "d4b16eb4-6309-4299-a945-babeb420f114",
+          "assertionType" : "GREATER_THAN_OR_EQUAL",
           "key" : "/1"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "36",
-          "id" : "269da0ea-33e5-4d59-9f49-1a6e99caa59a",
+          "id" : "4e9b8f4b-0506-4b3a-b8a7-f8f7a33eb5ad",
           "assertionType" : "EQUAL",
           "key" : "/2"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "b87ca87e-4a3e-4411-b93d-e4774aa7497e",
+        "id" : "ca8fc895-13de-465b-a688-3b435365fc64",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "25f1f00a-22de-4773-92f9-930e06817cd6",
-      "name" : "sum_natural saved on 2024-03-20 11:52",
+      "candidateId" : "efc1f7f4-87e7-421f-86ff-81c45a0c1be0",
+      "name" : "sum_natural saved on 2024-04-30 11:08",
       "description" : null,
       "methodArguments" : [ "10" ],
-      "returnValue" : "[1,1,36]",
+      "returnValue" : "[19,2,36]",
       "returnValueClassname" : "java.util.List",
       "metadata" : {
         "recordedBy" : "testerfresher",
@@ -84,8 +84,8 @@
         "timestamp" : 5464643426214,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 213641078,
-      "probSerializedValue" : "WzEsMSwzNl0=",
+      "sessionIdentifier" : -1253445073,
+      "probSerializedValue" : "WzE5LDIsMzZd",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
@@ -141,31 +141,31 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"count of prime = 4.\\n time_calculate = 0\"",
-          "id" : "8dc1cb9c-5285-4dfa-8b22-49fd7e49718a",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "\"count of prime = 4.\\n time_calculate = 1\"",
+          "id" : "728d3903-0bbb-4f3d-a881-505d84c3667d",
+          "assertionType" : "NOT_NULL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "ca3205a5-054b-4d84-933e-59ce49bef44d",
+        "id" : "607efea9-14d5-40cb-b6d5-e6fc3d720748",
         "assertionType" : "ALLOF",
         "key" : null
       },
       "candidateId" : "73261cce-3d9d-4e03-b893-fb7fc14288e9",
-      "name" : "cpu saved on 2024-03-20 11:52",
+      "name" : "cpu saved on 2024-04-30 11:10",
       "description" : null,
       "methodArguments" : [ "10" ],
-      "returnValue" : "\"count of prime = 4.\\n time_calculate = 0\"",
+      "returnValue" : "\"count of prime = 4.\\n time_calculate = 1\"",
       "returnValueClassname" : "java.lang.String",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 5492996189220,
+        "timestamp" : 35401356231526,
         "candidateStatus" : "NA"
       },
       "sessionIdentifier" : -585064712,
-      "probSerializedValue" : "ImNvdW50IG9mIHByaW1lID0gNC5cbiB0aW1lX2NhbGN1bGF0ZSA9IDAi",
+      "probSerializedValue" : "ImNvdW50IG9mIHByaW1lID0gNC5cbiB0aW1lX2NhbGN1bGF0ZSA9IDEi",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
@@ -252,7 +252,7 @@
         "name" : "networkintensive",
         "signature" : "(I)Ljava/lang/String;",
         "className" : "org.unlogged.demo.controller.perfAnalysis",
-        "methodHash" : -504762919
+        "methodHash" : 0
       }
     } ]
   },

@@ -169,31 +169,31 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-03-20T06:47:04.940Z\"",
-          "id" : "32a11deb-b72b-4f9d-bd02-67cd3d9d0a8d",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "\"2024-04-30T05:43:48.656Z\"",
+          "id" : "e1ac9ffa-bb6f-4397-94b9-99ca9dcf39d4",
+          "assertionType" : "NOT_NULL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "364d5c35-1a3b-49cf-a237-c5fb3bfe28be",
+        "id" : "501fce12-7294-4d2e-8bb5-0d1b2119c3d6",
         "assertionType" : "ALLOF",
         "key" : null
       },
       "candidateId" : "9372974a-72a9-4cc3-821a-cdeaed5880b6",
-      "name" : "jodatest saved on 2024-03-20 12:17",
+      "name" : "jodatest saved on 2024-04-30 11:14",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "\"2024-03-20T06:47:04.940Z\"",
+      "returnValue" : "\"2024-04-30T05:43:48.656Z\"",
       "returnValueClassname" : "org.joda.time.DateTime",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 6951536320901,
+        "timestamp" : 35645719363275,
         "candidateStatus" : "NA"
       },
       "sessionIdentifier" : -1692478260,
-      "probSerializedValue" : "IjIwMjQtMDMtMjBUMDY6NDc6MDQuOTQwWiI=",
+      "probSerializedValue" : "IjIwMjQtMDQtMzBUMDU6NDM6NDguNjU2WiI=",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
@@ -1078,7 +1078,40 @@
         "name" : "getChar",
         "signature" : "(C)C",
         "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
-        "methodHash" : -1960236178
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Controllers.UserController#getDeepClass#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;" : [ {
+      "lineNumbers" : [ 66, 54, 55 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "b36a8c1e-c85f-49c6-8754-57011b744850",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "322ab206-e372-4a3d-99d8-18cec22abfad",
+      "name" : "getDeepClass saved on 2024-04-30 11:13",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "2086003604",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 35623461151267,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1884173400,
+      "probSerializedValue" : "",
+      "mockIds" : [ "80e6cff7-d5df-4466-9161-9cf713aa6cce" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getDeepClass",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+        "methodHash" : 0
       }
     } ]
   },

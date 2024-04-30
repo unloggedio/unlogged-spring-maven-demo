@@ -24,6 +24,43 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#getByCustomerId#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/CustomerProfile;>;" : [ {
+      "id" : "a09d6ef9-5c42-4a76-8c1b-76742f5f2447",
+      "name" : "mock response for call to customerProfileRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 13:48:55 pm\",\"updatedDate\":\"Apr 29, 2024 13:48:55 pm\"},{\"customerid\":1,\"customername\":\"a\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 13:49:11 pm\",\"updatedDate\":\"Apr 29, 2024 13:49:11 pm\"},{\"customerid\":2,\"customername\":\"b\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 13:49:22 pm\",\"updatedDate\":\"Apr 29, 2024 13:49:22 pm\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/CustomerProfile;>;"
+    }, {
+      "id" : "d7c9dea7-f5cf-47b7-9877-0a210bbcba93",
+      "name" : "mock response for call to customerProfileRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 13:48:55 pm\",\"updatedDate\":\"Apr 29, 2024 13:48:55 pm\"},{\"customerid\":1,\"customername\":\"a\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 13:49:11 pm\",\"updatedDate\":\"Apr 29, 2024 13:49:11 pm\"},{\"customerid\":2,\"customername\":\"b\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 13:49:22 pm\",\"updatedDate\":\"Apr 29, 2024 13:49:22 pm\"},{\"customerid\":3,\"customername\":\"a\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 17:33:04 pm\",\"updatedDate\":\"Apr 29, 2024 17:33:04 pm\"},{\"customerid\":4,\"customername\":\"b\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 17:33:10 pm\",\"updatedDate\":\"Apr 29, 2024 17:33:10 pm\"},{\"customerid\":5,\"customername\":\"c\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 29, 2024 17:33:14 pm\",\"updatedDate\":\"Apr 29, 2024 17:33:14 pm\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/CustomerProfile;>;"
     } ]
   }
 }
