@@ -1,0 +1,284 @@
+{
+  "classname" : "org.unlogged.demo.service.DeepService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.DeepService#getDeepReference#()Lorg/unlogged/demo/models/L1Object;" : [ {
+      "lineNumbers" : [ 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 23, 24, 25, 26, 28, 29, 30, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 44 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"L1-UUID\"",
+          "id" : "26dafc78-db9d-4945-8020-4c9d17730157",
+          "assertionType" : "EQUAL",
+          "key" : "/uuid"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "111",
+          "id" : "49bef3ed-d056-4d56-b513-5be9941a253d",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"1l-name\"",
+          "id" : "74ab940c-9d8e-49e0-bac1-ac96b6ef3973",
+          "assertionType" : "EQUAL",
+          "key" : "/name"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"L2-UUID-1\"",
+            "id" : "f74482f3-78f2-4781-807f-b116bb76e695",
+            "assertionType" : "EQUAL",
+            "key" : "/make/l2Uuid"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "211",
+            "id" : "af92672f-5453-4eb1-9d64-2ca3fb341780",
+            "assertionType" : "EQUAL",
+            "key" : "/make/l21Id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"2l1-name\"",
+            "id" : "03e6423c-7fc3-4526-92ee-a3ebfdbf8fd7",
+            "assertionType" : "EQUAL",
+            "key" : "/make/name"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "dfced6ee-1de2-49ed-acbb-a95a12b7d22d",
+          "assertionType" : "ALLOF",
+          "key" : "/make"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "221",
+            "id" : "2a5d0e20-4516-468d-ad22-33f14d9cfaa1",
+            "assertionType" : "EQUAL",
+            "key" : "/model/l22Id"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "311",
+              "id" : "3aad698b-44df-4091-af2a-457295b6a2d4",
+              "assertionType" : "EQUAL",
+              "key" : "/model/l3SubModel/l3Id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"3l-name\"",
+              "id" : "726ecf57-b0a2-49f5-b1c0-c993e3228865",
+              "assertionType" : "EQUAL",
+              "key" : "/model/l3SubModel/l3Name"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"4l-name\"",
+                "id" : "4b983b4c-afab-4ebf-8507-f0e5bdca1263",
+                "assertionType" : "EQUAL",
+                "key" : "/model/l3SubModel/l4Object/l4Name"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "411",
+                "id" : "ae7e7e52-c4cb-4e69-9d3c-2a342f6af352",
+                "assertionType" : "EQUAL",
+                "key" : "/model/l3SubModel/l4Object/l4Id"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1.2",
+                "id" : "9df80d75-adfb-4fcc-b07f-809b7501b46f",
+                "assertionType" : "EQUAL",
+                "key" : "/model/l3SubModel/l4Object/fv"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "2.3",
+                "id" : "7bd3827d-f90a-4a30-9f33-da1b1158ca95",
+                "assertionType" : "EQUAL",
+                "key" : "/model/l3SubModel/l4Object/dv"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"5l-name\"",
+                  "id" : "7ca60687-1286-4e41-a144-b475b34a3d45",
+                  "assertionType" : "EQUAL",
+                  "key" : "/model/l3SubModel/l4Object/l5/l5Name"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "511",
+                  "id" : "8d838a2d-2ce0-4b28-ad9b-5b53d91e38ff",
+                  "assertionType" : "EQUAL",
+                  "key" : "/model/l3SubModel/l4Object/l5/l5Id"
+                }, {
+                  "subAssertions" : [ {
+                    "subAssertions" : [ ],
+                    "expression" : "SELF",
+                    "expectedValue" : "\"6l-name\"",
+                    "id" : "c8bc85b2-9efc-4e88-a3cf-50ee9e8814ce",
+                    "assertionType" : "EQUAL",
+                    "key" : "/model/l3SubModel/l4Object/l5/l6/l6name"
+                  }, {
+                    "subAssertions" : [ ],
+                    "expression" : "SELF",
+                    "expectedValue" : "611",
+                    "id" : "9989fb7d-d569-4d70-8cd9-d7b2b658ff5a",
+                    "assertionType" : "EQUAL",
+                    "key" : "/model/l3SubModel/l4Object/l5/l6/l6Id"
+                  }, {
+                    "subAssertions" : [ {
+                      "subAssertions" : [ ],
+                      "expression" : "SELF",
+                      "expectedValue" : "\"7l-name\"",
+                      "id" : "4c4e0495-4e54-42a8-b6c2-5777e6ac0416",
+                      "assertionType" : "EQUAL",
+                      "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l7Name"
+                    }, {
+                      "subAssertions" : [ ],
+                      "expression" : "SELF",
+                      "expectedValue" : "711",
+                      "id" : "26e92ab3-bf93-4426-94a4-e53d139ecc31",
+                      "assertionType" : "EQUAL",
+                      "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l7Id"
+                    }, {
+                      "subAssertions" : [ {
+                        "subAssertions" : [ ],
+                        "expression" : "SELF",
+                        "expectedValue" : "\"8l-name\"",
+                        "id" : "b616a161-edd7-4788-9e07-9f3dbcb12ea9",
+                        "assertionType" : "EQUAL",
+                        "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l8Id"
+                      }, {
+                        "subAssertions" : [ ],
+                        "expression" : "SELF",
+                        "expectedValue" : "811",
+                        "id" : "d759972d-5cf1-4471-94c7-c67ff344a1f5",
+                        "assertionType" : "EQUAL",
+                        "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l8Name"
+                      }, {
+                        "subAssertions" : [ {
+                          "subAssertions" : [ ],
+                          "expression" : "SELF",
+                          "expectedValue" : "911",
+                          "id" : "b5207990-1d76-4006-a08b-aef4e3eb97c1",
+                          "assertionType" : "EQUAL",
+                          "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l9/l9Id"
+                        }, {
+                          "subAssertions" : [ ],
+                          "expression" : "SELF",
+                          "expectedValue" : "\"9l-name\"",
+                          "id" : "2d540c44-7660-40a1-968e-a9b0ed362180",
+                          "assertionType" : "EQUAL",
+                          "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l9/l9Name"
+                        }, {
+                          "subAssertions" : [ {
+                            "subAssertions" : [ ],
+                            "expression" : "SELF",
+                            "expectedValue" : "\"10l-name\"",
+                            "id" : "71d3de05-2495-4047-bbbc-a1f18fc82d43",
+                            "assertionType" : "EQUAL",
+                            "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l9/l10/l10Name"
+                          }, {
+                            "subAssertions" : [ ],
+                            "expression" : "SELF",
+                            "expectedValue" : "1011",
+                            "id" : "8813166b-247d-478f-bfea-475d24661228",
+                            "assertionType" : "EQUAL",
+                            "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l9/l10/l10Id"
+                          } ],
+                          "expression" : "SELF",
+                          "expectedValue" : "true",
+                          "id" : "e54009e1-3763-4b90-a12f-077ea298e0e6",
+                          "assertionType" : "ALLOF",
+                          "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l9/l10"
+                        } ],
+                        "expression" : "SELF",
+                        "expectedValue" : "true",
+                        "id" : "cfd296f2-d0c8-462d-9486-a2c62eb6ef25",
+                        "assertionType" : "ALLOF",
+                        "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8/l9"
+                      } ],
+                      "expression" : "SELF",
+                      "expectedValue" : "true",
+                      "id" : "dc0f749f-21c8-4c31-aa79-483adaa386a5",
+                      "assertionType" : "ALLOF",
+                      "key" : "/model/l3SubModel/l4Object/l5/l6/l7/l8"
+                    } ],
+                    "expression" : "SELF",
+                    "expectedValue" : "true",
+                    "id" : "41d1dc34-0aca-47ad-9868-36bfdcd7c69e",
+                    "assertionType" : "ALLOF",
+                    "key" : "/model/l3SubModel/l4Object/l5/l6/l7"
+                  } ],
+                  "expression" : "SELF",
+                  "expectedValue" : "true",
+                  "id" : "d97cd1c1-af78-4ec4-823b-b6db2c79b790",
+                  "assertionType" : "ALLOF",
+                  "key" : "/model/l3SubModel/l4Object/l5/l6"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "02d01605-9f2f-4082-979d-f2b30b36f331",
+                "assertionType" : "ALLOF",
+                "key" : "/model/l3SubModel/l4Object/l5"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "1bee51bd-15a5-4e33-80c6-a79b3d63be0d",
+              "assertionType" : "ALLOF",
+              "key" : "/model/l3SubModel/l4Object"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "0dc1a33c-c405-46e1-89cb-1bbf8bcd8642",
+            "assertionType" : "ALLOF",
+            "key" : "/model/l3SubModel"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "b7b4c02b-4833-49ad-a084-8af2cb9ef42b",
+          "assertionType" : "ALLOF",
+          "key" : "/model"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "3e326ff8-20cf-486b-afc7-b5ac438eb9eb",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "6269202e-30d4-4aaf-9dda-20c919231c49",
+      "name" : "getDeepReference saved on 2024-04-30 13:54",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"uuid\":\"L1-UUID\",\"id\":111,\"name\":\"1l-name\",\"make\":{\"l2Uuid\":\"L2-UUID-1\",\"l21Id\":211,\"name\":\"2l1-name\"},\"model\":{\"l22Id\":221,\"l3SubModel\":{\"l3Id\":311,\"l3Name\":\"3l-name\",\"l4Object\":{\"l4Name\":\"4l-name\",\"l4Id\":411,\"fv\":1.2,\"dv\":2.3,\"l5\":{\"l5Name\":\"5l-name\",\"l5Id\":511,\"l6\":{\"l6name\":\"6l-name\",\"l6Id\":611,\"l7\":{\"l7Name\":\"7l-name\",\"l7Id\":711,\"l8\":{\"l8Id\":\"8l-name\",\"l8Name\":811,\"l9\":{\"l9Id\":911,\"l9Name\":\"9l-name\",\"l10\":{\"l10Name\":\"10l-name\",\"l10Id\":1011}}}}}}}}}}",
+      "returnValueClassname" : "org.unlogged.demo.models.L1Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 45129557886060,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1382733074,
+      "probSerializedValue" : "eyJ1dWlkIjoiTDEtVVVJRCIsImlkIjoxMTEsIm5hbWUiOiIxbC1uYW1lIiwibWFrZSI6eyJsMlV1aWQiOiJMMi1VVUlELTEiLCJsMjFJZCI6MjExLCJuYW1lIjoiMmwxLW5hbWUifSwibW9kZWwiOnsibDIySWQiOjIyMSwibDNTdWJNb2RlbCI6eyJsM0lkIjozMTEsImwzTmFtZSI6IjNsLW5hbWUiLCJsNE9iamVjdCI6eyJsNE5hbWUiOiI0bC1uYW1lIiwibDRJZCI6NDExLCJmdiI6MS4yLCJkdiI6Mi4zLCJsNSI6eyJsNU5hbWUiOiI1bC1uYW1lIiwibDVJZCI6NTExLCJsNiI6eyJsNm5hbWUiOiI2bC1uYW1lIiwibDZJZCI6NjExLCJsNyI6eyJsN05hbWUiOiI3bC1uYW1lIiwibDdJZCI6NzExLCJsOCI6eyJsOElkIjoiOGwtbmFtZSIsImw4TmFtZSI6ODExLCJsOSI6eyJsOUlkIjo5MTEsImw5TmFtZSI6IjlsLW5hbWUiLCJsMTAiOnsibDEwTmFtZSI6IjEwbC1uYW1lIiwibDEwSWQiOjEwMTF9fX19fX19fX19",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getDeepReference",
+        "signature" : "()Lorg/unlogged/demo/models/L1Object;",
+        "className" : "org.unlogged.demo.service.DeepService",
+        "methodHash" : -795389425
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

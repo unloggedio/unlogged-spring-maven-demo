@@ -1,0 +1,70 @@
+{
+  "classname" : "org.unlogged.demo.security.util.JwtUtil",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdHJpbmciLCJmaXJzdE5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImV4cCI6MTkzMDQ2NDE1OH0.uO64L2FYoEpg78tZxYwlEyQ1Cr-s_uDlOe5OCj3fKFI\"",
+          "id" : "88c5655b-0dab-40a5-9ad1-5704bdca4b94",
+          "assertionType" : "NOT_NULL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "60583640-d34f-4a1b-ae62-d01490627d72",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "91da4d62-9909-4505-b278-c5adc9cddc09",
+      "name" : "createToken saved on 2024-04-30 13:32",
+      "description" : null,
+      "methodArguments" : [ "{\"email\":\"string\",\"password\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\",\"authorities\":[\"USER\"]}" ],
+      "returnValue" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdHJpbmciLCJmaXJzdE5hbWUiOiJzdHJpbmciLCJsYXN0TmFtZSI6InN0cmluZyIsImV4cCI6MTkzMDQ2NDE1OH0.uO64L2FYoEpg78tZxYwlEyQ1Cr-s_uDlOe5OCj3fKFI\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 43889600043403,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1498333538,
+      "probSerializedValue" : "ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SnpkV0lpT2lKemRISnBibWNpTENKbWFYSnpkRTVoYldVaU9pSnpkSEpwYm1jaUxDSnNZWE4wVG1GdFpTSTZJbk4wY21sdVp5SXNJbVY0Y0NJNk1Ua3pNRFEyTkRFMU9IMC51TzY0TDJGWW9FcGc3OHRaeFl3bEV5UTFDci1zX3VEbE9lNU9DajNmS0ZJIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "createToken",
+        "signature" : "(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : -1827127462
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;" : [ {
+      "id" : "7c698844-fd03-487b-b87c-89a874f4c846",
+      "name" : "mock response for call to jwtUtil.createToken(user)",
+      "fieldTypeName" : "org.unlogged.demo.security.util.JwtUtil",
+      "sourceClassName" : "org.unlogged.demo.security.controller.AuthenticationController",
+      "fieldName" : "jwtUtil",
+      "methodName" : "createToken",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"email\":\"amg\",\"password\":\"\",\"firstName\":null,\"lastName\":null,\"authorities\":null}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbWciLCJleHAiOjE5MzA0NjM5NjF9.hHjlQWtkMZWDKtfL-X2JITBJVGZXtVrj7Lu3NIMskpU\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;"
+    } ]
+  }
+}

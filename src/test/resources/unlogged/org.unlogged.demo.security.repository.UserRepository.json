@@ -1,0 +1,98 @@
+{
+  "classname" : "org.unlogged.demo.security.repository.UserRepository",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.repository.UserRepository#findUserByEmail#(Ljava/lang/String;)Lorg/unlogged/demo/security/model/User;" : [ {
+      "lineNumbers" : [ 12, 13, 14, 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "21fc9b9e-98de-40e7-86e3-10cb6789fcde",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"oMIYSqNZMrH5iun\"",
+          "id" : "8a7188da-76c1-4972-a9f9-608597f60c2f",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User firstname\"",
+          "id" : "dd668e2f-05d9-4f60-8843-ba4279d4a854",
+          "assertionType" : "EQUAL",
+          "key" : "/firstName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User lastname\"",
+          "id" : "041170de-5e0c-408b-92eb-e38fae2837fb",
+          "assertionType" : "EQUAL",
+          "key" : "/lastName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "e369caf3-f60c-4948-8be4-7641a820792c",
+          "assertionType" : "EQUAL",
+          "key" : "/authorities"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "34568c71-f297-4589-ad8c-66faba3cd574",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "41ac2834-91d9-462c-90c4-4e70b127f5f4",
+      "name" : "findUserByEmail saved on 2024-04-30 13:31",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"email\":\"string\",\"password\":\"oMIYSqNZMrH5iun\",\"firstName\":\"User firstname\",\"lastName\":\"User lastname\",\"authorities\":null}",
+      "returnValueClassname" : "org.unlogged.demo.security.model.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 43779644971363,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 915674421,
+      "probSerializedValue" : "eyJlbWFpbCI6InN0cmluZyIsInBhc3N3b3JkIjoib01JWVNxTlpNckg1aXVuIiwiZmlyc3ROYW1lIjoiVXNlciBmaXJzdG5hbWUiLCJsYXN0TmFtZSI6IlVzZXIgbGFzdG5hbWUiLCJhdXRob3JpdGllcyI6bnVsbH0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "findUserByEmail",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/security/model/User;",
+        "className" : "org.unlogged.demo.security.repository.UserRepository",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.security.repository.UserRepository#findUserByEmail#(Ljava/lang/String;)Lorg/unlogged/demo/security/model/User;" : [ {
+      "id" : "5f9c87f2-5b07-4fe9-bda2-5ffb5658b69b",
+      "name" : "mock response for call to userRepository.findUserByEmail(email)",
+      "fieldTypeName" : "org.unlogged.demo.security.repository.UserRepository",
+      "sourceClassName" : "org.unlogged.demo.security.service.CustomUserDetailsService",
+      "fieldName" : "userRepository",
+      "methodName" : "findUserByEmail",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"email\":\"string\",\"password\":\"oMIYSqNZMrH5iun\",\"firstName\":\"User firstname\",\"lastName\":\"User lastname\",\"authorities\":null}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.security.model.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.security.repository.UserRepository#findUserByEmail#(Ljava/lang/String;)Lorg/unlogged/demo/security/model/User;"
+    } ]
+  }
+}

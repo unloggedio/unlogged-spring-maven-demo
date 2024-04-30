@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.security.config.JwtAuthorizationFilter",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.config.JwtAuthorizationFilter#getCurrentAuthentication#()Lorg/springframework/security/core/Authentication;" : [ {
+      "lineNumbers" : [ 61 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "893faeb9-ade5-4bef-bd76-d227f46a227e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "4a0b622d-0439-4335-904b-b6af2d62951d",
+      "name" : "getCurrentAuthentication saved on 2024-04-30 13:26",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1515561004",
+      "returnValueClassname" : "org.springframework.security.core.Authentication",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 43517536832250,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1276818154,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getCurrentAuthentication",
+        "signature" : "()Lorg/springframework/security/core/Authentication;",
+        "className" : "org.unlogged.demo.security.config.JwtAuthorizationFilter",
+        "methodHash" : 1695184024
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
