@@ -1,0 +1,67 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl#getUserProfile#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 21, 22, 23 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "dbcc0df3-b3e5-4fe2-be60-1f3aeea92560",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "22c9caf7-5c66-48d5-8819-803e790aff6a",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"temp-pass\"",
+          "id" : "60dd8d27-d0fa-4113-ab3d-b5ef6955972e",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "3ae5cff6-c5e6-492d-8ff8-f98e1041c68e",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "2f041840-5758-4f2c-b8f3-eec1474d1d38",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "9cd41ca9-c93e-4c67-bb8b-0fd5b2e9cfea",
+      "name" : "getUserProfile saved on 2024-04-30 12:26",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"temp-pass\",\"email\":\"string\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 40008877164374,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2019227236,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoidGVtcC1wYXNzIiwiZW1haWwiOiJzdHJpbmcifQ==",
+      "mockIds" : [ "d9eec24d-ae17-4117-af68-dd75d477856b" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserProfile",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.VehicleServiceImpl",
+        "methodHash" : 1921448855
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
