@@ -1,0 +1,85 @@
+{
+  "classname" : "org.unlogged.demo.utils.CustomerUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.utils.CustomerUtils#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 6, 7, 8 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "ff0dc2af-22ad-4eba-a361-12dffae8104f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "848426a6-6be2-446e-9e78-9c4925e2bd10",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "af8a6042-e0e2-4338-afd0-4226f950d9e2",
+      "name" : "getLocationFromAddress saved on 2024-04-30 16:12",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"string\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1077124241232,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1544600502,
+      "probSerializedValue" : "InN0cmluZyI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.CustomerUtils",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 6, 7, 8 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Karnataka\"",
+          "id" : "d34d9ed2-f893-4d00-b917-90274e4c8847",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "21177cbf-2264-4497-8bc4-bb7338fafcbe",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e510c821-6d40-48fb-adbc-0b0aedde2658",
+      "name" : "getLocationFromAddress saved on 2024-04-30 16:13",
+      "description" : null,
+      "methodArguments" : [ "\"Mangaluru Karnataka\"" ],
+      "returnValue" : "\"Karnataka\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1114130105434,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -183122519,
+      "probSerializedValue" : "Ikthcm5hdGFrYSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.utils.CustomerUtils",
+        "methodHash" : 40623741
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

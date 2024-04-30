@@ -17,7 +17,7 @@ import org.unlogged.demo.models.Student;
 @Configuration
 public class RedisConfig {
 
-    private final String redisHostName = "redis";
+    private final String redisHostName = "localhost";
     private final int redisPort = 6379;
 
     @Bean

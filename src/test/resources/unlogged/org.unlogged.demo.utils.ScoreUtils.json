@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.utils.ScoreUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.utils.ScoreUtils#CalculateScoreForCenosCustomer#(Lorg/unlogged/demo/models/CustomerProfile;I)I" : [ {
+      "lineNumbers" : [ 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "871d35cb-04ef-40e0-bd0e-a68bf71881fe",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "938ffb5e-9121-485d-85aa-625e165c64d9",
+      "name" : "CalculateScoreForCenosCustomer saved on 2024-04-30 16:16",
+      "description" : null,
+      "methodArguments" : [ "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"],\"createdDate\":\"Apr 30, 2024 16:15:38 pm\",\"updatedDate\":\"Apr 30, 2024 16:15:38 pm\"}", "0" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1253363158774,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -780115535,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "CalculateScoreForCenosCustomer",
+        "signature" : "(Lorg/unlogged/demo/models/CustomerProfile;I)I",
+        "className" : "org.unlogged.demo.utils.ScoreUtils",
+        "methodHash" : -2137473785
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

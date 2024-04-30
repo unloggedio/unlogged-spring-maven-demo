@@ -1,0 +1,71 @@
+{
+  "classname" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.dao.DeliveryUnitRepo#save#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;" : [ {
+      "id" : "125648a3-b663-4308-845a-88d0153bd09c",
+      "name" : "mock response for call to deliveryUnitRepo.save(deliveryUnit)",
+      "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "fieldName" : "deliveryUnitRepo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.redis.DeliveryUnit"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#save#(Lorg/unlogged/demo/models/redis/DeliveryUnit;)Lorg/unlogged/demo/models/redis/DeliveryUnit;"
+    } ],
+    "org.unlogged.demo.dao.DeliveryUnitRepo#findById#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/redis/DeliveryUnit;>;" : [ {
+      "id" : "7c6df827-1e67-48f0-aa49-e44364be2ed2",
+      "name" : "mock response for call to deliveryUnitRepo.findById(Id)",
+      "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "fieldName" : "deliveryUnitRepo",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#findById#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/redis/DeliveryUnit;>;"
+    } ],
+    "org.unlogged.demo.dao.DeliveryUnitRepo#findAll#()Ljava/lang/Iterable<Lorg/unlogged/demo/models/redis/DeliveryUnit;>;" : [ {
+      "id" : "96fc1de1-684a-42ef-b2c6-98e17e5c5d6a",
+      "name" : "mock response for call to deliveryUnitRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.DeliveryUnitRepo",
+      "sourceClassName" : "org.unlogged.demo.service.DeliveryUnitService",
+      "fieldName" : "deliveryUnitRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.Iterable<org.unlogged.demo.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.DeliveryUnitRepo#findAll#()Ljava/lang/Iterable<Lorg/unlogged/demo/models/redis/DeliveryUnit;>;"
+    } ]
+  }
+}

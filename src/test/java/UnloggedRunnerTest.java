@@ -12,9 +12,9 @@ import org.springframework.test.context.TestPropertySource;
 import io.unlogged.runner.UnloggedTestRunner;
 
 @RunWith(UnloggedTestRunner.class)
-//@ComponentScan("org.unlogged.demo")
-//@EnableAutoConfiguration
-//@TestPropertySource({"classpath:application.properties"})
+@ComponentScan("org.unlogged.demo")
+@EnableAutoConfiguration
+@TestPropertySource({"classpath:application.properties"})
 public class UnloggedRunnerTest {
 
     public static class YamlPropertySourceFactory implements PropertySourceFactory {
