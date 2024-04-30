@@ -256,7 +256,7 @@
         "name" : "getAllDeliveryUnits",
         "signature" : "()Ljava/util/List<Lorg/unlogged/demo/models/redis/DeliveryUnit;>;",
         "className" : "org.unlogged.demo.service.DeliveryUnitService",
-        "methodHash" : 462341776
+        "methodHash" : 0
       }
     } ]
   },
