@@ -131,6 +131,51 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "id" : "966fc8a4-904f-4841-bc82-f86c81f509e7",
+      "name" : "mock response for call to userService.getUser",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+      "fieldName" : "userService",
+      "methodName" : "getUser",
+      "whenParameter" : [ {
+        "name" : "username",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"user_id\": \"0\", \"username\": \"string\", \"password\": \"string\", \"email\": \"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;"
+    }, {
+      "id" : "c4277b05-8d87-4d21-a3e4-4c040cc75836",
+      "name" : "mock response for call to userService.getUser(username)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.WebFluxController",
+      "fieldName" : "userService",
+      "methodName" : "getUser",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;"
     } ]
   }
 }
