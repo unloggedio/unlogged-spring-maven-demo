@@ -8,6 +8,15 @@ import java.util.List;
 
 @RestController
 public class BigObjController {
+
+    private List<Integer> getOrderedList(int n) {
+        List<Integer> res = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            res.add(i);
+        }
+        return res;
+    }
+
     public List<BigPojo> getListofBigPojos() {
         BigPojo bigPojo = new BigPojo();
         bigPojo.setId(10);
