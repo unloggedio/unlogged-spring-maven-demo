@@ -1,30 +1,34 @@
 package org.unlogged.demo.jspdemo.wfm.ApiHelper;
 
+import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.KindOfAUtilClass;
 
-import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLConnection;
+import java.nio.charset.StandardCharsets;
+
 
 @Service
 public class WeatherApi {
     public String getWeatherinfo(String location) {
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://api.weatherapi.com/v1/current.json?key=09282a8b683349e79f852552230102&q=" + location + "&aqi=no"))
-                .method("GET", HttpRequest.BodyPublishers.noBody())
-                .build();
-        HttpResponse<String> response = null;
+
         try {
-            response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+            URL url = new URL("\"http://api.weatherapi.com/v1/current.json?key=09282a8b683349e79f852552230102&q=\" + location + \"&aqi=no\"");
+            URLConnection con = url.openConnection();
+            HttpURLConnection http = (HttpURLConnection) con;
+            http.setRequestMethod("GET");
+            http.setDoOutput(true);
+
+            InputStream is = http.getInputStream();
+            String response = IOUtils.toString(is, StandardCharsets.UTF_8);
+            System.out.println("Response from API : " + response);
+        } catch (Exception e) {
+
         }
-        return response.body();
+        return null;
     }
 
     public void timeTake(float multiplier) throws InterruptedException {

@@ -9,7 +9,9 @@ import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.unlogged.demo.models.*;
+import org.unlogged.demo.models.ItemData;
+import org.unlogged.demo.models.ItemInfo;
+import org.unlogged.demo.models.L1Object;
 import org.unlogged.demo.service.DeepService;
 
 import java.util.*;
@@ -32,6 +34,10 @@ public class InternalClassController {
         public int methodE2() {
             return subInstance.getY();
         }
+
+        private int getY() {
+            return this.y;
+        }
     }
 
     private List<String> getTimeObjects() {
@@ -45,7 +51,7 @@ public class InternalClassController {
         return timestamps;
     }
 
-    private final Map<String, String> map1 = new HashMap<>() {
+    private final Map<String, String> map1 = new HashMap<String, String>() {
         {
             put("Val1", "key1");
             put("Val2", "key2");

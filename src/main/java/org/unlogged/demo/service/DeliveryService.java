@@ -44,7 +44,7 @@ public class DeliveryService {
         long lastId;
         if (deliveryCheckResponse.isCanDeliver()) {
             try {
-                lastId = deliveryRequestRepo.getReferenceById(customerId).getDeliveryid();
+                lastId = deliveryRequestRepo.getOne(customerId).getDeliveryid();
                 lastId += customerId;
             } catch (InvalidDataAccessResourceUsageException e) {
                 lastId = 1;

@@ -1,10 +1,11 @@
 package org.unlogged.demo.security.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
@@ -22,27 +23,17 @@ import org.unlogged.demo.security.util.JwtUtil;
 @RequestMapping("/auth")
 public class AuthenticationController {
 
-    private final AuthenticationManager authenticationManager;
-
+    @Autowired
     private JwtUtil jwtUtil;
-
-    public AuthenticationController(AuthenticationManager authenticationManager, JwtUtil jwtUtil) {
-        this.authenticationManager = authenticationManager;
-        this.jwtUtil = jwtUtil;
-
-    }
 
     @ResponseBody
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public ResponseEntity login(@RequestBody LoginRequest loginRequest) {
 
         try {
-            Authentication authentication =
-                    authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequest.getEmail(), loginRequest.getPassword()));
-            String email = authentication.getName();
-            User user = new User(email, "");
+            User user = new User(loginRequest.getEmail(), "");
             String token = jwtUtil.createToken(user);
-            LoginResponse loginResponse = new LoginResponse(email, token);
+            LoginResponse loginResponse = new LoginResponse(loginRequest.getEmail(), token);
             return ResponseEntity.ok(loginResponse);
         } catch (BadCredentialsException e) {
             ErrorResponse errorResponse = new ErrorResponse(HttpStatus.BAD_REQUEST, "Invalid username or password");
