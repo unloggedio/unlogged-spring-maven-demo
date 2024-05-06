@@ -1,7 +1,7 @@
 package org.unlogged.demo.security.util;
 
 import io.jsonwebtoken.*;
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.stereotype.Component;
 import org.unlogged.demo.security.model.User;

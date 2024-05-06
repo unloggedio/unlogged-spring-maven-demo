@@ -1,14 +1,11 @@
 package org.unlogged.demo.models;
 
-import java.util.List;
-
 public class CustomerProfileRequest {
     private String customerName;
     private String dateOfBirth;
     private String email;
     private String primaryNumber;
     private String address;
-    private List<String> codes;
 
     public CustomerProfileRequest(String customerName, String dateOfBirth, String email, String primaryNumber, String address) {
         this.customerName = customerName;
@@ -59,13 +56,5 @@ public class CustomerProfileRequest {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public List<String> getCodes() {
-        return codes;
-    }
-
-    public void setCodes(List<String> codes) {
-        this.codes = codes;
     }
 }

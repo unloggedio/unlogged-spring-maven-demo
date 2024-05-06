@@ -27,7 +27,7 @@ public class CustomerProfileRepository {
 
     public CustomerProfile save(CustomerProfileRequest saveRequest) {
         CustomerProfile profile = new CustomerProfile(c++, saveRequest.getCustomerName(),
-                saveRequest.getDateOfBirth(), saveRequest.getEmail(), saveRequest.getPrimaryNumber(), saveRequest.getAddress(), saveRequest.getCodes());
+                saveRequest.getDateOfBirth(), saveRequest.getEmail(), saveRequest.getPrimaryNumber(), saveRequest.getAddress());
         return save(profile);
     }
 
@@ -55,7 +55,7 @@ public class CustomerProfileRepository {
 
         CustomerProfile customerProfile = new CustomerProfile(3,
                 "aman", "20-2-1996", "aman876@gmail.com",
-                "9527861967", "Gujarat, India", referralCodes);
+                "9527861967", "Gujarat, India");
         customerProfiles.add(customerProfile);
 
         referralCodes = new ArrayList<>();
@@ -68,7 +68,7 @@ public class CustomerProfileRepository {
 
         customerProfile = new CustomerProfile(4,
                 "toro", "14-4-1993", "toro.nani@gmail.com",
-                "5670926480", "Kyoto, Japan", referralCodes);
+                "5670926480", "Kyoto, Japan");
         customerProfiles.add(customerProfile);
 
         referralCodes = new ArrayList<>();
@@ -81,7 +81,7 @@ public class CustomerProfileRepository {
 
         customerProfile = new CustomerProfile(5,
                 "ashok", "14-4-1993", "ashok.shah@gmail.com",
-                "5670926480", "Kathmandu, Nepal", referralCodes);
+                "5670926480", "Kathmandu, Nepal");
         customerProfiles.add(customerProfile);
 
         return customerProfiles;
@@ -100,7 +100,7 @@ public class CustomerProfileRepository {
 
         CustomerProfile customerProfile = new CustomerProfile(1,
                 "John doe", "1998-9-25", "john.doe@gmail.com",
-                "9825672456", address, referralCodes);
+                "9825672456", address);
         customerProfiles.add(customerProfile);
 
         referralCodes = new ArrayList<>();
@@ -110,7 +110,7 @@ public class CustomerProfileRepository {
 
         customerProfile = new CustomerProfile(2,
                 "DJ", "1992-12-2", "djm@gmail.com",
-                "4678251601", "Hella, Iceland", referralCodes);
+                "4678251601", "Hella, Iceland");
         return customerProfiles;
     }
 

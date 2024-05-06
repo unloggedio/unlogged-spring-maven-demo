@@ -36,10 +36,6 @@ public class CustomerController {
         return customerService.removeCustomer(customerID);
     }
 
-    @RequestMapping("/generateReferral")
-    private CustomerProfile generateNeReferralCode(@RequestParam long customerID) {
-        return customerService.generateReferralForCustomer(customerID);
-    }
 
     private CustomerScoreCard isCustomerEligibleForLoyaltyProgram(@RequestParam long customerID) {
         return customerService.isCustomerEligibleForPremium(customerID);

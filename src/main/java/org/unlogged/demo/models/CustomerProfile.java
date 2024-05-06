@@ -1,8 +1,6 @@
 package org.unlogged.demo.models;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.*;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -18,7 +16,6 @@ public class CustomerProfile {
     private String email;
     private String contactnumber;
     private String address;
-    private List<String> referralcodes;
 
     private Date createdDate = new Date();
     private Date updatedDate = new Date();
@@ -26,14 +23,13 @@ public class CustomerProfile {
     public CustomerProfile() {
     }
 
-    public CustomerProfile(long customerid, String customername, String dateofbirth, String email, String contactnumber, String address, List<String> referralcodes) {
+    public CustomerProfile(long customerid, String customername, String dateofbirth, String email, String contactnumber, String address) {
         this.customerid = customerid;
         this.customername = customername;
         this.dateofbirth = dateofbirth;
         this.email = email;
         this.contactnumber = contactnumber;
         this.address = address;
-        this.referralcodes = referralcodes;
     }
 
     public long getCustomerid() {
@@ -84,13 +80,7 @@ public class CustomerProfile {
         this.address = address;
     }
 
-    public List<String> getReferralcodes() {
-        return referralcodes;
-    }
 
-    public void setReferralcodes(ArrayList<String> referralcodes) {
-        this.referralcodes = referralcodes;
-    }
 
     public Date getCreatedDate() {
         return createdDate;
@@ -117,7 +107,6 @@ public class CustomerProfile {
                 ", email='" + email + '\'' +
                 ", contactnumber='" + contactnumber + '\'' +
                 ", address='" + address + '\'' +
-                ", referralcodes=" + referralcodes +
                 ", createdDate=" + createdDate +
                 ", updatedDate=" + updatedDate +
                 '}';

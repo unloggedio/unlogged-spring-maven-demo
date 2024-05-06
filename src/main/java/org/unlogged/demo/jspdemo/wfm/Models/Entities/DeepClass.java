@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class DeepClass {
     int x = 10;
@@ -21,7 +22,7 @@ public class DeepClass {
 
         this.listOfPojos = users.stream().map(e -> {
             return new DeepNode(this, e);
-        }).toList();
+        }).collect(Collectors.toList());
     }
 
     public boolean getE() {

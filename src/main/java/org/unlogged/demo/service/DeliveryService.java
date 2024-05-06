@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.InvalidDataAccessResourceUsageException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.unlogged.demo.Customer;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.dao.DeliveryRequestRepo;
 import org.unlogged.demo.models.CustomerProfile;
@@ -45,7 +44,8 @@ public class DeliveryService {
         long lastId;
         if (deliveryCheckResponse.isCanDeliver()) {
             try {
-                lastId = deliveryRequestRepo.getLastId();
+                lastId = deliveryRequestRepo.getReferenceById(customerId).getDeliveryid();
+                lastId += customerId;
             } catch (InvalidDataAccessResourceUsageException e) {
                 lastId = 1;
             }
@@ -89,14 +89,9 @@ public class DeliveryService {
         return customerProfiles;
     }
 
-    public CustomerProfile addNewCustomer(CustomerProfileRequest customerProfileRequest) {
-        Long lastId = customerProfileRepo.getLastId();
-        if (lastId == null) {
-            lastId = -1l;
-        }
-        return customerProfileRepo.save(new CustomerProfile(lastId + 1, customerProfileRequest.getCustomerName(),
+    public CustomerProfile addNewCustomer(CustomerProfileRequest customerProfileRequest, long id) {
+        return customerProfileRepo.save(new CustomerProfile(id, customerProfileRequest.getCustomerName(),
                 customerProfileRequest.getDateOfBirth(), customerProfileRequest.getEmail(),
-                customerProfileRequest.getPrimaryNumber(), customerProfileRequest.getAddress(),
-                customerProfileRequest.getCodes()));
+                customerProfileRequest.getPrimaryNumber(), customerProfileRequest.getAddress()));
     }
 }

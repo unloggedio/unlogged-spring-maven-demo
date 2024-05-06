@@ -2,6 +2,7 @@ package org.unlogged.demo.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.data.redis.core.RedisHash;
 
@@ -11,6 +12,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
+@Getter
 public class Student implements Serializable {
 
     public Student(String id, String name) {

@@ -1,6 +1,6 @@
 package org.unlogged.demo.controller;
 
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;

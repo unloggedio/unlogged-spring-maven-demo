@@ -2,15 +2,14 @@ package org.unlogged.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.unlogged.demo.Customer;
 import org.unlogged.demo.constants.ScoreConstants;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.models.CustomerProfile;
+import org.unlogged.demo.models.CustomerProfileRequest;
+import org.unlogged.demo.models.CustomerScoreCard;
 import org.unlogged.demo.models.CustomerScoreCardMap;
 import org.unlogged.demo.repository.CustomerProfileRepository;
 import org.unlogged.demo.utils.ScoreUtils;
-import org.unlogged.demo.models.CustomerProfileRequest;
-import org.unlogged.demo.models.CustomerScoreCard;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,20 +36,11 @@ public class CustomerService {
     }
 
     public CustomerProfile saveNewCustomer(CustomerProfileRequest saveRequest) {
-        List<String> codes = generateReferralCodes();
-        saveRequest.setCodes(codes);
         return customerProfileRepository.save(saveRequest);
     }
 
     public CustomerProfile removeCustomer(long customerID) {
         return customerProfileRepository.removeCustomer(customerID);
-    }
-
-    public CustomerProfile generateReferralForCustomer(long customerID) {
-        CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(customerID);
-        profile.getReferralcodes().add(generateReferralCode());
-        customerProfileRepository.save(profile);
-        return profile;
     }
 
     private List<String> generateReferralCodes() {
@@ -73,7 +63,17 @@ public class CustomerService {
         } else {
             bonus = 1;
         }
-        score += profile.getReferralcodes().size() * (bonus + ScoreConstants.SCORE_PER_REFERRAL);
+        int code = 0;
+        if (profile.getContactnumber() != null) {
+            code += 3;
+        }
+        if (profile.getAddress() != null) {
+            code += 2;
+        }
+        if (profile.getCustomername() != null) {
+            code += 1;
+        }
+        score += code * (bonus + ScoreConstants.SCORE_PER_REFERRAL);
         if (score >= ScoreConstants.PREMIUM_CUT_OFF) {
             isEligible = true;
         }
@@ -87,7 +87,17 @@ public class CustomerService {
             for (CustomerProfile customer : customers) {
                 int bonus = 0;
                 int score = 0;
-                switch (customer.getReferralcodes().size()) {
+                int code = 0;
+                if (customer.getContactnumber() != null) {
+                    code += 3;
+                }
+                if (customer.getAddress() != null) {
+                    code += 2;
+                }
+                if (customer.getCustomername() != null) {
+                    code += 1;
+                }
+                switch (code) {
                     case 0:
                         bonus = 0;
                         break;
@@ -120,10 +130,21 @@ public class CustomerService {
                 int bonus = 1;
                 int score = 0;
 
-                if (customer.getReferralcodes().size() == 0) {
+                int code = 0;
+                if (customer.getContactnumber() != null) {
+                    code += 3;
+                }
+                if (customer.getAddress() != null) {
+                    code += 2;
+                }
+                if (customer.getCustomername() != null) {
+                    code += 1;
+                }
+
+                if (code == 0) {
                     bonus = 0;
                 }
-                if (customer.getReferralcodes().size() >= 5) {
+                if (code >= 5) {
                     bonus = 4;
                 }
                 score = ScoreUtils.CalculateScoreForCenosCustomer(customer, bonus);
@@ -141,7 +162,7 @@ public class CustomerService {
 
     public List<CustomerScoreCardMap> getDummyScoreMaps() {
         CustomerProfile c = new CustomerProfile();
-        CustomerProfile c1 = new CustomerProfile(1, "1", "1", "1", "1", "1", new ArrayList<>());
+        CustomerProfile c1 = new CustomerProfile(1, "1", "1", "1", "1", "1");
         CustomerScoreCard customerScoreCard = new CustomerScoreCard(c, 0, false);
         CustomerScoreCard customerScoreCard1 = new CustomerScoreCard(c1, 100, true);
 
@@ -149,7 +170,7 @@ public class CustomerService {
         CustomerScoreCardMap map1 = new CustomerScoreCardMap(scoreCards);
 
         CustomerProfile c2 = new CustomerProfile();
-        CustomerProfile c3 = new CustomerProfile(2, "2", "2", "2", "2", "2", new ArrayList<>());
+        CustomerProfile c3 = new CustomerProfile(2, "2", "2", "2", "2", "2");
         CustomerScoreCard customerScoreCard2 = new CustomerScoreCard(c, 44, false);
         CustomerScoreCard customerScoreCard3 = new CustomerScoreCard(c1, 56, true);
 

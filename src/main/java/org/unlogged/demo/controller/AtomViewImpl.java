@@ -2,8 +2,8 @@ package org.unlogged.demo.controller;
 
 import com.rometools.rome.feed.atom.Feed;
 import com.rometools.rome.feed.atom.Link;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.view.feed.AbstractAtomFeedView;
 
 import java.util.Arrays;
