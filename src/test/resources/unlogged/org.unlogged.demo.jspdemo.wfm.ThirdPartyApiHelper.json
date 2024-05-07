@@ -1,0 +1,131 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"The String\\\",\\\"region\\\":\\\"Idaho\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":43.58,\\\"lon\\\":-111.09,\\\"tz_id\\\":\\\"America/Boise\\\",\\\"localtime_epoch\\\":1715084910,\\\"localtime\\\":\\\"2024-05-07 6:28\\\"},\\\"current\\\":{\\\"temp_c\\\":-1.1,\\\"temp_f\\\":30.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy light snow\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/323.png\\\",\\\"code\\\":1210},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":200,\\\"wind_dir\\\":\\\"SSW\\\",\\\"pressure_mb\\\":1006.0,\\\"pressure_in\\\":29.7,\\\"precip_mm\\\":0.67,\\\"precip_in\\\":0.03,\\\"humidity\\\":92,\\\"cloud\\\":100,\\\"feelslike_c\\\":-4.9,\\\"feelslike_f\\\":23.1,\\\"vis_km\\\":4.8,\\\"vis_miles\\\":2.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":13.9,\\\"gust_kph\\\":22.3}}\"",
+          "id" : "3d97c5e5-ef5b-407b-b1da-8022933cad2d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "104239a8-c00a-4733-9861-af5cfccf83ce",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9d344a4a-b092-43cf-a676-55c79ac89379",
+      "name" : "getWeatherinfo saved on 2024-05-07 17:58",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"The String\\\",\\\"region\\\":\\\"Idaho\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":43.58,\\\"lon\\\":-111.09,\\\"tz_id\\\":\\\"America/Boise\\\",\\\"localtime_epoch\\\":1715084910,\\\"localtime\\\":\\\"2024-05-07 6:28\\\"},\\\"current\\\":{\\\"temp_c\\\":-1.1,\\\"temp_f\\\":30.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy light snow\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/323.png\\\",\\\"code\\\":1210},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":200,\\\"wind_dir\\\":\\\"SSW\\\",\\\"pressure_mb\\\":1006.0,\\\"pressure_in\\\":29.7,\\\"precip_mm\\\":0.67,\\\"precip_in\\\":0.03,\\\"humidity\\\":92,\\\"cloud\\\":100,\\\"feelslike_c\\\":-4.9,\\\"feelslike_f\\\":23.1,\\\"vis_km\\\":4.8,\\\"vis_miles\\\":2.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":13.9,\\\"gust_kph\\\":22.3}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3497908771245,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 83699535,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiVGhlIFN0cmluZ1wiLFwicmVnaW9uXCI6XCJJZGFob1wiLFwiY291bnRyeVwiOlwiVW5pdGVkIFN0YXRlcyBvZiBBbWVyaWNhXCIsXCJsYXRcIjo0My41OCxcImxvblwiOi0xMTEuMDksXCJ0el9pZFwiOlwiQW1lcmljYS9Cb2lzZVwiLFwibG9jYWx0aW1lX2Vwb2NoXCI6MTcxNTA4NDkxMCxcImxvY2FsdGltZVwiOlwiMjAyNC0wNS0wNyA2OjI4XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOi0xLjEsXCJ0ZW1wX2ZcIjozMC4wLFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhdGNoeSBsaWdodCBzbm93XCIsXCJpY29uXCI6XCIvL2Nkbi53ZWF0aGVyYXBpLmNvbS93ZWF0aGVyLzY0eDY0L2RheS8zMjMucG5nXCIsXCJjb2RlXCI6MTIxMH0sXCJ3aW5kX21waFwiOjkuNCxcIndpbmRfa3BoXCI6MTUuMSxcIndpbmRfZGVncmVlXCI6MjAwLFwid2luZF9kaXJcIjpcIlNTV1wiLFwicHJlc3N1cmVfbWJcIjoxMDA2LjAsXCJwcmVzc3VyZV9pblwiOjI5LjcsXCJwcmVjaXBfbW1cIjowLjY3LFwicHJlY2lwX2luXCI6MC4wMyxcImh1bWlkaXR5XCI6OTIsXCJjbG91ZFwiOjEwMCxcImZlZWxzbGlrZV9jXCI6LTQuOSxcImZlZWxzbGlrZV9mXCI6MjMuMSxcInZpc19rbVwiOjQuOCxcInZpc19taWxlc1wiOjIuMCxcInV2XCI6MS4wLFwiZ3VzdF9tcGhcIjoxMy45LFwiZ3VzdF9rcGhcIjoyMi4zfX0i",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1715084932,\\\"localtime\\\":\\\"2024-05-07 17:58\\\"},\\\"current\\\":{\\\"temp_c\\\":33.0,\\\"temp_f\\\":91.4,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":5.6,\\\"wind_kph\\\":9.0,\\\"wind_degree\\\":110,\\\"wind_dir\\\":\\\"ESE\\\",\\\"pressure_mb\\\":1012.0,\\\"pressure_in\\\":29.88,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":47,\\\"cloud\\\":25,\\\"feelslike_c\\\":32.9,\\\"feelslike_f\\\":91.3,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":6.2,\\\"gust_kph\\\":9.9}}\"",
+          "id" : "021e8466-3587-40a4-9baa-ab96a3b94c59",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f789707e-399b-4a33-9563-ddfab503bb03",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5f542f49-68d6-4fff-aac1-37624c42bb1a",
+      "name" : "getWeatherinfo saved on 2024-05-07 17:59",
+      "description" : null,
+      "methodArguments" : [ "\"Bangalore\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1715084932,\\\"localtime\\\":\\\"2024-05-07 17:58\\\"},\\\"current\\\":{\\\"temp_c\\\":33.0,\\\"temp_f\\\":91.4,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":5.6,\\\"wind_kph\\\":9.0,\\\"wind_degree\\\":110,\\\"wind_dir\\\":\\\"ESE\\\",\\\"pressure_mb\\\":1012.0,\\\"pressure_in\\\":29.88,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":47,\\\"cloud\\\":25,\\\"feelslike_c\\\":32.9,\\\"feelslike_f\\\":91.3,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":6.2,\\\"gust_kph\\\":9.9}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3521370263549,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1768295238,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiQmFuZ2Fsb3JlXCIsXCJyZWdpb25cIjpcIkthcm5hdGFrYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjEyLjk4LFwibG9uXCI6NzcuNTgsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE1MDg0OTMyLFwibG9jYWx0aW1lXCI6XCIyMDI0LTA1LTA3IDE3OjU4XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjMzLjAsXCJ0ZW1wX2ZcIjo5MS40LFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhcnRseSBjbG91ZHlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmdcIixcImNvZGVcIjoxMDAzfSxcIndpbmRfbXBoXCI6NS42LFwid2luZF9rcGhcIjo5LjAsXCJ3aW5kX2RlZ3JlZVwiOjExMCxcIndpbmRfZGlyXCI6XCJFU0VcIixcInByZXNzdXJlX21iXCI6MTAxMi4wLFwicHJlc3N1cmVfaW5cIjoyOS44OCxcInByZWNpcF9tbVwiOjAuMCxcInByZWNpcF9pblwiOjAuMCxcImh1bWlkaXR5XCI6NDcsXCJjbG91ZFwiOjI1LFwiZmVlbHNsaWtlX2NcIjozMi45LFwiZmVlbHNsaWtlX2ZcIjo5MS4zLFwidmlzX2ttXCI6OC4wLFwidmlzX21pbGVzXCI6NC4wLFwidXZcIjo4LjAsXCJndXN0X21waFwiOjYuMixcImd1c3Rfa3BoXCI6OS45fX0i",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 1018881335
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "86e05332-13f9-4ed1-bf38-b8cdd331d5f4",
+      "name" : "mock response for call to helper.getWeatherinfo(location)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "fieldName" : "helper",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"The String\\\",\\\"region\\\":\\\"Idaho\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":43.58,\\\"lon\\\":-111.09,\\\"tz_id\\\":\\\"America/Boise\\\",\\\"localtime_epoch\\\":1715084910,\\\"localtime\\\":\\\"2024-05-07 6:28\\\"},\\\"current\\\":{\\\"temp_c\\\":-1.1,\\\"temp_f\\\":30.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy light snow\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/323.png\\\",\\\"code\\\":1210},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":200,\\\"wind_dir\\\":\\\"SSW\\\",\\\"pressure_mb\\\":1006.0,\\\"pressure_in\\\":29.7,\\\"precip_mm\\\":0.67,\\\"precip_in\\\":0.03,\\\"humidity\\\":92,\\\"cloud\\\":100,\\\"feelslike_c\\\":-4.9,\\\"feelslike_f\\\":23.1,\\\"vis_km\\\":4.8,\\\"vis_miles\\\":2.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":13.9,\\\"gust_kph\\\":22.3}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    }, {
+      "id" : "12959160-7f9e-4707-a9e6-1b72cae189b8",
+      "name" : "mock response for call to helper.getWeatherinfo(location)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "fieldName" : "helper",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"Bangalore\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1715084932,\\\"localtime\\\":\\\"2024-05-07 17:58\\\"},\\\"current\\\":{\\\"temp_c\\\":33.0,\\\"temp_f\\\":91.4,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":5.6,\\\"wind_kph\\\":9.0,\\\"wind_degree\\\":110,\\\"wind_dir\\\":\\\"ESE\\\",\\\"pressure_mb\\\":1012.0,\\\"pressure_in\\\":29.88,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":47,\\\"cloud\\\":25,\\\"feelslike_c\\\":32.9,\\\"feelslike_f\\\":91.3,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":6.2,\\\"gust_kph\\\":9.9}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
+}
