@@ -1,0 +1,70 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 15, 16, 17, 18, 19, 21, 26, 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1715084864,\\\"localtime\\\":\\\"2024-05-07 17:57\\\"},\\\"current\\\":{\\\"temp_c\\\":36.1,\\\"temp_f\\\":96.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":17.9,\\\"wind_kph\\\":28.8,\\\"wind_degree\\\":277,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1006.0,\\\"pressure_in\\\":29.71,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":23,\\\"cloud\\\":1,\\\"feelslike_c\\\":35.1,\\\"feelslike_f\\\":95.2,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":9.0,\\\"gust_mph\\\":20.6,\\\"gust_kph\\\":33.1}}\"",
+          "id" : "c5946572-7846-427c-a0e8-1f0571dc5f7a",
+          "assertionType" : "NOT_NULL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a8309d28-9229-4804-8e57-aa5e9936d496",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9789f0e0-05db-40dd-abb6-06160228fb42",
+      "name" : "getWeatherinfo saved on 2024-05-07 17:58",
+      "description" : null,
+      "methodArguments" : [ "\"Pune\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1715084864,\\\"localtime\\\":\\\"2024-05-07 17:57\\\"},\\\"current\\\":{\\\"temp_c\\\":36.1,\\\"temp_f\\\":96.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":17.9,\\\"wind_kph\\\":28.8,\\\"wind_degree\\\":277,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1006.0,\\\"pressure_in\\\":29.71,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":23,\\\"cloud\\\":1,\\\"feelslike_c\\\":35.1,\\\"feelslike_f\\\":95.2,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":9.0,\\\"gust_mph\\\":20.6,\\\"gust_kph\\\":33.1}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3452280251662,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -99656006,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiUHVuZVwiLFwicmVnaW9uXCI6XCJNYWhhcmFzaHRyYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjE4LjUzLFwibG9uXCI6NzMuODcsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE1MDg0ODY0LFwibG9jYWx0aW1lXCI6XCIyMDI0LTA1LTA3IDE3OjU3XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjM2LjEsXCJ0ZW1wX2ZcIjo5Ni45LFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlN1bm55XCIsXCJpY29uXCI6XCIvL2Nkbi53ZWF0aGVyYXBpLmNvbS93ZWF0aGVyLzY0eDY0L2RheS8xMTMucG5nXCIsXCJjb2RlXCI6MTAwMH0sXCJ3aW5kX21waFwiOjE3LjksXCJ3aW5kX2twaFwiOjI4LjgsXCJ3aW5kX2RlZ3JlZVwiOjI3NyxcIndpbmRfZGlyXCI6XCJXXCIsXCJwcmVzc3VyZV9tYlwiOjEwMDYuMCxcInByZXNzdXJlX2luXCI6MjkuNzEsXCJwcmVjaXBfbW1cIjowLjAsXCJwcmVjaXBfaW5cIjowLjAsXCJodW1pZGl0eVwiOjIzLFwiY2xvdWRcIjoxLFwiZmVlbHNsaWtlX2NcIjozNS4xLFwiZmVlbHNsaWtlX2ZcIjo5NS4yLFwidmlzX2ttXCI6MTAuMCxcInZpc19taWxlc1wiOjYuMCxcInV2XCI6OS4wLFwiZ3VzdF9tcGhcIjoyMC42LFwiZ3VzdF9rcGhcIjozMy4xfX0i",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+        "methodHash" : -1588209503
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "d39bab1a-4ece-47ee-b4d2-ee0d2d95c705",
+      "name" : "mock response for call to weatherApi.getWeatherinfo(\"London\")",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+      "fieldName" : "weatherApi",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"Pune\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1715084864,\\\"localtime\\\":\\\"2024-05-07 17:57\\\"},\\\"current\\\":{\\\"temp_c\\\":36.1,\\\"temp_f\\\":96.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":17.9,\\\"wind_kph\\\":28.8,\\\"wind_degree\\\":277,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1006.0,\\\"pressure_in\\\":29.71,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":23,\\\"cloud\\\":1,\\\"feelslike_c\\\":35.1,\\\"feelslike_f\\\":95.2,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":9.0,\\\"gust_mph\\\":20.6,\\\"gust_kph\\\":33.1}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
+}
