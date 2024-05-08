@@ -32,7 +32,7 @@
         <dependency>
             <artifactId>unlogged-sdk</artifactId>
             <groupId>video.bug</groupId>
-            <version>0.4.11</version>
+            <version>0.4.12</version>
         </dependency>
         <dependency>
             <groupId>com.rometools</groupId>
