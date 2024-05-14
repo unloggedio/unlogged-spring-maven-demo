@@ -10,14 +10,6 @@ services:
       MYSQL_DATABASE: unlogged_demo
       MYSQL_ROOT_PASSWORD: root_password
 
-  redis:
-    image: redis:latest
-    restart: always
-    networks: 
-      - unlogged_network
-    environment:
-      REDIS_MASTER_HOST: redis
-
   demo-app:
     container_name: target-repo
     build:
@@ -30,15 +22,12 @@ services:
       - "12100:12100"
     depends_on:
       - mysql
-      - redis
-    networks: 
+    networks:
       - unlogged_network
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged_demo
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root_password
-      SPRING_REDIS_HOST: redis
-      SPRING_REDIS_PORT: 6379
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_JPA_SHOW_SQL: 'true'
       SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT: org.hibernate.dialect.MySQLDialect
