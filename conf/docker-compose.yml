@@ -10,14 +10,6 @@ services:
       MYSQL_DATABASE: unlogged_demo
       MYSQL_ROOT_PASSWORD: root_password
 
-  redis:
-    image: redis:latest
-    restart: always
-    networks: 
-      - unlogged_network
-    environment:
-      REDIS_MASTER_HOST: redis
-
   demo-app:
     container_name: target-repo
     build:
@@ -30,8 +22,7 @@ services:
       - "12100:12100"
     depends_on:
       - mysql
-      - redis
-    networks: 
+    networks:
       - unlogged_network
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged_demo
