@@ -11,7 +11,6 @@ import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.DeliveryCheckResponse;
 import org.unlogged.demo.models.DeliveryRequest;
-import org.unlogged.demo.models.redis.DeliveryUnit;
 import org.unlogged.demo.models.weather.WeatherInfo;
 import org.unlogged.demo.utils.LocationUtils;
 
@@ -34,8 +33,8 @@ public class DeliveryService {
     @Autowired
     private LocalFileService localFileService;
 
-    @Autowired
-    private DeliveryUnitService deliveryUnitService;
+//    @Autowired
+//    private DeliveryUnitService deliveryUnitService;
     @Autowired
     private DeliveryRequestRepo deliveryRequestRepo;
 
@@ -62,11 +61,11 @@ public class DeliveryService {
         String location = LocationUtils.getLocationFromAddress(customerProfile.getAddress());
         WeatherInfo weatherInfo = weatherService.getWeatherForAddress(location);
 
-        List<DeliveryUnit> availableUnits = deliveryUnitService.getAvailableUnitsForLocation(
-                deliveryUnitService.getAllDeliveryUnits(), location);
-        if (availableUnits.size() == 0) {
-            return new DeliveryCheckResponse(customerProfile, false, false, weatherInfo);
-        }
+//        List<DeliveryUnit> availableUnits = deliveryUnitService.getAvailableUnitsForLocation(
+//                deliveryUnitService.getAllDeliveryUnits(), location);
+//        if (availableUnits.size() == 0) {
+//            return new DeliveryCheckResponse(customerProfile, false, false, weatherInfo);
+//        }
 
         boolean canDeliver = false;
         if (weatherInfo.getCurrent().getPrecip_mm() < 2.51) {
