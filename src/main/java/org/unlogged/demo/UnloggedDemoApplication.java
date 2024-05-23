@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableTransactionManagement
 public class UnloggedDemoApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(UnloggedDemoApplication.class, args);
     }
