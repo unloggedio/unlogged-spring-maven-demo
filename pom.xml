@@ -43,7 +43,7 @@
         <dependency>
             <artifactId>unlogged-sdk</artifactId>
             <groupId>video.bug</groupId>
-            <version>0.6.0</version>
+            <version>0.6.1</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
