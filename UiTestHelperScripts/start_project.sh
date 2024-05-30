@@ -1,1 +1,1 @@
-mvn spring-boot:run
+cd ../ && mvn spring-boot:run

@@ -1,1 +1,1 @@
-git checkout .
+cd ../ && git checkout .
