@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.controller.perfAnalysis",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.perfAnalysis#count_prime_calc#(J)I" : [ {
+      "lineNumbers" : [ 27, 28, 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "cfe92b93-8895-403b-878d-717a83579767",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c47b33f5-da0e-4478-8641-4eea99ac5923",
+      "name" : "count_prime_calc saved on 2024-06-03 12:46",
+      "description" : null,
+      "methodArguments" : [ "0" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 62708088681491,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -456665294,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "count_prime_calc",
+        "signature" : "(J)I",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 983516705
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

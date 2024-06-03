@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.controller.lcc",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.lcc#getSomeInt#()I" : [ {
+      "lineNumbers" : [ 9 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "34",
+          "id" : "53d3ddc2-8ab3-428e-a5d9-8c1606ee8033",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "cd3e62c0-0b45-4ddb-b88c-ea1e8cb136e3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5638c155-ab5f-45fc-8a1f-e35965637207",
+      "name" : "getSomeInt saved on 2024-06-03 12:44",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "34",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 62600224758389,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 671814777,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getSomeInt",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.controller.lcc",
+        "methodHash" : 1412344894
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

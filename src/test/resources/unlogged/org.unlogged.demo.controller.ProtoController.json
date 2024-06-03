@@ -1,0 +1,158 @@
+{
+  "classname" : "org.unlogged.demo.controller.ProtoController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/protos/generated/AddressBook;" : [ {
+      "lineNumbers" : [ 42, 43, 44, 45, 226, 233, 1197, 1204, 1524, 1525, 1526, 1527, 1528, 535, 536, 539, 540, 541, 545, 300, 301, 304, 309, 310, 311, 312, 313, 87, 88, 89, 91, 92, 1274, 1275, 1278, 1283, 1284, 1285, 1286, 1287, 1012, 1013, 1014, 1016, 1017, 233, 1204 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "f8b615be-5e9d-48e2-b073-5baa3b007921",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedHashCode"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "-1",
+          "id" : "2b2161df-5de4-4328-8362-42f3c514a057",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedSize"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "b845103a-12d5-4999-a13e-1992426a9ef2",
+            "assertionType" : "ALLOF",
+            "key" : "/unknownFields/fields"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f5bb325f-af1c-4f1c-b65f-9db91fcdcd2a",
+          "assertionType" : "ALLOF",
+          "key" : "/unknownFields"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "3c55ff85-b17d-419e-89f2-1ea1aa13dba9",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedHashCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "-1",
+              "id" : "6d0c96f7-bfff-4740-a66e-3a3e300b898e",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedSize"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "3501ed6f-81b0-46c2-97bf-83e3c357c1ab",
+                "assertionType" : "ALLOF",
+                "key" : "/people_/0/unknownFields/fields"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "01eb7812-3306-4ca5-8eb2-2805d686260a",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/unknownFields"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "e498a578-c19c-4d81-ab7b-be6f7dbb620d",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/bitField0_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Amg\"",
+              "id" : "2ebb4769-d24d-4c26-93a7-809419e614ac",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/name_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "da73df0c-1c1b-46dc-80b0-337a0df977f7",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/id_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"\"",
+              "id" : "df8f8426-b662-452e-a1dc-3e3e4ee8c46b",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/email_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "507ab0de-e819-4bd3-bfcb-d10f2e2156f9",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/phones_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "65684844-1e95-466c-8797-68eb13acc33e",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedIsInitialized"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "92754451-0f4d-479d-9f51-422f7387e520",
+            "assertionType" : "ALLOF",
+            "key" : "/people_/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "6a513add-072f-4bda-97fa-3e8464615318",
+          "assertionType" : "ALLOF",
+          "key" : "/people_"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "8c9d75c8-edc3-418d-924e-dd31be1d2662",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedIsInitialized"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "a55a35c0-fb27-4b46-a95e-17f3dc0367ef",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "2c1916c6-1b3c-4977-a3a5-61e98c812fdf",
+      "name" : "getAddressbook saved on 2024-06-03 12:46",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+      "returnValueClassname" : "org.unlogged.demo.protos.generated.AddressBook",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 62725621669924,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1556397558,
+      "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAddressbook",
+        "signature" : "()Lorg/unlogged/demo/protos/generated/AddressBook;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 753748090
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

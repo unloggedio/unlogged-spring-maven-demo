@@ -1,0 +1,140 @@
+{
+  "classname" : "org.unlogged.demo.controller.InternalClassController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.InternalClassController#getTimeObjects#()Ljava/util/List<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 44, 45, 46, 47, 48, 49, 50, 51 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2024-06-03T12:42:39.192+05:30\"",
+          "id" : "e850d4ce-b74b-4438-818c-1143a2d23c88",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2024-06-03T07:12:39.269Z\"",
+          "id" : "682dfd3d-fa1f-496d-9683-1cd7359ba088",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2024-06-03T07:12:39.271Z\"",
+          "id" : "9c3ad5cc-3aef-4e57-847a-5662d167ca95",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "1a2d5afc-8fb9-4b9d-a5bf-b3400652dba8",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "74da80c7-9183-463a-86e2-1afa1a8212a7",
+      "name" : "getTimeObjects saved on 2024-06-03 12:43",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"2024-06-03T12:42:39.192+05:30\",\"2024-06-03T07:12:39.269Z\",\"2024-06-03T07:12:39.271Z\"]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 62501278065395,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1383943609,
+      "probSerializedValue" : "WyIyMDI0LTA2LTAzVDEyOjQyOjM5LjE5MiswNTozMCIsIjIwMjQtMDYtMDNUMDc6MTI6MzkuMjY5WiIsIjIwMjQtMDYtMDNUMDc6MTI6MzkuMjcxWiJd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getTimeObjects",
+        "signature" : "()Ljava/util/List<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#getMapValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 64 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"key4\"",
+          "id" : "41efc4e5-7222-4d88-b67d-d65e3aa019af",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "46f4cc0e-c5c4-4495-91b4-d0d6505cd90a",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "d73ebc24-d073-4872-8485-af040af795ca",
+      "name" : "getMapValue saved on 2024-06-03 12:43",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"key4\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 62517063237020,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2063147020,
+      "probSerializedValue" : "ImtleTQi",
+      "mockIds" : [ "0c30c4f6-cc23-4b7f-bc6d-16c08d6e9c16" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getMapValue",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.InternalClassController#filterList#(Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 68 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "a98e9294-2ddf-4db1-8f55-70f28063aff1",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "64fe4d56-d772-40ec-82dd-eecc79671396",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "2dbd2932-dc53-4435-af7b-b2de4ec7b9a8",
+      "name" : "filterList saved on 2024-06-03 12:44",
+      "description" : null,
+      "methodArguments" : [ "[\"string\"]" ],
+      "returnValue" : "[\"string\"]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 62575772638405,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -733950660,
+      "probSerializedValue" : "WyJzdHJpbmciXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterList",
+        "signature" : "(Ljava/util/List<Ljava/lang/String;>;)Ljava/util/List<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.InternalClassController",
+        "methodHash" : -20857290
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
