@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.security.util.JwtUtil",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.util.JwtUtil#createToken#(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0RW1haWwiLCJmaXJzdE5hbWUiOiJ0ZXN0VXNlciIsImxhc3ROYW1lIjoic3RyaW5nIiwiZXhwIjoxOTMzNDk2OTAxfQ.nLAxAAWl1ZEcghVPqWOjADm4jRp6txjLSCHQTEa_bUM\"",
+          "id" : "b4f3db2f-16b5-4698-93ca-709a99646f73",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a78bfa2a-7836-48b4-a76c-b4590c026444",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "059fb97a-c7a0-4d6e-9b83-919e0fc6be00",
+      "name" : "createToken saved on 2024-06-04 15:58",
+      "description" : null,
+      "methodArguments" : [ "{\"email\":\"testEmail\",\"password\":\"1234\",\"firstName\":\"testUser\",\"lastName\":\"string\",\"authorities\":[\"USER\"]}" ],
+      "returnValue" : "\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0RW1haWwiLCJmaXJzdE5hbWUiOiJ0ZXN0VXNlciIsImxhc3ROYW1lIjoic3RyaW5nIiwiZXhwIjoxOTMzNDk2OTAxfQ.nLAxAAWl1ZEcghVPqWOjADm4jRp6txjLSCHQTEa_bUM\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 37272864635500,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -584809295,
+      "probSerializedValue" : "ImV5SmhiR2NpT2lKSVV6STFOaUo5LmV5SnpkV0lpT2lKMFpYTjBSVzFoYVd3aUxDSm1hWEp6ZEU1aGJXVWlPaUowWlhOMFZYTmxjaUlzSW14aGMzUk9ZVzFsSWpvaWMzUnlhVzVuSWl3aVpYaHdJam94T1RNek5EazJPVEF4ZlEubkxBeEFBV2wxWkVjZ2hWUHFXT2pBRG00alJwNnR4akxTQ0hRVEVhX2JVTSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "createToken",
+        "signature" : "(Lorg/unlogged/demo/security/model/User;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.security.util.JwtUtil",
+        "methodHash" : -1827127462
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

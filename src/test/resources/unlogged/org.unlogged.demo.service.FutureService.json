@@ -1,0 +1,129 @@
+{
+  "classname" : "org.unlogged.demo.service.FutureService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 12, 13, 14 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"yolo\"",
+          "id" : "159e509f-fa55-4395-ad40-090d98ce730f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "97e987b4-c958-49e7-89fb-b7dea26c36a2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "dac48e17-4d7f-480c-9edb-9fe39ae1e3cc",
+      "name" : "doSomething saved on 2024-06-04 16:07",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"yolo\"",
+      "returnValueClassname" : "java.util.concurrent.CompletableFuture",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 37780388069708,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1571046856,
+      "probSerializedValue" : "InlvbG8i",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "doSomething",
+        "signature" : "()Ljava/util/concurrent/CompletableFuture<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.service.FutureService",
+        "methodHash" : -1513757344
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 18 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"hello\"",
+          "id" : "5077e5ea-3a51-4ca8-9e55-ff3b6ec1967f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f59d22dd-df5e-456b-ad55-a7b43882ff6b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e312bbfb-ddcf-4f80-a6cd-6e6376f1d6f6",
+      "name" : "doSomethingOptional saved on 2024-06-04 16:07",
+      "description" : null,
+      "methodArguments" : [ "\"hello\"" ],
+      "returnValue" : "\"hello\"",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 37788839086208,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1330896812,
+      "probSerializedValue" : "ImhlbGxvIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "doSomethingOptional",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.service.FutureService",
+        "methodHash" : 591176212
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture<Ljava/lang/String;>;" : [ {
+      "id" : "b8e2a9a1-ee47-4b56-9d8e-92e4d3e89f9f",
+      "name" : "mock response for call to futureService.doSomething()",
+      "fieldTypeName" : "org.unlogged.demo.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomething",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"yolo\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.concurrent.CompletableFuture<java.lang.String>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture<Ljava/lang/String;>;"
+    } ],
+    "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/String;>;" : [ {
+      "id" : "c04bd5c4-82b6-44d5-9ca1-a9d3b8d83948",
+      "name" : "mock response for call to futureService.doSomethingOptional(s1)",
+      "fieldTypeName" : "org.unlogged.demo.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomethingOptional",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"testString\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"testString\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<java.lang.String>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional<Ljava/lang/String;>;"
+    } ]
+  }
+}

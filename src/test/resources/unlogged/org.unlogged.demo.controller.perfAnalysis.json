@@ -1,0 +1,300 @@
+{
+  "classname" : "org.unlogged.demo.controller.perfAnalysis",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.perfAnalysis#count_prime_calc#(J)I" : [ {
+      "lineNumbers" : [ 27, 28, 29, 30, 36, 37, 31, 32, 30, 31, 36, 37, 28, 29, 32, 30, 31, 36, 37, 28, 29, 32, 30, 31, 36, 28, 29, 32, 37, 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "168",
+          "id" : "00456350-7de5-4bac-b2de-1063eba64466",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "42402c95-2974-4261-9ba9-2ce422aea27d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8f4fc899-7e29-4d54-bea6-80bfa317a329",
+      "name" : "count_prime_calc saved on 2024-06-04 15:36",
+      "description" : null,
+      "methodArguments" : [ "1000" ],
+      "returnValue" : "168",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 35897543073875,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -910755091,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "count_prime_calc",
+        "signature" : "(J)I",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#sum_natural#(I)Ljava/util/List<Ljava/lang/Long;>;" : [ {
+      "lineNumbers" : [ 46, 49, 50, 51, 53, 56, 57, 58, 60, 62, 63, 64, 65 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "29",
+          "id" : "2710b7e2-635f-4527-a616-fc7e5d3f82a4",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "18",
+          "id" : "9922ed90-a240-4e27-8f69-9d72980dcb99",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "498501",
+          "id" : "19ae4d1f-c4e2-460f-a2f0-1c5f8e6e66c4",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "616d6b84-c47e-444e-a6a8-ce7855bf060c",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "02997f30-4b19-4bae-b405-1d8025d64fe5",
+      "name" : "sum_natural saved on 2024-06-04 15:34",
+      "description" : null,
+      "methodArguments" : [ "1000" ],
+      "returnValue" : "[29,18,498501]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 35686948554625,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 144823012,
+      "probSerializedValue" : "WzI5LDE4LDQ5ODUwMV0=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "sum_natural",
+        "signature" : "(I)Ljava/util/List<Ljava/lang/Long;>;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#ping#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 73 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"server up!\"",
+          "id" : "3b059164-9c4d-4607-94fe-ee18c67d80ae",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "444ab717-2054-466a-9c01-ebe39af670dc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "a89eab9c-bb95-4b1b-a0c1-2b73818bbf80",
+      "name" : "ping saved on 2024-06-04 15:35",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"server up!\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 35873046103875,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1808493930,
+      "probSerializedValue" : "InNlcnZlciB1cCEi",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "ping",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#cpu#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 78, 79, 79, 80, 81, 82, 83 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"count of prime = 168.\\n time_calculate = 464\"",
+          "id" : "320e7d14-c3ee-46b9-805a-047a0e132759",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0468e556-16aa-46f4-8207-212be482b80a",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "14c0139a-73aa-4453-b8be-023685b0c21b",
+      "name" : "cpu saved on 2024-06-04 15:36",
+      "description" : null,
+      "methodArguments" : [ "1000" ],
+      "returnValue" : "\"count of prime = 168.\\n time_calculate = 464\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 35897543067958,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1193441168,
+      "probSerializedValue" : "ImNvdW50IG9mIHByaW1lID0gMTY4LlxuIHRpbWVfY2FsY3VsYXRlID0gNDY0Ig==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "cpu",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#memoryIntensive#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 89, 90, 91, 92, 94, 95 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"write time = 2. read time = 1. sum = 4851.\"",
+          "id" : "b4bc621b-183b-4515-8ef6-4cf0770bb042",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "19adfb26-54aa-4b32-87bd-c9f647db8fd7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "837eba56-ccdc-480e-b70f-28c863999a76",
+      "name" : "memoryIntensive saved on 2024-06-04 15:36",
+      "description" : null,
+      "methodArguments" : [ "100" ],
+      "returnValue" : "\"write time = 2. read time = 1. sum = 4851.\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 35947843095708,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1200249055,
+      "probSerializedValue" : "IndyaXRlIHRpbWUgPSAyLiByZWFkIHRpbWUgPSAxLiBzdW0gPSA0ODUxLiI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "memoryIntensive",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#networkintensive#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 136, 137, 138, 139, 140, 141, 143, 145, 146, 147 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2request completed.\\n time_write = 1230.\\n weather_data = WeatherInfo{location=Location{name='Bengaluru', region='Karnataka', country='India', lat=12.98, lon=77.58, tz_id='Asia/Kolkata', localtime_epoch=1717495641, localtime='2024-06-04 15:37'}, current=Current{temp_c=30.0, temp_f=86.0, is_day=1, condition=Condition{text='Partly cloudy', icon='//cdn.weatherapi.com/weather/64x64/day/116.png', code=1003}, wind_mph=6.9, wind_kph=11.2, wind_degree=240, wind_dir='WSW', pressure_mb=1012.0, pressure_in=29.88, precip_mm=0.64, precip_in=0.03, humidity=52, cloud=50, feelslike_c=32.0, feelslike_f=89.5, vis_km=8.0, vis_miles=4.0, uv=6.0, gust_mph=9.4, gust_kph=15.2}}\\nWeatherInfo{location=Location{name='Bengaluru', region='Karnataka', country='India', lat=12.98, lon=77.58, tz_id='Asia/Kolkata', localtime_epoch=1717495641, localtime='2024-06-04 15:37'}, current=Current{temp_c=30.0, temp_f=86.0, is_day=1, condition=Condition{text='Partly cloudy', icon='//cdn.weatherapi.com/weather/64x64/day/116.png', code=1003}, wind_mph=6.9, wind_kph=11.2, wind_degree=240, wind_dir='WSW', pressure_mb=1012.0, pressure_in=29.88, precip_mm=0.64, precip_in=0.03, humidity=52, cloud=50, feelslike_c=32.0, feelslike_f=89.5, vis_km=8.0, vis_miles=4.0, uv=6.0, gust_mph=9.4, gust_kph=15.2}}\\n\"",
+          "id" : "5f9ac73c-e57f-409a-9edc-e9455e13b784",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e1c45795-4151-4cda-abc1-731c6ed86c48",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8bd7b518-dd57-45ac-9834-3f8375cf298b",
+      "name" : "networkintensive saved on 2024-06-04 15:38",
+      "description" : null,
+      "methodArguments" : [ "2" ],
+      "returnValue" : "\"2request completed.\\n time_write = 1230.\\n weather_data = WeatherInfo{location=Location{name='Bengaluru', region='Karnataka', country='India', lat=12.98, lon=77.58, tz_id='Asia/Kolkata', localtime_epoch=1717495641, localtime='2024-06-04 15:37'}, current=Current{temp_c=30.0, temp_f=86.0, is_day=1, condition=Condition{text='Partly cloudy', icon='//cdn.weatherapi.com/weather/64x64/day/116.png', code=1003}, wind_mph=6.9, wind_kph=11.2, wind_degree=240, wind_dir='WSW', pressure_mb=1012.0, pressure_in=29.88, precip_mm=0.64, precip_in=0.03, humidity=52, cloud=50, feelslike_c=32.0, feelslike_f=89.5, vis_km=8.0, vis_miles=4.0, uv=6.0, gust_mph=9.4, gust_kph=15.2}}\\nWeatherInfo{location=Location{name='Bengaluru', region='Karnataka', country='India', lat=12.98, lon=77.58, tz_id='Asia/Kolkata', localtime_epoch=1717495641, localtime='2024-06-04 15:37'}, current=Current{temp_c=30.0, temp_f=86.0, is_day=1, condition=Condition{text='Partly cloudy', icon='//cdn.weatherapi.com/weather/64x64/day/116.png', code=1003}, wind_mph=6.9, wind_kph=11.2, wind_degree=240, wind_dir='WSW', pressure_mb=1012.0, pressure_in=29.88, precip_mm=0.64, precip_in=0.03, humidity=52, cloud=50, feelslike_c=32.0, feelslike_f=89.5, vis_km=8.0, vis_miles=4.0, uv=6.0, gust_mph=9.4, gust_kph=15.2}}\\n\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 36047020050916,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 875113233,
+      "probSerializedValue" : "IjJyZXF1ZXN0IGNvbXBsZXRlZC5cbiB0aW1lX3dyaXRlID0gMTIzMC5cbiB3ZWF0aGVyX2RhdGEgPSBXZWF0aGVySW5mb3tsb2NhdGlvbj1Mb2NhdGlvbntuYW1lPSdCZW5nYWx1cnUnLCByZWdpb249J0thcm5hdGFrYScsIGNvdW50cnk9J0luZGlhJywgbGF0PTEyLjk4LCBsb249NzcuNTgsIHR6X2lkPSdBc2lhL0tvbGthdGEnLCBsb2NhbHRpbWVfZXBvY2g9MTcxNzQ5NTY0MSwgbG9jYWx0aW1lPScyMDI0LTA2LTA0IDE1OjM3J30sIGN1cnJlbnQ9Q3VycmVudHt0ZW1wX2M9MzAuMCwgdGVtcF9mPTg2LjAsIGlzX2RheT0xLCBjb25kaXRpb249Q29uZGl0aW9ue3RleHQ9J1BhcnRseSBjbG91ZHknLCBpY29uPScvL2Nkbi53ZWF0aGVyYXBpLmNvbS93ZWF0aGVyLzY0eDY0L2RheS8xMTYucG5nJywgY29kZT0xMDAzfSwgd2luZF9tcGg9Ni45LCB3aW5kX2twaD0xMS4yLCB3aW5kX2RlZ3JlZT0yNDAsIHdpbmRfZGlyPSdXU1cnLCBwcmVzc3VyZV9tYj0xMDEyLjAsIHByZXNzdXJlX2luPTI5Ljg4LCBwcmVjaXBfbW09MC42NCwgcHJlY2lwX2luPTAuMDMsIGh1bWlkaXR5PTUyLCBjbG91ZD01MCwgZmVlbHNsaWtlX2M9MzIuMCwgZmVlbHNsaWtlX2Y9ODkuNSwgdmlzX2ttPTguMCwgdmlzX21pbGVzPTQuMCwgdXY9Ni4wLCBndXN0X21waD05LjQsIGd1c3Rfa3BoPTE1LjJ9fVxuV2VhdGhlckluZm97bG9jYXRpb249TG9jYXRpb257bmFtZT0nQmVuZ2FsdXJ1JywgcmVnaW9uPSdLYXJuYXRha2EnLCBjb3VudHJ5PSdJbmRpYScsIGxhdD0xMi45OCwgbG9uPTc3LjU4LCB0el9pZD0nQXNpYS9Lb2xrYXRhJywgbG9jYWx0aW1lX2Vwb2NoPTE3MTc0OTU2NDEsIGxvY2FsdGltZT0nMjAyNC0wNi0wNCAxNTozNyd9LCBjdXJyZW50PUN1cnJlbnR7dGVtcF9jPTMwLjAsIHRlbXBfZj04Ni4wLCBpc19kYXk9MSwgY29uZGl0aW9uPUNvbmRpdGlvbnt0ZXh0PSdQYXJ0bHkgY2xvdWR5JywgaWNvbj0nLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTE2LnBuZycsIGNvZGU9MTAwM30sIHdpbmRfbXBoPTYuOSwgd2luZF9rcGg9MTEuMiwgd2luZF9kZWdyZWU9MjQwLCB3aW5kX2Rpcj0nV1NXJywgcHJlc3N1cmVfbWI9MTAxMi4wLCBwcmVzc3VyZV9pbj0yOS44OCwgcHJlY2lwX21tPTAuNjQsIHByZWNpcF9pbj0wLjAzLCBodW1pZGl0eT01MiwgY2xvdWQ9NTAsIGZlZWxzbGlrZV9jPTMyLjAsIGZlZWxzbGlrZV9mPTg5LjUsIHZpc19rbT04LjAsIHZpc19taWxlcz00LjAsIHV2PTYuMCwgZ3VzdF9tcGg9OS40LCBndXN0X2twaD0xNS4yfX1cbiI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "networkintensive",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : -504762919
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#databaseintensive#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 101, 102, 104, 105, 106, 107, 108, 109, 115, 117, 119, 120, 121, 122, 124, 126, 127, 128, 129, 130, 40, 41, 42, 29, 30, 31, 35, 36, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 40, 41, 42, 29, 30, 31, 35, 36, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 30, 31, 19, 30, 31, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"2 customers write and read done.\\n time_write = 33\\n time_read = 1. \\n customer_data = CustomerProfile{customerid=1, customername='name-2', dateofbirth='dob-2', email='email-2', contactnumber='primaryNumber-2', address='address-2', referralcodes=[yvvwuctftj, onaamhykza, ypxgbodwhx, yoefbglbye, yopkyeuqmc], createdDate=Tue Jun 04 15:37:12 IST 2024, updatedDate=Tue Jun 04 15:37:12 IST 2024}\\nCustomerProfile{customerid=2, customername='name-2', dateofbirth='dob-2', email='email-2', contactnumber='primaryNumber-2', address='address-2', referralcodes=[yjnxjbmoqh, muylboikoc, pznalllezi, xaofxidsru, hgxzypoaij], createdDate=Tue Jun 04 15:37:12 IST 2024, updatedDate=Tue Jun 04 15:37:12 IST 2024}\\n\"",
+          "id" : "cbacc0e4-3758-42d4-9b45-8ac328e0dcf1",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e168dac3-e09e-4e9f-a3c8-73e11d4d07db",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "39ee54f3-5f60-4d67-806e-21dbc5d42daa",
+      "name" : "databaseintensive saved on 2024-06-04 15:38",
+      "description" : null,
+      "methodArguments" : [ "2" ],
+      "returnValue" : "\"2 customers write and read done.\\n time_write = 33\\n time_read = 1. \\n customer_data = CustomerProfile{customerid=1, customername='name-2', dateofbirth='dob-2', email='email-2', contactnumber='primaryNumber-2', address='address-2', referralcodes=[yvvwuctftj, onaamhykza, ypxgbodwhx, yoefbglbye, yopkyeuqmc], createdDate=Tue Jun 04 15:37:12 IST 2024, updatedDate=Tue Jun 04 15:37:12 IST 2024}\\nCustomerProfile{customerid=2, customername='name-2', dateofbirth='dob-2', email='email-2', contactnumber='primaryNumber-2', address='address-2', referralcodes=[yjnxjbmoqh, muylboikoc, pznalllezi, xaofxidsru, hgxzypoaij], createdDate=Tue Jun 04 15:37:12 IST 2024, updatedDate=Tue Jun 04 15:37:12 IST 2024}\\n\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 36032496944541,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1250061026,
+      "probSerializedValue" : "IjIgY3VzdG9tZXJzIHdyaXRlIGFuZCByZWFkIGRvbmUuXG4gdGltZV93cml0ZSA9IDMzXG4gdGltZV9yZWFkID0gMS4gXG4gY3VzdG9tZXJfZGF0YSA9IEN1c3RvbWVyUHJvZmlsZXtjdXN0b21lcmlkPTEsIGN1c3RvbWVybmFtZT0nbmFtZS0yJywgZGF0ZW9mYmlydGg9J2RvYi0yJywgZW1haWw9J2VtYWlsLTInLCBjb250YWN0bnVtYmVyPSdwcmltYXJ5TnVtYmVyLTInLCBhZGRyZXNzPSdhZGRyZXNzLTInLCByZWZlcnJhbGNvZGVzPVt5dnZ3dWN0ZnRqLCBvbmFhbWh5a3phLCB5cHhnYm9kd2h4LCB5b2VmYmdsYnllLCB5b3BreWV1cW1jXSwgY3JlYXRlZERhdGU9VHVlIEp1biAwNCAxNTozNzoxMiBJU1QgMjAyNCwgdXBkYXRlZERhdGU9VHVlIEp1biAwNCAxNTozNzoxMiBJU1QgMjAyNH1cbkN1c3RvbWVyUHJvZmlsZXtjdXN0b21lcmlkPTIsIGN1c3RvbWVybmFtZT0nbmFtZS0yJywgZGF0ZW9mYmlydGg9J2RvYi0yJywgZW1haWw9J2VtYWlsLTInLCBjb250YWN0bnVtYmVyPSdwcmltYXJ5TnVtYmVyLTInLCBhZGRyZXNzPSdhZGRyZXNzLTInLCByZWZlcnJhbGNvZGVzPVt5am54amJtb3FoLCBtdXlsYm9pa29jLCBwem5hbGxsZXppLCB4YW9meGlkc3J1LCBoZ3h6eXBvYWlqXSwgY3JlYXRlZERhdGU9VHVlIEp1biAwNCAxNTozNzoxMiBJU1QgMjAyNCwgdXBkYXRlZERhdGU9VHVlIEp1biAwNCAxNTozNzoxMiBJU1QgMjAyNH1cbiI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "databaseintensive",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 1195252571
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

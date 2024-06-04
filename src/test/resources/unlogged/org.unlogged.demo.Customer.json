@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.Customer",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.Customer#postConstructorMethod#()V" : [ {
+      "lineNumbers" : [ 26, 28, 29, 12, 13, 14 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3a7ff856-ddcd-4ae9-8073-1e43438973ea",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8f0cd031-162f-426e-8b38-ed89706ffa9c",
+      "name" : "postConstructorMethod saved on 2024-06-04 16:08",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 37856366758458,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1542210954,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "postConstructorMethod",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.Customer",
+        "methodHash" : 337320872
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
