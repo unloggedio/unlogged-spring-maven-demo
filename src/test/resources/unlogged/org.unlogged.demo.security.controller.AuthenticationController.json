@@ -1,0 +1,107 @@
+{
+  "classname" : "org.unlogged.demo.security.controller.AuthenticationController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.controller.AuthenticationController#login#(Lorg/unlogged/demo/security/model/request/LoginRequest;)Lorg/springframework/http/ResponseEntity;" : [ {
+      "lineNumbers" : [ 40, 41, 47, 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "530e31ea-983b-442c-8908-a14a7993c976",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"BAD_REQUEST\"",
+            "id" : "ae9c6cf0-eead-4c0c-8fb5-74ba8b1b696d",
+            "assertionType" : "EQUAL",
+            "key" : "/body/httpStatus"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Invalid username or password\"",
+            "id" : "86c93856-082b-40bc-b5b8-1cd3c1bba992",
+            "assertionType" : "EQUAL",
+            "key" : "/body/message"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "00d6216e-1289-4ce6-9b29-22beb8ddd398",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"BAD_REQUEST\"",
+          "id" : "e4429a34-cf15-421c-a147-3f7d38803234",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "22564712-b321-491d-9fb3-2b3d6b36b7cc",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "4262ed8b-b2a3-4440-84f5-88943ec1eef4",
+      "name" : "login saved on 2024-06-04 15:54",
+      "description" : null,
+      "methodArguments" : [ "{\"email\":\"test@email.com\",\"password\":\"testPassword\"}" ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"httpStatus\":\"BAD_REQUEST\",\"message\":\"Invalid username or password\"},\"status\":\"BAD_REQUEST\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 36961611728000,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -514821538,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJodHRwU3RhdHVzIjoiQkFEX1JFUVVFU1QiLCJtZXNzYWdlIjoiSW52YWxpZCB1c2VybmFtZSBvciBwYXNzd29yZCJ9LCJzdGF0dXMiOiJCQURfUkVRVUVTVCJ9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "login",
+        "signature" : "(Lorg/unlogged/demo/security/model/request/LoginRequest;)Lorg/springframework/http/ResponseEntity;",
+        "className" : "org.unlogged.demo.security.controller.AuthenticationController",
+        "methodHash" : -1086727183
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.security.controller.AuthenticationController#getAuthObject#()Lorg/springframework/security/core/Authentication;" : [ {
+      "lineNumbers" : [ 57 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "47c34857-d4eb-403a-9a69-32007582d7b5",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "4244b0bf-8758-48b6-9fb9-76df6d5913b4",
+      "name" : "getAuthObject saved on 2024-06-04 15:54",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1357724425",
+      "returnValueClassname" : "org.springframework.security.core.Authentication",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 36937453991708,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1729714263,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getAuthObject",
+        "signature" : "()Lorg/springframework/security/core/Authentication;",
+        "className" : "org.unlogged.demo.security.controller.AuthenticationController",
+        "methodHash" : 2035006738
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
