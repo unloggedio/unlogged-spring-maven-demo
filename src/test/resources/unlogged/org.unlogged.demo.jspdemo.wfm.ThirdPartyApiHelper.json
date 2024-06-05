@@ -1,0 +1,85 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Dehradun\\\",\\\"region\\\":\\\"Uttarakhand\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":30.32,\\\"lon\\\":78.03,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568281,\\\"localtime\\\":\\\"2024-06-05 11:48\\\"},\\\"current\\\":{\\\"temp_c\\\":38.1,\\\"temp_f\\\":100.6,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":8.3,\\\"wind_kph\\\":13.3,\\\"wind_degree\\\":240,\\\"wind_dir\\\":\\\"WSW\\\",\\\"pressure_mb\\\":1003.0,\\\"pressure_in\\\":29.63,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":15,\\\"cloud\\\":13,\\\"feelslike_c\\\":37.2,\\\"feelslike_f\\\":99.0,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":9.0,\\\"gust_mph\\\":9.5,\\\"gust_kph\\\":15.3}}\"",
+          "id" : "a651ff72-5e70-4b51-8c0e-68d848a03406",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "189db0c9-e9a3-44a4-9e68-b86692b64755",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "114680ff-a265-430f-ab7c-4fc88fa37846",
+      "name" : "getWeatherinfo saved on 2024-06-05 11:48",
+      "description" : null,
+      "methodArguments" : [ "\"Dehradun\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Dehradun\\\",\\\"region\\\":\\\"Uttarakhand\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":30.32,\\\"lon\\\":78.03,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568281,\\\"localtime\\\":\\\"2024-06-05 11:48\\\"},\\\"current\\\":{\\\"temp_c\\\":38.1,\\\"temp_f\\\":100.6,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Sunny\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/113.png\\\",\\\"code\\\":1000},\\\"wind_mph\\\":8.3,\\\"wind_kph\\\":13.3,\\\"wind_degree\\\":240,\\\"wind_dir\\\":\\\"WSW\\\",\\\"pressure_mb\\\":1003.0,\\\"pressure_in\\\":29.63,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":15,\\\"cloud\\\":13,\\\"feelslike_c\\\":37.2,\\\"feelslike_f\\\":99.0,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":9.0,\\\"gust_mph\\\":9.5,\\\"gust_kph\\\":15.3}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52119254809083,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1886911899,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiRGVocmFkdW5cIixcInJlZ2lvblwiOlwiVXR0YXJha2hhbmRcIixcImNvdW50cnlcIjpcIkluZGlhXCIsXCJsYXRcIjozMC4zMixcImxvblwiOjc4LjAzLFwidHpfaWRcIjpcIkFzaWEvS29sa2F0YVwiLFwibG9jYWx0aW1lX2Vwb2NoXCI6MTcxNzU2ODI4MSxcImxvY2FsdGltZVwiOlwiMjAyNC0wNi0wNSAxMTo0OFwifSxcImN1cnJlbnRcIjp7XCJ0ZW1wX2NcIjozOC4xLFwidGVtcF9mXCI6MTAwLjYsXCJpc19kYXlcIjoxLFwiY29uZGl0aW9uXCI6e1widGV4dFwiOlwiU3VubnlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExMy5wbmdcIixcImNvZGVcIjoxMDAwfSxcIndpbmRfbXBoXCI6OC4zLFwid2luZF9rcGhcIjoxMy4zLFwid2luZF9kZWdyZWVcIjoyNDAsXCJ3aW5kX2RpclwiOlwiV1NXXCIsXCJwcmVzc3VyZV9tYlwiOjEwMDMuMCxcInByZXNzdXJlX2luXCI6MjkuNjMsXCJwcmVjaXBfbW1cIjowLjAsXCJwcmVjaXBfaW5cIjowLjAsXCJodW1pZGl0eVwiOjE1LFwiY2xvdWRcIjoxMyxcImZlZWxzbGlrZV9jXCI6MzcuMixcImZlZWxzbGlrZV9mXCI6OTkuMCxcInZpc19rbVwiOjEwLjAsXCJ2aXNfbWlsZXNcIjo2LjAsXCJ1dlwiOjkuMCxcImd1c3RfbXBoXCI6OS41LFwiZ3VzdF9rcGhcIjoxNS4zfX0i",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 1018881335
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568288,\\\"localtime\\\":\\\"2024-06-05 11:48\\\"},\\\"current\\\":{\\\"temp_c\\\":28.0,\\\"temp_f\\\":82.4,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":250,\\\"wind_dir\\\":\\\"WSW\\\",\\\"pressure_mb\\\":1015.0,\\\"pressure_in\\\":29.97,\\\"precip_mm\\\":0.35,\\\"precip_in\\\":0.01,\\\"humidity\\\":62,\\\"cloud\\\":50,\\\"feelslike_c\\\":29.8,\\\"feelslike_f\\\":85.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":10.7,\\\"gust_kph\\\":17.3}}\"",
+          "id" : "4017f078-efeb-454a-94e1-f28b15047dd4",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "022fe806-9501-4ff1-9f2c-155202601439",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "a3cacaaf-6c6a-426f-820a-498cc5e565e3",
+      "name" : "getWeatherinfo saved on 2024-06-05 11:48",
+      "description" : null,
+      "methodArguments" : [ "\"Bangalore\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568288,\\\"localtime\\\":\\\"2024-06-05 11:48\\\"},\\\"current\\\":{\\\"temp_c\\\":28.0,\\\"temp_f\\\":82.4,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":250,\\\"wind_dir\\\":\\\"WSW\\\",\\\"pressure_mb\\\":1015.0,\\\"pressure_in\\\":29.97,\\\"precip_mm\\\":0.35,\\\"precip_in\\\":0.01,\\\"humidity\\\":62,\\\"cloud\\\":50,\\\"feelslike_c\\\":29.8,\\\"feelslike_f\\\":85.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":10.7,\\\"gust_kph\\\":17.3}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52125601250500,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 523255087,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiQmFuZ2Fsb3JlXCIsXCJyZWdpb25cIjpcIkthcm5hdGFrYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjEyLjk4LFwibG9uXCI6NzcuNTgsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE3NTY4Mjg4LFwibG9jYWx0aW1lXCI6XCIyMDI0LTA2LTA1IDExOjQ4XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjI4LjAsXCJ0ZW1wX2ZcIjo4Mi40LFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhcnRseSBjbG91ZHlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmdcIixcImNvZGVcIjoxMDAzfSxcIndpbmRfbXBoXCI6OS40LFwid2luZF9rcGhcIjoxNS4xLFwid2luZF9kZWdyZWVcIjoyNTAsXCJ3aW5kX2RpclwiOlwiV1NXXCIsXCJwcmVzc3VyZV9tYlwiOjEwMTUuMCxcInByZXNzdXJlX2luXCI6MjkuOTcsXCJwcmVjaXBfbW1cIjowLjM1LFwicHJlY2lwX2luXCI6MC4wMSxcImh1bWlkaXR5XCI6NjIsXCJjbG91ZFwiOjUwLFwiZmVlbHNsaWtlX2NcIjoyOS44LFwiZmVlbHNsaWtlX2ZcIjo4NS42LFwidmlzX2ttXCI6MTAuMCxcInZpc19taWxlc1wiOjYuMCxcInV2XCI6Ni4wLFwiZ3VzdF9tcGhcIjoxMC43LFwiZ3VzdF9rcGhcIjoxNy4zfX0i",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 1018881335
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

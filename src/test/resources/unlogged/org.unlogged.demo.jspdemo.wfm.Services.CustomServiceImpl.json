@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomServiceImpl",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomServiceImpl#getValue#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 9 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Some Value1\"",
+          "id" : "9986646e-446d-49ff-a9cc-6f3789590b67",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "da920b1b-53e6-4da6-8ddc-88976625de65",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5c8acd9d-6ebb-4780-bc36-4f092eb03ec9",
+      "name" : "getValue saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Some Value1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52730754129833,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1590903901,
+      "probSerializedValue" : "IlNvbWUgVmFsdWUxIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getValue",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomServiceImpl",
+        "methodHash" : 334423081
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

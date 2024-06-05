@@ -1,0 +1,53 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController#gcdOfTwoNumbers#(II)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/MessageDto;" : [ {
+      "lineNumbers" : [ 18, 19, 22, 24, 25, 26, 29, 31, 32, 35, 37, 15, 16, 17, 18, 19, 21, 26, 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "10",
+          "id" : "116e04f0-fea9-4622-b1f3-b55213a62308",
+          "assertionType" : "EQUAL",
+          "key" : "/gcd"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568156,\\\"localtime\\\":\\\"2024-06-05 11:45\\\"},\\\"current\\\":{\\\"temp_c\\\":31.6,\\\"temp_f\\\":88.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":9.2,\\\"wind_kph\\\":14.8,\\\"wind_degree\\\":275,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1009.0,\\\"pressure_in\\\":29.8,\\\"precip_mm\\\":0.01,\\\"precip_in\\\":0.0,\\\"humidity\\\":53,\\\"cloud\\\":89,\\\"feelslike_c\\\":34.8,\\\"feelslike_f\\\":94.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":10.6,\\\"gust_kph\\\":17.0}}\"",
+          "id" : "7784e44a-4d60-4ef1-af53-afc2f27029c8",
+          "assertionType" : "EQUAL",
+          "key" : "/weather"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ee0e9742-bb11-4214-a707-dbeb33cd6ae3",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "6cf3baf1-2fa7-49c4-998d-eb5979589c3d",
+      "name" : "gcdOfTwoNumbers saved on 2024-06-05 11:47",
+      "description" : null,
+      "methodArguments" : [ "5", "10" ],
+      "returnValue" : "{\"gcd\":10,\"weather\":\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568156,\\\"localtime\\\":\\\"2024-06-05 11:45\\\"},\\\"current\\\":{\\\"temp_c\\\":31.6,\\\"temp_f\\\":88.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":9.2,\\\"wind_kph\\\":14.8,\\\"wind_degree\\\":275,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1009.0,\\\"pressure_in\\\":29.8,\\\"precip_mm\\\":0.01,\\\"precip_in\\\":0.0,\\\"humidity\\\":53,\\\"cloud\\\":89,\\\"feelslike_c\\\":34.8,\\\"feelslike_f\\\":94.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":10.6,\\\"gust_kph\\\":17.0}}\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.MessageDto",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51993721648875,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -906285156,
+      "probSerializedValue" : "eyJnY2QiOjEwLCJ3ZWF0aGVyIjoie1wibG9jYXRpb25cIjp7XCJuYW1lXCI6XCJQdW5lXCIsXCJyZWdpb25cIjpcIk1haGFyYXNodHJhXCIsXCJjb3VudHJ5XCI6XCJJbmRpYVwiLFwibGF0XCI6MTguNTMsXCJsb25cIjo3My44NyxcInR6X2lkXCI6XCJBc2lhL0tvbGthdGFcIixcImxvY2FsdGltZV9lcG9jaFwiOjE3MTc1NjgxNTYsXCJsb2NhbHRpbWVcIjpcIjIwMjQtMDYtMDUgMTE6NDVcIn0sXCJjdXJyZW50XCI6e1widGVtcF9jXCI6MzEuNixcInRlbXBfZlwiOjg4LjksXCJpc19kYXlcIjoxLFwiY29uZGl0aW9uXCI6e1widGV4dFwiOlwiUGF0Y2h5IHJhaW4gbmVhcmJ5XCIsXCJpY29uXCI6XCIvL2Nkbi53ZWF0aGVyYXBpLmNvbS93ZWF0aGVyLzY0eDY0L2RheS8xNzYucG5nXCIsXCJjb2RlXCI6MTA2M30sXCJ3aW5kX21waFwiOjkuMixcIndpbmRfa3BoXCI6MTQuOCxcIndpbmRfZGVncmVlXCI6Mjc1LFwid2luZF9kaXJcIjpcIldcIixcInByZXNzdXJlX21iXCI6MTAwOS4wLFwicHJlc3N1cmVfaW5cIjoyOS44LFwicHJlY2lwX21tXCI6MC4wMSxcInByZWNpcF9pblwiOjAuMCxcImh1bWlkaXR5XCI6NTMsXCJjbG91ZFwiOjg5LFwiZmVlbHNsaWtlX2NcIjozNC44LFwiZmVlbHNsaWtlX2ZcIjo5NC42LFwidmlzX2ttXCI6MTAuMCxcInZpc19taWxlc1wiOjYuMCxcInV2XCI6Ny4wLFwiZ3VzdF9tcGhcIjoxMC42LFwiZ3VzdF9rcGhcIjoxNy4wfX0ifQ==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "gcdOfTwoNumbers",
+        "signature" : "(II)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/MessageDto;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+        "methodHash" : -295837109
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

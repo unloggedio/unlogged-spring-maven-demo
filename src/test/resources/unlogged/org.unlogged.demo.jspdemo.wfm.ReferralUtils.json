@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ReferralUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ReferralUtils#generateReferralCode#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"gsumhbzaau\"",
+          "id" : "806a1b57-e319-41fb-8738-6072425d8b22",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "eba36142-8710-4130-8b51-b341cc32a119",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "49bc831a-c3df-4138-9797-2064dc1b3340",
+      "name" : "generateReferralCode saved on 2024-06-05 11:45",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"gsumhbzaau\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51903221228750,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 797601134,
+      "probSerializedValue" : "ImdzdW1oYnphYXUi",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "generateReferralCode",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ReferralUtils",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

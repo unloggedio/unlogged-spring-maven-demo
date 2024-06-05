@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator#calculateDiscount#(D)D" : [ {
+      "lineNumbers" : [ 6 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4.6218191175889715E18",
+          "id" : "71caf0f4-4c13-4da7-a665-aa43ac24b0b3",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f14a59e1-ce22-42e7-8301-76fd15029b38",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "16e4f4c3-747a-4a2b-b4d4-c250b8961cbf",
+      "name" : "calculateDiscount saved on 2024-06-05 12:30",
+      "description" : null,
+      "methodArguments" : [ "4636737291354636288" ],
+      "returnValue" : "4621819117588971520",
+      "returnValueClassname" : "D",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52978743846166,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1879281828,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "calculateDiscount",
+        "signature" : "(D)D",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.DiscountCalculator",
+        "methodHash" : -1546914513
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

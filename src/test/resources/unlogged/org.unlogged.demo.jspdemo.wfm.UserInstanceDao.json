@@ -1,0 +1,67 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.UserInstanceDao",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.UserInstanceDao#save#(Lorg/unlogged/demo/jspdemo/wfm/UserInstance;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;" : [ {
+      "lineNumbers" : [ 24, 25, 26, 27, 29, 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "72145608-9bd0-46a3-b1b8-b400d4ac900d",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"testUser\"",
+          "id" : "47eac883-ae0c-4472-ad58-20ef1a515110",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"helloworld\"",
+          "id" : "0d8b49aa-bc06-4273-bbb2-0a5fbf6589bd",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"test@email.com\"",
+          "id" : "576967cc-5157-4ae8-97a2-1b4b406e61c8",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "1a8c611a-e06f-49b2-8548-695b28e48df4",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "693bccfa-2911-40b6-bf1a-3c55822277dc",
+      "name" : "save saved on 2024-06-05 12:20",
+      "description" : null,
+      "methodArguments" : [ "{\"user_id\":0,\"username\":\"testUser\",\"password\":\"helloworld\",\"email\":\"test@email.com\"}" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"testUser\",\"password\":\"helloworld\",\"email\":\"test@email.com\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.UserInstance",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52394531839916,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 623521908,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InRlc3RVc2VyIiwicGFzc3dvcmQiOiJoZWxsb3dvcmxkIiwiZW1haWwiOiJ0ZXN0QGVtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "save",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/UserInstance;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.UserInstanceDao",
+        "methodHash" : 743188083
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

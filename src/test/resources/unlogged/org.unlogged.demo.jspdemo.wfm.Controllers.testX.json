@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.testX#serviceMethod#()V" : [ {
+      "lineNumbers" : [ 250, 251 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d395f589-a71b-4ea8-944f-377e43abd0a2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8d2b408f-125b-4bb7-8f94-44cca6bf71d1",
+      "name" : "serviceMethod saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52749434229375,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1362941574,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "serviceMethod",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.testX",
+        "methodHash" : -2145423755
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

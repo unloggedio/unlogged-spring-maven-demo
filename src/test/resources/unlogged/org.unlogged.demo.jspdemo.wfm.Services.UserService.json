@@ -1,0 +1,367 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getDeepClassList#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;" : [ {
+      "lineNumbers" : [ 54, 55 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a32eb796-bab7-4e55-be90-89d84a67a093",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "99af1bc5-5bcc-4e1c-9780-9823ea046690",
+      "name" : "getDeepClassList saved on 2024-06-05 12:20",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1202787620",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.DeepClass",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52437762276375,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 878128023,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getDeepClassList",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/DeepClass;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#many#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"some1\"",
+          "id" : "e5ea5b61-4309-4df5-a49e-50a8415ac60b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d8bc087a-de0d-49b8-ac56-1371b2f85de6",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c3d67eff-35ca-4f1d-bf29-bcb106e4a70b",
+      "name" : "many saved on 2024-06-05 12:21",
+      "description" : null,
+      "methodArguments" : [ "\"b\"", "\"b\"", "\"c\"", "\"d\"" ],
+      "returnValue" : "\"some1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52522986401833,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1753398807,
+      "probSerializedValue" : "InNvbWUxIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "many",
+        "signature" : "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#addUser#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)V" : [ {
+      "lineNumbers" : [ 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "26cb8059-b7d2-4646-a309-f3297ec9dbf0",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "667cc59d-16ed-49b9-88bf-59d7bbd1fd2b",
+      "name" : "addUser saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ "{\"user_id\":3,\"username\":\"sdv\",\"password\":\"df\",\"email\":\"t@email.com\"}" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52628988753083,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1506845630,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "addUser",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)V",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : 572249482
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getAllUsers#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "3",
+            "id" : "db0571a2-4ac0-475a-a639-650bf804aa32",
+            "assertionType" : "EQUAL",
+            "key" : "/0/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"sdv\"",
+            "id" : "318fb480-ab80-41be-b0c3-97df06e8453c",
+            "assertionType" : "EQUAL",
+            "key" : "/0/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"df\"",
+            "id" : "aa93e2b4-f738-4ca6-aacc-b9e9afcb6ec2",
+            "assertionType" : "EQUAL",
+            "key" : "/0/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"t@email.com\"",
+            "id" : "df4a0bfc-81a0-4997-852a-1a21cfb4eb2e",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1775f7c0-fd24-4798-bffa-081e6277189e",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "8e457693-c639-4448-a8fe-866d86b45a1a",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "d7a7734a-38d5-406f-9328-2d54e073e80d",
+      "name" : "getAllUsers saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"user_id\":3,\"username\":\"sdv\",\"password\":\"df\",\"email\":\"t@email.com\"}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52636437596416,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 77021678,
+      "probSerializedValue" : "W3sidXNlcl9pZCI6MywidXNlcm5hbWUiOiJzZHYiLCJwYXNzd29yZCI6ImRmIiwiZW1haWwiOiJ0QGVtYWlsLmNvbSJ9XQ==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getAllUsers",
+        "signature" : "()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : -1290296532
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getULO#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/UserListInfo;" : [ {
+      "lineNumbers" : [ 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "e01ff93f-8ad4-42b4-a1d0-81c456d2e5ae",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3",
+              "id" : "a3ab8f6f-92f6-4014-ae91-496498693746",
+              "assertionType" : "EQUAL",
+              "key" : "/users/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"sdv\"",
+              "id" : "d7ea4bc4-79e0-4c9c-8cfe-eec6d79dee16",
+              "assertionType" : "EQUAL",
+              "key" : "/users/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"df\"",
+              "id" : "e7c864ae-a549-436a-9fd6-e902549b4c18",
+              "assertionType" : "EQUAL",
+              "key" : "/users/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"t@email.com\"",
+              "id" : "ad7d5265-8cab-415b-be20-b47dba66ea8d",
+              "assertionType" : "EQUAL",
+              "key" : "/users/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "356bbdd0-29a4-4bd7-b8a5-5f9bb0305550",
+            "assertionType" : "ALLOF",
+            "key" : "/users/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "9a2d4fb7-9d4e-4fcb-9bf9-b708091918bf",
+          "assertionType" : "ALLOF",
+          "key" : "/users"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "49e8affd-7b58-491e-803b-0f8023f2f583",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "e3ebda8f-f680-4ab9-a1e3-4d9f5ba3bc64",
+      "name" : "getULO saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"id\":0,\"users\":[{\"user_id\":3,\"username\":\"sdv\",\"password\":\"df\",\"email\":\"t@email.com\"}]}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.UserListInfo",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52641903299500,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -893229434,
+      "probSerializedValue" : "eyJpZCI6MCwidXNlcnMiOlt7InVzZXJfaWQiOjMsInVzZXJuYW1lIjoic2R2IiwicGFzc3dvcmQiOiJkZiIsImVtYWlsIjoidEBlbWFpbC5jb20ifV19",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getULO",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/UserListInfo;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : 996723305
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getNumber#()I" : [ {
+      "lineNumbers" : [ 50 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "14",
+          "id" : "ed2f9463-91b7-4220-b077-64981d03eb34",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "be1f1120-975a-432f-a553-dab65522db2d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "cc857721-cf8f-4697-87c8-adf6ef38bef1",
+      "name" : "getNumber saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "14",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52656701729083,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2044618314,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getNumber",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : -1171881422
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.UserService#getUser#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 22, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ce558a10-9fa1-424e-a153-784c0023bc5a",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5e5c67cb-5127-4f51-8140-cd4ffb4155fb",
+      "name" : "getUser saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ "\"test User\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52775345347750,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 620389732,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getUser",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : 801376001
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 22, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d6a23744-ba77-4435-834e-beeaa8c6b73b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7e7e6f2d-467f-411e-bab9-6370a3b45dd1",
+      "name" : "getUser saved on 2024-06-05 12:25",
+      "description" : null,
+      "methodArguments" : [ "\"testUser\"" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52785442009041,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1605403043,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getUser",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+        "methodHash" : 801376001
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

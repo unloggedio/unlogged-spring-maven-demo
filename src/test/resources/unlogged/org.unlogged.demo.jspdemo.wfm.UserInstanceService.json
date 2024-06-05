@@ -1,0 +1,67 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.UserInstanceService#saveUser#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;" : [ {
+      "lineNumbers" : [ 10, 11, 24, 25, 26, 27, 29, 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "51ea4bc1-e880-4296-bbde-d1b210a0c901",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"testUser\"",
+          "id" : "a9e52a59-ce1a-4ff2-87f9-e0f2ee0556c1",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"helloworld\"",
+          "id" : "1505d3dd-0ea8-42ce-8dba-d268b4bb7d1e",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"test@email.com\"",
+          "id" : "877232df-5d04-407d-88af-0b6754d82965",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "fb533822-225d-4773-8f1c-aedc654e3e88",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "6cf7cf4d-558d-4738-94d2-b24242f908d8",
+      "name" : "saveUser saved on 2024-06-05 12:20",
+      "description" : null,
+      "methodArguments" : [ "\"testUser\"", "\"helloworld\"", "\"test@email.com\"" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"testUser\",\"password\":\"helloworld\",\"email\":\"test@email.com\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.UserInstance",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 52394530765916,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 341732488,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InRlc3RVc2VyIiwicGFzc3dvcmQiOiJoZWxsb3dvcmxkIiwiZW1haWwiOiJ0ZXN0QGVtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "saveUser",
+        "signature" : "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService",
+        "methodHash" : 1388885849
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 15, 16, 17, 18, 19, 21, 26, 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568156,\\\"localtime\\\":\\\"2024-06-05 11:45\\\"},\\\"current\\\":{\\\"temp_c\\\":31.6,\\\"temp_f\\\":88.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":9.2,\\\"wind_kph\\\":14.8,\\\"wind_degree\\\":275,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1009.0,\\\"pressure_in\\\":29.8,\\\"precip_mm\\\":0.01,\\\"precip_in\\\":0.0,\\\"humidity\\\":53,\\\"cloud\\\":89,\\\"feelslike_c\\\":34.8,\\\"feelslike_f\\\":94.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":10.6,\\\"gust_kph\\\":17.0}}\"",
+          "id" : "5476e841-6f46-45ce-9baa-b10d52d327d6",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ccb95bfd-0b1d-49e7-9100-06c97878c437",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "a6971000-eec6-4903-8dd4-2d0e16d1cec5",
+      "name" : "getWeatherinfo saved on 2024-06-05 11:47",
+      "description" : null,
+      "methodArguments" : [ "\"Pune\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1717568156,\\\"localtime\\\":\\\"2024-06-05 11:45\\\"},\\\"current\\\":{\\\"temp_c\\\":31.6,\\\"temp_f\\\":88.9,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":9.2,\\\"wind_kph\\\":14.8,\\\"wind_degree\\\":275,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1009.0,\\\"pressure_in\\\":29.8,\\\"precip_mm\\\":0.01,\\\"precip_in\\\":0.0,\\\"humidity\\\":53,\\\"cloud\\\":89,\\\"feelslike_c\\\":34.8,\\\"feelslike_f\\\":94.6,\\\"vis_km\\\":10.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":10.6,\\\"gust_kph\\\":17.0}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51993722431666,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1564001288,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiUHVuZVwiLFwicmVnaW9uXCI6XCJNYWhhcmFzaHRyYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjE4LjUzLFwibG9uXCI6NzMuODcsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE3NTY4MTU2LFwibG9jYWx0aW1lXCI6XCIyMDI0LTA2LTA1IDExOjQ1XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjMxLjYsXCJ0ZW1wX2ZcIjo4OC45LFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhdGNoeSByYWluIG5lYXJieVwiLFwiaWNvblwiOlwiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTc2LnBuZ1wiLFwiY29kZVwiOjEwNjN9LFwid2luZF9tcGhcIjo5LjIsXCJ3aW5kX2twaFwiOjE0LjgsXCJ3aW5kX2RlZ3JlZVwiOjI3NSxcIndpbmRfZGlyXCI6XCJXXCIsXCJwcmVzc3VyZV9tYlwiOjEwMDkuMCxcInByZXNzdXJlX2luXCI6MjkuOCxcInByZWNpcF9tbVwiOjAuMDEsXCJwcmVjaXBfaW5cIjowLjAsXCJodW1pZGl0eVwiOjUzLFwiY2xvdWRcIjo4OSxcImZlZWxzbGlrZV9jXCI6MzQuOCxcImZlZWxzbGlrZV9mXCI6OTQuNixcInZpc19rbVwiOjEwLjAsXCJ2aXNfbWlsZXNcIjo2LjAsXCJ1dlwiOjcuMCxcImd1c3RfbXBoXCI6MTAuNixcImd1c3Rfa3BoXCI6MTcuMH19Ig==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+        "methodHash" : -1588209503
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
