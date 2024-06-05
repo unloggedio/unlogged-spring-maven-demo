@@ -7,36 +7,36 @@
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-06-05T11:19:43.811+05:30\"",
-          "id" : "ea05d5de-e2b4-40d1-b219-ab499bb49386",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "\"2024-06-05T20:40:09.948+05:30\"",
+          "id" : "9d5a907f-7c42-4c13-a676-8bb67396a01b",
+          "assertionType" : "NOT_NULL",
           "key" : "/0"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-06-05T05:49:43.822Z\"",
-          "id" : "a9cdab40-bbdd-44e3-b4f3-52d50d1aceca",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "\"2024-06-05T15:10:09.959Z\"",
+          "id" : "8186e1d7-bc2d-4cf4-a345-2b0d2a2fe265",
+          "assertionType" : "NOT_NULL",
           "key" : "/1"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"2024-06-05T05:49:43.822538Z\"",
-          "id" : "3d6388e3-b8ca-4219-8d26-53bc9b029ff9",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "\"2024-06-05T15:10:09.959551Z\"",
+          "id" : "8fe4afbe-846a-469d-90af-b7369d6402c3",
+          "assertionType" : "NOT_NULL",
           "key" : "/2"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "e941f184-52cf-4ba5-a15e-6145c7f98471",
+        "id" : "6d548fc8-a876-49ed-a990-5c5fd2fba895",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "a45d6ebe-9c92-4173-87e4-d357aba3a0bc",
-      "name" : "getTimeObjects saved on 2024-06-05 11:20",
+      "candidateId" : "90a91781-d2bf-4939-9011-d19d6e5d1271",
+      "name" : "getTimeObjects saved on 2024-06-05 20:40",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "[\"2024-06-05T11:19:43.811+05:30\",\"2024-06-05T05:49:43.822Z\",\"2024-06-05T05:49:43.822538Z\"]",
+      "returnValue" : "[\"2024-06-05T20:40:09.948+05:30\",\"2024-06-05T15:10:09.959Z\",\"2024-06-05T15:10:09.959551Z\"]",
       "returnValueClassname" : "java.util.List",
       "metadata" : {
         "recordedBy" : "akshatjain",
@@ -44,8 +44,8 @@
         "timestamp" : 50385355222750,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -862637953,
-      "probSerializedValue" : "WyIyMDI0LTA2LTA1VDExOjE5OjQzLjgxMSswNTozMCIsIjIwMjQtMDYtMDVUMDU6NDk6NDMuODIyWiIsIjIwMjQtMDYtMDVUMDU6NDk6NDMuODIyNTM4WiJd",
+      "sessionIdentifier" : 7658788,
+      "probSerializedValue" : "WyIyMDI0LTA2LTA1VDIwOjQwOjA5Ljk0OCswNTozMCIsIjIwMjQtMDYtMDVUMTU6MTA6MDkuOTU5WiIsIjIwMjQtMDYtMDVUMTU6MTA6MDkuOTU5NTUxWiJd",
       "mockIds" : [ ],
       "method" : {
         "name" : "getTimeObjects",
@@ -482,7 +482,7 @@
         "name" : "getL1Object",
         "signature" : "()Lorg/unlogged/demo/models/L1Object;",
         "className" : "org.unlogged.demo.controller.InternalClassController",
-        "methodHash" : -1521319256
+        "methodHash" : 0
       },
       "exception" : false
     } ]
