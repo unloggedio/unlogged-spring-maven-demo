@@ -1,0 +1,303 @@
+{
+  "classname" : "org.unlogged.demo.controller.ProtoController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/protos/generated/AddressBook;" : [ {
+      "lineNumbers" : [ 42, 43, 44, 45, 1197, 1204, 1205, 300, 301, 304, 87, 88, 89, 91, 92, 309, 310, 311, 312, 313, 226, 233, 234, 535, 536, 539, 540, 541, 545, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 1524, 1525, 1526, 1527, 1528, 233, 234, 1204, 1205 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "a0ce6974-4380-4f22-89b9-a65d44bea9c9",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedHashCode"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "-1",
+          "id" : "253bbf52-87cc-44e7-b6ee-59630e50a03d",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedSize"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "204b7a33-de59-4ad6-80bd-ad0562ca7522",
+            "assertionType" : "ALLOF",
+            "key" : "/unknownFields/fields"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "db85725f-e190-48d4-bcf4-1b54a12ea3ec",
+          "assertionType" : "ALLOF",
+          "key" : "/unknownFields"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "c773de11-cdb0-4936-abd1-3417f3f1b4d1",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedHashCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "-1",
+              "id" : "d211b398-52ce-47c7-9114-35a012411e34",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedSize"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "6890c08d-0df6-461f-baee-ba88df34c404",
+                "assertionType" : "ALLOF",
+                "key" : "/people_/0/unknownFields/fields"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "f0ae9d1c-043b-45f4-9574-c7b07c3dd555",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/unknownFields"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "be3d1202-fd36-4594-8a7a-009d572f7493",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/bitField0_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Amg\"",
+              "id" : "67177bb3-467d-4f7b-a110-128d54d881e6",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/name_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "0",
+              "id" : "91e825fe-2c7b-4aae-bdb7-2fd7fb18aca7",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/id_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"\"",
+              "id" : "9f9ebdec-12ac-4009-bf31-64c6d29a856a",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/email_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "6f91075b-31ad-41f0-a357-fc2ac8a0d4ea",
+              "assertionType" : "ALLOF",
+              "key" : "/people_/0/phones_"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "11e66ee4-67ba-4cb5-99a5-ee3b09534673",
+              "assertionType" : "EQUAL",
+              "key" : "/people_/0/memoizedIsInitialized"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "b6788b0b-98e8-4f06-9288-a0f22b350a69",
+            "assertionType" : "ALLOF",
+            "key" : "/people_/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "5840ece4-b88d-464c-b723-022d1bb4a074",
+          "assertionType" : "ALLOF",
+          "key" : "/people_"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "08389fba-3d5d-432a-8050-8b70473c49b2",
+          "assertionType" : "EQUAL",
+          "key" : "/memoizedIsInitialized"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "672cbb2b-f63d-451d-ade6-790b977ef08b",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "6fff1195-a14c-4466-b64c-726258acd048",
+      "name" : "getAddressbook saved on 2024-06-05 11:35",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+      "returnValueClassname" : "org.unlogged.demo.protos.generated.AddressBook",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51163382291791,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1808270389,
+      "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getAddressbook",
+        "signature" : "()Lorg/unlogged/demo/protos/generated/AddressBook;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 753748090
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.ProtoController#convertAddressBook#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 60, 61, 569, 570, 571, 572, 576, 1274, 1275, 1278, 1012, 1013, 1014, 1016, 1017, 1283, 1284, 1285, 1286, 1287, 1197, 1204, 1205, 226, 233, 234, 1524, 1525, 1526, 1527, 1528, 233, 234, 1204, 1205 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+          "id" : "c5f9f574-69f9-40d2-bdb5-d201fd266e9a",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "91ce9f78-f4fb-4408-8159-606764bc1481",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "b5fd27d2-c27e-444b-b7eb-1976e3b67f6a",
+      "name" : "convertAddressBook saved on 2024-06-05 11:35",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51146543696583,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1169457155,
+      "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "convertAddressBook",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : -1944580876
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.ProtoController#convertFromJson#()Lcom/google/protobuf/Message;" : [ {
+      "lineNumbers" : [ 51, 52, 53 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d11d133a-72df-4d9e-a249-d2b24449c7b7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c33423b5-e4ac-46f5-af08-32849f827b5e",
+      "name" : "convertFromJson saved on 2024-06-05 11:35",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "396818579",
+      "returnValueClassname" : "com.google.protobuf.Message",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51169319254458,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 822839817,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "convertFromJson",
+        "signature" : "()Lcom/google/protobuf/Message;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 1100676478
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.ProtoController#toJson#(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 66 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "\"Cannot invoke \\\"com.google.protobuf.Descriptors$Descriptor.getFullName()\\\" because the return value of \\\"com.google.protobuf.MessageOrBuilder.getDescriptorForType()\\\" is null\"",
+        "id" : "df401579-f3c1-468a-a049-6064aaded024",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "f51748b9-f256-4e0f-b448-b373c4287598",
+      "name" : "toJson saved on 2024-06-05 11:35",
+      "description" : null,
+      "methodArguments" : [ "{}" ],
+      "returnValue" : "{\"cause\":null,\"stackTrace\":[{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"print\",\"fileName\":\"JsonFormat.java\",\"lineNumber\":735,\"className\":\"com.google.protobuf.util.JsonFormat$PrinterImpl\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"appendTo\",\"fileName\":\"JsonFormat.java\",\"lineNumber\":344,\"className\":\"com.google.protobuf.util.JsonFormat$Printer\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"print\",\"fileName\":\"JsonFormat.java\",\"lineNumber\":354,\"className\":\"com.google.protobuf.util.JsonFormat$Printer\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"toJson\",\"fileName\":\"ProtoController.java\",\"lineNumber\":66,\"className\":\"org.unlogged.demo.controller.ProtoController\",\"nativeMethod\":false},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"21.0.3\",\"methodName\":\"invoke\",\"fileName\":\"DirectMethodHandleAccessor.java\",\"lineNumber\":103,\"className\":\"jdk.internal.reflect.DirectMethodHandleAccessor\",\"nativeMethod\":false},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"21.0.3\",\"methodName\":\"invoke\",\"fileName\":\"Method.java\",\"lineNumber\":580,\"className\":\"java.lang.reflect.Method\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommandRaw\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":407,\"className\":\"io.unlogged.AgentCommandExecutorImpl\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommand\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":477,\"className\":\"io.unlogged.AgentCommandExecutorImpl\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"serve\",\"fileName\":\"AgentCommandServer.java\",\"lineNumber\":74,\"className\":\"io.unlogged.command.AgentCommandServer\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"execute\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":945,\"className\":\"fi.iki.elonen.NanoHTTPD$HTTPSession\",\"nativeMethod\":false},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"run\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":192,\"className\":\"fi.iki.elonen.NanoHTTPD$ClientHandler\",\"nativeMethod\":false},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"21.0.3\",\"methodName\":\"run\",\"fileName\":\"Thread.java\",\"lineNumber\":1583,\"className\":\"java.lang.Thread\",\"nativeMethod\":false}],\"message\":\"Cannot invoke \\\"com.google.protobuf.Descriptors$Descriptor.getFullName()\\\" because the return value of \\\"com.google.protobuf.MessageOrBuilder.getDescriptorForType()\\\" is null\",\"suppressed\":[],\"localizedMessage\":\"Cannot invoke \\\"com.google.protobuf.Descriptors$Descriptor.getFullName()\\\" because the return value of \\\"com.google.protobuf.MessageOrBuilder.getDescriptorForType()\\\" is null\"}",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51287017409333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -390908178,
+      "probSerializedValue" : "eyJjYXVzZSI6bnVsbCwic3RhY2tUcmFjZSI6W3siY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InByaW50IiwiZmlsZU5hbWUiOiJKc29uRm9ybWF0LmphdmEiLCJsaW5lTnVtYmVyIjo3MzUsImNsYXNzTmFtZSI6ImNvbS5nb29nbGUucHJvdG9idWYudXRpbC5Kc29uRm9ybWF0JFByaW50ZXJJbXBsIiwibmF0aXZlTWV0aG9kIjpmYWxzZX0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiYXBwZW5kVG8iLCJmaWxlTmFtZSI6Ikpzb25Gb3JtYXQuamF2YSIsImxpbmVOdW1iZXIiOjM0NCwiY2xhc3NOYW1lIjoiY29tLmdvb2dsZS5wcm90b2J1Zi51dGlsLkpzb25Gb3JtYXQkUHJpbnRlciIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2V9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InByaW50IiwiZmlsZU5hbWUiOiJKc29uRm9ybWF0LmphdmEiLCJsaW5lTnVtYmVyIjozNTQsImNsYXNzTmFtZSI6ImNvbS5nb29nbGUucHJvdG9idWYudXRpbC5Kc29uRm9ybWF0JFByaW50ZXIiLCJuYXRpdmVNZXRob2QiOmZhbHNlfSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJ0b0pzb24iLCJmaWxlTmFtZSI6IlByb3RvQ29udHJvbGxlci5qYXZhIiwibGluZU51bWJlciI6NjYsImNsYXNzTmFtZSI6Im9yZy51bmxvZ2dlZC5kZW1vLmNvbnRyb2xsZXIuUHJvdG9Db250cm9sbGVyIiwibmF0aXZlTWV0aG9kIjpmYWxzZX0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMjEuMC4zIiwibWV0aG9kTmFtZSI6Imludm9rZSIsImZpbGVOYW1lIjoiRGlyZWN0TWV0aG9kSGFuZGxlQWNjZXNzb3IuamF2YSIsImxpbmVOdW1iZXIiOjEwMywiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuRGlyZWN0TWV0aG9kSGFuZGxlQWNjZXNzb3IiLCJuYXRpdmVNZXRob2QiOmZhbHNlfSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIyMS4wLjMiLCJtZXRob2ROYW1lIjoiaW52b2tlIiwiZmlsZU5hbWUiOiJNZXRob2QuamF2YSIsImxpbmVOdW1iZXIiOjU4MCwiY2xhc3NOYW1lIjoiamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kIiwibmF0aXZlTWV0aG9kIjpmYWxzZX0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiZXhlY3V0ZUNvbW1hbmRSYXciLCJmaWxlTmFtZSI6IkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NDA3LCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5BZ2VudENvbW1hbmRFeGVjdXRvckltcGwiLCJuYXRpdmVNZXRob2QiOmZhbHNlfSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJleGVjdXRlQ29tbWFuZCIsImZpbGVOYW1lIjoiQWdlbnRDb21tYW5kRXhlY3V0b3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo0NzcsImNsYXNzTmFtZSI6ImlvLnVubG9nZ2VkLkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbCIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2V9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InNlcnZlIiwiZmlsZU5hbWUiOiJBZ2VudENvbW1hbmRTZXJ2ZXIuamF2YSIsImxpbmVOdW1iZXIiOjc0LCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5jb21tYW5kLkFnZW50Q29tbWFuZFNlcnZlciIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2V9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImV4ZWN1dGUiLCJmaWxlTmFtZSI6Ik5hbm9IVFRQRC5qYXZhIiwibGluZU51bWJlciI6OTQ1LCJjbGFzc05hbWUiOiJmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRCRIVFRQU2Vzc2lvbiIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2V9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiTmFub0hUVFBELmphdmEiLCJsaW5lTnVtYmVyIjoxOTIsImNsYXNzTmFtZSI6ImZpLmlraS5lbG9uZW4uTmFub0hUVFBEJENsaWVudEhhbmRsZXIiLCJuYXRpdmVNZXRob2QiOmZhbHNlfSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIyMS4wLjMiLCJtZXRob2ROYW1lIjoicnVuIiwiZmlsZU5hbWUiOiJUaHJlYWQuamF2YSIsImxpbmVOdW1iZXIiOjE1ODMsImNsYXNzTmFtZSI6ImphdmEubGFuZy5UaHJlYWQiLCJuYXRpdmVNZXRob2QiOmZhbHNlfV0sIm1lc3NhZ2UiOiJDYW5ub3QgaW52b2tlIFwiY29tLmdvb2dsZS5wcm90b2J1Zi5EZXNjcmlwdG9ycyREZXNjcmlwdG9yLmdldEZ1bGxOYW1lKClcIiBiZWNhdXNlIHRoZSByZXR1cm4gdmFsdWUgb2YgXCJjb20uZ29vZ2xlLnByb3RvYnVmLk1lc3NhZ2VPckJ1aWxkZXIuZ2V0RGVzY3JpcHRvckZvclR5cGUoKVwiIGlzIG51bGwiLCJzdXBwcmVzc2VkIjpbXSwibG9jYWxpemVkTWVzc2FnZSI6IkNhbm5vdCBpbnZva2UgXCJjb20uZ29vZ2xlLnByb3RvYnVmLkRlc2NyaXB0b3JzJERlc2NyaXB0b3IuZ2V0RnVsbE5hbWUoKVwiIGJlY2F1c2UgdGhlIHJldHVybiB2YWx1ZSBvZiBcImNvbS5nb29nbGUucHJvdG9idWYuTWVzc2FnZU9yQnVpbGRlci5nZXREZXNjcmlwdG9yRm9yVHlwZSgpXCIgaXMgbnVsbCJ9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "toJson",
+        "signature" : "(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 2113503672
+      },
+      "exception" : true
+    }, {
+      "lineNumbers" : [ 66 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+          "id" : "4e74bfaf-efda-42ae-bb01-1b2d9940c92d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f666d84d-7e36-41fb-b36b-4faac8414acc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "79194c02-439c-47dd-89b6-0e2c1bb97518",
+      "name" : "toJson saved on 2024-06-05 11:35",
+      "description" : null,
+      "methodArguments" : [ "{\"builderParent\":null,\"meAsParent\":null,\"isClean\":false,\"unknownFieldsOrBuilder\":{\"fields\":{}},\"bitField0_\":1,\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"peopleBuilder_\":null}" ],
+      "returnValue" : "\"{\\n  \\\"people\\\": [{\\n    \\\"name\\\": \\\"Amg\\\"\\n  }]\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51146586147416,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 708701290,
+      "probSerializedValue" : "IntcbiAgXCJwZW9wbGVcIjogW3tcbiAgICBcIm5hbWVcIjogXCJBbWdcIlxuICB9XVxufSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "toJson",
+        "signature" : "(Lcom/google/protobuf/MessageOrBuilder;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ProtoController",
+        "methodHash" : 2113503672
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

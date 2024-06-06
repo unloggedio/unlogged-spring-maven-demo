@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha#getY#()I" : [ {
+      "lineNumbers" : [ 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4",
+          "id" : "3b437dc8-998c-4083-b083-81e9ef4ea8d2",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "78bb0538-f9d0-44d8-9dd9-7a7648e700ab",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "d18c62d6-38d9-4752-8d4c-8c0eeef4b2ee",
+      "name" : "getY saved on 2024-06-05 11:40",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "4",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 51572968211333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1467601983,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getY",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.Alpha",
+        "methodHash" : 1162447234
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

@@ -1,0 +1,72 @@
+{
+  "classname" : "org.unlogged.demo.security.service.CustomUserDetailsService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.security.service.CustomUserDetailsService#loadUserByUsername#(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;" : [ {
+      "lineNumbers" : [ 24, 25, 26, 28, 29, 30, 31, 32, 35, 36, 12, 13, 14, 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7fe0c8b5-c6bf-4bf1-a776-85b64dc55a83",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "19beef31-1759-48c6-b438-13ade27ab45f",
+      "name" : "loadUserByUsername saved on 2024-06-05 12:31",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "1122373462",
+      "returnValueClassname" : "org.springframework.security.core.userdetails.UserDetails",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 53142987180291,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -982154757,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "loadUserByUsername",
+        "signature" : "(Ljava/lang/String;)Lorg/springframework/security/core/userdetails/UserDetails;",
+        "className" : "org.unlogged.demo.security.service.CustomUserDetailsService",
+        "methodHash" : -1351274934
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.security.service.CustomUserDetailsService#getGad#()Lorg/unlogged/demo/security/model/CustomUserDetails;" : [ {
+      "lineNumbers" : [ 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "654ad4b2-5d56-4e6b-868d-1be453614028",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "2c987fae-be1d-469c-b9ec-1296626e6aa3",
+      "name" : "getGad saved on 2024-06-05 12:31",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{}",
+      "returnValueClassname" : "org.unlogged.demo.security.model.CustomUserDetails",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 53123244774333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1876996209,
+      "probSerializedValue" : "e30=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getGad",
+        "signature" : "()Lorg/unlogged/demo/security/model/CustomUserDetails;",
+        "className" : "org.unlogged.demo.security.service.CustomUserDetailsService",
+        "methodHash" : 1281587700
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
