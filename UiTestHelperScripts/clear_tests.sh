@@ -1,0 +1,1 @@
+rm -rf ../src/test/java/ && rm -rf ../src/test/resources/
