@@ -1,0 +1,302 @@
+{
+  "classname" : "org.unlogged.demo.controller.SealedOpsController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.SealedOpsController#shapeSerial#()Lorg/unlogged/demo/models/sealed/Shape;" : [ {
+      "lineNumbers" : [ 12 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8934c77d-1f0c-4b9f-8263-d3ac66838c0c",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "4031688a-44ce-413e-84a8-8073cfe004d6",
+      "name" : "shapeSerial saved on 2024-06-13 17:41",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{}",
+      "returnValueClassname" : "org.unlogged.demo.models.sealed.Shape",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 40986309411077,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1265145416,
+      "probSerializedValue" : "e30=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "shapeSerial",
+        "signature" : "()Lorg/unlogged/demo/models/sealed/Shape;",
+        "className" : "org.unlogged.demo.controller.SealedOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.SealedOpsController#getSquare#()Lorg/unlogged/demo/models/sealed/Square;" : [ {
+      "lineNumbers" : [ 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "5a1debef-e02c-4214-a8cd-65f5a4d917bb",
+          "assertionType" : "EQUAL",
+          "key" : "/side"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "1feea23d-698b-483a-8523-e59693f9ecb4",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "4b83205b-475c-440e-b501-32d0d149c7bc",
+      "name" : "getSquare saved on 2024-06-13 17:41",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"side\":1.0}",
+      "returnValueClassname" : "org.unlogged.demo.models.sealed.Square",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 41003178685425,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2070240204,
+      "probSerializedValue" : "eyJzaWRlIjoxLjB9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getSquare",
+        "signature" : "()Lorg/unlogged/demo/models/sealed/Square;",
+        "className" : "org.unlogged.demo.controller.SealedOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.SealedOpsController#getRectangle#()Lorg/unlogged/demo/models/sealed/Rectangle;" : [ {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "265387c9-f6be-441d-a64d-2f01dc6fc0c8",
+          "assertionType" : "EQUAL",
+          "key" : "/length"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "a9a7836e-7386-491a-932b-3a368697855c",
+          "assertionType" : "EQUAL",
+          "key" : "/width"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "a95ba7c5-5613-420a-a6f4-3621ab232b96",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "612538d2-ded1-4aea-83b7-371deae76c59",
+      "name" : "getRectangle saved on 2024-06-13 17:41",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"length\":1.0,\"width\":1.0}",
+      "returnValueClassname" : "org.unlogged.demo.models.sealed.Rectangle",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 41022645944168,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1089910245,
+      "probSerializedValue" : "eyJsZW5ndGgiOjEuMCwid2lkdGgiOjEuMH0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getRectangle",
+        "signature" : "()Lorg/unlogged/demo/models/sealed/Rectangle;",
+        "className" : "org.unlogged.demo.controller.SealedOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.SealedOpsController#getFilledRectangle#()Lorg/unlogged/demo/models/sealed/FilledRectangle;" : [ {
+      "lineNumbers" : [ 24, 25, 26, 27, 28 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "bfaee074-1d7f-4976-9b3f-9d5a3990c1ee",
+          "assertionType" : "EQUAL",
+          "key" : "/length"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "89b38778-ebb8-4bf6-b596-03141506c7c9",
+          "assertionType" : "EQUAL",
+          "key" : "/width"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "111e0110-769e-4c1e-94e8-005803c9090d",
+          "assertionType" : "EQUAL",
+          "key" : "/red"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "c7f8b34c-c3b8-4a36-a30c-26c313148aab",
+          "assertionType" : "EQUAL",
+          "key" : "/green"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "bf944358-238d-4dd3-a73b-389d29be48de",
+          "assertionType" : "EQUAL",
+          "key" : "/blue"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "dc85fb2d-4535-4bec-8b2d-79ad7a5dc958",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "8924edbc-d506-4d37-937f-18e71dcf61ba",
+      "name" : "getFilledRectangle saved on 2024-06-13 17:42",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"length\":1.0,\"width\":1.0,\"red\":1,\"green\":1,\"blue\":1}",
+      "returnValueClassname" : "org.unlogged.demo.models.sealed.FilledRectangle",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 41038204687290,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1419509219,
+      "probSerializedValue" : "eyJsZW5ndGgiOjEuMCwid2lkdGgiOjEuMCwicmVkIjoxLCJncmVlbiI6MSwiYmx1ZSI6MX0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getFilledRectangle",
+        "signature" : "()Lorg/unlogged/demo/models/sealed/FilledRectangle;",
+        "className" : "org.unlogged.demo.controller.SealedOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.SealedOpsController#getRectFromFilled#()Lorg/unlogged/demo/models/sealed/Rectangle;" : [ {
+      "lineNumbers" : [ 33, 34, 24, 25, 26, 27, 28 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "4247877d-d425-4f2c-8545-11b6ff27470f",
+          "assertionType" : "EQUAL",
+          "key" : "/length"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1.0",
+          "id" : "6bbc7fc1-ce63-410e-8337-6a8465a1f817",
+          "assertionType" : "EQUAL",
+          "key" : "/width"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "ccd6b423-13ce-4c19-99f1-126ec35b34b9",
+          "assertionType" : "EQUAL",
+          "key" : "/red"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "b2fa26c4-7cd9-4e0e-b307-25607b6f3276",
+          "assertionType" : "EQUAL",
+          "key" : "/green"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "d2f87523-95c9-4d10-9152-72782f73cd42",
+          "assertionType" : "EQUAL",
+          "key" : "/blue"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "43d8bcd4-8a31-4c73-ba9f-1f23e990b2a3",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "621fe0fe-cd5e-458b-ab23-20e074d6dec6",
+      "name" : "getRectFromFilled saved on 2024-06-13 17:42",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"length\":1.0,\"width\":1.0,\"red\":1,\"green\":1,\"blue\":1}",
+      "returnValueClassname" : "org.unlogged.demo.models.sealed.Rectangle",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 41065238093191,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -679909096,
+      "probSerializedValue" : "eyJsZW5ndGgiOjEuMCwid2lkdGgiOjEuMCwicmVkIjoxLCJncmVlbiI6MSwiYmx1ZSI6MX0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getRectFromFilled",
+        "signature" : "()Lorg/unlogged/demo/models/sealed/Rectangle;",
+        "className" : "org.unlogged.demo.controller.SealedOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.SealedOpsController#getCircle#()Lorg/unlogged/demo/models/sealed/Circle;" : [ {
+      "lineNumbers" : [ 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2.0",
+          "id" : "7b1b694a-f365-45b7-bea3-94989ad0c3b7",
+          "assertionType" : "EQUAL",
+          "key" : "/radius"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "81a0d305-f83c-4181-8b09-16e2f4142e83",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f62941d5-4251-4d28-a572-878286215a9c",
+      "name" : "getCircle saved on 2024-06-13 17:42",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"radius\":2.0}",
+      "returnValueClassname" : "org.unlogged.demo.models.sealed.Circle",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 41081487778812,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 920107416,
+      "probSerializedValue" : "eyJyYWRpdXMiOjIuMH0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getCircle",
+        "signature" : "()Lorg/unlogged/demo/models/sealed/Circle;",
+        "className" : "org.unlogged.demo.controller.SealedOpsController",
+        "methodHash" : -230914560
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
