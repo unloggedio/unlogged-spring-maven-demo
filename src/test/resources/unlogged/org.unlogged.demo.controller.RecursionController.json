@@ -1,0 +1,157 @@
+{
+  "classname" : "org.unlogged.demo.controller.RecursionController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.RecursionController#getFactorialOfNumber#(I)I" : [ {
+      "lineNumbers" : [ 14 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "120",
+          "id" : "37e68673-8762-478c-abdf-281f39b71ba5",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "576930b5-bf4f-458b-b472-bfa72cfbd8ba",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "1e75d393-184f-4c00-9dfe-d56e5b46edec",
+      "name" : "getFactorialOfNumber saved on 2024-06-13 18:00",
+      "description" : null,
+      "methodArguments" : [ "5" ],
+      "returnValue" : "120",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 42127413257877,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -250228818,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getFactorialOfNumber",
+        "signature" : "(I)I",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 14 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "479001600",
+          "id" : "120c2be9-da85-4f0f-8b39-7331c7e4be7d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a0ba130b-10a9-4b12-915e-53fabb606250",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "bc855b26-ce4f-4a25-a302-e3885fdd8c4f",
+      "name" : "getFactorialOfNumber saved on 2024-06-13 18:00",
+      "description" : null,
+      "methodArguments" : [ "12" ],
+      "returnValue" : "479001600",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 42158599556038,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1741323189,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getFactorialOfNumber",
+        "signature" : "(I)I",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.RecursionController#getIsPalindrome#(Ljava/lang/String;)Z" : [ {
+      "lineNumbers" : [ 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "576ae82e-e218-4b0a-b78f-5ff040d02058",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "4a3978e2-e556-487a-8f6f-6862d4a39147",
+      "name" : "getIsPalindrome saved on 2024-06-13 18:05",
+      "description" : null,
+      "methodArguments" : [ "\"not\"" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 42431162293288,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -397799496,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getIsPalindrome",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "b9ea83f8-c5a5-4918-a5ff-58b78da267fd",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ca876ff1-eacf-4729-a50f-c9fb4fccc189",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "1bfc47b4-149b-48d1-893e-c9059f29d66f",
+      "name" : "getIsPalindrome saved on 2024-06-13 18:04",
+      "description" : null,
+      "methodArguments" : [ "\"lool\"" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 42402365832639,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -110229807,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getIsPalindrome",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
