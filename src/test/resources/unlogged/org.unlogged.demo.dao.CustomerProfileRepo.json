@@ -1,0 +1,88 @@
+{
+  "classname" : "org.unlogged.demo.dao.CustomerProfileRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "fc4f963b-bd0d-4e5e-9092-092e7c64bc14",
+      "name" : "mock response for call to customerProfileRepo.save(new CustomerProfile(1, \"c1\", \"dob1\", \"email1\", \"001\", \"address\", List.of(\"1\", \"2\")))",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.controller.VarOpsController",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"customerid\":2,\"customername\":\"c2\",\"dateofbirth\":\"dob2\",\"email\":\"email2\",\"contactnumber\":\"002\",\"address\":\"address\",\"referralcodes\":[\"1\",\"2\"],\"createdDate\":\"Jun 13, 2024 12:53:27 pm\",\"updatedDate\":\"Jun 13, 2024 12:53:27 pm\"}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":2,\"customername\":\"c2\",\"dateofbirth\":\"dob2\",\"email\":\"email2\",\"contactnumber\":\"002\",\"address\":\"address\",\"referralcodes\":[\"1\",\"2\"],\"createdDate\":\"Jun 13, 2024 12:53:27 pm\",\"updatedDate\":\"Jun 13, 2024 12:53:27 pm\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;"
+    }, {
+      "id" : "3c040c99-4927-4f0e-9998-12173a30827b",
+      "name" : "mock response for call to customerProfileRepo.save(new CustomerProfile(1, \"c1\", \"dob1\", \"email1\", \"001\", \"address\", List.of(\"1\", \"2\")))",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.controller.VarOpsController",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"customerid\":1,\"customername\":\"c1\",\"dateofbirth\":\"dob1\",\"email\":\"email1\",\"contactnumber\":\"001\",\"address\":\"address\",\"referralcodes\":[\"1\",\"2\"],\"createdDate\":\"Jun 13, 2024 12:53:27 pm\",\"updatedDate\":\"Jun 13, 2024 12:53:27 pm\"}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":1,\"customername\":\"c1\",\"dateofbirth\":\"dob1\",\"email\":\"email1\",\"contactnumber\":\"001\",\"address\":\"address\",\"referralcodes\":[\"1\",\"2\"],\"createdDate\":\"Jun 13, 2024 12:53:27 pm\",\"updatedDate\":\"Jun 13, 2024 12:53:27 pm\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/models/CustomerProfile;)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/CustomerProfile;>;" : [ {
+      "id" : "33476006-811c-4ab5-a6a7-5202b6094f64",
+      "name" : "mock response for call to customerProfileRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.controller.VarOpsController",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/CustomerProfile;>;"
+    }, {
+      "id" : "7bc4fa04-c969-4d54-9e6d-f68342d4f626",
+      "name" : "mock response for call to customerProfileRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.controller.VarOpsController",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\":1,\"customername\":\"c1\",\"dateofbirth\":\"dob1\",\"email\":\"email1\",\"contactnumber\":\"001\",\"address\":\"address\",\"referralcodes\":[\"1\",\"2\"],\"createdDate\":\"Jun 13, 2024 12:53:27 pm\",\"updatedDate\":\"Jun 13, 2024 12:53:27 pm\"},{\"customerid\":2,\"customername\":\"c2\",\"dateofbirth\":\"dob2\",\"email\":\"email2\",\"contactnumber\":\"002\",\"address\":\"address\",\"referralcodes\":[\"1\",\"2\"],\"createdDate\":\"Jun 13, 2024 12:53:27 pm\",\"updatedDate\":\"Jun 13, 2024 12:53:27 pm\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.CustomerProfileRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/CustomerProfile;>;"
+    } ]
+  }
+}
