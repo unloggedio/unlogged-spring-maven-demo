@@ -18,4 +18,18 @@ public class User {
     private String username;
     private String password;
     private String email;
+
+    public void addHashToName() {
+        this.username += "#";
+    }
+
+    public void updateDetails(String input) {
+        this.setEmail(this.getEmail().replace("@", input));
+        if (input.startsWith("+")) {
+            this.setPassword(this.getPassword().toUpperCase() + "_" + input.hashCode());
+        } else {
+            this.setPassword(this.getPassword() + "_" + input.hashCode());
+
+        }
+    }
 }
