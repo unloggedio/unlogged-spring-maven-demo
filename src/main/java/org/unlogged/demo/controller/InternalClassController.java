@@ -9,12 +9,16 @@ import org.modelmapper.Converter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.spi.MappingContext;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.unlogged.demo.models.*;
 import org.unlogged.demo.service.DeepService;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
+@RestController
+@RequestMapping("/icc")
 public class InternalClassController {
 
     @Autowired
@@ -80,13 +84,14 @@ public class InternalClassController {
     Converter<ItemData, ItemInfo> myConverter = new Converter<ItemData, ItemInfo>() {
         public ItemInfo convert(MappingContext<ItemData, ItemInfo> context) {
             ItemData s = context.getSource();
-            ItemInfo d = context.getDestination();
+            ItemInfo d = new ItemInfo();
             d.setName(s.getName());
             d.setLarge(s.getMass() > 25);
             return d;
         }
     };
 
+    @RequestMapping("/cmm")
     public ItemInfo cmm() {
         ModelMapper mm = new ModelMapper();
         mm.addConverter(myConverter);
