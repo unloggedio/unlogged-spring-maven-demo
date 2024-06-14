@@ -1,0 +1,33 @@
+{
+  "classname" : "org.modelmapper.ModelMapper",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.modelmapper.ModelMapper#map#(Ljava/lang/Object;Ljava/lang/Class<D>;)D" : [ {
+      "id" : "f59558a8-f18e-49c4-a940-68722888c8d1",
+      "name" : "mock response for call to mapper.map(userModel, UserModelMiniDto.class)",
+      "fieldTypeName" : "org.modelmapper.ModelMapper",
+      "sourceClassName" : "org.unlogged.demo.controller.ModelMapperOpsController",
+      "fieldName" : "mapper",
+      "methodName" : "map",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"id\":1,\"username\":\"user1\",\"address\":null,\"contactInformation\":null}"
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"org.unlogged.demo.models.mapper.dto.UserModelMiniDto\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":1,\"username\":\"user1\"}",
+          "returnValueType" : "REAL",
+          "className" : "D"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.modelmapper.ModelMapper#map#(Ljava/lang/Object;Ljava/lang/Class<D>;)D"
+    } ]
+  }
+}

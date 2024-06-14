@@ -4,6 +4,9 @@ public class ItemInfo {
     private String name;
     private boolean large;
 
+    public ItemInfo() {
+    }
+
     public String getName() {
         return name;
     }
