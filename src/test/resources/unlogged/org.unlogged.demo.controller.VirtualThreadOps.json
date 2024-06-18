@@ -1,0 +1,39 @@
+{
+  "classname" : "org.unlogged.demo.controller.VirtualThreadOps",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.VirtualThreadOps#insertUser#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)V" : [ {
+      "lineNumbers" : [ 25, 26, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6b17faa3-2e8e-499a-aa5a-94f5fd1d79bd",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "507b9bc2-69b3-4cf3-8034-9a5b1cf8e876",
+      "name" : "insertUser saved on 2024-06-18 16:52",
+      "description" : null,
+      "methodArguments" : [ "{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 13519681916668,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1303506493,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "insertUser",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)V",
+        "className" : "org.unlogged.demo.controller.VirtualThreadOps",
+        "methodHash" : -372528149
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
