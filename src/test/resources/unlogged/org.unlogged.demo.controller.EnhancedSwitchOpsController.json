@@ -1,0 +1,165 @@
+{
+  "classname" : "org.unlogged.demo.controller.EnhancedSwitchOpsController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.EnhancedSwitchOpsController#printQuadrant#(Lorg/unlogged/demo/controller/EnhancedSwitchOpsController/Point;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 19, 20, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"First\"",
+          "id" : "07db6956-70b0-4df4-a898-1a2fc657ccd8",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2a310de8-dbe6-47c4-be22-2b219ff256d3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "dae0f8b7-6892-4b29-883b-9d34a59db2a7",
+      "name" : "printQuadrant saved on 2024-06-18 15:45",
+      "description" : null,
+      "methodArguments" : [ "{\"x\":2,\"y\":1}" ],
+      "returnValue" : "\"First\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 9152525664500,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1350638744,
+      "probSerializedValue" : "IkZpcnN0Ig==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "printQuadrant",
+        "signature" : "(Lorg/unlogged/demo/controller/EnhancedSwitchOpsController/Point;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.EnhancedSwitchOpsController",
+        "methodHash" : 0
+      }
+    }, {
+      "lineNumbers" : [ 19, 20, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Second\"",
+          "id" : "2e8f619d-cf87-4840-bc09-7d02682afbc2",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7cb0cb18-573e-4b8a-b766-1450af6766b8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "d55e601b-79e3-4452-ab2c-2533bbae9bbf",
+      "name" : "printQuadrant saved on 2024-06-18 15:45",
+      "description" : null,
+      "methodArguments" : [ "{\"x\":0,\"y\":0}" ],
+      "returnValue" : "\"Second\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 9140436345379,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1200791438,
+      "probSerializedValue" : "IlNlY29uZCI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "printQuadrant",
+        "signature" : "(Lorg/unlogged/demo/controller/EnhancedSwitchOpsController/Point;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.EnhancedSwitchOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.EnhancedSwitchOpsController#error#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 30, 34, 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Error OtherError[cause=java.lang.RuntimeException: de error!]\"",
+          "id" : "2f3daca0-e225-46ef-b7a6-50b86acdb1bd",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "bf56a8fd-fbcc-44c5-947d-3e758c954a31",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e51e2893-96fc-4250-81da-fa486eb12101",
+      "name" : "error saved on 2024-06-18 15:45",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Error OtherError[cause=java.lang.RuntimeException: de error!]\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 9570566490829,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 658576477,
+      "probSerializedValue" : "IkVycm9yIE90aGVyRXJyb3JbY2F1c2U9amF2YS5sYW5nLlJ1bnRpbWVFeGNlcHRpb246IGRlIGVycm9yIV0i",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "error",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.EnhancedSwitchOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.EnhancedSwitchOpsController#switchJDK21#(Ljava/lang/Object;II)Ljava/lang/Integer;" : [ {
+      "lineNumbers" : [ 47, 48, 49, 52, 54 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "6",
+          "id" : "0daa08e9-22d8-46c6-bc8a-132eb853eb82",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "25f6d2af-9ca9-4e83-9e22-9272471de453",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0e0c2a8e-f903-42f1-b3bb-633291b80d7e",
+      "name" : "switchJDK21 saved on 2024-06-18 15:48",
+      "description" : null,
+      "methodArguments" : [ "\"0\"", "2", "3" ],
+      "returnValue" : "6",
+      "returnValueClassname" : "java.lang.Integer",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 9695903809425,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 828331258,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "switchJDK21",
+        "signature" : "(Ljava/lang/Object;II)Ljava/lang/Integer;",
+        "className" : "org.unlogged.demo.controller.EnhancedSwitchOpsController",
+        "methodHash" : 1534403464
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
