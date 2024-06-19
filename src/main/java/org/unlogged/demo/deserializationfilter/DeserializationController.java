@@ -15,6 +15,7 @@ public class DeserializationController {
 
     private static final String ALLOWED_PACKAGE_FOR_ALLOW_FILTER = "org.unlogged.demo.nonserialmodel";
     private static final String NOT_ALLOWED_PACKAGE_FOR_REJECT_FILTER = "org.unlogged.demo.models";
+    private static final String UNDECIDED_PACKAGE = "org.unlogged.demo.undecidedstatus";
 
     @GetMapping("/1")
     public String deserializeObject1() {
@@ -22,6 +23,29 @@ public class DeserializationController {
         Dog dog = new Dog("Test Dog", 22);
         try {
             byte[] serializedObject = serializeObject(dog);
+            ObjectInputFilter filter = new CustomObjectInputFilter();
+            ByteArrayInputStream bais = new ByteArrayInputStream(serializedObject);
+            ObjectInputStream ois = new ObjectInputStream(bais);
+
+            ois.setObjectInputFilter(filter);
+
+            // Deserialize the object
+            Serializable deserializedObject = (Serializable) ois.readObject();
+
+            return "Deserialized object: " + deserializedObject.toString();
+        } catch (IOException | ClassNotFoundException | ClassCastException e) {
+            e.printStackTrace();
+            return "Error during deserialization: " + e.getMessage();
+        }
+    }
+
+    //Undecided will pass the filter
+    @GetMapping("/undecided")
+    public String deserializeObjectUndecided() {
+
+        Mouse mouse = new Mouse("Test mouse", 22);
+        try {
+            byte[] serializedObject = serializeObject(mouse);
             ObjectInputFilter filter = new CustomObjectInputFilter();
             ByteArrayInputStream bais = new ByteArrayInputStream(serializedObject);
             ObjectInputStream ois = new ObjectInputStream(bais);
@@ -116,17 +140,17 @@ public class DeserializationController {
         }
     }
 
-    //Should throw an exception but why?
+    //Should throw an exception as mouse is rejected by the second filter
     @GetMapping("/5")
     public String deserializeObjectWithMergedFilters() {
-        Cat cat = new Cat("Test Cat", 22);
+        Mouse mouse = new Mouse("Test Mouse", 22);
         try {
-            byte[] serializedObject = serializeObject(cat);
+            byte[] serializedObject = serializeObject(mouse);
 
             // Create filters to merge
             ObjectInputFilter filter1 = ObjectInputFilter.rejectFilter(
                     clazz -> clazz != null && clazz.getName().startsWith(NOT_ALLOWED_PACKAGE_FOR_REJECT_FILTER),
-                    ObjectInputFilter.Status.REJECTED
+                    ObjectInputFilter.Status.UNDECIDED
             );
 
             // Create allowFilter using a predicate
@@ -136,7 +160,7 @@ public class DeserializationController {
             );
 
             // Merge filters
-            ObjectInputFilter mergedFilter = ObjectInputFilter.merge(filter1, filter2);
+            ObjectInputFilter mergedFilter = ObjectInputFilter.merge(filter2, filter1);
 
             ByteArrayInputStream bais = new ByteArrayInputStream(serializedObject);
             ObjectInputStream ois = new ObjectInputStream(bais);
@@ -152,6 +176,8 @@ public class DeserializationController {
             return "Error during deserialization: " + e.getMessage();
         }
     }
+
+    //this will make the filter reject undecided classes (expected to throw exception)
     @GetMapping("/6")
     public String deserializeObjectRejectUndecided() {
 
