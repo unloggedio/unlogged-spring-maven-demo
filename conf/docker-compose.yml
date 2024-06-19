@@ -10,6 +10,16 @@ services:
       MYSQL_DATABASE: unlogged_demo
       MYSQL_ROOT_PASSWORD: root_password
 
+  mongodb:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+    networks:
+      - unlogged_network
+
   demo-app:
     container_name: target-repo
     build:
@@ -22,9 +32,11 @@ services:
       - "12100:12100"
     depends_on:
       - mysql
+      - mongodb
     networks:
       - unlogged_network
     environment:
+      SPRING_DATA_MONGODB_HOST: mongodb:27017
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/unlogged_demo
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: root_password
@@ -38,3 +50,6 @@ services:
 networks:
   unlogged_network:
     driver: bridge 
+
+volumes:
+  mongodb_data_container:
