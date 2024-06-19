@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.filter.GlobalFilter",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.filter.GlobalFilter#getGlobalFilterAdditive#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"global-filter\"",
+          "id" : "efb8f190-55be-42d2-8a31-39011d99cff1",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3e125d4b-f78c-4674-922d-90b00e651e92",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fd556bc5-41b0-491d-95b8-5fcbe967a160",
+      "name" : "getGlobalFilterAdditive saved on 2024-06-19 10:48",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"global-filter\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1631261684495,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1931254736,
+      "probSerializedValue" : "Imdsb2JhbC1maWx0ZXIi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getGlobalFilterAdditive",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.filter.GlobalFilter",
+        "methodHash" : 1140175187
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
