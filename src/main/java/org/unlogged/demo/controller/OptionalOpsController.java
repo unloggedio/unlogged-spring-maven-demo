@@ -69,7 +69,7 @@ public class OptionalOpsController {
         return u2;
     }
 
-    @RequestMapping("/throwonnull")
+    @RequestMapping("/thrownnull")
     public Object throwOnNull() {
         return Optional.ofNullable(null).orElseThrow(
                 IllegalArgumentException::new);

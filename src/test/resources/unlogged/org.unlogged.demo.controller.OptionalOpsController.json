@@ -1,0 +1,664 @@
+{
+  "classname" : "org.unlogged.demo.controller.OptionalOpsController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.OptionalOpsController#getDefaultUser#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "84d7a544-d0e0-438d-ab7f-f259e4d0f4e1",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User1\"",
+          "id" : "3b38a56d-bca8-47cd-bf1c-4b65a0e9469f",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user\"",
+          "id" : "d3333735-632b-41d3-8f73-ab702bc79511",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user@gmail.com\"",
+          "id" : "5893a5b5-8540-44c0-8372-5e055955152a",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "6cb060c9-9145-4254-af53-834e5bf4bc6c",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "51469c42-76ec-4aa9-800e-ab5b54659c98",
+      "name" : "OptionalOpsController.getDefaultUser - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"User1\",\"password\":\"user\",\"email\":\"user@gmail.com\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16109660030931,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1351324756,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlVzZXIxIiwicGFzc3dvcmQiOiJ1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getDefaultUser",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#getEmptyOptionalUser#()Lorg/unlogged/demo/models/UserOptional;" : [ {
+      "lineNumbers" : [ 23 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "94b528d1-3489-4e2b-b6ef-42e0aa60070f",
+          "assertionType" : "EQUAL",
+          "key" : "/name"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "940e0817-0a0e-4a80-8989-d304e763d5b6",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "92f30b68-9033-4a95-8045-058096a6d98f",
+          "assertionType" : "EQUAL",
+          "key" : "/number"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "e31aa4b2-e1b8-456e-b955-5128323d5d4a",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "d4b758fc-2c9b-4523-b7f8-860155a5e7ca",
+      "name" : "OptionalOpsController.getEmptyOptionalUser - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"name\":null,\"email\":null,\"number\":null}",
+      "returnValueClassname" : "org.unlogged.demo.models.UserOptional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16130603336073,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -568708205,
+      "probSerializedValue" : "eyJuYW1lIjpudWxsLCJlbWFpbCI6bnVsbCwibnVtYmVyIjpudWxsfQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getEmptyOptionalUser",
+        "signature" : "()Lorg/unlogged/demo/models/UserOptional;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#create1#()Ljava/util/Optional<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 32 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"default\"",
+          "id" : "21fb15d2-5abf-45e5-bbab-8aa86c7c4c03",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "07ccdc5e-201b-48fc-93ee-d7ba194b0317",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "49a057e5-9b42-46c8-b015-760af028ae19",
+      "name" : "OptionalOpsController.create1 - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"default\"",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16152405706035,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1900161964,
+      "probSerializedValue" : "ImRlZmF1bHQi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "create1",
+        "signature" : "()Ljava/util/Optional<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#createNullable#()Ljava/util/Optional<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 37 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "f5c33120-bc3f-4552-ae81-9cdde92f552d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "10e4b631-bdf2-424f-b9ba-84b4e342fed7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "621d5fe1-339e-4207-b767-70eefec6baa1",
+      "name" : "OptionalOpsController.createNullable - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "null",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16170479574075,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -2140562102,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "createNullable",
+        "signature" : "()Ljava/util/Optional<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#getPresentStatus#()Ljava/util/List<Ljava/lang/Boolean;>;" : [ {
+      "lineNumbers" : [ 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "a3142ae3-e0b9-4004-bca8-97ebd23ff773",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "194a87e4-55e3-4451-8486-efeb0f985496",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "5079b116-d821-4b72-967d-18f0982403de",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "4e6758d4-1a07-4676-b2e0-c75df98290f0",
+      "name" : "OptionalOpsController.getPresentStatus - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[true,false]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16199174550644,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 821254026,
+      "probSerializedValue" : "W3RydWUsZmFsc2Vd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getPresentStatus",
+        "signature" : "()Ljava/util/List<Ljava/lang/Boolean;>;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#getEmptyStatus#()Ljava/util/List<Ljava/lang/Boolean;>;" : [ {
+      "lineNumbers" : [ 47 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "9e6dadd1-a150-4742-b408-9c6afcfa693f",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "ebdd78c4-b150-4479-9731-62720df893e1",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "c7c47ee2-b4d7-4ece-ba4e-24fcc0da8164",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "15212b74-b553-4cd1-beb0-564c26dada74",
+      "name" : "OptionalOpsController.getEmptyStatus - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[false,true]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16389688976420,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -369041699,
+      "probSerializedValue" : "W2ZhbHNlLHRydWVd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getEmptyStatus",
+        "signature" : "()Ljava/util/List<Ljava/lang/Boolean;>;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#ifPresent#()Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 52, 53, 54, 57 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Ace###\"",
+          "id" : "91558e5e-5126-41a1-aac3-d6dd855847e8",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f782f53f-8ec8-46b7-a52f-01b07058df0b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "edcff97e-ed77-42ca-bfa0-75d418ead59e",
+      "name" : "OptionalOpsController.ifPresent - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Ace###\"",
+      "returnValueClassname" : "java.util.concurrent.atomic.AtomicReference",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16403998457203,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -971068518,
+      "probSerializedValue" : "IkFjZSMjIyI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "ifPresent",
+        "signature" : "()Ljava/util/concurrent/atomic/AtomicReference<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#orElseCase#()Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 62 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Default\"",
+          "id" : "c22a7786-749b-44ac-a827-6cc31fa1379c",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "b8387e94-2966-4334-9587-611f539edf62",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "197fc559-f219-4009-b79a-97083ce29ec4",
+      "name" : "OptionalOpsController.orElseCase - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Default\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16423117107499,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -258597159,
+      "probSerializedValue" : "IkRlZmF1bHQi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "orElseCase",
+        "signature" : "()Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#orElseGet#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 67, 68, 69 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "7e5867ce-4927-4155-8b0c-b5fae7570222",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User1\"",
+          "id" : "6d6eeef5-3e9d-4b2b-9d00-6114d84b8edf",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user\"",
+          "id" : "6dbab82c-e436-4372-8d41-54948e04c879",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user@gmail.com\"",
+          "id" : "76eaa78e-f2fe-4e12-9983-0ccdba0d6a2e",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "3194d26c-9baa-49e1-b2c9-731961ce03ed",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "9821054a-d051-4188-9c07-b56a8cf1f840",
+      "name" : "OptionalOpsController.orElseGet - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"User1\",\"password\":\"user\",\"email\":\"user@gmail.com\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 16444533661141,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 739123607,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlVzZXIxIiwicGFzc3dvcmQiOiJ1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "orElseGet",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#getUserUsage#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 80, 81 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "41462d86-7172-4641-8720-210d0998d796",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User1\"",
+          "id" : "501e77a1-ec0e-4cb3-b76a-77a4c134faf7",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user\"",
+          "id" : "bae980d9-c163-4f25-983c-4e181f6ea92f",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user@gmail.com\"",
+          "id" : "efc87fd3-eff4-423a-9ae8-0e90e1442128",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "0bc5b241-c233-4729-b840-26dca3ea60af",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "e9f138ac-2c26-4759-92bc-c992e8f6a8fe",
+      "name" : "OptionalOpsController.getUserUsage - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"User1\",\"password\":\"user\",\"email\":\"user@gmail.com\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 17040897504766,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -256354230,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlVzZXIxIiwicGFzc3dvcmQiOiJ1c2VyIiwiZW1haWwiOiJ1c2VyQGdtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserUsage",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#filterUserOptional#()Ljava/util/List<Ljava/lang/Boolean;>;" : [ {
+      "lineNumbers" : [ 86, 87, 88, 89 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7b5840a5-8ea1-4049-8bc2-7f4f0be803ce",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "ca0e4c82-f9c7-49cd-bb7c-85deef969e15",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "8aae858a-4afc-40b6-a711-02879177653f",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "accbdf5e-a86c-44d2-9fcd-24bc44b79d71",
+      "name" : "OptionalOpsController.filterUserOptional - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[true,false]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 17061875037994,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -353323505,
+      "probSerializedValue" : "W3RydWUsZmFsc2Vd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterUserOptional",
+        "signature" : "()Ljava/util/List<Ljava/lang/Boolean;>;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#countNameLength#()I" : [ {
+      "lineNumbers" : [ 94 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "5",
+          "id" : "f2856131-ee06-4b26-af8f-addfcc1a2361",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d242ba22-e556-4b0c-901b-54fc597e5378",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "530e8b2e-01ea-4918-97fd-276bc10db148",
+      "name" : "OptionalOpsController.countNameLength - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "5",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 17083224917129,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -886908118,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "countNameLength",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#flatMapUsage#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 99, 101, 102, 103 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"a\"",
+          "id" : "cf613bba-07c1-496b-bd7c-cf1ffe61e828",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "82daf90d-39d1-4506-bde3-4d79afed0b5c",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "6ef9aabe-039c-4bc6-ad9f-2854560dca3b",
+      "name" : "OptionalOpsController.flatMapUsage - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"a\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 17098821096827,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2090075642,
+      "probSerializedValue" : "ImEi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "flatMapUsage",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.OptionalOpsController#chain#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 108, 112, 113, 114, 115, 116 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"default\"",
+          "id" : "2ec81e54-eb7d-44c0-9014-6236f33b98bb",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0fceb2d2-9b3e-4adb-bb84-53d8451266c4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7495c3e7-b0c1-43b2-a167-b3d34f8ff9a0",
+      "name" : "OptionalOpsController.chain - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"default\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 17120988646496,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 366141478,
+      "probSerializedValue" : "ImRlZmF1bHQi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "chain",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.OptionalOpsController",
+        "methodHash" : 1118493428
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
