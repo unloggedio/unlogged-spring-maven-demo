@@ -12,6 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 //@EnableScheduling
 public class UnloggedDemoApplication {
+    //archive branch for old cases
     @Unlogged(port = 12100)
     public static void main(String[] args) {
         SpringApplication.run(UnloggedDemoApplication.class, args);
