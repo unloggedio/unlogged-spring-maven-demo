@@ -131,7 +131,7 @@
         "key" : "/"
       },
       "candidateId" : "939e9b4d-f9ec-480e-a2d7-eb3ada1f7100",
-      "name" : "getDefaultModel - normal",
+      "name" : "ModelMapperOpsController.getDefaultModel - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"id\":1,\"username\":\"User1\",\"address\":{\"house\":\"#144\",\"street\":\"StreetX\",\"area\":\"AreaX\",\"city\":\"CityX\",\"state\":\"StateX\",\"country\":\"CountryX\",\"pincode\":\"PinX\"},\"contactInformation\":{\"emails\":[\"user1@gmail.com\",\"user1@yahoo.com\"],\"numbers\":[\"phone-number-1\",\"phone-number-2\"]}}",
@@ -178,7 +178,7 @@
         "key" : "/"
       },
       "candidateId" : "a7731c8a-acc3-4912-a98f-2ddaa25c3dd6",
-      "name" : "getUserModelMiniDto - normal",
+      "name" : "ModelMapperOpsController.getUserModelMiniDto - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"id\":1,\"username\":\"user1\"}",
@@ -225,7 +225,7 @@
           "key" : "/"
         },
         "candidateId" : "a7731c8a-acc3-4912-a98f-2ddaa25c3dd6",
-        "name" : "getUserModelMiniDto - call from ModelMapper mocked",
+        "name" : "ModelMapperOpsController.getUserModelMiniDto - call from ModelMapper mocked",
         "description" : null,
         "methodArguments" : [ ],
         "returnValue" : "{\"id\":1,\"username\":\"user1\"}",
@@ -286,7 +286,7 @@
         "key" : "/"
       },
       "candidateId" : "26e2491c-a094-4d7a-925c-1a5defec49a9",
-      "name" : "getUserModelDto - normal",
+      "name" : "ModelMapperOpsController.getUserModelDto - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"username\":\"User1\",\"phoneNumber\":null,\"email\":null,\"address\":\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"}",
@@ -347,7 +347,7 @@
         "key" : "/"
       },
       "candidateId" : "0d15c469-65ba-4074-bc71-021b72ba47a9",
-      "name" : "getUserModelDtoWithProvider - normal",
+      "name" : "ModelMapperOpsController.getUserModelDtoWithProvider - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"username\":null,\"phoneNumber\":null,\"email\":null,\"address\":\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"}",
@@ -408,7 +408,7 @@
         "key" : "/"
       },
       "candidateId" : "f91487f5-b83f-4d30-8fd0-f91c3cfa4bdf",
-      "name" : "getFromConverter - normal",
+      "name" : "ModelMapperOpsController.getFromConverter - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"username\":\"User1\",\"phoneNumber\":\"phone-number-1\",\"email\":\"user1@gmail.com\",\"address\":\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"}",

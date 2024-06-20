@@ -19,7 +19,7 @@
         "key" : null
       },
       "candidateId" : "0e8a7ea2-8e0c-4279-899b-eb800c901571",
-      "name" : "doSomething - normal",
+      "name" : "FutureService.doSomething - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "\"yolo\"",
@@ -59,7 +59,7 @@
         "key" : null
       },
       "candidateId" : "9aaaae89-a872-42f7-9a22-fe16da74d720",
-      "name" : "doSomethingOptional - normal",
+      "name" : "FutureService.doSomethingOptional - normal",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "\"string\"",

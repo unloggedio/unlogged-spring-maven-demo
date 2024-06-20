@@ -26,7 +26,7 @@
         "key" : "/"
       },
       "candidateId" : "f7b9b04d-0525-437b-a563-d0cb5a16c135",
-      "name" : "insertDefault - normal",
+      "name" : "MongoOpsController.insertDefault - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"id\":\"aaa\",\"name\":\"Name AAA\"}",
@@ -73,7 +73,7 @@
         "key" : "/"
       },
       "candidateId" : "4adb32c6-76a0-4e1d-ac7a-b2ddc7ded101",
-      "name" : "insertNew - normal",
+      "name" : "MongoOpsController.insertNew - normal",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\"}" ],
       "returnValue" : "{\"id\":\"string\",\"name\":\"string\"}",
@@ -148,7 +148,7 @@
         "key" : "/"
       },
       "candidateId" : "e5eb98c9-06d7-45cb-9a43-51be5e16b9a6",
-      "name" : "getall - normal",
+      "name" : "MongoOpsController.getall - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "[{\"id\":\"aaa\",\"name\":\"Name AAA\"},{\"id\":\"string\",\"name\":\"string\"}]",
@@ -195,7 +195,7 @@
         "key" : "/"
       },
       "candidateId" : "41b87584-23fe-4020-8fc0-9d2e9118a5aa",
-      "name" : "getById - normal",
+      "name" : "MongoOpsController.getById - normal",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "{\"id\":\"string\",\"name\":\"string\"}",
@@ -242,7 +242,7 @@
         "key" : "/"
       },
       "candidateId" : "da470cf0-51ba-43bb-9a18-36cd6fadf8fb",
-      "name" : "updatePojo - normal",
+      "name" : "MongoOpsController.updatePojo - normal",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\"}" ],
       "returnValue" : "{\"id\":\"string\",\"name\":\"string\"}",
@@ -275,7 +275,7 @@
         "key" : null
       },
       "candidateId" : "be6f45df-a792-419e-9fe2-892613f3b946",
-      "name" : "deleteById - normal",
+      "name" : "MongoOpsController.deleteById - normal",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "0",

@@ -19,7 +19,7 @@
         "key" : null
       },
       "candidateId" : "277deeeb-2d9c-4a14-8e2c-f8449dc6276a",
-      "name" : "getFutureResult - normal",
+      "name" : "FutureController.getFutureResult - normal",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "\"yolo\"",
@@ -59,7 +59,7 @@
         "key" : null
       },
       "candidateId" : "4cde018d-3201-4c15-be54-10ae812b8132",
-      "name" : "getFutureResultOptional - normal",
+      "name" : "FutureController.getFutureResultOptional - normal",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "\"string\"",
