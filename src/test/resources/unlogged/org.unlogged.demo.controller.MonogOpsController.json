@@ -1,7 +1,7 @@
 {
-  "classname" : "org.unlogged.demo.controller.MonogOpsController",
+  "classname" : "org.unlogged.demo.controller.MongoOpsController",
   "storedCandidateMap" : {
-    "org.unlogged.demo.controller.MonogOpsController#insertDefault#()Lorg/unlogged/demo/models/MongoPojo;" : [ {
+    "org.unlogged.demo.controller.MongoOpsController#insertDefault#()Lorg/unlogged/demo/models/MongoPojo;" : [ {
       "lineNumbers" : [ 21, 22, 23, 24 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -44,11 +44,11 @@
       "method" : {
         "name" : "insertDefault",
         "signature" : "()Lorg/unlogged/demo/models/MongoPojo;",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "className" : "org.unlogged.demo.controller.MongoOpsController",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.controller.MonogOpsController#insertNew#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
+    "org.unlogged.demo.controller.MongoOpsController#insertNew#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
       "lineNumbers" : [ 29 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -91,11 +91,11 @@
       "method" : {
         "name" : "insertNew",
         "signature" : "(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "className" : "org.unlogged.demo.controller.MongoOpsController",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.controller.MonogOpsController#getall#()Ljava/util/List<Lorg/unlogged/demo/models/MongoPojo;>;" : [ {
+    "org.unlogged.demo.controller.MongoOpsController#getall#()Ljava/util/List<Lorg/unlogged/demo/models/MongoPojo;>;" : [ {
       "lineNumbers" : [ 34 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -166,11 +166,11 @@
       "method" : {
         "name" : "getall",
         "signature" : "()Ljava/util/List<Lorg/unlogged/demo/models/MongoPojo;>;",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "className" : "org.unlogged.demo.controller.MongoOpsController",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.controller.MonogOpsController#getById#(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
+    "org.unlogged.demo.controller.MongoOpsController#getById#(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
       "lineNumbers" : [ 38, 43 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -213,11 +213,11 @@
       "method" : {
         "name" : "getById",
         "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "className" : "org.unlogged.demo.controller.MongoOpsController",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.controller.MonogOpsController#updatePojo#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
+    "org.unlogged.demo.controller.MongoOpsController#updatePojo#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
       "lineNumbers" : [ 47 ],
       "testAssertions" : {
         "subAssertions" : [ {
@@ -260,11 +260,11 @@
       "method" : {
         "name" : "updatePojo",
         "signature" : "(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "className" : "org.unlogged.demo.controller.MongoOpsController",
         "methodHash" : 0
       }
     } ],
-    "org.unlogged.demo.controller.MonogOpsController#deleteById#(Ljava/lang/String;)V" : [ {
+    "org.unlogged.demo.controller.MongoOpsController#deleteById#(Ljava/lang/String;)V" : [ {
       "lineNumbers" : [ 51, 52 ],
       "testAssertions" : {
         "subAssertions" : [ ],
@@ -293,7 +293,7 @@
       "method" : {
         "name" : "deleteById",
         "signature" : "(Ljava/lang/String;)V",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "className" : "org.unlogged.demo.controller.MongoOpsController",
         "methodHash" : -1607493395
       }
     } ]

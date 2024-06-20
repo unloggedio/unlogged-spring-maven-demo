@@ -11,7 +11,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/mongoops")
-public class MonogOpsController {
+public class MongoOpsController {
 
     @Autowired
     private MongoPojoRepo mongoPojoRepo;

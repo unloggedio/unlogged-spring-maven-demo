@@ -6,7 +6,7 @@
       "id" : "c611b8cf-ad39-441c-ae44-ba4346b84f14",
       "name" : "mock response for call to mongoPojoRepo.insert(pojo)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "sourceClassName" : "org.unlogged.demo.controller.MongoOpsController",
       "fieldName" : "mongoPojoRepo",
       "methodName" : "insert",
       "whenParameter" : [ {
@@ -28,7 +28,7 @@
       "id" : "70d44d50-3058-44f3-b396-275900318d56",
       "name" : "mock response for call to mongoPojoRepo.insert(payload)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "sourceClassName" : "org.unlogged.demo.controller.MongoOpsController",
       "fieldName" : "mongoPojoRepo",
       "methodName" : "insert",
       "whenParameter" : [ {
@@ -51,7 +51,7 @@
       "id" : "09a4c50c-295b-4eb7-904a-a8b3ca3b8b65",
       "name" : "mock response for call to mongoPojoRepo.findAll()",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "sourceClassName" : "org.unlogged.demo.controller.MongoOpsController",
       "fieldName" : "mongoPojoRepo",
       "methodName" : "findAll",
       "whenParameter" : [ ],
@@ -70,7 +70,7 @@
       "id" : "b20bc2ff-5b3d-49d5-bd8d-2bbc97411790",
       "name" : "mock response for call to mongoPojoRepo.findById(id)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "sourceClassName" : "org.unlogged.demo.controller.MongoOpsController",
       "fieldName" : "mongoPojoRepo",
       "methodName" : "findById",
       "whenParameter" : [ {
@@ -93,7 +93,7 @@
       "id" : "03b99c69-f40e-4a95-8c3a-a71cc75c6cb2",
       "name" : "mock response for call to mongoPojoRepo.save(pojo)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "sourceClassName" : "org.unlogged.demo.controller.MongoOpsController",
       "fieldName" : "mongoPojoRepo",
       "methodName" : "save",
       "whenParameter" : [ {
@@ -116,7 +116,7 @@
       "id" : "1f32e6d3-ed6d-43dc-8860-ced005cefeea",
       "name" : "mock response for call to mongoPojoRepo.deleteById(id)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "sourceClassName" : "org.unlogged.demo.controller.MongoOpsController",
       "fieldName" : "mongoPojoRepo",
       "methodName" : "deleteById",
       "whenParameter" : [ {
