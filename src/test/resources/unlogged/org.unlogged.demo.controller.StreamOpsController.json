@@ -1,0 +1,3144 @@
+{
+  "classname" : "org.unlogged.demo.controller.StreamOpsController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.StreamOpsController#getUserGroups#()Ljava/util/List<Ljava/util/List;><Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 26, 27, 32, 37 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "7de16624-b3ba-41cf-8c71-641e8de89c95",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1\"",
+              "id" : "b38eb00d-6c05-40ee-a9fc-c18f4c5d895a",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1pass\"",
+              "id" : "2a5dcbd0-d337-4d3c-b31c-97ee11d79576",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1@gmail.com\"",
+              "id" : "f22be7e2-30fb-427f-8a0a-8cb57d8007d8",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "2c128742-ab53-47b6-8fee-ab294698b7f5",
+            "assertionType" : "ALLOF",
+            "key" : "/0/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "9cc2d73b-e5b6-43fd-88f7-54ad658b3eed",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2\"",
+              "id" : "3d3e432b-c2b2-40f1-bc40-68311688bb5d",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2pass\"",
+              "id" : "f2163b1c-4dad-4f44-90cf-e1141e81ba93",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2@gmail.com\"",
+              "id" : "76b14aad-9621-4f05-aae3-661833523c06",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "23044b0e-753c-453f-8afc-278088df7130",
+            "assertionType" : "ALLOF",
+            "key" : "/0/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3",
+              "id" : "d47dc716-73b6-4d39-8478-970b07a1cb7c",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3\"",
+              "id" : "d879bed9-dfcf-45c2-a722-2b31ba7fa174",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3pass\"",
+              "id" : "8c96fefb-e46d-4d64-81b6-db8a1e3a5a83",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3@gmail.com\"",
+              "id" : "e216cd30-9dbb-4d1c-a0f0-cfe37f42c749",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "9c158239-d813-4f1f-8aa3-0e63c6fc2e01",
+            "assertionType" : "ALLOF",
+            "key" : "/0/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "e4fca22e-4151-4cca-9475-e750c06ba494",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "401",
+              "id" : "8c2bd557-aecf-4f7c-bf8b-037b7b4d70ac",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"CLP\"",
+              "id" : "7ac61963-f4f8-4cca-bd5b-71ed6452b147",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"C401\"",
+              "id" : "053269c7-7ecf-4de6-97a9-4bc39e285b54",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"CLP401@gmail.com\"",
+              "id" : "65bc2835-5661-49f3-a148-68210afa09cc",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "d9314e58-1b9b-421a-8810-1c5cec25b0c9",
+            "assertionType" : "ALLOF",
+            "key" : "/1/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "402",
+              "id" : "41dc3190-5bb4-4110-840d-c24ce3799ef1",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"TRP\"",
+              "id" : "f281252a-7332-4797-9b1b-518b5f1c5594",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"T402\"",
+              "id" : "ae04df10-42ee-4e11-a9f7-ea8bb22e5936",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"TRP402@gmail.com\"",
+              "id" : "c0f66944-ac2c-462c-91b0-4066d86795e1",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "2bb20e09-b299-4107-b06e-f17d78b225a7",
+            "assertionType" : "ALLOF",
+            "key" : "/1/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "403",
+              "id" : "a4c9c727-ed69-41f7-b2f1-48af102c4513",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DED\"",
+              "id" : "e520c99a-69ef-4353-a0d0-718fd7b151fd",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"D403\"",
+              "id" : "3c09a96d-ee22-40f2-bf63-0687cb858b59",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DED403@gmail.com\"",
+              "id" : "80524c38-00e4-4ebb-9aa6-737e940f25ca",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "c66542c7-c716-4676-9ee5-8eeede0a7c98",
+            "assertionType" : "ALLOF",
+            "key" : "/1/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "ee6b87f6-cd90-41cb-b401-01bcb6a16597",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9901",
+              "id" : "96826870-6758-421a-8273-8b27c014ab6d",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"lck\"",
+              "id" : "bcb2473c-f96e-48a2-b0fb-cad848127b85",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"S???\"",
+              "id" : "3203bad1-7ed2-4243-a72d-ee9b7fb39e5a",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"SL?@gmail.com\"",
+              "id" : "511904be-cdd8-4e83-97c8-a0d09308fe66",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "e7e3f117-ab51-412f-abcb-3df485287989",
+            "assertionType" : "ALLOF",
+            "key" : "/2/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9902",
+              "id" : "9a13b87f-1535-44dc-83a8-eda022a39875",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"msc\"",
+              "id" : "1b49728c-05cb-4fa3-b720-f282c447247a",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"S117\"",
+              "id" : "73cfb0c0-614d-4bbb-994f-90bf99835bb3",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"S117@gmail.com\"",
+              "id" : "e8f03038-d73a-41e4-85f7-9e9c4ab05a7a",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "ccb25e2d-7e80-4e46-81e0-c8eadae1ee95",
+            "assertionType" : "ALLOF",
+            "key" : "/2/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9903",
+              "id" : "40154709-dd24-48b2-97ee-3068837e6a43",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"arb\"",
+              "id" : "c9699267-164e-4c59-8218-f46511716643",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"YK04\"",
+              "id" : "9a07eb74-0083-44ad-8bce-fc6514f2f394",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"SHA@gmail.com\"",
+              "id" : "207f0bcb-da27-433d-95be-dacc8cda8428",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "9165a1f5-2b2b-42f0-9a57-a1c798ab9562",
+            "assertionType" : "ALLOF",
+            "key" : "/2/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "0a5e68da-4013-49ff-a6d6-45d93626df38",
+          "assertionType" : "ALLOF",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "dd202d35-c088-44bd-a537-cfac705590e3",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "9c16af88-3024-4be5-91f4-9762ec6f431f",
+      "name" : "StreamOpsController.getUserGroups - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[[{\"user_id\":1,\"username\":\"User1\",\"password\":\"User1pass\",\"email\":\"User1@gmail.com\"},{\"user_id\":2,\"username\":\"User2\",\"password\":\"User2pass\",\"email\":\"User2@gmail.com\"},{\"user_id\":3,\"username\":\"User3\",\"password\":\"User3pass\",\"email\":\"User3@gmail.com\"}],[{\"user_id\":401,\"username\":\"CLP\",\"password\":\"C401\",\"email\":\"CLP401@gmail.com\"},{\"user_id\":402,\"username\":\"TRP\",\"password\":\"T402\",\"email\":\"TRP402@gmail.com\"},{\"user_id\":403,\"username\":\"DED\",\"password\":\"D403\",\"email\":\"DED403@gmail.com\"}],[{\"user_id\":9901,\"username\":\"lck\",\"password\":\"S???\",\"email\":\"SL?@gmail.com\"},{\"user_id\":9902,\"username\":\"msc\",\"password\":\"S117\",\"email\":\"S117@gmail.com\"},{\"user_id\":9903,\"username\":\"arb\",\"password\":\"YK04\",\"email\":\"SHA@gmail.com\"}]]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22749770419212,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1011092310,
+      "probSerializedValue" : "W1t7InVzZXJfaWQiOjEsInVzZXJuYW1lIjoiVXNlcjEiLCJwYXNzd29yZCI6IlVzZXIxcGFzcyIsImVtYWlsIjoiVXNlcjFAZ21haWwuY29tIn0seyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6IlVzZXIyIiwicGFzc3dvcmQiOiJVc2VyMnBhc3MiLCJlbWFpbCI6IlVzZXIyQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6MywidXNlcm5hbWUiOiJVc2VyMyIsInBhc3N3b3JkIjoiVXNlcjNwYXNzIiwiZW1haWwiOiJVc2VyM0BnbWFpbC5jb20ifV0sW3sidXNlcl9pZCI6NDAxLCJ1c2VybmFtZSI6IkNMUCIsInBhc3N3b3JkIjoiQzQwMSIsImVtYWlsIjoiQ0xQNDAxQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NDAyLCJ1c2VybmFtZSI6IlRSUCIsInBhc3N3b3JkIjoiVDQwMiIsImVtYWlsIjoiVFJQNDAyQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NDAzLCJ1c2VybmFtZSI6IkRFRCIsInBhc3N3b3JkIjoiRDQwMyIsImVtYWlsIjoiREVENDAzQGdtYWlsLmNvbSJ9XSxbeyJ1c2VyX2lkIjo5OTAxLCJ1c2VybmFtZSI6ImxjayIsInBhc3N3b3JkIjoiUz8/PyIsImVtYWlsIjoiU0w/QGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6OTkwMiwidXNlcm5hbWUiOiJtc2MiLCJwYXNzd29yZCI6IlMxMTciLCJlbWFpbCI6IlMxMTdAZ21haWwuY29tIn0seyJ1c2VyX2lkIjo5OTAzLCJ1c2VybmFtZSI6ImFyYiIsInBhc3N3b3JkIjoiWUswNCIsImVtYWlsIjoiU0hBQGdtYWlsLmNvbSJ9XV0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserGroups",
+        "signature" : "()Ljava/util/List<Ljava/util/List;><Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#getUserList#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "11",
+            "id" : "243f3798-740b-4c3b-bc26-ebb0ec1fb11c",
+            "assertionType" : "EQUAL",
+            "key" : "/0/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserA\"",
+            "id" : "50a41d9f-4e87-4cdd-bc54-ad981cd9866f",
+            "assertionType" : "EQUAL",
+            "key" : "/0/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"a\"",
+            "id" : "5d058150-c6dc-4506-9516-eb69f879d286",
+            "assertionType" : "EQUAL",
+            "key" : "/0/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userA@gmail.com\"",
+            "id" : "9fd475d9-02f1-497e-88ef-62673678f369",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "79e70ca7-ef0e-4e74-9730-e914f8294957",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "23",
+            "id" : "6f695c3e-bcea-43b9-8079-c3f606ed63aa",
+            "assertionType" : "EQUAL",
+            "key" : "/1/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserB\"",
+            "id" : "dd59b370-cd29-450d-b106-b98cbb00d586",
+            "assertionType" : "EQUAL",
+            "key" : "/1/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"b\"",
+            "id" : "431fa158-77f0-4977-b59c-cda1340caa5c",
+            "assertionType" : "EQUAL",
+            "key" : "/1/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userB@gmail.com\"",
+            "id" : "45874dee-5acb-4394-a82b-a32201cda04f",
+            "assertionType" : "EQUAL",
+            "key" : "/1/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1c385cb9-e6c5-495e-9a1d-ba99cb305ffe",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "14",
+            "id" : "42395605-6acd-44d8-874d-e6776023bc28",
+            "assertionType" : "EQUAL",
+            "key" : "/2/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserC\"",
+            "id" : "d1199879-8827-4509-8c5c-51fefd5fdcde",
+            "assertionType" : "EQUAL",
+            "key" : "/2/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"c\"",
+            "id" : "44f2ea4b-49e3-4188-9dbf-94c070cc42e3",
+            "assertionType" : "EQUAL",
+            "key" : "/2/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userC@gmail.com\"",
+            "id" : "37eada66-f76d-4e79-a5f0-fc4bdd44fb05",
+            "assertionType" : "EQUAL",
+            "key" : "/2/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "151677d2-a303-48fa-8fd9-aa3e142358a1",
+          "assertionType" : "ALLOF",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "59",
+            "id" : "6048cdfd-18d7-4e93-b337-b94d37b6c7fa",
+            "assertionType" : "EQUAL",
+            "key" : "/3/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserD\"",
+            "id" : "00a0574a-f09e-48d3-a7a1-e4b20c93f297",
+            "assertionType" : "EQUAL",
+            "key" : "/3/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"d\"",
+            "id" : "cf5d806f-498e-45cf-9493-39682c3a70c3",
+            "assertionType" : "EQUAL",
+            "key" : "/3/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userD@gmail.com\"",
+            "id" : "9c64c1d1-edbf-43b1-bc12-6163f3706162",
+            "assertionType" : "EQUAL",
+            "key" : "/3/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "27316544-962f-4e28-8c9e-fe9871065a34",
+          "assertionType" : "ALLOF",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "64",
+            "id" : "f92ea7ca-b990-4156-b1d4-b4c1482ec702",
+            "assertionType" : "EQUAL",
+            "key" : "/4/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserE\"",
+            "id" : "94cb2a14-7b51-4935-b840-775bd7e960ec",
+            "assertionType" : "EQUAL",
+            "key" : "/4/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"e\"",
+            "id" : "7d79fa94-3fae-46ff-8c05-1855e2a49496",
+            "assertionType" : "EQUAL",
+            "key" : "/4/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userE@gmail.com\"",
+            "id" : "21d4cf6b-5892-4311-90c7-bf0523b750e3",
+            "assertionType" : "EQUAL",
+            "key" : "/4/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "d5f3af33-4d35-4bdf-a66c-867b3d4fd1d1",
+          "assertionType" : "ALLOF",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "80",
+            "id" : "84639b52-c30e-4bf1-8df6-5ed9e9369a3e",
+            "assertionType" : "EQUAL",
+            "key" : "/5/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserF\"",
+            "id" : "5a7d8e83-c570-4752-941c-629856ab42f5",
+            "assertionType" : "EQUAL",
+            "key" : "/5/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"f\"",
+            "id" : "4b1f3941-0037-4791-8ae8-c9bdeb976ce5",
+            "assertionType" : "EQUAL",
+            "key" : "/5/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userF@gmail.com\"",
+            "id" : "b5b3b702-a1f7-405d-ad7b-a0524231b0d9",
+            "assertionType" : "EQUAL",
+            "key" : "/5/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3e34ee1c-59cd-4bbc-9552-048daa96b002",
+          "assertionType" : "ALLOF",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "24",
+            "id" : "61f2114c-18a6-44e2-af9c-b1d467d055ff",
+            "assertionType" : "EQUAL",
+            "key" : "/6/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserG\"",
+            "id" : "aeaea9ef-dba8-45a8-8b5c-15713567deb2",
+            "assertionType" : "EQUAL",
+            "key" : "/6/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"g\"",
+            "id" : "32d0beab-81cc-4105-b050-74e6806594e5",
+            "assertionType" : "EQUAL",
+            "key" : "/6/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userG@gmail.com\"",
+            "id" : "f292f396-56e4-4795-9d38-a004b24cda83",
+            "assertionType" : "EQUAL",
+            "key" : "/6/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7cd9120c-181e-4a8d-9ae8-c45548c33ee3",
+          "assertionType" : "ALLOF",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "eb3ecbda-cf09-4b07-900c-15bbadf530bd",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "c93bb513-6a01-44a6-a322-1156a2768007",
+      "name" : "StreamOpsController.getUserList - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"user_id\":11,\"username\":\"UserA\",\"password\":\"a\",\"email\":\"userA@gmail.com\"},{\"user_id\":23,\"username\":\"UserB\",\"password\":\"b\",\"email\":\"userB@gmail.com\"},{\"user_id\":14,\"username\":\"UserC\",\"password\":\"c\",\"email\":\"userC@gmail.com\"},{\"user_id\":59,\"username\":\"UserD\",\"password\":\"d\",\"email\":\"userD@gmail.com\"},{\"user_id\":64,\"username\":\"UserE\",\"password\":\"e\",\"email\":\"userE@gmail.com\"},{\"user_id\":80,\"username\":\"UserF\",\"password\":\"f\",\"email\":\"userF@gmail.com\"},{\"user_id\":24,\"username\":\"UserG\",\"password\":\"g\",\"email\":\"userG@gmail.com\"}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22867000040769,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 805267588,
+      "probSerializedValue" : "W3sidXNlcl9pZCI6MTEsInVzZXJuYW1lIjoiVXNlckEiLCJwYXNzd29yZCI6ImEiLCJlbWFpbCI6InVzZXJBQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6MjMsInVzZXJuYW1lIjoiVXNlckIiLCJwYXNzd29yZCI6ImIiLCJlbWFpbCI6InVzZXJCQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6MTQsInVzZXJuYW1lIjoiVXNlckMiLCJwYXNzd29yZCI6ImMiLCJlbWFpbCI6InVzZXJDQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NTksInVzZXJuYW1lIjoiVXNlckQiLCJwYXNzd29yZCI6ImQiLCJlbWFpbCI6InVzZXJEQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NjQsInVzZXJuYW1lIjoiVXNlckUiLCJwYXNzd29yZCI6ImUiLCJlbWFpbCI6InVzZXJFQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6ODAsInVzZXJuYW1lIjoiVXNlckYiLCJwYXNzd29yZCI6ImYiLCJlbWFpbCI6InVzZXJGQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6MjQsInVzZXJuYW1lIjoiVXNlckciLCJwYXNzd29yZCI6ImciLCJlbWFpbCI6InVzZXJHQGdtYWlsLmNvbSJ9XQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserList",
+        "signature" : "()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#forEachRun#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 50, 51, 52, 59, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "11",
+            "id" : "4b0d59dd-48e2-4007-ab4c-599d5babd46c",
+            "assertionType" : "EQUAL",
+            "key" : "/0/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserA#\"",
+            "id" : "72fc881b-dd6b-40e8-9d3a-a8134e5b46fd",
+            "assertionType" : "EQUAL",
+            "key" : "/0/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"a_1459\"",
+            "id" : "cdce1a2f-f18a-494e-ba55-e188e043a886",
+            "assertionType" : "EQUAL",
+            "key" : "/0/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userA-@gmail.com\"",
+            "id" : "9ab085b7-c3e7-4276-a6d7-faf5fe24a3e7",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "2966fcee-54cb-47d3-8e5d-c056b001b682",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "23",
+            "id" : "97d702a8-e171-4538-91cd-29daf55c2c49",
+            "assertionType" : "EQUAL",
+            "key" : "/1/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserB#\"",
+            "id" : "253241e0-a24b-437f-8b34-0f2b5650272e",
+            "assertionType" : "EQUAL",
+            "key" : "/1/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"b_1459\"",
+            "id" : "90b96d64-b16e-41ac-b173-b14bab005a4c",
+            "assertionType" : "EQUAL",
+            "key" : "/1/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userB-@gmail.com\"",
+            "id" : "58ad80e4-4eba-431f-90a8-32d59ffbfae1",
+            "assertionType" : "EQUAL",
+            "key" : "/1/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "96082d63-1135-43b7-b336-e5f62ffe3c37",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "14",
+            "id" : "5b459854-9139-4bbf-9631-e9418459a66f",
+            "assertionType" : "EQUAL",
+            "key" : "/2/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserC#\"",
+            "id" : "f6a7f348-0e6b-4a26-9b81-532894adcb93",
+            "assertionType" : "EQUAL",
+            "key" : "/2/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"C_1397\"",
+            "id" : "7ed83df4-58d9-4473-b538-4ec0065d6cfa",
+            "assertionType" : "EQUAL",
+            "key" : "/2/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userC+@gmail.com\"",
+            "id" : "a1ab237a-02b4-4d4a-922a-2dfcb56bbc1f",
+            "assertionType" : "EQUAL",
+            "key" : "/2/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "8aa30009-88a0-4952-9962-51c7e7a93751",
+          "assertionType" : "ALLOF",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "59",
+            "id" : "2e9990d9-fb27-46ec-bd4d-d3fe4b95e4b4",
+            "assertionType" : "EQUAL",
+            "key" : "/3/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserD#\"",
+            "id" : "d529d746-7bd2-44b1-b36b-fab2656d0a81",
+            "assertionType" : "EQUAL",
+            "key" : "/3/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"d_1459\"",
+            "id" : "948ce27c-efcc-4d72-be7e-3509945dd5df",
+            "assertionType" : "EQUAL",
+            "key" : "/3/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userD-@gmail.com\"",
+            "id" : "d9a71516-4145-46b8-a161-7b14b9141e0a",
+            "assertionType" : "EQUAL",
+            "key" : "/3/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "b3a1e29d-d684-418a-95c2-163da7bb3442",
+          "assertionType" : "ALLOF",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "64",
+            "id" : "03713f00-61c0-4d32-932a-8d397859e45d",
+            "assertionType" : "EQUAL",
+            "key" : "/4/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserE#\"",
+            "id" : "4f664b4f-eb59-4d1e-8397-168bf54b6bdf",
+            "assertionType" : "EQUAL",
+            "key" : "/4/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"E_1397\"",
+            "id" : "6216a3d7-6634-45c0-8bd6-418a600d63d0",
+            "assertionType" : "EQUAL",
+            "key" : "/4/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userE+@gmail.com\"",
+            "id" : "4346a49c-3328-4c1f-bb1e-4972f3164cbb",
+            "assertionType" : "EQUAL",
+            "key" : "/4/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "48523df9-4515-4420-8573-6affa6b25b6d",
+          "assertionType" : "ALLOF",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "80",
+            "id" : "a69dc14c-505c-405e-bc10-6fedbad84df6",
+            "assertionType" : "EQUAL",
+            "key" : "/5/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserF#\"",
+            "id" : "e7b73e0d-d638-433b-a8d8-ffbe7401e861",
+            "assertionType" : "EQUAL",
+            "key" : "/5/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"F_1397\"",
+            "id" : "77adee70-fa29-4361-a8b2-c81e48b2f20f",
+            "assertionType" : "EQUAL",
+            "key" : "/5/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userF+@gmail.com\"",
+            "id" : "c9198884-1cd6-4e11-b7bd-5129dc349a5f",
+            "assertionType" : "EQUAL",
+            "key" : "/5/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "84d04bb7-5a89-49fc-97a5-1e91bcb9b82a",
+          "assertionType" : "ALLOF",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "24",
+            "id" : "d3f2455d-e862-488d-acbc-2cffb9c83bf8",
+            "assertionType" : "EQUAL",
+            "key" : "/6/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserG#\"",
+            "id" : "9a306cd4-1623-48ea-90e6-c2fdaf8a4339",
+            "assertionType" : "EQUAL",
+            "key" : "/6/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"G_1397\"",
+            "id" : "3afd4a95-656b-4f00-b31b-7764b8ddd45d",
+            "assertionType" : "EQUAL",
+            "key" : "/6/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userG+@gmail.com\"",
+            "id" : "6e57ac05-3647-431f-8d33-adadbb3b0594",
+            "assertionType" : "EQUAL",
+            "key" : "/6/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "6f7cc8d5-f1a0-41a6-bc90-27b92f976c8b",
+          "assertionType" : "ALLOF",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "36bb7166-4460-4ee5-b1b8-3a679236985f",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "b9b5c5c5-a313-463d-8381-19ac997e185c",
+      "name" : "StreamOpsController.forEachRun - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"user_id\":11,\"username\":\"UserA#\",\"password\":\"a_1459\",\"email\":\"userA-@gmail.com\"},{\"user_id\":23,\"username\":\"UserB#\",\"password\":\"b_1459\",\"email\":\"userB-@gmail.com\"},{\"user_id\":14,\"username\":\"UserC#\",\"password\":\"C_1397\",\"email\":\"userC+@gmail.com\"},{\"user_id\":59,\"username\":\"UserD#\",\"password\":\"d_1459\",\"email\":\"userD-@gmail.com\"},{\"user_id\":64,\"username\":\"UserE#\",\"password\":\"E_1397\",\"email\":\"userE+@gmail.com\"},{\"user_id\":80,\"username\":\"UserF#\",\"password\":\"F_1397\",\"email\":\"userF+@gmail.com\"},{\"user_id\":24,\"username\":\"UserG#\",\"password\":\"G_1397\",\"email\":\"userG+@gmail.com\"}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22892031543358,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1477622779,
+      "probSerializedValue" : "W3sidXNlcl9pZCI6MTEsInVzZXJuYW1lIjoiVXNlckEjIiwicGFzc3dvcmQiOiJhXzE0NTkiLCJlbWFpbCI6InVzZXJBLUBnbWFpbC5jb20ifSx7InVzZXJfaWQiOjIzLCJ1c2VybmFtZSI6IlVzZXJCIyIsInBhc3N3b3JkIjoiYl8xNDU5IiwiZW1haWwiOiJ1c2VyQi1AZ21haWwuY29tIn0seyJ1c2VyX2lkIjoxNCwidXNlcm5hbWUiOiJVc2VyQyMiLCJwYXNzd29yZCI6IkNfMTM5NyIsImVtYWlsIjoidXNlckMrQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NTksInVzZXJuYW1lIjoiVXNlckQjIiwicGFzc3dvcmQiOiJkXzE0NTkiLCJlbWFpbCI6InVzZXJELUBnbWFpbC5jb20ifSx7InVzZXJfaWQiOjY0LCJ1c2VybmFtZSI6IlVzZXJFIyIsInBhc3N3b3JkIjoiRV8xMzk3IiwiZW1haWwiOiJ1c2VyRStAZ21haWwuY29tIn0seyJ1c2VyX2lkIjo4MCwidXNlcm5hbWUiOiJVc2VyRiMiLCJwYXNzd29yZCI6IkZfMTM5NyIsImVtYWlsIjoidXNlckYrQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6MjQsInVzZXJuYW1lIjoiVXNlckcjIiwicGFzc3dvcmQiOiJHXzEzOTciLCJlbWFpbCI6InVzZXJHK0BnbWFpbC5jb20ifV0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "forEachRun",
+        "signature" : "()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#forEachRunParallel#()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 63, 64, 65, 72, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "11",
+            "id" : "4d9b9f6d-2320-4d45-8fb0-f0a98a5e4277",
+            "assertionType" : "EQUAL",
+            "key" : "/0/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserA#\"",
+            "id" : "8bd73abe-f1f1-4222-90aa-9e4fa9e5bfa7",
+            "assertionType" : "EQUAL",
+            "key" : "/0/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"a_1459\"",
+            "id" : "699b445f-96d1-45b5-8df2-5b996ff72323",
+            "assertionType" : "EQUAL",
+            "key" : "/0/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userA-@gmail.com\"",
+            "id" : "bb3b7846-849c-44a0-ad8c-748c2e6d6092",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "384baa79-73bc-4adf-9108-a9689436e680",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "23",
+            "id" : "47eebd03-89d3-49bf-88e1-943da673e96a",
+            "assertionType" : "EQUAL",
+            "key" : "/1/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserB#\"",
+            "id" : "59cdc495-e30b-40d3-aa96-1fc90f440c84",
+            "assertionType" : "EQUAL",
+            "key" : "/1/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"b_1459\"",
+            "id" : "9674bb5f-14be-4018-a41e-5851ae227b3f",
+            "assertionType" : "EQUAL",
+            "key" : "/1/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userB-@gmail.com\"",
+            "id" : "b96d0402-6732-4fd6-8e69-ba028a4d2900",
+            "assertionType" : "EQUAL",
+            "key" : "/1/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "cb5901e7-1a97-4a74-939a-c2053b901519",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "14",
+            "id" : "668ed73b-764c-4b8a-b96d-1d4c7cb35b89",
+            "assertionType" : "EQUAL",
+            "key" : "/2/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserC#\"",
+            "id" : "03e20228-0978-4167-8b22-edefd1b376dc",
+            "assertionType" : "EQUAL",
+            "key" : "/2/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"C_1397\"",
+            "id" : "cd8f1ae5-bb5b-42c7-9019-836d8c26ad1e",
+            "assertionType" : "EQUAL",
+            "key" : "/2/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userC+@gmail.com\"",
+            "id" : "dd1ac4c2-d86d-4949-8a34-e749da0dc6c5",
+            "assertionType" : "EQUAL",
+            "key" : "/2/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f1720a82-1a4d-4d6b-a0bd-b1b818bf4f04",
+          "assertionType" : "ALLOF",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "59",
+            "id" : "1c5fc870-87e5-4c56-a06a-c4f3156a58e0",
+            "assertionType" : "EQUAL",
+            "key" : "/3/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserD#\"",
+            "id" : "b75f908d-3b32-4850-9828-9c1f771db9aa",
+            "assertionType" : "EQUAL",
+            "key" : "/3/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"d_1459\"",
+            "id" : "94e062f2-d8c9-4937-9aee-87ddb30fabb5",
+            "assertionType" : "EQUAL",
+            "key" : "/3/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userD-@gmail.com\"",
+            "id" : "16cf266a-3186-49a9-b5a2-3134f42fcdf0",
+            "assertionType" : "EQUAL",
+            "key" : "/3/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "cd96d7e7-d649-4262-baa6-df46139c944c",
+          "assertionType" : "ALLOF",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "64",
+            "id" : "264f9904-d3ee-4327-9df7-4728b5c3e5e2",
+            "assertionType" : "EQUAL",
+            "key" : "/4/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserE#\"",
+            "id" : "69e50d04-4e9b-4679-818c-7e010417b5e1",
+            "assertionType" : "EQUAL",
+            "key" : "/4/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"E_1397\"",
+            "id" : "9284ac63-80eb-4d2c-9685-26517bc531b9",
+            "assertionType" : "EQUAL",
+            "key" : "/4/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userE+@gmail.com\"",
+            "id" : "200f26ac-3508-4e47-96da-508db0c381d2",
+            "assertionType" : "EQUAL",
+            "key" : "/4/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c11f04aa-0bbc-4d9c-885e-80fd8ceafaca",
+          "assertionType" : "ALLOF",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "80",
+            "id" : "9506943e-99d3-4530-96fd-495fa36a836b",
+            "assertionType" : "EQUAL",
+            "key" : "/5/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserF#\"",
+            "id" : "c89e1693-8d6c-4137-b674-4b14374d7d40",
+            "assertionType" : "EQUAL",
+            "key" : "/5/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"F_1397\"",
+            "id" : "a24bfef9-e03f-43db-8e95-3ea26226c63f",
+            "assertionType" : "EQUAL",
+            "key" : "/5/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userF+@gmail.com\"",
+            "id" : "7ae32a91-e60e-4034-9551-b41d92b36331",
+            "assertionType" : "EQUAL",
+            "key" : "/5/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "8a1f6e6c-3c62-4f7e-bb3d-40fcaaaaa07a",
+          "assertionType" : "ALLOF",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "24",
+            "id" : "3a1852c9-b017-497a-b6a5-3a52488bdd12",
+            "assertionType" : "EQUAL",
+            "key" : "/6/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"UserG#\"",
+            "id" : "423bdd01-1b8a-4f4d-9b6e-0be8c22030b8",
+            "assertionType" : "EQUAL",
+            "key" : "/6/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"G_1397\"",
+            "id" : "26d4976a-af2c-4ad4-8b27-34a2fd7b9b02",
+            "assertionType" : "EQUAL",
+            "key" : "/6/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"userG+@gmail.com\"",
+            "id" : "9b5ef994-1f95-4113-8cb5-ecf47f7d1a62",
+            "assertionType" : "EQUAL",
+            "key" : "/6/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "cc61d299-8d42-48f2-80e4-2ff78c521424",
+          "assertionType" : "ALLOF",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "71408b8e-59c3-4586-81bf-9737585fab4e",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "50f0acae-0319-4be0-82f1-ff37db08160c",
+      "name" : "StreamOpsController.forEachRunParallel - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"user_id\":11,\"username\":\"UserA#\",\"password\":\"a_1459\",\"email\":\"userA-@gmail.com\"},{\"user_id\":23,\"username\":\"UserB#\",\"password\":\"b_1459\",\"email\":\"userB-@gmail.com\"},{\"user_id\":14,\"username\":\"UserC#\",\"password\":\"C_1397\",\"email\":\"userC+@gmail.com\"},{\"user_id\":59,\"username\":\"UserD#\",\"password\":\"d_1459\",\"email\":\"userD-@gmail.com\"},{\"user_id\":64,\"username\":\"UserE#\",\"password\":\"E_1397\",\"email\":\"userE+@gmail.com\"},{\"user_id\":80,\"username\":\"UserF#\",\"password\":\"F_1397\",\"email\":\"userF+@gmail.com\"},{\"user_id\":24,\"username\":\"UserG#\",\"password\":\"G_1397\",\"email\":\"userG+@gmail.com\"}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22917822242212,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1535588605,
+      "probSerializedValue" : "W3sidXNlcl9pZCI6MTEsInVzZXJuYW1lIjoiVXNlckEjIiwicGFzc3dvcmQiOiJhXzE0NTkiLCJlbWFpbCI6InVzZXJBLUBnbWFpbC5jb20ifSx7InVzZXJfaWQiOjIzLCJ1c2VybmFtZSI6IlVzZXJCIyIsInBhc3N3b3JkIjoiYl8xNDU5IiwiZW1haWwiOiJ1c2VyQi1AZ21haWwuY29tIn0seyJ1c2VyX2lkIjoxNCwidXNlcm5hbWUiOiJVc2VyQyMiLCJwYXNzd29yZCI6IkNfMTM5NyIsImVtYWlsIjoidXNlckMrQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NTksInVzZXJuYW1lIjoiVXNlckQjIiwicGFzc3dvcmQiOiJkXzE0NTkiLCJlbWFpbCI6InVzZXJELUBnbWFpbC5jb20ifSx7InVzZXJfaWQiOjY0LCJ1c2VybmFtZSI6IlVzZXJFIyIsInBhc3N3b3JkIjoiRV8xMzk3IiwiZW1haWwiOiJ1c2VyRStAZ21haWwuY29tIn0seyJ1c2VyX2lkIjo4MCwidXNlcm5hbWUiOiJVc2VyRiMiLCJwYXNzd29yZCI6IkZfMTM5NyIsImVtYWlsIjoidXNlckYrQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6MjQsInVzZXJuYW1lIjoiVXNlckcjIiwicGFzc3dvcmQiOiJHXzEzOTciLCJlbWFpbCI6InVzZXJHK0BnbWFpbC5jb20ifV0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "forEachRunParallel",
+        "signature" : "()Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#mapAndCollect#()Ljava/util/List<Ljava/lang/Long;>;" : [ {
+      "lineNumbers" : [ 76, 77, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "11",
+          "id" : "4bedaa52-1a6c-48fe-ab4e-ff04096dc67f",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "23",
+          "id" : "4c77d88c-b9c0-4fe3-8a3e-50f6cc17e95c",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "14",
+          "id" : "4180f060-362f-4bec-9938-9cf32c148a8d",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "59",
+          "id" : "421c932d-9916-4046-a9f6-369d6df91a40",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "64",
+          "id" : "685b8e67-dbd3-450d-839e-4afb311a406f",
+          "assertionType" : "EQUAL",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "80",
+          "id" : "0c49bd61-e0b8-4d50-8e51-0c3831f8be24",
+          "assertionType" : "EQUAL",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "24",
+          "id" : "b79335fa-c38d-492c-98ff-b561170ae3dd",
+          "assertionType" : "EQUAL",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "9bb35c67-f4a5-4dbe-a878-ba6d28602273",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "ce9e6fe3-dc38-4106-b2ff-bbde97396692",
+      "name" : "StreamOpsController.mapAndCollect - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[11,23,14,59,64,80,24]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22948097870486,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1524525651,
+      "probSerializedValue" : "WzExLDIzLDE0LDU5LDY0LDgwLDI0XQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "mapAndCollect",
+        "signature" : "()Ljava/util/List<Ljava/lang/Long;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#mapSet#()Ljava/util/Set<Ljava/lang/Long;>;" : [ {
+      "lineNumbers" : [ 81, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "64",
+          "id" : "de3a5410-093a-49bd-8d28-6fd31a872d47",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "80",
+          "id" : "a6e47f9e-4118-4a32-94db-2bbd987497aa",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "23",
+          "id" : "ed4f6485-5808-4b5d-a9c8-73b4000c3874",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "24",
+          "id" : "6bb5df42-cbd1-461f-a2a7-c837660c96bd",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "11",
+          "id" : "34d5eda5-6f83-4cb2-a05e-d6e4a41db560",
+          "assertionType" : "EQUAL",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "59",
+          "id" : "6959cbd2-0702-428b-9069-89134de3926a",
+          "assertionType" : "EQUAL",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "14",
+          "id" : "04979cb2-19ce-40cb-ac38-1778f5460259",
+          "assertionType" : "EQUAL",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "8755ecbb-ddb0-4ecf-8238-ccbcddb0ca2b",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "75c4fd9b-87a9-4a50-8425-18c97f8f0b74",
+      "name" : "StreamOpsController.mapSet - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[64,80,23,24,11,59,14]",
+      "returnValueClassname" : "java.util.Set",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22969572207974,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1218046194,
+      "probSerializedValue" : "WzY0LDgwLDIzLDI0LDExLDU5LDE0XQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "mapSet",
+        "signature" : "()Ljava/util/Set<Ljava/lang/Long;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#mapVector#()Ljava/util/Vector<Ljava/lang/Long;>;" : [ {
+      "lineNumbers" : [ 85, 86, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "11",
+          "id" : "0cc606ab-e5e2-4be7-9578-af91affe4fad",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "23",
+          "id" : "e4a01e92-ab12-4859-9d7d-d4d4ddb1c789",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "14",
+          "id" : "f57fe6f0-2116-450d-be84-a74d5950ab8b",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "59",
+          "id" : "913767c0-33a7-4226-8317-9a2631374b67",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "64",
+          "id" : "3fa9ed89-d462-4212-80eb-42f494ec535b",
+          "assertionType" : "EQUAL",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "80",
+          "id" : "b8a0beef-5060-441f-9249-93352250b449",
+          "assertionType" : "EQUAL",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "24",
+          "id" : "9729f85d-4842-460c-a3f8-1a75e24e1a07",
+          "assertionType" : "EQUAL",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "aecb432c-5e02-4595-8e47-f240bf681114",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "507cb229-2d34-4406-aa72-3b24c609713f",
+      "name" : "StreamOpsController.mapVector - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[11,23,14,59,64,80,24]",
+      "returnValueClassname" : "java.util.Vector",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 22999570529445,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1657223972,
+      "probSerializedValue" : "WzExLDIzLDE0LDU5LDY0LDgwLDI0XQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "mapVector",
+        "signature" : "()Ljava/util/Vector<Ljava/lang/Long;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#mapAndFilter#()Ljava/util/List<Ljava/lang/Long;>;" : [ {
+      "lineNumbers" : [ 90, 91, 92, 93, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "11",
+          "id" : "f86d4588-8b5b-4d4a-b226-3bd02a52f060",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "23",
+          "id" : "f7824f46-158c-404b-a59a-2c56117ceb49",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "59",
+          "id" : "92859f03-eff7-4760-9172-1ba875c11676",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "a584df82-e031-4ddc-82bc-1ec1a6bef581",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "8e100818-c9c8-4a1b-89a2-a36ec0a43b20",
+      "name" : "StreamOpsController.mapAndFilter - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[11,23,59]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23028654671158,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1628974493,
+      "probSerializedValue" : "WzExLDIzLDU5XQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "mapAndFilter",
+        "signature" : "()Ljava/util/List<Ljava/lang/Long;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#filterAndFindFirst#()Ljava/util/Optional<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 97, 98, 99, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "14",
+          "id" : "753d0b5e-9b78-474d-b597-66367af6b551",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserC\"",
+          "id" : "cd2e89ac-edd8-49e1-9f60-bfb96476d7be",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"c\"",
+          "id" : "dff9f9be-8c50-4956-9837-bdb354c87f85",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"userC@gmail.com\"",
+          "id" : "7d91603b-c511-4055-ba1d-023667f68cd4",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "0f8bd9de-f68f-4b82-a1ae-212312ae8da2",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "456e06bf-72d3-4065-a414-09df6330d1cf",
+      "name" : "StreamOpsController.filterAndFindFirst - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":14,\"username\":\"UserC\",\"password\":\"c\",\"email\":\"userC@gmail.com\"}",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23058262303233,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -426552069,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxNCwidXNlcm5hbWUiOiJVc2VyQyIsInBhc3N3b3JkIjoiYyIsImVtYWlsIjoidXNlckNAZ21haWwuY29tIn0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "filterAndFindFirst",
+        "signature" : "()Ljava/util/Optional<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#toArrayCollection_Usernames#()[Ljava/lang/Object;" : [ {
+      "lineNumbers" : [ 103, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserA\"",
+          "id" : "2c73c858-5106-4416-9d54-f933280e5a5e",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserB\"",
+          "id" : "1e3b50a9-e97c-484c-a0f7-56c183daf109",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserC\"",
+          "id" : "4e8f6405-8174-4f2f-9818-d2be5796c892",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserD\"",
+          "id" : "925bd98d-b83f-4a8f-a1b6-6103a3cc2270",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserE\"",
+          "id" : "f792bee2-7add-4def-978c-cdeaee7f1371",
+          "assertionType" : "EQUAL",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserF\"",
+          "id" : "22660822-ec0a-44c4-a111-d9cb57d1f4ed",
+          "assertionType" : "EQUAL",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"UserG\"",
+          "id" : "2fb7cd0d-d9fd-423c-9dc2-6fa275339468",
+          "assertionType" : "EQUAL",
+          "key" : "/6"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "85f3be38-a7dd-48d3-8ca3-03742a74a401",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "8b3c655c-80d0-4f7c-b0f8-de8373f9b7fa",
+      "name" : "StreamOpsController.toArrayCollection_Usernames - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"UserA\",\"UserB\",\"UserC\",\"UserD\",\"UserE\",\"UserF\",\"UserG\"]",
+      "returnValueClassname" : "java.lang.Object[]",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23081532939319,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1826117435,
+      "probSerializedValue" : "WyJVc2VyQSIsIlVzZXJCIiwiVXNlckMiLCJVc2VyRCIsIlVzZXJFIiwiVXNlckYiLCJVc2VyRyJd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "toArrayCollection_Usernames",
+        "signature" : "()[Ljava/lang/Object;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#flatmap_maxId#()Ljava/util/Optional<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 107, 108, 109, 110 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "9903",
+          "id" : "387bc18a-79af-4577-9dec-cfd92e420fe2",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"arb\"",
+          "id" : "d56d5776-c34c-4071-9f9b-12eb8e5d1d26",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"YK04\"",
+          "id" : "7bc59156-c4bb-459d-ac00-52703b13308c",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"SHA@gmail.com\"",
+          "id" : "d97c4f2c-c8b2-4228-865a-0bd78c1d8ae6",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "9d2f7867-858c-4521-be59-6a4c6505ad92",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "2afc4f47-32d7-494d-977e-912b6e836806",
+      "name" : "StreamOpsController.flatmap_maxId - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":9903,\"username\":\"arb\",\"password\":\"YK04\",\"email\":\"SHA@gmail.com\"}",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23101150592750,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2091262653,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjo5OTAzLCJ1c2VybmFtZSI6ImFyYiIsInBhc3N3b3JkIjoiWUswNCIsImVtYWlsIjoiU0hBQGdtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "flatmap_maxId",
+        "signature" : "()Ljava/util/Optional<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#flatmap_minId#()Ljava/util/Optional<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 114, 115, 116, 117 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "4e9aa478-99d3-4bb9-a864-3ef818cab85e",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User1\"",
+          "id" : "1578a07e-ddbc-4297-bbbe-d7357477c553",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User1pass\"",
+          "id" : "75baa94a-66a4-441d-9bcb-4e8a08a7b3bd",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User1@gmail.com\"",
+          "id" : "643b6efd-985c-485d-a400-e539cadbff14",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "d03ab1c0-9484-4d8c-aefc-d29779329702",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "def30a97-656b-4a2c-87a1-8a464a62af0d",
+      "name" : "StreamOpsController.flatmap_minId - normal4",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"User1\",\"password\":\"User1pass\",\"email\":\"User1@gmail.com\"}",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23117947527821,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -910660639,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlVzZXIxIiwicGFzc3dvcmQiOiJVc2VyMXBhc3MiLCJlbWFpbCI6IlVzZXIxQGdtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "flatmap_minId",
+        "signature" : "()Ljava/util/Optional<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#peek_all#()Ljava/util/List<Ljava/util/List;><Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 121, 122, 130 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "63008b6d-b706-42c9-8a73-2268917093b6",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1#\"",
+              "id" : "e13074bf-1c2a-4e34-9588-c57e0f134390",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"user1pass_1397\"",
+              "id" : "228ffc08-f6a3-40ab-9d64-20669c37ba11",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"user1pass_1397\"",
+              "id" : "bc0781a0-ed3e-4c14-b4b5-e251e12e9325",
+              "assertionType" : "EQUAL",
+              "key" : "/0/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "cc145c63-161b-4395-937e-7847d2465d02",
+            "assertionType" : "ALLOF",
+            "key" : "/0/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "b28f1f4c-a1c7-4689-a0f0-4ae2a6cc1882",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2#\"",
+              "id" : "64f9a6f4-6ffc-4a00-aa59-38b3608351ac",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"user2pass_1397\"",
+              "id" : "63c65416-5d18-4bc6-a05a-39caed831a66",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"user2pass_1397\"",
+              "id" : "cdcecb75-30f4-46ef-8447-6a02754d45ad",
+              "assertionType" : "EQUAL",
+              "key" : "/0/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "5c63eb7a-3bce-46a1-bbb7-35d2a5a9a0e3",
+            "assertionType" : "ALLOF",
+            "key" : "/0/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3",
+              "id" : "e663d8fd-344a-4ea1-bdf4-371d9e709ffc",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3#\"",
+              "id" : "41654141-c05f-494f-bff0-4f1423755753",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"user3pass_1397\"",
+              "id" : "9aa4e452-b0a2-4253-8ff1-8b00f9bbfb14",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"user3pass_1397\"",
+              "id" : "c4ef2297-e903-43fd-a7c2-dddd592a2002",
+              "assertionType" : "EQUAL",
+              "key" : "/0/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "4718f9cb-20e1-41e3-966a-f0a9b23caa69",
+            "assertionType" : "ALLOF",
+            "key" : "/0/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "a4323714-76c7-45b0-9155-6a40bb017218",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "401",
+              "id" : "8f439714-dc18-4d5c-955d-4209620c38ae",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"CLP#\"",
+              "id" : "0438d71b-f8a6-43c1-8a18-68aeafbc5bde",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"c401_1397\"",
+              "id" : "1de1ae2d-0b05-4018-9dab-b5d1916b7907",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"c401_1397\"",
+              "id" : "f6543a98-cdc8-4a14-ab81-03a89c48b0d6",
+              "assertionType" : "EQUAL",
+              "key" : "/1/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "2554adc2-6378-4e50-8075-ad3b0cf219b3",
+            "assertionType" : "ALLOF",
+            "key" : "/1/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "402",
+              "id" : "422a06db-578a-4519-aee8-a308218b4844",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"TRP#\"",
+              "id" : "9a880428-3c90-453a-b319-560b3dc87969",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"t402_1397\"",
+              "id" : "4c54a5a3-bb31-4411-8868-5c4f1c525d38",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"t402_1397\"",
+              "id" : "515c2cb8-e144-467b-97f6-14363485eb74",
+              "assertionType" : "EQUAL",
+              "key" : "/1/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "fc93d6ac-36f3-4c4d-9d08-28cc7593a891",
+            "assertionType" : "ALLOF",
+            "key" : "/1/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "403",
+              "id" : "812faa1c-4d3d-4d66-8545-b2898b4283f6",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DED#\"",
+              "id" : "4868002a-7c7a-4f4e-aba9-7583ed47ba51",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"d403_1397\"",
+              "id" : "e91303e1-121a-4be0-b2fe-4ba56c2bcf8d",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"d403_1397\"",
+              "id" : "03ccf44f-f42d-4e56-9468-023422a65802",
+              "assertionType" : "EQUAL",
+              "key" : "/1/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "f2f666e2-e0a6-46ae-9132-17c2b33caa51",
+            "assertionType" : "ALLOF",
+            "key" : "/1/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "bfb0596f-40e8-4e0f-a9a2-cc4350445f55",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9901",
+              "id" : "fc377880-ecd4-4c4a-8c44-d8609aa687c0",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"lck#\"",
+              "id" : "5769bf4e-f63f-4935-8c8f-aa88ff351973",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"s???_1397\"",
+              "id" : "9e72a18f-1f23-4257-b58e-4e702f750a89",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"s???_1397\"",
+              "id" : "d4118fb5-2af5-4bdd-8124-40dff391c22c",
+              "assertionType" : "EQUAL",
+              "key" : "/2/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "d8327fb2-8258-4220-b3dc-ae931be03e78",
+            "assertionType" : "ALLOF",
+            "key" : "/2/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9902",
+              "id" : "ded513e3-bf2c-499d-8aed-3ebbd3f40f5c",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"msc#\"",
+              "id" : "88abe8a2-1da2-46a2-ad3f-2cb5a23bd9fe",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"s117_1397\"",
+              "id" : "85dfc450-e90a-4eb4-9043-87190268083f",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"s117_1397\"",
+              "id" : "e750fd38-f715-4878-b114-77d0e3c06783",
+              "assertionType" : "EQUAL",
+              "key" : "/2/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "695c2ac5-8e9e-4a12-97ab-7393152dc234",
+            "assertionType" : "ALLOF",
+            "key" : "/2/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9903",
+              "id" : "29b70e47-ed7c-4d21-abf8-2e78410e88c7",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"arb#\"",
+              "id" : "13ede7e3-e061-4849-8d28-74a9d85c6de9",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"yk04_1397\"",
+              "id" : "08919a9b-13df-4c98-a6b6-f1f37a2ba286",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"yk04_1397\"",
+              "id" : "68d584fc-4a8a-43f9-8e6b-ddf4492aac25",
+              "assertionType" : "EQUAL",
+              "key" : "/2/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "f22023eb-6cda-4549-ab05-ec4a2780bb33",
+            "assertionType" : "ALLOF",
+            "key" : "/2/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "fc69631c-359b-4f7d-8052-aa799bb0838d",
+          "assertionType" : "ALLOF",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "06c7ce63-fae6-41eb-a0a7-4db065453b5d",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "bf98abd6-7a5c-4b52-a099-b2502959b26b",
+      "name" : "StreamOpsController.peek_all - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[[{\"user_id\":1,\"username\":\"User1#\",\"password\":\"user1pass_1397\",\"email\":\"user1pass_1397\"},{\"user_id\":2,\"username\":\"User2#\",\"password\":\"user2pass_1397\",\"email\":\"user2pass_1397\"},{\"user_id\":3,\"username\":\"User3#\",\"password\":\"user3pass_1397\",\"email\":\"user3pass_1397\"}],[{\"user_id\":401,\"username\":\"CLP#\",\"password\":\"c401_1397\",\"email\":\"c401_1397\"},{\"user_id\":402,\"username\":\"TRP#\",\"password\":\"t402_1397\",\"email\":\"t402_1397\"},{\"user_id\":403,\"username\":\"DED#\",\"password\":\"d403_1397\",\"email\":\"d403_1397\"}],[{\"user_id\":9901,\"username\":\"lck#\",\"password\":\"s???_1397\",\"email\":\"s???_1397\"},{\"user_id\":9902,\"username\":\"msc#\",\"password\":\"s117_1397\",\"email\":\"s117_1397\"},{\"user_id\":9903,\"username\":\"arb#\",\"password\":\"yk04_1397\",\"email\":\"yk04_1397\"}]]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23135517474255,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1777187944,
+      "probSerializedValue" : "W1t7InVzZXJfaWQiOjEsInVzZXJuYW1lIjoiVXNlcjEjIiwicGFzc3dvcmQiOiJ1c2VyMXBhc3NfMTM5NyIsImVtYWlsIjoidXNlcjFwYXNzXzEzOTcifSx7InVzZXJfaWQiOjIsInVzZXJuYW1lIjoiVXNlcjIjIiwicGFzc3dvcmQiOiJ1c2VyMnBhc3NfMTM5NyIsImVtYWlsIjoidXNlcjJwYXNzXzEzOTcifSx7InVzZXJfaWQiOjMsInVzZXJuYW1lIjoiVXNlcjMjIiwicGFzc3dvcmQiOiJ1c2VyM3Bhc3NfMTM5NyIsImVtYWlsIjoidXNlcjNwYXNzXzEzOTcifV0sW3sidXNlcl9pZCI6NDAxLCJ1c2VybmFtZSI6IkNMUCMiLCJwYXNzd29yZCI6ImM0MDFfMTM5NyIsImVtYWlsIjoiYzQwMV8xMzk3In0seyJ1c2VyX2lkIjo0MDIsInVzZXJuYW1lIjoiVFJQIyIsInBhc3N3b3JkIjoidDQwMl8xMzk3IiwiZW1haWwiOiJ0NDAyXzEzOTcifSx7InVzZXJfaWQiOjQwMywidXNlcm5hbWUiOiJERUQjIiwicGFzc3dvcmQiOiJkNDAzXzEzOTciLCJlbWFpbCI6ImQ0MDNfMTM5NyJ9XSxbeyJ1c2VyX2lkIjo5OTAxLCJ1c2VybmFtZSI6ImxjayMiLCJwYXNzd29yZCI6InM/Pz9fMTM5NyIsImVtYWlsIjoicz8/P18xMzk3In0seyJ1c2VyX2lkIjo5OTAyLCJ1c2VybmFtZSI6Im1zYyMiLCJwYXNzd29yZCI6InMxMTdfMTM5NyIsImVtYWlsIjoiczExN18xMzk3In0seyJ1c2VyX2lkIjo5OTAzLCJ1c2VybmFtZSI6ImFyYiMiLCJwYXNzd29yZCI6InlrMDRfMTM5NyIsImVtYWlsIjoieWswNF8xMzk3In1dXQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "peek_all",
+        "signature" : "()Ljava/util/List<Ljava/util/List;><Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#countUsersInGroups#()J" : [ {
+      "lineNumbers" : [ 134 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "9",
+          "id" : "6d0e1965-1c72-4b02-886a-85e3f527f3cc",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7b597efd-4e7c-4e2f-b367-c3b1e0413bdc",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "157a86e9-8972-410f-9657-5e9793a46028",
+      "name" : "StreamOpsController.countUsersInGroups - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "9",
+      "returnValueClassname" : "J",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23149535565589,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1664428959,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "countUsersInGroups",
+        "signature" : "()J",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#limitUsers#(I)Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 138 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "c24aa238-c406-4e06-ad2b-83353c64ebc0",
+            "assertionType" : "EQUAL",
+            "key" : "/0/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User1\"",
+            "id" : "7e60b556-0566-4158-b371-f49a70692782",
+            "assertionType" : "EQUAL",
+            "key" : "/0/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User1pass\"",
+            "id" : "849b75bc-15ef-442d-8b7d-44a8de4cf9e1",
+            "assertionType" : "EQUAL",
+            "key" : "/0/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User1@gmail.com\"",
+            "id" : "d969705a-1dd6-4016-b12c-bf4b481ed807",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "3c0b58fc-a322-42e6-9aba-8b1d38aff9e0",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "2",
+            "id" : "06dca1f0-63a4-496f-8fda-a8cab76fb470",
+            "assertionType" : "EQUAL",
+            "key" : "/1/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User2\"",
+            "id" : "ddeb760c-1832-4967-b27e-001b9881cdd8",
+            "assertionType" : "EQUAL",
+            "key" : "/1/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User2pass\"",
+            "id" : "5d415a15-94b7-4175-9b4f-5317d4f53cbc",
+            "assertionType" : "EQUAL",
+            "key" : "/1/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User2@gmail.com\"",
+            "id" : "05100052-69ff-4d40-bf01-699c17785d81",
+            "assertionType" : "EQUAL",
+            "key" : "/1/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "d3ca45dd-77a1-4b2e-8af6-90d4a463cd7e",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "3",
+            "id" : "f5459eda-df03-45f7-9e87-e31af22bc5c0",
+            "assertionType" : "EQUAL",
+            "key" : "/2/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User3\"",
+            "id" : "b5a2a8e5-c70f-492a-abdc-67a65a9ef2e7",
+            "assertionType" : "EQUAL",
+            "key" : "/2/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User3pass\"",
+            "id" : "35e5df34-4d73-423f-8417-015568d02029",
+            "assertionType" : "EQUAL",
+            "key" : "/2/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"User3@gmail.com\"",
+            "id" : "db1cdcd1-25db-4d9c-a6c6-8638e7be3972",
+            "assertionType" : "EQUAL",
+            "key" : "/2/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "9db7e1d1-d029-48b8-b06c-d28402120bf6",
+          "assertionType" : "ALLOF",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "401",
+            "id" : "b565bac9-793a-47e5-a473-ed5271227acd",
+            "assertionType" : "EQUAL",
+            "key" : "/3/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"CLP\"",
+            "id" : "b42bb62e-de7c-4baf-84f5-85fef338a9a1",
+            "assertionType" : "EQUAL",
+            "key" : "/3/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"C401\"",
+            "id" : "3426c6f7-5d12-4ccd-8c39-83aa25428bb9",
+            "assertionType" : "EQUAL",
+            "key" : "/3/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"CLP401@gmail.com\"",
+            "id" : "833f988c-42ce-442e-8851-c12564a0efd6",
+            "assertionType" : "EQUAL",
+            "key" : "/3/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7904178b-ceea-4e3f-97aa-fccb331bd872",
+          "assertionType" : "ALLOF",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "402",
+            "id" : "ab077469-aac2-4f24-a73e-f65e5d77ca4f",
+            "assertionType" : "EQUAL",
+            "key" : "/4/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"TRP\"",
+            "id" : "e81940b6-0695-4a85-9818-2edbbb63a62e",
+            "assertionType" : "EQUAL",
+            "key" : "/4/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"T402\"",
+            "id" : "20884041-12df-4750-9e1e-7ac29d0cf60b",
+            "assertionType" : "EQUAL",
+            "key" : "/4/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"TRP402@gmail.com\"",
+            "id" : "0f9d1e2c-c51e-44a8-b98b-b39e303129bc",
+            "assertionType" : "EQUAL",
+            "key" : "/4/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "730d2998-d121-42a6-b32d-05ac028cd944",
+          "assertionType" : "ALLOF",
+          "key" : "/4"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "403",
+            "id" : "977b9212-c18e-4bad-8aef-d1bddedcb132",
+            "assertionType" : "EQUAL",
+            "key" : "/5/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"DED\"",
+            "id" : "95f245a7-0ee6-4996-a22f-b9f5daa01341",
+            "assertionType" : "EQUAL",
+            "key" : "/5/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"D403\"",
+            "id" : "52e17c40-3214-4e03-a37e-286201119230",
+            "assertionType" : "EQUAL",
+            "key" : "/5/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"DED403@gmail.com\"",
+            "id" : "ba0d52b5-5b93-4938-bfce-294b0e2143ea",
+            "assertionType" : "EQUAL",
+            "key" : "/5/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "e24ee168-6bd4-4b5f-8507-a58648ea1c93",
+          "assertionType" : "ALLOF",
+          "key" : "/5"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "9901",
+            "id" : "eb75eefc-6382-462c-a947-3e6784089ff1",
+            "assertionType" : "EQUAL",
+            "key" : "/6/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"lck\"",
+            "id" : "a6a6e1b8-aed3-4704-a021-959c342c3aa8",
+            "assertionType" : "EQUAL",
+            "key" : "/6/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"S???\"",
+            "id" : "70d2b316-d26b-4a45-adb2-477a7220da8c",
+            "assertionType" : "EQUAL",
+            "key" : "/6/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"SL?@gmail.com\"",
+            "id" : "1db664e9-dd17-440f-92ea-19682e8b20b3",
+            "assertionType" : "EQUAL",
+            "key" : "/6/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c6f07228-bdce-4f6e-92f7-2011b0464dc6",
+          "assertionType" : "ALLOF",
+          "key" : "/6"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "9902",
+            "id" : "062562ce-7930-460b-9380-37ae3eec34ea",
+            "assertionType" : "EQUAL",
+            "key" : "/7/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"msc\"",
+            "id" : "dc91a5ca-6ee8-4ba5-bc19-979ed1bf442b",
+            "assertionType" : "EQUAL",
+            "key" : "/7/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"S117\"",
+            "id" : "c7e77244-4e1f-417a-a8d0-10d7118a8b1b",
+            "assertionType" : "EQUAL",
+            "key" : "/7/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"S117@gmail.com\"",
+            "id" : "ee238dd0-9172-4859-bcb2-f5336a97022b",
+            "assertionType" : "EQUAL",
+            "key" : "/7/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "e4c88589-02f9-4ce1-a969-8f5074b71443",
+          "assertionType" : "ALLOF",
+          "key" : "/7"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "9903",
+            "id" : "f3d0e1bc-bee7-4f25-8f26-6f2ab38a90a4",
+            "assertionType" : "EQUAL",
+            "key" : "/8/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"arb\"",
+            "id" : "5e005307-d088-4da8-8340-995493840e46",
+            "assertionType" : "EQUAL",
+            "key" : "/8/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"YK04\"",
+            "id" : "3fafc70c-ff6d-46db-8c95-5161bf018234",
+            "assertionType" : "EQUAL",
+            "key" : "/8/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"SHA@gmail.com\"",
+            "id" : "d6bf1ace-214f-4034-9b57-6f9f86ca1cb9",
+            "assertionType" : "EQUAL",
+            "key" : "/8/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c8cbb425-679f-46f3-9d31-8470bd5c2e0f",
+          "assertionType" : "ALLOF",
+          "key" : "/8"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "e09b47bb-1bad-41ec-89b1-c7b4b0ac46f8",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "c53d1e62-496e-404e-b5b5-d480fc497674",
+      "name" : "StreamOpsController.limitUsers - normal",
+      "description" : null,
+      "methodArguments" : [ "10" ],
+      "returnValue" : "[{\"user_id\":1,\"username\":\"User1\",\"password\":\"User1pass\",\"email\":\"User1@gmail.com\"},{\"user_id\":2,\"username\":\"User2\",\"password\":\"User2pass\",\"email\":\"User2@gmail.com\"},{\"user_id\":3,\"username\":\"User3\",\"password\":\"User3pass\",\"email\":\"User3@gmail.com\"},{\"user_id\":401,\"username\":\"CLP\",\"password\":\"C401\",\"email\":\"CLP401@gmail.com\"},{\"user_id\":402,\"username\":\"TRP\",\"password\":\"T402\",\"email\":\"TRP402@gmail.com\"},{\"user_id\":403,\"username\":\"DED\",\"password\":\"D403\",\"email\":\"DED403@gmail.com\"},{\"user_id\":9901,\"username\":\"lck\",\"password\":\"S???\",\"email\":\"SL?@gmail.com\"},{\"user_id\":9902,\"username\":\"msc\",\"password\":\"S117\",\"email\":\"S117@gmail.com\"},{\"user_id\":9903,\"username\":\"arb\",\"password\":\"YK04\",\"email\":\"SHA@gmail.com\"}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23206981620601,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1058546661,
+      "probSerializedValue" : "W3sidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJVc2VyMSIsInBhc3N3b3JkIjoiVXNlcjFwYXNzIiwiZW1haWwiOiJVc2VyMUBnbWFpbC5jb20ifSx7InVzZXJfaWQiOjIsInVzZXJuYW1lIjoiVXNlcjIiLCJwYXNzd29yZCI6IlVzZXIycGFzcyIsImVtYWlsIjoiVXNlcjJAZ21haWwuY29tIn0seyJ1c2VyX2lkIjozLCJ1c2VybmFtZSI6IlVzZXIzIiwicGFzc3dvcmQiOiJVc2VyM3Bhc3MiLCJlbWFpbCI6IlVzZXIzQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NDAxLCJ1c2VybmFtZSI6IkNMUCIsInBhc3N3b3JkIjoiQzQwMSIsImVtYWlsIjoiQ0xQNDAxQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NDAyLCJ1c2VybmFtZSI6IlRSUCIsInBhc3N3b3JkIjoiVDQwMiIsImVtYWlsIjoiVFJQNDAyQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6NDAzLCJ1c2VybmFtZSI6IkRFRCIsInBhc3N3b3JkIjoiRDQwMyIsImVtYWlsIjoiREVENDAzQGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6OTkwMSwidXNlcm5hbWUiOiJsY2siLCJwYXNzd29yZCI6IlM/Pz8iLCJlbWFpbCI6IlNMP0BnbWFpbC5jb20ifSx7InVzZXJfaWQiOjk5MDIsInVzZXJuYW1lIjoibXNjIiwicGFzc3dvcmQiOiJTMTE3IiwiZW1haWwiOiJTMTE3QGdtYWlsLmNvbSJ9LHsidXNlcl9pZCI6OTkwMywidXNlcm5hbWUiOiJhcmIiLCJwYXNzd29yZCI6IllLMDQiLCJlbWFpbCI6IlNIQUBnbWFpbC5jb20ifV0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "limitUsers",
+        "signature" : "(I)Ljava/util/List<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#distinctUsage#()Ljava/util/List<Ljava/lang/Integer;>;" : [ {
+      "lineNumbers" : [ 142, 143 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2",
+          "id" : "66641fbf-6b06-4991-a072-6fcaaf6c180f",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "5",
+          "id" : "ab366a12-a202-4243-9b15-89a220400504",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "3",
+          "id" : "29eb3e9f-57ac-4fba-b269-aebf6c931059",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4",
+          "id" : "17041800-7b11-4908-b886-2fe60415f3b0",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ab3ff880-e41a-4242-ace1-e0f1bec3af9a",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "b4f795f2-a122-4a18-8850-5a9a386e3931",
+      "name" : "StreamOpsController.distinctUsage - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[2,5,3,4]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23237603537687,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1445568762,
+      "probSerializedValue" : "WzIsNSwzLDRd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "distinctUsage",
+        "signature" : "()Ljava/util/List<Ljava/lang/Integer;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#matchCases#()Ljava/util/Map<Ljava/lang/String;,Ljava/lang/Boolean;>;" : [ {
+      "lineNumbers" : [ 147, 148, 149, 150, 152, 153, 154, 156 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "3babd329-c7e7-4769-ae16-63664144683d",
+          "assertionType" : "EQUAL",
+          "key" : "/all-false"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1b3ffd6e-1d5f-4aaa-9ebe-24da088c01ad",
+          "assertionType" : "EQUAL",
+          "key" : "/all-true"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "f5e59528-a51b-4e28-ae78-568ae2dbaee8",
+          "assertionType" : "EQUAL",
+          "key" : "/any-false"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "2b6f1588-9aa8-44c2-8ee3-d3ef3d17a762",
+          "assertionType" : "EQUAL",
+          "key" : "/any-true"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "false",
+          "id" : "db798a6e-c1c7-4564-97ce-569c0972d97f",
+          "assertionType" : "EQUAL",
+          "key" : "/none-false"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "5e24fea9-62d0-4e6c-987b-3575ea3721e4",
+          "assertionType" : "EQUAL",
+          "key" : "/none-true"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "c405b359-bb87-43d1-9e5d-1b8ae811f597",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "9efc0db6-a405-4a6b-bd2c-98991e18cd12",
+      "name" : "StreamOpsController.matchCases - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"all-false\":false,\"all-true\":true,\"any-false\":false,\"any-true\":true,\"none-false\":false,\"none-true\":true}",
+      "returnValueClassname" : "java.util.Map",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23251862163543,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1160388964,
+      "probSerializedValue" : "eyJhbGwtZmFsc2UiOmZhbHNlLCJhbGwtdHJ1ZSI6dHJ1ZSwiYW55LWZhbHNlIjpmYWxzZSwiYW55LXRydWUiOnRydWUsIm5vbmUtZmFsc2UiOmZhbHNlLCJub25lLXRydWUiOnRydWV9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "matchCases",
+        "signature" : "()Ljava/util/Map<Ljava/lang/String;,Ljava/lang/Boolean;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#reduceUsage#()Ljava/lang/Long;" : [ {
+      "lineNumbers" : [ 160, 161, 162 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "30918",
+          "id" : "b50ad1ff-be21-4b5f-8089-ff91443b7a67",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2f4e61b8-c5b1-41a3-851f-9a5812ce7bd9",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "b1c07d0e-5743-463e-8aa3-9cd3596bc2c6",
+      "name" : "StreamOpsController.reduceUsage - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "30918",
+      "returnValueClassname" : "java.lang.Long",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23279436321939,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1650816094,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "reduceUsage",
+        "signature" : "()Ljava/lang/Long;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#getSortedIdOrder#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 166, 167, 170, 171, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"11 < 14 < 23 < 24 < 59 < 64 < 80\"",
+          "id" : "947550b0-fc44-4dfd-9a35-2b7150534434",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1e87381e-9342-40ae-95e7-cb9e3788d1a3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "95d93fe7-61eb-4749-a490-7745ad54b1df",
+      "name" : "StreamOpsController.getSortedIdOrder - normal missing symbols",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"11 < 14 < 23 < 24 < 59 < 64 < 80\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23300110974760,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1841280798,
+      "probSerializedValue" : "IjExIDwgMTQgPCAyMyA8IDI0IDwgNTkgPCA2NCA8IDgwIg==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getSortedIdOrder",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.StreamOpsController#groupBy#()Ljava/util/Map<Ljava/lang/Character;,Ljava/util/List;><Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 180, 181 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9903",
+              "id" : "0f7e330b-d268-4fce-8ff5-e6fbfa573ffb",
+              "assertionType" : "EQUAL",
+              "key" : "/a/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"arb\"",
+              "id" : "800a1661-b157-4c3f-8f3c-4aff48518c04",
+              "assertionType" : "EQUAL",
+              "key" : "/a/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"YK04\"",
+              "id" : "d2b0ed35-8930-4ac2-8e66-30152bac20a4",
+              "assertionType" : "EQUAL",
+              "key" : "/a/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"SHA@gmail.com\"",
+              "id" : "c4edf347-ff24-4b5f-b5b3-8877e21ebafe",
+              "assertionType" : "EQUAL",
+              "key" : "/a/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "14e1b957-c4e0-4183-be71-7bf1938a9078",
+            "assertionType" : "ALLOF",
+            "key" : "/a/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7a8356ae-c9a9-4181-9149-928ec5616a22",
+          "assertionType" : "ALLOF",
+          "key" : "/a"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "401",
+              "id" : "83f29ee2-3908-4e11-ba3a-2cbfdfaf8655",
+              "assertionType" : "EQUAL",
+              "key" : "/c/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"CLP\"",
+              "id" : "bd11ac63-0c49-43dc-a039-78bdad37393b",
+              "assertionType" : "EQUAL",
+              "key" : "/c/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"C401\"",
+              "id" : "6596c46f-96b9-4f8a-9258-fc5da4d06e4f",
+              "assertionType" : "EQUAL",
+              "key" : "/c/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"CLP401@gmail.com\"",
+              "id" : "718d5118-3db5-4120-9d61-e4654e526b91",
+              "assertionType" : "EQUAL",
+              "key" : "/c/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "c8c492fd-d971-480d-9984-66bbf9d875d9",
+            "assertionType" : "ALLOF",
+            "key" : "/c/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "ca20cad5-5315-48c0-bdfb-0352cf278a3a",
+          "assertionType" : "ALLOF",
+          "key" : "/c"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "403",
+              "id" : "03da5dee-c93e-45e3-857b-799c0037f294",
+              "assertionType" : "EQUAL",
+              "key" : "/d/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DED\"",
+              "id" : "d70ba65c-7da6-460f-8f31-000e9a049406",
+              "assertionType" : "EQUAL",
+              "key" : "/d/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"D403\"",
+              "id" : "c59c17cc-1e8d-4c18-87eb-cb2241aafaaa",
+              "assertionType" : "EQUAL",
+              "key" : "/d/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DED403@gmail.com\"",
+              "id" : "dd5cc7d3-12d6-4051-b7b6-cacda0c422df",
+              "assertionType" : "EQUAL",
+              "key" : "/d/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "8448461f-78f6-485f-be9b-45a6f751026c",
+            "assertionType" : "ALLOF",
+            "key" : "/d/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "4b7d34b0-9174-4da0-8212-21d5741a5697",
+          "assertionType" : "ALLOF",
+          "key" : "/d"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "402",
+              "id" : "d78a5818-9a73-43a8-873b-3547b94869ea",
+              "assertionType" : "EQUAL",
+              "key" : "/t/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"TRP\"",
+              "id" : "8a87c556-c539-4b90-b97f-2a551d0fe2c2",
+              "assertionType" : "EQUAL",
+              "key" : "/t/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"T402\"",
+              "id" : "749d4892-1ef6-4b27-b943-0379cba5421b",
+              "assertionType" : "EQUAL",
+              "key" : "/t/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"TRP402@gmail.com\"",
+              "id" : "afe3551b-2be3-49cf-9fe8-77e668fb85d2",
+              "assertionType" : "EQUAL",
+              "key" : "/t/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "bd135d70-9659-4c8c-938f-72f45086d255",
+            "assertionType" : "ALLOF",
+            "key" : "/t/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "a770a907-5031-4cbb-8c67-8a29eda1a60e",
+          "assertionType" : "ALLOF",
+          "key" : "/t"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "dd9a5529-b59c-4abb-a8a2-e8c98c2b4ac4",
+              "assertionType" : "EQUAL",
+              "key" : "/u/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1\"",
+              "id" : "0a1cf9a7-4d09-49c5-88bf-df676d86d066",
+              "assertionType" : "EQUAL",
+              "key" : "/u/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1pass\"",
+              "id" : "2ec3a0a9-a3da-416f-adc3-c7706e4b59f2",
+              "assertionType" : "EQUAL",
+              "key" : "/u/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User1@gmail.com\"",
+              "id" : "438af25e-d9c7-45e7-ba01-fe956bffcba9",
+              "assertionType" : "EQUAL",
+              "key" : "/u/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "9a5eab5b-33e5-4e13-aa6f-ab1c9fa7a3b6",
+            "assertionType" : "ALLOF",
+            "key" : "/u/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "35d83926-b3a4-424e-9e80-333e84c18fd0",
+              "assertionType" : "EQUAL",
+              "key" : "/u/1/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2\"",
+              "id" : "afc39fa5-de50-42b1-9f9b-dcdfc5722a50",
+              "assertionType" : "EQUAL",
+              "key" : "/u/1/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2pass\"",
+              "id" : "e265bf5d-7c1b-495e-b01c-d8e29574543a",
+              "assertionType" : "EQUAL",
+              "key" : "/u/1/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User2@gmail.com\"",
+              "id" : "c633ad75-252a-4f8f-a402-b1c6f1aa2bcc",
+              "assertionType" : "EQUAL",
+              "key" : "/u/1/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "8fb25b83-49c6-495a-9d73-c9914a2748e9",
+            "assertionType" : "ALLOF",
+            "key" : "/u/1"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3",
+              "id" : "a2695abd-d84e-4e84-8824-5bd6c1aa3188",
+              "assertionType" : "EQUAL",
+              "key" : "/u/2/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3\"",
+              "id" : "2ef3f3ed-3065-4b7b-9f93-81f5b089deec",
+              "assertionType" : "EQUAL",
+              "key" : "/u/2/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3pass\"",
+              "id" : "42f58f52-c1da-4912-a4cf-f8189ed28317",
+              "assertionType" : "EQUAL",
+              "key" : "/u/2/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"User3@gmail.com\"",
+              "id" : "a27cd5b0-c4ac-4141-a4db-901df70e5f68",
+              "assertionType" : "EQUAL",
+              "key" : "/u/2/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "764ea3cd-e90f-4d44-b128-f5def9905718",
+            "assertionType" : "ALLOF",
+            "key" : "/u/2"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "59a89265-7d8b-4fe4-9357-335417e29471",
+          "assertionType" : "ALLOF",
+          "key" : "/u"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9901",
+              "id" : "4b20e571-1308-45ce-8c01-23465be05e9e",
+              "assertionType" : "EQUAL",
+              "key" : "/l/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"lck\"",
+              "id" : "fe96436c-b2c2-47b0-8991-77c74cc33276",
+              "assertionType" : "EQUAL",
+              "key" : "/l/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"S???\"",
+              "id" : "652e3b46-f31e-43f7-a92f-25a58b1750a8",
+              "assertionType" : "EQUAL",
+              "key" : "/l/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"SL?@gmail.com\"",
+              "id" : "b4852d47-ff92-439b-8d3a-c73e457acbbc",
+              "assertionType" : "EQUAL",
+              "key" : "/l/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "e2fcc960-21fb-48a5-b9f6-45bceb3b34db",
+            "assertionType" : "ALLOF",
+            "key" : "/l/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "89abd3da-5853-4c1b-8df1-4864397bbdec",
+          "assertionType" : "ALLOF",
+          "key" : "/l"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "9902",
+              "id" : "84ce694a-59f2-4705-a4e2-19865c370773",
+              "assertionType" : "EQUAL",
+              "key" : "/m/0/user_id"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"msc\"",
+              "id" : "3149270c-53d6-4427-891d-cb38d3e0b27d",
+              "assertionType" : "EQUAL",
+              "key" : "/m/0/username"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"S117\"",
+              "id" : "9967f9c4-4acb-4bd4-a9e5-8581693af69c",
+              "assertionType" : "EQUAL",
+              "key" : "/m/0/password"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"S117@gmail.com\"",
+              "id" : "94531221-d709-4c37-9e24-e08d808a0155",
+              "assertionType" : "EQUAL",
+              "key" : "/m/0/email"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "d8298bc0-add2-4b35-be0f-1bb988e1d8a3",
+            "assertionType" : "ALLOF",
+            "key" : "/m/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f4a535f6-5be9-40c8-963b-f97dad820665",
+          "assertionType" : "ALLOF",
+          "key" : "/m"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "6f6eaddc-06ac-4648-9856-008e74da5f08",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "4090a4da-629d-4030-b8c4-b25c50d0ff17",
+      "name" : "StreamOpsController.groupBy - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"a\":[{\"user_id\":9903,\"username\":\"arb\",\"password\":\"YK04\",\"email\":\"SHA@gmail.com\"}],\"c\":[{\"user_id\":401,\"username\":\"CLP\",\"password\":\"C401\",\"email\":\"CLP401@gmail.com\"}],\"d\":[{\"user_id\":403,\"username\":\"DED\",\"password\":\"D403\",\"email\":\"DED403@gmail.com\"}],\"t\":[{\"user_id\":402,\"username\":\"TRP\",\"password\":\"T402\",\"email\":\"TRP402@gmail.com\"}],\"u\":[{\"user_id\":1,\"username\":\"User1\",\"password\":\"User1pass\",\"email\":\"User1@gmail.com\"},{\"user_id\":2,\"username\":\"User2\",\"password\":\"User2pass\",\"email\":\"User2@gmail.com\"},{\"user_id\":3,\"username\":\"User3\",\"password\":\"User3pass\",\"email\":\"User3@gmail.com\"}],\"l\":[{\"user_id\":9901,\"username\":\"lck\",\"password\":\"S???\",\"email\":\"SL?@gmail.com\"}],\"m\":[{\"user_id\":9902,\"username\":\"msc\",\"password\":\"S117\",\"email\":\"S117@gmail.com\"}]}",
+      "returnValueClassname" : "java.util.Map",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 23343586620362,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -880407950,
+      "probSerializedValue" : "eyJhIjpbeyJ1c2VyX2lkIjo5OTAzLCJ1c2VybmFtZSI6ImFyYiIsInBhc3N3b3JkIjoiWUswNCIsImVtYWlsIjoiU0hBQGdtYWlsLmNvbSJ9XSwiYyI6W3sidXNlcl9pZCI6NDAxLCJ1c2VybmFtZSI6IkNMUCIsInBhc3N3b3JkIjoiQzQwMSIsImVtYWlsIjoiQ0xQNDAxQGdtYWlsLmNvbSJ9XSwiZCI6W3sidXNlcl9pZCI6NDAzLCJ1c2VybmFtZSI6IkRFRCIsInBhc3N3b3JkIjoiRDQwMyIsImVtYWlsIjoiREVENDAzQGdtYWlsLmNvbSJ9XSwidCI6W3sidXNlcl9pZCI6NDAyLCJ1c2VybmFtZSI6IlRSUCIsInBhc3N3b3JkIjoiVDQwMiIsImVtYWlsIjoiVFJQNDAyQGdtYWlsLmNvbSJ9XSwidSI6W3sidXNlcl9pZCI6MSwidXNlcm5hbWUiOiJVc2VyMSIsInBhc3N3b3JkIjoiVXNlcjFwYXNzIiwiZW1haWwiOiJVc2VyMUBnbWFpbC5jb20ifSx7InVzZXJfaWQiOjIsInVzZXJuYW1lIjoiVXNlcjIiLCJwYXNzd29yZCI6IlVzZXIycGFzcyIsImVtYWlsIjoiVXNlcjJAZ21haWwuY29tIn0seyJ1c2VyX2lkIjozLCJ1c2VybmFtZSI6IlVzZXIzIiwicGFzc3dvcmQiOiJVc2VyM3Bhc3MiLCJlbWFpbCI6IlVzZXIzQGdtYWlsLmNvbSJ9XSwibCI6W3sidXNlcl9pZCI6OTkwMSwidXNlcm5hbWUiOiJsY2siLCJwYXNzd29yZCI6IlM/Pz8iLCJlbWFpbCI6IlNMP0BnbWFpbC5jb20ifV0sIm0iOlt7InVzZXJfaWQiOjk5MDIsInVzZXJuYW1lIjoibXNjIiwicGFzc3dvcmQiOiJTMTE3IiwiZW1haWwiOiJTMTE3QGdtYWlsLmNvbSJ9XX0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "groupBy",
+        "signature" : "()Ljava/util/Map<Ljava/lang/Character;,Ljava/util/List;><Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.StreamOpsController",
+        "methodHash" : 892512047
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
