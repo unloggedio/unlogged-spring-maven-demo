@@ -25,7 +25,7 @@ public class VarOpsController {
     @RequestMapping("/primitives")
     public List<Object> primitivesWrapped() {
         var integerValue = 1;
-        var longValue = 1l;
+        var longValue = 1L;
         var floatValue = 1.0f;
         var doubleValue = 1.0d;
         var charValue = 'a';
