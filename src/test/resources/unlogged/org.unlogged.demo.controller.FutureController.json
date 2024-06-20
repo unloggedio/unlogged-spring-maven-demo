@@ -2,37 +2,37 @@
   "classname" : "org.unlogged.demo.controller.FutureController",
   "storedCandidateMap" : {
     "org.unlogged.demo.controller.FutureController#getFutureResult#(Ljava/lang/String;)Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 16, 17, 12, 13, 14 ],
+      "lineNumbers" : [ 21, 22, 12, 13, 14 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"yolo\"",
-          "id" : "1e1158b1-c3da-45f4-a826-3b0c4c081d9b",
+          "id" : "9414d6bc-1554-4dbe-a5a7-898a52388e73",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "b48458ac-bc9d-41c5-beec-4f2eec680de9",
+        "id" : "2f392ae5-89f8-4afd-b6fa-a53895e80623",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "322a07ef-634b-4459-997b-6a88329f1241",
-      "name" : "getFutureResult saved on 2024-06-04 15:07",
+      "candidateId" : "277deeeb-2d9c-4a14-8e2c-f8449dc6276a",
+      "name" : "getFutureResult - normal",
       "description" : null,
-      "methodArguments" : [ "\"testString\"" ],
+      "methodArguments" : [ "\"string\"" ],
       "returnValue" : "\"yolo\"",
       "returnValueClassname" : "java.lang.String",
       "metadata" : {
-        "recordedBy" : "akshatjain",
-        "hostMachineName" : "akshatjain",
-        "timestamp" : 34159833162208,
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3072664378826,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -281189404,
+      "sessionIdentifier" : 1541102061,
       "probSerializedValue" : "InlvbG8i",
-      "mockIds" : [ "b8e2a9a1-ee47-4b56-9d8e-92e4d3e89f9f" ],
+      "mockIds" : [ "9e5aa103-7b43-4965-91a2-4f7f066eafa3" ],
       "exception" : false,
       "method" : {
         "name" : "getFutureResult",
@@ -42,43 +42,43 @@
       }
     } ],
     "org.unlogged.demo.controller.FutureController#getFutureResultOptional#(Ljava/lang/String;)Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 21, 22, 18 ],
+      "lineNumbers" : [ 27, 28, 18 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "\"testString\"",
-          "id" : "f4a82b24-f6f5-4cc9-92ea-7181980347b5",
+          "expectedValue" : "\"string\"",
+          "id" : "7030720c-b1a2-4a5d-a9f7-afc8bb0b0498",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "8c96b11b-8e05-4e21-89ac-472bf875044d",
+        "id" : "c0972fae-0f4c-480f-8b69-0ca2539b4eed",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "3aaa65a1-bf4d-4c70-85db-5315443f3a82",
-      "name" : "getFutureResultOptional saved on 2024-06-04 15:07",
+      "candidateId" : "4cde018d-3201-4c15-be54-10ae812b8132",
+      "name" : "getFutureResultOptional - normal",
       "description" : null,
-      "methodArguments" : [ "\"testString\"" ],
-      "returnValue" : "\"testString\"",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"string\"",
       "returnValueClassname" : "java.lang.String",
       "metadata" : {
-        "recordedBy" : "akshatjain",
-        "hostMachineName" : "akshatjain",
-        "timestamp" : 34172498371416,
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3108285891157,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -1335669528,
-      "probSerializedValue" : "InRlc3RTdHJpbmci",
-      "mockIds" : [ "c04bd5c4-82b6-44d5-9ca1-a9d3b8d83948" ],
+      "sessionIdentifier" : 1443520619,
+      "probSerializedValue" : "InN0cmluZyI=",
+      "mockIds" : [ "d0c4b701-ba2e-49db-9349-f71cb44b0c97" ],
       "exception" : false,
       "method" : {
         "name" : "getFutureResultOptional",
         "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.controller.FutureController",
-        "methodHash" : -1498505688
+        "methodHash" : 493406997
       }
     } ]
   },

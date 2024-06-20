@@ -1,68 +1,21 @@
 {
   "classname" : "org.unlogged.demo.controller.ModelMapperOpsController",
   "storedCandidateMap" : {
-    "org.unlogged.demo.controller.ModelMapperOpsController#getUserModelMiniDto#()Lorg/unlogged/demo/models/mapper/dto/UserModelMiniDto;" : [ {
-      "lineNumbers" : [ 35, 36 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "1",
-          "id" : "32073b32-a9df-4cda-8a42-23be9462f966",
-          "assertionType" : "EQUAL",
-          "key" : "/id"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"user1\"",
-          "id" : "4adbaed9-c9f6-4753-92b1-2a8d8d0c9625",
-          "assertionType" : "EQUAL",
-          "key" : "/username"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : "true",
-        "id" : "4e1f5f0f-3a9b-4709-b1be-24dba3521226",
-        "assertionType" : "ALLOF",
-        "key" : "/"
-      },
-      "candidateId" : "32bd4dde-0fbc-4689-909c-cc7e53c45bb1",
-      "name" : "getUserModelMiniDto saved on 2024-06-14 13:25",
-      "description" : null,
-      "methodArguments" : [ ],
-      "returnValue" : "{\"id\":1,\"username\":\"user1\"}",
-      "returnValueClassname" : "org.unlogged.demo.models.mapper.dto.UserModelMiniDto",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 57440569190623,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 880156434,
-      "probSerializedValue" : "eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VyMSJ9",
-      "mockIds" : [ "f59558a8-f18e-49c4-a940-68722888c8d1" ],
-      "exception" : false,
-      "method" : {
-        "name" : "getUserModelMiniDto",
-        "signature" : "()Lorg/unlogged/demo/models/mapper/dto/UserModelMiniDto;",
-        "className" : "org.unlogged.demo.controller.ModelMapperOpsController",
-        "methodHash" : 0
-      }
-    } ],
     "org.unlogged.demo.controller.ModelMapperOpsController#getDefaultModel#()Lorg/unlogged/demo/models/mapper/model/UserModel;" : [ {
-      "lineNumbers" : [ 23, 25 ],
+      "lineNumbers" : [ 22, 24 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "1",
-          "id" : "b0673342-eed0-4c1d-ab40-756745a10b83",
+          "id" : "6cdd4d82-03e6-42f3-a756-2701f1527d5d",
           "assertionType" : "EQUAL",
           "key" : "/id"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"User1\"",
-          "id" : "1c006943-db0c-4f7c-a6d2-be5619238a39",
+          "id" : "714126b5-5521-438b-a46e-131fcaa21d17",
           "assertionType" : "EQUAL",
           "key" : "/username"
         }, {
@@ -70,55 +23,55 @@
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"#144\"",
-            "id" : "d425022e-2f5d-4a70-9df3-0de83139c9eb",
+            "id" : "9ef7dc85-2e67-49f6-988f-29b07ebfdd1b",
             "assertionType" : "EQUAL",
             "key" : "/address/house"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"StreetX\"",
-            "id" : "274536c7-100d-4a27-8419-68fcde404c90",
+            "id" : "02ea5e5b-2f0e-4acb-8db4-8433387dbd8b",
             "assertionType" : "EQUAL",
             "key" : "/address/street"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"AreaX\"",
-            "id" : "ca30fd06-5a0b-4fb2-8c35-e1f8bb31335b",
+            "id" : "730d929f-0eb0-41eb-beb2-8c13fc14f66d",
             "assertionType" : "EQUAL",
             "key" : "/address/area"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"CityX\"",
-            "id" : "7c1d48c4-dd98-417c-8026-154f0ab7357c",
+            "id" : "3e30d61d-4a00-4b6f-b948-63d2f7ba2029",
             "assertionType" : "EQUAL",
             "key" : "/address/city"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"StateX\"",
-            "id" : "85795189-6050-4bd9-9923-9dfbd2c8ed6f",
+            "id" : "05741790-38ee-4631-9601-2415a3e6c0be",
             "assertionType" : "EQUAL",
             "key" : "/address/state"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"CountryX\"",
-            "id" : "0b4207b0-1edb-4dc8-8abe-79722016a02b",
+            "id" : "74848906-7640-4856-8b1d-958e8fedf2a3",
             "assertionType" : "EQUAL",
             "key" : "/address/country"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"PinX\"",
-            "id" : "cd9c45ae-9947-427e-851e-ae05b26a24dd",
+            "id" : "69822ad4-4ea3-4007-b7ca-2e0b3dc22b07",
             "assertionType" : "EQUAL",
             "key" : "/address/pincode"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "1584899a-35bf-44cd-a972-6d1a47e70243",
+          "id" : "edf21986-9125-41c3-a775-4047b6bc2e5a",
           "assertionType" : "ALLOF",
           "key" : "/address"
         }, {
@@ -127,20 +80,20 @@
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "\"user1@gmail.com\"",
-              "id" : "d6343f15-85c3-41cc-abce-64243772b946",
+              "id" : "840c4297-da9f-4ada-8993-eddf93d27b81",
               "assertionType" : "EQUAL",
               "key" : "/contactInformation/emails/0"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "\"user1@yahoo.com\"",
-              "id" : "6a13da4e-d3b0-425d-9cd0-6d21081bab11",
+              "id" : "ce98cad5-12e4-4593-b8c2-62a451450a13",
               "assertionType" : "EQUAL",
               "key" : "/contactInformation/emails/1"
             } ],
             "expression" : "SELF",
             "expectedValue" : "true",
-            "id" : "7a1250f6-e8b1-46fc-a7b0-8867f509316c",
+            "id" : "b60efdc5-0c93-4055-9759-5744371ad289",
             "assertionType" : "ALLOF",
             "key" : "/contactInformation/emails"
           }, {
@@ -148,37 +101,37 @@
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "\"phone-number-1\"",
-              "id" : "12ec96bd-50c5-4e10-9629-970528d32cef",
+              "id" : "3cd82f2f-2bcb-4d80-b08f-a1628d26dea1",
               "assertionType" : "EQUAL",
               "key" : "/contactInformation/numbers/0"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
               "expectedValue" : "\"phone-number-2\"",
-              "id" : "125e1c76-fd2b-4746-a382-f5b7b67c63e1",
+              "id" : "831350d1-71e3-4dcb-9ce4-67c108933971",
               "assertionType" : "EQUAL",
               "key" : "/contactInformation/numbers/1"
             } ],
             "expression" : "SELF",
             "expectedValue" : "true",
-            "id" : "96c62144-3f10-42b4-a972-aa1c7f672696",
+            "id" : "1ddf67d1-7a1b-4a9d-99b6-ca845e47563b",
             "assertionType" : "ALLOF",
             "key" : "/contactInformation/numbers"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "4becd561-d991-451a-bb32-bb3f18383458",
+          "id" : "bb94947a-160e-4975-b7a3-e1fe2ae7b196",
           "assertionType" : "ALLOF",
           "key" : "/contactInformation"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "69a3b1de-5c9a-4aca-a907-2e2294055ab1",
+        "id" : "64147a91-eddc-410d-bb41-c79d38c26520",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "c7611093-ab29-471a-8efa-9a89359fb6c0",
-      "name" : "getDefaultModel saved on 2024-06-14 13:26",
+      "candidateId" : "939e9b4d-f9ec-480e-a2d7-eb3ada1f7100",
+      "name" : "getDefaultModel - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"id\":1,\"username\":\"User1\",\"address\":{\"house\":\"#144\",\"street\":\"StreetX\",\"area\":\"AreaX\",\"city\":\"CityX\",\"state\":\"StateX\",\"country\":\"CountryX\",\"pincode\":\"PinX\"},\"contactInformation\":{\"emails\":[\"user1@gmail.com\",\"user1@yahoo.com\"],\"numbers\":[\"phone-number-1\",\"phone-number-2\"]}}",
@@ -186,10 +139,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 57461567821162,
+        "timestamp" : 3179122111066,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1634637433,
+      "sessionIdentifier" : -1054598200,
       "probSerializedValue" : "eyJpZCI6MSwidXNlcm5hbWUiOiJVc2VyMSIsImFkZHJlc3MiOnsiaG91c2UiOiIjMTQ0Iiwic3RyZWV0IjoiU3RyZWV0WCIsImFyZWEiOiJBcmVhWCIsImNpdHkiOiJDaXR5WCIsInN0YXRlIjoiU3RhdGVYIiwiY291bnRyeSI6IkNvdW50cnlYIiwicGluY29kZSI6IlBpblgifSwiY29udGFjdEluZm9ybWF0aW9uIjp7ImVtYWlscyI6WyJ1c2VyMUBnbWFpbC5jb20iLCJ1c2VyMUB5YWhvby5jb20iXSwibnVtYmVycyI6WyJwaG9uZS1udW1iZXItMSIsInBob25lLW51bWJlci0yIl19fQ==",
       "mockIds" : [ ],
       "exception" : false,
@@ -200,46 +153,140 @@
         "methodHash" : 0
       }
     } ],
+    "org.unlogged.demo.controller.ModelMapperOpsController#getUserModelMiniDto#()Lorg/unlogged/demo/models/mapper/dto/UserModelMiniDto;" : [ {
+      "lineNumbers" : [ 34, 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "e2237ff1-f9f6-4282-87c8-187b1dcc06d9",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user1\"",
+          "id" : "8e8b7601-14ff-48f5-80ab-de6a381337bb",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "b7132539-aae6-4e9d-8956-db45725b6224",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "a7731c8a-acc3-4912-a98f-2ddaa25c3dd6",
+      "name" : "getUserModelMiniDto - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"id\":1,\"username\":\"user1\"}",
+      "returnValueClassname" : "org.unlogged.demo.models.mapper.dto.UserModelMiniDto",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3205149619967,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1253697106,
+      "probSerializedValue" : "eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VyMSJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserModelMiniDto",
+        "signature" : "()Lorg/unlogged/demo/models/mapper/dto/UserModelMiniDto;",
+        "className" : "org.unlogged.demo.controller.ModelMapperOpsController",
+        "methodHash" : 0
+      }
+    },
+      {
+        "lineNumbers" : [ 34, 35 ],
+        "testAssertions" : {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "e2237ff1-f9f6-4282-87c8-187b1dcc06d9",
+            "assertionType" : "EQUAL",
+            "key" : "/id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"user1\"",
+            "id" : "8e8b7601-14ff-48f5-80ab-de6a381337bb",
+            "assertionType" : "EQUAL",
+            "key" : "/username"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "b7132539-aae6-4e9d-8956-db45725b6224",
+          "assertionType" : "ALLOF",
+          "key" : "/"
+        },
+        "candidateId" : "a7731c8a-acc3-4912-a98f-2ddaa25c3dd6",
+        "name" : "getUserModelMiniDto - call from ModelMapper mocked",
+        "description" : null,
+        "methodArguments" : [ ],
+        "returnValue" : "{\"id\":1,\"username\":\"user1\"}",
+        "returnValueClassname" : "org.unlogged.demo.models.mapper.dto.UserModelMiniDto",
+        "metadata" : {
+          "recordedBy" : "testerfresher",
+          "hostMachineName" : "testerfresher",
+          "timestamp" : 3205149619967,
+          "candidateStatus" : "NA"
+        },
+        "sessionIdentifier" : 1253697106,
+        "probSerializedValue" : "eyJpZCI6MSwidXNlcm5hbWUiOiJ1c2VyMSJ9",
+        "mockIds" : [ "ad02c78e-b4cc-4545-9c02-c54fad16c403" ],
+        "exception" : false,
+        "method" : {
+          "name" : "getUserModelMiniDto",
+          "signature" : "()Lorg/unlogged/demo/models/mapper/dto/UserModelMiniDto;",
+          "className" : "org.unlogged.demo.controller.ModelMapperOpsController",
+          "methodHash" : 0
+        }
+      } ],
     "org.unlogged.demo.controller.ModelMapperOpsController#getUserModelDto#()Lorg/unlogged/demo/models/mapper/dto/UserModelDto;" : [ {
-      "lineNumbers" : [ 41, 42, 43, 50 ],
+      "lineNumbers" : [ 40, 41, 42, 49 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"User1\"",
-          "id" : "e8d4f422-28ee-4d21-bf94-c3e14c26309e",
+          "id" : "726e0cd3-f537-4e7c-b9df-cdc0b0730773",
           "assertionType" : "EQUAL",
           "key" : "/username"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "null",
-          "id" : "cf99562c-5465-40ca-9e37-1c549d50aab3",
+          "id" : "ca2adeec-a4f7-4266-a96f-9c6a8985ebd9",
           "assertionType" : "EQUAL",
           "key" : "/phoneNumber"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "null",
-          "id" : "c9c7eec8-e861-4379-b0a5-bffbb2062a87",
+          "id" : "46d6c2a6-72c0-4a7e-a39f-e38b2f234e68",
           "assertionType" : "EQUAL",
           "key" : "/email"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"",
-          "id" : "906f1fb3-39b0-41b6-b1cc-a7f670051889",
+          "id" : "af338b0e-1257-44dc-83bd-376fa096fe9d",
           "assertionType" : "EQUAL",
           "key" : "/address"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "813b0249-c23a-41d5-bdf6-90d5f49b0629",
+        "id" : "f05fdff3-1626-48b9-a9f8-86e977dc804b",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "b02461cf-7d7e-4e85-a527-191360928985",
-      "name" : "getUserModelDto saved on 2024-06-14 13:26",
+      "candidateId" : "26e2491c-a094-4d7a-925c-1a5defec49a9",
+      "name" : "getUserModelDto - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"username\":\"User1\",\"phoneNumber\":null,\"email\":null,\"address\":\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"}",
@@ -247,10 +294,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 57461302869645,
+        "timestamp" : 3236226786102,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1583602585,
+      "sessionIdentifier" : 1936402034,
       "probSerializedValue" : "eyJ1c2VybmFtZSI6IlVzZXIxIiwicGhvbmVOdW1iZXIiOm51bGwsImVtYWlsIjpudWxsLCJhZGRyZXNzIjoiIyMxNDQsIFN0YXRlWCwgQXJlYVgsIENpdHlYLCBTdGF0ZVgsIENvdW50cnlYIC0gUGluLWNvZGUgOiBQaW5YIn0=",
       "mockIds" : [ ],
       "exception" : false,
@@ -262,45 +309,45 @@
       }
     } ],
     "org.unlogged.demo.controller.ModelMapperOpsController#getUserModelDtoWithProvider#()Lorg/unlogged/demo/models/mapper/dto/UserModelDto;" : [ {
-      "lineNumbers" : [ 55, 56, 57, 58, 59, 65, 66 ],
+      "lineNumbers" : [ 54, 55, 56, 57, 58, 64, 65 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "null",
-          "id" : "64585fd7-3abd-4b9e-b740-6dabc20d9fd7",
+          "id" : "f2ac1b83-98ae-461c-a2f7-8072d3b35355",
           "assertionType" : "EQUAL",
           "key" : "/username"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "null",
-          "id" : "5759c5e6-576f-41e1-a21d-829fcbcd6cce",
+          "id" : "7537a5aa-70f5-4750-8175-7f8347a09cf4",
           "assertionType" : "EQUAL",
           "key" : "/phoneNumber"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "null",
-          "id" : "4d3f057f-2960-4a5b-9b80-360fd6c722e4",
+          "id" : "af13d64a-af07-40f5-a33d-f7c1f263341f",
           "assertionType" : "EQUAL",
           "key" : "/email"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"",
-          "id" : "33f482cb-d31a-41ce-b2aa-078756cdbfd2",
+          "id" : "5c8bbe8e-4289-4bcd-a231-b88d90a8cb50",
           "assertionType" : "EQUAL",
           "key" : "/address"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "3d374535-45e1-4dc8-bfae-53c703dd1bf0",
+        "id" : "5ca2c415-f679-4841-be0a-5f6ae3b8e5a6",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "842148b4-55de-4344-aa78-ea29a97fb2c8",
-      "name" : "getUserModelDtoWithProvider saved on 2024-06-14 13:26",
+      "candidateId" : "0d15c469-65ba-4074-bc71-021b72ba47a9",
+      "name" : "getUserModelDtoWithProvider - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"username\":null,\"phoneNumber\":null,\"email\":null,\"address\":\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"}",
@@ -308,10 +355,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 57483078788969,
+        "timestamp" : 3264865710920,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -1075947478,
+      "sessionIdentifier" : 193932487,
       "probSerializedValue" : "eyJ1c2VybmFtZSI6bnVsbCwicGhvbmVOdW1iZXIiOm51bGwsImVtYWlsIjpudWxsLCJhZGRyZXNzIjoiIyMxNDQsIFN0YXRlWCwgQXJlYVgsIENpdHlYLCBTdGF0ZVgsIENvdW50cnlYIC0gUGluLWNvZGUgOiBQaW5YIn0=",
       "mockIds" : [ ],
       "exception" : false,
@@ -323,45 +370,45 @@
       }
     } ],
     "org.unlogged.demo.controller.ModelMapperOpsController#getFromConverter#()Lorg/unlogged/demo/models/mapper/dto/UserModelDto;" : [ {
-      "lineNumbers" : [ 83, 84, 85 ],
+      "lineNumbers" : [ 82, 83, 84 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"User1\"",
-          "id" : "2b24104d-f27a-43d9-bb85-20c20e37a9be",
+          "id" : "5b69d9ce-71bf-48e1-b0ee-0169a8fd53bc",
           "assertionType" : "EQUAL",
           "key" : "/username"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"phone-number-1\"",
-          "id" : "02972cac-fa33-4046-b640-7cec6b763967",
+          "id" : "9431f446-efa6-4b5d-afcd-633027fae323",
           "assertionType" : "EQUAL",
           "key" : "/phoneNumber"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"user1@gmail.com\"",
-          "id" : "e5ff31fc-94bd-4ecd-9875-6fd466a28792",
+          "id" : "e15b50da-a0bd-4659-a981-dbc649d43020",
           "assertionType" : "EQUAL",
           "key" : "/email"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"",
-          "id" : "fa255dda-b1ae-45df-a6af-73286d387c4d",
+          "id" : "395b693a-a800-46de-ba37-f24994c63cfb",
           "assertionType" : "EQUAL",
           "key" : "/address"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "190f4d1d-f77a-4691-b895-3bbf38bc7bdc",
+        "id" : "fa94d0d6-bc7e-4cd5-8d57-315145fd0351",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "f814e417-c42f-418d-8c24-63efc4a2f101",
-      "name" : "getFromConverter saved on 2024-06-14 13:27",
+      "candidateId" : "f91487f5-b83f-4d30-8fd0-f91c3cfa4bdf",
+      "name" : "getFromConverter - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "{\"username\":\"User1\",\"phoneNumber\":\"phone-number-1\",\"email\":\"user1@gmail.com\",\"address\":\"##144, StateX, AreaX, CityX, StateX, CountryX - Pin-code : PinX\"}",
@@ -369,10 +416,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 57532672888749,
+        "timestamp" : 3298253498132,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 454930629,
+      "sessionIdentifier" : 922428633,
       "probSerializedValue" : "eyJ1c2VybmFtZSI6IlVzZXIxIiwicGhvbmVOdW1iZXIiOiJwaG9uZS1udW1iZXItMSIsImVtYWlsIjoidXNlcjFAZ21haWwuY29tIiwiYWRkcmVzcyI6IiMjMTQ0LCBTdGF0ZVgsIEFyZWFYLCBDaXR5WCwgU3RhdGVYLCBDb3VudHJ5WCAtIFBpbi1jb2RlIDogUGluWCJ9",
       "mockIds" : [ ],
       "exception" : false,

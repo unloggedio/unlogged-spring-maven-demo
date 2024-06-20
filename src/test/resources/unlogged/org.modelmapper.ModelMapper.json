@@ -3,7 +3,7 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.modelmapper.ModelMapper#map#(Ljava/lang/Object;Ljava/lang/Class<D>;)D" : [ {
-      "id" : "f59558a8-f18e-49c4-a940-68722888c8d1",
+      "id" : "ad02c78e-b4cc-4545-9c02-c54fad16c403",
       "name" : "mock response for call to mapper.map(userModel, UserModelMiniDto.class)",
       "fieldTypeName" : "org.modelmapper.ModelMapper",
       "sourceClassName" : "org.unlogged.demo.controller.ModelMapperOpsController",

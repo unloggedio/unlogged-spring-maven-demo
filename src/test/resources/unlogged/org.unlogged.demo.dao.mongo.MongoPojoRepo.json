@@ -3,7 +3,29 @@
   "storedCandidateMap" : { },
   "declaredMockMap" : {
     "org.unlogged.demo.dao.mongo.MongoPojoRepo#insert#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
-      "id" : "41cc1e79-6deb-4630-b2cb-32ef3d3d9a30",
+      "id" : "c611b8cf-ad39-441c-ae44-ba4346b84f14",
+      "name" : "mock response for call to mongoPojoRepo.insert(pojo)",
+      "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
+      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "fieldName" : "mongoPojoRepo",
+      "methodName" : "insert",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"id\":\"aaa\",\"name\":\"Name AAA\"}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"aaa\",\"name\":\"Name AAA\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.MongoPojo"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#insert#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;"
+    }, {
+      "id" : "70d44d50-3058-44f3-b396-275900318d56",
       "name" : "mock response for call to mongoPojoRepo.insert(payload)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
       "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
@@ -26,7 +48,7 @@
       "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#insert#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;"
     } ],
     "org.unlogged.demo.dao.mongo.MongoPojoRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/MongoPojo;>;" : [ {
-      "id" : "26c11234-8350-41d1-a32b-ae5125ec850f",
+      "id" : "09a4c50c-295b-4eb7-904a-a8b3ca3b8b65",
       "name" : "mock response for call to mongoPojoRepo.findAll()",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
       "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
@@ -44,8 +66,31 @@
       } ],
       "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/MongoPojo;>;"
     } ],
+    "org.unlogged.demo.dao.mongo.MongoPojoRepo#findById#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/MongoPojo;>;" : [ {
+      "id" : "b20bc2ff-5b3d-49d5-bd8d-2bbc97411790",
+      "name" : "mock response for call to mongoPojoRepo.findById(id)",
+      "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
+      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
+      "fieldName" : "mongoPojoRepo",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"id\":\"string\",\"name\":\"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.models.MongoPojo>"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#findById#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/MongoPojo;>;"
+    } ],
     "org.unlogged.demo.dao.mongo.MongoPojoRepo#save#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
-      "id" : "12b026cc-1dd8-4f1c-b83b-50900de238f4",
+      "id" : "03b99c69-f40e-4a95-8c3a-a71cc75c6cb2",
       "name" : "mock response for call to mongoPojoRepo.save(pojo)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
       "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
@@ -68,7 +113,7 @@
       "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#save#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;"
     } ],
     "org.unlogged.demo.dao.mongo.MongoPojoRepo#deleteById#(Ljava/lang/String;)V" : [ {
-      "id" : "68448d4d-62e4-42ab-bc66-fa001b64cc1f",
+      "id" : "1f32e6d3-ed6d-43dc-8860-ced005cefeea",
       "name" : "mock response for call to mongoPojoRepo.deleteById(id)",
       "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
       "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
@@ -89,29 +134,6 @@
         "methodExitType" : "NORMAL"
       } ],
       "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#deleteById#(Ljava/lang/String;)V"
-    } ],
-    "org.unlogged.demo.dao.mongo.MongoPojoRepo#findById#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/MongoPojo;>;" : [ {
-      "id" : "71eb090a-9cf0-4ccb-8cb5-e8d2601e5357",
-      "name" : "mock response for call to mongoPojoRepo.findById(id)",
-      "fieldTypeName" : "org.unlogged.demo.dao.mongo.MongoPojoRepo",
-      "sourceClassName" : "org.unlogged.demo.controller.MonogOpsController",
-      "fieldName" : "mongoPojoRepo",
-      "methodName" : "findById",
-      "whenParameter" : [ {
-        "name" : null,
-        "type" : "EQUAL",
-        "value" : "\"aaa\""
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\"id\":\"aaa\",\"name\":\"Name AAA\"}",
-          "returnValueType" : "REAL",
-          "className" : "java.util.Optional<org.unlogged.demo.models.MongoPojo>"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.dao.mongo.MongoPojoRepo#findById#(Ljava/lang/String;)Ljava/util/Optional<Lorg/unlogged/demo/models/MongoPojo;>;"
     } ]
   }
 }

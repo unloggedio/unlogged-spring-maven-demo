@@ -1,6 +1,53 @@
 {
   "classname" : "org.unlogged.demo.controller.MonogOpsController",
   "storedCandidateMap" : {
+    "org.unlogged.demo.controller.MonogOpsController#insertDefault#()Lorg/unlogged/demo/models/MongoPojo;" : [ {
+      "lineNumbers" : [ 21, 22, 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"aaa\"",
+          "id" : "f7ed1c9a-a7ac-4535-8d08-d2b3690c30dd",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Name AAA\"",
+          "id" : "0f538347-04ae-42c0-a286-95c7f3515bba",
+          "assertionType" : "EQUAL",
+          "key" : "/name"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "d30b07a5-010e-482b-9107-2915acf5298c",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f7b9b04d-0525-437b-a563-d0cb5a16c135",
+      "name" : "insertDefault - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"id\":\"aaa\",\"name\":\"Name AAA\"}",
+      "returnValueClassname" : "org.unlogged.demo.models.MongoPojo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3391514409680,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1871217937,
+      "probSerializedValue" : "eyJpZCI6ImFhYSIsIm5hbWUiOiJOYW1lIEFBQSJ9",
+      "mockIds" : [ "c611b8cf-ad39-441c-ae44-ba4346b84f14" ],
+      "exception" : false,
+      "method" : {
+        "name" : "insertDefault",
+        "signature" : "()Lorg/unlogged/demo/models/MongoPojo;",
+        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "methodHash" : 0
+      }
+    } ],
     "org.unlogged.demo.controller.MonogOpsController#insertNew#(Lorg/unlogged/demo/models/MongoPojo;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
       "lineNumbers" : [ 29 ],
       "testAssertions" : {
@@ -8,25 +55,25 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"string\"",
-          "id" : "761097f6-2eec-438f-a3ed-2f12543bc5d6",
+          "id" : "0e71dade-7712-4507-808a-231de86a8564",
           "assertionType" : "EQUAL",
           "key" : "/id"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"string\"",
-          "id" : "020f23f1-8984-40a0-aecb-9e7dffa20f95",
+          "id" : "6f3cd74c-00ee-42e5-a98f-cf7e8160a55e",
           "assertionType" : "EQUAL",
           "key" : "/name"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "6cbf6c12-7945-4dce-bd05-c0e2ce4bf0fa",
+        "id" : "f180d30c-53bb-4449-b7e5-ae716248c64f",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "ba2f2887-004e-47cd-8e46-4bc360bfc867",
-      "name" : "insertNew saved on 2024-06-18 12:58",
+      "candidateId" : "4adb32c6-76a0-4e1d-ac7a-b2ddc7ded101",
+      "name" : "insertNew - normal",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\"}" ],
       "returnValue" : "{\"id\":\"string\",\"name\":\"string\"}",
@@ -34,12 +81,12 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 2157029639046,
+        "timestamp" : 3424460157110,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1095710702,
+      "sessionIdentifier" : -1973637685,
       "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmcifQ==",
-      "mockIds" : [ "41cc1e79-6deb-4630-b2cb-32ef3d3d9a30" ],
+      "mockIds" : [ "70d44d50-3058-44f3-b396-275900318d56" ],
       "exception" : false,
       "method" : {
         "name" : "insertNew",
@@ -56,20 +103,20 @@
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"aaa\"",
-            "id" : "bda3d832-95b6-4392-886e-45dff873da8f",
+            "id" : "94ce3cf1-8d1c-4103-ba74-69e8822ee173",
             "assertionType" : "EQUAL",
             "key" : "/0/id"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"Name AAA\"",
-            "id" : "ef1ec936-4234-4bcc-87cd-29b1a725da88",
+            "id" : "9441ba19-d82f-4c1e-8fbb-cb763e9a4d08",
             "assertionType" : "EQUAL",
             "key" : "/0/name"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "7663b860-8d5c-4fec-8679-0ef7378a78ad",
+          "id" : "06d81896-37a9-4156-86ac-2173df7ecbee",
           "assertionType" : "ALLOF",
           "key" : "/0"
         }, {
@@ -77,31 +124,31 @@
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"string\"",
-            "id" : "94fcb1eb-8026-4567-9b6a-4c9c7b5168af",
+            "id" : "2c55255e-9648-4e41-81c0-198ea21b79c2",
             "assertionType" : "EQUAL",
             "key" : "/1/id"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "\"string\"",
-            "id" : "2b9d7a6d-061e-4934-b3bc-e62092342d26",
+            "id" : "b34d7754-67a6-42b4-b778-ae465b3db420",
             "assertionType" : "EQUAL",
             "key" : "/1/name"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "1fd2bdcd-526d-4fa4-b114-f2d01f9f4e38",
+          "id" : "4ece746c-530b-458d-9249-35c8a9d06a42",
           "assertionType" : "ALLOF",
           "key" : "/1"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "2616c64b-f8b5-4592-9003-e023d6ef1b97",
+        "id" : "17002f9a-f400-4932-87f3-2a46c545b76d",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "99453bf1-58ec-494a-a3df-297a0e1db681",
-      "name" : "getall saved on 2024-06-18 12:58",
+      "candidateId" : "e5eb98c9-06d7-45cb-9a43-51be5e16b9a6",
+      "name" : "getall - normal",
       "description" : null,
       "methodArguments" : [ ],
       "returnValue" : "[{\"id\":\"aaa\",\"name\":\"Name AAA\"},{\"id\":\"string\",\"name\":\"string\"}]",
@@ -109,16 +156,63 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 2179137284955,
+        "timestamp" : 3481895696465,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1397918458,
+      "sessionIdentifier" : 262241787,
       "probSerializedValue" : "W3siaWQiOiJhYWEiLCJuYW1lIjoiTmFtZSBBQUEifSx7ImlkIjoic3RyaW5nIiwibmFtZSI6InN0cmluZyJ9XQ==",
-      "mockIds" : [ "26c11234-8350-41d1-a32b-ae5125ec850f" ],
+      "mockIds" : [ "09a4c50c-295b-4eb7-904a-a8b3ca3b8b65" ],
       "exception" : false,
       "method" : {
         "name" : "getall",
         "signature" : "()Ljava/util/List<Lorg/unlogged/demo/models/MongoPojo;>;",
+        "className" : "org.unlogged.demo.controller.MonogOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.MonogOpsController#getById#(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
+      "lineNumbers" : [ 38, 43 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "62e577de-d248-45bf-82b8-a2c301fbf671",
+          "assertionType" : "EQUAL",
+          "key" : "/id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "3e1921c6-f358-4af3-b754-0f665520e583",
+          "assertionType" : "EQUAL",
+          "key" : "/name"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "01c89f8f-b750-498e-a133-642d9dccea0c",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "41b87584-23fe-4020-8fc0-9d2e9118a5aa",
+      "name" : "getById - normal",
+      "description" : null,
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"id\":\"string\",\"name\":\"string\"}",
+      "returnValueClassname" : "org.unlogged.demo.models.MongoPojo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 3516058669593,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -971603232,
+      "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmcifQ==",
+      "mockIds" : [ "b20bc2ff-5b3d-49d5-bd8d-2bbc97411790" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getById",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;",
         "className" : "org.unlogged.demo.controller.MonogOpsController",
         "methodHash" : 0
       }
@@ -130,25 +224,25 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"string\"",
-          "id" : "0e8ce4e6-e118-4520-ba5e-d7839f2f0c80",
+          "id" : "18b88e07-ae2d-4fec-83bf-ac4d32b3a1e5",
           "assertionType" : "EQUAL",
           "key" : "/id"
         }, {
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "\"string\"",
-          "id" : "5c4b5c9e-2452-427a-9fb1-d068af31b8d5",
+          "id" : "74170377-5d01-4c98-a6b3-3f0390c3bf57",
           "assertionType" : "EQUAL",
           "key" : "/name"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "880bce94-8ebe-4b65-a9f9-f35e191c9fce",
+        "id" : "ffc32934-d7ed-41ec-a42e-88485d159c53",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "4488331a-324f-4537-9039-64bd1524e155",
-      "name" : "updatePojo saved on 2024-06-18 12:58",
+      "candidateId" : "da470cf0-51ba-43bb-9a18-36cd6fadf8fb",
+      "name" : "updatePojo - normal",
       "description" : null,
       "methodArguments" : [ "{\"id\":\"string\",\"name\":\"string\"}" ],
       "returnValue" : "{\"id\":\"string\",\"name\":\"string\"}",
@@ -156,12 +250,12 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 2203850542059,
+        "timestamp" : 3616923026307,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1053848901,
+      "sessionIdentifier" : 1331270033,
       "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmcifQ==",
-      "mockIds" : [ "12b026cc-1dd8-4f1c-b83b-50900de238f4" ],
+      "mockIds" : [ "03b99c69-f40e-4a95-8c3a-a71cc75c6cb2" ],
       "exception" : false,
       "method" : {
         "name" : "updatePojo",
@@ -176,12 +270,12 @@
         "subAssertions" : [ ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "0242141e-69b6-440f-8c0c-4114a63e2385",
+        "id" : "eb09e952-7538-4f23-9a1b-041cee0a9b92",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "bb0826ac-f965-4385-9243-2c0ea5fb9021",
-      "name" : "deleteById saved on 2024-06-18 12:59",
+      "candidateId" : "be6f45df-a792-419e-9fe2-892613f3b946",
+      "name" : "deleteById - normal",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "0",
@@ -189,65 +283,18 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 2224003176406,
+        "timestamp" : 3635452888350,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 1755119930,
+      "sessionIdentifier" : -291386182,
       "probSerializedValue" : "",
-      "mockIds" : [ "68448d4d-62e4-42ab-bc66-fa001b64cc1f" ],
+      "mockIds" : [ "1f32e6d3-ed6d-43dc-8860-ced005cefeea" ],
       "exception" : false,
       "method" : {
         "name" : "deleteById",
         "signature" : "(Ljava/lang/String;)V",
         "className" : "org.unlogged.demo.controller.MonogOpsController",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.controller.MonogOpsController#getById#(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;" : [ {
-      "lineNumbers" : [ 38, 43 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"aaa\"",
-          "id" : "42ff7ce4-8dd4-43fa-8c00-8bcd2d81bc50",
-          "assertionType" : "EQUAL",
-          "key" : "/id"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"Name AAA\"",
-          "id" : "35f1d931-c612-4282-ac70-896716cc716a",
-          "assertionType" : "EQUAL",
-          "key" : "/name"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : "true",
-        "id" : "ae9bf295-5acf-4c3d-b2d4-7b1df59fde2b",
-        "assertionType" : "ALLOF",
-        "key" : "/"
-      },
-      "candidateId" : "9b60a247-88aa-4c1f-960b-38104eaf6c3c",
-      "name" : "getById saved on 2024-06-18 13:00",
-      "description" : null,
-      "methodArguments" : [ "\"aaa\"" ],
-      "returnValue" : "{\"id\":\"aaa\",\"name\":\"Name AAA\"}",
-      "returnValueClassname" : "org.unlogged.demo.models.MongoPojo",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 2303004161269,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : -1861278020,
-      "probSerializedValue" : "eyJpZCI6ImFhYSIsIm5hbWUiOiJOYW1lIEFBQSJ9",
-      "mockIds" : [ "71eb090a-9cf0-4ccb-8cb5-e8d2601e5357" ],
-      "exception" : false,
-      "method" : {
-        "name" : "getById",
-        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/MongoPojo;",
-        "className" : "org.unlogged.demo.controller.MonogOpsController",
-        "methodHash" : 1662350994
+        "methodHash" : -1607493395
       }
     } ]
   },
