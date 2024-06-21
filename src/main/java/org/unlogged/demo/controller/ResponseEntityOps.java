@@ -9,7 +9,7 @@ import org.unlogged.demo.jspdemo.wfm.Models.Entities.User;
 
 @RestController
 @RequestMapping("/responseEntity")
-public class ResponseEnitityOps {
+public class ResponseEntityOps {
 
     public ResponseEntity<String> getOkString() {
         return ResponseEntity.ok("ok");

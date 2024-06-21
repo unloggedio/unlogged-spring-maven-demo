@@ -1,0 +1,320 @@
+{
+  "classname" : "org.unlogged.demo.controller.ResponseEntityOps",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ResponseEntityOps#getOkString#()Lorg/springframework/http/ResponseEntity<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "d3e03ee9-5f7e-40e8-80c1-152a2134a54c",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"ok\"",
+          "id" : "1a3662c1-62cd-4d48-bac6-ad252f26f99c",
+          "assertionType" : "EQUAL",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"OK\"",
+          "id" : "5680bebb-0e39-48c8-8498-950ccba46f2a",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "8bce83a9-8b04-4937-8299-7a20e5196eca",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f0534765-2213-4d5d-a4c6-8f99123d23c1",
+      "name" : "ResponseEntityOps.getOkString - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"headers\":{},\"body\":\"ok\",\"status\":\"OK\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26073926204048,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 264706622,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6Im9rIiwic3RhdHVzIjoiT0sifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getOkString",
+        "signature" : "()Lorg/springframework/http/ResponseEntity<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.controller.ResponseEntityOps",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ResponseEntityOps#getOkUser#()Lorg/springframework/http/ResponseEntity<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "86d8f301-75f0-4160-94e4-b57b1a626535",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "e0b014f0-cc00-4ff5-8bea-ec634c67c61f",
+            "assertionType" : "EQUAL",
+            "key" : "/body/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"u1\"",
+            "id" : "01af99e3-f6c7-4e06-aa27-1f75f314db72",
+            "assertionType" : "EQUAL",
+            "key" : "/body/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"p1\"",
+            "id" : "d745dd14-0159-4b2e-a7bb-b9f105b9e0e0",
+            "assertionType" : "EQUAL",
+            "key" : "/body/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"e1\"",
+            "id" : "ff800dc0-c814-4050-9a3d-7114dc4db66c",
+            "assertionType" : "EQUAL",
+            "key" : "/body/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "55ee42e6-0b2b-45f3-a15a-ef20a36db09b",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"OK\"",
+          "id" : "f00eecfa-e530-4d9a-93cf-5e0fea5dfb68",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "0f28355c-2049-4389-9289-98f9d1f9dbdf",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "7fff17d2-af98-4ef0-a0d5-9dfa9cbef486",
+      "name" : "ResponseEntityOps.getOkUser - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"user_id\":1,\"username\":\"u1\",\"password\":\"p1\",\"email\":\"e1\"},\"status\":\"OK\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26084974833815,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1776258213,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InUxIiwicGFzc3dvcmQiOiJwMSIsImVtYWlsIjoiZTEifSwic3RhdHVzIjoiT0sifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getOkUser",
+        "signature" : "()Lorg/springframework/http/ResponseEntity<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.ResponseEntityOps",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ResponseEntityOps#getUserOf#()Lorg/springframework/http/ResponseEntity<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 23 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f97f5094-4287-4c05-b8d9-bf505dbb16a3",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"about:blank\"",
+            "id" : "1eedce2a-a7bd-4c1a-8689-2a335a44154d",
+            "assertionType" : "EQUAL",
+            "key" : "/body/type"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "e5f401c5-cbea-48a2-9899-d8d0e3b6cc44",
+            "assertionType" : "EQUAL",
+            "key" : "/body/title"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "200",
+            "id" : "facf199d-970d-4cba-a008-8b36253749eb",
+            "assertionType" : "EQUAL",
+            "key" : "/body/status"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "62e1dbd9-c734-4f7d-bbbe-397a109b9793",
+            "assertionType" : "EQUAL",
+            "key" : "/body/detail"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "dbdffd97-f564-415c-908c-e4d744f7f513",
+            "assertionType" : "EQUAL",
+            "key" : "/body/instance"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "0ed37ec4-db04-4a5d-9435-b05b11ba9c75",
+            "assertionType" : "EQUAL",
+            "key" : "/body/properties"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "fcdcad89-4d0f-4adc-a3b8-9d802b59dfbd",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "200",
+          "id" : "00796490-da5c-40fa-8530-40b6783ece14",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "a428f6b8-c16d-4816-b07e-fd3f90e156b6",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f5dd3863-6629-4d3f-873e-d6cf6279332a",
+      "name" : "ResponseEntityOps.getUserOf - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"type\":\"about:blank\",\"title\":null,\"status\":200,\"detail\":null,\"instance\":null,\"properties\":null},\"status\":200}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26108528833320,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 809766587,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJ0eXBlIjoiYWJvdXQ6YmxhbmsiLCJ0aXRsZSI6bnVsbCwic3RhdHVzIjoyMDAsImRldGFpbCI6bnVsbCwiaW5zdGFuY2UiOm51bGwsInByb3BlcnRpZXMiOm51bGx9LCJzdGF0dXMiOjIwMH0=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getUserOf",
+        "signature" : "()Lorg/springframework/http/ResponseEntity<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.ResponseEntityOps",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ResponseEntityOps#createWithCode#()Lorg/springframework/http/ResponseEntity<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;" : [ {
+      "lineNumbers" : [ 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "e58d3636-9c35-4519-a228-88ea7407c866",
+          "assertionType" : "ALLOF",
+          "key" : "/headers"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "ec504f7f-27d9-485d-be62-1687942320b1",
+            "assertionType" : "EQUAL",
+            "key" : "/body/user_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"u1\"",
+            "id" : "7383caca-5c4e-44d1-8613-d696bc9fbaca",
+            "assertionType" : "EQUAL",
+            "key" : "/body/username"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"p1\"",
+            "id" : "f1d7511f-d37c-4e84-af2f-7737708e0cd3",
+            "assertionType" : "EQUAL",
+            "key" : "/body/password"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"e1\"",
+            "id" : "6c394721-62c2-4590-ad91-5359e9c06390",
+            "assertionType" : "EQUAL",
+            "key" : "/body/email"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "25f8caf3-1ec0-4217-b0d5-443a205c1d98",
+          "assertionType" : "ALLOF",
+          "key" : "/body"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"CREATED\"",
+          "id" : "eda20c37-7dd7-4d2d-a1b9-5b261ea1c63c",
+          "assertionType" : "EQUAL",
+          "key" : "/status"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "466862fa-7064-45f4-8c18-dc4782d8081f",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "3f655f79-57af-4a56-8ed1-222f2ace0d73",
+      "name" : "ResponseEntityOps.createWithCode - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"headers\":{},\"body\":{\"user_id\":1,\"username\":\"u1\",\"password\":\"p1\",\"email\":\"e1\"},\"status\":\"CREATED\"}",
+      "returnValueClassname" : "org.springframework.http.ResponseEntity",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26128283252449,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1209118634,
+      "probSerializedValue" : "eyJoZWFkZXJzIjp7fSwiYm9keSI6eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InUxIiwicGFzc3dvcmQiOiJwMSIsImVtYWlsIjoiZTEifSwic3RhdHVzIjoiQ1JFQVRFRCJ9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "createWithCode",
+        "signature" : "()Lorg/springframework/http/ResponseEntity<Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;>;",
+        "className" : "org.unlogged.demo.controller.ResponseEntityOps",
+        "methodHash" : -1124419407
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

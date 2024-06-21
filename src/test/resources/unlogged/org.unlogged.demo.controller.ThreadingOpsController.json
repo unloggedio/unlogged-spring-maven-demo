@@ -1,0 +1,206 @@
+{
+  "classname" : "org.unlogged.demo.controller.ThreadingOpsController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ThreadingOpsController#executorServiceCallablesAny#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 42, 43, 44 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"E\"",
+          "id" : "0aea8398-b34f-418d-a433-f12ad7302287",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6269a776-56cf-47c9-b73e-68ba74dad381",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5174d16d-95c6-490b-b2c9-643649cf3ab0",
+      "name" : "ThreadingOpsController.executorServiceCallablesAny - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"E\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26353821279193,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1847417852,
+      "probSerializedValue" : "IkUi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "executorServiceCallablesAny",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ThreadingOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ThreadingOpsController#executorServiceRunnable#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 49, 50, 51, 58, 59, 60 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"#R1\"",
+          "id" : "812ca1c7-48c1-44c1-b76f-a2889f436199",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "fa0b109b-6709-468f-919a-df88c38c4ccb",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9d22d022-96dc-47a9-94b1-fa437cae7c2d",
+      "name" : "ThreadingOpsController.executorServiceRunnable - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"#R1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26383841828745,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -2067389328,
+      "probSerializedValue" : "IiNSMSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "executorServiceRunnable",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ThreadingOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ThreadingOpsController#scheduledThread#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 66, 68, 69, 71 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"E\"",
+          "id" : "f98db7bc-9aab-40ad-893b-0d6e02006f0d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "6cf95d96-d05f-49e6-98ec-2bb283bf1eb4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7a625427-cd96-4cdf-a760-815e7cd96b89",
+      "name" : "ThreadingOpsController.scheduledThread - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"E\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26411255526724,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -789781822,
+      "probSerializedValue" : "IkUi",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "scheduledThread",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ThreadingOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ThreadingOpsController#scheduledThreadFixedRate#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 80, 82, 83, 90, 91, 92 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"\"",
+          "id" : "322fc535-b961-4689-8839-ff92b1314bf4",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f26b0b5a-82ae-4e9f-a0af-bce16a921f3f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "29ca3939-61c4-49d2-b6bb-f038c6e2b1b4",
+      "name" : "ThreadingOpsController.scheduledThreadFixedRate - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26438871474966,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1768076737,
+      "probSerializedValue" : "IiI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "scheduledThreadFixedRate",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ThreadingOpsController",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.ThreadingOpsController#scheduledThreadFixedDelay#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 98, 100, 101, 108, 109, 110 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"#R1#R1#R1\"",
+          "id" : "508a913f-29cb-48ed-8e03-85926c2e441f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "eb61db28-6935-4e42-b333-a670d1cb915d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "dc04a107-b635-4615-8400-fa10ee369290",
+      "name" : "ThreadingOpsController.scheduledThreadFixedDelay - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"#R1#R1#R1\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 26469609556959,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1270238255,
+      "probSerializedValue" : "IiNSMSNSMSNSMSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "scheduledThreadFixedDelay",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.ThreadingOpsController",
+        "methodHash" : -798509073
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
