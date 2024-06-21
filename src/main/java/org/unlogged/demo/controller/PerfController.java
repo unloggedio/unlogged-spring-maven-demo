@@ -6,67 +6,29 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
+import org.unlogged.demo.models.PerfData;
 import org.unlogged.demo.models.weather.WeatherInfo;
 import org.unlogged.demo.service.CustomerService;
+import org.unlogged.demo.service.PerfService;
 import org.unlogged.demo.service.WeatherService;
 
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+
+// TODO: return values in JSON
+// TODO: add explanation
+
 @RestController
 @RequestMapping("/perf")
-public class perfAnalysis {
+public class PerfController {
 
-	// TODO: return values in JSON
-	// TODO: add explanation
-    private int count_prime_calc(long value) {
-        // This is O(n^2) implementation for calculating the prime numbers from 1 to value
-        // This uses brute force to calculate it, and is CPU intensive single-threaded operation
-
-        int count = 0;
-        for (long i=2;i<=value;i++) {
-            Boolean isPrime = true;
-            for (long j=2;j<=i-1;j++) {
-                if (i%j == 0) {
-                    isPrime = false;
-                }
-            }
-
-            if (isPrime) {
-                count++;
-            }
-        }
-        return count;
-    }
-
-    private List<Long> sum_natural(int count) {
-        
-
-        long timestamp_1 = System.currentTimeMillis();
-
-        // write value to memory
-        List<Integer> value_list = new LinkedList<>();
-        for (int i=0;i<=count-1;i++) {
-            value_list.add( i);
-        }
-        long timestamp_2 = System.currentTimeMillis();
-
-        // read value from memory
-        long sum=0;
-        for (int i=0;i<value_list.size()-1;i++) {
-            sum += value_list.get(i);
-        }
-        long timestamp_3 = System.currentTimeMillis();
-
-        long time_write = timestamp_2 - timestamp_1;
-        long time_read = timestamp_3 - timestamp_2;
-        List<Long> val = Arrays.asList(time_write, time_read, sum);
-        return val;
-    }
-
-    @Autowired
+	@Autowired
     private CustomerService customerService;
+
+	@Autowired
+    private PerfService perfService;
 
     @RequestMapping("/ping")
     public String ping() {
@@ -74,19 +36,17 @@ public class perfAnalysis {
     }
 
     @RequestMapping("/cpuintensive")
-    public String cpu(@RequestParam int value) {
-		long timestamp_1 = System.currentTimeMillis();
-        int prime_count =  count_prime_calc(value);
-		long timestamp_2 = System.currentTimeMillis();
-		long time_calculate = timestamp_2 - timestamp_1;
-		String response = "count of prime = " + prime_count + ".\n time_calculate = " + time_calculate;
-		return response;
+    public PerfData cpu(
+            @RequestParam long methodCount,
+            @RequestParam long value) {
+
+        return perfService.getCpuIntensiveData(methodCount, value);
     }
 
     @RequestMapping("/memoryintensive")
     public String memoryIntensive(@RequestParam int count) {
 
-        List<Long> val = sum_natural(count);
+        List<Long> val = perfService.sum_natural(count);
         long time_write = val.get(0);
         long time_read = val.get(1);
         long sum = val.get(2);
