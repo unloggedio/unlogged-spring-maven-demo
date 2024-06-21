@@ -42,8 +42,8 @@ public class PropertyServiceCEImpl implements CrudService<PropertyDetails, Long>
         propertyDetails.setPropertyName("Default Property");
 
         PropertyDetails propertyDetails1 = new PropertyDetails();
-        propertyDetails.setPropertyId(2L);
-        propertyDetails1.setPropertyName("Property 1");
+        propertyDetails1.setPropertyId(2L);
+        propertyDetails1.setPropertyName("Property 2");
         return List.of(propertyDetails, propertyDetails1);
     }
 

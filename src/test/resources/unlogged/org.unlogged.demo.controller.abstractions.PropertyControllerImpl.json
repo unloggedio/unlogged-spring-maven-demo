@@ -1,0 +1,2253 @@
+{
+  "classname" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.abstractions.PropertyControllerImpl#findAll#()Ljava/util/List<Lorg/unlogged/demo/models/abstraction/PropertyDetails;>;" : [ {
+      "lineNumbers" : [ 20 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "cad82d8b-c38a-4a8e-b13e-69d8a12558d2",
+            "assertionType" : "EQUAL",
+            "key" : "/0/propertyId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Default Property\"",
+            "id" : "d3fda82e-a3d4-4d14-8991-3d598f5f43b8",
+            "assertionType" : "EQUAL",
+            "key" : "/0/propertyName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "9437f747-c071-434e-9d6d-93e754c0dff5",
+            "assertionType" : "EQUAL",
+            "key" : "/0/description"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "be954ee0-70c8-40e0-9bbd-00f625502deb",
+            "assertionType" : "EQUAL",
+            "key" : "/0/ownerDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "8e504c6a-95d3-468b-8f49-6f8724b1f765",
+            "assertionType" : "EQUAL",
+            "key" : "/0/locationDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "9d51a809-47f4-4434-a443-582f0ab14fd1",
+            "assertionType" : "EQUAL",
+            "key" : "/0/roomDetailsList"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "ae047fa6-0afe-40bd-8d5b-d0a79e7fea94",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "2",
+            "id" : "572f6597-8bd6-440d-927b-43ca7b981ff7",
+            "assertionType" : "EQUAL",
+            "key" : "/1/propertyId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Property 2\"",
+            "id" : "6f81fb7c-0d1f-4ccd-afa6-f692cb5051aa",
+            "assertionType" : "EQUAL",
+            "key" : "/1/propertyName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "8d89d990-6f71-4eea-a130-00d1a5b535a3",
+            "assertionType" : "EQUAL",
+            "key" : "/1/description"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "0bcaddd5-dd9c-4d25-83a8-eff669470b70",
+            "assertionType" : "EQUAL",
+            "key" : "/1/ownerDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "e1413b61-bfb6-4cfe-b839-48bae98930ae",
+            "assertionType" : "EQUAL",
+            "key" : "/1/locationDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "43e5f29f-4e1b-437d-8e1f-0f9e45f84d16",
+            "assertionType" : "EQUAL",
+            "key" : "/1/roomDetailsList"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "359b7b0f-0f51-4392-b33f-8393ddeaac7e",
+          "assertionType" : "ALLOF",
+          "key" : "/1"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "819cfb15-29b0-4424-aadf-8bfc8dc6eab2",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "df107ba9-eace-4a25-bf51-30d8bb95e3e8",
+      "name" : "PropertyControllerImpl.findAll - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"propertyId\":1,\"propertyName\":\"Default Property\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null},{\"propertyId\":2,\"propertyName\":\"Property 2\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 32315600359167,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2035235134,
+      "probSerializedValue" : "W3sicHJvcGVydHlJZCI6MSwicHJvcGVydHlOYW1lIjoiRGVmYXVsdCBQcm9wZXJ0eSIsImRlc2NyaXB0aW9uIjpudWxsLCJvd25lckRldGFpbHMiOm51bGwsImxvY2F0aW9uRGV0YWlscyI6bnVsbCwicm9vbURldGFpbHNMaXN0IjpudWxsfSx7InByb3BlcnR5SWQiOjIsInByb3BlcnR5TmFtZSI6IlByb3BlcnR5IDIiLCJkZXNjcmlwdGlvbiI6bnVsbCwib3duZXJEZXRhaWxzIjpudWxsLCJsb2NhdGlvbkRldGFpbHMiOm51bGwsInJvb21EZXRhaWxzTGlzdCI6bnVsbH1d",
+      "mockIds" : [ "97e11eeb-e515-4655-a113-64eb59616e1c" ],
+      "exception" : false,
+      "method" : {
+        "name" : "findAll",
+        "signature" : "()Ljava/util/List<Lorg/unlogged/demo/models/abstraction/PropertyDetails;>;",
+        "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.controller.abstractions.PropertyControllerImpl#findById#(Ljava/lang/Long;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;" : [ {
+      "lineNumbers" : [ 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "f056d7f8-de79-4abf-be09-2d29fcd884f9",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Default Property\"",
+          "id" : "f5577965-449c-457a-933a-f72075e53e7a",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Default location\"",
+          "id" : "fae421d2-6fa5-4dda-80ef-59490d5da2b2",
+          "assertionType" : "EQUAL",
+          "key" : "/description"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "93f94a13-1f4e-4ef8-9d2e-b3d36394263e",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/ownerId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Owner1\"",
+            "id" : "543ad7d7-7227-470f-afb8-08d9146c710e",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Owner1@ownermail.com\"",
+            "id" : "521498dd-1a07-4429-ba0e-3d5bb2c94b8c",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/email"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"OwnPhone\"",
+            "id" : "c9b89dc0-1e80-4b86-88b6-bb94722f48f0",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/phone"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "e0d9016f-ab37-451a-9dd7-c43c8e5a0ab8",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/locationId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Address line own, l23, l24\"",
+              "id" : "244814af-34e9-43c0-b72e-c899b6442148",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/addressString"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"City l12\"",
+              "id" : "428838e3-c70e-4f9e-9474-0e94009255ae",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/city"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"ZIP-012\"",
+              "id" : "e5e08d81-86f7-40cc-b9aa-3d384e3cb3e3",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/zipCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"country 123\"",
+              "id" : "11581a4b-dcfd-4bf9-a4df-957999d55aed",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/country"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"State 44\"",
+              "id" : "a774f0e9-6f44-42c5-90d5-4e2080d46310",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/state"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "123.34",
+              "id" : "90330923-1d17-4ca2-ac45-67f096c3bf7f",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/latitude"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "25.12",
+              "id" : "adef4094-7079-413b-b353-562cb445ab1a",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/longitude"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "2f0e3fb5-2897-445a-b703-ec0acca606e4",
+            "assertionType" : "ALLOF",
+            "key" : "/ownerDetails/officeLocationDetails"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1c907615-e7c1-4dc2-abd2-c573c8efd1da",
+          "assertionType" : "ALLOF",
+          "key" : "/ownerDetails"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "e960a1aa-1e53-4420-a323-d04bae44f082",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/locationId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Address line, l1, l2\"",
+            "id" : "4a2889ad-4895-4304-a678-a04614911aeb",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/addressString"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"City1\"",
+            "id" : "ae010b15-281a-457b-b368-12f4059680d6",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/city"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"ZIP-098\"",
+            "id" : "b2593a04-61ec-4dcd-ba9e-1d6cb31456cb",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/zipCode"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"country1\"",
+            "id" : "5db3b2a2-0dde-4f82-9918-1ec279f1ddaf",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/country"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"State1\"",
+            "id" : "313aeb8b-6543-4726-a1c4-8f15ffda557b",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/state"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1.0",
+            "id" : "5a6a4114-8c93-49b7-988d-e75b3c916b58",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/latitude"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "2.0",
+            "id" : "24fd991b-20ae-4d54-9983-d07636dd5a32",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/longitude"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "abd46bde-3cdc-4419-8661-877613264e04",
+          "assertionType" : "ALLOF",
+          "key" : "/locationDetails"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "d7be4430-f296-4db2-9485-b2155a6929a6",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "a5f0a748-f1e5-4217-8ab7-1a07ce18f062",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/parentPropertyId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Room1\"",
+              "id" : "85cd2109-4c9e-4eb0-8900-cd6d5beef895",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomName"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Default Room1\"",
+              "id" : "0c6a35f8-df1d-4c52-a36b-612d4a8cd2b5",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomDescription"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"PRIVATE_ROOM\"",
+              "id" : "3b19db47-15b7-4eae-8446-757d47a47921",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomType"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1200.0",
+              "id" : "0a2fa282-80f6-487f-9964-7ef10e0307b3",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/pricePerDay"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "4",
+              "id" : "0bb892a9-7591-494f-9092-16e2ea6b86ab",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/maxCapacity"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "4",
+              "id" : "f346f2ca-528c-49a4-aa2f-8037b9b24cd9",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/occupiedCapacity"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "7f83756f-f2ee-4fd2-82ad-782067f6a905",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/customPriceMap/WEEKDAY"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1.18",
+                "id" : "b7aca994-712e-4f5d-b14b-0e08b75efd14",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/customPriceMap/WEEKEND"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "3d190c8d-d411-46df-8290-5029e4a00816",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/customPriceMap/HOLIDAY"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "e885b1ee-6467-4bfd-b057-e08b53e18fed",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/0/customPriceMap"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"AC\"",
+                "id" : "e0faba6d-1f94-413c-8047-f03ed9302e5c",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/amenitiesList/0"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"WIFI\"",
+                "id" : "46dd4667-909d-4c69-9ac0-f169fcad55ce",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/amenitiesList/1"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "62ad2885-dc7a-4d57-80e3-274289db6389",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/0/amenitiesList"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "b49aa0cb-8f30-40f7-9548-7a6086f6742e",
+            "assertionType" : "ALLOF",
+            "key" : "/roomDetailsList/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "929c7d6c-2ded-43f2-9da6-39bc1a7e16b4",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "02dcefa7-10c2-48e9-baf3-0a865a9e56ec",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/parentPropertyId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Room2\"",
+              "id" : "1df63ef8-f293-4a6b-b6c0-7fd55b7466d4",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomName"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Default Room2\"",
+              "id" : "37b07bf9-4747-411c-b689-51225238bb58",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomDescription"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DORM_ROOM\"",
+              "id" : "afe43dbf-867e-40c4-9185-0a7e2b594af4",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomType"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "750.0",
+              "id" : "91888c85-fbe3-4e9a-a034-fd7b30b91ea2",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/pricePerDay"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "8",
+              "id" : "e5b5fba4-d8a5-4fae-a639-dc6fb92fea95",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/maxCapacity"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3",
+              "id" : "b3d275d1-4e0e-4a42-a5bd-48e67a668edc",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/occupiedCapacity"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "19d7a80d-47e1-41c4-9f05-7be7053bc789",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/customPriceMap/WEEKDAY"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1.18",
+                "id" : "c84922d1-4033-42d4-b676-5082112d25ae",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/customPriceMap/WEEKEND"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "97ef845f-8338-4657-b37b-0d705b97e071",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/customPriceMap/HOLIDAY"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "8917e215-7f14-4700-8f5a-b950f7e42203",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/1/customPriceMap"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"AC\"",
+                "id" : "df39728a-779c-4d37-96a2-f81c7be5ad12",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/amenitiesList/0"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"WIFI\"",
+                "id" : "45761988-3bb2-4af6-9c5b-036fb0b59090",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/amenitiesList/1"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"WASHING_MACHINE\"",
+                "id" : "1b2a9b18-0618-4cc7-9049-f3c0672f3373",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/amenitiesList/2"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "da06bcf0-532b-4855-8bba-092cf552345c",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/1/amenitiesList"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "76891fec-6360-4436-a598-6ec93044f448",
+            "assertionType" : "ALLOF",
+            "key" : "/roomDetailsList/1"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "7de6eed9-15cf-4e55-8441-e8c577fc3aea",
+          "assertionType" : "ALLOF",
+          "key" : "/roomDetailsList"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "c8f3d317-232d-41ab-9419-2e25a18e1e9a",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "4256528f-a5cb-4398-bef1-1d4596c1667e",
+      "name" : "PropertyControllerImpl.findById - normal mocked",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"propertyId\":1,\"propertyName\":\"Default Property\",\"description\":\"Default location\",\"ownerDetails\":{\"ownerId\":1,\"name\":\"Owner1\",\"email\":\"Owner1@ownermail.com\",\"phone\":\"OwnPhone\",\"officeLocationDetails\":{\"locationId\":2,\"addressString\":\"Address line own, l23, l24\",\"city\":\"City l12\",\"zipCode\":\"ZIP-012\",\"country\":\"country 123\",\"state\":\"State 44\",\"latitude\":123.34,\"longitude\":25.12}},\"locationDetails\":{\"locationId\":1,\"addressString\":\"Address line, l1, l2\",\"city\":\"City1\",\"zipCode\":\"ZIP-098\",\"country\":\"country1\",\"state\":\"State1\",\"latitude\":1.0,\"longitude\":2.0},\"roomDetailsList\":[{\"roomId\":1,\"parentPropertyId\":1,\"roomName\":\"Room1\",\"roomDescription\":\"Default Room1\",\"roomType\":\"PRIVATE_ROOM\",\"pricePerDay\":1200.0,\"maxCapacity\":4,\"occupiedCapacity\":4,\"customPriceMap\":{\"WEEKDAY\":null,\"WEEKEND\":1.18,\"HOLIDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\"]},{\"roomId\":2,\"parentPropertyId\":1,\"roomName\":\"Room2\",\"roomDescription\":\"Default Room2\",\"roomType\":\"DORM_ROOM\",\"pricePerDay\":750.0,\"maxCapacity\":8,\"occupiedCapacity\":3,\"customPriceMap\":{\"WEEKDAY\":null,\"WEEKEND\":1.18,\"HOLIDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\",\"WASHING_MACHINE\"]}]}",
+      "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 33268667219198,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1334265310,
+      "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjoxLCJwcm9wZXJ0eU5hbWUiOiJEZWZhdWx0IFByb3BlcnR5IiwiZGVzY3JpcHRpb24iOiJEZWZhdWx0IGxvY2F0aW9uIiwib3duZXJEZXRhaWxzIjp7Im93bmVySWQiOjEsIm5hbWUiOiJPd25lcjEiLCJlbWFpbCI6Ik93bmVyMUBvd25lcm1haWwuY29tIiwicGhvbmUiOiJPd25QaG9uZSIsIm9mZmljZUxvY2F0aW9uRGV0YWlscyI6eyJsb2NhdGlvbklkIjoyLCJhZGRyZXNzU3RyaW5nIjoiQWRkcmVzcyBsaW5lIG93biwgbDIzLCBsMjQiLCJjaXR5IjoiQ2l0eSBsMTIiLCJ6aXBDb2RlIjoiWklQLTAxMiIsImNvdW50cnkiOiJjb3VudHJ5IDEyMyIsInN0YXRlIjoiU3RhdGUgNDQiLCJsYXRpdHVkZSI6MTIzLjM0LCJsb25naXR1ZGUiOjI1LjEyfX0sImxvY2F0aW9uRGV0YWlscyI6eyJsb2NhdGlvbklkIjoxLCJhZGRyZXNzU3RyaW5nIjoiQWRkcmVzcyBsaW5lLCBsMSwgbDIiLCJjaXR5IjoiQ2l0eTEiLCJ6aXBDb2RlIjoiWklQLTA5OCIsImNvdW50cnkiOiJjb3VudHJ5MSIsInN0YXRlIjoiU3RhdGUxIiwibGF0aXR1ZGUiOjEuMCwibG9uZ2l0dWRlIjoyLjB9LCJyb29tRGV0YWlsc0xpc3QiOlt7InJvb21JZCI6MSwicGFyZW50UHJvcGVydHlJZCI6MSwicm9vbU5hbWUiOiJSb29tMSIsInJvb21EZXNjcmlwdGlvbiI6IkRlZmF1bHQgUm9vbTEiLCJyb29tVHlwZSI6IlBSSVZBVEVfUk9PTSIsInByaWNlUGVyRGF5IjoxMjAwLjAsIm1heENhcGFjaXR5Ijo0LCJvY2N1cGllZENhcGFjaXR5Ijo0LCJjdXN0b21QcmljZU1hcCI6eyJXRUVLREFZIjpudWxsLCJXRUVLRU5EIjoxLjE4LCJIT0xJREFZIjpudWxsfSwiYW1lbml0aWVzTGlzdCI6WyJBQyIsIldJRkkiXX0seyJyb29tSWQiOjIsInBhcmVudFByb3BlcnR5SWQiOjEsInJvb21OYW1lIjoiUm9vbTIiLCJyb29tRGVzY3JpcHRpb24iOiJEZWZhdWx0IFJvb20yIiwicm9vbVR5cGUiOiJET1JNX1JPT00iLCJwcmljZVBlckRheSI6NzUwLjAsIm1heENhcGFjaXR5Ijo4LCJvY2N1cGllZENhcGFjaXR5IjozLCJjdXN0b21QcmljZU1hcCI6eyJXRUVLREFZIjpudWxsLCJXRUVLRU5EIjoxLjE4LCJIT0xJREFZIjpudWxsfSwiYW1lbml0aWVzTGlzdCI6WyJBQyIsIldJRkkiLCJXQVNISU5HX01BQ0hJTkUiXX1dfQ==",
+      "mockIds" : [ "2c48c16f-0fe8-4f4d-b119-92f44f4d1d89" ],
+      "exception" : false,
+      "method" : {
+        "name" : "findById",
+        "signature" : "(Ljava/lang/Long;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+        "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+        "methodHash" : 0
+      }
+    },
+      {
+        "lineNumbers" : [ 15 ],
+        "testAssertions" : {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "f056d7f8-de79-4abf-be09-2d29fcd884f9",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Default Property\"",
+            "id" : "f5577965-449c-457a-933a-f72075e53e7a",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Default location\"",
+            "id" : "fae421d2-6fa5-4dda-80ef-59490d5da2b2",
+            "assertionType" : "EQUAL",
+            "key" : "/description"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "93f94a13-1f4e-4ef8-9d2e-b3d36394263e",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/ownerId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Owner1\"",
+              "id" : "543ad7d7-7227-470f-afb8-08d9146c710e",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/name"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Owner1@ownermail.com\"",
+              "id" : "521498dd-1a07-4429-ba0e-3d5bb2c94b8c",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/email"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"OwnPhone\"",
+              "id" : "c9b89dc0-1e80-4b86-88b6-bb94722f48f0",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/phone"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "2",
+                "id" : "e0d9016f-ab37-451a-9dd7-c43c8e5a0ab8",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/locationId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Address line own, l23, l24\"",
+                "id" : "244814af-34e9-43c0-b72e-c899b6442148",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/addressString"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"City l12\"",
+                "id" : "428838e3-c70e-4f9e-9474-0e94009255ae",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/city"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"ZIP-012\"",
+                "id" : "e5e08d81-86f7-40cc-b9aa-3d384e3cb3e3",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/zipCode"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"country 123\"",
+                "id" : "11581a4b-dcfd-4bf9-a4df-957999d55aed",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/country"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"State 44\"",
+                "id" : "a774f0e9-6f44-42c5-90d5-4e2080d46310",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/state"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "123.34",
+                "id" : "90330923-1d17-4ca2-ac45-67f096c3bf7f",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/latitude"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "25.12",
+                "id" : "adef4094-7079-413b-b353-562cb445ab1a",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/longitude"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "2f0e3fb5-2897-445a-b703-ec0acca606e4",
+              "assertionType" : "ALLOF",
+              "key" : "/ownerDetails/officeLocationDetails"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "1c907615-e7c1-4dc2-abd2-c573c8efd1da",
+            "assertionType" : "ALLOF",
+            "key" : "/ownerDetails"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "e960a1aa-1e53-4420-a323-d04bae44f082",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/locationId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Address line, l1, l2\"",
+              "id" : "4a2889ad-4895-4304-a678-a04614911aeb",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/addressString"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"City1\"",
+              "id" : "ae010b15-281a-457b-b368-12f4059680d6",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/city"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"ZIP-098\"",
+              "id" : "b2593a04-61ec-4dcd-ba9e-1d6cb31456cb",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/zipCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"country1\"",
+              "id" : "5db3b2a2-0dde-4f82-9918-1ec279f1ddaf",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/country"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"State1\"",
+              "id" : "313aeb8b-6543-4726-a1c4-8f15ffda557b",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/state"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1.0",
+              "id" : "5a6a4114-8c93-49b7-988d-e75b3c916b58",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/latitude"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2.0",
+              "id" : "24fd991b-20ae-4d54-9983-d07636dd5a32",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/longitude"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "abd46bde-3cdc-4419-8661-877613264e04",
+            "assertionType" : "ALLOF",
+            "key" : "/locationDetails"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1",
+                "id" : "d7be4430-f296-4db2-9485-b2155a6929a6",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1",
+                "id" : "a5f0a748-f1e5-4217-8ab7-1a07ce18f062",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/parentPropertyId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Room1\"",
+                "id" : "85cd2109-4c9e-4eb0-8900-cd6d5beef895",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomName"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Default Room1\"",
+                "id" : "0c6a35f8-df1d-4c52-a36b-612d4a8cd2b5",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomDescription"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"PRIVATE_ROOM\"",
+                "id" : "3b19db47-15b7-4eae-8446-757d47a47921",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomType"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1200.0",
+                "id" : "0a2fa282-80f6-487f-9964-7ef10e0307b3",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/pricePerDay"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "4",
+                "id" : "0bb892a9-7591-494f-9092-16e2ea6b86ab",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/maxCapacity"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "4",
+                "id" : "f346f2ca-528c-49a4-aa2f-8037b9b24cd9",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/occupiedCapacity"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "7f83756f-f2ee-4fd2-82ad-782067f6a905",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/customPriceMap/WEEKDAY"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "1.18",
+                  "id" : "b7aca994-712e-4f5d-b14b-0e08b75efd14",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/customPriceMap/WEEKEND"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "3d190c8d-d411-46df-8290-5029e4a00816",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/customPriceMap/HOLIDAY"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "e885b1ee-6467-4bfd-b057-e08b53e18fed",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/0/customPriceMap"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"AC\"",
+                  "id" : "e0faba6d-1f94-413c-8047-f03ed9302e5c",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/amenitiesList/0"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"WIFI\"",
+                  "id" : "46dd4667-909d-4c69-9ac0-f169fcad55ce",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/amenitiesList/1"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "62ad2885-dc7a-4d57-80e3-274289db6389",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/0/amenitiesList"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "b49aa0cb-8f30-40f7-9548-7a6086f6742e",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/0"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "2",
+                "id" : "929c7d6c-2ded-43f2-9da6-39bc1a7e16b4",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1",
+                "id" : "02dcefa7-10c2-48e9-baf3-0a865a9e56ec",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/parentPropertyId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Room2\"",
+                "id" : "1df63ef8-f293-4a6b-b6c0-7fd55b7466d4",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomName"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Default Room2\"",
+                "id" : "37b07bf9-4747-411c-b689-51225238bb58",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomDescription"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"DORM_ROOM\"",
+                "id" : "afe43dbf-867e-40c4-9185-0a7e2b594af4",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomType"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "750.0",
+                "id" : "91888c85-fbe3-4e9a-a034-fd7b30b91ea2",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/pricePerDay"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "8",
+                "id" : "e5b5fba4-d8a5-4fae-a639-dc6fb92fea95",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/maxCapacity"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "3",
+                "id" : "b3d275d1-4e0e-4a42-a5bd-48e67a668edc",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/occupiedCapacity"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "19d7a80d-47e1-41c4-9f05-7be7053bc789",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/customPriceMap/WEEKDAY"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "1.18",
+                  "id" : "c84922d1-4033-42d4-b676-5082112d25ae",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/customPriceMap/WEEKEND"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "97ef845f-8338-4657-b37b-0d705b97e071",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/customPriceMap/HOLIDAY"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "8917e215-7f14-4700-8f5a-b950f7e42203",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/1/customPriceMap"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"AC\"",
+                  "id" : "df39728a-779c-4d37-96a2-f81c7be5ad12",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/amenitiesList/0"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"WIFI\"",
+                  "id" : "45761988-3bb2-4af6-9c5b-036fb0b59090",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/amenitiesList/1"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"WASHING_MACHINE\"",
+                  "id" : "1b2a9b18-0618-4cc7-9049-f3c0672f3373",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/amenitiesList/2"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "da06bcf0-532b-4855-8bba-092cf552345c",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/1/amenitiesList"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "76891fec-6360-4436-a598-6ec93044f448",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/1"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "7de6eed9-15cf-4e55-8441-e8c577fc3aea",
+            "assertionType" : "ALLOF",
+            "key" : "/roomDetailsList"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c8f3d317-232d-41ab-9419-2e25a18e1e9a",
+          "assertionType" : "ALLOF",
+          "key" : "/"
+        },
+        "candidateId" : "4256528f-a5cb-4398-bef1-1d4596c1667e",
+        "name" : "PropertyControllerImpl.findById - normal integration",
+        "description" : null,
+        "methodArguments" : [ "1" ],
+        "returnValue" : "{\"propertyId\":1,\"propertyName\":\"Default Property\",\"description\":\"Default location\",\"ownerDetails\":{\"ownerId\":1,\"name\":\"Owner1\",\"email\":\"Owner1@ownermail.com\",\"phone\":\"OwnPhone\",\"officeLocationDetails\":{\"locationId\":2,\"addressString\":\"Address line own, l23, l24\",\"city\":\"City l12\",\"zipCode\":\"ZIP-012\",\"country\":\"country 123\",\"state\":\"State 44\",\"latitude\":123.34,\"longitude\":25.12}},\"locationDetails\":{\"locationId\":1,\"addressString\":\"Address line, l1, l2\",\"city\":\"City1\",\"zipCode\":\"ZIP-098\",\"country\":\"country1\",\"state\":\"State1\",\"latitude\":1.0,\"longitude\":2.0},\"roomDetailsList\":[{\"roomId\":1,\"parentPropertyId\":1,\"roomName\":\"Room1\",\"roomDescription\":\"Default Room1\",\"roomType\":\"PRIVATE_ROOM\",\"pricePerDay\":1200.0,\"maxCapacity\":4,\"occupiedCapacity\":4,\"customPriceMap\":{\"WEEKDAY\":null,\"WEEKEND\":1.18,\"HOLIDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\"]},{\"roomId\":2,\"parentPropertyId\":1,\"roomName\":\"Room2\",\"roomDescription\":\"Default Room2\",\"roomType\":\"DORM_ROOM\",\"pricePerDay\":750.0,\"maxCapacity\":8,\"occupiedCapacity\":3,\"customPriceMap\":{\"WEEKDAY\":null,\"WEEKEND\":1.18,\"HOLIDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\",\"WASHING_MACHINE\"]}]}",
+        "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+        "metadata" : {
+          "recordedBy" : "testerfresher",
+          "hostMachineName" : "testerfresher",
+          "timestamp" : 33268667219198,
+          "candidateStatus" : "NA"
+        },
+        "sessionIdentifier" : 1334265310,
+        "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjoxLCJwcm9wZXJ0eU5hbWUiOiJEZWZhdWx0IFByb3BlcnR5IiwiZGVzY3JpcHRpb24iOiJEZWZhdWx0IGxvY2F0aW9uIiwib3duZXJEZXRhaWxzIjp7Im93bmVySWQiOjEsIm5hbWUiOiJPd25lcjEiLCJlbWFpbCI6Ik93bmVyMUBvd25lcm1haWwuY29tIiwicGhvbmUiOiJPd25QaG9uZSIsIm9mZmljZUxvY2F0aW9uRGV0YWlscyI6eyJsb2NhdGlvbklkIjoyLCJhZGRyZXNzU3RyaW5nIjoiQWRkcmVzcyBsaW5lIG93biwgbDIzLCBsMjQiLCJjaXR5IjoiQ2l0eSBsMTIiLCJ6aXBDb2RlIjoiWklQLTAxMiIsImNvdW50cnkiOiJjb3VudHJ5IDEyMyIsInN0YXRlIjoiU3RhdGUgNDQiLCJsYXRpdHVkZSI6MTIzLjM0LCJsb25naXR1ZGUiOjI1LjEyfX0sImxvY2F0aW9uRGV0YWlscyI6eyJsb2NhdGlvbklkIjoxLCJhZGRyZXNzU3RyaW5nIjoiQWRkcmVzcyBsaW5lLCBsMSwgbDIiLCJjaXR5IjoiQ2l0eTEiLCJ6aXBDb2RlIjoiWklQLTA5OCIsImNvdW50cnkiOiJjb3VudHJ5MSIsInN0YXRlIjoiU3RhdGUxIiwibGF0aXR1ZGUiOjEuMCwibG9uZ2l0dWRlIjoyLjB9LCJyb29tRGV0YWlsc0xpc3QiOlt7InJvb21JZCI6MSwicGFyZW50UHJvcGVydHlJZCI6MSwicm9vbU5hbWUiOiJSb29tMSIsInJvb21EZXNjcmlwdGlvbiI6IkRlZmF1bHQgUm9vbTEiLCJyb29tVHlwZSI6IlBSSVZBVEVfUk9PTSIsInByaWNlUGVyRGF5IjoxMjAwLjAsIm1heENhcGFjaXR5Ijo0LCJvY2N1cGllZENhcGFjaXR5Ijo0LCJjdXN0b21QcmljZU1hcCI6eyJXRUVLREFZIjpudWxsLCJXRUVLRU5EIjoxLjE4LCJIT0xJREFZIjpudWxsfSwiYW1lbml0aWVzTGlzdCI6WyJBQyIsIldJRkkiXX0seyJyb29tSWQiOjIsInBhcmVudFByb3BlcnR5SWQiOjEsInJvb21OYW1lIjoiUm9vbTIiLCJyb29tRGVzY3JpcHRpb24iOiJEZWZhdWx0IFJvb20yIiwicm9vbVR5cGUiOiJET1JNX1JPT00iLCJwcmljZVBlckRheSI6NzUwLjAsIm1heENhcGFjaXR5Ijo4LCJvY2N1cGllZENhcGFjaXR5IjozLCJjdXN0b21QcmljZU1hcCI6eyJXRUVLREFZIjpudWxsLCJXRUVLRU5EIjoxLjE4LCJIT0xJREFZIjpudWxsfSwiYW1lbml0aWVzTGlzdCI6WyJBQyIsIldJRkkiLCJXQVNISU5HX01BQ0hJTkUiXX1dfQ==",
+        "mockIds" : [ ],
+        "exception" : false,
+        "method" : {
+          "name" : "findById",
+          "signature" : "(Ljava/lang/Long;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+          "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+          "methodHash" : 0
+        }
+      }
+    ],
+    "org.unlogged.demo.controller.abstractions.PropertyControllerImpl#deleteById#(Ljava/lang/Long;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;" : [ {
+      "lineNumbers" : [ 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "bf2dd375-3465-4185-bf99-747a5f045d33",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Default Property#Deleted\"",
+          "id" : "e00e9fba-e2f3-4181-80df-6f73671693f7",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Default location\"",
+          "id" : "ac48b6c5-b650-46f8-b9c8-26083e5ce57d",
+          "assertionType" : "EQUAL",
+          "key" : "/description"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "acf6f749-0337-4b34-b064-b23feae8924e",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/ownerId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Owner1\"",
+            "id" : "a3fbd6f7-7487-4e9f-b75b-1853ba7ad4d8",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Owner1@ownermail.com\"",
+            "id" : "f18b1bb5-0d68-4cc3-8f17-57cbd2a92e15",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/email"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"OwnPhone\"",
+            "id" : "069e5fdc-c317-4033-a3a6-b3475cf76d83",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails/phone"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "2a57bcde-2a7e-40d9-b6da-730fbb8a64d7",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/locationId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Address line own, l23, l24\"",
+              "id" : "a6e919a3-1344-4ca9-af4d-060deb56b516",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/addressString"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"City l12\"",
+              "id" : "a52821bb-3d3c-4e30-9ddf-9935832304d1",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/city"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"ZIP-012\"",
+              "id" : "a14ddcab-66fb-49d3-b1eb-3b75adfaaeb4",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/zipCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"country 123\"",
+              "id" : "d31c6111-04d3-4e17-96f4-5d6936955c7d",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/country"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"State 44\"",
+              "id" : "1673f611-cfd7-4d2c-bf07-1fa075534ce9",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/state"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "123.34",
+              "id" : "65c97c59-9216-403a-b920-9278844ed02b",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/latitude"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "25.12",
+              "id" : "0f05b723-0e8f-4dc8-9775-aa89f8800b7d",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/officeLocationDetails/longitude"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "4cc271e0-5696-446b-a387-eefc84a1eee0",
+            "assertionType" : "ALLOF",
+            "key" : "/ownerDetails/officeLocationDetails"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "5b1d2290-59c6-4c7a-8631-255c0e5d5cef",
+          "assertionType" : "ALLOF",
+          "key" : "/ownerDetails"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "74d87595-bd2a-4f08-b89e-12ce70545c6a",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/locationId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Address line, l1, l2\"",
+            "id" : "8e801bf9-8011-4832-bc6e-3ced00ffe713",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/addressString"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"City1\"",
+            "id" : "d53f8963-5de0-4a7b-ad21-6104af04e997",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/city"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"ZIP-098\"",
+            "id" : "eabf6c9c-dfea-4493-b1c2-e217d9d06d27",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/zipCode"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"country1\"",
+            "id" : "cd0699d0-d98a-4ab1-af05-eff45644d6dc",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/country"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"State1\"",
+            "id" : "7bff3014-977f-4b64-818e-e9cdca40bf23",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/state"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1.0",
+            "id" : "4d8c88eb-7439-4f80-bfd8-7ba4d8a39ddd",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/latitude"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "2.0",
+            "id" : "e9dfab62-d6f5-4105-a1d3-53ee6e1a3367",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails/longitude"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "6ee65a9a-422c-4905-8d87-a6b25941fa9c",
+          "assertionType" : "ALLOF",
+          "key" : "/locationDetails"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "d76c1fa1-5b4d-49c3-a2e7-f0ace3a2d069",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "bcf3aed2-24ef-4cdf-bd9f-891a83e303a1",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/parentPropertyId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Room1\"",
+              "id" : "9ff2e950-f5c8-4620-8402-eb5c86994415",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomName"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Default Room1\"",
+              "id" : "0b92e4c2-3070-4863-95e0-07a0695e0101",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomDescription"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"PRIVATE_ROOM\"",
+              "id" : "cda25be8-f26a-412b-93b1-59411b421942",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/roomType"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1200.0",
+              "id" : "3baf960d-3b47-4089-a2fa-6de7cd539b5c",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/pricePerDay"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "4",
+              "id" : "545320a5-16dd-467e-8e93-fa03200e2cc2",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/maxCapacity"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "4",
+              "id" : "8d5b7ac5-35dc-49d8-9d64-d4ed5dcfc6cd",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/0/occupiedCapacity"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1.18",
+                "id" : "99551ef8-30d9-441a-8183-6af4656ca0a8",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/customPriceMap/WEEKEND"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "d1531704-49e3-4a94-86f6-3b89bbb01f4e",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/customPriceMap/HOLIDAY"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "72a088b5-b28e-45ac-b843-814e2381b465",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/customPriceMap/WEEKDAY"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "f1995953-acc8-4bfd-a40b-aea8fa892fef",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/0/customPriceMap"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"AC\"",
+                "id" : "d904f4f3-5dbc-4bf0-9285-383cc2b3ace8",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/amenitiesList/0"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"WIFI\"",
+                "id" : "f99dd040-d7f5-484c-b1ef-2d87cc583ae3",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/amenitiesList/1"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "a8348e24-4511-48e8-8459-0d08e5a17710",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/0/amenitiesList"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "637f7d3c-85a1-4340-87c3-49196b0286d5",
+            "assertionType" : "ALLOF",
+            "key" : "/roomDetailsList/0"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2",
+              "id" : "78b8ff34-7b01-421c-9023-0cb5f5d41fad",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "c772b524-aa43-439d-a48c-bb9b20846910",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/parentPropertyId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Room2\"",
+              "id" : "ddf1a713-c29e-4e4b-8bce-8b34d8c78118",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomName"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Default Room2\"",
+              "id" : "ad478ed8-39f3-496e-9ad6-a56ae200fb4c",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomDescription"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"DORM_ROOM\"",
+              "id" : "7a2a12ff-1f65-472f-8dfb-18f7975019ce",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/roomType"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "750.0",
+              "id" : "2e62fcbe-ff0e-4d67-85e6-3dc13844a41a",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/pricePerDay"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "8",
+              "id" : "28bcfa74-2ed2-4c97-a018-808103baedf8",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/maxCapacity"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "3",
+              "id" : "6cc62d01-ade6-4b3f-bbe0-4250366bae3a",
+              "assertionType" : "EQUAL",
+              "key" : "/roomDetailsList/1/occupiedCapacity"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1.18",
+                "id" : "1cee4d0b-281d-4e09-ada7-c2542fe98a5b",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/customPriceMap/WEEKEND"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "5caa138f-583d-4c56-beed-6f97fc558a57",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/customPriceMap/HOLIDAY"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "null",
+                "id" : "702b866e-5ca5-4ed3-a0de-40e573d1a1b5",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/customPriceMap/WEEKDAY"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "fb1ea3b8-9449-48cc-bcdd-15d8626cd3f7",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/1/customPriceMap"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"AC\"",
+                "id" : "984058bd-89b0-4213-8596-8ab4024a9f44",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/amenitiesList/0"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"WIFI\"",
+                "id" : "15fb1156-6cc9-4d3c-9a0a-a8a33de1cb69",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/amenitiesList/1"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"WASHING_MACHINE\"",
+                "id" : "f9448e1d-e6fb-41dc-ba5c-d74ec5ee6af1",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/amenitiesList/2"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "97268524-2ecf-4f6c-9ff7-9bc2fd1f2251",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/1/amenitiesList"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "b68952f8-cbf1-4084-973b-d2d661231b9f",
+            "assertionType" : "ALLOF",
+            "key" : "/roomDetailsList/1"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "c669e1a5-9c26-4556-99ca-e92745334dda",
+          "assertionType" : "ALLOF",
+          "key" : "/roomDetailsList"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "bfdd9ef6-ef15-4b3a-88cd-26f9d13c7676",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "09664517-4973-4189-b154-d6cdaaae8e19",
+      "name" : "PropertyControllerImpl.deleteById - normal mocked",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"propertyId\":1,\"propertyName\":\"Default Property#Deleted\",\"description\":\"Default location\",\"ownerDetails\":{\"ownerId\":1,\"name\":\"Owner1\",\"email\":\"Owner1@ownermail.com\",\"phone\":\"OwnPhone\",\"officeLocationDetails\":{\"locationId\":2,\"addressString\":\"Address line own, l23, l24\",\"city\":\"City l12\",\"zipCode\":\"ZIP-012\",\"country\":\"country 123\",\"state\":\"State 44\",\"latitude\":123.34,\"longitude\":25.12}},\"locationDetails\":{\"locationId\":1,\"addressString\":\"Address line, l1, l2\",\"city\":\"City1\",\"zipCode\":\"ZIP-098\",\"country\":\"country1\",\"state\":\"State1\",\"latitude\":1.0,\"longitude\":2.0},\"roomDetailsList\":[{\"roomId\":1,\"parentPropertyId\":1,\"roomName\":\"Room1\",\"roomDescription\":\"Default Room1\",\"roomType\":\"PRIVATE_ROOM\",\"pricePerDay\":1200.0,\"maxCapacity\":4,\"occupiedCapacity\":4,\"customPriceMap\":{\"WEEKEND\":1.18,\"HOLIDAY\":null,\"WEEKDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\"]},{\"roomId\":2,\"parentPropertyId\":1,\"roomName\":\"Room2\",\"roomDescription\":\"Default Room2\",\"roomType\":\"DORM_ROOM\",\"pricePerDay\":750.0,\"maxCapacity\":8,\"occupiedCapacity\":3,\"customPriceMap\":{\"WEEKEND\":1.18,\"HOLIDAY\":null,\"WEEKDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\",\"WASHING_MACHINE\"]}]}",
+      "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 34979038302796,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -872522346,
+      "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjoxLCJwcm9wZXJ0eU5hbWUiOiJEZWZhdWx0IFByb3BlcnR5I0RlbGV0ZWQiLCJkZXNjcmlwdGlvbiI6IkRlZmF1bHQgbG9jYXRpb24iLCJvd25lckRldGFpbHMiOnsib3duZXJJZCI6MSwibmFtZSI6Ik93bmVyMSIsImVtYWlsIjoiT3duZXIxQG93bmVybWFpbC5jb20iLCJwaG9uZSI6Ik93blBob25lIiwib2ZmaWNlTG9jYXRpb25EZXRhaWxzIjp7ImxvY2F0aW9uSWQiOjIsImFkZHJlc3NTdHJpbmciOiJBZGRyZXNzIGxpbmUgb3duLCBsMjMsIGwyNCIsImNpdHkiOiJDaXR5IGwxMiIsInppcENvZGUiOiJaSVAtMDEyIiwiY291bnRyeSI6ImNvdW50cnkgMTIzIiwic3RhdGUiOiJTdGF0ZSA0NCIsImxhdGl0dWRlIjoxMjMuMzQsImxvbmdpdHVkZSI6MjUuMTJ9fSwibG9jYXRpb25EZXRhaWxzIjp7ImxvY2F0aW9uSWQiOjEsImFkZHJlc3NTdHJpbmciOiJBZGRyZXNzIGxpbmUsIGwxLCBsMiIsImNpdHkiOiJDaXR5MSIsInppcENvZGUiOiJaSVAtMDk4IiwiY291bnRyeSI6ImNvdW50cnkxIiwic3RhdGUiOiJTdGF0ZTEiLCJsYXRpdHVkZSI6MS4wLCJsb25naXR1ZGUiOjIuMH0sInJvb21EZXRhaWxzTGlzdCI6W3sicm9vbUlkIjoxLCJwYXJlbnRQcm9wZXJ0eUlkIjoxLCJyb29tTmFtZSI6IlJvb20xIiwicm9vbURlc2NyaXB0aW9uIjoiRGVmYXVsdCBSb29tMSIsInJvb21UeXBlIjoiUFJJVkFURV9ST09NIiwicHJpY2VQZXJEYXkiOjEyMDAuMCwibWF4Q2FwYWNpdHkiOjQsIm9jY3VwaWVkQ2FwYWNpdHkiOjQsImN1c3RvbVByaWNlTWFwIjp7IldFRUtFTkQiOjEuMTgsIkhPTElEQVkiOm51bGwsIldFRUtEQVkiOm51bGx9LCJhbWVuaXRpZXNMaXN0IjpbIkFDIiwiV0lGSSJdfSx7InJvb21JZCI6MiwicGFyZW50UHJvcGVydHlJZCI6MSwicm9vbU5hbWUiOiJSb29tMiIsInJvb21EZXNjcmlwdGlvbiI6IkRlZmF1bHQgUm9vbTIiLCJyb29tVHlwZSI6IkRPUk1fUk9PTSIsInByaWNlUGVyRGF5Ijo3NTAuMCwibWF4Q2FwYWNpdHkiOjgsIm9jY3VwaWVkQ2FwYWNpdHkiOjMsImN1c3RvbVByaWNlTWFwIjp7IldFRUtFTkQiOjEuMTgsIkhPTElEQVkiOm51bGwsIldFRUtEQVkiOm51bGx9LCJhbWVuaXRpZXNMaXN0IjpbIkFDIiwiV0lGSSIsIldBU0hJTkdfTUFDSElORSJdfV19",
+      "mockIds" : [ "ee50f3c4-3f76-48ce-bddb-f647ab224b92" ],
+      "exception" : false,
+      "method" : {
+        "name" : "deleteById",
+        "signature" : "(Ljava/lang/Long;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+        "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+        "methodHash" : 0
+      }
+    },
+      {
+        "lineNumbers" : [ 35 ],
+        "testAssertions" : {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1",
+            "id" : "bf2dd375-3465-4185-bf99-747a5f045d33",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Default Property#Deleted\"",
+            "id" : "e00e9fba-e2f3-4181-80df-6f73671693f7",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Default location\"",
+            "id" : "ac48b6c5-b650-46f8-b9c8-26083e5ce57d",
+            "assertionType" : "EQUAL",
+            "key" : "/description"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "acf6f749-0337-4b34-b064-b23feae8924e",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/ownerId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Owner1\"",
+              "id" : "a3fbd6f7-7487-4e9f-b75b-1853ba7ad4d8",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/name"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Owner1@ownermail.com\"",
+              "id" : "f18b1bb5-0d68-4cc3-8f17-57cbd2a92e15",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/email"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"OwnPhone\"",
+              "id" : "069e5fdc-c317-4033-a3a6-b3475cf76d83",
+              "assertionType" : "EQUAL",
+              "key" : "/ownerDetails/phone"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "2",
+                "id" : "2a57bcde-2a7e-40d9-b6da-730fbb8a64d7",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/locationId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Address line own, l23, l24\"",
+                "id" : "a6e919a3-1344-4ca9-af4d-060deb56b516",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/addressString"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"City l12\"",
+                "id" : "a52821bb-3d3c-4e30-9ddf-9935832304d1",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/city"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"ZIP-012\"",
+                "id" : "a14ddcab-66fb-49d3-b1eb-3b75adfaaeb4",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/zipCode"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"country 123\"",
+                "id" : "d31c6111-04d3-4e17-96f4-5d6936955c7d",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/country"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"State 44\"",
+                "id" : "1673f611-cfd7-4d2c-bf07-1fa075534ce9",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/state"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "123.34",
+                "id" : "65c97c59-9216-403a-b920-9278844ed02b",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/latitude"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "25.12",
+                "id" : "0f05b723-0e8f-4dc8-9775-aa89f8800b7d",
+                "assertionType" : "EQUAL",
+                "key" : "/ownerDetails/officeLocationDetails/longitude"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "4cc271e0-5696-446b-a387-eefc84a1eee0",
+              "assertionType" : "ALLOF",
+              "key" : "/ownerDetails/officeLocationDetails"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "5b1d2290-59c6-4c7a-8631-255c0e5d5cef",
+            "assertionType" : "ALLOF",
+            "key" : "/ownerDetails"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1",
+              "id" : "74d87595-bd2a-4f08-b89e-12ce70545c6a",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/locationId"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Address line, l1, l2\"",
+              "id" : "8e801bf9-8011-4832-bc6e-3ced00ffe713",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/addressString"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"City1\"",
+              "id" : "d53f8963-5de0-4a7b-ad21-6104af04e997",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/city"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"ZIP-098\"",
+              "id" : "eabf6c9c-dfea-4493-b1c2-e217d9d06d27",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/zipCode"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"country1\"",
+              "id" : "cd0699d0-d98a-4ab1-af05-eff45644d6dc",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/country"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"State1\"",
+              "id" : "7bff3014-977f-4b64-818e-e9cdca40bf23",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/state"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "1.0",
+              "id" : "4d8c88eb-7439-4f80-bfd8-7ba4d8a39ddd",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/latitude"
+            }, {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "2.0",
+              "id" : "e9dfab62-d6f5-4105-a1d3-53ee6e1a3367",
+              "assertionType" : "EQUAL",
+              "key" : "/locationDetails/longitude"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "6ee65a9a-422c-4905-8d87-a6b25941fa9c",
+            "assertionType" : "ALLOF",
+            "key" : "/locationDetails"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1",
+                "id" : "d76c1fa1-5b4d-49c3-a2e7-f0ace3a2d069",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1",
+                "id" : "bcf3aed2-24ef-4cdf-bd9f-891a83e303a1",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/parentPropertyId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Room1\"",
+                "id" : "9ff2e950-f5c8-4620-8402-eb5c86994415",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomName"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Default Room1\"",
+                "id" : "0b92e4c2-3070-4863-95e0-07a0695e0101",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomDescription"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"PRIVATE_ROOM\"",
+                "id" : "cda25be8-f26a-412b-93b1-59411b421942",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/roomType"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1200.0",
+                "id" : "3baf960d-3b47-4089-a2fa-6de7cd539b5c",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/pricePerDay"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "4",
+                "id" : "545320a5-16dd-467e-8e93-fa03200e2cc2",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/maxCapacity"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "4",
+                "id" : "8d5b7ac5-35dc-49d8-9d64-d4ed5dcfc6cd",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/0/occupiedCapacity"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "1.18",
+                  "id" : "99551ef8-30d9-441a-8183-6af4656ca0a8",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/customPriceMap/WEEKEND"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "d1531704-49e3-4a94-86f6-3b89bbb01f4e",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/customPriceMap/HOLIDAY"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "72a088b5-b28e-45ac-b843-814e2381b465",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/customPriceMap/WEEKDAY"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "f1995953-acc8-4bfd-a40b-aea8fa892fef",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/0/customPriceMap"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"AC\"",
+                  "id" : "d904f4f3-5dbc-4bf0-9285-383cc2b3ace8",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/amenitiesList/0"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"WIFI\"",
+                  "id" : "f99dd040-d7f5-484c-b1ef-2d87cc583ae3",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/0/amenitiesList/1"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "a8348e24-4511-48e8-8459-0d08e5a17710",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/0/amenitiesList"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "637f7d3c-85a1-4340-87c3-49196b0286d5",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/0"
+            }, {
+              "subAssertions" : [ {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "2",
+                "id" : "78b8ff34-7b01-421c-9023-0cb5f5d41fad",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "1",
+                "id" : "c772b524-aa43-439d-a48c-bb9b20846910",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/parentPropertyId"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Room2\"",
+                "id" : "ddf1a713-c29e-4e4b-8bce-8b34d8c78118",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomName"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"Default Room2\"",
+                "id" : "ad478ed8-39f3-496e-9ad6-a56ae200fb4c",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomDescription"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "\"DORM_ROOM\"",
+                "id" : "7a2a12ff-1f65-472f-8dfb-18f7975019ce",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/roomType"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "750.0",
+                "id" : "2e62fcbe-ff0e-4d67-85e6-3dc13844a41a",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/pricePerDay"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "8",
+                "id" : "28bcfa74-2ed2-4c97-a018-808103baedf8",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/maxCapacity"
+              }, {
+                "subAssertions" : [ ],
+                "expression" : "SELF",
+                "expectedValue" : "3",
+                "id" : "6cc62d01-ade6-4b3f-bbe0-4250366bae3a",
+                "assertionType" : "EQUAL",
+                "key" : "/roomDetailsList/1/occupiedCapacity"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "1.18",
+                  "id" : "1cee4d0b-281d-4e09-ada7-c2542fe98a5b",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/customPriceMap/WEEKEND"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "5caa138f-583d-4c56-beed-6f97fc558a57",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/customPriceMap/HOLIDAY"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "null",
+                  "id" : "702b866e-5ca5-4ed3-a0de-40e573d1a1b5",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/customPriceMap/WEEKDAY"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "fb1ea3b8-9449-48cc-bcdd-15d8626cd3f7",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/1/customPriceMap"
+              }, {
+                "subAssertions" : [ {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"AC\"",
+                  "id" : "984058bd-89b0-4213-8596-8ab4024a9f44",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/amenitiesList/0"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"WIFI\"",
+                  "id" : "15fb1156-6cc9-4d3c-9a0a-a8a33de1cb69",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/amenitiesList/1"
+                }, {
+                  "subAssertions" : [ ],
+                  "expression" : "SELF",
+                  "expectedValue" : "\"WASHING_MACHINE\"",
+                  "id" : "f9448e1d-e6fb-41dc-ba5c-d74ec5ee6af1",
+                  "assertionType" : "EQUAL",
+                  "key" : "/roomDetailsList/1/amenitiesList/2"
+                } ],
+                "expression" : "SELF",
+                "expectedValue" : "true",
+                "id" : "97268524-2ecf-4f6c-9ff7-9bc2fd1f2251",
+                "assertionType" : "ALLOF",
+                "key" : "/roomDetailsList/1/amenitiesList"
+              } ],
+              "expression" : "SELF",
+              "expectedValue" : "true",
+              "id" : "b68952f8-cbf1-4084-973b-d2d661231b9f",
+              "assertionType" : "ALLOF",
+              "key" : "/roomDetailsList/1"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "c669e1a5-9c26-4556-99ca-e92745334dda",
+            "assertionType" : "ALLOF",
+            "key" : "/roomDetailsList"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "bfdd9ef6-ef15-4b3a-88cd-26f9d13c7676",
+          "assertionType" : "ALLOF",
+          "key" : "/"
+        },
+        "candidateId" : "09664517-4973-4189-b154-d6cdaaae8e19",
+        "name" : "PropertyControllerImpl.deleteById - normal integration",
+        "description" : null,
+        "methodArguments" : [ "1" ],
+        "returnValue" : "{\"propertyId\":1,\"propertyName\":\"Default Property#Deleted\",\"description\":\"Default location\",\"ownerDetails\":{\"ownerId\":1,\"name\":\"Owner1\",\"email\":\"Owner1@ownermail.com\",\"phone\":\"OwnPhone\",\"officeLocationDetails\":{\"locationId\":2,\"addressString\":\"Address line own, l23, l24\",\"city\":\"City l12\",\"zipCode\":\"ZIP-012\",\"country\":\"country 123\",\"state\":\"State 44\",\"latitude\":123.34,\"longitude\":25.12}},\"locationDetails\":{\"locationId\":1,\"addressString\":\"Address line, l1, l2\",\"city\":\"City1\",\"zipCode\":\"ZIP-098\",\"country\":\"country1\",\"state\":\"State1\",\"latitude\":1.0,\"longitude\":2.0},\"roomDetailsList\":[{\"roomId\":1,\"parentPropertyId\":1,\"roomName\":\"Room1\",\"roomDescription\":\"Default Room1\",\"roomType\":\"PRIVATE_ROOM\",\"pricePerDay\":1200.0,\"maxCapacity\":4,\"occupiedCapacity\":4,\"customPriceMap\":{\"WEEKEND\":1.18,\"HOLIDAY\":null,\"WEEKDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\"]},{\"roomId\":2,\"parentPropertyId\":1,\"roomName\":\"Room2\",\"roomDescription\":\"Default Room2\",\"roomType\":\"DORM_ROOM\",\"pricePerDay\":750.0,\"maxCapacity\":8,\"occupiedCapacity\":3,\"customPriceMap\":{\"WEEKEND\":1.18,\"HOLIDAY\":null,\"WEEKDAY\":null},\"amenitiesList\":[\"AC\",\"WIFI\",\"WASHING_MACHINE\"]}]}",
+        "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+        "metadata" : {
+          "recordedBy" : "testerfresher",
+          "hostMachineName" : "testerfresher",
+          "timestamp" : 34979038302796,
+          "candidateStatus" : "NA"
+        },
+        "sessionIdentifier" : -872522346,
+        "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjoxLCJwcm9wZXJ0eU5hbWUiOiJEZWZhdWx0IFByb3BlcnR5I0RlbGV0ZWQiLCJkZXNjcmlwdGlvbiI6IkRlZmF1bHQgbG9jYXRpb24iLCJvd25lckRldGFpbHMiOnsib3duZXJJZCI6MSwibmFtZSI6Ik93bmVyMSIsImVtYWlsIjoiT3duZXIxQG93bmVybWFpbC5jb20iLCJwaG9uZSI6Ik93blBob25lIiwib2ZmaWNlTG9jYXRpb25EZXRhaWxzIjp7ImxvY2F0aW9uSWQiOjIsImFkZHJlc3NTdHJpbmciOiJBZGRyZXNzIGxpbmUgb3duLCBsMjMsIGwyNCIsImNpdHkiOiJDaXR5IGwxMiIsInppcENvZGUiOiJaSVAtMDEyIiwiY291bnRyeSI6ImNvdW50cnkgMTIzIiwic3RhdGUiOiJTdGF0ZSA0NCIsImxhdGl0dWRlIjoxMjMuMzQsImxvbmdpdHVkZSI6MjUuMTJ9fSwibG9jYXRpb25EZXRhaWxzIjp7ImxvY2F0aW9uSWQiOjEsImFkZHJlc3NTdHJpbmciOiJBZGRyZXNzIGxpbmUsIGwxLCBsMiIsImNpdHkiOiJDaXR5MSIsInppcENvZGUiOiJaSVAtMDk4IiwiY291bnRyeSI6ImNvdW50cnkxIiwic3RhdGUiOiJTdGF0ZTEiLCJsYXRpdHVkZSI6MS4wLCJsb25naXR1ZGUiOjIuMH0sInJvb21EZXRhaWxzTGlzdCI6W3sicm9vbUlkIjoxLCJwYXJlbnRQcm9wZXJ0eUlkIjoxLCJyb29tTmFtZSI6IlJvb20xIiwicm9vbURlc2NyaXB0aW9uIjoiRGVmYXVsdCBSb29tMSIsInJvb21UeXBlIjoiUFJJVkFURV9ST09NIiwicHJpY2VQZXJEYXkiOjEyMDAuMCwibWF4Q2FwYWNpdHkiOjQsIm9jY3VwaWVkQ2FwYWNpdHkiOjQsImN1c3RvbVByaWNlTWFwIjp7IldFRUtFTkQiOjEuMTgsIkhPTElEQVkiOm51bGwsIldFRUtEQVkiOm51bGx9LCJhbWVuaXRpZXNMaXN0IjpbIkFDIiwiV0lGSSJdfSx7InJvb21JZCI6MiwicGFyZW50UHJvcGVydHlJZCI6MSwicm9vbU5hbWUiOiJSb29tMiIsInJvb21EZXNjcmlwdGlvbiI6IkRlZmF1bHQgUm9vbTIiLCJyb29tVHlwZSI6IkRPUk1fUk9PTSIsInByaWNlUGVyRGF5Ijo3NTAuMCwibWF4Q2FwYWNpdHkiOjgsIm9jY3VwaWVkQ2FwYWNpdHkiOjMsImN1c3RvbVByaWNlTWFwIjp7IldFRUtFTkQiOjEuMTgsIkhPTElEQVkiOm51bGwsIldFRUtEQVkiOm51bGx9LCJhbWVuaXRpZXNMaXN0IjpbIkFDIiwiV0lGSSIsIldBU0hJTkdfTUFDSElORSJdfV19",
+        "mockIds" : [ ],
+        "exception" : false,
+        "method" : {
+          "name" : "deleteById",
+          "signature" : "(Ljava/lang/Long;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+          "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+          "methodHash" : 0
+        }
+      }
+    ],
+    "org.unlogged.demo.controller.abstractions.PropertyControllerImpl#insertNew#(Lorg/unlogged/demo/models/abstraction/PropertyDetails;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;" : [ {
+      "lineNumbers" : [ 25 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "3",
+          "id" : "d1c346fd-620b-47de-be24-99cb57e1341d",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"New Property#Added\"",
+          "id" : "4e6e6ae7-7fa8-4bfe-9f33-ae9b71a50b4c",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "77102a23-abc6-48c8-ad77-7eac846435a1",
+          "assertionType" : "EQUAL",
+          "key" : "/description"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "f8b1b42d-bf9a-4be1-9c47-4ef2e7203c8d",
+          "assertionType" : "EQUAL",
+          "key" : "/ownerDetails"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "05f6b118-eebf-41db-89da-574f5cb2de4d",
+          "assertionType" : "EQUAL",
+          "key" : "/locationDetails"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "78e4172f-163e-45b3-9740-e7d1b4ca4102",
+          "assertionType" : "EQUAL",
+          "key" : "/roomDetailsList"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "1e4f4471-59f4-478e-bfd1-f0f0e0e06a78",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "46efa25f-61ee-4901-bfce-7282e3cb4a07",
+      "name" : "PropertyControllerImpl.insertNew - normal mocked",
+      "description" : null,
+      "methodArguments" : [ "{\"propertyId\":3,\"propertyName\":\"New Property\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}" ],
+      "returnValue" : "{\"propertyId\":3,\"propertyName\":\"New Property#Added\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}",
+      "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 35045745246776,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1220921548,
+      "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjozLCJwcm9wZXJ0eU5hbWUiOiJOZXcgUHJvcGVydHkjQWRkZWQiLCJkZXNjcmlwdGlvbiI6bnVsbCwib3duZXJEZXRhaWxzIjpudWxsLCJsb2NhdGlvbkRldGFpbHMiOm51bGwsInJvb21EZXRhaWxzTGlzdCI6bnVsbH0=",
+      "mockIds" : [ "908469bf-5427-41bd-8e32-4c4bcbbfba7d" ],
+      "exception" : false,
+      "method" : {
+        "name" : "insertNew",
+        "signature" : "(Lorg/unlogged/demo/models/abstraction/PropertyDetails;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+        "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+        "methodHash" : 0
+      }
+    },
+      {
+        "lineNumbers" : [ 25 ],
+        "testAssertions" : {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "3",
+            "id" : "d1c346fd-620b-47de-be24-99cb57e1341d",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"New Property#Added\"",
+            "id" : "4e6e6ae7-7fa8-4bfe-9f33-ae9b71a50b4c",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "77102a23-abc6-48c8-ad77-7eac846435a1",
+            "assertionType" : "EQUAL",
+            "key" : "/description"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "f8b1b42d-bf9a-4be1-9c47-4ef2e7203c8d",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "05f6b118-eebf-41db-89da-574f5cb2de4d",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "78e4172f-163e-45b3-9740-e7d1b4ca4102",
+            "assertionType" : "EQUAL",
+            "key" : "/roomDetailsList"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "1e4f4471-59f4-478e-bfd1-f0f0e0e06a78",
+          "assertionType" : "ALLOF",
+          "key" : "/"
+        },
+        "candidateId" : "46efa25f-61ee-4901-bfce-7282e3cb4a07",
+        "name" : "PropertyControllerImpl.insertNew - normal integration",
+        "description" : null,
+        "methodArguments" : [ "{\"propertyId\":3,\"propertyName\":\"New Property\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}" ],
+        "returnValue" : "{\"propertyId\":3,\"propertyName\":\"New Property#Added\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}",
+        "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+        "metadata" : {
+          "recordedBy" : "testerfresher",
+          "hostMachineName" : "testerfresher",
+          "timestamp" : 35045745246776,
+          "candidateStatus" : "NA"
+        },
+        "sessionIdentifier" : 1220921548,
+        "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjozLCJwcm9wZXJ0eU5hbWUiOiJOZXcgUHJvcGVydHkjQWRkZWQiLCJkZXNjcmlwdGlvbiI6bnVsbCwib3duZXJEZXRhaWxzIjpudWxsLCJsb2NhdGlvbkRldGFpbHMiOm51bGwsInJvb21EZXRhaWxzTGlzdCI6bnVsbH0=",
+        "mockIds" : [ ],
+        "exception" : false,
+        "method" : {
+          "name" : "insertNew",
+          "signature" : "(Lorg/unlogged/demo/models/abstraction/PropertyDetails;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+          "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+          "methodHash" : 0
+        }
+      }
+    ],
+    "org.unlogged.demo.controller.abstractions.PropertyControllerImpl#update#(Lorg/unlogged/demo/models/abstraction/PropertyDetails;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;" : [ {
+      "lineNumbers" : [ 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "3",
+          "id" : "924a99a3-c557-4789-a8ba-91c4dea7edef",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"New Property#Updated\"",
+          "id" : "3a33fe47-9b95-4713-affd-a0133b6aa99d",
+          "assertionType" : "EQUAL",
+          "key" : "/propertyName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "db1bac2a-a2d2-4d6c-9c8a-d97a401c15ca",
+          "assertionType" : "EQUAL",
+          "key" : "/description"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "8a8e79dd-2bd8-46ff-a054-cc8e9fa27cc6",
+          "assertionType" : "EQUAL",
+          "key" : "/ownerDetails"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "be4bd161-407f-4ab1-ad9c-123055abd564",
+          "assertionType" : "EQUAL",
+          "key" : "/locationDetails"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "1017f429-a78d-4227-a485-6dfd8a2dec16",
+          "assertionType" : "EQUAL",
+          "key" : "/roomDetailsList"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "05e02ee6-5558-472a-8a96-c5b7fa3ee3f0",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f35ef3ad-4b21-48bb-9d47-efca661e370c",
+      "name" : "PropertyControllerImpl.update - normal mocked",
+      "description" : null,
+      "methodArguments" : [ "{\"propertyId\":3,\"propertyName\":\"New Property\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}" ],
+      "returnValue" : "{\"propertyId\":3,\"propertyName\":\"New Property#Updated\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}",
+      "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 35083244860739,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 458585313,
+      "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjozLCJwcm9wZXJ0eU5hbWUiOiJOZXcgUHJvcGVydHkjVXBkYXRlZCIsImRlc2NyaXB0aW9uIjpudWxsLCJvd25lckRldGFpbHMiOm51bGwsImxvY2F0aW9uRGV0YWlscyI6bnVsbCwicm9vbURldGFpbHNMaXN0IjpudWxsfQ==",
+      "mockIds" : [ "04074a92-ab43-4174-996e-2de73d5e6fa7" ],
+      "exception" : false,
+      "method" : {
+        "name" : "update",
+        "signature" : "(Lorg/unlogged/demo/models/abstraction/PropertyDetails;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+        "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+        "methodHash" : -1252243445
+      }
+    },
+      {
+        "lineNumbers" : [ 30 ],
+        "testAssertions" : {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "3",
+            "id" : "924a99a3-c557-4789-a8ba-91c4dea7edef",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"New Property#Updated\"",
+            "id" : "3a33fe47-9b95-4713-affd-a0133b6aa99d",
+            "assertionType" : "EQUAL",
+            "key" : "/propertyName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "db1bac2a-a2d2-4d6c-9c8a-d97a401c15ca",
+            "assertionType" : "EQUAL",
+            "key" : "/description"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "8a8e79dd-2bd8-46ff-a054-cc8e9fa27cc6",
+            "assertionType" : "EQUAL",
+            "key" : "/ownerDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "be4bd161-407f-4ab1-ad9c-123055abd564",
+            "assertionType" : "EQUAL",
+            "key" : "/locationDetails"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "1017f429-a78d-4227-a485-6dfd8a2dec16",
+            "assertionType" : "EQUAL",
+            "key" : "/roomDetailsList"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "05e02ee6-5558-472a-8a96-c5b7fa3ee3f0",
+          "assertionType" : "ALLOF",
+          "key" : "/"
+        },
+        "candidateId" : "f35ef3ad-4b21-48bb-9d47-efca661e370c",
+        "name" : "PropertyControllerImpl.update - normal integration",
+        "description" : null,
+        "methodArguments" : [ "{\"propertyId\":3,\"propertyName\":\"New Property\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}" ],
+        "returnValue" : "{\"propertyId\":3,\"propertyName\":\"New Property#Updated\",\"description\":null,\"ownerDetails\":null,\"locationDetails\":null,\"roomDetailsList\":null}",
+        "returnValueClassname" : "org.unlogged.demo.models.abstraction.PropertyDetails",
+        "metadata" : {
+          "recordedBy" : "testerfresher",
+          "hostMachineName" : "testerfresher",
+          "timestamp" : 35083244860739,
+          "candidateStatus" : "NA"
+        },
+        "sessionIdentifier" : 458585313,
+        "probSerializedValue" : "eyJwcm9wZXJ0eUlkIjozLCJwcm9wZXJ0eU5hbWUiOiJOZXcgUHJvcGVydHkjVXBkYXRlZCIsImRlc2NyaXB0aW9uIjpudWxsLCJvd25lckRldGFpbHMiOm51bGwsImxvY2F0aW9uRGV0YWlscyI6bnVsbCwicm9vbURldGFpbHNMaXN0IjpudWxsfQ==",
+        "mockIds" : [ ],
+        "exception" : false,
+        "method" : {
+          "name" : "update",
+          "signature" : "(Lorg/unlogged/demo/models/abstraction/PropertyDetails;)Lorg/unlogged/demo/models/abstraction/PropertyDetails;",
+          "className" : "org.unlogged.demo.controller.abstractions.PropertyControllerImpl",
+          "methodHash" : -1252243445
+        }
+      }
+    ]
+  },
+  "declaredMockMap" : { }
+}
