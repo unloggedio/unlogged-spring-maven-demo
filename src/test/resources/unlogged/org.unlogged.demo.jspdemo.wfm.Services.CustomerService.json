@@ -1,0 +1,646 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#generateReferralCodes#()Ljava/util/List<Ljava/lang/String;>;" : [ {
+      "lineNumbers" : [ 46, 47, 48, 49, 51, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"xbvyvjvzcy\"",
+          "id" : "8b2bead9-1b89-42cc-9a48-4ad07a67d71d",
+          "assertionType" : "NOT_NULL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"czurnqzsav\"",
+          "id" : "f5f63f5f-cfbf-440b-aeaa-904e22a19ffd",
+          "assertionType" : "NOT_NULL",
+          "key" : "/4"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "b4faed61-bf27-4f7d-ab95-8e3371bc1b9c",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "8bfcad5a-5ebd-4835-bb65-15f2a3578d7c",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.generateReferralCodes - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\"]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530917849591041,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1932987054,
+      "probSerializedValue" : "WyJ4YnZ5dmp2emN5IiwiaGhveGpzdHhpeCIsInB4Y2t5eWV1dnAiLCJwbmx2ZWd2YW5hIiwiY3p1cm5xenNhdiJd",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "generateReferralCodes",
+        "signature" : "()Ljava/util/List<Ljava/lang/String;>;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 22, 23, 24, 26, 27, 28, 32, 33, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19, 9, 10, 11, 12, 14, 15, 16, 17, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "9a550345-2176-499a-80ea-bee47f4c5261",
+          "assertionType" : "NOT_NULL",
+          "key" : "/customerId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "2084cdba-ddbd-40db-b343-277a3cf7c8c0",
+          "assertionType" : "EQUAL",
+          "key" : "/customerName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "84012343-7a5c-4cb9-b0d6-d124e7e7f066",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"string\"",
+            "id" : "2655a746-5f3d-4b13-afd3-eefca168d917",
+            "assertionType" : "EQUAL",
+            "key" : "/contactNumbers/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "53da5de8-148b-4160-adbd-96082587b8a2",
+          "assertionType" : "ALLOF",
+          "key" : "/contactNumbers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "3c8d550d-7522-4281-afe6-1e702185b5a5",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "25c16cab-fb3e-4327-a423-fc7981cb2af7",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "79d2eb08-2e70-4216-a750-98fc609f9b9c",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.saveNewCustomer - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"Jun 24, 2024 16:48:56 pm\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
+      "returnValue" : "{\"customerId\":1,\"customerName\":\"string\",\"dateOfBirth\":\"Jun 24, 2024 16:48:56 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\"]}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530917849499166,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -158506382,
+      "probSerializedValue" : "eyJjdXN0b21lcklkIjoxLCJjdXN0b21lck5hbWUiOiJzdHJpbmciLCJkYXRlT2ZCaXJ0aCI6Ikp1biAyNCwgMjAyNCAxNjo0ODo1NiBwbSIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdE51bWJlcnMiOlsic3RyaW5nIl0sImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbENvZGVzIjpbInhidnl2anZ6Y3kiLCJoaG94anN0eGl4IiwicHhja3l5ZXV2cCIsInBubHZlZ3ZhbmEiLCJjenVybnF6c2F2Il19",
+      "mockIds" : [ "eba0166c-3e8c-4334-b1eb-997ea158a23e" ],
+      "method" : {
+        "name" : "saveNewCustomer",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 18, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "21fc9c6e-b501-4d2d-8994-347ef492d47f",
+          "assertionType" : "NOT_NULL",
+          "key" : "/customerId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "c1c330ce-dc74-4da1-b874-3d45e51e919a",
+          "assertionType" : "EQUAL",
+          "key" : "/customerName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "0b6f602b-f1d0-4d31-8a84-4c84ae255d6d",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"string\"",
+            "id" : "964b79b5-5ad2-4118-bd80-eb2db583b558",
+            "assertionType" : "EQUAL",
+            "key" : "/contactNumbers/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "9fc8ecaa-ff05-40c6-b703-0f762b463875",
+          "assertionType" : "ALLOF",
+          "key" : "/contactNumbers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "9dafef6f-0090-4722-aa66-11da7b2cb43b",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "f7d84f81-1685-4ecd-9981-97fa26ae1ea5",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "ce01f0e4-e418-4f9c-8804-120efca0199a",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.fetchCustomerProfile - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerId\":1,\"customerName\":\"string\",\"dateOfBirth\":\"Jun 24, 2024 16:48:56 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\"]}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530925990806500,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1849694949,
+      "probSerializedValue" : "eyJjdXN0b21lcklkIjoxLCJjdXN0b21lck5hbWUiOiJzdHJpbmciLCJkYXRlT2ZCaXJ0aCI6Ikp1biAyNCwgMjAyNCAxNjo0ODo1NiBwbSIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdE51bWJlcnMiOlsic3RyaW5nIl0sImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbENvZGVzIjpbInhidnl2anZ6Y3kiLCJoaG94anN0eGl4IiwicHhja3l5ZXV2cCIsInBubHZlZ3ZhbmEiLCJjenVybnF6c2F2Il19",
+      "mockIds" : [ "d4760683-881a-410b-adba-cbd6e5845446" ],
+      "method" : {
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 28, 37, 38, 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "4a2cdefc-0c21-4211-b39a-434974bfac3e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "23438805-0e73-4241-8433-19837e563c6e",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.removeCustomer - normal",
+      "description" : null,
+      "methodArguments" : [ "2" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530935117603916,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 27444216,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "234fc9fe-bd16-49a0-b734-8a5d720d89a4" ],
+      "method" : {
+        "name" : "removeCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#addNewContact#(JLjava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 32, 33, 34, 35, 32, 33, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "45",
+          "id" : "2278639e-c999-4d86-9cb3-859315fc5839",
+          "assertionType" : "NOT_NULL",
+          "key" : "/customerId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "37272d4a-6e2d-4f20-864b-75831de468cc",
+          "assertionType" : "EQUAL",
+          "key" : "/customerName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "c6d0a0a4-9ce7-4e5a-8439-856cf554bc82",
+          "assertionType" : "EQUAL",
+          "key" : "/dateOfBirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"e.gmail.com\"",
+          "id" : "cb6d17d9-0dad-4d4d-b6db-2878bc2d6c2a",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"111111\"",
+            "id" : "d33fd5ba-8199-4589-8556-12048ac8f457",
+            "assertionType" : "EQUAL",
+            "key" : "/contactNumbers/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "4349669b-7d68-425c-8eaa-11a1040f3d21",
+          "assertionType" : "ALLOF",
+          "key" : "/contactNumbers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Pripyat\"",
+          "id" : "96e269f9-0439-450b-9c4d-437d89f430e4",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "8b2e1085-33c3-4ea5-9390-29c0198784c5",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "f8c66317-29e4-4f56-9ca1-4421dea99292",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.addNewContact - normal",
+      "description" : null,
+      "methodArguments" : [ "1", "\"111111\"" ],
+      "returnValue" : "{\"customerId\":45,\"customerName\":\"string\",\"dateOfBirth\":null,\"email\":\"e.gmail.com\",\"contactNumbers\":[\"111111\"],\"address\":\"Pripyat\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\",\"EEEE\"]}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530950041849875,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1970196099,
+      "probSerializedValue" : "eyJjdXN0b21lcklkIjo0NSwiY3VzdG9tZXJOYW1lIjoic3RyaW5nIiwiZGF0ZU9mQmlydGgiOm51bGwsImVtYWlsIjoiZS5nbWFpbC5jb20iLCJjb250YWN0TnVtYmVycyI6WyIxMTExMTEiXSwiYWRkcmVzcyI6IlByaXB5YXQiLCJyZWZlcnJhbENvZGVzIjpbInhidnl2anZ6Y3kiLCJoaG94anN0eGl4IiwicHhja3l5ZXV2cCIsInBubHZlZ3ZhbmEiLCJjenVybnF6c2F2IiwiRUVFRSJdfQ==",
+      "mockIds" : [ "46bdb13f-9af5-48a7-850e-ebe905a83cdd", "41ada2cb-f832-4f7d-aad2-b84eed542fa7" ],
+      "method" : {
+        "name" : "addNewContact",
+        "signature" : "(JLjava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "lineNumbers" : [ 39, 40, 41, 42, 9, 10, 11, 12, 14, 15, 16, 17, 19, 32, 33, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "45",
+          "id" : "2e10415f-662c-4098-9a09-8b2666f4fb80",
+          "assertionType" : "NOT_NULL",
+          "key" : "/customerId"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "1d1a398c-128f-4004-91bf-d59d861c71ed",
+          "assertionType" : "EQUAL",
+          "key" : "/customerName"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "null",
+          "id" : "d31d7c24-dc6c-4671-b4cc-017409e081d1",
+          "assertionType" : "EQUAL",
+          "key" : "/dateOfBirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"e.gmail.com\"",
+          "id" : "fd7345ec-cae2-4b12-881c-5a44b0df0184",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"111111\"",
+            "id" : "d8d073b8-67fd-4748-bdbe-b536d46226ef",
+            "assertionType" : "EQUAL",
+            "key" : "/contactNumbers/0"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "83d6e5d5-efe6-4662-a527-1fb362fc4d5c",
+          "assertionType" : "ALLOF",
+          "key" : "/contactNumbers"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Pripyat\"",
+          "id" : "7ce8aaee-7dc1-46f4-9e35-e596b2471e0a",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "f3baf0cb-7f37-4cec-a7c5-c163c7d48c16",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "e7eaed73-a3d7-4aaa-9869-cb6be3ee6c3e",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.generateReferralForCustomer - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerId\":45,\"customerName\":\"string\",\"dateOfBirth\":null,\"email\":\"e.gmail.com\",\"contactNumbers\":[\"111111\"],\"address\":\"Pripyat\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\",\"EEEE\",\"ipswtxvoqj\"]}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530960755367416,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1706246046,
+      "probSerializedValue" : "eyJjdXN0b21lcklkIjo0NSwiY3VzdG9tZXJOYW1lIjoic3RyaW5nIiwiZGF0ZU9mQmlydGgiOm51bGwsImVtYWlsIjoiZS5nbWFpbC5jb20iLCJjb250YWN0TnVtYmVycyI6WyIxMTExMTEiXSwiYWRkcmVzcyI6IlByaXB5YXQiLCJyZWZlcnJhbENvZGVzIjpbInhidnl2anZ6Y3kiLCJoaG94anN0eGl4IiwicHhja3l5ZXV2cCIsInBubHZlZ3ZhbmEiLCJjenVybnF6c2F2IiwiRUVFRSIsImlwc3d0eHZvcWoiXX0=",
+      "mockIds" : [ "323d5131-7676-405c-ab06-5e6b40e617bb", "9ecaffee-a214-4929-b296-4dcc041f7a4d" ],
+      "method" : {
+        "name" : "generateReferralForCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerScoreCard;" : [ {
+      "lineNumbers" : [ 55, 56, 57, 58, 59, 60, 63, 65, 66, 67, 69, 21 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "45",
+            "id" : "fcb8d45a-d8eb-4363-a40a-ce1e18ea9d55",
+            "assertionType" : "NOT_NULL",
+            "key" : "/customerProfile/customerId"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"string\"",
+            "id" : "76a98e67-194f-4bcf-8864-4999f27f5ad6",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/customerName"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "16a8b81d-c514-4437-8f0f-d6f5978715fd",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/dateOfBirth"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"e.gmail.com\"",
+            "id" : "d6a2196b-04f0-4053-be3e-40dc6d87b654",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/email"
+          }, {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"111111\"",
+              "id" : "1a9ff681-826b-4d3d-ac9b-a5c82f5b44dc",
+              "assertionType" : "EQUAL",
+              "key" : "/customerProfile/contactNumbers/0"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "b6d57267-d790-4587-9ad6-f74e551cbda4",
+            "assertionType" : "ALLOF",
+            "key" : "/customerProfile/contactNumbers"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Pripyat\"",
+            "id" : "71c838b4-0a80-487a-8e3a-6f4f7533d54d",
+            "assertionType" : "EQUAL",
+            "key" : "/customerProfile/address"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "884fc29b-7439-44cb-b85b-5062ebc96a84",
+          "assertionType" : "ALLOF",
+          "key" : "/customerProfile"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "21",
+          "id" : "7c14981a-d6d5-45b9-9f81-d6faee0ab5ea",
+          "assertionType" : "EQUAL",
+          "key" : "/score"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "4371bb26-cbcb-495b-a54b-2f4aa75c2cf9",
+          "assertionType" : "EQUAL",
+          "key" : "/isEligible"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "6c36b527-5943-40cc-8e76-067f0592f838",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "df5d67a4-51d4-4d2d-998b-7efc87c6d970",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService.isCustomerEligibleForPremium - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"customerProfile\":{\"customerId\":45,\"customerName\":\"string\",\"dateOfBirth\":null,\"email\":\"e.gmail.com\",\"contactNumbers\":[\"111111\"],\"address\":\"Pripyat\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\",\"EEEE\",\"ipswtxvoqj\"]},\"score\":21,\"isEligible\":true}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerScoreCard",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530968453583333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1086368812,
+      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJJZCI6NDUsImN1c3RvbWVyTmFtZSI6InN0cmluZyIsImRhdGVPZkJpcnRoIjpudWxsLCJlbWFpbCI6ImUuZ21haWwuY29tIiwiY29udGFjdE51bWJlcnMiOlsiMTExMTExIl0sImFkZHJlc3MiOiJQcmlweWF0IiwicmVmZXJyYWxDb2RlcyI6WyJ4YnZ5dmp2emN5IiwiaGhveGpzdHhpeCIsInB4Y2t5eWV1dnAiLCJwbmx2ZWd2YW5hIiwiY3p1cm5xenNhdiIsIkVFRUUiLCJpcHN3dHh2b3FqIl19LCJzY29yZSI6MjEsImlzRWxpZ2libGUiOnRydWV9",
+      "mockIds" : [ "a6dd0188-2b84-407e-8352-10d0926e5f93" ],
+      "method" : {
+        "name" : "isCustomerEligibleForPremium",
+        "signature" : "(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerScoreCard;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+        "methodHash" : 1271180779
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "4b4acb9a-37d6-4f01-a6b6-d5f23cea0d63",
+      "name" : "mock response for call to customerService.saveNewCustomer(saveRequest)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.CustomerRes",
+      "fieldName" : "customerService",
+      "methodName" : "saveNewCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"customerName\":\"string\",\"dateOfBirth\":\"Jun 24, 2024 16:48:56 pm\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerId\":1,\"customerName\":\"string\",\"dateOfBirth\":\"Jun 24, 2024 16:48:56 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfileRequest;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "d816ffae-cde2-490a-a09b-8b7e3fafa51e",
+      "name" : "mock response for call to customerService.fetchCustomerProfile(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.CustomerRes",
+      "fieldName" : "customerService",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "1"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerId\":1,\"customerName\":\"string\",\"dateOfBirth\":\"Jun 24, 2024 16:48:56 pm\",\"email\":\"string\",\"contactNumbers\":[\"string\"],\"address\":\"string\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "2b42ea97-3914-4039-9fcb-3abe6fefdc91",
+      "name" : "mock response for call to customerService.removeCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.CustomerRes",
+      "fieldName" : "customerService",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "2"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#addNewContact#(JLjava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "be6634c6-bff2-4f9a-97a0-eca93880359c",
+      "name" : "mock response for call to customerService.addNewContact(customerID, number)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.CustomerRes",
+      "fieldName" : "customerService",
+      "methodName" : "addNewContact",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "1"
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"111111\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerId\":45,\"customerName\":\"string\",\"dateOfBirth\":null,\"email\":\"e.gmail.com\",\"contactNumbers\":[\"111111\"],\"address\":\"Pripyat\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\",\"EEEE\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#addNewContact#(JLjava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;" : [ {
+      "id" : "70d079e2-7ddd-4655-bd5b-19974bda62b8",
+      "name" : "mock response for call to customerService.generateReferralForCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.CustomerRes",
+      "fieldName" : "customerService",
+      "methodName" : "generateReferralForCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "1"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerId\":45,\"customerName\":\"string\",\"dateOfBirth\":null,\"email\":\"e.gmail.com\",\"contactNumbers\":[\"111111\"],\"address\":\"Pripyat\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\",\"EEEE\",\"ipswtxvoqj\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerScoreCard;" : [ {
+      "id" : "1a011129-e265-4161-b3b4-b13769a23200",
+      "name" : "mock response for call to customerService.isCustomerEligibleForPremium(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.CustomerRes",
+      "fieldName" : "customerService",
+      "methodName" : "isCustomerEligibleForPremium",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "1"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerProfile\":{\"customerId\":45,\"customerName\":\"string\",\"dateOfBirth\":null,\"email\":\"e.gmail.com\",\"contactNumbers\":[\"111111\"],\"address\":\"Pripyat\",\"referralCodes\":[\"xbvyvjvzcy\",\"hhoxjstxix\",\"pxckyyeuvp\",\"pnlvegvana\",\"czurnqzsav\",\"EEEE\",\"ipswtxvoqj\"]},\"score\":21,\"isEligible\":true}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.CustomerScoreCard"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Services.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/CustomerScoreCard;"
+    } ]
+  }
+}

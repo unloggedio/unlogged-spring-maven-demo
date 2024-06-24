@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Controllers.Beta",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Controllers.Beta#e#()I" : [ {
+      "lineNumbers" : [ 8, 9, 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4",
+          "id" : "0324291b-0ea9-4d5a-80de-2b92aa36d6b9",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c1ad362a-dd41-4d50-9f2b-60a96bc4acd4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e85b6045-721c-4a47-86d0-13533833b675",
+      "name" : "org.unlogged.demo.jspdemo.wfm.Controllers.Beta.e - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "4",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530822633054625,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2070780856,
+      "probSerializedValue" : "",
+      "mockIds" : [ "f3e21b04-f41c-4b11-bc79-adb0518600ea" ],
+      "method" : {
+        "name" : "e",
+        "signature" : "()I",
+        "className" : "org.unlogged.demo.jspdemo.wfm.Controllers.Beta",
+        "methodHash" : 1136282166
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
