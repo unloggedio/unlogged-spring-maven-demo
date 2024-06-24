@@ -14,4 +14,13 @@ public class ReferralUtils {
                 .toString();
         return generatedString;
     }
+
+    public static String generateReferralCode(int customLimit) {
+        Random random = new Random();
+        String generatedString = random.ints(customLimit, ReferralConstants.REFERRAL_RIGHT_LIMIT + 1)
+                .limit(ReferralConstants.REFERRAL_LENGTH)
+                .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                .toString();
+        return generatedString;
+    }
 }
