@@ -1,0 +1,167 @@
+{
+  "classname" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter#checkInput#(Ljava/io/ObjectInputFilter/FilterInfo;)Ljava/io/ObjectInputFilter/Status;" : [ {
+      "lineNumbers" : [ 11, 12, 14, 15 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f3370858-4366-40a9-a8b1-4522675f94f2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ff2168e3-9495-4310-b571-e7110d4b1143",
+      "name" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter.checkInput - normal",
+      "description" : null,
+      "methodArguments" : [ "1785213898" ],
+      "returnValue" : "421477171",
+      "returnValueClassname" : "java.io.ObjectInputFilter$Status",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530618444893916,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1850118275,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "checkInput",
+        "signature" : "(Ljava/io/ObjectInputFilter/FilterInfo;)Ljava/io/ObjectInputFilter/Status;",
+        "className" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter",
+        "methodHash" : -503789099
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 11, 12, 14, 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "638c0f49-3b17-484e-9e36-0cd119815f97",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fe363b61-3155-4d96-9626-18a3b525e4fd",
+      "name" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter.checkInput - normal",
+      "description" : null,
+      "methodArguments" : [ "1468155834" ],
+      "returnValue" : "1789052113",
+      "returnValueClassname" : "java.io.ObjectInputFilter$Status",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530613401001208,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 781564145,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "checkInput",
+        "signature" : "(Ljava/io/ObjectInputFilter/FilterInfo;)Ljava/io/ObjectInputFilter/Status;",
+        "className" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter",
+        "methodHash" : -503789099
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 11, 12, 13 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e434471e-8b3b-44fd-ae59-1e95d7046fa3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "601c5f32-854d-44bf-ac1f-057003721d3a",
+      "name" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter.checkInput - normal",
+      "description" : null,
+      "methodArguments" : [ "2123687936" ],
+      "returnValue" : "1831649196",
+      "returnValueClassname" : "java.io.ObjectInputFilter$Status",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530608010829333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 980168948,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "checkInput",
+        "signature" : "(Ljava/io/ObjectInputFilter/FilterInfo;)Ljava/io/ObjectInputFilter/Status;",
+        "className" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter",
+        "methodHash" : -503789099
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 11, 12, 14, 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3782a88f-e561-48d2-beda-5223e66ef6e5",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f9ce7a5b-8f1d-4f81-9eb0-dcfb3eb4195f",
+      "name" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter.checkInput - normal",
+      "description" : null,
+      "methodArguments" : [ "237642173" ],
+      "returnValue" : "1789052113",
+      "returnValueClassname" : "java.io.ObjectInputFilter$Status",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530638328311291,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -19106036,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "checkInput",
+        "signature" : "(Ljava/io/ObjectInputFilter/FilterInfo;)Ljava/io/ObjectInputFilter/Status;",
+        "className" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter",
+        "methodHash" : -503789099
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 11, 12, 14, 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0fd829ff-73f1-4c59-aec7-dce8ca77337f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "aafcff6f-c3ce-459d-afe2-6d5260ca0528",
+      "name" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter.checkInput - normal",
+      "description" : null,
+      "methodArguments" : [ "2027091588" ],
+      "returnValue" : "1789052113",
+      "returnValueClassname" : "java.io.ObjectInputFilter$Status",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530638328474208,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1788144990,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "checkInput",
+        "signature" : "(Ljava/io/ObjectInputFilter/FilterInfo;)Ljava/io/ObjectInputFilter/Status;",
+        "className" : "org.unlogged.demo.deserializationfilter.CustomObjectInputFilter",
+        "methodHash" : -503789099
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

@@ -1,0 +1,187 @@
+{
+  "classname" : "org.unlogged.demo.controller.ValidatorOpsController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.ValidatorOpsController#isDefaultUserVaild#()Z" : [ {
+      "lineNumbers" : [ 34, 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "4ef9ae7c-5d2a-40d0-9915-5aa9fd7bc17d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ec6baff5-04a0-49a1-95f7-689c2548f231",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "01513b92-35cb-4788-bbba-ab2f38562400",
+      "name" : "org.unlogged.demo.controller.ValidatorOpsController.isDefaultUserVaild - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530485020425375,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 588023664,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "isDefaultUserVaild",
+        "signature" : "()Z",
+        "className" : "org.unlogged.demo.controller.ValidatorOpsController",
+        "methodHash" : 809233082
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.ValidatorOpsController#isUserValid#(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)Z" : [ {
+      "lineNumbers" : [ 38 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "aa25355f-a8f3-476a-b953-3fa8629fbd6a",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "0d936b71-be2b-4ea3-85cd-0ff7f064080f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "3c1806f8-ce60-4449-8256-0d3fdaeabb1e",
+      "name" : "org.unlogged.demo.controller.ValidatorOpsController.isUserValid - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"user_id\":1,\"username\":\"User\",\"password\":\"password\",\"email\":\"user@usermail.com\"}" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530485020714000,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1032779919,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "isUserValid",
+        "signature" : "(Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;)Z",
+        "className" : "org.unlogged.demo.controller.ValidatorOpsController",
+        "methodHash" : -1748122110
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.ValidatorOpsController#getValidUser#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "36bf3dae-c91f-46f5-a0e0-9101f59424a1",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"User\"",
+          "id" : "b5e1af1c-7f68-4f34-9c54-8fefc326199e",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"password\"",
+          "id" : "c00edc94-0630-4001-a8e5-8ebfef66f86c",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"user@usermail.com\"",
+          "id" : "1ed4516d-e7c2-446e-96b5-0bc04423dc6a",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "cb00a26d-882d-4cf2-bb00-7eae88e9185b",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "7f5893ab-0386-49d5-bc26-603fb375ef45",
+      "name" : "org.unlogged.demo.controller.ValidatorOpsController.getValidUser - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"User\",\"password\":\"password\",\"email\":\"user@usermail.com\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530485020431083,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1304204236,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IlVzZXIiLCJwYXNzd29yZCI6InBhc3N3b3JkIiwiZW1haWwiOiJ1c2VyQHVzZXJtYWlsLmNvbSJ9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getValidUser",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.controller.ValidatorOpsController",
+        "methodHash" : -1839881110
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.ValidatorOpsController#validateUserV2#(Lorg/unlogged/demo/models/valid/UserV2;)Ljava/util/Map<Lorg/unlogged/demo/models/valid/UserV2;,Ljava/lang/Boolean;>;" : [ {
+      "lineNumbers" : [ 43 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "2f826d51-d354-4f11-88ef-804f572833ba",
+          "assertionType" : "EQUAL",
+          "key" : "/UserV2(id=0, name=string, email=string, phoneNumber=string)"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "c91946b0-a800-4bdf-8c5a-46ea323af62b",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "49f7b72e-ee5a-4e67-823c-5d5d3ea428c0",
+      "name" : "org.unlogged.demo.controller.ValidatorOpsController.validateUserV2 - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"id\":0,\"name\":\"string\",\"email\":\"string\",\"phoneNumber\":\"string\"}" ],
+      "returnValue" : "{\"UserV2(id=0, name=string, email=string, phoneNumber=string)\":true}",
+      "returnValueClassname" : "java.util.Map",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530498000287958,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1633085237,
+      "probSerializedValue" : "eyJVc2VyVjIoaWQ9MCwgbmFtZT1zdHJpbmcsIGVtYWlsPXN0cmluZywgcGhvbmVOdW1iZXI9c3RyaW5nKSI6dHJ1ZX0=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "validateUserV2",
+        "signature" : "(Lorg/unlogged/demo/models/valid/UserV2;)Ljava/util/Map<Lorg/unlogged/demo/models/valid/UserV2;,Ljava/lang/Boolean;>;",
+        "className" : "org.unlogged.demo.controller.ValidatorOpsController",
+        "methodHash" : -436797498
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
