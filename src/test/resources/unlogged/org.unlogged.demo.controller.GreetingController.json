@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.controller.GreetingController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.GreetingController#getGreeting#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 14 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Good Day\"",
+          "id" : "bdc4239d-a44c-4d24-b7c9-e9704897078d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d0050138-964b-4a59-a9c6-001dbcf932f0",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "55eaf94f-1041-4817-914a-fbe3fd2b41c2",
+      "name" : "org.unlogged.demo.controller.GreetingController.getGreeting - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Good Day\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529326993051166,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1826940160,
+      "probSerializedValue" : "Ikdvb2QgRGF5Ig==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getGreeting",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.GreetingController",
+        "methodHash" : -1837998916
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

@@ -1,0 +1,293 @@
+{
+  "classname" : "org.unlogged.demo.controller.perfAnalysis",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.perfAnalysis#networkintensive#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 136, 137, 138, 139, 140, 141, 143, 145, 146, 147 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"1request completed.\\n time_write = 760.\\n weather_data = WeatherInfo{location=Location{name='Bengaluru', region='Karnataka', country='India', lat=12.98, lon=77.58, tz_id='Asia/Kolkata', localtime_epoch=1719206822, localtime='2024-06-24 10:57'}, current=Current{temp_c=26.1, temp_f=79.0, is_day=1, condition=Condition{text='Partly cloudy', icon='//cdn.weatherapi.com/weather/64x64/day/116.png', code=1003}, wind_mph=17.4, wind_kph=28.1, wind_degree=260, wind_dir='W', pressure_mb=1010.0, pressure_in=29.83, precip_mm=0.0, precip_in=0.0, humidity=74, cloud=50, feelslike_c=27.5, feelslike_f=81.4, vis_km=8.0, vis_miles=4.0, uv=5.0, gust_mph=24.7, gust_kph=39.7}}\\n\"",
+          "id" : "9899e28a-e80f-4807-80a3-386b97584598",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "820035ad-f096-4d83-8f43-799b1a877bb4",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0972d802-3feb-4655-a7af-a2b17ce58026",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.networkintensive - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "\"1request completed.\\n time_write = 760.\\n weather_data = WeatherInfo{location=Location{name='Bengaluru', region='Karnataka', country='India', lat=12.98, lon=77.58, tz_id='Asia/Kolkata', localtime_epoch=1719206822, localtime='2024-06-24 10:57'}, current=Current{temp_c=26.1, temp_f=79.0, is_day=1, condition=Condition{text='Partly cloudy', icon='//cdn.weatherapi.com/weather/64x64/day/116.png', code=1003}, wind_mph=17.4, wind_kph=28.1, wind_degree=260, wind_dir='W', pressure_mb=1010.0, pressure_in=29.83, precip_mm=0.0, precip_in=0.0, humidity=74, cloud=50, feelslike_c=27.5, feelslike_f=81.4, vis_km=8.0, vis_miles=4.0, uv=5.0, gust_mph=24.7, gust_kph=39.7}}\\n\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529654745986083,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1428281892,
+      "probSerializedValue" : "IjFyZXF1ZXN0IGNvbXBsZXRlZC5cbiB0aW1lX3dyaXRlID0gNzYwLlxuIHdlYXRoZXJfZGF0YSA9IFdlYXRoZXJJbmZve2xvY2F0aW9uPUxvY2F0aW9ue25hbWU9J0JlbmdhbHVydScsIHJlZ2lvbj0nS2FybmF0YWthJywgY291bnRyeT0nSW5kaWEnLCBsYXQ9MTIuOTgsIGxvbj03Ny41OCwgdHpfaWQ9J0FzaWEvS29sa2F0YScsIGxvY2FsdGltZV9lcG9jaD0xNzE5MjA2ODIyLCBsb2NhbHRpbWU9JzIwMjQtMDYtMjQgMTA6NTcnfSwgY3VycmVudD1DdXJyZW50e3RlbXBfYz0yNi4xLCB0ZW1wX2Y9NzkuMCwgaXNfZGF5PTEsIGNvbmRpdGlvbj1Db25kaXRpb257dGV4dD0nUGFydGx5IGNsb3VkeScsIGljb249Jy8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmcnLCBjb2RlPTEwMDN9LCB3aW5kX21waD0xNy40LCB3aW5kX2twaD0yOC4xLCB3aW5kX2RlZ3JlZT0yNjAsIHdpbmRfZGlyPSdXJywgcHJlc3N1cmVfbWI9MTAxMC4wLCBwcmVzc3VyZV9pbj0yOS44MywgcHJlY2lwX21tPTAuMCwgcHJlY2lwX2luPTAuMCwgaHVtaWRpdHk9NzQsIGNsb3VkPTUwLCBmZWVsc2xpa2VfYz0yNy41LCBmZWVsc2xpa2VfZj04MS40LCB2aXNfa209OC4wLCB2aXNfbWlsZXM9NC4wLCB1dj01LjAsIGd1c3RfbXBoPTI0LjcsIGd1c3Rfa3BoPTM5Ljd9fVxuIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "networkintensive",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#databaseintensive#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 101, 102, 104, 105, 106, 107, 108, 109, 115, 117, 119, 120, 121, 122, 130, 40, 41, 42, 29, 30, 31, 35, 36, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 10, 11, 12, 13, 14, 15, 30, 31, 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : "\"Cannot invoke \\\"org.unlogged.demo.models.CustomerProfile.toString()\\\" because \\\"customerProfile\\\" is null\"",
+        "id" : "00242c93-bdfd-4a1d-b118-c4b0d1607683",
+        "assertionType" : "EQUAL",
+        "key" : "/message"
+      },
+      "candidateId" : "9767b43f-fe69-4fd9-9db0-119b1d01eba9",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.databaseintensive - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "{\"cause\":null,\"stackTrace\":[{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"databaseintensive\",\"fileName\":\"perfAnalysis.java\",\"lineNumber\":122,\"nativeMethod\":false,\"className\":\"org.unlogged.demo.controller.perfAnalysis\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.10\",\"methodName\":\"invoke0\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":-2,\"nativeMethod\":true,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.10\",\"methodName\":\"invoke\",\"fileName\":\"NativeMethodAccessorImpl.java\",\"lineNumber\":77,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.NativeMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.10\",\"methodName\":\"invoke\",\"fileName\":\"DelegatingMethodAccessorImpl.java\",\"lineNumber\":43,\"nativeMethod\":false,\"className\":\"jdk.internal.reflect.DelegatingMethodAccessorImpl\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.10\",\"methodName\":\"invoke\",\"fileName\":\"Method.java\",\"lineNumber\":568,\"nativeMethod\":false,\"className\":\"java.lang.reflect.Method\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommandRaw\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":407,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"executeCommand\",\"fileName\":\"AgentCommandExecutorImpl.java\",\"lineNumber\":477,\"nativeMethod\":false,\"className\":\"io.unlogged.AgentCommandExecutorImpl\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"serve\",\"fileName\":\"AgentCommandServer.java\",\"lineNumber\":74,\"nativeMethod\":false,\"className\":\"io.unlogged.command.AgentCommandServer\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"execute\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":945,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$HTTPSession\"},{\"classLoaderName\":\"app\",\"moduleName\":null,\"moduleVersion\":null,\"methodName\":\"run\",\"fileName\":\"NanoHTTPD.java\",\"lineNumber\":192,\"nativeMethod\":false,\"className\":\"fi.iki.elonen.NanoHTTPD$ClientHandler\"},{\"classLoaderName\":null,\"moduleName\":\"java.base\",\"moduleVersion\":\"17.0.10\",\"methodName\":\"run\",\"fileName\":\"Thread.java\",\"lineNumber\":840,\"nativeMethod\":false,\"className\":\"java.lang.Thread\"}],\"message\":\"Cannot invoke \\\"org.unlogged.demo.models.CustomerProfile.toString()\\\" because \\\"customerProfile\\\" is null\",\"suppressed\":[],\"localizedMessage\":\"Cannot invoke \\\"org.unlogged.demo.models.CustomerProfile.toString()\\\" because \\\"customerProfile\\\" is null\"}",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529678865406125,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1490715278,
+      "probSerializedValue" : "eyJjYXVzZSI6bnVsbCwic3RhY2tUcmFjZSI6W3siY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImRhdGFiYXNlaW50ZW5zaXZlIiwiZmlsZU5hbWUiOiJwZXJmQW5hbHlzaXMuamF2YSIsImxpbmVOdW1iZXIiOjEyMiwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoib3JnLnVubG9nZ2VkLmRlbW8uY29udHJvbGxlci5wZXJmQW5hbHlzaXMifSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIxNy4wLjEwIiwibWV0aG9kTmFtZSI6Imludm9rZTAiLCJmaWxlTmFtZSI6Ik5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6LTIsIm5hdGl2ZU1ldGhvZCI6dHJ1ZSwiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuTmF0aXZlTWV0aG9kQWNjZXNzb3JJbXBsIn0seyJjbGFzc0xvYWRlck5hbWUiOm51bGwsIm1vZHVsZU5hbWUiOiJqYXZhLmJhc2UiLCJtb2R1bGVWZXJzaW9uIjoiMTcuMC4xMCIsIm1ldGhvZE5hbWUiOiJpbnZva2UiLCJmaWxlTmFtZSI6Ik5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NzcsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6Impkay5pbnRlcm5hbC5yZWZsZWN0Lk5hdGl2ZU1ldGhvZEFjY2Vzc29ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuMTAiLCJtZXRob2ROYW1lIjoiaW52b2tlIiwiZmlsZU5hbWUiOiJEZWxlZ2F0aW5nTWV0aG9kQWNjZXNzb3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo0MywibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamRrLmludGVybmFsLnJlZmxlY3QuRGVsZWdhdGluZ01ldGhvZEFjY2Vzc29ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjpudWxsLCJtb2R1bGVOYW1lIjoiamF2YS5iYXNlIiwibW9kdWxlVmVyc2lvbiI6IjE3LjAuMTAiLCJtZXRob2ROYW1lIjoiaW52b2tlIiwiZmlsZU5hbWUiOiJNZXRob2QuamF2YSIsImxpbmVOdW1iZXIiOjU2OCwibmF0aXZlTWV0aG9kIjpmYWxzZSwiY2xhc3NOYW1lIjoiamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kIn0seyJjbGFzc0xvYWRlck5hbWUiOiJhcHAiLCJtb2R1bGVOYW1lIjpudWxsLCJtb2R1bGVWZXJzaW9uIjpudWxsLCJtZXRob2ROYW1lIjoiZXhlY3V0ZUNvbW1hbmRSYXciLCJmaWxlTmFtZSI6IkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbC5qYXZhIiwibGluZU51bWJlciI6NDA3LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5BZ2VudENvbW1hbmRFeGVjdXRvckltcGwifSx7ImNsYXNzTG9hZGVyTmFtZSI6ImFwcCIsIm1vZHVsZU5hbWUiOm51bGwsIm1vZHVsZVZlcnNpb24iOm51bGwsIm1ldGhvZE5hbWUiOiJleGVjdXRlQ29tbWFuZCIsImZpbGVOYW1lIjoiQWdlbnRDb21tYW5kRXhlY3V0b3JJbXBsLmphdmEiLCJsaW5lTnVtYmVyIjo0NzcsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImlvLnVubG9nZ2VkLkFnZW50Q29tbWFuZEV4ZWN1dG9ySW1wbCJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InNlcnZlIiwiZmlsZU5hbWUiOiJBZ2VudENvbW1hbmRTZXJ2ZXIuamF2YSIsImxpbmVOdW1iZXIiOjc0LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJpby51bmxvZ2dlZC5jb21tYW5kLkFnZW50Q29tbWFuZFNlcnZlciJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6ImV4ZWN1dGUiLCJmaWxlTmFtZSI6Ik5hbm9IVFRQRC5qYXZhIiwibGluZU51bWJlciI6OTQ1LCJuYXRpdmVNZXRob2QiOmZhbHNlLCJjbGFzc05hbWUiOiJmaS5pa2kuZWxvbmVuLk5hbm9IVFRQRCRIVFRQU2Vzc2lvbiJ9LHsiY2xhc3NMb2FkZXJOYW1lIjoiYXBwIiwibW9kdWxlTmFtZSI6bnVsbCwibW9kdWxlVmVyc2lvbiI6bnVsbCwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiTmFub0hUVFBELmphdmEiLCJsaW5lTnVtYmVyIjoxOTIsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImZpLmlraS5lbG9uZW4uTmFub0hUVFBEJENsaWVudEhhbmRsZXIifSx7ImNsYXNzTG9hZGVyTmFtZSI6bnVsbCwibW9kdWxlTmFtZSI6ImphdmEuYmFzZSIsIm1vZHVsZVZlcnNpb24iOiIxNy4wLjEwIiwibWV0aG9kTmFtZSI6InJ1biIsImZpbGVOYW1lIjoiVGhyZWFkLmphdmEiLCJsaW5lTnVtYmVyIjo4NDAsIm5hdGl2ZU1ldGhvZCI6ZmFsc2UsImNsYXNzTmFtZSI6ImphdmEubGFuZy5UaHJlYWQifV0sIm1lc3NhZ2UiOiJDYW5ub3QgaW52b2tlIFwib3JnLnVubG9nZ2VkLmRlbW8ubW9kZWxzLkN1c3RvbWVyUHJvZmlsZS50b1N0cmluZygpXCIgYmVjYXVzZSBcImN1c3RvbWVyUHJvZmlsZVwiIGlzIG51bGwiLCJzdXBwcmVzc2VkIjpbXSwibG9jYWxpemVkTWVzc2FnZSI6IkNhbm5vdCBpbnZva2UgXCJvcmcudW5sb2dnZWQuZGVtby5tb2RlbHMuQ3VzdG9tZXJQcm9maWxlLnRvU3RyaW5nKClcIiBiZWNhdXNlIFwiY3VzdG9tZXJQcm9maWxlXCIgaXMgbnVsbCJ9",
+      "mockIds" : [ "262c2951-104b-44e4-97dd-a4b4821e8a72", "07f16472-647d-4a57-92de-8ab9a9dbae8e" ],
+      "method" : {
+        "name" : "databaseintensive",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 1195252571
+      },
+      "exception" : true
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#sum_natural#(I)Ljava/util/List<Ljava/lang/Long;>;" : [ {
+      "lineNumbers" : [ 46, 49, 50, 51, 53, 56, 57, 60, 62, 63, 64, 65 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "43cf7d3f-9ad0-4dfa-9002-31b74833465d",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "b90b2a5d-d179-4124-804d-4c8eb14c0c53",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "0cb4c94a-9610-4d19-9e36-00b5aecb5ae3",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ae0a391c-4998-40a6-a81d-fd7df729ec05",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "608a14f0-af83-4861-9116-32b6a62e01eb",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.sum_natural - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "[0,0,0]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529696573642916,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -383056577,
+      "probSerializedValue" : "WzAsMCwwXQ==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "sum_natural",
+        "signature" : "(I)Ljava/util/List<Ljava/lang/Long;>;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : -1461053530
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#memoryIntensive#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 89, 90, 91, 92, 94, 95 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"write time = 0. read time = 0. sum = 0.\"",
+          "id" : "eacb14ea-49a7-4bd9-b10c-3f3a99fee5d1",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8632ef0b-31dc-449f-ba31-a2ff297152b9",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "698d4e88-c55f-4fe8-bf46-d8d1758ec034",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.memoryIntensive - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "\"write time = 0. read time = 0. sum = 0.\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529696573636541,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 631927027,
+      "probSerializedValue" : "IndyaXRlIHRpbWUgPSAwLiByZWFkIHRpbWUgPSAwLiBzdW0gPSAwLiI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "memoryIntensive",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 1028379236
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#count_prime_calc#(J)I" : [ {
+      "lineNumbers" : [ 27, 28, 29, 30, 36, 37, 31, 32, 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "4",
+          "id" : "b83ae598-4bc8-46c2-a005-f94870fa3824",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8f340de0-535d-4909-b16a-ad79bfc140c0",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "291ffceb-a3cd-4fee-8f37-6c1b9d6282a7",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.count_prime_calc - normal",
+      "description" : null,
+      "methodArguments" : [ "10" ],
+      "returnValue" : "4",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529703431794750,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 191767547,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "count_prime_calc",
+        "signature" : "(J)I",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : 983516705
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#cpu#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 78, 79, 80, 81, 82, 83 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"count of prime = 4.\\n time_calculate = 0\"",
+          "id" : "60b3c4f6-e7c5-4c3d-ac03-84a9e4be02ba",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "235cb71c-490a-4bd9-b7b3-5139c6fa215a",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c1f84ba6-c69c-4833-9770-6d5b5a92e01f",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.cpu - normal",
+      "description" : null,
+      "methodArguments" : [ "10" ],
+      "returnValue" : "\"count of prime = 4.\\n time_calculate = 0\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529703431778333,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1416519924,
+      "probSerializedValue" : "ImNvdW50IG9mIHByaW1lID0gNC5cbiB0aW1lX2NhbGN1bGF0ZSA9IDAi",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "cpu",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : -1032395036
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.perfAnalysis#ping#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 73 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"server up!\"",
+          "id" : "0725d9a4-bbe7-402f-ae4b-d2a855cc49db",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e6f609cb-32fd-4477-aa04-0066a670390e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "cef9f42e-5fee-486d-8494-d7e4316fc73e",
+      "name" : "org.unlogged.demo.controller.perfAnalysis.ping - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"server up!\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529708063615291,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -882096360,
+      "probSerializedValue" : "InNlcnZlciB1cCEi",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "ping",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.controller.perfAnalysis",
+        "methodHash" : -912224112
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}
