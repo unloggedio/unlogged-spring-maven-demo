@@ -1,0 +1,152 @@
+{
+  "classname" : "org.unlogged.demo.controller.RecursionController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.RecursionController#getIsPalindrome#(Ljava/lang/String;)Z" : [ {
+      "lineNumbers" : [ 39 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c084ffde-264d-491d-adb7-6da1dbf1fb06",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "034b0695-6ba0-4735-bff3-191d10e6e69e",
+      "name" : "org.unlogged.demo.controller.RecursionController.getIsPalindrome - normal",
+      "description" : null,
+      "methodArguments" : [ "\"hello\"" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529882900125666,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1140855169,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getIsPalindrome",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : -692999781
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.RecursionController#getFibonacciSeries#(I)I" : [ {
+      "lineNumbers" : [ 25 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "144",
+          "id" : "e62e2526-ffbf-4fba-a00b-181fe62e8289",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d8599e93-8fa0-4824-9c45-2c72d6f18480",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "555831fd-8269-4091-a207-93d0d358f698",
+      "name" : "org.unlogged.demo.controller.RecursionController.getFibonacciSeries - normal",
+      "description" : null,
+      "methodArguments" : [ "12" ],
+      "returnValue" : "144",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529894197149750,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1072231950,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getFibonacciSeries",
+        "signature" : "(I)I",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : -834348025
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.RecursionController#isPalindrome#(Ljava/lang/String;)Z" : [ {
+      "lineNumbers" : [ 29, 32, 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "9d956641-ae23-45f5-871a-e14d9079ffac",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0abbe776-af55-420b-8953-c9c2b48a3e8e",
+      "name" : "org.unlogged.demo.controller.RecursionController.isPalindrome - normal",
+      "description" : null,
+      "methodArguments" : [ "\"hello\"" ],
+      "returnValue" : "0",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529882900312000,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 414448097,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "isPalindrome",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : 457420368
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.controller.RecursionController#factorial#(I)I" : [ {
+      "lineNumbers" : [ 6, 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "d69ccd9e-18d7-46b4-8105-2e8539c49cf4",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1b44ccbd-87b5-4517-a433-c788bdc94e13",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "a175673a-104b-49b0-84db-b0fd1c26165c",
+      "name" : "org.unlogged.demo.controller.RecursionController.factorial - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "I",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529927526481791,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 925347379,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "factorial",
+        "signature" : "(I)I",
+        "className" : "org.unlogged.demo.controller.RecursionController",
+        "methodHash" : 113291801
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

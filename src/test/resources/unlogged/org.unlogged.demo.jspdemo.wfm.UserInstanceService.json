@@ -1,0 +1,99 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.UserInstanceService#saveUser#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;" : [ {
+      "lineNumbers" : [ 10, 11, 24, 25, 26, 27, 29, 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "0",
+          "id" : "5d2ad9d1-7e79-478c-a4f2-7889992db0a2",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "dd8277e6-d508-4e17-bc11-42ee7e5e8e93",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "b6fedc46-ab43-4284-823d-ddf97a61c573",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "23240cb1-e9a0-4dae-80c5-8520202d3320",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "86849e3d-878c-423c-98c0-7555d46a3a6e",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "6cb38b90-e998-495b-ace2-037b921205c9",
+      "name" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService.saveUser - normal",
+      "description" : null,
+      "methodArguments" : [ "\"string\"", "\"string\"", "\"string\"" ],
+      "returnValue" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.UserInstance",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 531710601589166,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 336920663,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjowLCJ1c2VybmFtZSI6InN0cmluZyIsInBhc3N3b3JkIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmcifQ==",
+      "mockIds" : [ "b5f899f9-5f5a-437f-a5d6-a26cfd8a00ce" ],
+      "method" : {
+        "name" : "saveUser",
+        "signature" : "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService",
+        "methodHash" : 1388885849
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.UserInstanceService#saveUser#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;" : [ {
+      "id" : "97f82314-57bb-4013-98c0-78d1e5a9275d",
+      "name" : "mock response for call to userInstanceService.saveUser(username, password, email)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.UserController",
+      "fieldName" : "userInstanceService",
+      "methodName" : "saveUser",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"user_id\":0,\"username\":\"string\",\"password\":\"string\",\"email\":\"string\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.UserInstance"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.UserInstanceService#saveUser#(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/UserInstance;"
+    } ]
+  }
+}

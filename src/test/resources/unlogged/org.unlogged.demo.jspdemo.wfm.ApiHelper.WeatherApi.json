@@ -1,0 +1,70 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 15, 16, 17, 18, 19, 21, 26, 27 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208602,\\\"localtime\\\":\\\"2024-06-24 11:26\\\"},\\\"current\\\":{\\\"temp_c\\\":28.7,\\\"temp_f\\\":83.7,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":6.0,\\\"wind_kph\\\":9.7,\\\"wind_degree\\\":261,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1002.0,\\\"pressure_in\\\":29.6,\\\"precip_mm\\\":0.35,\\\"precip_in\\\":0.01,\\\"humidity\\\":64,\\\"cloud\\\":81,\\\"feelslike_c\\\":31.4,\\\"feelslike_f\\\":88.5,\\\"vis_km\\\":9.0,\\\"vis_miles\\\":5.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":7.0,\\\"gust_kph\\\":11.3}}\"",
+          "id" : "cb9d9869-adcb-4f3d-8530-1a7cf3d7f43c",
+          "assertionType" : "NOT_NULL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "76810d10-b9bd-4efd-82ce-de967098d6cf",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "132e1837-5fd1-4f7c-a0a7-d0d63c46d6d7",
+      "name" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi.getWeatherinfo - normal",
+      "description" : null,
+      "methodArguments" : [ "\"Pune\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208602,\\\"localtime\\\":\\\"2024-06-24 11:26\\\"},\\\"current\\\":{\\\"temp_c\\\":28.7,\\\"temp_f\\\":83.7,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":6.0,\\\"wind_kph\\\":9.7,\\\"wind_degree\\\":261,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1002.0,\\\"pressure_in\\\":29.6,\\\"precip_mm\\\":0.35,\\\"precip_in\\\":0.01,\\\"humidity\\\":64,\\\"cloud\\\":81,\\\"feelslike_c\\\":31.4,\\\"feelslike_f\\\":88.5,\\\"vis_km\\\":9.0,\\\"vis_miles\\\":5.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":7.0,\\\"gust_kph\\\":11.3}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 531433938231208,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1537493521,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiUHVuZVwiLFwicmVnaW9uXCI6XCJNYWhhcmFzaHRyYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjE4LjUzLFwibG9uXCI6NzMuODcsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE5MjA4NjAyLFwibG9jYWx0aW1lXCI6XCIyMDI0LTA2LTI0IDExOjI2XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjI4LjcsXCJ0ZW1wX2ZcIjo4My43LFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhdGNoeSByYWluIG5lYXJieVwiLFwiaWNvblwiOlwiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTc2LnBuZ1wiLFwiY29kZVwiOjEwNjN9LFwid2luZF9tcGhcIjo2LjAsXCJ3aW5kX2twaFwiOjkuNyxcIndpbmRfZGVncmVlXCI6MjYxLFwid2luZF9kaXJcIjpcIldcIixcInByZXNzdXJlX21iXCI6MTAwMi4wLFwicHJlc3N1cmVfaW5cIjoyOS42LFwicHJlY2lwX21tXCI6MC4zNSxcInByZWNpcF9pblwiOjAuMDEsXCJodW1pZGl0eVwiOjY0LFwiY2xvdWRcIjo4MSxcImZlZWxzbGlrZV9jXCI6MzEuNCxcImZlZWxzbGlrZV9mXCI6ODguNSxcInZpc19rbVwiOjkuMCxcInZpc19taWxlc1wiOjUuMCxcInV2XCI6Ni4wLFwiZ3VzdF9tcGhcIjo3LjAsXCJndXN0X2twaFwiOjExLjN9fSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+        "methodHash" : -1588209503
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "7f5ce50c-baa0-44f2-b3e0-e16535daecc1",
+      "name" : "mock response for call to weatherApi.getWeatherinfo(\"London\")",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Controllers.GcdController",
+      "fieldName" : "weatherApi",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"Pune\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Pune\\\",\\\"region\\\":\\\"Maharashtra\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":18.53,\\\"lon\\\":73.87,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208602,\\\"localtime\\\":\\\"2024-06-24 11:26\\\"},\\\"current\\\":{\\\"temp_c\\\":28.7,\\\"temp_f\\\":83.7,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy rain nearby\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/176.png\\\",\\\"code\\\":1063},\\\"wind_mph\\\":6.0,\\\"wind_kph\\\":9.7,\\\"wind_degree\\\":261,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1002.0,\\\"pressure_in\\\":29.6,\\\"precip_mm\\\":0.35,\\\"precip_in\\\":0.01,\\\"humidity\\\":64,\\\"cloud\\\":81,\\\"feelslike_c\\\":31.4,\\\"feelslike_f\\\":88.5,\\\"vis_km\\\":9.0,\\\"vis_miles\\\":5.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":7.0,\\\"gust_kph\\\":11.3}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ApiHelper.WeatherApi#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
+}
