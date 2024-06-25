@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.resttemplate.PostController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.resttemplate.PostController#getPostById#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 29, 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\n  \\\"userId\\\": 1,\\n  \\\"id\\\": 2,\\n  \\\"title\\\": \\\"qui est esse\\\",\\n  \\\"body\\\": \\\"est rerum tempore vitae\\\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\\\nqui aperiam non debitis possimus qui neque nisi nulla\\\"\\n}\"",
+          "id" : "3b83f8af-e138-4adb-91d2-899df1d68b3f",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "52aa8b90-53f2-4327-90c1-b296c0280b6f",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "69a2a4c7-20d6-4a1b-bdc6-e2f7cb46e22b",
+      "name" : "org.unlogged.demo.resttemplate.PostController.getPostById - unexpected failure",
+      "description" : null,
+      "methodArguments" : [ "2" ],
+      "returnValue" : "\"{\\n  \\\"userId\\\": 1,\\n  \\\"id\\\": 2,\\n  \\\"title\\\": \\\"qui est esse\\\",\\n  \\\"body\\\": \\\"est rerum tempore vitae\\\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\\\nqui aperiam non debitis possimus qui neque nisi nulla\\\"\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 531928118125125,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1697065211,
+      "probSerializedValue" : "IntcbiAgXCJ1c2VySWRcIjogMSxcbiAgXCJpZFwiOiAyLFxuICBcInRpdGxlXCI6IFwicXVpIGVzdCBlc3NlXCIsXG4gIFwiYm9keVwiOiBcImVzdCByZXJ1bSB0ZW1wb3JlIHZpdGFlXFxuc2VxdWkgc2ludCBuaWhpbCByZXByZWhlbmRlcml0IGRvbG9yIGJlYXRhZSBlYSBkb2xvcmVzIG5lcXVlXFxuZnVnaWF0IGJsYW5kaXRpaXMgdm9sdXB0YXRlIHBvcnJvIHZlbCBuaWhpbCBtb2xlc3RpYWUgdXQgcmVpY2llbmRpc1xcbnF1aSBhcGVyaWFtIG5vbiBkZWJpdGlzIHBvc3NpbXVzIHF1aSBuZXF1ZSBuaXNpIG51bGxhXCJcbn0i",
+      "mockIds" : [ "f44747c3-dd8c-4042-83be-9ae4a441c1dc" ],
+      "method" : {
+        "name" : "getPostById",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.resttemplate.PostController",
+        "methodHash" : 62543045
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

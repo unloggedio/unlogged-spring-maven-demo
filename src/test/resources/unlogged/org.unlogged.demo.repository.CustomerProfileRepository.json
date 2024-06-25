@@ -1,0 +1,231 @@
+{
+  "classname" : "org.unlogged.demo.repository.CustomerProfileRepository",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.repository.CustomerProfileRepository#save#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 29, 30, 31, 35, 36 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "3",
+          "id" : "bd086e3e-b22f-4f92-9774-44c82fd0be20",
+          "assertionType" : "NOT_NULL",
+          "key" : "/customerid"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Test User 3\"",
+          "id" : "b1295cf3-9684-4e7b-96e1-70606db906df",
+          "assertionType" : "EQUAL",
+          "key" : "/customername"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "3f32afd3-3148-48ae-839c-9121dfa1b61c",
+          "assertionType" : "EQUAL",
+          "key" : "/dateofbirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "10749a02-ab1d-4a2f-840a-93d07546d1df",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "df0a10e0-db96-41ec-bb30-b2116cf4df67",
+          "assertionType" : "EQUAL",
+          "key" : "/contactnumber"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "ae1990c4-e8a0-4e65-b433-3b3ef63b9b90",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Jun 24, 2024 10:42:27 am\"",
+          "id" : "d789f9ef-5a05-4855-b5e0-b0bff603d5c1",
+          "assertionType" : "NOT_NULL",
+          "key" : "/createdDate"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Jun 24, 2024 10:42:27 am\"",
+          "id" : "441d5351-1156-4010-a4ba-33f37c32c0d7",
+          "assertionType" : "NOT_NULL",
+          "key" : "/updatedDate"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "480024c6-164a-4ec6-98c8-80d75c4ef338",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "d40dbe7b-b5f6-4901-a18d-f3d238cacfb9",
+      "name" : "org.unlogged.demo.repository.CustomerProfileRepository.save - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"customerName\":\"Test User 3\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"gsnpdtspph\",\"icutqntfoh\",\"mcdquwcalr\",\"gzwewmmkzs\",\"hugbvnxfde\"]}" ],
+      "returnValue" : "{\"customerid\":3,\"customername\":\"Test User 3\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"gsnpdtspph\",\"icutqntfoh\",\"mcdquwcalr\",\"gzwewmmkzs\",\"hugbvnxfde\"],\"createdDate\":\"Jun 24, 2024 10:42:27 am\",\"updatedDate\":\"Jun 24, 2024 10:42:27 am\"}",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 528726213459291,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 692922846,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjozLCJjdXN0b21lcm5hbWUiOiJUZXN0IFVzZXIgMyIsImRhdGVvZmJpcnRoIjoic3RyaW5nIiwiZW1haWwiOiJzdHJpbmciLCJjb250YWN0bnVtYmVyIjoic3RyaW5nIiwiYWRkcmVzcyI6InN0cmluZyIsInJlZmVycmFsY29kZXMiOlsiZ3NucGR0c3BwaCIsImljdXRxbnRmb2giLCJtY2RxdXdjYWxyIiwiZ3p3ZXdtbWt6cyIsImh1Z2J2bnhmZGUiXSwiY3JlYXRlZERhdGUiOiJKdW4gMjQsIDIwMjQgMTA6NDI6MjcgYW0iLCJ1cGRhdGVkRGF0ZSI6Ikp1biAyNCwgMjAyNCAxMDo0MjoyNyBhbSJ9",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "save",
+        "signature" : "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.repository.CustomerProfileRepository",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 40, 41, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "16585da0-862e-4855-af07-bc60676a0bd7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c99e56e1-c87f-4169-957e-f03460fe9aaa",
+      "name" : "org.unlogged.demo.repository.CustomerProfileRepository.removeCustomer - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 528985294063583,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -384096520,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "removeCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.repository.CustomerProfileRepository",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a6c88532-b915-4d65-8259-d876bb405cd3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "8f6ea6cb-a66f-435d-9440-382f5795a74f",
+      "name" : "org.unlogged.demo.repository.CustomerProfileRepository.fetchCustomerProfile - normal",
+      "description" : null,
+      "methodArguments" : [ "1" ],
+      "returnValue" : "null",
+      "returnValueClassname" : "org.unlogged.demo.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529053915637416,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -968377237,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.repository.CustomerProfileRepository",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.repository.CustomerProfileRepository#save#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "b8109eb2-723f-40df-b969-932391bd8cc4",
+      "name" : "mock response for call to customerProfileRepository.save(saveRequest)",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "{\"customerName\":\"Test User 3\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"gsnpdtspph\",\"icutqntfoh\",\"mcdquwcalr\",\"gzwewmmkzs\",\"hugbvnxfde\"]}"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":3,\"customername\":\"Test User 3\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"gsnpdtspph\",\"icutqntfoh\",\"mcdquwcalr\",\"gzwewmmkzs\",\"hugbvnxfde\"],\"createdDate\":\"Jun 24, 2024 10:42:27 am\",\"updatedDate\":\"Jun 24, 2024 10:42:27 am\"}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#save#(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "5b775e45-63fc-4f76-bf6e-33df70ccb7c5",
+      "name" : "mock response for call to customerProfileRepository.removeCustomer(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "1"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#removeCustomer#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ],
+    "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;" : [ {
+      "id" : "b93edd56-93d2-4411-a151-b90f6aeb020e",
+      "name" : "mock response for call to customerProfileRepository.fetchCustomerProfile(customerID)",
+      "fieldTypeName" : "org.unlogged.demo.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "1"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/models/CustomerProfile;"
+    } ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208636,\\\"localtime\\\":\\\"2024-06-24 11:27\\\"},\\\"current\\\":{\\\"temp_c\\\":26.4,\\\"temp_f\\\":79.5,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":13.6,\\\"wind_kph\\\":22.0,\\\"wind_degree\\\":260,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":79,\\\"cloud\\\":50,\\\"feelslike_c\\\":27.5,\\\"feelslike_f\\\":81.5,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":25.5,\\\"gust_kph\\\":41.0}}\"",
+          "id" : "61ead91d-0aa7-4a0c-be05-2a6764ed6903",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e1779e38-c611-47dc-a30c-02d830f16917",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9afa10f9-291c-4672-8639-6af7f1a8fb03",
+      "name" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper.getWeatherinfo - normal",
+      "description" : null,
+      "methodArguments" : [ "\"Bangalore\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208636,\\\"localtime\\\":\\\"2024-06-24 11:27\\\"},\\\"current\\\":{\\\"temp_c\\\":26.4,\\\"temp_f\\\":79.5,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":13.6,\\\"wind_kph\\\":22.0,\\\"wind_degree\\\":260,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":79,\\\"cloud\\\":50,\\\"feelslike_c\\\":27.5,\\\"feelslike_f\\\":81.5,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":25.5,\\\"gust_kph\\\":41.0}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 531466962537666,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1574527957,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiQmFuZ2Fsb3JlXCIsXCJyZWdpb25cIjpcIkthcm5hdGFrYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjEyLjk4LFwibG9uXCI6NzcuNTgsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE5MjA4NjM2LFwibG9jYWx0aW1lXCI6XCIyMDI0LTA2LTI0IDExOjI3XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjI2LjQsXCJ0ZW1wX2ZcIjo3OS41LFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhcnRseSBjbG91ZHlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmdcIixcImNvZGVcIjoxMDAzfSxcIndpbmRfbXBoXCI6MTMuNixcIndpbmRfa3BoXCI6MjIuMCxcIndpbmRfZGVncmVlXCI6MjYwLFwid2luZF9kaXJcIjpcIldcIixcInByZXNzdXJlX21iXCI6MTAxMC4wLFwicHJlc3N1cmVfaW5cIjoyOS44MyxcInByZWNpcF9tbVwiOjAuMCxcInByZWNpcF9pblwiOjAuMCxcImh1bWlkaXR5XCI6NzksXCJjbG91ZFwiOjUwLFwiZmVlbHNsaWtlX2NcIjoyNy41LFwiZmVlbHNsaWtlX2ZcIjo4MS41LFwidmlzX2ttXCI6OC4wLFwidmlzX21pbGVzXCI6NC4wLFwidXZcIjo3LjAsXCJndXN0X21waFwiOjI1LjUsXCJndXN0X2twaFwiOjQxLjB9fSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 1018881335
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 17, 18, 19, 20, 21, 23, 28, 29 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Dehradun\\\",\\\"region\\\":\\\"Uttarakhand\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":30.32,\\\"lon\\\":78.03,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208630,\\\"localtime\\\":\\\"2024-06-24 11:27\\\"},\\\"current\\\":{\\\"temp_c\\\":35.8,\\\"temp_f\\\":96.5,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy light drizzle\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/263.png\\\",\\\"code\\\":1150},\\\"wind_mph\\\":6.3,\\\"wind_kph\\\":10.1,\\\"wind_degree\\\":184,\\\"wind_dir\\\":\\\"S\\\",\\\"pressure_mb\\\":1001.0,\\\"pressure_in\\\":29.55,\\\"precip_mm\\\":0.22,\\\"precip_in\\\":0.01,\\\"humidity\\\":38,\\\"cloud\\\":72,\\\"feelslike_c\\\":39.0,\\\"feelslike_f\\\":102.3,\\\"vis_km\\\":5.0,\\\"vis_miles\\\":3.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":7.2,\\\"gust_kph\\\":11.6}}\"",
+          "id" : "571c9db9-d442-47b5-8d6c-fa34788ead84",
+          "assertionType" : "NOT_NULL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "4023533e-d8e5-4f37-b929-a933cbb882aa",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e47a1c59-3809-4a00-8630-7f8f98e2af7c",
+      "name" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper.getWeatherinfo - normal",
+      "description" : null,
+      "methodArguments" : [ "\"dehradun\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Dehradun\\\",\\\"region\\\":\\\"Uttarakhand\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":30.32,\\\"lon\\\":78.03,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208630,\\\"localtime\\\":\\\"2024-06-24 11:27\\\"},\\\"current\\\":{\\\"temp_c\\\":35.8,\\\"temp_f\\\":96.5,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy light drizzle\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/263.png\\\",\\\"code\\\":1150},\\\"wind_mph\\\":6.3,\\\"wind_kph\\\":10.1,\\\"wind_degree\\\":184,\\\"wind_dir\\\":\\\"S\\\",\\\"pressure_mb\\\":1001.0,\\\"pressure_in\\\":29.55,\\\"precip_mm\\\":0.22,\\\"precip_in\\\":0.01,\\\"humidity\\\":38,\\\"cloud\\\":72,\\\"feelslike_c\\\":39.0,\\\"feelslike_f\\\":102.3,\\\"vis_km\\\":5.0,\\\"vis_miles\\\":3.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":7.2,\\\"gust_kph\\\":11.6}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 531461961155083,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1984518491,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiRGVocmFkdW5cIixcInJlZ2lvblwiOlwiVXR0YXJha2hhbmRcIixcImNvdW50cnlcIjpcIkluZGlhXCIsXCJsYXRcIjozMC4zMixcImxvblwiOjc4LjAzLFwidHpfaWRcIjpcIkFzaWEvS29sa2F0YVwiLFwibG9jYWx0aW1lX2Vwb2NoXCI6MTcxOTIwODYzMCxcImxvY2FsdGltZVwiOlwiMjAyNC0wNi0yNCAxMToyN1wifSxcImN1cnJlbnRcIjp7XCJ0ZW1wX2NcIjozNS44LFwidGVtcF9mXCI6OTYuNSxcImlzX2RheVwiOjEsXCJjb25kaXRpb25cIjp7XCJ0ZXh0XCI6XCJQYXRjaHkgbGlnaHQgZHJpenpsZVwiLFwiaWNvblwiOlwiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMjYzLnBuZ1wiLFwiY29kZVwiOjExNTB9LFwid2luZF9tcGhcIjo2LjMsXCJ3aW5kX2twaFwiOjEwLjEsXCJ3aW5kX2RlZ3JlZVwiOjE4NCxcIndpbmRfZGlyXCI6XCJTXCIsXCJwcmVzc3VyZV9tYlwiOjEwMDEuMCxcInByZXNzdXJlX2luXCI6MjkuNTUsXCJwcmVjaXBfbW1cIjowLjIyLFwicHJlY2lwX2luXCI6MC4wMSxcImh1bWlkaXR5XCI6MzgsXCJjbG91ZFwiOjcyLFwiZmVlbHNsaWtlX2NcIjozOS4wLFwiZmVlbHNsaWtlX2ZcIjoxMDIuMyxcInZpc19rbVwiOjUuMCxcInZpc19taWxlc1wiOjMuMCxcInV2XCI6OC4wLFwiZ3VzdF9tcGhcIjo3LjIsXCJndXN0X2twaFwiOjExLjZ9fSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+        "methodHash" : 0
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "id" : "1fde21e9-3f4b-4a8b-ad62-fd0e10f65705",
+      "name" : "mock response for call to helper.getWeatherinfo(location)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "fieldName" : "helper",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"dehradun\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Dehradun\\\",\\\"region\\\":\\\"Uttarakhand\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":30.32,\\\"lon\\\":78.03,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208630,\\\"localtime\\\":\\\"2024-06-24 11:27\\\"},\\\"current\\\":{\\\"temp_c\\\":35.8,\\\"temp_f\\\":96.5,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Patchy light drizzle\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/263.png\\\",\\\"code\\\":1150},\\\"wind_mph\\\":6.3,\\\"wind_kph\\\":10.1,\\\"wind_degree\\\":184,\\\"wind_dir\\\":\\\"S\\\",\\\"pressure_mb\\\":1001.0,\\\"pressure_in\\\":29.55,\\\"precip_mm\\\":0.22,\\\"precip_in\\\":0.01,\\\"humidity\\\":38,\\\"cloud\\\":72,\\\"feelslike_c\\\":39.0,\\\"feelslike_f\\\":102.3,\\\"vis_km\\\":5.0,\\\"vis_miles\\\":3.0,\\\"uv\\\":8.0,\\\"gust_mph\\\":7.2,\\\"gust_kph\\\":11.6}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    }, {
+      "id" : "f66add3b-7030-4a0b-a381-2c0ad1654e83",
+      "name" : "mock response for call to helper.getWeatherinfo(location)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyService",
+      "fieldName" : "helper",
+      "methodName" : "getWeatherinfo",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"Bangalore\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bangalore\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719208636,\\\"localtime\\\":\\\"2024-06-24 11:27\\\"},\\\"current\\\":{\\\"temp_c\\\":26.4,\\\"temp_f\\\":79.5,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":13.6,\\\"wind_kph\\\":22.0,\\\"wind_degree\\\":260,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":79,\\\"cloud\\\":50,\\\"feelslike_c\\\":27.5,\\\"feelslike_f\\\":81.5,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":7.0,\\\"gust_mph\\\":25.5,\\\"gust_kph\\\":41.0}}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.ThirdPartyApiHelper#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;"
+    } ]
+  }
+}

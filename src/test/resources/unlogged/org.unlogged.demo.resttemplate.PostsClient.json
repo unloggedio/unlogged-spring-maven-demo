@@ -1,0 +1,70 @@
+{
+  "classname" : "org.unlogged.demo.resttemplate.PostsClient",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.resttemplate.PostsClient#findById#(I)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\n  \\\"userId\\\": 1,\\n  \\\"id\\\": 2,\\n  \\\"title\\\": \\\"qui est esse\\\",\\n  \\\"body\\\": \\\"est rerum tempore vitae\\\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\\\nqui aperiam non debitis possimus qui neque nisi nulla\\\"\\n}\"",
+          "id" : "9e4f4e24-a537-4df6-bcb7-dc24bc42d8ec",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "e0b82723-b7bd-472a-b1f8-82416f6560ad",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ce21b15f-4e9c-45e9-a789-3dcd140f98c6",
+      "name" : "org.unlogged.demo.resttemplate.PostsClient.findById - wrong assertions with extra char",
+      "description" : null,
+      "methodArguments" : [ "2" ],
+      "returnValue" : "\"{\\n  \\\"userId\\\": 1,\\n  \\\"id\\\": 2,\\n  \\\"title\\\": \\\"qui est esse\\\",\\n  \\\"body\\\": \\\"est rerum tempore vitae\\\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\\\nqui aperiam non debitis possimus qui neque nisi nulla\\\"\\n}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 531928118775541,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 583472144,
+      "probSerializedValue" : "IntcbiAgXCJ1c2VySWRcIjogMSxcbiAgXCJpZFwiOiAyLFxuICBcInRpdGxlXCI6IFwicXVpIGVzdCBlc3NlXCIsXG4gIFwiYm9keVwiOiBcImVzdCByZXJ1bSB0ZW1wb3JlIHZpdGFlXFxuc2VxdWkgc2ludCBuaWhpbCByZXByZWhlbmRlcml0IGRvbG9yIGJlYXRhZSBlYSBkb2xvcmVzIG5lcXVlXFxuZnVnaWF0IGJsYW5kaXRpaXMgdm9sdXB0YXRlIHBvcnJvIHZlbCBuaWhpbCBtb2xlc3RpYWUgdXQgcmVpY2llbmRpc1xcbnF1aSBhcGVyaWFtIG5vbiBkZWJpdGlzIHBvc3NpbXVzIHF1aSBuZXF1ZSBuaXNpIG51bGxhXCJcbn0i",
+      "mockIds" : [ "a73a9bf1-d20a-4362-a496-c31072097aca" ],
+      "method" : {
+        "name" : "findById",
+        "signature" : "(I)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.resttemplate.PostsClient",
+        "methodHash" : -1539073102
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.resttemplate.PostsClient#findById#(I)Ljava/lang/String;" : [ {
+      "id" : "f44747c3-dd8c-4042-83be-9ae4a441c1dc",
+      "name" : "mock response for call to postsClient.findById(id)",
+      "fieldTypeName" : "org.unlogged.demo.resttemplate.PostsClient",
+      "sourceClassName" : "org.unlogged.demo.resttemplate.PostController",
+      "fieldName" : "postsClient",
+      "methodName" : "findById",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "2"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\n  \\\"userId\\\": 1,\\n  \\\"id\\\": 2,\\n  \\\"title\\\": \\\"qui est esse\\\",\\n  \\\"body\\\": \\\"est rerum tempore vitae\\\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\\\nqui aperiam non debitis possimus qui neque nisi nulla\\\"\\n}\"",
+          "returnValueType" : "REAL",
+          "className" : "java.lang.String"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.resttemplate.PostsClient#findById#(I)Ljava/lang/String;"
+    } ]
+  }
+}

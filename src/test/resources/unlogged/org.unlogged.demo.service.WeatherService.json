@@ -1,0 +1,273 @@
+{
+  "classname" : "org.unlogged.demo.service.WeatherService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.service.WeatherService#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 31, 32, 33, 34, 35, 37, 42, 43 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bengaluru\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719206822,\\\"localtime\\\":\\\"2024-06-24 10:57\\\"},\\\"current\\\":{\\\"temp_c\\\":26.1,\\\"temp_f\\\":79.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":17.4,\\\"wind_kph\\\":28.1,\\\"wind_degree\\\":260,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":74,\\\"cloud\\\":50,\\\"feelslike_c\\\":27.5,\\\"feelslike_f\\\":81.4,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":5.0,\\\"gust_mph\\\":24.7,\\\"gust_kph\\\":39.7}}\"",
+          "id" : "fdd36043-3a1b-4bac-ad18-a1e47be7851e",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "beff0230-8126-4597-8b54-d8683433ca63",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "2ff3b541-07f0-4ee3-b46d-79841aa54bc3",
+      "name" : "org.unlogged.demo.service.WeatherService.getWeatherinfo - normal",
+      "description" : null,
+      "methodArguments" : [ "\"Bengaluru\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Bengaluru\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719206822,\\\"localtime\\\":\\\"2024-06-24 10:57\\\"},\\\"current\\\":{\\\"temp_c\\\":26.1,\\\"temp_f\\\":79.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":17.4,\\\"wind_kph\\\":28.1,\\\"wind_degree\\\":260,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":74,\\\"cloud\\\":50,\\\"feelslike_c\\\":27.5,\\\"feelslike_f\\\":81.4,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":5.0,\\\"gust_mph\\\":24.7,\\\"gust_kph\\\":39.7}}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529654746644208,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1635870969,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiQmVuZ2FsdXJ1XCIsXCJyZWdpb25cIjpcIkthcm5hdGFrYVwiLFwiY291bnRyeVwiOlwiSW5kaWFcIixcImxhdFwiOjEyLjk4LFwibG9uXCI6NzcuNTgsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzE5MjA2ODIyLFwibG9jYWx0aW1lXCI6XCIyMDI0LTA2LTI0IDEwOjU3XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjI2LjEsXCJ0ZW1wX2ZcIjo3OS4wLFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhcnRseSBjbG91ZHlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmdcIixcImNvZGVcIjoxMDAzfSxcIndpbmRfbXBoXCI6MTcuNCxcIndpbmRfa3BoXCI6MjguMSxcIndpbmRfZGVncmVlXCI6MjYwLFwid2luZF9kaXJcIjpcIldcIixcInByZXNzdXJlX21iXCI6MTAxMC4wLFwicHJlc3N1cmVfaW5cIjoyOS44MyxcInByZWNpcF9tbVwiOjAuMCxcInByZWNpcF9pblwiOjAuMCxcImh1bWlkaXR5XCI6NzQsXCJjbG91ZFwiOjUwLFwiZmVlbHNsaWtlX2NcIjoyNy41LFwiZmVlbHNsaWtlX2ZcIjo4MS40LFwidmlzX2ttXCI6OC4wLFwidmlzX21pbGVzXCI6NC4wLFwidXZcIjo1LjAsXCJndXN0X21waFwiOjI0LjcsXCJndXN0X2twaFwiOjM5Ljd9fSI=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : -665233081
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 17, 21, 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Bengaluru\"",
+            "id" : "77b1cd3c-ab3d-4f93-8279-e7b49c04f3f3",
+            "assertionType" : "EQUAL",
+            "key" : "/location/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Karnataka\"",
+            "id" : "6cd564fd-32ae-4324-8e04-57d8d14e1798",
+            "assertionType" : "EQUAL",
+            "key" : "/location/region"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"India\"",
+            "id" : "15075376-3167-498f-a919-e7cc451e01f3",
+            "assertionType" : "EQUAL",
+            "key" : "/location/country"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "12.98",
+            "id" : "260a2015-1ac1-40ee-9b20-825dbab41cac",
+            "assertionType" : "EQUAL",
+            "key" : "/location/lat"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "77.58",
+            "id" : "c105aff5-07a2-4664-95c8-5b1b2710e444",
+            "assertionType" : "EQUAL",
+            "key" : "/location/lon"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Asia/Kolkata\"",
+            "id" : "cade9fb4-b916-4a65-b145-6c93c6927ecc",
+            "assertionType" : "EQUAL",
+            "key" : "/location/tz_id"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "1719206822",
+            "id" : "1b3c94e0-68b2-415f-8b38-6579eba0db41",
+            "assertionType" : "NOT_NULL",
+            "key" : "/location/localtime_epoch"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"2024-06-24 10:57\"",
+            "id" : "8611a871-eab7-49e8-a29d-b66888cac8e1",
+            "assertionType" : "NOT_NULL",
+            "key" : "/location/localtime"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "614632ee-cbe6-4f2a-ba12-adac710f6c20",
+          "assertionType" : "ALLOF",
+          "key" : "/location"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "26.1",
+            "id" : "c1943251-077c-4fc4-8d82-56a1add5fd85",
+            "assertionType" : "NOT_NULL",
+            "key" : "/current/temp_c"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "79.0",
+            "id" : "473e68a1-587e-404a-b657-31b5b8e70598",
+            "assertionType" : "NOT_NULL",
+            "key" : "/current/temp_f"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "2af0dd22-681d-40bf-a24e-d742e857eb2a",
+          "assertionType" : "ALLOF",
+          "key" : "/current"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "863dfa70-53b5-4ad0-9ea1-351e6b23da76",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "dbf3e9d5-8add-4a35-9c77-de222fe311d0",
+      "name" : "org.unlogged.demo.service.WeatherService.getWeatherForAddress - normal",
+      "description" : null,
+      "methodArguments" : [ "\"Bengaluru\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"Bengaluru\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.98,\"lon\":77.58,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1719206822,\"localtime\":\"2024-06-24 10:57\"},\"current\":{\"temp_c\":26.1,\"temp_f\":79.0,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":17.4,\"wind_kph\":28.1,\"wind_degree\":260,\"wind_dir\":\"W\",\"pressure_mb\":1010.0,\"pressure_in\":29.83,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":74,\"cloud\":50,\"feelslike_c\":27.5,\"feelslike_f\":81.4,\"vis_km\":8.0,\"vis_miles\":4.0,\"uv\":5.0,\"gust_mph\":24.7,\"gust_kph\":39.7}}",
+      "returnValueClassname" : "org.unlogged.demo.models.weather.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529654746185708,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1702792583,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiQmVuZ2FsdXJ1IiwicmVnaW9uIjoiS2FybmF0YWthIiwiY291bnRyeSI6IkluZGlhIiwibGF0IjoxMi45OCwibG9uIjo3Ny41OCwidHpfaWQiOiJBc2lhL0tvbGthdGEiLCJsb2NhbHRpbWVfZXBvY2giOjE3MTkyMDY4MjIsImxvY2FsdGltZSI6IjIwMjQtMDYtMjQgMTA6NTcifSwiY3VycmVudCI6eyJ0ZW1wX2MiOjI2LjEsInRlbXBfZiI6NzkuMCwiaXNfZGF5IjoxLCJjb25kaXRpb24iOnsidGV4dCI6IlBhcnRseSBjbG91ZHkiLCJpY29uIjoiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTE2LnBuZyIsImNvZGUiOjEwMDN9LCJ3aW5kX21waCI6MTcuNCwid2luZF9rcGgiOjI4LjEsIndpbmRfZGVncmVlIjoyNjAsIndpbmRfZGlyIjoiVyIsInByZXNzdXJlX21iIjoxMDEwLjAsInByZXNzdXJlX2luIjoyOS44MywicHJlY2lwX21tIjowLjAsInByZWNpcF9pbiI6MC4wLCJodW1pZGl0eSI6NzQsImNsb3VkIjo1MCwiZmVlbHNsaWtlX2MiOjI3LjUsImZlZWxzbGlrZV9mIjo4MS40LCJ2aXNfa20iOjguMCwidmlzX21pbGVzIjo0LjAsInV2Ijo1LjAsImd1c3RfbXBoIjoyNC43LCJndXN0X2twaCI6MzkuN319",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "getWeatherForAddress",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : -639457472
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.service.WeatherService#convertToObject#(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 21, 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Bengaluru\"",
+            "id" : "2885b5ed-745c-402f-b9f1-d8a81c4e8e1d",
+            "assertionType" : "EQUAL",
+            "key" : "/location/name"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Karnataka\"",
+            "id" : "de129112-8515-4042-a467-a8041696c9dd",
+            "assertionType" : "EQUAL",
+            "key" : "/location/region"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"India\"",
+            "id" : "0cd23a7b-b303-4e04-baeb-599773207216",
+            "assertionType" : "EQUAL",
+            "key" : "/location/country"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "12.98",
+            "id" : "24835e98-33e8-4c56-b8cf-2210e27a1e1c",
+            "assertionType" : "EQUAL",
+            "key" : "/location/lat"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "77.58",
+            "id" : "ab62a18e-8d2b-4535-8a57-bce6a1bf120c",
+            "assertionType" : "EQUAL",
+            "key" : "/location/lon"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "\"Asia/Kolkata\"",
+            "id" : "ead2db0b-4eea-4b37-9aae-2fda37d06ae0",
+            "assertionType" : "EQUAL",
+            "key" : "/location/tz_id"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "0579f926-4f0a-45bd-9dbc-2bfdcfa7a161",
+          "assertionType" : "ALLOF",
+          "key" : "/location"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ {
+              "subAssertions" : [ ],
+              "expression" : "SELF",
+              "expectedValue" : "\"Partly cloudy\"",
+              "id" : "2a0d33ba-41ba-4b9d-814d-379f14cdf2da",
+              "assertionType" : "NOT_NULL",
+              "key" : "/current/condition/text"
+            } ],
+            "expression" : "SELF",
+            "expectedValue" : "true",
+            "id" : "7624e440-b871-4208-bd65-a4fdc5a6ff41",
+            "assertionType" : "ALLOF",
+            "key" : "/current/condition"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "17.4",
+            "id" : "a4e8977a-db72-44e7-92a5-8e92f52fabff",
+            "assertionType" : "NOT_NULL",
+            "key" : "/current/wind_mph"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f2988b1c-f92a-4839-ae44-8e571ead1e31",
+          "assertionType" : "ALLOF",
+          "key" : "/current"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "cda01b34-efd7-4bbf-b250-0a1ebe3a6fd2",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "2ba7f49b-72e0-494d-b2c0-a73d7fd53d92",
+      "name" : "org.unlogged.demo.service.WeatherService.convertToObject - normal",
+      "description" : null,
+      "methodArguments" : [ "\"{\\\"location\\\":{\\\"name\\\":\\\"Bengaluru\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.98,\\\"lon\\\":77.58,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1719206822,\\\"localtime\\\":\\\"2024-06-24 10:57\\\"},\\\"current\\\":{\\\"temp_c\\\":26.1,\\\"temp_f\\\":79.0,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":17.4,\\\"wind_kph\\\":28.1,\\\"wind_degree\\\":260,\\\"wind_dir\\\":\\\"W\\\",\\\"pressure_mb\\\":1010.0,\\\"pressure_in\\\":29.83,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":74,\\\"cloud\\\":50,\\\"feelslike_c\\\":27.5,\\\"feelslike_f\\\":81.4,\\\"vis_km\\\":8.0,\\\"vis_miles\\\":4.0,\\\"uv\\\":5.0,\\\"gust_mph\\\":24.7,\\\"gust_kph\\\":39.7}}\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"Bengaluru\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.98,\"lon\":77.58,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1719206822,\"localtime\":\"2024-06-24 10:57\"},\"current\":{\"temp_c\":26.1,\"temp_f\":79.0,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":17.4,\"wind_kph\":28.1,\"wind_degree\":260,\"wind_dir\":\"W\",\"pressure_mb\":1010.0,\"pressure_in\":29.83,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":74,\"cloud\":50,\"feelslike_c\":27.5,\"feelslike_f\":81.4,\"vis_km\":8.0,\"vis_miles\":4.0,\"uv\":5.0,\"gust_mph\":24.7,\"gust_kph\":39.7}}",
+      "returnValueClassname" : "org.unlogged.demo.models.weather.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 529655447385041,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1032659593,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiQmVuZ2FsdXJ1IiwicmVnaW9uIjoiS2FybmF0YWthIiwiY291bnRyeSI6IkluZGlhIiwibGF0IjoxMi45OCwibG9uIjo3Ny41OCwidHpfaWQiOiJBc2lhL0tvbGthdGEiLCJsb2NhbHRpbWVfZXBvY2giOjE3MTkyMDY4MjIsImxvY2FsdGltZSI6IjIwMjQtMDYtMjQgMTA6NTcifSwiY3VycmVudCI6eyJ0ZW1wX2MiOjI2LjEsInRlbXBfZiI6NzkuMCwiaXNfZGF5IjoxLCJjb25kaXRpb24iOnsidGV4dCI6IlBhcnRseSBjbG91ZHkiLCJpY29uIjoiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTE2LnBuZyIsImNvZGUiOjEwMDN9LCJ3aW5kX21waCI6MTcuNCwid2luZF9rcGgiOjI4LjEsIndpbmRfZGVncmVlIjoyNjAsIndpbmRfZGlyIjoiVyIsInByZXNzdXJlX21iIjoxMDEwLjAsInByZXNzdXJlX2luIjoyOS44MywicHJlY2lwX21tIjowLjAsInByZWNpcF9pbiI6MC4wLCJodW1pZGl0eSI6NzQsImNsb3VkIjo1MCwiZmVlbHNsaWtlX2MiOjI3LjUsImZlZWxzbGlrZV9mIjo4MS40LCJ2aXNfa20iOjguMCwidmlzX21pbGVzIjo0LjAsInV2Ijo1LjAsImd1c3RfbXBoIjoyNC43LCJndXN0X2twaCI6MzkuN319",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "convertToObject",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.service.WeatherService",
+        "methodHash" : -102197771
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

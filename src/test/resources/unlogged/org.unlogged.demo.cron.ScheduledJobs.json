@@ -1,0 +1,133 @@
+{
+  "classname" : "org.unlogged.demo.cron.ScheduledJobs",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.cron.ScheduledJobs#scheduleFixedDelayTask#()V" : [ {
+      "lineNumbers" : [ 16, 18 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7e091128-e1f9-4c94-9af7-8a7a0bfe8188",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ee5b46a3-62b8-48ed-be16-9e5e3f4b75b2",
+      "name" : "org.unlogged.demo.cron.ScheduledJobs.scheduleFixedDelayTask - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530542936063541,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1515716869,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "scheduleFixedDelayTask",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.cron.ScheduledJobs",
+        "methodHash" : -1491874433
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.cron.ScheduledJobs#cron1#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "d5b11192-351b-4444-8056-3645b21cf0f2",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"u\"",
+          "id" : "11eee684-c649-43f5-9f8c-dd952a63e201",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"u\"",
+          "id" : "fb94775c-3783-4e3c-a87f-6e535ba39631",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"u\"",
+          "id" : "2fa61a5e-0d9e-420a-b10c-95a0e5e2ac4e",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "90ec2038-70c9-42d3-914a-2326be1a5946",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "5e028c7b-82b0-4851-8272-e5598c36949a",
+      "name" : "org.unlogged.demo.cron.ScheduledJobs.cron1 - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":1,\"username\":\"u\",\"password\":\"u\",\"email\":\"u\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530564451652875,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1718184007,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6InUiLCJwYXNzd29yZCI6InUiLCJlbWFpbCI6InUifQ==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "cron1",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.cron.ScheduledJobs",
+        "methodHash" : 764958036
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.cron.ScheduledJobs#cron2Greet#()V" : [ {
+      "lineNumbers" : [ 35, 36, 37, 40, 42 ],
+      "testAssertions" : {
+        "subAssertions" : [ ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "8ea0171c-3b19-4169-8d25-650952cad8c7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "d59329b4-793b-40f9-9235-33daf2775cba",
+      "name" : "org.unlogged.demo.cron.ScheduledJobs.cron2Greet - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "0",
+      "returnValueClassname" : "V",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530569058765166,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 755812785,
+      "probSerializedValue" : "",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "cron2Greet",
+        "signature" : "()V",
+        "className" : "org.unlogged.demo.cron.ScheduledJobs",
+        "methodHash" : -1272353688
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

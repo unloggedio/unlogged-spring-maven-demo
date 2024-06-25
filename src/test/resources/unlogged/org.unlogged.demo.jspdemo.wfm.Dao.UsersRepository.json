@@ -1,0 +1,29 @@
+{
+  "classname" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#getUserByUsername#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "id" : "aaf6915d-7115-4a74-87a9-0af1042c9a27",
+      "name" : "mock response for call to usersRepository.getUserByUsername(username)",
+      "fieldTypeName" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository",
+      "sourceClassName" : "org.unlogged.demo.jspdemo.wfm.Services.UserService",
+      "fieldName" : "usersRepository",
+      "methodName" : "getUserByUsername",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"string\""
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.jspdemo.wfm.Dao.UsersRepository#getUserByUsername#(Ljava/lang/String;)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;"
+    } ]
+  }
+}

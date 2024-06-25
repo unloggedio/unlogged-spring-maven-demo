@@ -1,0 +1,443 @@
+{
+  "classname" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObjectWithMergedFilters#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 146, 148, 151, 157, 163, 165, 166, 168, 171, 174, 175, 176 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Error during deserialization: filter status: REJECTED\"",
+          "id" : "02ad6a8b-5d70-4e15-87e7-092e70ca8622",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2b16d82a-a32e-43df-8c1f-f20c42ba4d6d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "16e5ad20-f46b-479b-925d-7bc9904db967",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObjectWithMergedFilters - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Error during deserialization: filter status: REJECTED\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530632634742750,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 717459477,
+      "probSerializedValue" : "IkVycm9yIGR1cmluZyBkZXNlcmlhbGl6YXRpb246IGZpbHRlciBzdGF0dXM6IFJFSkVDVEVEIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObjectWithMergedFilters",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : -12759263
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObjectNotAllowed#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 69, 71, 72, 73, 74, 76, 79, 82, 83, 84 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Error during deserialization: filter status: REJECTED\"",
+          "id" : "f63566fd-123c-47b4-82e5-8e26dd220686",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f51dd93f-330d-4232-ad35-a32e928691a3",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7600e5ba-f7b0-4dd4-9e37-d6370a051b2f",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObjectNotAllowed - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Error during deserialization: filter status: REJECTED\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530618442572791,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1640136435,
+      "probSerializedValue" : "IkVycm9yIGR1cmluZyBkZXNlcmlhbGl6YXRpb246IGZpbHRlciBzdGF0dXM6IFJFSkVDVEVEIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObjectNotAllowed",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 345614297
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObjectWithRejectFilter#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 118, 120, 123, 128, 129, 131, 134, 137, 138, 139 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Error during deserialization: filter status: REJECTED\"",
+          "id" : "0c40f48b-9f15-48ae-874c-e26c93fa48c6",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "69f4fedd-5c78-473c-85ab-c3ea20a5a129",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "aded35f5-9eec-47fa-b143-0ef95497fc09",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObjectWithRejectFilter - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Error during deserialization: filter status: REJECTED\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530628057303708,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1867758349,
+      "probSerializedValue" : "IkVycm9yIGR1cmluZyBkZXNlcmlhbGl6YXRpb246IGZpbHRlciBzdGF0dXM6IFJFSkVDVEVEIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObjectWithRejectFilter",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : -1353524380
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObjectUndecided#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 46, 48, 49, 50, 51, 53, 56, 58 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Deserialized object: Mouse{name='Test mouse', age=22}\"",
+          "id" : "29ac0554-bfb8-453e-b9d0-073075d4dff0",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "36aa396a-d702-4651-9af3-22f5b85cd7ff",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c4b52253-f527-48c8-abc5-be4d7320bb1f",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObjectUndecided - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Deserialized object: Mouse{name='Test mouse', age=22}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530613398379291,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -800055591,
+      "probSerializedValue" : "IkRlc2VyaWFsaXplZCBvYmplY3Q6IE1vdXNle25hbWU9J1Rlc3QgbW91c2UnLCBhZ2U9MjJ9Ig==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObjectUndecided",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 417033936
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObject1#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 23, 25, 26, 27, 28, 30, 33, 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Deserialized object: Dog{name='Test Dog', age=22}\"",
+          "id" : "e1ef1ecc-0745-420a-95db-171aff9abd70",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "a611616e-51cf-48c2-9442-25a05d5db01a",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "9280afc9-871a-4426-a1cb-aa64b624aab5",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObject1 - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Deserialized object: Dog{name='Test Dog', age=22}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530608000316375,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1571463046,
+      "probSerializedValue" : "IkRlc2VyaWFsaXplZCBvYmplY3Q6IERvZ3tuYW1lPSdUZXN0IERvZycsIGFnZT0yMn0i",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObject1",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 611567238
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObjectWithAllowFilter#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 90, 92, 95, 100, 101, 103, 106, 108 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Deserialized object: Cat{name='Test Cat', age=22}\"",
+          "id" : "693c6a22-29e7-46af-8046-1faa25b72a12",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "dae5f058-2340-406e-8f74-abe296403e55",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "bc8dc7db-d983-4ab1-9ee2-59d8d7f70fbb",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObjectWithAllowFilter - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Deserialized object: Cat{name='Test Cat', age=22}\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530623258767625,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1373655606,
+      "probSerializedValue" : "IkRlc2VyaWFsaXplZCBvYmplY3Q6IENhdHtuYW1lPSdUZXN0IENhdCcsIGFnZT0yMn0i",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObjectWithAllowFilter",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 1555008176
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#deserializeObjectRejectUndecided#()Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 184, 186, 189, 191, 192, 194, 197, 200, 201, 202 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Error during deserialization: filter status: REJECTED\"",
+          "id" : "80880be1-0810-4e10-9cd7-ba4620f875e8",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "397c2d4e-6661-4016-a366-904ff04b6756",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "0aec82b0-89d3-4eac-b726-d68f89067221",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.deserializeObjectRejectUndecided - normal",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "\"Error during deserialization: filter status: REJECTED\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530638327579833,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 1047732913,
+      "probSerializedValue" : "IkVycm9yIGR1cmluZyBkZXNlcmlhbGl6YXRpb246IGZpbHRlciBzdGF0dXM6IFJFSkVDVEVEIg==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "deserializeObjectRejectUndecided",
+        "signature" : "()Ljava/lang/String;",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : -808101458
+      },
+      "exception" : false
+    } ],
+    "org.unlogged.demo.deserializationfilter.DeserializationController#serializeObject#(Ljava/lang/Object;)[B" : [ {
+      "lineNumbers" : [ 207, 208, 209, 210, 211 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"��\\u0000\\u0005sr\\u0000$org.unlogged.demo.nonserialmodel.Cat�\\u0000KT�[�&\\u0002\\u0000\\u0002I\\u0000\\u0003ageL\\u0000\\u0004namet\\u0000\\u0012Ljava/lang/String;xp\\u0000\\u0000\\u0000\\u0016t\\u0000\\bTest Cat\"",
+          "id" : "2faa9ecb-4b43-4beb-988b-93a81deb71cb",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7f28aec3-add5-40be-9638-305aff496ac2",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e2a6338d-0201-40b5-b0a0-6d48a123e6ef",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.serializeObject - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"name\":\"Test Cat\",\"age\":22}" ],
+      "returnValue" : "��\u0000\u0005sr\u0000$org.unlogged.demo.nonserialmodel.Cat�\u0000KT�[�&\u0002\u0000\u0002I\u0000\u0003ageL\u0000\u0004namet\u0000\u0012Ljava/lang/String;xp\u0000\u0000\u0000\u0016t\u0000\bTest Cat",
+      "returnValueClassname" : "B[]",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530623258881583,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -943102359,
+      "probSerializedValue" : "rO0ABXNyACRvcmcudW5sb2dnZWQuZGVtby5ub25zZXJpYWxtb2RlbC5DYXTgAEtUnlucJgIAAkkAA2FnZUwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAAAABZ0AAhUZXN0IENhdA==",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "serializeObject",
+        "signature" : "(Ljava/lang/Object;)[B",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 861769393
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 207, 208, 209, 210, 211 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"��\\u0000\\u0005sr\\u0000'org.unlogged.demo.undecidedstatus.Mouse�M\\\\�\\u000B�\\u0001�\\u0002\\u0000\\u0002I\\u0000\\u0003ageL\\u0000\\u0004namet\\u0000\\u0012Ljava/lang/String;xp\\u0000\\u0000\\u0000\\u0016t\\u0000\\nTest Mouse\"",
+          "id" : "4b78474b-18aa-4464-8966-d1b2e1205e2e",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "4d73a253-2ec1-4b23-93d8-675de86081c8",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "e7963fa6-850e-42f9-b65e-74f96405f2d9",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.serializeObject - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"name\":\"Test Mouse\",\"age\":22}" ],
+      "returnValue" : "��\u0000\u0005sr\u0000'org.unlogged.demo.undecidedstatus.Mouse�M\\�\u000B�\u0001�\u0002\u0000\u0002I\u0000\u0003ageL\u0000\u0004namet\u0000\u0012Ljava/lang/String;xp\u0000\u0000\u0000\u0016t\u0000\nTest Mouse",
+      "returnValueClassname" : "B[]",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530638327711041,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1575223616,
+      "probSerializedValue" : "rO0ABXNyACdvcmcudW5sb2dnZWQuZGVtby51bmRlY2lkZWRzdGF0dXMuTW91c2XGTVyCC4wBmgIAAkkAA2FnZUwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAAAABZ0AApUZXN0IE1vdXNl",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "serializeObject",
+        "signature" : "(Ljava/lang/Object;)[B",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 861769393
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 207, 208, 209, 210, 211 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"��\\u0000\\u0005sr\\u0000\\u001Corg.unlogged.demo.models.Dog`��\\u0002����\\u0002\\u0000\\u0002I\\u0000\\u0003ageL\\u0000\\u0004namet\\u0000\\u0012Ljava/lang/String;xp\\u0000\\u0000\\u0000\\u0016t\\u0000\\bTest Dog\"",
+          "id" : "784090a3-a2e9-4997-8bb0-6fb9cf85ba97",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d1658455-5706-461b-a191-b12e28b0e801",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "68e66858-4ec8-4d89-97e7-1231ffc1d46e",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.serializeObject - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"name\":\"Test Dog\",\"age\":22}" ],
+      "returnValue" : "��\u0000\u0005sr\u0000\u001Corg.unlogged.demo.models.Dog`��\u0002����\u0002\u0000\u0002I\u0000\u0003ageL\u0000\u0004namet\u0000\u0012Ljava/lang/String;xp\u0000\u0000\u0000\u0016t\u0000\bTest Dog",
+      "returnValueClassname" : "B[]",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530628057418416,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 2111850083,
+      "probSerializedValue" : "rO0ABXNyABxvcmcudW5sb2dnZWQuZGVtby5tb2RlbHMuRG9nYLvkArzBxtsCAAJJAANhZ2VMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAAAAAWdAAIVGVzdCBEb2c=",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "serializeObject",
+        "signature" : "(Ljava/lang/Object;)[B",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 861769393
+      },
+      "exception" : false
+    }, {
+      "lineNumbers" : [ 207, 208, 209, 210, 211 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"��\\u0000\\u0005sr\\u0000'org.unlogged.demo.undecidedstatus.Mouse�M\\\\�\\u000B�\\u0001�\\u0002\\u0000\\u0002I\\u0000\\u0003ageL\\u0000\\u0004namet\\u0000\\u0012Ljava/lang/String;xp\\u0000\\u0000\\u0000\\u0016t\\u0000\\nTest mouse\"",
+          "id" : "dfc7ecac-7026-4fe2-be82-3c6426bcee5b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "f08a9016-0bd6-4c89-8a83-ef963d091d7a",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "ec3c47f5-c40d-4d41-b2aa-3f4039b1c291",
+      "name" : "org.unlogged.demo.deserializationfilter.DeserializationController.serializeObject - normal",
+      "description" : null,
+      "methodArguments" : [ "{\"name\":\"Test mouse\",\"age\":22}" ],
+      "returnValue" : "��\u0000\u0005sr\u0000'org.unlogged.demo.undecidedstatus.Mouse�M\\�\u000B�\u0001�\u0002\u0000\u0002I\u0000\u0003ageL\u0000\u0004namet\u0000\u0012Ljava/lang/String;xp\u0000\u0000\u0000\u0016t\u0000\nTest mouse",
+      "returnValueClassname" : "B[]",
+      "metadata" : {
+        "recordedBy" : "akshatjain",
+        "hostMachineName" : "akshatjain",
+        "timestamp" : 530613399643041,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1549263926,
+      "probSerializedValue" : "rO0ABXNyACdvcmcudW5sb2dnZWQuZGVtby51bmRlY2lkZWRzdGF0dXMuTW91c2XGTVyCC4wBmgIAAkkAA2FnZUwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAAAABZ0AApUZXN0IG1vdXNl",
+      "mockIds" : [ ],
+      "method" : {
+        "name" : "serializeObject",
+        "signature" : "(Ljava/lang/Object;)[B",
+        "className" : "org.unlogged.demo.deserializationfilter.DeserializationController",
+        "methodHash" : 861769393
+      },
+      "exception" : false
+    } ]
+  },
+  "declaredMockMap" : { }
+}

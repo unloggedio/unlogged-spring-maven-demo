@@ -1,0 +1,37 @@
+{
+  "classname" : "org.springframework.web.client.RestTemplate",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.springframework.web.client.RestTemplate#getForObject#(Ljava/lang/String;Ljava/lang/Class<T>;[Ljava/lang/Object;)T" : [ {
+      "id" : "a73a9bf1-d20a-4362-a496-c31072097aca",
+      "name" : "mock response for call to restTemplate.getForObject(BASE_URL + \"/\" + id, String.class)",
+      "fieldTypeName" : "org.springframework.web.client.RestTemplate",
+      "sourceClassName" : "org.unlogged.demo.resttemplate.PostsClient",
+      "fieldName" : "restTemplate",
+      "methodName" : "getForObject",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"https://jsonplaceholder.typicode.com/posts/2\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "\"java.lang.String\""
+      }, {
+        "name" : null,
+        "type" : "EQUAL",
+        "value" : "[]"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"{\\n  \\\"userId\\\": 1,\\n  \\\"id\\\": 2,\\n  \\\"title\\\": \\\"qui est esse\\\",\\n  \\\"body\\\": \\\"est rerum tempore vitae\\\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\\\nqui aperiam non debitis possimus qui neque nisi nulla\\\"\\n}\"",
+          "returnValueType" : "REAL",
+          "className" : "T"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.springframework.web.client.RestTemplate#getForObject#(Ljava/lang/String;Ljava/lang/Class<T>;[Ljava/lang/Object;)T"
+    } ]
+  }
+}
