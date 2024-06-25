@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.PerfData;
+import org.unlogged.demo.models.weather.WeatherInfo;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -78,6 +79,18 @@ public class PerfService {
         }
 
         return customerData.toString();
+    }
+
+    public String genManyNetworkCall(int count) {
+
+        StringBuilder weatherData = new StringBuilder();
+        for (int i=0;i<=count-1;i++) {
+            WeatherService weatherService = new WeatherService();
+            WeatherInfo weatherInfo = weatherService.getWeatherForAddress("Bengaluru");
+            weatherData.append(weatherInfo.toString()).append("\n");
+        }
+
+        return weatherData.toString();
     }
 	
 }

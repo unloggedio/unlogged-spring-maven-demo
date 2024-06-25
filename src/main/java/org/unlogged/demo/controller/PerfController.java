@@ -39,8 +39,7 @@ public class PerfController {
 
     @RequestMapping("/memoryintensive")
     public long memoryIntensive(@RequestParam int count) {
-        long sum = perfService.sum_natural(count);
-        return sum;
+        return perfService.sum_natural(count);
     }
 
     @RequestMapping("/databaseintensive")
@@ -50,19 +49,7 @@ public class PerfController {
 
     @RequestMapping("/networkintensive")
     public String networkintensive(@RequestParam int count) {
-		
-		long timestamp_1 = System.currentTimeMillis();
-        StringBuilder weatherData = new StringBuilder();
-        for (int i=0;i<=count-1;i++) {
-            WeatherService weatherService = new WeatherService();
-            WeatherInfo weatherInfo = weatherService.getWeatherForAddress("Bengaluru");
-            weatherData.append(weatherInfo.toString()).append("\n");
-        }
-		long timestamp_2 = System.currentTimeMillis();
-
-		long time_write = timestamp_2 - timestamp_1;
-		String response = count + "request completed.\n time_write = " + time_write + ".\n weather_data = " + weatherData.toString();
-        return response;
+        return perfService.genManyNetworkCall(count);
     }
 
 }
