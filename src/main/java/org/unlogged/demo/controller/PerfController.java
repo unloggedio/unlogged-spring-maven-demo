@@ -25,9 +25,6 @@ import java.util.List;
 public class PerfController {
 
 	@Autowired
-    private CustomerService customerService;
-
-	@Autowired
     private PerfService perfService;
 
     @RequestMapping("/ping")
@@ -48,37 +45,7 @@ public class PerfController {
 
     @RequestMapping("/databaseintensive")
     public String databaseintensive(@RequestParam int count) {
-
-		long timestamp_1 = System.currentTimeMillis();
-        for (int i=0;i<=count-1;i++){
-
-            String customerName = "name-" + count;
-            String customerDOB = "dob-" + count;
-            String customerEMail = "email-" + count;
-            String customerPrimaryNumber = "primaryNumber-" + count;
-            String customerAddress = "address-" + count;
-            CustomerProfileRequest customerProfileRequest = new CustomerProfileRequest(
-                    customerName,
-                    customerDOB,
-                    customerEMail,
-                    customerPrimaryNumber,
-                    customerAddress);
-			customerService.saveNewCustomer(customerProfileRequest);
-        }
-		long timestamp_2 = System.currentTimeMillis();
-
-        StringBuilder customerData = new StringBuilder();
-        for (int i=1;i<=count;i++) {
-            CustomerProfile customerProfile = customerService.fetchCustomerProfile(i);
-            customerData.append(customerProfile.toString()).append("\n");
-        }
-		long timestamp_3 = System.currentTimeMillis();
-
-		long time_write = timestamp_2 - timestamp_1;
-		long time_read = timestamp_3 - timestamp_2;
-        String response_string = count + " customers write and read done.\n time_write = " + time_write + "\n time_read = " + time_read + 
-		". \n customer_data = " + customerData.toString();
-        return response_string;
+        return perfService.readWriteInDatabase(count);
     }
 
     @RequestMapping("/networkintensive")

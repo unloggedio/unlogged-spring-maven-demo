@@ -1,6 +1,9 @@
 package org.unlogged.demo.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.unlogged.demo.models.CustomerProfile;
+import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.PerfData;
 
 import java.util.ArrayList;
@@ -10,6 +13,9 @@ import java.util.List;
 
 @Service
 public class PerfService {
+
+    @Autowired
+    private CustomerService customerService;
 
     public long getCpuIntensiveData(long value) {
 
@@ -46,6 +52,32 @@ public class PerfService {
         }
 
         return sum;
+    }
+
+    public String readWriteInDatabase(int count) {
+
+        for (int i=0;i<=count-1;i++){
+            String customerName = "name-" + count;
+            String customerDOB = "dob-" + count;
+            String customerEMail = "email-" + count;
+            String customerPrimaryNumber = "primaryNumber-" + count;
+            String customerAddress = "address-" + count;
+            CustomerProfileRequest customerProfileRequest = new CustomerProfileRequest(
+                    customerName,
+                    customerDOB,
+                    customerEMail,
+                    customerPrimaryNumber,
+                    customerAddress);
+            customerService.saveNewCustomer(customerProfileRequest);
+        }
+
+        StringBuilder customerData = new StringBuilder();
+        for (int i=1;i<=count;i++) {
+            CustomerProfile customerProfile = customerService.fetchCustomerProfile(i);
+            customerData.append(customerProfile.toString()).append("\n");
+        }
+
+        return customerData.toString();
     }
 	
 }
