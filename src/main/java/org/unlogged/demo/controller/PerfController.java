@@ -36,23 +36,14 @@ public class PerfController {
     }
 
     @RequestMapping("/cpuintensive")
-    public PerfData cpu(
-            @RequestParam long methodCount,
-            @RequestParam long value) {
-
-        return perfService.getCpuIntensiveData(methodCount, value);
+    public long cpu(@RequestParam long value) {
+        return perfService.getCpuIntensiveData(value);
     }
 
     @RequestMapping("/memoryintensive")
-    public String memoryIntensive(@RequestParam int count) {
-
-        List<Long> val = perfService.sum_natural(count);
-        long time_write = val.get(0);
-        long time_read = val.get(1);
-        long sum = val.get(2);
-
-        String value = "write time = " + time_write + ". read time = " + time_read + ". sum = " + sum  + ".";
-        return value;
+    public long memoryIntensive(@RequestParam int count) {
+        long sum = perfService.sum_natural(count);
+        return sum;
     }
 
     @RequestMapping("/databaseintensive")
