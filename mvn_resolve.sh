@@ -1,2 +1,3 @@
 sleep 20
-./mvnw clean install spring-boot:run
+./mvnw clean install
+./mvnw spring-boot:run
