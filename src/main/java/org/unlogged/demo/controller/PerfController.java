@@ -17,9 +17,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-// TODO: return values in JSON
-// TODO: add explanation
-
 @RestController
 @RequestMapping("/perf")
 public class PerfController {
