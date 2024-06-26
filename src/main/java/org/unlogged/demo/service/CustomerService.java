@@ -2,7 +2,6 @@ package org.unlogged.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.unlogged.demo.Customer;
 import org.unlogged.demo.constants.ScoreConstants;
 import org.unlogged.demo.dao.CustomerProfileRepo;
 import org.unlogged.demo.models.CustomerProfile;
@@ -16,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
+import static org.unlogged.demo.utils.ReferralUtilsBase.generateReferralCode;
 
 @Service
 public class CustomerService {
