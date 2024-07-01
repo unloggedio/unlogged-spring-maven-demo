@@ -14,7 +14,12 @@ import org.unlogged.demo.service.PerfService;
 @RequestMapping("/perf")
 public class PerfController {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("org.unlogged.demo");
+    private final Tracer tracer;
+
+    @Autowired
+    public PerfController(Tracer tracer) {
+        this.tracer = tracer;
+    }
 
 	@Autowired
     private PerfService perfService;
