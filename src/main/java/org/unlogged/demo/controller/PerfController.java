@@ -1,25 +1,20 @@
 package org.unlogged.demo.controller;
 
+import io.opentelemetry.api.GlobalOpenTelemetry;
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.unlogged.demo.models.CustomerProfile;
-import org.unlogged.demo.models.CustomerProfileRequest;
-import org.unlogged.demo.models.PerfData;
-import org.unlogged.demo.models.weather.WeatherInfo;
-import org.unlogged.demo.service.CustomerService;
 import org.unlogged.demo.service.PerfService;
-import org.unlogged.demo.service.WeatherService;
-
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
 
 
 @RestController
 @RequestMapping("/perf")
 public class PerfController {
+
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("org.unlogged.demo");
 
 	@Autowired
     private PerfService perfService;
@@ -31,7 +26,12 @@ public class PerfController {
 
     @RequestMapping("/cpuintensive")
     public long cpu(@RequestParam long value) {
-        return perfService.getCpuIntensiveData(value);
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("requestParam.value", value);
+        long val =  perfService.getCpuIntensiveData(value);
+        span.setAttribute("responseValue.output", val);
+        span.end();
+        return val;
     }
 
     @RequestMapping("/memoryintensive")
