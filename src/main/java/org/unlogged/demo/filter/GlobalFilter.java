@@ -17,8 +17,8 @@ public class GlobalFilter implements Filter {
             ServletResponse response,
             FilterChain chain) throws ServletException, IOException {
         HttpServletRequest req = (HttpServletRequest) request;
-        System.out.println("Global filter");
-        System.out.println("Got a request for URL : " + req.getRequestURI());
+//        System.out.println("Global filter");
+//        System.out.println("Got a request for URL : " + req.getRequestURI());
         req.setAttribute("Global", getGlobalFilterAdditive());
         chain.doFilter(request, response);
     }
