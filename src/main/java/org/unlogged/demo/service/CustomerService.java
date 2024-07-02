@@ -1,5 +1,7 @@
 package org.unlogged.demo.service;
 
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.Customer;
@@ -20,6 +22,14 @@ import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
 
 @Service
 public class CustomerService {
+
+    private final Tracer tracer;
+
+    @Autowired
+    public CustomerService(Tracer tracer) {
+        this.tracer = tracer;
+    }
+
     @Autowired
     private CustomerProfileRepository customerProfileRepository;
 
@@ -27,7 +37,12 @@ public class CustomerService {
     private CustomerProfileRepo repo;
 
     public CustomerProfile fetchCustomerProfile(long id) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.id", id);
+
         CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(id);
+
+        span.end();
         return profile;
     }
 
