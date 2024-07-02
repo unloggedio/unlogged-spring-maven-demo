@@ -27,8 +27,12 @@ public class PerfController {
     @RequestMapping("/ping")
     public String ping() {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
+
+        String s = "server up!";
+        span.setAttribute("output", s);
+
         span.end();
-        return "server up!";
+        return s;
     }
 
     @RequestMapping("/cpuintensive")
