@@ -55,7 +55,7 @@ public class PerfService {
         return sum;
     }
 
-    public String readWriteInDatabase(int count) {
+    public String readWriteInMemory(int count) {
 
         for (int i=0;i<=count-1;i++){
             String customerName = "name-" + count;
