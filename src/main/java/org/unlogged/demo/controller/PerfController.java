@@ -66,7 +66,13 @@ public class PerfController {
 
     @RequestMapping("/networkintensive")
     public String networkintensive(@RequestParam int count) {
-        return perfService.genManyNetworkCall(count);
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.count", count);
+
+        String value = perfService.genManyNetworkCall(count);
+
+        span.end();
+        return value;
     }
 
 }

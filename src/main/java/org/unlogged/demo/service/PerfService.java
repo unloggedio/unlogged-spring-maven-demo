@@ -1,5 +1,8 @@
 package org.unlogged.demo.service;
 
+import com.google.j2objc.annotations.AutoreleasePool;
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
@@ -24,6 +27,9 @@ public class PerfService {
 
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private WeatherService weatherService;
 
     public long getCpuIntensiveData(long value) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
@@ -100,13 +106,16 @@ public class PerfService {
 
     public String genManyNetworkCall(int count) {
 
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.count", count);
+
         StringBuilder weatherData = new StringBuilder();
         for (int i=0;i<=count-1;i++) {
-            WeatherService weatherService = new WeatherService();
             WeatherInfo weatherInfo = weatherService.getWeatherForAddress("Bengaluru");
             weatherData.append(weatherInfo.toString()).append("\n");
         }
 
+        span.end();
         return weatherData.toString();
     }
 	
