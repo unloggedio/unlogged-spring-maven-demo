@@ -14,12 +14,7 @@ import org.unlogged.demo.service.PerfService;
 @RequestMapping("/perf")
 public class PerfController {
 
-    private final Tracer tracer;
-
-    @Autowired
-    public PerfController(Tracer tracer) {
-        this.tracer = tracer;
-    }
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
 	@Autowired
     private PerfService perfService;

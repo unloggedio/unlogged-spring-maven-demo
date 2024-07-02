@@ -1,6 +1,7 @@
 package org.unlogged.demo.service;
 
 import com.google.j2objc.annotations.AutoreleasePool;
+import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,12 +19,7 @@ import java.util.List;
 @Service
 public class PerfService {
 
-    private final Tracer tracer;
-
-    @Autowired
-    public PerfService(Tracer tracer) {
-        this.tracer = tracer;
-    }
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Autowired
     private CustomerService customerService;

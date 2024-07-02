@@ -1,5 +1,6 @@
 package org.unlogged.demo.repository;
 
+import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,12 +16,7 @@ import java.util.TreeMap;
 @Service
 public class CustomerProfileRepository {
 
-    private final Tracer tracer;
-
-    @Autowired
-    public CustomerProfileRepository(Tracer tracer) {
-        this.tracer = tracer;
-    }
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     private final TreeMap<Long, CustomerProfile> profileTreeMap = new TreeMap<>();
     int c = 1;

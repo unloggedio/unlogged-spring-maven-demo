@@ -1,6 +1,7 @@
 package org.unlogged.demo.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,12 +17,7 @@ import java.net.http.HttpResponse;
 @Service
 public class WeatherService {
 
-    private final Tracer tracer;
-
-    @Autowired
-    public WeatherService(Tracer tracer) {
-        this.tracer = tracer;
-    }
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     public WeatherInfo getWeatherForAddress(String address) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
