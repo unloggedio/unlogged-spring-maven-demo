@@ -50,6 +50,8 @@ public class PerfService {
     }
 
     public long sum_natural(int count) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.count", count);
 
         // write value to memory
         List<Integer> value_list = new LinkedList<>();
@@ -63,6 +65,7 @@ public class PerfService {
             sum += value_list.get(i);
         }
 
+        span.end();
         return sum;
     }
 

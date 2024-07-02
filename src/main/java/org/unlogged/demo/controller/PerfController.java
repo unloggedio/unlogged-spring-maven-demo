@@ -44,7 +44,13 @@ public class PerfController {
 
     @RequestMapping("/memoryintensive")
     public long memoryIntensive(@RequestParam int count) {
-        return perfService.sum_natural(count);
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.count", count);
+
+        long val =  perfService.sum_natural(count);
+
+        span.end();
+        return val;
     }
 
     @RequestMapping("/databaseintensive")
