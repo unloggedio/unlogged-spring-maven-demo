@@ -34,3 +34,7 @@ build/
 
 # macOS Finder thumbnail files
 .DS_Store
+
+# file upload controller folder
+/input
+/uploads

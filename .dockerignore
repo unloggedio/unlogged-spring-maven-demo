@@ -8,3 +8,7 @@
 
 # deployment configuration 
 conf
+
+# file upload controller folder
+input
+uploads
