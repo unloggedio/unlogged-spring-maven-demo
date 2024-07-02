@@ -80,6 +80,7 @@ public class PerfService {
     public String readWriteInDatabase(int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         span.setAttribute("input.count", count);
+        int span_count = 0;
 
         for (int i=0;i<=count-1;i++){
             String customerName = "name-" + count;
@@ -93,17 +94,27 @@ public class PerfService {
                     customerEMail,
                     customerPrimaryNumber,
                     customerAddress);
+
+            span.setAttribute("mockData." + span_count, customerProfileRequest.toString());
+            span_count++;
+
             customerService.saveNewCustomer(customerProfileRequest);
         }
 
         StringBuilder customerData = new StringBuilder();
         for (int i=1;i<=count;i++) {
             CustomerProfile customerProfile = customerService.fetchCustomerProfile(i);
+
+            span.setAttribute("mockData." + span_count, customerProfile.toString());
+            span_count++;
+
             customerData.append(customerProfile.toString()).append("\n");
         }
 
+        String s = customerData.toString();
+        span.setAttribute("output", s);
         span.end();
-        return customerData.toString();
+        return s;
     }
 
     public String genManyNetworkCall(int count) {

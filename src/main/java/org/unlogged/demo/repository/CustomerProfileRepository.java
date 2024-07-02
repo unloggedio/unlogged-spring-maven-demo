@@ -30,7 +30,9 @@ public class CustomerProfileRepository {
         span.setAttribute("input.customerID", customerID);
 
         CustomerProfile customerProfile = this.profileTreeMap.get(customerID);
+        span.setAttribute("mockData.1", customerProfile.toString());
 
+        span.setAttribute("output", customerProfile.toString());
         span.end();
         return customerProfile;
     }

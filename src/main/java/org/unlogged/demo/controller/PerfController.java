@@ -67,7 +67,9 @@ public class PerfController {
         span.setAttribute("input.count", count);
 
         String val = perfService.readWriteInDatabase(count);
+        span.setAttribute("mockData.1", val);
 
+        span.setAttribute("output", val);
         span.end();
         return val;
     }

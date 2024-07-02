@@ -1,5 +1,6 @@
 package org.unlogged.demo.service;
 
+import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,12 +24,7 @@ import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
 @Service
 public class CustomerService {
 
-    private final Tracer tracer;
-
-    @Autowired
-    public CustomerService(Tracer tracer) {
-        this.tracer = tracer;
-    }
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Autowired
     private CustomerProfileRepository customerProfileRepository;
@@ -41,7 +37,9 @@ public class CustomerService {
         span.setAttribute("input.id", id);
 
         CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(id);
+        span.setAttribute("mockData.1", profile.toString());
 
+        span.setAttribute("output", profile.toString());
         span.end();
         return profile;
     }
@@ -52,9 +50,16 @@ public class CustomerService {
     }
 
     public CustomerProfile saveNewCustomer(CustomerProfileRequest saveRequest) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.saveRequest", saveRequest.toString());
+
         List<String> codes = generateReferralCodes();
+        span.setAttribute("mockData.1", codes.toString());
         saveRequest.setCodes(codes);
-        return customerProfileRepository.save(saveRequest);
+        CustomerProfile customerProfile = customerProfileRepository.save(saveRequest);
+        span.setAttribute("output", customerProfile.toString());
+        span.end();
+        return customerProfile;
     }
 
     public CustomerProfile removeCustomer(long customerID) {
@@ -69,11 +74,16 @@ public class CustomerService {
     }
 
     private List<String> generateReferralCodes() {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+
         int codeCount = 5;
         List<String> codes = new ArrayList<>();
         for (int i = 0; i < codeCount; i++) {
             codes.add(generateReferralCode());
         }
+
+        span.setAttribute("output", codes.toString());
+        span.end();
         return codes;
     }
 
