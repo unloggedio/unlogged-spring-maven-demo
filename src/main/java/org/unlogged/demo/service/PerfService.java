@@ -2,13 +2,12 @@ package org.unlogged.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.unlogged.demo.jspdemo.wfm.Models.Entities.User;
+import org.unlogged.demo.jspdemo.wfm.Services.UserService;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
-import org.unlogged.demo.models.PerfData;
 import org.unlogged.demo.models.weather.WeatherInfo;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -17,6 +16,9 @@ public class PerfService {
 
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private UserService userService;
 
     public long getCpuIntensiveData(long value) {
 
@@ -91,6 +93,33 @@ public class PerfService {
         }
 
         return weatherData.toString();
+    }
+
+    public String genDatabaseIntensive(int count) {
+        // get base user id
+        long baseId = userService.getCountOfUsers();
+
+        // read to the database
+        for (int i=0;i<=count-1;i++) {
+            long userId = baseId + i;
+            User user = new User(
+                    userId,
+                    "username-" + userId,
+                    "password-" + userId,
+                    "mail-" + userId
+            );
+
+            userService.addUser(user);
+        }
+
+        // read from the database
+        StringBuilder dbResult = new StringBuilder();
+        for (int i=0;i<=count-1;i++) {
+            User user = userService.getUser(baseId + i);
+            dbResult.append(user.toString());
+        }
+
+        return dbResult.toString();
     }
 	
 }
