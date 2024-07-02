@@ -48,10 +48,16 @@ public class OpenTelemetryConfigSDK {
     }
 
 
-    @Bean
-    public Tracer tracer (OpenTelemetry openTelemetry) {
-
-        // Define tracer
-        return openTelemetry.getTracer(serviceName);
-    }
+//    @Bean
+//    public Tracer tracer (OpenTelemetry openTelemetry) {
+//
+//        // Define tracer
+//        return openTelemetry.getTracer(serviceName);
+//    }
+//
+//    TODO: use this like this
+//    private static Tracer tracer;
+//    public PerfController(tracer tracer) {
+//        this.tracer = tracer;
+//    }
 }
