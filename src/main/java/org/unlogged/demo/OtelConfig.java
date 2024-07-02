@@ -1,9 +1,7 @@
 package org.unlogged.demo;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import io.opentelemetry.api.trace.Span;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -29,6 +27,23 @@ public class OtelConfig {
                 e.printStackTrace();
             }
         }
+        // case when object is MultipartFile
+        else if (objectValue instanceof MultipartFile) {
+
+            MultipartFile file = (MultipartFile) objectValue;
+
+            byte[] fileBytes;
+            try {
+                fileBytes = file.getBytes();
+            } catch (Exception e) {
+                fileBytes = null;
+                e.printStackTrace();
+            }
+
+            // TODO: file name is incorrect
+            OtelFile otelFile = new OtelFile(file.getName(), fileBytes);
+            objectValue = otelFile;
+        }
 
         // serialise object
         try {
@@ -39,21 +54,6 @@ public class OtelConfig {
             e.printStackTrace();
             span.setAttribute(keyValue, "null");
         }
-    }
-
-    public static void makeSpanForFile(Span span, String keyValue, MultipartFile fileName) {
-
-        // TODO: create a json here
-        String fileContent;
-        try {
-            byte[] fileBytes = fileName.getBytes();
-            fileContent = new String(fileBytes);
-        } catch (Exception e) {
-            System.out.println("error reading file content");
-            fileContent = "error reading file content";
-        }
-
-        span.setAttribute(keyValue, fileContent);
     }
 
 }
