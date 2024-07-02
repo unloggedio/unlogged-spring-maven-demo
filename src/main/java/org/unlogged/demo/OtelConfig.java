@@ -31,4 +31,19 @@ public class OtelConfig {
         }
     }
 
+    public static void makeSpanForFile(Span span, String keyValue, MultipartFile fileName) {
+
+        // TODO: create a json here
+        String fileContent;
+        try {
+            byte[] fileBytes = fileName.getBytes();
+            fileContent = new String(fileBytes);
+        } catch (Exception e) {
+            System.out.println("error reading file content");
+            fileContent = "error reading file content";
+        }
+
+        span.setAttribute(keyValue, fileContent);
+    }
+
 }
