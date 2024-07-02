@@ -1,6 +1,5 @@
 package org.unlogged.demo.jspdemo.wfm.Models.Entities;
 
-import io.opentelemetry.api.trace.Span;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
