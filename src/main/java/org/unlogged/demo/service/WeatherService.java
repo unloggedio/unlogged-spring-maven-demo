@@ -14,6 +14,8 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+import static org.unlogged.demo.OtelConfig.makeSpan;
+
 @Service
 public class WeatherService {
 
@@ -21,30 +23,30 @@ public class WeatherService {
 
     public WeatherInfo getWeatherForAddress(String address) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.address", address);
+        makeSpan(span, "input.address", address);
 
         WeatherInfo weatherInfo = convertToObject(getWeatherinfo(address));
-        span.setAttribute("mockData.1", weatherInfo.toString());
+        makeSpan(span, "mockData.1", weatherInfo);
 
-        span.setAttribute("output", weatherInfo.toString());
+        makeSpan(span, "output", weatherInfo);
         span.end();
         return weatherInfo;
     }
 
     public WeatherInfo convertToObject(String info) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.info", info);
+        makeSpan(span, "input.info", info);
 
         ObjectMapper om = new ObjectMapper();
         try {
             WeatherInfo weatherInfo = om.readValue(info, WeatherInfo.class);
 
-            span.setAttribute("output", weatherInfo.toString());
+            makeSpan(span, "output", weatherInfo);
             span.end();
             return weatherInfo;
         } catch (Exception e) {
 
-            span.setAttribute("output", "exception");
+            makeSpan(span, "output", "exception");
             span.end();
             return null;
         }
@@ -52,7 +54,7 @@ public class WeatherService {
 
     private String getWeatherinfo(String location) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.location", location);
+        makeSpan(span, "input.location", location);
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("http://api.weatherapi.com/v1/current.json?key=09282a8b683349e79f852552230102&q=" + location + "&aqi=no"))
@@ -61,7 +63,7 @@ public class WeatherService {
         HttpResponse<String> response = null;
         try {
             response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-            span.setAttribute("mockData.1", response.toString());
+            makeSpan(span, "mockData.1", response);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -69,7 +71,7 @@ public class WeatherService {
         }
 
         String s = response.body();
-        span.setAttribute("output", s);
+        makeSpan(span, "output", s);
         span.end();
         return s;
     }

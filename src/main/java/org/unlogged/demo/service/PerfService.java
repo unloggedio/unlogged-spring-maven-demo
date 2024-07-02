@@ -16,6 +16,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import static org.unlogged.demo.OtelConfig.makeSpan;
+
 @Service
 public class PerfService {
 
@@ -29,7 +31,7 @@ public class PerfService {
 
     public long getCpuIntensiveData(long value) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.value", value);
+        makeSpan(span, "input.value", value);
 
         // This is O(n^2) implementation for calculating the prime numbers from 1 to value
         // This uses brute force to calculate it, and is CPU intensive single-threaded operation
@@ -47,14 +49,14 @@ public class PerfService {
             }
         }
 
-        span.setAttribute("output", count);
+        makeSpan(span, "output", count);
         span.end();
         return count;
     }
 
     public long sum_natural(int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.count", count);
+        makeSpan(span, "input.count", count);
 
         // write value to memory
         List<Integer> value_list = new LinkedList<>();
@@ -68,14 +70,14 @@ public class PerfService {
             sum += value_list.get(i);
         }
 
-        span.setAttribute("output", sum);
+        makeSpan(span, "output", sum);
         span.end();
         return sum;
     }
 
     public String readWriteInDatabase(int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.count", count);
+        makeSpan(span, "input.count", count);
         int span_count = 0;
 
         for (int i=0;i<=count-1;i++){
@@ -91,7 +93,7 @@ public class PerfService {
                     customerPrimaryNumber,
                     customerAddress);
 
-            span.setAttribute("mockData." + span_count, customerProfileRequest.toString());
+            makeSpan(span, "mockData." + span_count, customerProfileRequest);
             span_count++;
 
             customerService.saveNewCustomer(customerProfileRequest);
@@ -101,14 +103,14 @@ public class PerfService {
         for (int i=1;i<=count;i++) {
             CustomerProfile customerProfile = customerService.fetchCustomerProfile(i);
 
-            span.setAttribute("mockData." + span_count, customerProfile.toString());
+            makeSpan(span, "mockData." + span_count, customerProfile);
             span_count++;
 
             customerData.append(customerProfile.toString()).append("\n");
         }
 
         String s = customerData.toString();
-        span.setAttribute("output", s);
+        makeSpan(span, "output", s);
         span.end();
         return s;
     }
@@ -117,20 +119,20 @@ public class PerfService {
 
         int mockCount = 0;
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.count", count);
+        makeSpan(span, "input.count", count);
 
         StringBuilder weatherData = new StringBuilder();
         for (int i=0;i<=count-1;i++) {
             WeatherInfo weatherInfo = weatherService.getWeatherForAddress("Bengaluru");
 
-            span.setAttribute("mockData." + mockCount, weatherInfo.toString());
+            makeSpan(span, "mockData." + mockCount, weatherInfo);
             mockCount++;
 
             weatherData.append(weatherInfo.toString()).append("\n");
         }
 
         String s = weatherData.toString();
-        span.setAttribute("output", s);
+        makeSpan(span, "output", s);
         span.end();
         return s;
     }
