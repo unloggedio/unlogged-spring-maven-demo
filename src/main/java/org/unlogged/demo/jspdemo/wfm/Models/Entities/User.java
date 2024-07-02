@@ -1,5 +1,6 @@
 package org.unlogged.demo.jspdemo.wfm.Models.Entities;
 
+import io.opentelemetry.api.trace.Span;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -31,5 +32,15 @@ public class User {
             this.setPassword(this.getPassword() + "_" + input.hashCode());
 
         }
+    }
+
+    public String toString() {
+        StringBuilder userValue = new StringBuilder();
+        userValue.append("user_id-").append(this.user_id).append(",")
+                .append("username-").append(this.username).append(",")
+                .append("password-").append(this.password).append(",")
+                .append("email-").append(this.email).append(" ");
+
+        return userValue.toString();
     }
 }
