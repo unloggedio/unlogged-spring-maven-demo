@@ -26,6 +26,8 @@ public class PerfController {
 
     @RequestMapping("/ping")
     public String ping() {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.end();
         return "server up!";
     }
 
