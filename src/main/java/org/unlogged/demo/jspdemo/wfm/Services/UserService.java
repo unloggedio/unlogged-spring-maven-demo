@@ -24,6 +24,10 @@ public class UserService {
         return u;
     }
 
+    public User getUser(long userId) {
+        return usersRepository.getUserByUserId(userId);
+    }
+
     public void addUser(User user) {
         usersRepository.save(user);
     }
@@ -40,6 +44,9 @@ public class UserService {
 
     public List<User> getAllUsers() {
         return usersRepository.findAll();
+    }
+    public long getCountOfUsers() {
+        return usersRepository.count();
     }
 
     public UserListInfo getULO() {

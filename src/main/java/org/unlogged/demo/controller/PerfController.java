@@ -18,6 +18,9 @@ public class PerfController {
 	@Autowired
     private PerfService perfService;
 
+    @Autowired
+    private UserService userService;
+
     @RequestMapping("/ping")
     public String ping() {
         return "server up!";
@@ -43,4 +46,32 @@ public class PerfController {
         return perfService.genManyNetworkCall(count);
     }
 
+    @RequestMapping("/databaseintensive")
+    public String databaseintensive(@RequestParam int count) {
+
+        // get base user id
+        long baseId = userService.getCountOfUsers();
+
+        // read to the database
+        for (int i=0;i<=count-1;i++) {
+            long userId = baseId + i;
+            User user = new User(
+                    userId,
+                    "username-" + userId,
+                    "password-" + userId,
+                    "mail-" + userId
+            );
+
+            userService.addUser(user);
+        }
+
+        // read from the database
+        StringBuilder dbResult = new StringBuilder();
+        for (int i=0;i<=count-1;i++) {
+            User user = userService.getUser(baseId + i);
+            dbResult.append(user.toString());
+        }
+
+        return dbResult.toString();
+    }
 }
