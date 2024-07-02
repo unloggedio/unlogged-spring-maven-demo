@@ -40,8 +40,7 @@ public class OtelConfig {
                 e.printStackTrace();
             }
 
-            // TODO: file name is incorrect
-            OtelFile otelFile = new OtelFile(file.getName(), fileBytes);
+            OtelFile otelFile = new OtelFile(file.getOriginalFilename(), fileBytes);
             objectValue = otelFile;
         }
 

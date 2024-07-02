@@ -28,7 +28,7 @@ public class FileController {
     public ResponseEntity<?> uploadFile(@RequestParam("file") MultipartFile file) {
 
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        makeSpan(span,"test-input.file", file);
+        makeSpan(span, "input.file", file);
 
         if (file.isEmpty()) {
 
