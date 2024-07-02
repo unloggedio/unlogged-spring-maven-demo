@@ -55,7 +55,13 @@ public class PerfController {
 
     @RequestMapping("/databaseintensive")
     public String databaseintensive(@RequestParam int count) {
-        return perfService.readWriteInDatabase(count);
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.count", count);
+
+        String val = perfService.readWriteInDatabase(count);
+
+        span.end();
+        return val;
     }
 
     @RequestMapping("/networkintensive")

@@ -70,6 +70,8 @@ public class PerfService {
     }
 
     public String readWriteInDatabase(int count) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.count", count);
 
         for (int i=0;i<=count-1;i++){
             String customerName = "name-" + count;
@@ -92,6 +94,7 @@ public class PerfService {
             customerData.append(customerProfile.toString()).append("\n");
         }
 
+        span.end();
         return customerData.toString();
     }
 

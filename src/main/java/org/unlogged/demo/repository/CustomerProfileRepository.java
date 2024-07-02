@@ -1,5 +1,8 @@
 package org.unlogged.demo.repository;
 
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.Tracer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
@@ -12,11 +15,24 @@ import java.util.TreeMap;
 @Service
 public class CustomerProfileRepository {
 
+    private final Tracer tracer;
+
+    @Autowired
+    public CustomerProfileRepository(Tracer tracer) {
+        this.tracer = tracer;
+    }
+
     private final TreeMap<Long, CustomerProfile> profileTreeMap = new TreeMap<>();
     int c = 1;
 
     public CustomerProfile fetchCustomerProfile(long customerID) {
-        return this.profileTreeMap.get(customerID);
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.customerID", customerID);
+
+        CustomerProfile customerProfile = this.profileTreeMap.get(customerID);
+
+        span.end();
+        return customerProfile;
     }
 
     public CustomerScoreCard fetchCustomerScoreCard (long customerId){
