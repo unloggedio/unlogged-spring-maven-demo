@@ -84,4 +84,17 @@ public class PerfController {
         return value;
     }
 
+    @RequestMapping("/databaseintensive")
+    public String databaseintensive(@RequestParam int count) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input.count", count);
+
+        String value = perfService.genDatabaseIntensive(count);
+        makeSpan(span, "mockData.1", value);
+
+        makeSpan(span, "output", value);
+        span.end();
+        return value;
+    }
+
 }

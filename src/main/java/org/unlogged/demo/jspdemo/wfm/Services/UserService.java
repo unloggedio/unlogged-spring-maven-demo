@@ -1,5 +1,8 @@
 package org.unlogged.demo.jspdemo.wfm.Services;
 
+import io.opentelemetry.api.GlobalOpenTelemetry;
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.Tracer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -11,9 +14,12 @@ import org.unlogged.demo.jspdemo.wfm.Models.Entities.UserListInfo;
 import java.util.Arrays;
 import java.util.List;
 
+import static org.unlogged.demo.OtelConfig.makeSpan;
+
 @Service
 @Component
 public class UserService {
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Autowired
     UsersRepository usersRepository;
@@ -25,7 +31,15 @@ public class UserService {
     }
 
     public User getUser(long userId) {
-        return usersRepository.getUserByUserId(userId);
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input.userId", userId);
+
+        User user = usersRepository.getUserByUserId(userId);
+        makeSpan(span, "mockData.1", user);
+
+        makeSpan(span, "output", user);
+        span.end();
+        return user;
     }
 
     public void addUser(User user) {
@@ -45,8 +59,16 @@ public class UserService {
     public List<User> getAllUsers() {
         return usersRepository.findAll();
     }
+
     public long getCountOfUsers() {
-        return usersRepository.count();
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+
+        long val = usersRepository.count();
+        makeSpan(span, "mockData.1", val);
+
+        makeSpan(span, "output", val);
+        span.end();
+        return val;
     }
 
     public UserListInfo getULO() {

@@ -1,6 +1,5 @@
 package org.unlogged.demo.service;
 
-import com.google.j2objc.annotations.AutoreleasePool;
 import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
@@ -8,11 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
-import org.unlogged.demo.models.PerfData;
 import org.unlogged.demo.models.weather.WeatherInfo;
+import org.unlogged.demo.jspdemo.wfm.Models.Entities.User;
+import org.unlogged.demo.jspdemo.wfm.Services.UserService;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -25,6 +23,9 @@ public class PerfService {
 
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private UserService userService;
 
     @Autowired
     private WeatherService weatherService;
@@ -135,6 +136,50 @@ public class PerfService {
         makeSpan(span, "output", s);
         span.end();
         return s;
+    }
+
+    public String genDatabaseIntensive(int count) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input.count", count);
+        int mockCount = 0;
+
+        // get base user id
+        long baseId = userService.getCountOfUsers();
+        makeSpan(span, "mockData." + mockCount, baseId);
+        mockCount++;
+
+        // read to the database
+        for (int i=0;i<=count-1;i++) {
+            long userId = baseId + i;
+            User user = new User(
+                    userId,
+                    "username-" + userId,
+                    "password-" + userId,
+                    "mail-" + userId
+            );
+            makeSpan(span, "mockData." + mockCount, user);
+            mockCount++;
+
+            userService.addUser(user);
+        }
+
+        // read from the database
+        StringBuilder dbResult = new StringBuilder();
+        for (int i=0;i<=count-1;i++) {
+            User user = userService.getUser(baseId + i);
+
+            makeSpan(span, "mockData." + mockCount, user);
+            mockCount++;
+
+            dbResult.append(user.toString());
+            makeSpan(span, "mockData." + mockCount, user.toString());
+            mockCount++;
+        }
+
+        String val = dbResult.toString();
+        makeSpan(span, "output", val);
+        span.end();
+        return val;
     }
 	
 }
