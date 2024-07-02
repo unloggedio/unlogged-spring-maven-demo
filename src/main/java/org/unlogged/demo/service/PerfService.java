@@ -51,6 +51,7 @@ public class PerfService {
             }
         }
 
+        span.setAttribute("output", count);
         span.end();
         return count;
     }

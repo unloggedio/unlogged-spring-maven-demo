@@ -29,8 +29,8 @@ public class PerfController {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
 
         String s = "server up!";
-        span.setAttribute("output", s);
 
+        span.setAttribute("output", s);
         span.end();
         return s;
     }
@@ -41,7 +41,9 @@ public class PerfController {
         span.setAttribute("input.value", value);
 
         long val =  perfService.getCpuIntensiveData(value);
+        span.setAttribute("mockData.1", val);
 
+        span.setAttribute("output", val);
         span.end();
         return val;
     }
