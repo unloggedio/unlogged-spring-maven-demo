@@ -3,7 +3,6 @@ package org.unlogged.demo.repository;
 import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
@@ -12,6 +11,8 @@ import org.unlogged.demo.models.CustomerScoreCard;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeMap;
+
+import static org.unlogged.demo.OtelConfig.makeSpan;
 
 @Service
 public class CustomerProfileRepository {
@@ -23,12 +24,12 @@ public class CustomerProfileRepository {
 
     public CustomerProfile fetchCustomerProfile(long customerID) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.customerID", customerID);
+        makeSpan(span, "input.customerID", customerID);
 
         CustomerProfile customerProfile = this.profileTreeMap.get(customerID);
-        span.setAttribute("mockData.1", customerProfile.toString());
+        makeSpan(span, "mockData.1", customerProfile);
 
-        span.setAttribute("output", customerProfile.toString());
+        makeSpan(span, "output", customerProfile);
         span.end();
         return customerProfile;
     }

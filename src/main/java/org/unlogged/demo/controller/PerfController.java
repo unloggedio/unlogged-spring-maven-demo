@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.unlogged.demo.service.PerfService;
 
+import static org.unlogged.demo.OtelConfig.makeSpan;
+
 
 @RestController
 @RequestMapping("/perf")
@@ -24,8 +26,8 @@ public class PerfController {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
 
         String s = "server up!";
+        makeSpan(span, "output", s);
 
-        span.setAttribute("output", s);
         span.end();
         return s;
     }
@@ -33,12 +35,12 @@ public class PerfController {
     @RequestMapping("/cpuintensive")
     public long cpu(@RequestParam long value) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.value", value);
+        makeSpan(span, "input.value", value);
 
         long val =  perfService.getCpuIntensiveData(value);
-        span.setAttribute("mockData.1", val);
+        makeSpan(span, "mockData.1", val);
 
-        span.setAttribute("output", val);
+        makeSpan(span, "output", val);
         span.end();
         return val;
     }
@@ -46,12 +48,12 @@ public class PerfController {
     @RequestMapping("/memoryintensive1")
     public long memoryIntensive1(@RequestParam int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.count", count);
+        makeSpan(span, "input.count", count);
 
         long val =  perfService.sum_natural(count);
-        span.setAttribute("mockData.1", val);
+        makeSpan(span, "mockData.1", val);
 
-        span.setAttribute("output", val);
+        makeSpan(span, "output", val);
         span.end();
         return val;
     }
@@ -59,12 +61,12 @@ public class PerfController {
     @RequestMapping("/memoryintensive2")
     public String memoryIntensive2(@RequestParam int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.count", count);
+        makeSpan(span, "intput.count", count);
 
         String val = perfService.readWriteInDatabase(count);
-        span.setAttribute("mockData.1", val);
+        makeSpan(span, "mockData.1", val);
 
-        span.setAttribute("output", val);
+        makeSpan(span, "output", val);
         span.end();
         return val;
     }
@@ -72,12 +74,12 @@ public class PerfController {
     @RequestMapping("/networkintensive")
     public String networkintensive(@RequestParam int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.count", count);
+        makeSpan(span, "input.count", count);
 
         String value = perfService.genManyNetworkCall(count);
-        span.setAttribute("mockData.1", value);
+        makeSpan(span, "mockData.1", value);
 
-        span.setAttribute("output",  value);
+        makeSpan(span, "output", value);
         span.end();
         return value;
     }

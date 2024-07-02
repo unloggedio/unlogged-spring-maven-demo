@@ -3,7 +3,8 @@ package org.unlogged.demo.models;
 import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
-import org.springframework.beans.factory.annotation.Autowired;
+
+import static org.unlogged.demo.OtelConfig.makeSpan;
 
 import java.util.List;
 
@@ -20,11 +21,11 @@ public class CustomerProfileRequest {
 
     public CustomerProfileRequest(String customerName, String dateOfBirth, String email, String primaryNumber, String address) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.customerName", customerName);
-        span.setAttribute("input.dataOfBirth", dateOfBirth);
-        span.setAttribute("input.email", email);
-        span.setAttribute("input.primaryNumber", primaryNumber);
-        span.setAttribute("input.address", address);
+        makeSpan(span, "input.customerName", customerName);
+        makeSpan(span, "input.dateOfBirth", dateOfBirth);
+        makeSpan(span, "input.email", email);
+        makeSpan(span, "input.primaryNumber", primaryNumber);
+        makeSpan(span, "input.address", address);
 
         this.customerName = customerName;
         this.dateOfBirth = dateOfBirth;

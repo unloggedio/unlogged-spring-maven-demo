@@ -21,6 +21,9 @@ import java.util.List;
 
 import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
 
+import static org.unlogged.demo.OtelConfig.makeSpan;
+
+
 @Service
 public class CustomerService {
 
@@ -34,12 +37,12 @@ public class CustomerService {
 
     public CustomerProfile fetchCustomerProfile(long id) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.id", id);
+        makeSpan(span, "input.id", id);
 
         CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(id);
-        span.setAttribute("mockData.1", profile.toString());
+        makeSpan(span, "mockData.1", profile);
 
-        span.setAttribute("output", profile.toString());
+        makeSpan(span, "output", profile);
         span.end();
         return profile;
     }
@@ -51,13 +54,13 @@ public class CustomerService {
 
     public CustomerProfile saveNewCustomer(CustomerProfileRequest saveRequest) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("input.saveRequest", saveRequest.toString());
+        makeSpan(span, "input.saveRequest", saveRequest);
 
         List<String> codes = generateReferralCodes();
-        span.setAttribute("mockData.1", codes.toString());
+        makeSpan(span, "mockData.1", codes);
         saveRequest.setCodes(codes);
         CustomerProfile customerProfile = customerProfileRepository.save(saveRequest);
-        span.setAttribute("output", customerProfile.toString());
+        makeSpan(span, "output", customerProfile);
         span.end();
         return customerProfile;
     }
@@ -82,7 +85,7 @@ public class CustomerService {
             codes.add(generateReferralCode());
         }
 
-        span.setAttribute("output", codes.toString());
+        makeSpan(span, "output", codes);
         span.end();
         return codes;
     }
