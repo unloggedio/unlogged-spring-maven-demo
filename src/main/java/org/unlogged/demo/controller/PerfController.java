@@ -80,7 +80,9 @@ public class PerfController {
         span.setAttribute("input.count", count);
 
         String value = perfService.genManyNetworkCall(count);
+        span.setAttribute("mockData.1", value);
 
+        span.setAttribute("output",  value);
         span.end();
         return value;
     }

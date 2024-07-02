@@ -23,13 +23,14 @@ public class WeatherService {
         this.tracer = tracer;
     }
 
-
     public WeatherInfo getWeatherForAddress(String address) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         span.setAttribute("input.address", address);
 
         WeatherInfo weatherInfo = convertToObject(getWeatherinfo(address));
+        span.setAttribute("mockData.1", weatherInfo.toString());
 
+        span.setAttribute("output", weatherInfo.toString());
         span.end();
         return weatherInfo;
     }
@@ -42,10 +43,12 @@ public class WeatherService {
         try {
             WeatherInfo weatherInfo = om.readValue(info, WeatherInfo.class);
 
+            span.setAttribute("output", weatherInfo.toString());
             span.end();
             return weatherInfo;
         } catch (Exception e) {
 
+            span.setAttribute("output", "exception");
             span.end();
             return null;
         }
@@ -69,8 +72,10 @@ public class WeatherService {
             e.printStackTrace();
         }
 
+        String s = response.body();
+        span.setAttribute("output", s);
         span.end();
-        return response.body();
+        return s;
     }
 
     public String getLocationFromAddress(String address) {

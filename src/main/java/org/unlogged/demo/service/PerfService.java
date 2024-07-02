@@ -119,17 +119,24 @@ public class PerfService {
 
     public String genManyNetworkCall(int count) {
 
+        int mockCount = 0;
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         span.setAttribute("input.count", count);
 
         StringBuilder weatherData = new StringBuilder();
         for (int i=0;i<=count-1;i++) {
             WeatherInfo weatherInfo = weatherService.getWeatherForAddress("Bengaluru");
+
+            span.setAttribute("mockData." + mockCount, weatherInfo.toString());
+            mockCount++;
+
             weatherData.append(weatherInfo.toString()).append("\n");
         }
 
+        String s = weatherData.toString();
+        span.setAttribute("output", s);
         span.end();
-        return weatherData.toString();
+        return s;
     }
 	
 }
