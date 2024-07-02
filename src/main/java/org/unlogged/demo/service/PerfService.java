@@ -75,7 +75,7 @@ public class PerfService {
         return sum;
     }
 
-    public String readWriteInDatabase(int count) {
+    public String readWriteInMemory(int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         makeSpan(span, "input.count", count);
         int span_count = 0;

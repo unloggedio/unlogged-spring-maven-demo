@@ -63,7 +63,7 @@ public class PerfController {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         makeSpan(span, "intput.count", count);
 
-        String val = perfService.readWriteInDatabase(count);
+        String val = perfService.readWriteInMemory(count);
         makeSpan(span, "mockData.1", val);
 
         makeSpan(span, "output", val);
