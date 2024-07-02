@@ -9,9 +9,9 @@ import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
 import org.springframework.test.context.TestPropertySource;
 
-import io.unlogged.runner.UnloggedTestRunner;
+//import io.unlogged.runner.UnloggedTestRunner;
 
-@RunWith(UnloggedTestRunner.class)
+//@RunWith(UnloggedTestRunner.class)
 @ComponentScan("org.unlogged.demo")
 @EnableAutoConfiguration
 @TestPropertySource({"classpath:application.properties"})
