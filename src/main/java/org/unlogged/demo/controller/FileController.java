@@ -15,7 +15,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
-import static org.unlogged.demo.OtelConfig.makeSpanForFile;
 
 @RestController
 @RequestMapping("/file")
@@ -29,7 +28,7 @@ public class FileController {
     public ResponseEntity<?> uploadFile(@RequestParam("file") MultipartFile file) {
 
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        makeSpanForFile(span,"input.file", file);
+        makeSpan(span,"test-input.file", file);
 
         if (file.isEmpty()) {
 
