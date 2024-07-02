@@ -1,11 +1,13 @@
 package org.unlogged.demo.jspdemo.wfm.Models.Entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
 import lombok.*;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
@@ -18,6 +20,8 @@ import static org.unlogged.demo.OtelConfig.makeSpan;
 @Table(name = "Users")
 public class User {
 
+    @Transient
+    @JsonIgnore
     private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Id
