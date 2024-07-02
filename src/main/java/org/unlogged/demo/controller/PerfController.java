@@ -48,8 +48,8 @@ public class PerfController {
         return val;
     }
 
-    @RequestMapping("/memoryintensive")
-    public long memoryIntensive(@RequestParam int count) {
+    @RequestMapping("/memoryintensive1")
+    public long memoryIntensive1(@RequestParam int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         span.setAttribute("input.count", count);
 
@@ -61,8 +61,8 @@ public class PerfController {
         return val;
     }
 
-    @RequestMapping("/databaseintensive")
-    public String databaseintensive(@RequestParam int count) {
+    @RequestMapping("/memoryintensive2")
+    public String memoryIntensive2(@RequestParam int count) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
         span.setAttribute("input.count", count);
 
