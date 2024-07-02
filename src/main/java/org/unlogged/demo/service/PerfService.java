@@ -72,6 +72,7 @@ public class PerfService {
             sum += value_list.get(i);
         }
 
+        span.setAttribute("output", sum);
         span.end();
         return sum;
     }

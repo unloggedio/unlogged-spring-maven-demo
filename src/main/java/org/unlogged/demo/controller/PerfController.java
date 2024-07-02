@@ -54,7 +54,9 @@ public class PerfController {
         span.setAttribute("input.count", count);
 
         long val =  perfService.sum_natural(count);
+        span.setAttribute("mockData.1", val);
 
+        span.setAttribute("output", val);
         span.end();
         return val;
     }
