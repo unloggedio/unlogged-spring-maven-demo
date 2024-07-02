@@ -15,10 +15,19 @@ import java.util.List;
 @Service
 public class PerfService {
 
+    private final Tracer tracer;
+
+    @Autowired
+    public PerfService(Tracer tracer) {
+        this.tracer = tracer;
+    }
+
     @Autowired
     private CustomerService customerService;
 
     public long getCpuIntensiveData(long value) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        span.setAttribute("input.value", value);
 
         // This is O(n^2) implementation for calculating the prime numbers from 1 to value
         // This uses brute force to calculate it, and is CPU intensive single-threaded operation
@@ -35,6 +44,8 @@ public class PerfService {
                 count++;
             }
         }
+
+        span.end();
         return count;
     }
 

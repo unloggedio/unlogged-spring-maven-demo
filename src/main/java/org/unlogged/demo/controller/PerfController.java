@@ -34,9 +34,10 @@ public class PerfController {
     @RequestMapping("/cpuintensive")
     public long cpu(@RequestParam long value) {
         Span span = tracer.spanBuilder("custom_tracer").startSpan();
-        span.setAttribute("requestParam.value", value);
+        span.setAttribute("input.value", value);
+
         long val =  perfService.getCpuIntensiveData(value);
-        span.setAttribute("responseValue.output", val);
+
         span.end();
         return val;
     }
