@@ -55,7 +55,7 @@ public class OpenTelemetryConfigSDK {
 //        return openTelemetry.getTracer(serviceName);
 //    }
 //
-//    TODO: use this like this
+//    use this like this
 //    private static Tracer tracer;
 //    public PerfController(tracer tracer) {
 //        this.tracer = tracer;
