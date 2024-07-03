@@ -2,12 +2,14 @@ package org.unlogged.demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.unlogged.demo.jspdemo.wfm.Models.Entities.BigPojo;
 import org.unlogged.demo.jspdemo.wfm.Models.Entities.User;
 import org.unlogged.demo.jspdemo.wfm.Services.UserService;
 import org.unlogged.demo.models.CustomerProfile;
 import org.unlogged.demo.models.CustomerProfileRequest;
 import org.unlogged.demo.models.weather.WeatherInfo;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -120,6 +122,17 @@ public class PerfService {
         }
 
         return dbResult.toString();
+    }
+
+    public String dataIntensive(ArrayList<BigPojo> dataList) {
+
+        int n = dataList.size();
+        StringBuilder listString = new StringBuilder();
+        for (int i=0;i<=n-1;i++) {
+            listString.append(dataList.get(i).toString());
+        }
+
+        return listString.toString();
     }
 	
 }
