@@ -186,13 +186,30 @@ public class PerfService {
 
     public String dataIntensive(ArrayList<BigPojo> dataList) {
 
+        int mockCount = 0;
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input", dataList);
+
         int n = dataList.size();
+        makeSpan(span, "mockData." + mockCount, n);
+        mockCount++;
+
         StringBuilder listString = new StringBuilder();
         for (int i=0;i<=n-1;i++) {
             listString.append(dataList.get(i).toString());
+
+            makeSpan(span, "mockData." + mockCount, dataList.get(i));
+            mockCount++;
+
+            makeSpan(span, "mockData." + mockCount, dataList.get(i).toString());
+            mockCount++;
         }
 
-        return listString.toString();
+        String s = listString.toString();
+        makeSpan(span, "mockData." + mockCount, s);
+        mockCount++;
+        span.end();
+        return s;
     }
 	
 }

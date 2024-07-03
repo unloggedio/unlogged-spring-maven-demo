@@ -102,15 +102,21 @@ public class PerfController {
 
     @RequestMapping("/dataIntensive")
     public String dataIntensive(int count) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input.count", count);
         // This method triggers a method with many large pojos as input
         // That method has many external calls. This benchmarks OTEL span data collection performance
 
         ArrayList<BigPojo> dataList = new ArrayList<>();
         for (int i=0;i<=count-1;i++) {
             BigPojo bigPojo = new BigPojo(i);
+            makeSpan(span, "mockData." + count, bigPojo);
             dataList.add(bigPojo);
         }
 
-        return perfService.dataIntensive(dataList);
+        String s = perfService.dataIntensive(dataList);
+        makeSpan(span, "output", s);
+        span.end();
+        return s;
     }
 }

@@ -1,39 +1,93 @@
 package org.unlogged.demo.jspdemo.wfm.Models.Entities;
 
+import io.opentelemetry.api.GlobalOpenTelemetry;
+import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.api.trace.Tracer;
+
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import static org.unlogged.demo.OtelConfig.makeSpan;
+
 public class BigPojo {
+
+    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     public BigPojo() {
 
     }
 
     public BigPojo(int id) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input.id", id);
+
         Random rand = new Random();
+        makeSpan(span, "mockData.1", rand);
+
         this.id = id;
-        this.make_id = id + rand.nextInt(1000);
-        this.model_id = id + rand.nextInt(1000);
-        this.pl_id = id + rand.nextInt(1000);
 
-        this.make_name = genRandomString(rand, 100);
-        this.model_name = genRandomString(rand, 100);
-        this.pl_name = genRandomString(rand, 100);
+        int rand_2 = rand.nextInt(1000);
+        this.make_id = id + rand_2;
+        makeSpan(span, "mockData.2", rand_2);
+
+        int rand_3 = rand.nextInt(1000);
+        this.model_id = id + rand_3;
+        makeSpan(span, "mockData.3", rand_3);
+
+        int rand_4 = rand.nextInt(1000);
+        this.pl_id = id + rand_4;
+        makeSpan(span, "mockData.4", rand_4);
+
+
+        String rand_5 = genRandomString(rand, 100);
+        this.make_name = rand_5;
+        makeSpan(span, "mockData.5", rand_5);
+
+        String rand_6 = genRandomString(rand, 100);
+        this.model_name = rand_6;
+        makeSpan(span, "mockData.6", rand_6);
+
+        String rand_7 = genRandomString(rand, 100);
+        this.pl_name = rand_7;
+        makeSpan(span, "mockData.7", rand_7);
+
+
         this.year_of_make = "2000";
-        this.description_text = genRandomString(rand, 10000);
-        this.pl_Description = genRandomString(rand, 10000);
 
-        this.data_holder_1 = genRandomString(rand, 10000);
-        this.data_holder_2 = genRandomString(rand, 10000);
-        this.data_holder_3 = genRandomString(rand, 10000);
+        String rand_8 = genRandomString(rand, 10000);
+        this.description_text = rand_8;
+        makeSpan(span, "mockData.8", rand_8);
 
-        int count = rand.nextInt(100);
+        String rand_9 = genRandomString(rand, 10000);
+        this.pl_Description = rand_9;
+        makeSpan(span, "mockData.9", rand_9);
+
+        String rand_10 = genRandomString(rand, 10000);
+        this.data_holder_1 = rand_10;
+        makeSpan(span, "mockData.10", rand_10);
+
+        String rand_11 = genRandomString(rand, 10000);
+        this.data_holder_2 = rand_11;
+        makeSpan(span, "mockData.11", rand_11);
+
+        String rand_12 = genRandomString(rand, 10000);
+        this.data_holder_3 = rand_12;
+        makeSpan(span, "mockData.12", rand_12);
+
+        int rand_13 = rand.nextInt(100);
+        int count = rand_13;
+        makeSpan(span, "mockData.13", rand_13);
+
         this.program_ids = new ArrayList<>();
         for (int i=0;i<=count-1;i++) {
-            this.program_ids.add(rand.nextInt(1000));
+            int val = rand.nextInt(1000);
+            this.program_ids.add(val);
+            makeSpan(span, "mockData." + 14 + count, val);
         }
+
+        span.end();
     }
 
     private int id;
@@ -164,13 +218,23 @@ public class BigPojo {
     }
 
     private String genRandomString(Random rand, int length) {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        makeSpan(span, "input.rand", rand);
+        makeSpan(span, "input.length", length);
+
         byte[] arr = new byte[length];
         rand.nextBytes(arr);
+        makeSpan(span, "mockData.1", arr);
+
         String randomString = new String(arr, StandardCharsets.UTF_8);
+        makeSpan(span, "output", randomString);
+        span.end();
         return randomString;
     }
 
     public String toString() {
+        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+
         StringBuilder s = new StringBuilder();
         s.append("id = ").append(id).append(" ")
                 .append("make_id = ").append(make_id).append(" ")
@@ -187,6 +251,9 @@ public class BigPojo {
                 .append("data_holder_2 = ").append(data_holder_2).append(" ")
                 .append("data_holder_3 = ").append(data_holder_3).append(" ");
 
-        return s.toString();
+        String string = s.toString();
+        makeSpan(span, "output", string);
+        span.end();
+        return string;
     }
 }
