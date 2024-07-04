@@ -38,3 +38,6 @@ build/
 # file upload controller folder
 /input
 /uploads
+
+# Jmeter report
+perf_analysis/result.jtl
