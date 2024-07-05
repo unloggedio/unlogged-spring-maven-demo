@@ -41,3 +41,6 @@ build/
 
 # Jmeter report
 perf_analysis/result.jtl
+
+# OTEL distributions
+otel_dist/
