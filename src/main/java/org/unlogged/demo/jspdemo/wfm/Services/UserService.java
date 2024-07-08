@@ -15,11 +15,12 @@ import java.util.Arrays;
 import java.util.List;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 @Service
 @Component
 public class UserService {
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Autowired
     UsersRepository usersRepository;
@@ -31,7 +32,7 @@ public class UserService {
     }
 
     public User getUser(long userId) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.23").startSpan();
         makeSpan(span, "input.userId", userId);
 
         User user = usersRepository.getUserByUserId(userId);
@@ -61,7 +62,7 @@ public class UserService {
     }
 
     public long getCountOfUsers() {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.24").startSpan();
 
         long val = usersRepository.count();
         makeSpan(span, "mockData.1", val);
@@ -83,7 +84,11 @@ public class UserService {
         List<User> usersList = Arrays.asList(new User(), new User(1, "a", "a", "a"));
         return new DeepClass(usersList);
     }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 23, "org.unlogged.demo.jspdemo.wfm.Services.UserService", "getUser", "J", "org.unlogged.demo.jspdemo.wfm.Models.Entities.User", false, true, true, 1, "(J)Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;");
+        registerMethod(span, 24, "org.unlogged.demo.jspdemo.wfm.Services.UserService", "getCountOfUsers", "", "J", false, true, true, 1, "()J");
+        span.end();
+    }
 }
-
-//-javaagent:"/Users/testerfresher/.videobug/videobug-java-agent.jar=i=com.jsp.jspwfm" --add-opens=java.base/java.util=ALL-UNNAMED
-
