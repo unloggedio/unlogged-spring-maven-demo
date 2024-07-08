@@ -10,17 +10,18 @@ import java.util.List;
 import java.util.Random;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 public class BigPojo {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     public BigPojo() {
 
     }
 
     public BigPojo(int id) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.27").startSpan();
         makeSpan(span, "input.id", id);
 
         Random rand = new Random();
@@ -218,7 +219,7 @@ public class BigPojo {
     }
 
     private String genRandomString(Random rand, int length) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.28").startSpan();
         makeSpan(span, "input.rand", rand);
         makeSpan(span, "input.length", length);
 
@@ -233,7 +234,7 @@ public class BigPojo {
     }
 
     public String toString() {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.29").startSpan();
 
         StringBuilder s = new StringBuilder();
         s.append("id = ").append(id).append(" ")
@@ -255,5 +256,13 @@ public class BigPojo {
         makeSpan(span, "output", string);
         span.end();
         return string;
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 27, "org.unlogged.demo.jspdemo.wfm.Models.Entities.BigPojo", "<init>", "I", "V", false, true, true, 1, "(I)V");
+        registerMethod(span, 28, "org.unlogged.demo.jspdemo.wfm.Models.Entities.BigPojo", "genRandomString", "java.util.Random,I", "java.lang.String", false, false, true, 2, "(Ljava/util/Random;I)Ljava/lang/String;");
+        registerMethod(span, 29, "org.unlogged.demo.jspdemo.wfm.Models.Entities.BigPojo", "toString", "", "java.lang.String", false, true, true, 1, "()Ljava/lang/String;");
+        span.end();
     }
 }
