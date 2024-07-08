@@ -9,4 +9,9 @@ public class WithdrawalReportingFilter extends GenericReportingFilter {
     public CustomFilter clone() {
         return new WithdrawalReportingFilter(this);
     }
+
+    public void performAFilterPre() {
+        CustomFilter customFilter = clone().clone();
+        customFilter.clone();
+    }
 }
