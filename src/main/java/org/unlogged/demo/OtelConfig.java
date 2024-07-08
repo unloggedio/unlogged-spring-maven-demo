@@ -55,4 +55,28 @@ public class OtelConfig {
         }
     }
 
+    public static void registerMethod(
+            Span span,
+            int id,
+            String className,
+            String methodName,
+            String argumentTypes,
+            String returnType,
+            boolean isStatic,
+            boolean isPublic,
+            boolean usesFields,
+            int methodAccess,
+            String methodDesc
+            ) {
+
+        MethodMetadata methodMetadata = new MethodMetadata(className, methodName, argumentTypes, returnType, isStatic, isPublic, usesFields, methodAccess, methodDesc);
+        try {
+            String objectString = instance.writeValueAsString(methodMetadata);
+            span.setAttribute("methodRegistration-" + id, objectString);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+            span.setAttribute("method_registration", "method registration have failed");
+        }
+    }
+
 }
