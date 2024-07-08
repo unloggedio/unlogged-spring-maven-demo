@@ -38,3 +38,6 @@ build/
 # File Upload controller folder
 input
 uploads
+
+# Benchmarking files
+otel_dist
