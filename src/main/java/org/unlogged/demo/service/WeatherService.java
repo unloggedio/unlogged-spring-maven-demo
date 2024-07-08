@@ -15,14 +15,15 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 @Service
 public class WeatherService {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     public WeatherInfo getWeatherForAddress(String address) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.16").startSpan();
         makeSpan(span, "input.address", address);
 
         WeatherInfo weatherInfo = convertToObject(getWeatherinfo(address));
@@ -34,7 +35,7 @@ public class WeatherService {
     }
 
     public WeatherInfo convertToObject(String info) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.17").startSpan();
         makeSpan(span, "input.info", info);
 
         ObjectMapper om = new ObjectMapper();
@@ -53,7 +54,7 @@ public class WeatherService {
     }
 
     private String getWeatherinfo(String location) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.18").startSpan();
         makeSpan(span, "input.location", location);
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -82,5 +83,13 @@ public class WeatherService {
             return parts[parts.length - 1];
         }
         return address;
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 16, "org.unlogged.demo.service.WeatherService", "getWeatherForAddress", "java.lang.String", "org.unlogged.demo.models.weather.WeatherInfo", false, true, true, 1, "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;");
+        registerMethod(span, 17, "org.unlogged.demo.service.WeatherService", "convertToObject", "java.lang.String", "org.unlogged.demo.models.weather.WeatherInfo", false, true, true, 1, "(Ljava/lang/String;)Lorg/unlogged/demo/models/weather/WeatherInfo;");
+        registerMethod(span, 18, "org.unlogged.demo.service.WeatherService", "getWeatherinfo", "java.lang.String", "java.lang.String", false, false, true, 2, "(Ljava/lang/String;)Ljava/lang/String;");
+        span.end();
     }
 }
