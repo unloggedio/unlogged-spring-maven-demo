@@ -8,13 +8,14 @@ import org.unlogged.demo.constants.ReferralConstants;
 import java.util.Random;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 public class ReferralUtils {
 
     private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     public static String generateReferralCode() {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.15").startSpan();
 
         Random random = new Random();
         makeSpan(span, "mockData.1", random);
@@ -38,5 +39,11 @@ public class ReferralUtils {
                 .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
                 .toString();
         return generatedString;
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 15, "org.unlogged.demo.utils.ReferralUtils", "generateReferralCode", "", "java.lang.String", true, true, true, 9, "()Ljava/lang/String;");
+        span.end();
     }
 }

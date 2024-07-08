@@ -5,12 +5,13 @@ import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.api.trace.Tracer;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 import java.util.List;
 
 public class CustomerProfileRequest {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     private String customerName;
     private String dateOfBirth;
@@ -19,8 +20,8 @@ public class CustomerProfileRequest {
     private String address;
     private List<String> codes;
 
-    public CustomerProfileRequest(String customerName, String dateOfBirth, String email, String primaryNumber, String address) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        public CustomerProfileRequest(String customerName, String dateOfBirth, String email, String primaryNumber, String address) {
+        Span span = tracer.spanBuilder("custom_tracer.22").startSpan();
         makeSpan(span, "input.customerName", customerName);
         makeSpan(span, "input.dateOfBirth", dateOfBirth);
         makeSpan(span, "input.email", email);
@@ -85,5 +86,11 @@ public class CustomerProfileRequest {
 
     public void setCodes(List<String> codes) {
         this.codes = codes;
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 22, "org.unlogged.demo.models.CustomerProfileRequest", "<init>", "java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String", "V", false, true, true, 1, "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V");
+        span.end();
     }
 }
