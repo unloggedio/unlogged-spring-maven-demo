@@ -11,6 +11,7 @@ import jakarta.persistence.Transient;
 import lombok.*;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 @Data
 @Getter
@@ -22,7 +23,7 @@ public class User {
 
     @Transient
     @JsonIgnore
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Id
     private long user_id;
@@ -31,7 +32,7 @@ public class User {
     private String email;
 
     public User(long user_id, String username, String password, String email) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.25").startSpan();
         makeSpan(span, "input.user_id", user_id);
         makeSpan(span, "input.username", username);
         makeSpan(span, "input.password", password);
@@ -59,7 +60,7 @@ public class User {
     }
 
     public String toString() {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.26").startSpan();
 
         StringBuilder userValue = new StringBuilder();
         userValue.append("user_id-").append(this.user_id).append(",")
@@ -71,5 +72,12 @@ public class User {
         makeSpan(span, "output", uv);
         span.end();
         return uv;
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 25, "org.unlogged.demo.jspdemo.wfm.Models.Entities.User", "<init>", "J,java.lang.String,java.lang.String,java.lang.String", "V", false, true, true, 1, "(JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V");
+        registerMethod(span, 26, "org.unlogged.demo.jspdemo.wfm.Models.Entities.User", "toString", "", "java.lang.String", false, true, true, 1, "()Ljava/lang/String;");
+        span.end();
     }
 }
