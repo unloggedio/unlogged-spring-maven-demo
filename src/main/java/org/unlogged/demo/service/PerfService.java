@@ -17,11 +17,12 @@ import java.util.LinkedList;
 import java.util.List;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 @Service
 public class PerfService {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Autowired
     private CustomerService customerService;
@@ -33,7 +34,7 @@ public class PerfService {
     private WeatherService weatherService;
 
     public long getCpuIntensiveData(long value) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.8").startSpan();
         makeSpan(span, "input.value", value);
 
         // This is O(n^2) implementation for calculating the prime numbers from 1 to value
@@ -58,7 +59,7 @@ public class PerfService {
     }
 
     public long sum_natural(int count) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.9").startSpan();
         makeSpan(span, "input.count", count);
 
         // write value to memory
@@ -79,7 +80,7 @@ public class PerfService {
     }
 
     public String readWriteInMemory(int count) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.10").startSpan();
         makeSpan(span, "input.count", count);
         int span_count = 0;
 
@@ -121,7 +122,7 @@ public class PerfService {
     public String genManyNetworkCall(int count) {
 
         int mockCount = 0;
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.11").startSpan();
         makeSpan(span, "input.count", count);
 
         StringBuilder weatherData = new StringBuilder();
@@ -141,7 +142,7 @@ public class PerfService {
     }
 
     public String genDatabaseIntensive(int count) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.12").startSpan();
         makeSpan(span, "input.count", count);
         int mockCount = 0;
 
@@ -187,7 +188,7 @@ public class PerfService {
     public String dataIntensive(ArrayList<BigPojo> dataList) {
 
         int mockCount = 0;
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.13").startSpan();
         makeSpan(span, "input", dataList);
 
         int n = dataList.size();
@@ -211,5 +212,16 @@ public class PerfService {
         span.end();
         return s;
     }
-	
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 8, "org.unlogged.demo.service.PerfService", "getCpuIntensiveData", "J", "J", false, true, true, 1, "(J)J");
+        registerMethod(span, 9, "org.unlogged.demo.service.PerfService", "sum_natural", "I", "J", false, true, true, 1, "(I)J");
+        registerMethod(span, 10, "org.unlogged.demo.service.PerfService", "readWriteInMemory", "I", "java.lang.String", false, true, true, 1, "(I)Ljava/lang/String;");
+        registerMethod(span, 11, "org.unlogged.demo.service.PerfService", "genManyNetworkCall", "I", "java.lang.String", false, true, true, 1, "(I)Ljava/lang/String;");
+        registerMethod(span, 12, "org.unlogged.demo.service.PerfService", "genDatabaseIntensive", "I", "java.lang.String", false, true, true, 1, "(I)Ljava/lang/String;");
+        registerMethod(span, 13, "org.unlogged.demo.service.PerfService", "dataIntensive", "java.util.ArrayList", "java.lang.String", false, true, true, 1, "(Ljava/util/ArrayList;)Ljava/lang/String;");
+        span.end();
+    }
+
 }

@@ -13,17 +13,18 @@ import java.util.List;
 import java.util.TreeMap;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
+import static org.unlogged.demo.OtelConfig.registerMethod;
 
 @Service
 public class CustomerProfileRepository {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     private final TreeMap<Long, CustomerProfile> profileTreeMap = new TreeMap<>();
     int c = 1;
 
     public CustomerProfile fetchCustomerProfile(long customerID) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.14").startSpan();
         makeSpan(span, "input.customerID", customerID);
 
         CustomerProfile customerProfile = this.profileTreeMap.get(customerID);
@@ -131,5 +132,11 @@ public class CustomerProfileRepository {
 
     public void throwSomeException() {
         String a = "a".split(" ")[12];
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 14, "org.unlogged.demo.repository.CustomerProfileRepository", "fetchCustomerProfile", "J", "org.unlogged.demo.models.CustomerProfile", false, true, true, 1, "(J)Lorg/unlogged/demo/models/CustomerProfile;");
+        span.end();
     }
 }

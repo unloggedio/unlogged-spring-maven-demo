@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static org.unlogged.demo.OtelConfig.registerMethod;
 import static org.unlogged.demo.utils.ReferralUtils.generateReferralCode;
 
 import static org.unlogged.demo.OtelConfig.makeSpan;
@@ -27,7 +28,7 @@ import static org.unlogged.demo.OtelConfig.makeSpan;
 @Service
 public class CustomerService {
 
-    private final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
+    private static final Tracer tracer = GlobalOpenTelemetry.getTracer("unlogged-spring-maven-demo");
 
     @Autowired
     private CustomerProfileRepository customerProfileRepository;
@@ -36,7 +37,7 @@ public class CustomerService {
     private CustomerProfileRepo repo;
 
     public CustomerProfile fetchCustomerProfile(long id) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.19").startSpan();
         makeSpan(span, "input.id", id);
 
         CustomerProfile profile = customerProfileRepository.fetchCustomerProfile(id);
@@ -53,7 +54,7 @@ public class CustomerService {
     }
 
     public CustomerProfile saveNewCustomer(CustomerProfileRequest saveRequest) {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.20").startSpan();
         makeSpan(span, "input.saveRequest", saveRequest);
 
         List<String> codes = generateReferralCodes();
@@ -77,7 +78,7 @@ public class CustomerService {
     }
 
     private List<String> generateReferralCodes() {
-        Span span = tracer.spanBuilder("custom_tracer").startSpan();
+        Span span = tracer.spanBuilder("custom_tracer.21").startSpan();
 
         int codeCount = 5;
         List<String> codes = new ArrayList<>();
@@ -186,5 +187,13 @@ public class CustomerService {
         CustomerScoreCardMap map2 = new CustomerScoreCardMap(scoreCards2);
 
         return Arrays.asList(map1, map2);
+    }
+
+    static {
+        Span span = tracer.spanBuilder("method_registration").startSpan();
+        registerMethod(span, 19, "org.unlogged.demo.service.CustomerService", "fetchCustomerProfile", "J", "org.unlogged.demo.models.CustomerProfile", false, true, true, 1, "(J)Lorg/unlogged/demo/models/CustomerProfile;");
+        registerMethod(span, 20, "org.unlogged.demo.service.CustomerService", "saveNewCustomer", "org.unlogged.demo.models.CustomerProfileRequest", "org.unlogged.demo.models.CustomerProfile", false, true, true, 1, "(Lorg/unlogged/demo/models/CustomerProfileRequest;)Lorg/unlogged/demo/models/CustomerProfile;");
+        registerMethod(span, 21, "org.unlogged.demo.service.CustomerService", "generateReferralCodes", "", "java.util.List", false, false, true, 2, "()Ljava/util/List;");
+        span.end();
     }
 }
