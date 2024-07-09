@@ -55,7 +55,6 @@ public class PerfController {
         long val =  perfService.sum_natural(count);
         makeSpan(span, "mockData.1", val);
 
-        makeSpan(span, "output", val);
         span.end();
         return val;
     }

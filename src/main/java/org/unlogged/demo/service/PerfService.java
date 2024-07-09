@@ -73,7 +73,6 @@ public class PerfService {
             sum += value_list.get(i);
         }
 
-        makeSpan(span, "output", sum);
         span.end();
         return sum;
     }
