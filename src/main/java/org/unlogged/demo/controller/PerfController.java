@@ -79,7 +79,6 @@ public class PerfController {
         String value = perfService.genManyNetworkCall(count);
         makeSpan(span, "mockData.1", value);
 
-        makeSpan(span, "output", value);
         span.end();
         return value;
     }

@@ -127,10 +127,8 @@ public class PerfService {
             weatherData.append(weatherInfo.toString()).append("\n");
         }
 
-        String s = weatherData.toString();
-        makeSpan(span, "output", s);
         span.end();
-        return s;
+        return weatherData.toString();
     }
 
     public String genDatabaseIntensive(int count) {
