@@ -30,7 +30,6 @@ public class PerfController {
         Span span = tracer.spanBuilder("custom_tracer.1").startSpan();
 
         String s = "server up!";
-        makeSpan(span, "output", s);
 
         span.end();
         return s;
