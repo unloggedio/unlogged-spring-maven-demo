@@ -4,9 +4,9 @@ import org.unlogged.demo.filter.abs.model.FieldC;
 
 import java.util.List;
 
-public class WithdrawalReportingFilterC extends GenericReportingFilterC {
+public class WithdrawalReportingFilterCC extends GenericReportingFilterC implements PerformFilterC {
 
-    public WithdrawalReportingFilterC(GenericReportingFilterC reportingFilter) {
+    public WithdrawalReportingFilterCC(GenericReportingFilterC reportingFilter) {
     }
 
     @Override
@@ -31,7 +31,12 @@ public class WithdrawalReportingFilterC extends GenericReportingFilterC {
 
     @Override
     public BaseFilterC clone() {
-        return new WithdrawalReportingFilterC(this);
+        return new WithdrawalReportingFilterCC(this);
+    }
+
+    @Override
+    public void clone(String e) {
+        System.out.println("E : "+e);
     }
 
     public void performAFilterPre() {
