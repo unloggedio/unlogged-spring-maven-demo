@@ -38,7 +38,6 @@ public class UserService {
         User user = usersRepository.getUserByUserId(userId);
         makeSpan(span, "mockData.1", user);
 
-        makeSpan(span, "output", user);
         span.end();
         return user;
     }

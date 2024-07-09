@@ -91,7 +91,6 @@ public class PerfController {
         String value = perfService.genDatabaseIntensive(count);
         makeSpan(span, "mockData.1", value);
 
-        makeSpan(span, "output", value);
         span.end();
         return value;
     }

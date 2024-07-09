@@ -150,8 +150,6 @@ public class PerfService {
                     "password-" + userId,
                     "mail-" + userId
             );
-            makeSpan(span, "mockData." + mockCount, user);
-            mockCount++;
 
             userService.addUser(user);
         }
@@ -165,14 +163,10 @@ public class PerfService {
             mockCount++;
 
             dbResult.append(user.toString());
-            makeSpan(span, "mockData." + mockCount, user.toString());
-            mockCount++;
         }
 
-        String val = dbResult.toString();
-        makeSpan(span, "output", val);
         span.end();
-        return val;
+        return dbResult.toString();
     }
 
     public String dataIntensive(ArrayList<BigPojo> dataList) {
