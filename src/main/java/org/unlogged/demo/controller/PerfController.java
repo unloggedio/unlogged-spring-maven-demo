@@ -67,7 +67,6 @@ public class PerfController {
         String val = perfService.readWriteInMemory(count);
         makeSpan(span, "mockData.1", val);
 
-        makeSpan(span, "output", val);
         span.end();
         return val;
     }

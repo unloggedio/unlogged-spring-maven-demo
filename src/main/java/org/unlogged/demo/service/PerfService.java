@@ -94,10 +94,6 @@ public class PerfService {
                     customerEMail,
                     customerPrimaryNumber,
                     customerAddress);
-
-            makeSpan(span, "mockData." + span_count, customerProfileRequest);
-            span_count++;
-
             customerService.saveNewCustomer(customerProfileRequest);
         }
 
@@ -111,10 +107,8 @@ public class PerfService {
             customerData.append(customerProfile.toString()).append("\n");
         }
 
-        String s = customerData.toString();
-        makeSpan(span, "output", s);
         span.end();
-        return s;
+        return customerData.toString();
     }
 
     public String genManyNetworkCall(int count) {
