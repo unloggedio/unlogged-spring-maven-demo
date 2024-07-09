@@ -43,7 +43,6 @@ public class PerfController {
         long val =  perfService.getCpuIntensiveData(value);
         makeSpan(span, "mockData.1", val);
 
-        makeSpan(span, "output", val);
         span.end();
         return val;
     }

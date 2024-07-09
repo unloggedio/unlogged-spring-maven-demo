@@ -53,7 +53,6 @@ public class PerfService {
             }
         }
 
-        makeSpan(span, "output", count);
         span.end();
         return count;
     }
