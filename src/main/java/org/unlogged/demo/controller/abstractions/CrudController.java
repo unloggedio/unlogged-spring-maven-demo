@@ -8,6 +8,8 @@ import java.util.List;
 
 public interface CrudController<T, ID> {
 
+    int localA = alpha.a;
+
     @RequestMapping("/find")
     public T findById(@RequestParam("id") ID id);
 
