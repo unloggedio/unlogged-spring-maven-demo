@@ -34,4 +34,9 @@ public class PropertyControllerImpl extends BaseCrudController<PropertyService<P
     public PropertyDetails deleteById(Long id) {
         return mappedCrudService.deleteById(id);
     }
+
+    public void setVersion() {
+        super.setVersion("E");
+        version = "E";
+    }
 }
