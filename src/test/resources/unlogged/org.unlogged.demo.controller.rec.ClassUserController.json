@@ -1,0 +1,67 @@
+{
+  "classname" : "org.unlogged.demo.controller.rec.ClassUserController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.controller.rec.ClassUserController#setAndGetUser#()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;" : [ {
+      "lineNumbers" : [ 13, 14, 15, 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "2",
+          "id" : "30370eac-5699-4d30-95a6-0a2035397e32",
+          "assertionType" : "EQUAL",
+          "key" : "/user_id"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"b\"",
+          "id" : "b907e133-c257-498f-83c5-777a790e10c4",
+          "assertionType" : "EQUAL",
+          "key" : "/username"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"b\"",
+          "id" : "1181409d-ded3-436b-b648-567fdc494463",
+          "assertionType" : "EQUAL",
+          "key" : "/password"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"b\"",
+          "id" : "0be360a6-a5a4-4af8-9f66-4e5b9558756b",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "b584f7bf-0296-44d5-8da6-509322c4dd21",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "457edb23-e768-44e7-95c7-cce82a154e8f",
+      "name" : "ClassUserController.setAndGetUser - recursive setter bug freq logging",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "{\"user_id\":2,\"username\":\"b\",\"password\":\"b\",\"email\":\"b\"}",
+      "returnValueClassname" : "org.unlogged.demo.jspdemo.wfm.Models.Entities.User",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 25462553171757,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 947777758,
+      "probSerializedValue" : "eyJ1c2VyX2lkIjoyLCJ1c2VybmFtZSI6ImIiLCJwYXNzd29yZCI6ImIiLCJlbWFpbCI6ImIifQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "setAndGetUser",
+        "signature" : "()Lorg/unlogged/demo/jspdemo/wfm/Models/Entities/User;",
+        "className" : "org.unlogged.demo.controller.rec.ClassUserController",
+        "methodHash" : 1998498487
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
