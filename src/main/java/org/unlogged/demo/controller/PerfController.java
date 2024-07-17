@@ -63,8 +63,11 @@ public class PerfController {
             Field[] fields = classWithMessageKeys.getDeclaredFields();
             fieldList.addAll(Arrays.asList(fields));
             for (int i=0;i<=fieldList.size()-1;i++) {
+                System.out.println("--------");
                 Field f = fieldList.get(i);
+                System.out.println("f = " + f);
                 Object val = f.get(null);
+                System.out.println("val = " + val);
             }
 
         } catch (ClassNotFoundException e) {
