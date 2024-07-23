@@ -2,7 +2,7 @@ package org.unlogged.demo.service;
 
 import lombok.Getter;
 
-public class val {
+public class ReflectionService {
 
     public static final String external = "external";
 
