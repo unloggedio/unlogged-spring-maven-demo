@@ -43,7 +43,7 @@
         <dependency>
             <artifactId>unlogged-sdk</artifactId>
             <groupId>video.bug</groupId>
-            <version>0.6.7</version>
+            <version>0.6.8</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
