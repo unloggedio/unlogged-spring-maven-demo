@@ -1,1 +1,1 @@
-cd ../ && mvn spring-boot:run
+cd ../ && docker-compose -f conf/docker-compose.yml up -d
