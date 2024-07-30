@@ -23,8 +23,8 @@ services:
     build:
       context: ../
     volumes:
-      - /Users/kt/.unlogged/:/root/.unlogged/
-      - /Users/kt/.m2/repository/video/bug/unlogged-sdk:/root/.m2/repository/video/bug/unlogged-sdk
+      - ~/.unlogged/:/root/.unlogged/
+      - ~/.m2/repository/video/bug/unlogged-sdk:/root/.m2/repository/video/bug/unlogged-sdk
     ports:
       - "8080:8080"
       - "12100:12100"
