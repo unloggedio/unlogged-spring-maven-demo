@@ -1,1 +1,1 @@
-docker stop conf-demo-app
+docker stop target-repo
