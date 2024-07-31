@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS country
   country_id   SERIAL PRIMARY KEY,
   country_code VARCHAR(2) not null,
   country_name VARCHAR(40),
-  region_id    INTEGER REFERENCES region (region_id)
+  region_id    BIGINT UNSIGNED REFERENCES region (region_id)
 );
 
 CREATE TABLE IF NOT EXISTS location
@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS location
   ,
   state_province VARCHAR(25)
   ,
-  country_id     INTEGER REFERENCES country (country_id)
+  country_id     BIGINT UNSIGNED REFERENCES country (country_id)
 );
 
 CREATE TABLE IF NOT EXISTS department
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS department
   ,
   department_name VARCHAR(30) NOT NULL
   ,
-  location_id     INTEGER references location (location_id)
+  location_id     BIGINT UNSIGNED references location (location_id)
 );
 
 CREATE TABLE IF NOT EXISTS employee
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS employee
   ,
   email         VARCHAR(25) NOT NULL
   ,
-  department_id INTEGER REFERENCES department (department_id)
+  department_id BIGINT UNSIGNED REFERENCES department (department_id)
 );
 
 --create indexes
