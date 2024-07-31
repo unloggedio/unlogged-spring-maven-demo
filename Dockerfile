@@ -4,5 +4,6 @@ WORKDIR .
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 COPY ./src ./src
-RUN sleep 10
+RUN apt-get update && apt-get install -y dos2unix
+RUN dos2unix ./mvnw
 CMD ["./mvnw", "spring-boot:run"]
