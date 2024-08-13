@@ -24,8 +24,8 @@ public class PerfController {
         return perfService.getCpuIntensiveData(value);
     }
 
-    @RequestMapping("/memoryintensive1")
-    public long memoryIntensive1(@RequestParam int count) {
+    @RequestMapping("/memoryintensive")
+    public long memoryIntensive(@RequestParam int count) {
         return perfService.sum_natural(count);
     }
 
