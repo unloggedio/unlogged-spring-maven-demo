@@ -29,11 +29,6 @@ public class PerfController {
         return perfService.sum_natural(count);
     }
 
-    @RequestMapping("/memoryintensive2")
-    public String memoryIntensive2(@RequestParam int count) {
-        return perfService.readWriteInMemory(count);
-    }
-
     @RequestMapping("/networkintensive")
     public String networkintensive(@RequestParam int count) {
         return perfService.genManyNetworkCall(count);

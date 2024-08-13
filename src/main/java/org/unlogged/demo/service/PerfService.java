@@ -44,43 +44,17 @@ public class PerfService {
 
         // write value to memory
         List<Integer> value_list = new LinkedList<>();
-        for (int i=0;i<=count-1;i++) {
+        for (int i = 0; i <= count - 1; i++) {
             value_list.add(i);
         }
 
         // read value from memory
-        long sum=0;
-        for (int i=0;i<value_list.size()-1;i++) {
+        long sum = 0;
+        for (int i = 0; i < value_list.size() - 1; i++) {
             sum += value_list.get(i);
         }
 
         return sum;
-    }
-
-    public String readWriteInMemory(int count) {
-
-        for (int i=0;i<=count-1;i++){
-            String customerName = "name-" + count;
-            String customerDOB = "dob-" + count;
-            String customerEMail = "email-" + count;
-            String customerPrimaryNumber = "primaryNumber-" + count;
-            String customerAddress = "address-" + count;
-            CustomerProfileRequest customerProfileRequest = new CustomerProfileRequest(
-                    customerName,
-                    customerDOB,
-                    customerEMail,
-                    customerPrimaryNumber,
-                    customerAddress);
-            customerService.saveNewCustomer(customerProfileRequest);
-        }
-
-        StringBuilder customerData = new StringBuilder();
-        for (int i=1;i<=count;i++) {
-            CustomerProfile customerProfile = customerService.fetchCustomerProfile(i);
-            customerData.append(customerProfile.toString()).append("\n");
-        }
-
-        return customerData.toString();
     }
 
     public String genManyNetworkCall(int count) {
