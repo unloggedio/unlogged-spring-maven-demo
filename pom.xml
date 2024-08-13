@@ -34,7 +34,19 @@
         <dependency>
             <artifactId>unlogged-sdk</artifactId>
             <groupId>video.bug</groupId>
-            <version>0.6.2</version>
+            <version>0.7.308</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-runner</artifactId>
+            <version>1.10.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.rometools</groupId>
@@ -136,6 +148,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <compilerArguments>--enable-preview </compilerArguments>
+                    <jvmArguments>--enable-preview</jvmArguments>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
@@ -150,7 +164,10 @@
                 <configuration>
                     <source>21</source>
                     <target>21</target>
-                    <compilerArgs>--enable-preview</compilerArgs>
+                    <compilerArgs>
+                        <arg> --enable-preview</arg>
+                        <jvmArguments> --enable-preview</jvmArguments>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
